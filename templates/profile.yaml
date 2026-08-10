@@ -1,0 +1,20 @@
+schema: professor.learner-profile/v1
+version: 1
+retention:
+  raw_chats: false
+  default_hypothesis_ttl_days: 45
+  event_ttl_days: 365
+declarations:
+  # Each item uses templates/declaration.yaml: id, value, purpose, expires_on.
+  # Empty is the privacy-preserving default; declarations are never inferred.
+  goals: []
+  time_preferences: []
+  media_preferences: []
+  accessibility_needs: []
+  content_boundaries: []
+  challenge_preferences: []
+consent:
+  personalization: not-asked
+  scheduling: not-asked
+  gamification: not-asked
+  experiments: not-asked

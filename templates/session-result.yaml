@@ -1,0 +1,21 @@
+schema: professor.session-result/v1
+id: evt-REPLACE-WITH-UNIQUE-ID
+occurred_on: '2026-08-10'
+# For an ad-hoc or cross-topic lesson, set this topic/node/artifact trio to null.
+topic_id: pop-music
+node_id: REPLACE
+artifact_id: REPLACE
+learning_target: REPLACE-WITH-THE-BOUNDED-CAPABILITY-OR-WAY-OF-SEEING
+status: completed
+minutes_spent: 0
+evidence:
+  observation: REPLACE-WITH-MINIMAL-OBSERVATION
+  inference: REPLACE-WITH-BOUNDED-HYPOTHESIS-OR-NONE
+  confidence: low
+  contrary_evidence: []
+  transfer: not-observed
+  autonomy: not-observed
+  wellbeing: not-observed
+next_review_on: null
+raw_response_retained: false
+privacy_attestation: no-raw-learner-language-or-identifiers

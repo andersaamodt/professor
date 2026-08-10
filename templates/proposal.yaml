@@ -1,0 +1,18 @@
+schema: professor.improvement-proposal/v1
+id: proposal-REPLACE-WITH-UNIQUE-ID
+created_on: '2026-08-10'
+scope: private-n-of-1
+category_ids: [teacher-self-improvement]
+observation_summary: REPLACE-WITH-INDEPENDENTLY-WORDED-NONIDENTIFYING-SUMMARY
+hypothesis: REPLACE
+mechanism: REPLACE
+variation: REPLACE-ONE-MEANINGFUL-CHANGE
+consent: not-asked
+success_signals: []
+harm_signals: []
+falsifiers: []
+evidence_scope: n-of-1-observation-not-causal
+# This is also the private retention deadline unless explicitly renewed.
+review_on: '2026-09-10'
+rollback: REPLACE
+privacy_attestation: no-learner-language-or-identifying-detail

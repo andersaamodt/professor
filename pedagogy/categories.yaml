@@ -1,0 +1,192 @@
+schema: professor.category-catalog/v1
+version: 1.0.0
+open_ontology: true
+extension_rule: >-
+  Add a category when a consequential recurring pedagogical question is not
+  governed by an existing category. New categories begin provisional, declare
+  non-overlap, risks, parents, examples, and a review date, and contain no
+  learner-derived trace.
+categories:
+  - id: encounter-and-wonder
+    status: active
+    scope: general
+    question: How does the learner meet the live object or problem before exposition makes it inert?
+    parent_ids: []
+    risks: [spectacle-without-learning, novelty-fatigue, mystification]
+    examples: [phenomenon-first opening, close looking, discrepant event, arresting case]
+
+  - id: elicitation-and-prior-knowledge
+    status: active
+    scope: general
+    question: What does the learner presently notice, expect, remember, or try, and how cheaply can we find out?
+    parent_ids: []
+    risks: [public-embarrassment, overdiagnosis, wasting-time-on-intake]
+    examples: [prediction, first move, confidence wager, minimal prerequisite probe]
+
+  - id: representation-and-modeling
+    status: active
+    scope: general
+    question: What example, model, demonstration, analogy, or representation makes the structure usable?
+    parent_ids: []
+    risks: [seductive-analogy, cognitive-overload, model-reified-as-reality]
+    examples: [worked example, live modeling, concrete-abstract-concrete, analogy with break point]
+
+  - id: practice-feedback-and-repair
+    status: active
+    scope: general
+    question: What learner act exercises the target, and what feedback most improves the next act?
+    parent_ids: []
+    risks: [busywork, false-praise, answer-withholding, feedback-overload]
+    examples: [deliberate attempt, counterexample, hint ladder, error surgery]
+
+  - id: memory-and-reconstruction
+    status: active
+    scope: general
+    question: How will the learner reconstruct important knowledge later rather than merely recognize it now?
+    parent_ids: []
+    risks: [test-anxiety, decontextualized-drill, review-debt]
+    examples: [retrieval, spacing, cumulative return, dual-cued recall]
+
+  - id: transfer-and-discrimination
+    status: active
+    scope: general
+    question: How will the learner know when, why, and where a capability applies or fails?
+    parent_ids: []
+    risks: [surface-matching, fake-far-transfer, premature-complexity]
+    examples: [contrasting cases, varied context, method selection, boundary case]
+
+  - id: sequence-and-curriculum
+    status: active
+    scope: general
+    question: What topology, order, recurrence, and learner-authored route create durable orientation?
+    parent_ids: [memory-and-reconstruction, transfer-and-discrimination]
+    risks: [canon-as-neutral, lockstep-path, elegant-plan-over-current-need]
+    examples: [spiral curriculum, prerequisite repair, map redrawing, interleaved neighborhood]
+
+  - id: metacognition-and-calibration
+    status: active
+    scope: general
+    question: How does the learner improve judgment about knowledge, strategy, effort, and uncertainty?
+    parent_ids: [elicitation-and-prior-knowledge]
+    risks: [introspection-as-proof, confidence-shaming, excessive-meta-talk]
+    examples: [confidence plus reason, prediction check, exam wrapper, strategy comparison]
+
+  - id: motivation-agency-and-identity
+    status: active
+    scope: general
+    question: How can purpose, autonomy, competence, belonging, and possible selves support effort without coercion?
+    parent_ids: []
+    risks: [vulnerability-targeting, identity-threat, pseudo-choice, dependency]
+    examples: [meaningful choice, self-endorsed goal, competence evidence, multiple viable paths]
+
+  - id: care-belonging-and-relationship
+    status: active
+    scope: general
+    question: What relational conditions let rigor, error, dignity, and independence coexist?
+    parent_ids: [motivation-agency-and-identity]
+    risks: [parasocial-exclusivity, lowered-expectation, conditional-warmth]
+    examples: [warm demand, honest welcome, scaffold fading, human-community bridge]
+
+  - id: dialogue-and-co-construction
+    status: active
+    scope: general
+    question: How can different minds build, test, and transform understanding together?
+    parent_ids: []
+    risks: [forced-participation, teacher-dialogue-theater, dominance, consensus-as-truth]
+    examples: [teach-back, reciprocal questioning, debate with revision, collaborative explanation]
+
+  - id: power-canon-and-criticality
+    status: active
+    scope: general
+    question: How do power, history, selection, institution, absence, and standpoint shape what can be known and taught?
+    parent_ids: []
+    risks: [compelled-ideology, automatic-suspicion, false-balance, tokenism]
+    examples: [canon audit, positionality of source, hidden curriculum, counterarchive]
+
+  - id: aesthetics-emotion-and-meaning
+    status: active
+    scope: general
+    question: How can form, beauty, feeling, humor, ambiguity, and existential meaning deepen rather than decorate inquiry?
+    parent_ids: [encounter-and-wonder]
+    risks: [sentimentality, affective-manipulation, poetry-as-proof, taste-policing]
+    examples: [close listening, image-bearing closure, formal imitation, ambiguity held open]
+
+  - id: embodiment-making-and-world
+    status: active
+    scope: general
+    question: What can be learned by perceiving, moving, building, rehearsing, observing place, or changing the world?
+    parent_ids: [practice-feedback-and-repair]
+    risks: [unsafe-action, inaccessible-assumption, activity-without-concept, extractive-fieldwork]
+    examples: [gesture, prototype, field observation, rehearsal, land-situated inquiry]
+
+  - id: media-and-modality
+    status: active
+    scope: general
+    question: Which medium uniquely serves the target, and how will attention become an active learning act?
+    parent_ids: [representation-and-modeling, accessibility-and-variation]
+    risks: [time-waste, copyright-violation, access-barrier, passive-consumption]
+    examples: [purposeful clip, diagram plus description, sonification, annotated image]
+
+  - id: play-games-and-worlds
+    status: active
+    scope: general
+    question: How can rules, choices, riddles, simulation, narrative, and world-models make knowledge consequential in play?
+    parent_ids: [practice-feedback-and-repair, motivation-agency-and-identity]
+    risks: [dark-pattern, reward-substitution, reality-blur, inaccessible-puzzle]
+    examples: [mastery unlock, simulation, ARG, skill tree, epistemic game]
+
+  - id: accessibility-and-variation
+    status: active
+    scope: general
+    question: Which barriers are produced by the design, and what equivalent paths preserve dignity and the learning function?
+    parent_ids: []
+    risks: [inferior-alternative, diagnosis-by-assumption, accommodation-disclosure-burden]
+    examples: [redundant modality, adjustable pace, low-bandwidth path, input alternative]
+
+  - id: rhythm-rest-and-sustainability
+    status: active
+    scope: general
+    question: What intensity, duration, spacing, closure, and rest make learning sustainable in a life?
+    parent_ids: []
+    risks: [grind, sleep-loss, backlog, productivity-moralism]
+    examples: [complete two-minute arc, stop rule, incubation, no-debt re-entry]
+
+  - id: assessment-and-evidence
+    status: active
+    scope: general
+    question: What observation warrants which claim about learning, transfer, affect, agency, or harm?
+    parent_ids: [metacognition-and-calibration]
+    risks: [proxy-optimization, surveillance, teaching-to-measure, premature-mastery]
+    examples: [delayed probe, transfer task, process evidence, harm signal]
+
+  - id: epistemics-and-scholarship
+    status: active
+    scope: general
+    question: How are claims sourced, scoped, contested, corrected, and separated from interpretation or choice?
+    parent_ids: []
+    risks: [citation-theater, false-certainty, false-equivalence, source-laundering]
+    examples: [claim status, primary-source check, disagreement map, open correction]
+
+  - id: learner-modeling-and-memory
+    status: active
+    scope: general
+    question: What minimal, expiring hypothesis improves this learner's next experience without becoming identity or surveillance?
+    parent_ids: [assessment-and-evidence, accessibility-and-variation]
+    risks: [fixed-typing, sensitive-inference, privacy-leak, self-fulfilling-deficit]
+    examples: [knowledge estimate, declared boundary, contrary evidence, expiry]
+
+  - id: teacher-self-improvement
+    status: active
+    scope: general
+    question: How can the Teacher revise technique, timing, ethics, tools, and its own assumptions through bounded, inspectable inquiry?
+    parent_ids: [assessment-and-evidence, epistemics-and-scholarship]
+    risks: [self-authorization, p-hacking, learner-experimentation, engagement-optimization]
+    examples: [private proposal, one-variable trial, rollback, delayed audit]
+
+  - id: ontology-making
+    status: active
+    scope: general
+    question: What recurring consequential dimension can the present pedagogical map not yet name?
+    parent_ids: [teacher-self-improvement]
+    risks: [category-proliferation, novelty-for-status, covert-policy-weakening]
+    examples: [new-category proposal, non-overlap test, taxonomy revision]

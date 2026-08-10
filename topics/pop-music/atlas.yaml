@@ -1,0 +1,837 @@
+schema: professor.topic-atlas/v1
+version: 1.0.0
+topic_id: pop-music
+title: A topological atlas of popular music
+updated: 2026-08-10
+status: seed
+
+thesis: >-
+  Popular music has no single trunk. It is made in overlapping circuits of
+  performance, migration, ritual, commerce, technology, dance, politics, and
+  pleasure. This atlas maps encounters and relations, not ranks or cultural
+  ownership.
+
+claim_status:
+  supported: The bounded relation is directly supported by one or more listed sources.
+  interpretive: The relation is a sourced pedagogical synthesis and must be named as interpretation.
+  provisional: The relation is a research prompt; do not teach it as established lineage.
+
+node_frame_contract: >-
+  A node frame is an interpretive research synthesis that orients inquiry; it
+  is not a claim that every sentence is directly established by every listed
+  source. Node source_ids are research and verification routes, not blanket
+  proof. Teach specific causal, priority, ownership, or influence claims only
+  at the status warranted by a directly supporting source, and leave frontier
+  claims provisional.
+
+dimensions:
+  - id: time
+    question: What earlier and continuing times coexist in the recording?
+  - id: place-diaspora
+    question: Which places, migrations, and diasporas compose this sound?
+  - id: social-site
+    question: Was it formed in worship, street, home, cinema, radio, club, festival, studio, or platform?
+  - id: circulation
+    question: How did it travel—body, score, shellac, radio, film, tape, vinyl, television, remix, stream, or meme?
+  - id: production
+    question: What do voice, instrument, amplification, editing, synthesis, sampling, and mixing make possible?
+  - id: power
+    question: Who names, owns, censors, markets, remembers, or is erased from the category?
+  - id: attention
+    question: What form of listening, dancing, devotion, sociality, or repetition does it ask for?
+
+coverage_statement:
+  promise: >-
+    The seed makes several major world circuits traversable without pretending
+    to cover all popular music.
+  non_claims:
+    - Node size does not measure importance.
+    - Geographic labels locate activity; they do not assign pure cultural ownership.
+    - A listed period marks a useful aperture, not a birth and death certificate.
+    - An edge never establishes a sole origin.
+  audit_axes:
+    - region and diaspora
+    - gender and collective labor
+    - sacred, civic, domestic, commercial, and dance-floor settings
+    - oral, recorded, broadcast, film, and platform circulation
+    - artist or community voice alongside institutional scholarship
+
+nodes:
+  - id: infrastructure.recording-radio-film
+    label: Recording, radio, film, and the manufacture of mass intimacy
+    status: seed
+    periods: ["1890s-present"]
+    places: [transnational]
+    social_sites: [studio, cinema, broadcast, home]
+    hear_for: [microphone intimacy, duration limits, repeatability, star persona]
+    frame: >-
+      Media do not merely carry a finished music. Recording length, microphone,
+      broadcast schedule, cinema, and catalog categories help make the song,
+      celebrity, audience, and genre that can circulate.
+    cautions:
+      - Do not narrate technology as an autonomous Western gift to passive cultures.
+      - Catalog labels often preserve the classifications and exclusions of their institutions.
+    source_ids: [src-loc-registry, src-sna-documentation, src-aramco-umm-kulthum]
+
+  - id: us.black-sacred-rnb-rock
+    label: Black sacred–secular circuits, rhythm and blues, and rock and roll
+    status: seed
+    periods: ["1920s-1960s", continuing]
+    places: [United States South, Great Migration cities]
+    social_sites: [church, theater, juke-joint, radio, studio]
+    hear_for: [call-and-response, backbeat, vocal grain, electric amplification]
+    frame: >-
+      Gospel, blues, rhythm and blues, jazz, country, and commercial pop met in
+      artists, venues, and markets whose racial labels often concealed exchange
+      and extraction. Rock and roll is a contested synthesis, not a clean break.
+    cautions:
+      - Center Black creators without replacing a complex circuit with one heroic inventor.
+      - Treat “race records” and crossover as industry history, not neutral genre vocabulary.
+    source_ids: [src-loc-registry, src-loc-descriptions]
+
+  - id: us.disco-house-techno
+    label: Disco, house, and techno as dance-floor social technologies
+    status: seed
+    periods: ["1970s-1990s", continuing]
+    places: [New York, Chicago, Detroit, diasporic club circuits]
+    social_sites: [queer-club, Black-and-Latino-dance-floor, warehouse, studio]
+    hear_for: [continuous mix, four-on-the-floor, break, machine pulse, collective release]
+    frame: >-
+      DJs, dancers, producers, queer communities, and Black and Latino club
+      cultures made repetition, mixing, and the night itself compositional.
+      House and techno are related but locally specific formations.
+    cautions:
+      - Do not let a generic “EDM” label erase queer, Black, Latino, Chicago, or Detroit histories.
+      - The DJ, dancers, sound system, and room are part of the work.
+    source_ids: [src-loc-descriptions, src-moma-kraftwerk]
+
+  - id: bronx.hip-hop
+    label: Bronx hip-hop and the break as a renewable resource
+    status: seed
+    periods: ["1970s-present"]
+    places: [Bronx, global adaptations]
+    social_sites: [block-party, park, community-center, studio]
+    hear_for: [break extension, MC-DJ relation, sampling, rhythmic speech]
+    frame: >-
+      African American, Caribbean, and Latino young people made a culture of
+      DJing, MCing, breaking, graffiti, equipment knowledge, and neighborhood
+      sociality. Its global travel is adaptation, not simple export.
+    cautions:
+      - Rap is one element of hip-hop, not a synonym for the whole culture.
+      - Avoid single-birthday mythology when teaching a distributed scene.
+    source_ids: [src-smithsonian-hiphop, src-smithsonian-sazon]
+
+  - id: cuba-new-york.son-mambo-salsa
+    label: Cuban son, mambo, and the Cuba–New York–Caribbean salsa circuit
+    status: seed
+    periods: ["1920s-1970s", continuing]
+    places: [eastern Cuba, Havana, New York, Puerto Rico, Caribbean diaspora]
+    social_sites: [dance-hall, neighborhood-club, radio, studio]
+    hear_for: [clave relations, montuno, horn arrangement, call-and-response, dance partnership]
+    frame: >-
+      Son recordings circulated across Cuba and through New York; later mambo
+      and salsa names gathered multiple Cuban, Puerto Rican, New York, and wider
+      Caribbean practices into changing dance and market formations.
+    cautions:
+      - Salsa is neither only Cuban nor a placeless pan-Latin essence.
+      - Do not reduce Afro-Cuban sacred and social practices to a rhythm inventory.
+    source_ids: [src-smithsonian-cuban-son, src-smithsonian-caribbean, src-smithsonian-sazon]
+
+  - id: jamaica.sound-system-reggae-dub
+    label: Jamaican sound-system practice, ska, reggae, and dub
+    status: seed
+    periods: ["1950s-1980s", continuing]
+    places: [Kingston, Jamaica, diasporic sound-system circuits]
+    social_sites: [street-dance, sound-system, studio, radio]
+    hear_for: [bass weight, offbeat, version, toast, drop-out, delay, selector sequence]
+    frame: >-
+      Jamaican musicians, engineers, selectors, MCs, dancers, and studios made
+      recordings revisable: versions, dub space, and the sound system turn
+      playback into live composition and public argument.
+    cautions:
+      - Reggae is not a synonym for all Jamaican music.
+      - Teach Rastafari, resistance, spirituality, love, and commerce without flattening them into a costume.
+    source_ids: [src-unesco-reggae, src-smithsonian-rasta]
+
+  - id: panama-puerto-rico.reggaeton
+    label: Reggae en español, Puerto Rican underground, dembow, and reggaetón
+    status: frontier-seed
+    periods: ["1980s-present"]
+    places: [Panama, Puerto Rico, Dominican Republic, New York, global platforms]
+    social_sites: [dance, mixtape, club, car, platform]
+    hear_for: [dembow family, flow, bass, perreo, producer tag]
+    frame: >-
+      A multilingual Caribbean circuit connects Jamaican dancehall, Panamanian
+      reggae en español, Puerto Rican underground scenes, Dominican rhythmic
+      life, U.S. industry, and global pop. The naming and origin story remain contested.
+    cautions:
+      - Never credit a single country or star with the whole formation.
+      - Situate policing, race, class, gender, sexuality, and dance without moral panic.
+    research_need: Add practitioner-led Panamanian, Puerto Rican, and Dominican sources before expanding lineage claims.
+    source_ids: [src-smithsonian-caribbean]
+
+  - id: brazil.samba-mpb-tropicalia
+    label: Samba, MPB, bossa nova, and Tropicália across region, nation, and market
+    status: seed
+    periods: ["1910s-1970s", continuing]
+    places: [Bahia, Rio de Janeiro, São Paulo, Brazilian diasporas]
+    social_sites: [roda, carnival, radio, apartment, festival, studio]
+    hear_for: [responsorial circle, syncopation, guitar pulse, orchestration, quotation]
+    frame: >-
+      Afro-Brazilian community practice, urban migration, radio, nationalism,
+      modernist intimacy, and countercultural collage make several related but
+      non-interchangeable Brazilian popular formations.
+    cautions:
+      - Do not let bossa nova's international prestige stand for Brazil.
+      - National-symbol narratives can hide Black community ownership and state management.
+    source_ids: [src-unesco-samba]
+
+  - id: west-africa.highlife-afrobeat
+    label: Highlife, Afrobeat, and Nigerian/Ghanaian popular-music circuits
+    status: seed
+    periods: ["1920s-1980s", continuing]
+    places: [Ghana, Nigeria, London, transatlantic circuits]
+    social_sites: [dance-band, hotel, club, political-stage, studio]
+    hear_for: [interlocking guitars, horn cycle, long groove, call-and-response, political address]
+    frame: >-
+      Colonial and postcolonial urban dance bands, highlife practices, jazz,
+      funk, and local rhythmic knowledge meet in multiple circuits. Fela Kuti's
+      Afrobeat is one forceful formation within this larger field, not its origin.
+    cautions:
+      - Distinguish Afrobeat from the later industry umbrella “Afrobeats.”
+      - Do not let one male bandleader erase singers, dancers, arrangers, and political collaborators.
+    source_ids: [src-fela-zombie, src-smithsonian-fela]
+
+  - id: central-africa.congolese-rumba-soukous
+    label: Congolese rumba, orchestral modernity, and soukous
+    status: seed
+    periods: ["1940s-1990s", continuing]
+    places: [Kinshasa, Brazzaville, regional and diasporic circuits]
+    social_sites: [urban-dance, orchestra, radio, studio, neighborhood-club]
+    hear_for: [interlocking guitar, vocal dialogue, sebene, long-form dance transition]
+    frame: >-
+      Musicians in the two Congos made a cosmopolitan urban dance music through
+      local practice, Atlantic record circulation, language, orchestral labor,
+      and postcolonial social life. “Rumba” names kinship and reinvention, not imitation.
+    cautions:
+      - Do not narrate the scene as merely Cuba returned to Africa.
+      - Women were central to religious and romantic styles even when band histories foreground men.
+    source_ids: [src-unesco-congolese-rumba]
+
+  - id: south-africa.township-kwaito-amapiano
+    label: Township jazz and pop, mbaqanga, kwaito, and amapiano
+    status: seed
+    periods: ["1930s-present"]
+    places: [Johannesburg, Soweto, Pretoria townships, South African circuits]
+    social_sites: [shebeen, street, radio, studio, taxi, club, platform]
+    hear_for: [marabi cycle, pennywhistle lineage, bass voice, slowed house, log-drum space]
+    frame: >-
+      Urban Black South African life under and after apartheid generated
+      overlapping forms whose pleasure, language, local remix practices, and
+      political meanings cannot be reduced to resistance alone.
+    cautions:
+      - Mbaqanga, kwaito, and amapiano are not one linear genre.
+      - Pair histories of censorship and exploitation with accounts of craft, humor, dancing, and ordinary life.
+    source_ids: [src-sahistory-music, src-sahistory-kwaito]
+
+  - id: egypt.tarab-cinema-shaabi
+    label: Egyptian tarab, radio and cinema song, and shaabi public life
+    status: seed
+    periods: ["1920s-present"]
+    places: [Cairo, Egypt, Arabic-speaking broadcast and diasporic worlds]
+    social_sites: [theater, radio, cinema, cafe, wedding, taxi]
+    hear_for: [ornamented return, audience response, long-form attention, poetic setting, maqsoum pulse]
+    frame: >-
+      Radio, cinema, poetry, the star system, attentive audience response, and
+      Egyptian public life made voices such as Umm Kulthum's regionally intimate
+      at enormous scale; shaabi scenes keep reworking that inheritance.
+    cautions:
+      - “Arab music” is too broad to substitute for local history.
+      - Do not contrast timeless tradition with Western modernity; radio and cinema are inside this modernity.
+    source_ids: [src-aramco-umm-kulthum, src-aramco-cinema]
+
+  - id: south-asia.film-playback-pop
+    label: South Asian film song and playback-star systems
+    status: frontier-seed
+    periods: ["1930s-present"]
+    places: [India, Pakistan, Bangladesh, Sri Lanka, diasporas]
+    social_sites: [cinema, radio, home, wedding, platform]
+    hear_for: [voice-screen relation, orchestral hybridity, raga and folk reference, dance sequence]
+    frame: >-
+      Film industries made songs that travel beyond their films through
+      playback voices, composers, lyricists, orchestras, stars, radio, cassette,
+      television, and diaspora. “Bollywood” cannot stand for the region's many industries.
+    cautions:
+      - Name language and film industry rather than defaulting every Indian film song to Bollywood.
+      - Credit composer, lyricist, playback singer, arranger, musicians, and screen performer where known.
+    research_need: Add language- and industry-specific practitioner sources and artifacts.
+    source_ids: [src-sna-documentation, src-sna-khayyam]
+
+  - id: south-asia.qawwali-crossover
+    label: Qawwali, intensifying repetition, and transnational studio crossover
+    status: seed
+    periods: ["Mughal-era lineages", "20th-century recording", continuing]
+    places: [Pakistan, north India, diasporic stages, Real World Studios, global festivals]
+    social_sites: [Sufi-devotional-gathering, concert, festival, studio]
+    hear_for: [lead-and-party response, recurring refrain, clap cycle, vocal intensification, improvisation]
+    frame: >-
+      Qawwali is a living devotional and professional practice with deep South
+      Asian histories. Recording, festival, and studio collaborations expanded
+      audiences without converting an inert tradition into modern music.
+    cautions:
+      - Do not casually translate or extract sacred text as a hook.
+      - Crossover recordings do not represent the full practice or devotional setting.
+    source_ids: [src-smithsonian-qawwali, src-realworld-mustt]
+
+  - id: indonesia.kroncong-dangdut
+    label: Kroncong and dangdut as Indonesian urban and national popular musics
+    status: seed
+    periods: ["late-1800s-present"]
+    places: [Batavia/Jakarta, Indonesia]
+    social_sites: [theater, radio, studio, political-rally, dance]
+    hear_for: [kroncong pluck, tabla-derived pulse, electric guitar, film-song inflection]
+    frame: >-
+      Kroncong carries Portuguese, Eurasian, colonial, theatrical, and
+      independence histories; dangdut mixes Indian film music, rock,
+      Middle-Eastern pop, local forms, class politics, and mass dance.
+    cautions:
+      - The two genres share a national frame but are not stages of one evolution.
+      - “Foreign influence” should not imply that Indonesian musicians merely received finished styles.
+    source_ids: [src-smithsonian-dangdut]
+
+  - id: japan.technopop
+    label: Japanese technopop, Yellow Magic Orchestra, and the synthetic cosmopolitan
+    status: seed
+    periods: ["1970s-1980s", continuing afterlives]
+    places: [Tokyo, transatlantic tours, global electronic circuits]
+    social_sites: [studio, television, concert, game-and-advertising media]
+    hear_for: [sequenced precision, bright lead timbre, programmed/acoustic negotiation, stylized persona]
+    frame: >-
+      Japanese studio expertise, electronics, pop arrangement, satire, and
+      transnational listening meet in technopop. Yellow Magic Orchestra is an
+      unusually revealing portal, not the whole scene.
+    cautions:
+      - Do not collapse technopop, synth-pop, city pop, anime music, and game music.
+      - Interrogate exotic imagery rather than reproducing it as charming décor.
+    source_ids: [src-sony-ymo]
+
+  - id: korea.trot-idol-kpop
+    label: Korean trot, broadcast pop, idol production, and K-pop
+    status: frontier-seed
+    periods: ["1920s-present"]
+    places: [Korea, East Asian markets, global fandoms]
+    social_sites: [radio, television, training-system, stage, fandom, platform]
+    hear_for: [trot inflection, sectional production, choreography, multilingual hook, fan participation]
+    frame: >-
+      Contemporary K-pop sits beside longer histories of trot, broadcasting,
+      domestic pop, dance music, training systems, and fan labor. Platform reach
+      changes the scale, not the existence, of Korean pop modernity.
+    cautions:
+      - K-pop is an industry/ecology as well as an unstable genre label.
+      - Avoid both factory stereotypes and promotional myths of frictionless perfection.
+    research_need: Add Korean artist, labor, fan, and scholarly sources before deep lineage teaching.
+    source_ids: [src-korea-trot]
+
+  - id: germany.electronic-modernism
+    label: Düsseldorf electronic modernism and the human–machine image
+    status: seed
+    periods: ["1970s-1980s", continuing afterlives]
+    places: [Düsseldorf, European and transatlantic circuits]
+    social_sites: [self-built-studio, art-space, concert, club]
+    hear_for: [loop, mechanized rhythm, vocoder, constrained melody, multilingual persona]
+    frame: >-
+      Kraftwerk's studio practice and image made technology, mobility, and
+      repetition into pop subjects; later hip-hop and dance producers heard
+      reusable materials rather than a closed European artwork.
+    cautions:
+      - Kraftwerk does not singularly invent electronic pop.
+      - Pair celebrated machine authorship with the many electronic histories this node omits.
+    source_ids: [src-moma-kraftwerk]
+
+  - id: uk.dub-rave
+    label: British Caribbean sound-system life, dub, post-punk, rave, jungle, and UK bass
+    status: frontier-seed
+    periods: ["1960s-present"]
+    places: [London, Bristol, Coventry, regional UK scenes]
+    social_sites: [sound-system, club, warehouse, pirate-radio, studio]
+    hear_for: [bass pressure, break mutation, MC, dub space, pirate-radio compression]
+    frame: >-
+      Caribbean migration and sound-system practice meet British racial
+      politics, punk and post-punk, affordable production, warehouse culture,
+      breakbeats, and pirate radio across several distinct scenes.
+    cautions:
+      - Do not rename Black British and Caribbean authorship as generic British innovation.
+      - Dub, trip-hop, rave, jungle, garage, and grime require separate local histories.
+    research_need: Split this node with Black British and practitioner-led sources.
+    source_ids: [src-realworld-mustt, src-smithsonian-rasta]
+
+  - id: aotearoa.maori-pasifika-pop
+    label: Māori and Pasifika pop, language revival, reggae, and hip-hop in Aotearoa
+    status: seed
+    periods: ["1950s-present"]
+    places: [Aotearoa New Zealand, Pacific and diasporic circuits]
+    social_sites: [marae, club, radio, television, community, platform]
+    hear_for: [te reo Māori, waiata and kapa-haka relation, reggae pulse, rap, communal address]
+    frame: >-
+      Māori and Pasifika musicians adapt international pop while composing from
+      Indigenous language, community, sovereignty, migration, humor, and local
+      urban life. “Poi E” makes hybridity a form of cultural continuity.
+    cautions:
+      - Do not treat Indigenous form as the old layer and electronic production as the modern layer.
+      - Māori and Pasifika are not interchangeable identities.
+    source_ids: [src-teara-maori-pacific, src-nzhistory-poi-e]
+
+  - id: global.platform-pop
+    label: Platform pop, choreography, memes, metrics, and unequal visibility
+    status: seed
+    periods: ["2005-present"]
+    places: [networked but materially unequal]
+    social_sites: [video-platform, streaming-service, short-video, fandom, bedroom-studio]
+    hear_for: [short-form hook, visual gesture, remixability, compressed dynamics, metric-aware release]
+    frame: >-
+      Search, recommendation, video, fandom, choreography, and metrics alter how
+      recordings become events. A global hit can route around older gatekeepers
+      while creating new platform dependencies and visibility biases.
+    cautions:
+      - View counts are evidence of platform activity, not intrinsic worth or uniform listening.
+      - Easy availability must not become the atlas's hidden canon criterion.
+    source_ids: [src-youtube-burna, src-psy-official]
+
+routes:
+  - id: route.repetition-is-not-sameness
+    label: Repetition as intensification, social memory, groove, and machine
+    node_ids:
+      - south-asia.qawwali-crossover
+      - jamaica.sound-system-reggae-dub
+      - us.disco-house-techno
+      - germany.electronic-modernism
+      - bronx.hip-hop
+    question: When does return deepen attention, and when does it flatten into background?
+    caveat: Shared repetition is a comparison axis, not proof of common origin.
+
+  - id: route.studio-is-an-instrument
+    label: Recording as performance rather than container
+    node_ids:
+      - infrastructure.recording-radio-film
+      - jamaica.sound-system-reggae-dub
+      - germany.electronic-modernism
+      - japan.technopop
+      - bronx.hip-hop
+      - global.platform-pop
+    question: Which musical decisions exist only because recording can be cut, looped, mixed, sampled, or replayed?
+    caveat: Studio access is structured by capital, race, gender, labor, and institution.
+
+  - id: route.diaspora-composes
+    label: Diaspora as a site of authorship
+    node_ids:
+      - cuba-new-york.son-mambo-salsa
+      - jamaica.sound-system-reggae-dub
+      - bronx.hip-hop
+      - uk.dub-rave
+      - aotearoa.maori-pasifika-pop
+    question: What does migration make possible that a nation-only map cannot hear?
+    caveat: Diaspora is not a frictionless blend; it includes loss, racism, memory, and new institutions.
+
+  - id: route.many-modernities
+    label: Refusing the old-tradition/new-West binary
+    node_ids:
+      - egypt.tarab-cinema-shaabi
+      - south-asia.qawwali-crossover
+      - indonesia.kroncong-dangdut
+      - japan.technopop
+      - central-africa.congolese-rumba-soukous
+      - aotearoa.maori-pasifika-pop
+    question: How is each scene already making its own modernity?
+    caveat: “Hybrid” explains little unless the specific agents, materials, and power relations are named.
+
+  - id: route.public-voice
+    label: Pleasure, public voice, and political address
+    node_ids:
+      - west-africa.highlife-afrobeat
+      - south-africa.township-kwaito-amapiano
+      - egypt.tarab-cinema-shaabi
+      - aotearoa.maori-pasifika-pop
+      - panama-puerto-rico.reggaeton
+    question: How can dancing, devotion, humor, sensuality, and dissent occupy the same public music?
+    caveat: Do not reward only explicitly protest-oriented work with historical seriousness.
+
+edges:
+  - from: us.black-sacred-rnb-rock
+    to: jamaica.sound-system-reggae-dub
+    relation: exchange
+    claim_status: supported
+    claim: Jamaican popular music reworked rhythm-and-blues and soul alongside Caribbean and neo-African practices.
+    source_ids: [src-unesco-reggae]
+
+  - from: jamaica.sound-system-reggae-dub
+    to: bronx.hip-hop
+    relation: diaspora
+    claim_status: supported
+    claim: Jamaican and wider Caribbean people and practices formed part of the Bronx culture from which hip-hop emerged.
+    source_ids: [src-smithsonian-hiphop, src-smithsonian-sazon]
+
+  - from: cuba-new-york.son-mambo-salsa
+    to: bronx.hip-hop
+    relation: exchange
+    claim_status: supported
+    claim: Salsa percussion, records, musicians, and Latino neighborhood life were present in early Bronx hip-hop's sonic world.
+    source_ids: [src-smithsonian-sazon]
+
+  - from: germany.electronic-modernism
+    to: bronx.hip-hop
+    relation: sampling-remix
+    claim_status: supported
+    claim: “Trans-Europe Express” material was transformed in Afrika Bambaataa and Soulsonic Force's “Planet Rock.”
+    source_ids: [src-moma-kraftwerk]
+
+  - from: us.disco-house-techno
+    to: bronx.hip-hop
+    relation: comparison
+    claim_status: interpretive
+    claim: Disco records and continuous dance-floor attention help expose both kinship and conflict in early hip-hop DJ practice.
+    source_ids: [src-smithsonian-hiphop]
+
+  - from: jamaica.sound-system-reggae-dub
+    to: uk.dub-rave
+    relation: diaspora
+    claim_status: provisional
+    claim: Trace specific Caribbean sound-system institutions into particular Black British dub and bass scenes rather than claiming a generic influence.
+    source_ids: [src-smithsonian-rasta]
+
+  - from: us.disco-house-techno
+    to: uk.dub-rave
+    relation: exchange
+    claim_status: provisional
+    claim: Trace particular records, DJs, clubs, and technologies between U.S. house/techno and distinct British rave formations.
+    source_ids: []
+
+  - from: south-asia.qawwali-crossover
+    to: uk.dub-rave
+    relation: sampling-remix
+    claim_status: supported
+    claim: Massive Attack's 1990 “Mustt Mustt” remix joined Nusrat Fateh Ali Khan's qawwali voice with Bristol dub production.
+    source_ids: [src-realworld-mustt]
+
+  - from: south-asia.film-playback-pop
+    to: indonesia.kroncong-dangdut
+    relation: exchange
+    claim_status: supported
+    claim: Indian film music is one explicitly documented material in dangdut's Indonesian synthesis.
+    source_ids: [src-smithsonian-dangdut]
+
+  - from: egypt.tarab-cinema-shaabi
+    to: indonesia.kroncong-dangdut
+    relation: exchange
+    claim_status: interpretive
+    claim: Dangdut's documented use of Middle-Eastern pop invites specific research into recordings and routes rather than a vague Arab influence claim.
+    source_ids: [src-smithsonian-dangdut]
+
+  - from: cuba-new-york.son-mambo-salsa
+    to: central-africa.congolese-rumba-soukous
+    relation: exchange
+    claim_status: provisional
+    claim: Investigate Atlantic record circulation and local reinvention while refusing a one-way “Cuba returned to Africa” story.
+    source_ids: [src-unesco-congolese-rumba]
+
+  - from: brazil.samba-mpb-tropicalia
+    to: cuba-new-york.son-mambo-salsa
+    relation: comparison
+    claim_status: interpretive
+    claim: Compare how Afro-diasporic practice, urban migration, dance, recording, and national symbolism produce different popular formations.
+    source_ids: [src-unesco-samba, src-smithsonian-cuban-son]
+
+  - from: west-africa.highlife-afrobeat
+    to: global.platform-pop
+    relation: infrastructure
+    claim_status: supported
+    claim: Burna Boy's “Ye” offers one documented route through Nigerian roots, reggae/dancehall listening, digital production, and global video circulation.
+    source_ids: [src-youtube-burna]
+
+  - from: south-africa.township-kwaito-amapiano
+    to: us.disco-house-techno
+    relation: exchange
+    claim_status: supported
+    claim: Early kwaito producers localized international house alongside South African marabi, kwela, mbaqanga, bubblegum, and praise-poetry resources.
+    source_ids: [src-sahistory-kwaito]
+
+  - from: aotearoa.maori-pasifika-pop
+    to: jamaica.sound-system-reggae-dub
+    relation: exchange
+    claim_status: supported
+    claim: Reggae was adapted in Aotearoa to articulate Māori and Pacific social justice, identity, and local life.
+    source_ids: [src-teara-maori-pacific]
+
+  - from: aotearoa.maori-pasifika-pop
+    to: bronx.hip-hop
+    relation: exchange
+    claim_status: supported
+    claim: Māori and Pacific artists localized rap and breaking within Indigenous language, politics, and communal practice.
+    source_ids: [src-teara-maori-pacific, src-nzhistory-poi-e]
+
+  - from: korea.trot-idol-kpop
+    to: global.platform-pop
+    relation: infrastructure
+    claim_status: interpretive
+    claim: “Gangnam Style” is a useful platform-scale event, not the origin or complete representation of K-pop's international life.
+    source_ids: [src-psy-official, src-korea-trot]
+
+  - from: panama-puerto-rico.reggaeton
+    to: global.platform-pop
+    relation: infrastructure
+    claim_status: provisional
+    claim: Study how platform distribution expands reggaetón while changing visibility, market power, dance circulation, and genre naming.
+    source_ids: []
+
+  - from: japan.technopop
+    to: germany.electronic-modernism
+    relation: comparison
+    claim_status: interpretive
+    claim: Compare contemporaneous constructions of machine precision and pop futurity without making either scene the other's derivative.
+    source_ids: [src-sony-ymo, src-moma-kraftwerk]
+
+  - from: infrastructure.recording-radio-film
+    to: egypt.tarab-cinema-shaabi
+    relation: infrastructure
+    claim_status: supported
+    claim: Radio concerts and cinema helped make Egyptian star voices part of shared social life across large distances.
+    source_ids: [src-aramco-umm-kulthum, src-aramco-cinema]
+
+  - from: infrastructure.recording-radio-film
+    to: south-asia.film-playback-pop
+    relation: infrastructure
+    claim_status: interpretive
+    claim: Playback singing makes recorded voice, screen body, composition, and celebrity separable but coordinated forms of labor.
+    source_ids: [src-sna-khayyam]
+
+  - from: infrastructure.recording-radio-film
+    to: cuba-new-york.son-mambo-salsa
+    relation: infrastructure
+    claim_status: supported
+    claim: Phonograph recordings helped son circulate across Cuba while recording sessions connected Havana and New York.
+    source_ids: [src-smithsonian-cuban-son]
+
+  - from: infrastructure.recording-radio-film
+    to: global.platform-pop
+    relation: infrastructure
+    claim_status: interpretive
+    claim: Platform recommendation and metrics continue the history of media shaping the work and audience, but with new surveillance and concentration.
+    source_ids: [src-youtube-burna]
+
+frontier_queue:
+  - id: frontier.chinese-language-pop
+    priority: high
+    scope: Shanghai shidaiqu, Cantopop, Mandopop, Taiwan, Hong Kong, mainland China, and diasporas
+    reason: East Asian topology is misleading without Chinese-language recording, film, television, and platform circuits.
+  - id: frontier.east-african-pop
+    priority: high
+    scope: Taarab, benga, muziki wa dansi, Ethiopian popular music, and contemporary regional circuits
+    reason: Africa cannot be represented by west, central, and southern portals alone.
+  - id: frontier.north-africa-southwest-asia
+    priority: high
+    scope: Raï, Amazigh popular music, Lebanese and pan-Arab pop, Turkish arabesk and Anatolian rock, Iranian pop and diasporas
+    reason: The Egypt node must not stand for several distinct language and market worlds.
+  - id: frontier.southeast-asia
+    priority: high
+    scope: Thai luk thung and molam, Filipino OPM, Vietnamese tân nhạc, Malaysian and Singaporean circuits
+    reason: Dangdut cannot tokenistically stand for Southeast Asia.
+  - id: frontier.south-asia-specificity
+    priority: high
+    scope: Hindi, Tamil, Telugu, Bengali, Punjabi and other film/non-film industries; Pakistani pop; Bangladeshi bands; Sri Lankan baila
+    reason: Split the provisional regional node through language- and practitioner-specific work.
+  - id: frontier.caribbean-beyond-reggae-salsa
+    priority: high
+    scope: Calypso, soca, zouk, kompa, cadence, plena, bomba, bachata, merengue, chutney, and dancehall
+    reason: The Caribbean is an engine of the atlas, not a pair of source genres.
+  - id: frontier.mexico-borderlands
+    priority: high
+    scope: Ranchera, corrido, norteño, Tejano, cumbia circuits, rock en español, and Mexican-American media
+    reason: Mexico and borderlands require nodes not absorbed into generic Latin pop.
+  - id: frontier.country-folk-pop
+    priority: medium
+    scope: North American country industries, Indigenous and Black roots, rural media, Nashville, and global country adaptations
+    reason: The U.S. seed currently overconcentrates urban Black popular formations.
+  - id: frontier.europe-multiple
+    priority: medium
+    scope: Chanson, yé-yé, Schlager, Eurovision, Italo disco, punk, and local-language pop under and after state socialism
+    reason: Germany and Britain cannot stand for Europe.
+  - id: frontier.gender-queer-labor
+    priority: high
+    scope: A cross-atlas audit of women, queer and trans creators, session labor, dancers, engineers, and informal economies
+    reason: Adding famous women is insufficient if the map's unit of authorship remains the male star.
+  - id: frontier.indigenous-global
+    priority: high
+    scope: Indigenous popular musics beyond Aotearoa, with community-controlled sources and naming
+    reason: Indigenous modernities must be constitutive of the atlas rather than a diversity appendix.
+
+sources:
+  - id: src-loc-registry
+    title: Complete National Recording Registry Listing
+    publisher: Library of Congress
+    url: https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/complete-national-recording-registry-listing/
+    accessed: 2026-08-10
+    note: A U.S. preservation registry, useful but not a global canon.
+
+  - id: src-loc-descriptions
+    title: Registry Titles with Descriptions and Expanded Essays
+    publisher: Library of Congress
+    url: https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/descriptions-and-essays/
+    accessed: 2026-08-10
+
+  - id: src-sna-documentation
+    title: Documentation
+    publisher: Sangeet Natak Akademi, Ministry of Culture, Government of India
+    url: https://sangeetnatak.gov.in/sections/documentation
+    accessed: 2026-08-10
+
+  - id: src-sna-khayyam
+    title: Khayyam (Mohammad Zahoor Hashmi), Akademi Award citation
+    publisher: Sangeet Natak Akademi, Ministry of Culture, Government of India
+    url: https://www.sangeetnatak.gov.in/public/uploads/awardees/docs/Khayyam_Mohammad_Zahoor.pdf
+    accessed: 2026-08-10
+
+  - id: src-smithsonian-hiphop
+    title: Hip-Hop Comes to the Smithsonian
+    publisher: Smithsonian National Museum of American History
+    url: https://americanhistory.si.edu/press/releases/hip-hop-comes-smithsonian
+    accessed: 2026-08-10
+
+  - id: src-smithsonian-sazon
+    title: The sazón in hip-hop
+    publisher: Smithsonian National Museum of American History
+    url: https://americanhistory.si.edu/explore/stories/sazon-hip-hop
+    accessed: 2026-08-10
+
+  - id: src-smithsonian-cuban-son
+    title: "Sextetos Cubanos: Sones, Vol. 2"
+    publisher: Smithsonian Folkways Recordings
+    url: https://folkways.si.edu/sextetos-cubanos-sones-vol-ii/world/music/album/smithsonian
+    accessed: 2026-08-10
+
+  - id: src-smithsonian-caribbean
+    title: Caribbean Beats and Blends
+    publisher: Smithsonian Folkways Recordings
+    url: https://folkways.si.edu/caribbean-beats-blends/music/tools-for-teaching/smithsonian
+    accessed: 2026-08-10
+
+  - id: src-unesco-reggae
+    title: Reggae music of Jamaica
+    publisher: UNESCO Intangible Cultural Heritage
+    url: https://ich.unesco.org/en/RL/reggae-music-of-jamaica-01398
+    accessed: 2026-08-10
+    note: Nomination materials reflect community and state heritage framing; they are not the only reggae history.
+
+  - id: src-smithsonian-rasta
+    title: Rasta sounds connect Ethiopia to the Americas
+    publisher: Smithsonian Folkways Magazine
+    url: https://folkways.si.edu/magazine-winter-2016-rasta-sounds-connect-ethiopia-to-the-americas/article/smithsonian
+    accessed: 2026-08-10
+
+  - id: src-unesco-samba
+    title: Samba de Roda of the Recôncavo of Bahia
+    publisher: UNESCO Intangible Cultural Heritage
+    url: https://ich.unesco.org/en/RL/samba-de-roda-of-the-recncavo-of-bahia-00101
+    accessed: 2026-08-10
+
+  - id: src-fela-zombie
+    title: Zombie (Edit) out now
+    publisher: Fela Kuti official estate site
+    url: https://felakuti.com/news/zombie-edit
+    accessed: 2026-08-10
+
+  - id: src-smithsonian-fela
+    title: "Arrest the Music!: Fela and His Rebel Art and Politics"
+    publisher: Smithsonian Libraries and Archives catalog
+    url: https://www.si.edu/object/siris_sil_773265
+    accessed: 2026-08-10
+
+  - id: src-unesco-congolese-rumba
+    title: Congolese rumba
+    publisher: UNESCO Intangible Cultural Heritage
+    url: https://ich.unesco.org/en/RL/congolese-rumba-01711
+    accessed: 2026-08-10
+
+  - id: src-sahistory-music
+    title: The development of music in South Africa, 1600–2004
+    publisher: South African History Online
+    url: https://sahistory.org.za/article/development-music-south-africa-timeline-1600-2004
+    accessed: 2026-08-10
+
+  - id: src-sahistory-kwaito
+    title: A history of Kwaito music
+    publisher: South African History Online
+    url: https://sahistory.org.za/article/history-kwaito-music
+    accessed: 2026-08-10
+
+  - id: src-aramco-umm-kulthum
+    title: Cairo Hums Her Name—The Eternal Voice of Umm Kulthum
+    publisher: AramcoWorld
+    url: https://www.aramcoworld.com/en/articles/2025/online-only/cairo-hums-her-name-the-eternal-voice-of-umm-kulthum
+    accessed: 2026-08-10
+
+  - id: src-aramco-cinema
+    title: Hollywood-on-the-Nile
+    publisher: AramcoWorld archive
+    url: https://archive.aramcoworld.com/issue/196503/hollwood-on-the-nile.htm
+    accessed: 2026-08-10
+
+  - id: src-smithsonian-qawwali
+    title: Pakistan—The Music of the Qawal
+    publisher: Smithsonian Folkways Recordings
+    url: https://folkways.si.edu/pakistan-the-music-of-the-qawal/world/music/album/smithsonian
+    accessed: 2026-08-10
+
+  - id: src-realworld-mustt
+    title: Mustt Mustt (Massive Attack Remix)
+    publisher: Real World Records
+    url: https://realworldrecords.com/releases/mustt-mustt-massive-attack-remix/
+    accessed: 2026-08-10
+
+  - id: src-smithsonian-dangdut
+    title: "Music of Indonesia, Vol. 2: Indonesian Popular Music—Kroncong, Dangdut, and Langgam Jawa"
+    publisher: Smithsonian Folkways Recordings
+    url: https://folkways.si.edu/music-of-indonesia-vol-2-indonesian-popular-music-kroncong-dangdut-and-langgam-jawa/islamica-world/album/smithsonian
+    accessed: 2026-08-10
+
+  - id: src-sony-ymo
+    title: Yellow Magic Orchestra—1979 live release and tour history
+    publisher: Sony Music Japan
+    url: https://www.sonymusic.co.jp/artist/YellowMagicOrchestra/info/581187
+    accessed: 2026-08-10
+
+  - id: src-korea-trot
+    title: Move aside, K-pop, trot is expanding in popularity in Korea
+    publisher: Korea.net, official website of the Republic of Korea
+    url: https://www.korea.net/NewsFocus/HonoraryReporters/view?articleId=200680
+    accessed: 2026-08-10
+    note: An official-site overview; deeper Korean scholarship and practitioner accounts remain needed.
+
+  - id: src-moma-kraftwerk
+    title: Kraftwerk—Retrospective 1 2 3 4 5 6 7 8
+    publisher: Museum of Modern Art
+    url: https://www.moma.org/calendar/exhibitions/3747
+    accessed: 2026-08-10
+
+  - id: src-teara-maori-pacific
+    title: Māori and Pacific music, 1980s and 1990s
+    publisher: Te Ara—The Encyclopedia of New Zealand
+    url: https://teara.govt.nz/en/popular-music/page-10
+    accessed: 2026-08-10
+
+  - id: src-nzhistory-poi-e
+    title: “Poi E” by the Pātea Māori Club
+    publisher: Manatū Taonga, New Zealand Ministry for Culture and Heritage
+    url: https://nzhistory.govt.nz/media/video/poi-e
+    accessed: 2026-08-10
+
+  - id: src-youtube-burna
+    title: Burna Boy—Beyond borders
+    publisher: YouTube for Artists
+    url: https://artists.youtube.com/intl/en-GB/news/burna-boy-beyond-borders/
+    accessed: 2026-08-10
+    note: Platform-authored artist profile; useful as testimony about circulation, not independent evaluation.
+
+  - id: src-psy-official
+    title: PSY—Gangnam Style official music video
+    publisher: officialpsy, Official Artist Channel on YouTube
+    url: https://www.youtube.com/watch?v=9bZkp7q19f0
+    accessed: 2026-08-10

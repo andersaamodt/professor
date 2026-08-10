@@ -1,0 +1,175 @@
+schema: professor.contract-catalog/v1
+version: 1.0.0
+description: >-
+  Machine-readable record shapes. Repository catalogs are public and generic;
+  learner records are external-only. Tools enforce the security-relevant subset
+  directly so validation has no third-party dependency.
+enums:
+  status: [provisional, active, retired]
+  scope: [general, topic, external-only]
+  confidence: [low, medium, high]
+  consent: [not-asked, declined, granted]
+  lesson_status: [completed, skipped, paused]
+  plan_status: [proposed, adopted, paused, retired]
+  evidence_tier: [strong, moderate, emerging, theoretical, lineage, design-hypothesis]
+contracts:
+  policy:
+    location: policies/registry.yaml
+    required: [id, force, priority, amendment, scope, canonical_anchor, rule, guards]
+    public_only: true
+    id_pattern: '^[a-z][a-z0-9-]*\.[a-z][a-z0-9-]*$'
+
+  source:
+    location: pedagogy/sources.yaml
+    required: [id, kind, citation, url, use, limits]
+    public_only: true
+    id_pattern: '^[a-z][a-z0-9-]*$'
+
+  category:
+    location: pedagogy/categories.yaml
+    required: [id, status, scope, question, parent_ids, risks, examples]
+    provisional_required: [non_overlap, counterexamples, review_by, privacy_attestation]
+    public_only: true
+    id_pattern: '^[a-z][a-z0-9-]*$'
+
+  tack:
+    location: pedagogy/tacks.yaml
+    required:
+      - id
+      - version
+      - status
+      - scope
+      - categories
+      - intent
+      - mechanism
+      - enactment
+      - use_when
+      - avoid_when
+      - risks
+      - disclosure
+      - evidence_tier
+      - sources
+      - success_signals
+      - harm_signals
+      - falsifiers
+      - accessibility
+      - time_cost
+      - fade
+      - review_by
+      - rollback
+      - provenance
+      - privacy_attestation
+    public_only: true
+    id_pattern: '^[a-z][a-z0-9-]*$'
+
+  topic-node:
+    location_pattern: topics/*/atlas.yaml
+    required: [id, label, status, periods, places, social_sites, hear_for, frame, cautions, source_ids]
+    public_only: true
+    id_pattern: '^[a-z0-9][a-z0-9._-]*$'
+
+  topic-artifact:
+    location_pattern: topics/*/artifacts.yaml
+    required:
+      - id
+      - title
+      - credited_artist
+      - work_kind
+      - date
+      - node_ids
+      - creators
+      - representative_because
+      - representation_caveat
+      - media
+      - lesson_use
+      - accessibility
+      - content_notes
+      - context_urls
+    public_only: true
+    id_pattern: '^[a-z0-9][a-z0-9._-]*$'
+
+  learner-profile:
+    location: $PROFESSOR_DATA_DIR/profile.yaml
+    required: [schema, version, retention, declarations, consent]
+    declaration_kinds: [goals, time_preferences, media_preferences, accessibility_needs, content_boundaries, challenge_preferences]
+    declaration_required: [id, value, purpose, expires_on]
+    scope: external-only
+    forbidden_fields: [name, email, diagnosis, intelligence, learning_style, protected_traits, vulnerability_profile, raw_chat]
+
+  learner-model:
+    location: $PROFESSOR_DATA_DIR/model.yaml
+    required: [schema, version, hypotheses]
+    scope: external-only
+    hypothesis_required: [id, observation, inference, provenance, confidence, contrary_evidence, purpose, expires_on]
+    forbidden_fields: [diagnosis, intelligence, learning_style, protected_traits, vulnerability_profile, raw_chat]
+
+  session-result:
+    location: explicit-input-then-$PROFESSOR_DATA_DIR/events.jsonl
+    required: [schema, id, occurred_on, topic_id, node_id, artifact_id, learning_target, status, minutes_spent, evidence, next_review_on, raw_response_retained, privacy_attestation]
+    nullable_as_trio: [topic_id, node_id, artifact_id]
+    scope: external-only
+    forbidden_fields: [raw_chat, transcript, email, name]
+
+  improvement-proposal:
+    location: explicit-input-then-$PROFESSOR_DATA_DIR/proposals/<id>.yaml
+    required:
+      - schema
+      - id
+      - created_on
+      - scope
+      - category_ids
+      - observation_summary
+      - hypothesis
+      - mechanism
+      - variation
+      - consent
+      - success_signals
+      - harm_signals
+      - falsifiers
+      - evidence_scope
+      - review_on
+      - rollback
+      - privacy_attestation
+    scope: external-only
+    retention_rule: review_on is the private retention deadline; prune deletes the proposal on or after that date unless it was deliberately renewed.
+    forbidden_fields: [raw_response, raw_chat, transcript, learner_name, email, vulnerability, diagnosis]
+
+  teaching-plan:
+    location: explicit-input-then-$PROFESSOR_DATA_DIR/plans/<id>.yaml
+    required:
+      - schema
+      - id
+      - created_on
+      - status
+      - aim
+      - why_now
+      - retention_purpose
+      - learner_authorship
+      - scope
+      - time_horizon
+      - session_budget
+      - capability_map
+      - route
+      - review_rhythm
+      - evidence_plan
+      - access_plan
+      - boundaries
+      - culminating_act
+      - scaffold_fade
+      - stop_conditions
+      - next_review_on
+      - expires_on
+      - privacy_attestation
+    scope: external-only
+    forbidden_fields: [raw_response, raw_chat, transcript, learner_name, email, vulnerability, diagnosis]
+
+  arg-blueprint:
+    location_pattern: games/arg/*.yaml
+    required: [schema, id, status, frame, costs, learning_targets, safety, accessibility, stages, debrief]
+    public_only: true
+
+  arg-campaign:
+    location: $PROFESSOR_DATA_DIR/campaigns
+    required: [schema, id, blueprint_id, consent, state, hints_used]
+    scope: external-only
+    secret_fields: [solution, key, stage_secret]

@@ -1,0 +1,53 @@
+schema: professor.arg-blueprint/v1
+id: palimpsest-city
+status: provisional
+frame: >-
+  A clearly fictional city has been repeatedly rebuilt over its own musical
+  infrastructure. Each district broadcasts one layer of a hidden genealogy.
+  The learner restores routes by hearing relations among rhythm, timbre,
+  technology, circulation, and scene—not by collecting trivia.
+costs:
+  core_time: Each stage is designed for 15 to 25 minutes and may be paused without loss.
+  optional_depth: Source investigation can add 20 to 45 learner-controlled minutes.
+  media: Short lawful audio cues have equivalent diagram and prose routes.
+learning_targets:
+  - distinguish inheritance from simple chronological succession
+  - use a production or rhythmic feature as evidence for a lineage claim
+  - revise a canonical map when migration, labor, and technology are restored
+safety:
+  fiction_disclosed: true
+  no_real_world_contact: true
+  no_location_hunt: true
+  no_credentials_or_personal_data: true
+  full_reveal_on_request: true
+  non_game_route: topics/pop-music/README.md
+accessibility:
+  redundant_modalities: [audio-description, waveform-or-diagram, prose-feature-description]
+  untimed: true
+  low_bandwidth_route: prose-feature-description
+  content_notes: supplied-per-artifact
+stages:
+  - id: the-grid-beneath-the-grid
+    public_problem: Three districts share a pulse, but only one inherited its organizing rhythm directly. Reconstruct the edge types.
+    required_capabilities: [deliberate-listening, contrastive-cases, source-triangulation]
+    clue_channels: [short-lawful-media-cues, annotated-rhythm-grid, oral-history-excerpt]
+    hint_levels: [orient-to-pulse, mark-onsets, compare-accent-cycle, inspect-circulation-source, reveal]
+    secret_ref: external-only:palimpsest-city/stage-1
+  - id: the-studio-without-an-address
+    public_problem: A production technique moved farther than its inventor's name. Trace both the sound and the obscured labor.
+    required_capabilities: [production-listening, provenance, critical-aperture]
+    clue_channels: [before-after-description, equipment-diagram, credited-and-uncredited-source-records]
+    hint_levels: [identify-change, name-operation, compare-dates-and-places, audit-credit, reveal]
+    secret_ref: external-only:palimpsest-city/stage-2
+  - id: the-map-that-argues-back
+    public_problem: Two accurate histories produce incompatible maps. Build a third map that preserves the reason for disagreement.
+    required_capabilities: [map-redraw, canon-counterroute, epistemic-status]
+    clue_channels: [two-curated-topologies, selection-rationales, missing-node-set]
+    hint_levels: [name-map-purpose, locate-suppressed-edge, separate-fact-from-selection, construct-layered-map, reveal]
+    secret_ref: external-only:palimpsest-city/stage-3
+debrief:
+  - reveal each world law and solution path
+  - identify clues that carried knowledge versus atmosphere
+  - compare the restored map with the pop-music atlas
+  - transfer the method to a nonmusical genealogy
+  - audit access, frustration, agency, time cost, and any canon distortion

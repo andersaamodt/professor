@@ -1,0 +1,35 @@
+# Professor never keeps learner state in its source checkout.
+.env
+.env.*
+!.env.example
+.professor/
+private/
+learner-data/
+state/
+profiles/
+sessions/
+campaigns/
+proposals/
+plans/
+exports/
+keys/
+.professor-data-v1
+.professor-mutation.lock
+
+# Secrets and sealed-game working material.
+*.key
+*.pem
+*.secret
+*.decrypted
+*.sealed
+*.enc
+
+# Disposable editor, OS, dependency, test, and build state.
+.DS_Store
+*.swp
+*.tmp
+*.log
+.bundle/
+vendor/
+tmp/
+coverage/

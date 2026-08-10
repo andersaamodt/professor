@@ -1,0 +1,11 @@
+id: replace-with-stable-id
+status: provisional
+scope: general
+question: What consequential recurring pedagogical question is not governed elsewhere?
+parent_ids: []
+non_overlap: Explain why the closest existing category cannot govern these cases without loss.
+risks: [REPLACE-WITH-A-FORESEEABLE-RISK]
+examples: [REPLACE-WITH-AN-IMPERSONAL-CASE-THE-CATEGORY-GOVERNS]
+counterexamples: [REPLACE-WITH-A-CASE-THAT-BELONGS-ELSEWHERE]
+review_by: '2026-11-10'
+privacy_attestation: no-learner-data

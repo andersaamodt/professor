@@ -1,0 +1,203 @@
+schema: professor.source-ledger/v1
+version: 1.0.0
+note: >-
+  Source kinds are intentionally plural. An empirical effect, ethical argument,
+  historical lineage, critical lens, and design framework answer different
+  questions and must not be flattened into one fake hierarchy. URLs point to a
+  publisher, DOI, author, public text, or official framework where possible.
+sources:
+  - id: aristotle-nicomachean-ethics
+    kind: philosophical-lineage
+    citation: Aristotle. Nicomachean Ethics, especially Books I, II, VI, and X.
+    url: https://classics.mit.edu/Aristotle/nicomachaen.html
+    use: Flourishing, habituated virtue, practical wisdom, friendship, and the limits of rule-following.
+    limits: A historically situated text, not an empirical learning study or a complete contemporary ethic.
+
+  - id: aristotle-rhetoric
+    kind: rhetorical-lineage
+    citation: Aristotle. Rhetoric.
+    url: https://classics.mit.edu/Aristotle/rhetoric.html
+    use: Audience, occasion, credibility, emotion, and argument as inspectable rhetorical craft.
+    limits: Description of persuasion is not permission for covert influence.
+
+  - id: quintilian-institutio
+    kind: rhetorical-lineage
+    citation: Quintilian. Institutio Oratoria.
+    url: https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2007.01.0059
+    use: The union of eloquence, formation, practice, imitation, and moral responsibility.
+    limits: Roman elite education requires historical and political contextualization.
+
+  - id: confucius-analects
+    kind: philosophical-lineage
+    citation: Confucius. Analects.
+    url: https://ctext.org/analects
+    use: Learning with reflection, practice, moral cultivation, relationship, and exemplary action.
+    limits: Translation and tradition are contested; do not essentialize a civilization from one text.
+
+  - id: xunzi-encouraging-learning
+    kind: philosophical-lineage
+    citation: Xunzi. Encouraging Learning.
+    url: https://ctext.org/xunzi/encouraging-learning
+    use: Deliberate practice, environment, teachers, ritual, and transformation through sustained learning.
+    limits: Interpret within Warring States debates and translation choices.
+
+  - id: dewey-experience-education
+    kind: philosophical-lineage
+    citation: John Dewey. Experience and Education. 1938.
+    url: https://archive.org/details/experienceeducat00dewe_0
+    use: Continuity of experience, inquiry, democratic education, and criticism of false progressive/traditional binaries.
+    limits: Educational philosophy and historical argument, not a technique-level causal estimate.
+
+  - id: vygotsky-mind-society
+    kind: theoretical-lineage
+    citation: L. S. Vygotsky. Mind in Society. 1978 English edition.
+    url: https://www.hup.harvard.edu/books/9780674576292
+    use: Social mediation, cultural tools, development, and the zone of proximal development.
+    limits: A posthumously edited translation with concepts often oversimplified in later educational use.
+
+  - id: freire-pedagogy-oppressed
+    kind: critical-lineage
+    citation: Paulo Freire. Pedagogy of the Oppressed. 1970 English edition.
+    url: https://www.bloomsbury.com/us/pedagogy-of-the-oppressed-9781501314155/
+    use: Dialogue, praxis, humanization, and critique of banking education and oppressive authority.
+    limits: A political-philosophical intervention; dialogue must not become compelled agreement with the Teacher.
+
+  - id: hooks-teaching-transgress
+    kind: critical-lineage
+    citation: bell hooks. Teaching to Transgress. 1994.
+    url: https://www.routledge.com/Teaching-to-Transgress-Education-as-the-Practice-of-Freedom/hooks/p/book/9780415908085
+    use: Engaged pedagogy, voice, embodiment, freedom, care, and the classroom as a contested community.
+    limits: Practitioner-critical work whose situated testimony should not be recoded as a universal technique effect.
+
+  - id: noddings-caring
+    kind: ethical-lineage
+    citation: Nel Noddings. Caring. 1984; later editions.
+    url: https://www.ucpress.edu/books/caring/paper
+    use: Relational ethics, receptive attention, response, and care as practice rather than sentiment.
+    limits: Care theory has internal debates about power, reciprocity, gender, and institutional scale.
+
+  - id: ladson-billings-1995
+    kind: critical-theoretical
+    citation: Gloria Ladson-Billings. Toward a Theory of Culturally Relevant Pedagogy. 1995.
+    url: https://doi.org/10.3102/00028312032003465
+    use: Academic success, cultural competence, and critical consciousness as linked educational aims.
+    limits: Do not reduce culturally relevant pedagogy to surface representation or a demographic matching trick.
+
+  - id: simpson-land-pedagogy
+    kind: critical-theoretical
+    citation: Leanne Betasamosake Simpson. Land as Pedagogy. 2014.
+    url: https://jps.library.utoronto.ca/index.php/des/article/view/22170
+    use: Land, story, practice, Indigenous resurgence, and education beyond institutional extraction.
+    limits: Do not appropriate land-based Indigenous knowledge into decontextualized classroom technique.
+
+  - id: shulman-pck
+    kind: theoretical
+    citation: Lee S. Shulman. Those Who Understand—Knowledge Growth in Teaching. 1986.
+    url: https://doi.org/10.3102/0013189X015002004
+    use: Pedagogical content knowledge and the transformation of subject matter for learners.
+    limits: Conceptual framework, not evidence that generic technique can replace domain expertise.
+
+  - id: sweller-1988
+    kind: empirical-theoretical
+    citation: John Sweller. Cognitive Load During Problem Solving—Effects on Learning. 1988.
+    url: https://doi.org/10.1207/s15516709cog1202_4
+    use: Limits of unguided means-ends search and the case for guidance in complex novice learning.
+    limits: Cognitive-load effects depend on prior knowledge, task, measure, and design; avoid rigid load numerology.
+
+  - id: atkinson-worked-examples
+    kind: empirical-review
+    citation: Atkinson, Derry, Renkl, and Wortham. Learning from Examples—Instructional Principles from the Worked Examples Research. 2000.
+    url: https://doi.org/10.3102/00346543070002181
+    use: Worked examples, self-explanation, variability, and scaffold fading for novice problem solving.
+    limits: Domain and learner expertise condition the benefit.
+
+  - id: roediger-karpicke-2006
+    kind: empirical-study
+    citation: Roediger and Karpicke. Test-Enhanced Learning—Taking Memory Tests Improves Long-Term Retention. 2006.
+    url: https://doi.org/10.1111/j.1467-9280.2006.01693.x
+    use: Retrieval practice can improve delayed retention compared with repeated study in tested conditions.
+    limits: Retrieval must be designed with feedback, content, delay, affect, and transfer claims in view.
+
+  - id: cepeda-spacing-2006
+    kind: empirical-review
+    citation: Cepeda, Pashler, Vul, Wixted, and Rohrer. Distributed Practice in Verbal Recall Tasks. 2006.
+    url: https://doi.org/10.1037/0033-2909.132.3.354
+    use: Quantitative evidence for spacing effects and the importance of retention interval.
+    limits: Verbal recall evidence does not automatically determine an ideal schedule for every capability.
+
+  - id: dunlosky-techniques-2013
+    kind: empirical-review
+    citation: Dunlosky, Rawson, Marsh, Nathan, and Willingham. Improving Students' Learning With Effective Learning Techniques. 2013.
+    url: https://doi.org/10.1177/1529100612453266
+    use: Comparative review of practice testing, distributed practice, interleaving, explanation, rereading, and other study techniques.
+    limits: Utility ratings aggregate varied tasks and contexts and should guide, not automate, local judgment.
+
+  - id: kapur-productive-failure-2008
+    kind: empirical-study
+    citation: Manu Kapur. Productive Failure. 2008.
+    url: https://doi.org/10.1080/07370000802212669
+    use: Conditions in which pre-instruction generation and later consolidation can support conceptual learning.
+    limits: Failure is productive only through careful task design, resources, comparison, and consolidation; it is not minimal guidance by default.
+
+  - id: chi-wylie-icap-2014
+    kind: theoretical-review
+    citation: Michelene T. H. Chi and Ruth Wylie. The ICAP Framework. 2014.
+    url: https://doi.org/10.1080/00461520.2014.965823
+    use: Distinguishing passive, active, constructive, and interactive cognitive engagement by what learners do with knowledge.
+    limits: Overt activity is a proxy and does not by itself prove the intended cognition or learning.
+
+  - id: ryan-deci-2000
+    kind: theoretical-review
+    citation: Richard M. Ryan and Edward L. Deci. Intrinsic and Extrinsic Motivations—Classic Definitions and New Directions. 2000.
+    url: https://doi.org/10.1006/ceps.1999.1020
+    use: Autonomy, competence, relatedness, and differences in the quality of motivation.
+    limits: Needs and motivation constructs require contextual interpretation; do not turn them into a hidden optimization dashboard.
+
+  - id: deci-rewards-meta-1999
+    kind: empirical-meta-analysis
+    citation: Deci, Koestner, and Ryan. A Meta-Analytic Review of Experiments Examining the Effects of Extrinsic Rewards on Intrinsic Motivation. 1999.
+    url: https://doi.org/10.1037/0033-2909.125.6.627
+    use: Risks and conditions of tangible, expected, controlling, informational, and performance-contingent rewards.
+    limits: Reward effects vary by task and interpretation; evidence does not mean every external structure is harmful.
+
+  - id: pashler-learning-styles-2008
+    kind: empirical-review
+    citation: Pashler, McDaniel, Rohrer, and Bjork. Learning Styles—Concepts and Evidence. 2008.
+    url: https://doi.org/10.1111/j.1539-6053.2009.01038.x
+    use: Lack of adequate evidence for matching instruction to fixed learning-style classifications.
+    limits: This does not deny preferences, access needs, aptitudes, or the value of task-appropriate multiple representations.
+
+  - id: black-wiliam-1998
+    kind: empirical-review
+    citation: Paul Black and Dylan Wiliam. Assessment and Classroom Learning. 1998.
+    url: https://doi.org/10.1080/0969595980050102
+    use: Formative assessment, feedback, classroom practice, and evidence used to adapt teaching.
+    limits: A broad review from specific institutional contexts; implementation quality and power relations matter.
+
+  - id: deslauriers-feeling-2019
+    kind: empirical-study
+    citation: Deslauriers, McCarty, Miller, Callaghan, and Kestin. Measuring Actual Learning versus Feeling of Learning in Response to Being Actively Engaged in the Classroom. 2019.
+    url: https://doi.org/10.1073/pnas.1821936116
+    use: Immediate feelings of learning can diverge from measured learning under tested active-instruction conditions.
+    limits: One course context and design; discomfort is not automatically evidence of effective learning.
+
+  - id: landers-gamified-learning-2014
+    kind: theoretical
+    citation: Richard N. Landers. Developing a Theory of Gamified Learning. 2014.
+    url: https://doi.org/10.1177/1046878114563660
+    use: Game attributes affect learning through learner behaviors and attitudes rather than magic direct effects.
+    limits: A theory of mechanisms is not an ethical warrant; commercial game patterns need independent scrutiny.
+
+  - id: cast-udl-3
+    kind: practice-framework
+    citation: CAST. Universal Design for Learning Guidelines version 3.0. 2024.
+    url: https://udlguidelines.cast.org/
+    use: Designing options and reducing barriers rooted in bias and systems of exclusion.
+    limits: A design framework, not a substitute for direct participation by disabled learners or context-specific accessibility testing.
+
+  - id: unesco-ai-education-2023
+    kind: policy-guidance
+    citation: UNESCO. Guidance for Generative AI in Education and Research. 2023.
+    url: https://unesdoc.unesco.org/ark:/48223/pf0000386693
+    use: Human agency, inclusion, privacy, governance, and age-appropriate uses of generative AI in education.
+    limits: Global guidance that requires local legal, cultural, institutional, and learner-specific interpretation.

@@ -1,0 +1,870 @@
+schema: professor.tack-catalog/v1
+version: 1.0.0
+definition: >-
+  A tack is a reversible instructional maneuver selected for present conditions,
+  never a universal recipe or learner trait. Technique names stay backstage
+  unless surfacing them improves agency or transfer.
+status_values: [provisional, active, retired]
+evidence_tiers: [strong, moderate, emerging, theoretical, lineage, design-hypothesis]
+disclosure_values: [seamless-explainable, notify, advance-consent]
+evidence_tier_contract:
+  strong: Multiple converging research programs support the named mechanism for bounded outcomes; populations, domains, and implementation still matter.
+  moderate: More than one credible line of evidence supports a bounded component, with material limits or variation.
+  emerging: Promising direct evidence exists but is narrow, contested, new, or implementation-sensitive.
+  theoretical: The maneuver follows from an explicit theory or evidence synthesis; the whole tack has not been directly established.
+  lineage: The maneuver is an accountable inheritance from a named educational tradition, not an empirical-effect claim.
+  design-hypothesis: A falsifiable Professor design awaiting broader evidence; it remains provisional.
+  use_rule: >-
+    A tier applies only to the mechanism and outcomes actually named. It never
+    certifies the whole tack, every learner, every domain, or an ethical claim;
+    consult each source's use and limits before selecting the maneuver.
+tacks:
+  - id: live-object-first
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [encounter-and-wonder, aesthetics-emotion-and-meaning]
+    intent: Give attention a real object before abstract exposition.
+    mechanism: A phenomenon or artifact supplies perceptual anchors and generates questions that later distinctions can organize.
+    enactment: Present the sound, line, case, image, behavior, object, or contradiction; ask for one precise noticing; then introduce only the model needed to see again.
+    use_when: [the-object-is-safe-and-available, abstraction-feels-inert, curiosity-can-be-grounded]
+    avoid_when: [unguided-encounter-would-create-danger, access-equivalent-is-missing, context-is-required-to-prevent-material-misreading]
+    risks: [spectacle-without-learning, novice-disorientation, object-treated-as-self-explanatory]
+    disclosure: seamless-explainable
+    evidence_tier: lineage
+    sources: [dewey-experience-education, hooks-teaching-transgress]
+    success_signals: [later-noticing-uses-the-new-distinction, learner-generates-a-real-question]
+    harm_signals: [confusion-without-a-foothold, exclusion-by-medium]
+    falsifiers: [exposition-first-produces-better-transfer-in-this-task, encounter-adds-cost-without-changing-action]
+    accessibility: Supply an equivalent perceivable representation and do not demand public performance.
+    time_cost: 30 seconds to 5 minutes
+    fade: Remove Teacher attention cues as the learner begins posing useful noticing questions.
+    review_by: 2027-08-10
+    rollback: Open with a concise orienting model or worked example instead.
+    provenance: literature-and-design-synthesis
+    privacy_attestation: no-learner-data
+
+  - id: prediction-before-reveal
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [elicitation-and-prior-knowledge, metacognition-and-calibration]
+    intent: Make current models visible and create a reason to process the result.
+    mechanism: A low-stakes committed prediction generates diagnostic evidence and a comparison between expectation and outcome.
+    enactment: Ask for one choice and a short reason before the reveal; display the outcome; compare the reasoning, not the person's worth; immediately repair or extend.
+    use_when: [a-prediction-is-safe, alternatives-are-comprehensible, commitment-cost-is-low]
+    avoid_when: [guessing-would-be-random, public-error-is-high-stakes, prerequisite-knowledge-is-absent]
+    risks: [gotcha, confidence-shame, misconception-rehearsal]
+    disclosure: seamless-explainable
+    evidence_tier: theoretical
+    sources: [black-wiliam-1998, chi-wylie-icap-2014]
+    success_signals: [learner-can-explain-the-expectation-outcome-gap, next-prediction-improves]
+    harm_signals: [reluctance-after-error, answer-changed-to-please-Teacher]
+    falsifiers: [prediction-does-not-inform-feedback, explanation-first-is-safer-or-more-efficient]
+    accessibility: Permit private, nonverbal, multiple-choice, or pass responses.
+    time_cost: 15 seconds to 3 minutes
+    fade: Learner begins making and checking predictions without prompting.
+    review_by: 2027-08-10
+    rollback: Give the model first and ask for an application.
+    provenance: literature-and-design-synthesis
+    privacy_attestation: no-learner-data
+
+  - id: worked-example-fade
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [representation-and-modeling, practice-feedback-and-repair]
+    intent: Let novices study expert decisions without wasting capacity on blind search, then transfer control.
+    mechanism: A worked solution reduces unproductive search; self-explanation and completion problems progressively require the learner to own more steps.
+    enactment: Model one complete case while naming decisions; ask why a consequential step works; present a completion case with one step removed; continue fading only with evidence.
+    use_when: [novice-with-complex-task, stable-solution-structure,means-ends-search-is-costly]
+    avoid_when: [learner-already-fluent, task-is-open-ended-with-no-useful-model, imitation-would-hide-ethical-judgment]
+    risks: [passive-copying, expertise-reversal, template-dependence]
+    disclosure: seamless-explainable
+    evidence_tier: strong
+    sources: [sweller-1988, atkinson-worked-examples]
+    success_signals: [learner-explains-step-purpose, completes-faded-case, transfers-to-varied-case]
+    harm_signals: [copying-without-selection, frustration-when-support-disappears]
+    falsifiers: [generation-first-produces-better-conceptual-transfer-for-this-prepared-learner]
+    accessibility: Make each modeled decision available in text and any essential visual or auditory form.
+    time_cost: 3 to 25 minutes
+    fade: Remove one meaningful support at a time after successful explanation and use.
+    review_by: 2027-08-10
+    rollback: Restore the last successful support and diagnose the missing prerequisite.
+    provenance: evidence-informed
+    privacy_attestation: no-learner-data
+
+  - id: concrete-abstract-return
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [representation-and-modeling, transfer-and-discrimination]
+    intent: Build abstraction that remains answerable to cases.
+    mechanism: Moving from a concrete case to a compact relation and back to a changed case binds symbol, meaning, and use.
+    enactment: Inspect one case; extract the invariant; express it in a model; immediately use the model to predict, redesign, or explain a different case.
+    use_when: [abstraction-has-observable-instances, learner-can-compare-cases]
+    avoid_when: [one-case-would-seduce-overgeneralization, concrete-example-is-culturally-or-ethically-distorting]
+    risks: [surface-analogy, premature-formalism, example-becomes-definition]
+    disclosure: seamless-explainable
+    evidence_tier: theoretical
+    sources: [shulman-pck, dewey-experience-education]
+    success_signals: [learner-identifies-invariant-across-changed-surface, learner-names-boundary]
+    harm_signals: [model-repeated-without-case-judgment]
+    falsifiers: [representation-switch-adds-load-without-improved-selection]
+    accessibility: Choose concrete cases that can be perceived through more than one route.
+    time_cost: 3 to 15 minutes
+    fade: Learner chooses when to instantiate an abstraction.
+    review_by: 2027-08-10
+    rollback: Hold one representation stable and repair its meaning.
+    provenance: literature-and-design-synthesis
+    privacy_attestation: no-learner-data
+
+  - id: contrastive-cases
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [transfer-and-discrimination, representation-and-modeling]
+    intent: Make a consequential distinction visible through structured variation.
+    mechanism: Neighboring cases that vary on a diagnostic feature help the learner infer selection conditions and boundaries.
+    enactment: Present two or three carefully matched cases; ask what changes and what stays; name the governing distinction; test it on a deceptive new case.
+    use_when: [confusable-categories, method-selection, boundary-learning]
+    avoid_when: [too-many-differences-obscure-the-target, contrast-stages-a-false-binary]
+    risks: [false-dichotomy, irrelevant-feature-learning, comparison-overload]
+    disclosure: seamless-explainable
+    evidence_tier: moderate
+    sources: [dunlosky-techniques-2013, kapur-productive-failure-2008]
+    success_signals: [correct-discrimination-on-new-case, learner-articulates-selection-rule]
+    harm_signals: [essentializing-groups-or-traditions, attention-captured-by-irrelevant-difference]
+    falsifiers: [single-case-modeling-yields-better-application-with-less-cost]
+    accessibility: Describe every diagnostic feature explicitly, not by color or sound alone.
+    time_cost: 2 to 12 minutes
+    fade: Learner generates the contrast set or counterexample.
+    review_by: 2027-08-10
+    rollback: Reduce to one diagnostic pair and directly mark the feature.
+    provenance: evidence-informed
+    privacy_attestation: no-learner-data
+
+  - id: bounded-productive-failure
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [practice-feedback-and-repair, elicitation-and-prior-knowledge]
+    intent: Prepare learners to notice deep structure by generating and comparing imperfect solutions before consolidation.
+    mechanism: Resource-rich generation activates prior knowledge and creates contrasting representations that make later instruction meaningful.
+    enactment: Set a solvable conceptual challenge, resources, timebox, and exit; collect solution features without verdict; compare them; explicitly consolidate the canonical structure; retry with transfer.
+    use_when: [partial-foundation, robust-emotional-safety, conceptual-structure-benefits-from-comparison]
+    avoid_when: [true-novice-high-load, safety-critical-procedure, failure-history-makes-cost-high, no-time-for-consolidation]
+    risks: [abandonment-disguised-as-discovery, misconception-entrenchment, status-threat]
+    disclosure: notify
+    evidence_tier: emerging
+    sources: [kapur-productive-failure-2008]
+    success_signals: [learner-recognizes-affordances-and-limits-of-generated-solutions, consolidation-transfers]
+    harm_signals: [helplessness, shame, no-usable-production, Teacher-withholds-needed-model]
+    falsifiers: [direct-instruction-condition-outperforms-on-delayed-conceptual-transfer-with-lower-harm]
+    accessibility: Offer manipulable representations, resources, and a no-performance opt-out.
+    time_cost: 8 to 45 minutes
+    fade: Learner learns to choose when exploratory generation is worth its cost.
+    review_by: 2027-02-10
+    rollback: Stop generation, provide a worked comparison, and make the next attempt supported.
+    provenance: evidence-informed
+    privacy_attestation: no-learner-data
+
+  - id: error-surgery
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [practice-feedback-and-repair, assessment-and-evidence]
+    intent: Repair the smallest consequential gap while preserving useful structure.
+    mechanism: Precise localization reduces overwhelm and lets feedback target the decision that generated the error.
+    enactment: State what is sound; locate the earliest decision that changes the outcome; expose why it was plausible; supply one discriminating cue; require a new act.
+    use_when: [response-contains-partial-structure, causal-error-can-be-localized]
+    avoid_when: [learner-asked-only-for-answer, task-requires-holistic-reframing, error-analysis-would-expose-sensitive-data]
+    risks: [micromanagement, overanalysis, praise-sandwich-insincerity]
+    disclosure: seamless-explainable
+    evidence_tier: theoretical
+    sources: [black-wiliam-1998, shulman-pck]
+    success_signals: [next-act-corrects-the-decision, learner-can-name-the-cue]
+    harm_signals: [feedback-feels-totalizing, learner-loses-own-strategy]
+    falsifiers: [direct-model-or-whole-case-comparison-repairs-more-efficiently]
+    accessibility: Keep the diagnostic language concrete and permit a fresh example instead of public autopsy.
+    time_cost: 1 to 8 minutes
+    fade: Learner performs the same localization and repair independently.
+    review_by: 2027-08-10
+    rollback: Show a clean model and compare only one decision.
+    provenance: design-synthesis
+    privacy_attestation: no-learner-data
+
+  - id: voluntary-hint-ladder
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [practice-feedback-and-repair, motivation-agency-and-identity]
+    intent: Preserve productive agency while making help immediate and graduated.
+    mechanism: Learner-controlled supports reduce unnecessary answer withholding and reveal the minimum assistance that unlocks the next move.
+    enactment: Offer named levels—nudge, structural cue, analogous example, next step, full solution—and honor the selected level instantly.
+    use_when: [challenge-has-separable-support-levels, learner-wants-to-attempt]
+    avoid_when: [safety-requires-full-instruction, learner-said-show-me, levels-would-waste-time]
+    risks: [help-as-status-test, fake-choice, scaffold-dependency]
+    disclosure: seamless-explainable
+    evidence_tier: theoretical
+    sources: [vygotsky-mind-society, atkinson-worked-examples]
+    success_signals: [learner-resumes-with-selected-support, later-needs-less-support]
+    harm_signals: [learner-apologizes-for-hint-use, Teacher-resists-full-reveal]
+    falsifiers: [direct-explanation-is-more-efficient-with-equal-transfer-and-agency]
+    accessibility: All levels are available without timed interaction or public disclosure.
+    time_cost: seconds to 10 minutes
+    fade: Learner anticipates and generates their own cue.
+    review_by: 2027-08-10
+    rollback: Reveal the full solution and offer an optional fresh application.
+    provenance: literature-and-design-synthesis
+    privacy_attestation: no-learner-data
+
+  - id: teach-back-transform
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [dialogue-and-co-construction, transfer-and-discrimination]
+    intent: Make the learner reconstruct and adapt a model for a new audience or constraint.
+    mechanism: Explanation that changes form requires selection, organization, inference, and monitoring rather than verbatim repetition.
+    enactment: Ask for a tiny explanation to a specified audience, medium, or misconception; test it with one audience question; revise once.
+    use_when: [basic-model-is-present, explanation-is-part-of-target]
+    avoid_when: [public-performance-cost-is-high, fluent-language-is-not-the-learning-target, learner-needs-model-first]
+    risks: [performance-anxiety, eloquence-mistaken-for-understanding, patronizing-imagined-audience]
+    disclosure: seamless-explainable
+    evidence_tier: moderate
+    sources: [chi-wylie-icap-2014, dunlosky-techniques-2013]
+    success_signals: [explanation-preserves-core-while-changing-form, revision-addresses-a-real-gap]
+    harm_signals: [language-fluency-masks-or-punishes-knowledge]
+    falsifiers: [nonverbal-transfer-probe-better-measures-the-target]
+    accessibility: Allow diagram, example, code, demonstration, AAC, or private composition.
+    time_cost: 2 to 10 minutes
+    fade: Learner chooses audience and checks their own explanation.
+    review_by: 2027-08-10
+    rollback: Offer a model explanation and ask for one correction or example.
+    provenance: evidence-informed
+    privacy_attestation: no-learner-data
+
+  - id: retrieval-with-repair
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [memory-and-reconstruction, practice-feedback-and-repair]
+    intent: Strengthen later access while using errors to repair the representation.
+    mechanism: Effortful retrieval followed by timely feedback can improve retention and expose what needs reconsolidation.
+    enactment: Remove the answer; ask for reconstruction in a fitting form; permit pass; compare with the source; repair one gap; retrieve again later in a changed cue.
+    use_when: [material-was-previously-encountered, retrieval-cost-is-low-stakes]
+    avoid_when: [first-exposure, acute-test-distress, recall-is-not-relevant-to-capability]
+    risks: [test-punishment, repeated-error, trivia-fragmentation]
+    disclosure: seamless-explainable
+    evidence_tier: strong
+    sources: [roediger-karpicke-2006, dunlosky-techniques-2013]
+    success_signals: [delayed-reconstruction-improves, learner-can-use-retrieved-knowledge]
+    harm_signals: [avoidance, shame, recall-demand-crowds-out-higher-goal]
+    falsifiers: [recognition-or-reference-use-is-the-authentic-capability, repeated-retrieval-does-not-transfer]
+    accessibility: Accept multiple response modes and do not impose speed unless speed is authentic.
+    time_cost: 30 seconds to 8 minutes
+    fade: Learner initiates retrieval and source checking.
+    review_by: 2027-08-10
+    rollback: Restudy through a meaningful example before another optional retrieval.
+    provenance: evidence-informed
+    privacy_attestation: no-learner-data
+
+  - id: spaced-echo
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [memory-and-reconstruction, rhythm-rest-and-sustainability]
+    intent: Return to important knowledge after enough time that reconstruction matters.
+    mechanism: Distributed encounters can improve long-term retention compared with equivalent massed exposure.
+    enactment: End with a distinctive future cue; schedule one lightweight return based on target horizon; reconstruct before replay; adapt the next interval to evidence, not streaks.
+    use_when: [knowledge-needs-later-access, learner-consents-to-scheduling]
+    avoid_when: [one-time-reference-is-enough, reminders-create-burden, learner-opted-out]
+    risks: [notification-fatigue, pseudo-precision, backlog]
+    disclosure: notify
+    evidence_tier: strong
+    sources: [cepeda-spacing-2006, dunlosky-techniques-2013]
+    success_signals: [later-retrieval-or-use, decreasing-support]
+    harm_signals: [lesson-debt, irritation, life-disruption]
+    falsifiers: [return-cost-exceeds-value, authentic-use-provides-sufficient-practice]
+    accessibility: Let the learner choose channel, cadence, pause, and no-reminder mode.
+    time_cost: 20 seconds now plus future return
+    fade: Authentic use replaces artificial review where possible.
+    review_by: 2027-08-10
+    rollback: Cancel the queue without preserving debt; offer one fresh optional return.
+    provenance: evidence-informed
+    privacy_attestation: no-learner-data
+
+  - id: interleave-by-decision
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [memory-and-reconstruction, transfer-and-discrimination]
+    intent: Practice selecting among confusable methods or categories rather than executing a named block.
+    mechanism: Mixed cases require discrimination and method selection, which can improve later classification despite harder practice.
+    enactment: Establish each case enough to be usable; mix neighboring types; hide the method label; ask what applies and why; give feedback on selection before execution.
+    use_when: [categories-are-confusable, block-basics-are-present, selection-is-authentic]
+    avoid_when: [novice-has-no-stable-example, switching-adds-irrelevant-load, fluency-with-one-procedure-is-immediate-goal]
+    risks: [difficulty-mistaken-for-benefit, random-mixture, demoralization]
+    disclosure: notify
+    evidence_tier: moderate
+    sources: [dunlosky-techniques-2013]
+    success_signals: [selection-improves-on-unlabeled-cases, learner-articulates-diagnostic-cues]
+    harm_signals: [errors-rise-without-later-benefit, learner-cannot-form-any-stable-model]
+    falsifiers: [blocked-practice-yields-equal-selection-and-better-sustainability]
+    accessibility: Keep case switching predictable and remove unnecessary interface switching.
+    time_cost: 5 to 30 minutes
+    fade: Learner builds and curates the mixed set.
+    review_by: 2027-08-10
+    rollback: Return to a worked contrast or short blocked set.
+    provenance: evidence-informed
+    privacy_attestation: no-learner-data
+
+  - id: confidence-wager
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [metacognition-and-calibration, assessment-and-evidence]
+    intent: Improve correspondence between confidence and evidence without making confidence a virtue contest.
+    mechanism: A pre-outcome confidence estimate paired with a reason and later evidence makes calibration patterns available for revision.
+    enactment: Ask for a coarse confidence band and one reason; reveal or test; compare reason to evidence; update strategy, not identity.
+    use_when: [calibration-matters, response-is-low-stakes]
+    avoid_when: [confidence-disclosure-is-socially-costly, estimate-would-distract, learner-opted-out]
+    risks: [confidence-shaming, false-precision, rewarding-performative-certainty]
+    disclosure: seamless-explainable
+    evidence_tier: theoretical
+    sources: [deslauriers-feeling-2019, black-wiliam-1998]
+    success_signals: [confidence-reasons-become-evidence-based, strategy-changes-after-miscalibration]
+    harm_signals: [learner-deflates-confidence-to-avoid-error, confidence-becomes-score]
+    falsifiers: [calibration-prompt-does-not-change-decisions-or-adds-anxiety]
+    accessibility: Permit private bands, qualitative language, or pass.
+    time_cost: 20 seconds to 3 minutes
+    fade: Learner checks evidence and confidence spontaneously.
+    review_by: 2027-08-10
+    rollback: Remove the rating and ask only what evidence would change the answer.
+    provenance: literature-and-design-synthesis
+    privacy_attestation: no-learner-data
+
+  - id: analogy-with-breakpoint
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [representation-and-modeling, epistemics-and-scholarship]
+    intent: Use familiar relational structure without letting the analogy become the claim.
+    mechanism: Mapping relations can compress a new model; an explicit breakpoint prevents overextension and teaches model criticism.
+    enactment: Name the target relation; map two or three correspondences; ask what the analogy predicts; then present or elicit the first consequential place it fails.
+    use_when: [relational-similarity-is-real, source-domain-is-familiar]
+    avoid_when: [analogy-carries-harmful-stereotype, surface-similarity-misleads, direct-model-is-clearer]
+    risks: [seductive-detail, reification, cultural-exclusion]
+    disclosure: seamless-explainable
+    evidence_tier: theoretical
+    sources: [shulman-pck]
+    success_signals: [learner-uses-and-limits-the-mapping, target-survives-without-analogy]
+    harm_signals: [analogy-quoted-as-evidence, source-domain-confuses]
+    falsifiers: [direct-representation-produces-clearer-transfer-at-lower-cost]
+    accessibility: Explain the source domain and offer a second analogy or literal account.
+    time_cost: 1 to 8 minutes
+    fade: Retire the analogy once the target model stands independently.
+    review_by: 2027-08-10
+    rollback: State the literal relation and show a counterexample.
+    provenance: design-synthesis
+    privacy_attestation: no-learner-data
+
+  - id: critical-aperture
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [power-canon-and-criticality, epistemics-and-scholarship]
+    intent: Open a focused inquiry into how power and selection condition the object without replacing encounter with a ritual disclaimer.
+    mechanism: One consequential question about production, authority, circulation, absence, labor, or stakes reveals conditions hidden by an apparently neutral frame.
+    enactment: Encounter the object; identify one material power relation that changes interpretation; inspect evidence and a competing account; return to the object and revise the reading.
+    use_when: [power-relation-is-evidentially-grounded, context-changes-understanding]
+    avoid_when: [generic-suspicion-adds-no-specificity, frame-demands-ideological-assent, safety-requires-factual-correction-first]
+    risks: [tokenism, false-balance, cynical-reduction, presentism]
+    disclosure: seamless-explainable
+    evidence_tier: lineage
+    sources: [freire-pedagogy-oppressed, hooks-teaching-transgress, ladson-billings-1995]
+    success_signals: [learner-can-show-how-context-changes-a-specific-claim, multiple-readings-gain-or-lose-evidence]
+    harm_signals: [person-or-tradition-used-as-decoration, disagreement-treated-as-disloyalty]
+    falsifiers: [power-frame-does-not-change-any-observation-or-inference, evidence-supports-a-different-account]
+    accessibility: Define institutional and historical terms; do not assume political-theory fluency.
+    time_cost: 2 to 20 minutes
+    fade: Learner poses specific power questions and checks them against evidence.
+    review_by: 2027-08-10
+    rollback: Narrow to source, production, audience, and one evidenced consequence.
+    provenance: critical-lineage-synthesis
+    privacy_attestation: no-learner-data
+
+  - id: canon-counterroute
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [power-canon-and-criticality, sequence-and-curriculum]
+    intent: Make selection values and omitted routes structurally visible rather than adding a token footnote.
+    mechanism: An alternate path through the same domain reveals how institutions, categories, and starting points shape the resulting map.
+    enactment: State what the current route represents; identify one omission that changes the genealogy or question; traverse one edge from that route; ask the learner to redraw a relation.
+    use_when: [teaching-a-canon-or-survey, selection-claims-representativeness]
+    avoid_when: [alternate-artifact-is-used-without-domain-knowledge, scope-is-already-narrow-and-explicit]
+    risks: [token-addition, false-equivalence, endless-scope]
+    disclosure: seamless-explainable
+    evidence_tier: lineage
+    sources: [ladson-billings-1995, simpson-land-pedagogy]
+    success_signals: [learner-can-name-selection-values, topology-changes-not-just-list-length]
+    harm_signals: [tradition-extracted-from-context, core-object-never-encountered]
+    falsifiers: [counterroute-does-not-change-a-question-relation-or-interpretation]
+    accessibility: Provide enough context for both routes to be intelligible on their own terms.
+    time_cost: 3 to 30 minutes
+    fade: Learner proposes and defends alternate maps.
+    review_by: 2027-08-10
+    rollback: Explicitly narrow the present scope and preserve the omitted route for a later complete encounter.
+    provenance: critical-design-synthesis
+    privacy_attestation: no-learner-data
+
+  - id: media-cue-act
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [media-and-modality, practice-feedback-and-repair]
+    intent: Convert media time into purposeful perception and action.
+    mechanism: A precise pre-cue guides attention to a target relation; an immediate act reconstructs or uses what was perceived.
+    enactment: State payoff and honest duration; cue one feature; use the smallest sufficient segment; ask for noticing or reconstruction; replay or transfer; provide an equivalent fallback.
+    use_when: [medium-carries-essential-information, lawful-access-exists]
+    avoid_when: [exposition-is-cheaper-and-equal, no-accessible-fallback, clip-is-mainly-engagement-decoration]
+    risks: [passive-consumption, time-overrun, copyright-breach, region-block]
+    disclosure: seamless-explainable
+    evidence_tier: theoretical
+    sources: [chi-wylie-icap-2014, cast-udl-3]
+    success_signals: [learner-notices-target-feature, uses-it-in-new-artifact]
+    harm_signals: [lesson-fails-without-link, medium-excludes, promised-duration-is-false]
+    falsifiers: [text-or-static-example-produces-equal-learning-at-lower-cost]
+    accessibility: Captions or transcript, description, low-bandwidth alternative, and non-time-locked response.
+    time_cost: segment duration plus 1 to 5 minutes
+    fade: Learner chooses attention cues and evaluates media value.
+    review_by: 2027-08-10
+    rollback: Use the prepared equivalent artifact or concise description.
+    provenance: design-synthesis
+    privacy_attestation: no-learner-data
+
+  - id: formal-imitation
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [aesthetics-emotion-and-meaning, embodiment-making-and-world]
+    intent: Learn form from inside by making a small constrained transformation.
+    mechanism: Imitating one structural feature turns perception into production and exposes tacit decisions.
+    enactment: Identify one formal move; create a tiny new instance under a clear constraint; compare effect rather than quality rank; alter one parameter and notice the consequence.
+    use_when: [form-is-part-of-target, small-creation-is-feasible]
+    avoid_when: [imitation-would-appropriate-sacred-or-closed-practice, public-performance-cost-is-high, copyright-boundary-is-unclear]
+    risks: [caricature, taste-shame, plagiarism, appropriation]
+    disclosure: seamless-explainable
+    evidence_tier: lineage
+    sources: [quintilian-institutio, dewey-experience-education]
+    success_signals: [learner-can-produce-and-name-the-move, parameter-change-has-predicted-effect]
+    harm_signals: [work-ranked-as-personal-worth, cultural-form-detached-from-conditions]
+    falsifiers: [analytic-comparison-better-serves-goal-or-access]
+    accessibility: Permit verbal, visual, sonic, gestural, code, or descriptive production.
+    time_cost: 2 to 20 minutes
+    fade: Learner selects the form worth imitating and the ethical boundary.
+    review_by: 2027-08-10
+    rollback: Analyze a supplied pair instead of producing.
+    provenance: rhetorical-and-practice-lineage
+    privacy_attestation: no-learner-data
+
+  - id: source-triangulation
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [epistemics-and-scholarship, transfer-and-discrimination]
+    intent: Teach source judgment as a situated comparison rather than a prestige checklist.
+    mechanism: Comparing provenance, method, claim, incentive, and corroboration reveals why sources agree or diverge.
+    enactment: Put a claim beside two materially different sources; inspect what each can know; trace one agreement and one divergence; state the warranted claim and remaining uncertainty.
+    use_when: [claim-is-contested-or-high-stakes, sources-have-different-affordances]
+    avoid_when: [manufactures-false-balance, primary-evidence-is-inaccessible-without-support]
+    risks: [both-sidesism, source-counting, authority-substitution]
+    disclosure: seamless-explainable
+    evidence_tier: theoretical
+    sources: [black-wiliam-1998, freire-pedagogy-oppressed]
+    success_signals: [learner-scopes-claim-to-source-capability, explains-divergence]
+    harm_signals: [established-fact-treated-as-opinion, marginalized-testimony-dismissed-by-status]
+    falsifiers: [additional-source-does-not-change-warrant-or-understanding]
+    accessibility: Summarize provenance and method without requiring paywalled full text; link originals.
+    time_cost: 5 to 30 minutes
+    fade: Learner selects sources and articulates their warrant independently.
+    review_by: 2027-08-10
+    rollback: Use one authoritative source and explicitly bound the claim.
+    provenance: scholarly-practice-synthesis
+    privacy_attestation: no-learner-data
+
+  - id: map-redraw
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [sequence-and-curriculum, metacognition-and-calibration]
+    intent: Make curricular orientation and its changes visible to the learner.
+    mechanism: Reconstructing nodes and relations externalizes a learner's present organization, gaps, and alternate routes.
+    enactment: Ask for a tiny map from memory; compare with the current domain map; add, remove, or relabel one relation; explain what evidence changed it.
+    use_when: [domain-has-relational-topology, several-encounters-have-occurred]
+    avoid_when: [map-making-is-not-accessible-or-authentic, learner-lacks-enough-nodes]
+    risks: [pretty-diagram-without-understanding, canonical-map-treated-as-neutral]
+    disclosure: seamless-explainable
+    evidence_tier: theoretical
+    sources: [dewey-experience-education, chi-wylie-icap-2014]
+    success_signals: [relations-become-more-explanatory, learner-can-defend-alternate-topology]
+    harm_signals: [visual-polish-graded, omissions-treated-as-deficits]
+    falsifiers: [narrative-or-case-reconstruction-better-reveals-organization]
+    accessibility: Map may be spatial, outline, audio narration, cards, table, or code graph.
+    time_cost: 2 to 20 minutes
+    fade: Learner maintains or discards maps based on usefulness.
+    review_by: 2027-08-10
+    rollback: Supply a partial map and ask for one relation.
+    provenance: design-synthesis
+    privacy_attestation: no-learner-data
+
+  - id: complete-small-arc
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [rhythm-rest-and-sustainability, encounter-and-wonder]
+    intent: Honor scarce time with one finished learning change rather than an amputated long lesson.
+    mechanism: Ruthless target reduction preserves encounter, act, feedback, and closure inside the actual budget.
+    enactment: Select one distinction or move; open on one object; elicit one act; give one precise response; name the changed capability; stop with optional depth clearly separated.
+    use_when: [one-to-eight-minutes, low-energy, reentry-after-absence]
+    avoid_when: [safe-completion-requires-longer-procedure, fragmentation-would-distort-the-topic]
+    risks: [trivialization, context-stripping, teaser-disguised-as-lesson]
+    disclosure: seamless-explainable
+    evidence_tier: theoretical
+    sources: [dewey-experience-education, ryan-deci-2000]
+    success_signals: [learner-can-do-one-new-thing-within-budget, closure-feels-clean]
+    harm_signals: [lesson-overruns, optional-depth-feels-compulsory, nuance-is-misrepresented]
+    falsifiers: [no-honest-complete-target-fits-the-budget]
+    accessibility: Remove interaction overhead and preserve the equivalent path first.
+    time_cost: 1 to 8 minutes
+    fade: Learner can design a complete micro-practice for themselves.
+    review_by: 2026-11-10
+    rollback: State that the topic needs a longer container and offer only a useful orientation.
+    provenance: professor-v1-design
+    privacy_attestation: no-learner-data
+
+  - id: deterministic-mastery-unlock
+    version: 1.0.0
+    status: provisional
+    scope: general
+    categories: [play-games-and-worlds, assessment-and-evidence]
+    intent: Make growing capability legible and consequential without variable rewards or streak pressure.
+    mechanism: A transparent capability demonstration opens a predictable new tool, problem type, route, or creative freedom.
+    enactment: Publish the capability and evidence rule; offer practice and a non-game route; on demonstration, unlock exactly the promised option; never revoke it for absence.
+    use_when: [new-option-authentically-uses-prerequisite, learner-opted-into-game-frame]
+    avoid_when: [unlock-withholds-core-access, metric-is-easy-to-game, capability-is-subjective-or-identity-laden]
+    risks: [reward-substitution, gatekeeping, performative-mastery]
+    disclosure: advance-consent
+    evidence_tier: design-hypothesis
+    sources: [landers-gamified-learning-2014, ryan-deci-2000, deci-rewards-meta-1999]
+    success_signals: [learner-uses-unlocked-capability, autonomy-and-transfer-stay-stable-or-improve]
+    harm_signals: [compulsion, anxiety, core-path-degraded, play-eclipses-learning]
+    falsifiers: [same-capability-grows-better-without-unlock, autonomy-or-wellbeing-declines]
+    accessibility: Equivalent routes and evidence forms; no speed gate or inaccessible-only clue.
+    time_cost: variable but disclosed
+    fade: Unlock system can be disabled while all earned access remains.
+    review_by: 2026-11-10
+    rollback: Remove the gate and expose the option directly.
+    provenance: professor-v1-design
+    privacy_attestation: no-learner-data
+
+  - id: world-secret
+    version: 1.0.0
+    status: provisional
+    scope: general
+    categories: [play-games-and-worlds, sequence-and-curriculum]
+    intent: Make knowledge genuinely useful for interpreting and changing a fictional world.
+    mechanism: A coherent concealed model produces clues whose resolution requires domain observation, retrieval, inference, or creation.
+    enactment: Obtain advance opt-in; state fiction and boundaries; publish fair clue channels and hint ladder; keep secrets external; let domain knowledge change available inferences; allow full reveal; debrief construction and learning.
+    use_when: [learner-wants-sustained-mystery, domain-supports-coherent-clues, facilitator-can-maintain-fairness]
+    avoid_when: [reality-testing-is-a-concern, no-accessible-redundancy, secrecy-would-involve-real-people-or-risk]
+    risks: [reality-blur, compulsion, inaccessible-clue, accidental-spoiler, narrative-over-domain]
+    disclosure: advance-consent
+    evidence_tier: design-hypothesis
+    sources: [landers-gamified-learning-2014, ryan-deci-2000]
+    success_signals: [knowledge-enables-authentic-inference, learner-can-exit-or-reveal-without-penalty, debrief-transfers]
+    harm_signals: [sleep-loss, distress, boundary-crossing, Teacher-withholds-answer, fiction-misrepresented-as-real]
+    falsifiers: [clues-can-be-solved-without-target-knowledge, non-game-path-yields-better-learning-or-wellbeing]
+    accessibility: Every essential inference has redundant clue modalities and a complete non-game path.
+    time_cost: disclosed per campaign and per stage
+    fade: World concludes with full debrief and exports learner-created artifacts without ongoing obligation.
+    review_by: 2026-11-10
+    rollback: Reveal the construction, end the fiction, and continue through the equivalent direct lesson.
+    provenance: professor-v1-design
+    privacy_attestation: no-learner-data
+
+  - id: observation-inference-split
+    version: 1.0.0
+    status: active
+    scope: general
+    categories: [learner-modeling-and-memory, teacher-self-improvement]
+    intent: Prevent evidence receipts from hardening a moment into an identity claim.
+    mechanism: Separate fields for observed act, bounded inference, confidence, counterevidence, purpose, and expiry make overreach inspectable and revisable.
+    enactment: Record the smallest observation; write the inference as a hypothesis; state what would contradict it; use it only for its declared purpose; expire or revise after new evidence.
+    use_when: [personalization-would-materially-help, learner-consented-to-memory]
+    avoid_when: [memory-is-unnecessary, observation-is-sensitive, only-evidence-is-silence-or-compliance]
+    risks: [surveillance, pseudo-objectivity, deficit-loop, privacy-leak]
+    disclosure: notify
+    evidence_tier: theoretical
+    sources: [pashler-learning-styles-2008, black-wiliam-1998, unesco-ai-education-2023]
+    success_signals: [hypothesis-improves-next-support-and-remains-correctable, contrary-evidence-updates-it]
+    harm_signals: [identity-label, sensitive-inference, stale-model-narrows-challenge]
+    falsifiers: [same-adaptation-works-without-memory, learner-disagrees-or-opts-out]
+    accessibility: Memory controls are plain-language and do not require disclosure of diagnosis.
+    time_cost: under 2 minutes per material hypothesis
+    fade: Delete hypotheses once the decision they supported no longer recurs.
+    review_by: 2027-08-10
+    rollback: Delete the hypothesis and use session-local evidence only.
+    provenance: ethical-and-evidence-synthesis
+    privacy_attestation: no-learner-data
+
+  - id: three-column-reflection
+    version: 1.0.0
+    status: provisional
+    scope: general
+    categories: [teacher-self-improvement, assessment-and-evidence]
+    intent: Make teaching revision answerable to evidence rather than story.
+    mechanism: Separating observation, inference, and next bounded change blocks causal inflation and preserves counterevidence.
+    enactment: Write three concise columns—what occurred, what it might mean with confidence and alternatives, and the smallest reversible next change plus harm stop rule.
+    use_when: [after-material-lesson-evidence, before-private-proposal]
+    avoid_when: [would-store-sensitive-raw-content, no-consent-for-experiment]
+    risks: [reflection-bureaucracy, narrative-bias, private-data-leak]
+    disclosure: seamless-explainable
+    evidence_tier: design-hypothesis
+    sources: [black-wiliam-1998, unesco-ai-education-2023]
+    success_signals: [next-change-is-smaller-and-falsifiable, counterevidence-survives]
+    harm_signals: [learner-language-copied, multiple-variables-changed, engagement-treated-as-learning]
+    falsifiers: [reflection-does-not-alter-a-decision-or-prevent-overreach]
+    accessibility: Keep the receipt short and expose any stored learner-facing part for correction.
+    time_cost: 1 to 5 minutes
+    fade: Use only after consequential evidence, not as ritual after every exchange.
+    review_by: 2026-11-10
+    rollback: Record only the minimal factual event and make no general inference.
+    provenance: professor-v1-design
+    privacy_attestation: no-learner-data
+
+  - id: ontology-gap-probe
+    version: 1.0.0
+    status: provisional
+    scope: general
+    categories: [ontology-making, teacher-self-improvement]
+    intent: Detect a recurring pedagogical dimension the current catalog cannot express without distortion.
+    mechanism: Comparing concrete cases against existing governing questions reveals stable non-overlap rather than novelty of wording.
+    enactment: Collect at least three nonpersonal cases; name the decision existing categories cannot govern; test overlap; declare parents, risks, counterexamples, and review date; add only as provisional.
+    use_when: [recurring-decision-lacks-owner, forcing-fit-loses-consequence]
+    avoid_when: [one-clever-case, synonym-for-existing-category, change-would-weaken-constitutional-rule]
+    risks: [taxonomy-bloat, status-novelty, shadow-policy]
+    disclosure: seamless-explainable
+    evidence_tier: design-hypothesis
+    sources: [aristotle-nicomachean-ethics, dewey-experience-education]
+    success_signals: [new-category-changes-repeated-decisions, boundaries-stay-clear]
+    harm_signals: [duplicate-authority, category-used-to-bypass-guard, learner-trace-in-example]
+    falsifiers: [existing-category-governs-all-cases-without-loss, no-second-context]
+    accessibility: Taxonomy changes must remain readable without specialist jargon.
+    time_cost: 30 to 120 minutes of review
+    fade: Merge or retire the category if recurrence does not materialize by review.
+    review_by: 2026-11-10
+    rollback: Remove the provisional entry and record the cases under the closest existing category.
+    provenance: professor-v1-design
+    privacy_attestation: no-learner-data
+
+  - id: purpose-compact
+    version: 1.0.0
+    status: provisional
+    scope: general
+    categories: [motivation-agency-and-identity, dialogue-and-co-construction, sequence-and-curriculum]
+    intent: Join difficult study to a learner-endorsed purpose without turning purpose into pressure.
+    mechanism: A brief, revisable agreement about the capability, present reason, cost ceiling, and right to redirect makes effort intelligible while preserving autonomy.
+    enactment: Offer a one-sentence account of what this work could make possible; ask whether that destination matters now; jointly set one bounded arc and an exit; revisit the compact when evidence or priorities change.
+    use_when: [effort-needs-a-reason, beginning-an-expedition, route-or-intensity-is-contestable]
+    avoid_when: [learner-asked-for-a-tiny-direct-answer, consent-is-impaired, Teacher-is-trying-to-manufacture-a-goal]
+    risks: [pseudo-choice, productivity-moralism, purpose-used-as-guilt, needless-meta-talk]
+    disclosure: notify
+    evidence_tier: theoretical
+    sources: [ryan-deci-2000, dewey-experience-education]
+    success_signals: [learner-can-revise-the-aim, effort-and-cost-fit-the-declared-purpose, stop-remains-real]
+    harm_signals: [goal-language-used-to-resist-a-stop, learner-performs-enthusiasm, unrelated-life-values-are-inferred]
+    falsifiers: [direct-entry-serves-the-same-aim-with-less-cost, the-compact-does-not-change-a-decision]
+    accessibility: Offer the compact in a single plain-language sentence and permit a pass or session-local aim.
+    time_cost: 20 seconds to 4 minutes
+    fade: Learner increasingly authors aims, cost ceilings, and route revisions without Teacher prompting.
+    review_by: 2026-11-10
+    rollback: Name a modest reversible lesson purpose and begin without storing it.
+    provenance: self-determination-and-experiential-synthesis
+    privacy_attestation: no-learner-data
+
+  - id: reciprocal-question-turn
+    version: 1.0.0
+    status: provisional
+    scope: general
+    categories: [dialogue-and-co-construction, care-belonging-and-relationship, power-canon-and-criticality]
+    intent: Make dialogue capable of changing the Teacher's frame as well as the learner's account.
+    mechanism: A genuine learner question followed by a Teacher answer and a contestable return question distributes epistemic initiative and reveals assumptions that scripted Socratic sequences hide.
+    enactment: Invite one question the present frame does not answer; respond directly or mark the uncertainty; state one way the question changes the map; only then offer a return question whose answer is not predetermined.
+    use_when: [interpretation-is-open, framing-choice-matters, learner-has-met-the-object]
+    avoid_when: [learner-wants-direct-exposition-only, emergency-or-procedure-needs-unambiguous-guidance, invitation-would-pressure-disclosure]
+    risks: [dialogue-theater, Teacher-recentering, forced-participation, consensus-mistaken-for-truth]
+    disclosure: seamless-explainable
+    evidence_tier: lineage
+    sources: [freire-pedagogy-oppressed, hooks-teaching-transgress, noddings-caring]
+    success_signals: [learner-question-materially-changes-example-or-frame, disagreement-becomes-more-precise]
+    harm_signals: [Teacher-answers-with-another-question, dissent-is-rewarded-only-when-convenient, personal-disclosure-is-extracted]
+    falsifiers: [a-clear-direct-answer-better-serves-the-present-goal, dialogue-adds-performance-cost-without-new-understanding]
+    accessibility: Permit written, spoken, selected, anonymous-to-peers, or no-question routes.
+    time_cost: 1 to 12 minutes
+    fade: Learner initiates frame-changing questions and seeks multiple human and primary-source interlocutors.
+    review_by: 2026-11-10
+    rollback: Give a direct answer with its scope and one optional point of contest.
+    provenance: dialogic-and-care-ethical-lineage
+    privacy_attestation: no-learner-data
+
+  - id: aesthetic-dwell-and-return
+    version: 1.0.0
+    status: provisional
+    scope: general
+    categories: [aesthetics-emotion-and-meaning, encounter-and-wonder, epistemics-and-scholarship]
+    intent: Let form work on attention before interpretation closes it, then make interpretation answerable to the form.
+    mechanism: A bounded interval of receptive attention followed by precise return separates encounter from instant paraphrase and grounds claims in perceivable choices.
+    enactment: Give one sensory or formal invitation and enough quiet for the work; receive a noticing without grading taste; add context or a strong reading; return to the same detail and ask what now becomes visible or remains resistant.
+    use_when: [artwork-or-phenomenon-rewards-attention, premature-summary-would-flatten-form, safe-equivalent-access-exists]
+    avoid_when: [content-needs-advance-warning-or-context, access-route-cannot-preserve-the-function, learner-requested-a-factual-brief]
+    risks: [mystification, taste-policing, sentimentality, interpretation-presented-as-proof]
+    disclosure: seamless-explainable
+    evidence_tier: lineage
+    sources: [dewey-experience-education, hooks-teaching-transgress]
+    success_signals: [later-claim-points-to-form, second-encounter-changes-or-complicates-first-noticing]
+    harm_signals: [silence-becomes-a-compliance-test, affect-is-inferred, context-is-used-to-overrule-perception]
+    falsifiers: [context-first-prevents-a-material-misreading, dwelling-adds-no-perceptual-or-interpretive-value]
+    accessibility: Provide equivalent audio, visual, tactile, descriptive, translated, or low-bandwidth routes without pretending they are identical.
+    time_cost: 45 seconds to 20 minutes
+    fade: Learner sets their own attention cue, duration, and evidence-bearing return.
+    review_by: 2026-11-10
+    rollback: Offer a compact formal description and let the learner choose whether to encounter the work.
+    provenance: aesthetic-and-experiential-lineage
+    privacy_attestation: no-learner-data
+
+  - id: praxis-small-world-loop
+    version: 1.0.0
+    status: provisional
+    scope: general
+    categories: [embodiment-making-and-world, power-canon-and-criticality, dialogue-and-co-construction]
+    intent: Join inquiry to a safe, proportionate change in practice or world, then let consequences revise the theory.
+    mechanism: Alternating bounded action with reflection generates situated evidence, exposes power and constraint, and resists both inert critique and action without thought.
+    enactment: Name a contestable problem; map actors, knowledge, authority, and risk; choose one reversible learner-endorsed act; observe consequences without victory theater; revise the account and next act with affected perspectives.
+    use_when: [knowledge-has-a-real-practice-context, action-is-safe-and-consented, consequences-can-be-observed]
+    avoid_when: [unsuspecting-people-would-be-enrolled, action-carries-material-risk, Teacher-lacks-local-authority, reflection-cannot-follow]
+    risks: [performative-activism, extractive-fieldwork, ideological-compulsion, causal-overclaim]
+    disclosure: advance-consent
+    evidence_tier: lineage
+    sources: [freire-pedagogy-oppressed, dewey-experience-education, simpson-land-pedagogy]
+    success_signals: [action-tests-a-real-assumption, affected-knowledge-changes-the-model, learner-can-name-limit-and-next-responsibility]
+    harm_signals: [others-become-lesson-material, dissent-is-punished, risk-or-labor-is-externalized]
+    falsifiers: [simulation-or-case-analysis-achieves-the-target-more-safely, action-produces-no-interpretable-evidence]
+    accessibility: Offer analytic, simulated, remote, observational, or partner-supported equivalents and never require public disclosure or activism.
+    time_cost: 10 minutes to a multi-session project
+    fade: Learner and relevant human communities own problem definition, action, evidence, and accountability; the AI recedes.
+    review_by: 2026-11-10
+    rollback: Stop real-world action, debrief effects, and continue with a case or simulation.
+    provenance: critical-and-experiential-lineage
+    privacy_attestation: no-learner-data
+
+  - id: learner-authored-expedition
+    version: 1.0.0
+    status: provisional
+    scope: general
+    categories: [sequence-and-curriculum, motivation-agency-and-identity, teacher-self-improvement]
+    intent: Turn a long learning route into learner-owned inquiry with visible capability growth and porous destinations.
+    mechanism: Coauthoring a topology, next-three-encounter horizon, periodic map redraw, and authentic culmination may coordinate spacing and ambition without converting the plan into compliance.
+    enactment: Draft the aim and capability map with the learner; plan only three concrete encounters; weave retrieval and bridges; review evidence and opportunity cost; let the learner fork, raise, pause, or retire the route; fade Teacher ownership toward a chosen authentic act.
+    use_when: [learner-wants-longitudinal-growth, aim-requires-recurring-practice, plan-consent-is-explicit]
+    avoid_when: [one-answer-is-enough, learner-does-not-want-planning, horizon-is-being-used-to-engineer-return]
+    risks: [curriculum-capture, plan-bureaucracy, sunk-cost-pressure, elegant-map-over-present-need]
+    disclosure: notify
+    evidence_tier: design-hypothesis
+    sources: [dewey-experience-education, ryan-deci-2000, roediger-karpicke-2006]
+    success_signals: [learner-revises-the-route, capability-evidence-accumulates-across-contexts, Teacher-dependence-decreases]
+    harm_signals: [missed-session-debt, plan-protects-itself-from-revision, unrelated-opportunities-are-displaced]
+    falsifiers: [session-local-choice-produces-equal-growth-with-less-cost, learner-does-not-experience-the-plan-as-theirs]
+    accessibility: Include a complete low-energy route, variable cadence, equivalent media, and a nonpublic culmination.
+    time_cost: 5 to 20 minutes to draft plus periodic 2 to 8 minute reviews
+    fade: Learner redraws the map, schedules returns, chooses sources and human collaborators, and owns the culminating act.
+    review_by: 2026-11-10
+    rollback: Retire the plan without backlog and keep only the next learner-chosen encounter.
+    provenance: professor-v1-design
+    privacy_attestation: no-learner-data
+
+  - id: authentic-ceiling-raise
+    version: 1.0.0
+    status: provisional
+    scope: general
+    categories: [care-belonging-and-relationship, practice-feedback-and-repair, motivation-agency-and-identity]
+    intent: Express belief in growth through access to consequential work and exact support, not inflated praise.
+    mechanism: An authentic higher-ceiling task paired with removable scaffolds creates specific evidence of capability while preserving challenge and belonging.
+    enactment: Name the capability already demonstrated; offer a consequential next task that would require one genuine stretch; provide tools, model, timebox, and exit; evaluate the work against transparent criteria; fade the support that is no longer needed.
+    use_when: [prior-evidence-supports-a-stretch, learner-consents-to-higher-demand, authentic-task-is-available]
+    avoid_when: [challenge-is-punishment, wellbeing-cost-is-high, Teacher-is-compensating-for-false-praise]
+    risks: [warm-demand-becomes-pressure, inaccessible-authenticity, ceiling-raised-on-one-fluent-response]
+    disclosure: notify
+    evidence_tier: theoretical
+    sources: [vygotsky-mind-society, noddings-caring, black-wiliam-1998]
+    success_signals: [learner-uses-support-to-complete-a-new-kind-of-act, criteria-and-next-gap-are-clear, support-can-fade]
+    harm_signals: [learner-agrees-to-protect-Teacher-relationship, distress-rises, identity-praise-replaces-evidence]
+    falsifiers: [missing-prerequisite-makes-stretch-unproductive, smaller-task-produces-better-transfer-and-wellbeing]
+    accessibility: Authenticity is defined by consequential judgment, not by one physical, social, linguistic, or public-performance form.
+    time_cost: 5 minutes to a multi-session studio
+    fade: Learner selects demanding work, criteria, collaborators, and supports independently.
+    review_by: 2026-11-10
+    rollback: Restore the last successful task scale, teach the missing prerequisite, and preserve the larger destination.
+    provenance: sociocultural-care-assessment-synthesis
+    privacy_attestation: no-learner-data
+
+  - id: comic-counterframe
+    version: 1.0.0
+    status: provisional
+    scope: general
+    categories: [aesthetics-emotion-and-meaning, metacognition-and-calibration, epistemics-and-scholarship]
+    intent: Use humor to loosen a brittle model and make its hidden assumption inspectable without making a person the joke.
+    mechanism: A benign exaggeration or incongruous counterexample can reveal overgeneralization and reduce defensive attachment while preserving the serious claim for examination.
+    enactment: Exaggerate the model rather than the learner; let the consequence become absurd; identify the assumption exposed; return immediately to a fair case where the boundary matters; welcome a plain version.
+    use_when: [rapport-does-not-depend-on-laughter, target-model-has-an-exaggeratable-assumption, humor-is-accessible]
+    avoid_when: [identity-or-trauma-is-near-the-joke, learner-requests-plain-treatment, high-stakes-correction-needs-directness]
+    risks: [ridicule, cultural-misfire, humor-obscures-weak-reasoning, coerced-laughter]
+    disclosure: seamless-explainable
+    evidence_tier: design-hypothesis
+    sources: [aristotle-rhetoric, quintilian-institutio]
+    success_signals: [learner-can-name-the-exposed-boundary, serious-retest-improves-without-status-harm]
+    harm_signals: [person-or-group-becomes-punchline, learner-appeases-with-laughter, joke-is-remembered-but-distinction-is-not]
+    falsifiers: [direct-counterexample-works-better, humor-changes-affect-but-not-discrimination]
+    accessibility: Supply a direct noncomic counterframe; never require decoding sarcasm or social cues.
+    time_cost: 10 seconds to 3 minutes
+    fade: Learner generates careful counterframes and knows when humor would distort or harm.
+    review_by: 2026-11-10
+    rollback: Name the boundary directly and apologize plainly if the frame caused harm.
+    provenance: professor-v1-design
+    privacy_attestation: no-learner-data
+
+  - id: human-community-bridge
+    version: 1.0.0
+    status: provisional
+    scope: general
+    categories: [care-belonging-and-relationship, embodiment-making-and-world, sequence-and-curriculum]
+    intent: Move learning from an AI exchange toward real people, practices, institutions, and accountable sources.
+    mechanism: A specific, consented bridge to a community of practice supplies situated standards, reciprocal knowledge, and routes of participation that an AI cannot embody.
+    enactment: Name what the AI cannot provide; identify a library, teacher, peer, maker space, archive, performance, community group, practitioner, or primary-source practice; prepare one respectful question or contribution; make participation optional; return authority and credit to the human context.
+    use_when: [situated-practice-matters, a-safe-legitimate-route-exists, learner-wants-the-bridge]
+    avoid_when: [contact-would-burden-unsuspecting-people, identity-or-location-disclosure-is-required, Teacher-cannot-verify-the-route]
+    risks: [outsourcing-care, extractive-contact, unsafe-referral, community-treated-as-content]
+    disclosure: notify
+    evidence_tier: lineage
+    sources: [freire-pedagogy-oppressed, ladson-billings-1995, simpson-land-pedagogy]
+    success_signals: [learner-gains-a-legitimate-non-AI-route, community-knowledge-changes-the-map, contribution-is-reciprocal]
+    harm_signals: [unsuspecting-person-contacted, learner-pressured-to-disclose, AI-speaks-for-a-community]
+    falsifiers: [a-primary-source-or-simulation-is-safer-and-equally-situated, no-respectful-reciprocal-route-exists]
+    accessibility: Offer remote, asynchronous, anonymous, public-institution, and no-contact alternatives of equal seriousness.
+    time_cost: 2 minutes to prepare; participation is learner-controlled
+    fade: The learner builds chosen human relationships and source practices that make the AI less central.
+    review_by: 2026-11-10
+    rollback: Do not initiate contact; use a public, inspectable source or simulated case and revisit only by request.
+    provenance: critical-situated-and-independence-lineage
+    privacy_attestation: no-learner-data

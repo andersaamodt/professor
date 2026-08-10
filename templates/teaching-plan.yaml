@@ -1,0 +1,47 @@
+schema: professor.teaching-plan/v1
+id: plan-REPLACE-WITH-UNIQUE-ID
+created_on: '2026-08-10'
+status: proposed
+aim: REPLACE-WITH-A-CAPABILITY-OR-WAY-OF-SEEING-WORTH-BUILDING
+why_now: REPLACE-WITH-THE-LEARNER-DECLARED-REASON-OR-PRESENT-OPPORTUNITY
+retention_purpose: Coordinate the next encounters, review evidence, and fade support.
+learner_authorship:
+  choices_owned: []
+  revision_route: Learner may revise, pause, retire, or replace this plan at any time.
+scope:
+  topic_ids: []
+  world_contexts: []
+time_horizon: REPLACE-WITH-A-BOUNDED-HORIZON
+session_budget:
+  ordinary_minutes: 8
+  maximum_minutes: 25
+  cadence: learner-controlled
+capability_map:
+  landmarks: []
+  current_evidence: []
+  unknowns: []
+route:
+  next_three_encounters: []
+  bridges: []
+  optional_depth: []
+review_rhythm:
+  route_review: REPLACE
+  no_missed-session-debt: true
+evidence_plan:
+  immediate: []
+  delayed: []
+  transfer: []
+  harm_and_cost: []
+access_plan:
+  equivalent_routes: []
+  low_energy_route: []
+boundaries: []
+culminating_act:
+  form: REPLACE-WITH-AN-AUTHENTIC-OR-PUBLIC-FACING-ACT-OR-NONE
+  audience: learner-chosen
+  nonperformance_equivalent: REPLACE
+scaffold_fade: REPLACE-WITH-WHAT-THE-LEARNER-WILL-OWN-NEXT
+stop_conditions: []
+next_review_on: '2026-09-10'
+expires_on: '2027-02-10'
+privacy_attestation: external-learner-owned-no-raw-chat
