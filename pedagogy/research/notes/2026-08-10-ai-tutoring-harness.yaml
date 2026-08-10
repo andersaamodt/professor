@@ -1,0 +1,117 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: ai-tutoring-harness-2026-08-10
+title: The instructional harness matters more than model presence
+status: working
+created_on: 2026-08-10
+updated_on: 2026-08-10
+question_ids: [ai-scaffolding-independent-learning, assessment-and-authorship-under-ai]
+scope: >-
+  A targeted horizon scan of recent evidence on structured generative-AI
+  tutoring, assisted performance, and independent learning. This is not a
+  systematic review.
+method:
+  search_date: 2026-08-10
+  approach: Targeted searches of official journal and DOI records, followed by claim-level comparison with Professor's existing policies.
+  inclusion: Recent empirical or synthesis work that distinguishes an instructional design, learning outcome, or assisted-versus-independent performance.
+  exclusions: Product testimonials, unsourced commentary, engagement-only claims, and studies whose educational intervention could not be identified.
+  limitations: English-language web discovery; one paper was partially read and the remaining sources were screened through abstracts or official records; the included works span different ages, domains, comparisons, and outcome timings.
+readings:
+  - id: kestin-2025-ai-tutor-rct
+    kind: randomized-crossover-study
+    citation: >-
+      Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025).
+      AI tutoring outperforms in-class active learning: an RCT introducing a
+      novel research-based design in an authentic educational setting.
+      Scientific Reports, 15, 17458.
+    url: https://www.nature.com/articles/s41598-025-97652-6
+    publication_date: 2025-06-03
+    accessed_on: 2026-08-10
+    reading_level: partially-read
+    population_context: 194 students in one introductory undergraduate physics course at Harvard, across two lessons in a crossover design.
+    design: A structured custom AI tutor was compared with an active-learning class using the same lesson content; immediate post-tests and experience ratings were measured.
+    finding: The AI-tutor condition produced higher immediate post-test performance with lower median time on task; the system used content-rich prompts, sequenced problems, worked answers, feedback, and self-pacing.
+    limits: The abstract, methods, results, and design discussion were inspected, not every section and supplement. Two physics lessons, immediate outcomes, one institution, unequal social settings, and a compound tutor design do not isolate which component caused the result or establish delayed transfer or superiority to human tutoring.
+
+  - id: bastani-2025-guardrails
+    kind: field-experiment
+    citation: >-
+      Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R.
+      (2025). Generative AI without guardrails can harm learning: Evidence from
+      high school mathematics. Proceedings of the National Academy of Sciences,
+      122(26), e2422633122.
+    url: https://doi.org/10.1073/pnas.2422633122
+    publication_date: 2025-06-25
+    accessed_on: 2026-08-10
+    reading_level: abstract-and-official-record-screened
+    population_context: High-school mathematics classrooms using either unrestricted or pedagogically guarded generative-AI assistance.
+    design: Field comparison of practice performance with later independent performance after AI access was removed.
+    finding: The official record reports that design conditions mattered; unrestricted assistance could improve supported task performance while harming subsequent independent learning, whereas guardrails changed that pattern.
+    limits: Claims here are restricted to the official abstract and metadata; the full methods, subgroup results, correction, and implementation details require deep reading before any tactic-level revision.
+
+  - id: yan-2025-performance-learning
+    kind: scholarly-commentary
+    citation: Yan, L., Greiff, S., Lodge, J. M., & Gašević, D. (2025). Distinguishing performance gains from learning when using generative AI. Nature Reviews Psychology, 4, 435–436.
+    url: https://www.nature.com/articles/s44159-025-00467-5
+    publication_date: 2025-06-18
+    accessed_on: 2026-08-10
+    reading_level: abstract-and-reference-list-screened
+    population_context: Conceptual synthesis across emerging generative-AI learning research rather than one learner population.
+    design: Commentary distinguishing immediate assisted performance from the cognitive and metacognitive processing required for durable learning.
+    finding: The authors warn that performance gains under AI assistance do not by themselves demonstrate learning and connect the distinction to evidence on mental effort, agency, and over-reliance.
+    limits: Subscription access prevented a full-text reading; this source frames a problem and points to primary work but cannot establish an effect size or universal design rule.
+
+  - id: jurow-2025-healing-learning-sciences
+    kind: plenary-derived-theoretical-article
+    citation: Jurow, A. S., Mendoza, E., & Cortes, K. L. (2025). Can we design for healing in the learning sciences? Journal of the Learning Sciences, 34(2), 179–199.
+    url: https://doi.org/10.1080/10508406.2025.2506346
+    publication_date: 2025-05-28
+    accessed_on: 2026-08-10
+    reading_level: abstract-screened
+    population_context: Learning-sciences design considered through collective, ancestral, relational, healing, and social-change commitments.
+    design: Theoretical and practice-grounded article derived from an ISLS plenary, offering examples and emerging propositions rather than an intervention effect estimate.
+    finding: The article asks learning design to include healing, unlearning, relation, and social change among its purposes, widening what counts as a consequential pedagogical outcome.
+    limits: An abstract-level screen can only identify the agenda; responsible use requires full reading and engagement with the cited traditions rather than extracting a generic wellbeing technique.
+claims:
+  - id: structure-not-model-alone
+    statement: Recent evidence supports treating the instructional harness—sequencing, bounded help, feedback, active work, and independent checks—as a causal design object rather than attributing outcomes to generative AI in general.
+    confidence: medium
+    source_ids: [kestin-2025-ai-tutor-rct, bastani-2025-guardrails, yan-2025-performance-learning]
+    supports: Professor should continue to require an active learner move, bounded scaffolding, accurate feedback, and a later unassisted surface change.
+    tensions: The studies use different ages, domains, comparisons, tutor implementations, and outcome timings; model presence and instructional design are not cleanly separable across them.
+    boundary_conditions: The claim is about design attention, not a universal estimate of AI-tutor effectiveness.
+    does_not_license: Replacing teachers, claiming AI superiority across subjects, withholding requested answers, or forcing struggle in the name of independence.
+
+  - id: assisted-performance-is-not-learning
+    statement: Success while assistance is present is insufficient evidence of durable, independently available learning.
+    confidence: high
+    source_ids: [bastani-2025-guardrails, yan-2025-performance-learning, kestin-2025-ai-tutor-rct]
+    supports: Evaluation should include an optional delayed or changed-surface task without the same assistance when the learning claim matters.
+    tensions: Immediate performance can still be educationally useful, and demanding repeated proof can create time, access, or dignity costs.
+    boundary_conditions: The strength and delay of an independence check should match the claim, stakes, learner goal, and available time.
+    does_not_license: Treating tool use as cheating, erasing distributed cognition, or making every low-stakes encounter end in a test.
+
+  - id: learning-purpose-is-plural
+    statement: A research program focused only on score gains and efficiency will miss relational, cultural, healing, critical, and community purposes of education.
+    confidence: medium
+    source_ids: [jurow-2025-healing-learning-sciences]
+    supports: Horizon scans and evaluation should deliberately include work that contests the definition of the outcome, not only work that optimizes it.
+    tensions: Plural purposes still require specificity, evidence appropriate to the claim, and room for disagreement; they cannot become decorative moral language.
+    boundary_conditions: This is an agenda-setting interpretation requiring deeper reading across multiple traditions.
+    does_not_license: Claiming therapeutic authority, inferring trauma, imposing a political interpretation, or treating one tradition as interchangeable with another.
+implications:
+  - No active tack changes are warranted from this scan; Professor already encodes scaffolding, fading, transfer, agency, and multidimensional evaluation.
+  - Future AI-tutoring studies should be read for delayed independent outcomes, the exact control condition, tutor architecture, access costs, and who benefits or is excluded.
+  - A later synthesis should compare guarded assistance with learner-controlled direct answers, because guardrails can themselves become paternalistic.
+open_questions:
+  - Which kinds of help can remain available during transfer because they are authentic parts of expert practice?
+  - What evidence distinguishes productive self-pacing from quiet disengagement or inaccessible pacing demands?
+  - How do culturally situated, disabled-led, and community-defined accounts change what AI-tutor success means?
+  - Which tutor design components replicate across humanities, arts, procedural skills, and ill-structured judgment?
+next_actions:
+  - Deep-read the Bastani paper and its correction before deriving any implementation claim.
+  - Read the full Jurow, Mendoza, and Cortes article and follow its cited intellectual lineages without collapsing them into an effect intervention.
+  - Search for delayed-transfer and agency measures in 2025–2026 AI-tutoring studies, including null and adverse results.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted

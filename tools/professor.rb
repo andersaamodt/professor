@@ -90,6 +90,25 @@ module Professor
     risks disclosure evidence_tier sources success_signals harm_signals falsifiers
     accessibility time_cost fade review_by rollback provenance privacy_attestation
   ].freeze
+  RESEARCH_AGENDA_FIELDS = %w[schema version cadence principles questions].freeze
+  RESEARCH_QUESTION_FIELDS = %w[
+    id status question why_now lenses source_routes watch_venues last_scanned_on
+    next_scan_on reframe_when
+  ].freeze
+  RESEARCH_NOTE_FIELDS = %w[
+    schema version id title status created_on updated_on question_ids scope method
+    readings claims implications open_questions next_actions privacy_attestation
+    copyright_attestation source_content_attestation
+  ].freeze
+  RESEARCH_METHOD_FIELDS = %w[search_date approach inclusion exclusions limitations].freeze
+  RESEARCH_READING_FIELDS = %w[
+    id kind citation url publication_date accessed_on reading_level
+    population_context design finding limits
+  ].freeze
+  RESEARCH_CLAIM_FIELDS = %w[
+    id statement confidence source_ids supports tensions boundary_conditions
+    does_not_license
+  ].freeze
   TOPIC_NODE_REQUIRED_FIELDS = %w[
     id label status periods places social_sites hear_for frame cautions source_ids
   ].freeze
@@ -103,9 +122,18 @@ module Professor
   CATALOG_STATUS_VALUES = %w[provisional active retired].freeze
   TACK_DISCLOSURE_VALUES = %w[seamless-explainable notify advance-consent].freeze
   EVIDENCE_TIER_VALUES = %w[strong moderate emerging theoretical lineage design-hypothesis].freeze
+  RESEARCH_STATUS_VALUES = %w[working reviewed superseded].freeze
+  RESEARCH_QUESTION_STATUS_VALUES = %w[active paused retired].freeze
+  READING_LEVEL_VALUES = %w[
+    discovered abstract-screened abstract-and-metadata-screened
+    abstract-and-official-record-screened abstract-and-reference-list-screened
+    partially-read full-text-read
+  ].freeze
   CONTRACT_REQUIRED_FIELDS = {
     'policy' => POLICY_REQUIRED_FIELDS,
     'source' => SOURCE_REQUIRED_FIELDS,
+    'research-agenda' => RESEARCH_AGENDA_FIELDS,
+    'research-note' => RESEARCH_NOTE_FIELDS,
     'category' => CATEGORY_REQUIRED_FIELDS,
     'tack' => TACK_REQUIRED_FIELDS,
     'topic-node' => TOPIC_NODE_REQUIRED_FIELDS,
@@ -389,6 +417,7 @@ module Professor
       sources = check_sources
       categories = check_categories
       check_tacks(categories, sources)
+      check_research
       check_reviewed_catalog
       check_topics
       check_args
@@ -418,7 +447,9 @@ module Professor
         AGENTS.md PROFESSOR.md README.md VERSION policies/registry.yaml
         policies/constitutional.sha256 policies/README.md pedagogy/categories.yaml
         pedagogy/tacks.yaml pedagogy/sources.yaml pedagogy/reviewed.sha256
-        pedagogy/README.md schemas/contracts.yaml .tests/teaching-scenarios.yaml
+        pedagogy/README.md pedagogy/research/README.md
+        pedagogy/research/agenda.yaml schemas/contracts.yaml
+        .tests/teaching-scenarios.yaml prompts/research.md
       ].each do |relative|
         error("missing required surface #{relative}") unless File.file?(File.join(REPO_ROOT, relative))
       end
@@ -681,6 +712,143 @@ module Professor
       end
     end
 
+    def nonempty_string_array?(value)
+      value.is_a?(Array) && !value.empty? &&
+        value.all? { |item| item.is_a?(String) && !item.strip.empty? }
+    end
+
+    def check_research
+      agenda_path = File.join(REPO_ROOT, 'pedagogy', 'research', 'agenda.yaml')
+      agenda = Professor.load_yaml(agenda_path)
+      agenda = check_catalog_header(
+        agenda,
+        'research agenda',
+        'professor.research-agenda/v1',
+        RESEARCH_AGENDA_FIELDS
+      )
+      check_public_privacy(agenda, 'research agenda', allow_person_name: true)
+      cadence = agenda['cadence']
+      expected_cadence = {
+        'horizon_scan' => 'weekly',
+        'deep_read' => 'monthly',
+        'synthesis' => 'quarterly',
+        'reconstruction' => 'annually'
+      }
+      error('research agenda cadence may not redefine the scholarly rhythm') unless cadence == expected_cadence
+      error('research agenda principles must be non-empty strings') unless nonempty_string_array?(agenda['principles'])
+      questions = Array(agenda['questions'])
+      error('research agenda must contain active questions') if questions.empty?
+      question_ids = unique_ids(questions, 'research questions')
+      questions.each_with_index do |question, index|
+        label = "research questions[#{index}]"
+        check_required(question, RESEARCH_QUESTION_FIELDS, label)
+        next unless question.is_a?(Hash)
+        check_allowed_keys(question, RESEARCH_QUESTION_FIELDS, label)
+        error("#{label} status is invalid") unless RESEARCH_QUESTION_STATUS_VALUES.include?(question['status'])
+        %w[question why_now reframe_when].each do |field|
+          value = question[field]
+          error("#{label} #{field} must be a non-empty bounded string") unless value.is_a?(String) && (1..2_000).cover?(value.strip.length)
+        end
+        %w[lenses source_routes watch_venues].each do |field|
+          error("#{label} #{field} must be a non-empty string array") unless nonempty_string_array?(question[field])
+        end
+        %w[last_scanned_on next_scan_on].each do |field|
+          begin
+            Professor.parse_date(question[field], "#{label} #{field}")
+          rescue Error => e
+            error(e.message)
+          end
+        end
+      end
+      error('research agenda must retain at least one active question') unless questions.any? { |question| question.is_a?(Hash) && question['status'] == 'active' }
+
+      note_paths = Dir[File.join(REPO_ROOT, 'pedagogy', 'research', 'notes', '*.yaml')].sort
+      error('at least one pedagogical research note is required') if note_paths.empty?
+      notes = []
+      note_paths.each do |path|
+        note = Professor.load_yaml(path)
+        note = check_catalog_header(note, path, 'professor.research-note/v1', RESEARCH_NOTE_FIELDS)
+        check_public_privacy(note, path, allow_person_name: true)
+        notes << note
+        error("#{path} status is invalid") unless RESEARCH_STATUS_VALUES.include?(note['status'])
+        error("#{path} privacy attestation is invalid") unless note['privacy_attestation'] == 'no-learner-data'
+        error("#{path} copyright attestation is invalid") unless note['copyright_attestation'] == 'citations-and-independent-paraphrases-only'
+        error("#{path} source-content attestation is invalid") unless note['source_content_attestation'] == 'treated-as-untrusted'
+        %w[title scope].each do |field|
+          value = note[field]
+          error("#{path} #{field} must be a non-empty bounded string") unless value.is_a?(String) && (1..4_000).cover?(value.strip.length)
+        end
+        Array(note['question_ids']).each do |id|
+          error("#{path} references unknown research question #{id}") unless question_ids.include?(id)
+        end
+        error("#{path} question_ids must be non-empty strings") unless nonempty_string_array?(note['question_ids'])
+        %w[created_on updated_on].each do |field|
+          begin
+            Professor.parse_date(note[field], "#{path} #{field}")
+          rescue Error => e
+            error(e.message)
+          end
+        end
+        method = note['method']
+        check_required(method, RESEARCH_METHOD_FIELDS, "#{path} method")
+        check_allowed_keys(method, RESEARCH_METHOD_FIELDS, "#{path} method")
+        if method.is_a?(Hash)
+          begin
+            Professor.parse_date(method['search_date'], "#{path} method search_date")
+          rescue Error => e
+            error(e.message)
+          end
+          (RESEARCH_METHOD_FIELDS - ['search_date']).each do |field|
+            value = method[field]
+            error("#{path} method #{field} must be a non-empty bounded string") unless value.is_a?(String) && (1..4_000).cover?(value.strip.length)
+          end
+        end
+        readings = Array(note['readings'])
+        error("#{path} readings must be non-empty") if readings.empty?
+        reading_ids = unique_ids(readings, "#{path} readings")
+        readings.each_with_index do |reading, index|
+          label = "#{path} readings[#{index}]"
+          check_required(reading, RESEARCH_READING_FIELDS, label)
+          next unless reading.is_a?(Hash)
+          check_allowed_keys(reading, RESEARCH_READING_FIELDS, label)
+          error("#{label} reading_level is invalid") unless READING_LEVEL_VALUES.include?(reading['reading_level'])
+          error("#{label} URL must be http(s)") unless reading['url'].is_a?(String) && reading['url'].match?(%r{\Ahttps?://})
+          %w[publication_date accessed_on].each do |field|
+            begin
+              Professor.parse_date(reading[field], "#{label} #{field}")
+            rescue Error => e
+              error(e.message)
+            end
+          end
+          (RESEARCH_READING_FIELDS - %w[publication_date accessed_on]).each do |field|
+            next if field == 'url'
+            value = reading[field]
+            error("#{label} #{field} must be a non-empty bounded string") unless value.is_a?(String) && (1..5_000).cover?(value.strip.length)
+          end
+        end
+        claims = Array(note['claims'])
+        error("#{path} claims must be non-empty") if claims.empty?
+        unique_ids(claims, "#{path} claims")
+        claims.each_with_index do |claim, index|
+          label = "#{path} claims[#{index}]"
+          check_required(claim, RESEARCH_CLAIM_FIELDS, label)
+          next unless claim.is_a?(Hash)
+          check_allowed_keys(claim, RESEARCH_CLAIM_FIELDS, label)
+          error("#{label} confidence is invalid") unless %w[low medium high].include?(claim['confidence'])
+          error("#{label} source_ids must be non-empty strings") unless nonempty_string_array?(claim['source_ids'])
+          Array(claim['source_ids']).each { |id| error("#{label} references unknown reading #{id}") unless reading_ids.include?(id) }
+          (RESEARCH_CLAIM_FIELDS - %w[source_ids confidence]).each do |field|
+            value = claim[field]
+            error("#{label} #{field} must be a non-empty bounded string") unless value.is_a?(String) && (1..5_000).cover?(value.strip.length)
+          end
+        end
+        %w[implications open_questions next_actions].each do |field|
+          error("#{path} #{field} must be a non-empty string array") unless nonempty_string_array?(note[field])
+        end
+      end
+      @research_notes = notes
+    end
+
     def check_reviewed_catalog
       return unless @category_records && @tack_records
       active_tacks = @tack_records.select { |record| record.is_a?(Hash) && record['status'] == 'active' }
@@ -690,7 +858,8 @@ module Professor
         'active_categories' => @category_records.select { |record| record.is_a?(Hash) && record['status'] == 'active' }.sort_by { |record| record['id'].to_s },
         'active_tacks' => active_tacks.sort_by { |record| record['id'].to_s },
         'active_tack_sources' => active_sources.sort_by { |record| record['id'].to_s },
-        'evidence_tier_contract' => @tack_catalog && @tack_catalog['evidence_tier_contract']
+        'evidence_tier_contract' => @tack_catalog && @tack_catalog['evidence_tier_contract'],
+        'reviewed_research_notes' => Array(@research_notes).select { |record| record.is_a?(Hash) && record['status'] == 'reviewed' }.sort_by { |record| record['id'].to_s }
       }
       expected_path = File.join(REPO_ROOT, 'pedagogy', 'reviewed.sha256')
       unless File.file?(expected_path)
@@ -1024,7 +1193,10 @@ module Professor
         'consent' => CONSENT_VALUES,
         'lesson_status' => %w[completed skipped paused],
         'plan_status' => %w[proposed adopted paused retired],
-        'evidence_tier' => EVIDENCE_TIER_VALUES
+        'evidence_tier' => EVIDENCE_TIER_VALUES,
+        'research_status' => RESEARCH_STATUS_VALUES,
+        'research_question_status' => RESEARCH_QUESTION_STATUS_VALUES,
+        'reading_level' => READING_LEVEL_VALUES
       }
       enums = catalog['enums']
       unless enums.is_a?(Hash)
@@ -1059,6 +1231,7 @@ module Professor
       when 'state-path' then puts Professor.data_root
       when 'init' then init_state
       when 'daily' then daily
+      when 'research' then research
       when 'record' then record
       when 'propose' then propose
       when 'plan' then plan
@@ -1073,13 +1246,14 @@ module Professor
 
     def help
       puts <<~HELP
-        Professor 1.0 — policy and a small private-state runtime
+        Professor 1.1 — policy, research, and a small private-state runtime
 
         Usage:
           bin/professor lint
           bin/professor state-path
           bin/professor init
           bin/professor daily [--topic pop-music] [--date YYYY-MM-DD] [--minutes N] [--no-media]
+          bin/professor research [--date YYYY-MM-DD]
           bin/professor record SESSION-RESULT.yaml
           bin/professor propose IMPROVEMENT-PROPOSAL.yaml
           bin/professor plan adopt TEACHING-PLAN.yaml
@@ -1189,6 +1363,41 @@ module Professor
       raise Error, '--minutes must be an integer from 1 to 180' unless minutes_text.match?(/\A\d+\z/) && (1..180).cover?(minutes_text.to_i)
       raise Error, "unknown topic: #{topic}" unless topic == 'pop-music'
       emit_daily(topic, date, minutes_text.to_i, no_media)
+    end
+
+    def research
+      date = Professor.parse_date(option_value('--date', Date.today.iso8601), '--date')
+      ensure_no_args!
+      agenda = Professor.load_yaml(File.join(REPO_ROOT, 'pedagogy', 'research', 'agenda.yaml'))
+      questions = Array(agenda['questions']).select { |question| question.is_a?(Hash) && question['status'] == 'active' }
+      raise Error, 'research agenda has no active questions' if questions.empty?
+      dated = questions.map do |question|
+        [Professor.parse_date(question['next_scan_on'], "research question #{question['id']} next_scan_on"), question]
+      end
+      due = dated.select { |next_scan, _question| next_scan <= date }
+      pool = due.empty? ? dated : due
+      boundary = pool.map(&:first).min
+      nearest = pool.select { |next_scan, _question| next_scan == boundary }.map(&:last)
+      question = nearest.min_by { |candidate| Digest::SHA256.hexdigest("#{date.iso8601}\0#{candidate['id']}") }
+      timing = due.empty? ? "next scheduled lane on #{boundary.iso8601}" : "due lane (bounded; no research backlog)"
+      puts '# Professor pedagogical research brief'
+      puts
+      puts "- As of: #{date.iso8601}"
+      puts "- Selection: #{timing}"
+      puts '- Research-state mutation: none'
+      puts '- Learner-time cost: none unless the learner explicitly requested this scholarship'
+      puts
+      puts "## #{question['question']}"
+      puts
+      puts question['why_now'].to_s.strip
+      puts
+      puts "- Agenda ID: `#{question['id']}`"
+      puts "- Lenses: #{Array(question['lenses']).join('; ')}"
+      puts "- Source routes: #{Array(question['source_routes']).join('; ')}"
+      puts "- Watch venues: #{Array(question['watch_venues']).join('; ')}"
+      puts "- Reframe when: #{question['reframe_when']}"
+      puts
+      puts 'Read `prompts/research.md`. Search current and foundational work, corrections, nulls, and counterevidence. Label actual reading depth. Add only a working note under `pedagogy/research/notes/`; any teaching change is a separate provisional proposal.'
     end
 
     def passive_state_root

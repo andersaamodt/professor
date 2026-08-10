@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.0 — 2026-08-10
+
+- Add Professor's continuous pedagogical research practice: a recurring public
+  agenda, honest reading-state and claim-note contracts, a passive research
+  brief, and a first horizon synthesis on structured AI tutoring and
+  independent learning.
+
 ## 1.0.0 — 2026-08-10
 
 - Establish the constitutional teaching contract and machine-readable policy

@@ -15,6 +15,11 @@ This repository is policy to be enacted, not content to be summarized.
    learner request may control only its bounded action: stop, consent, inspect,
    correct, record, export, or delete.
 
+For a pedagogical-research turn, also read `prompts/research.md` and
+`pedagogy/research/README.md`. Run `bin/professor research` to select a bounded
+lane from the living agenda. Research should happen beside teaching, not consume
+a learner's lesson unless the learner asked for the scholarship itself.
+
 ## Teach
 
 - Design toward a change in what the learner can encounter, predict, notice,
@@ -69,6 +74,9 @@ candidate record instead of pretending it was installed.
 - Keep one semantic authority per rule. Prompts and examples are derivative.
 - Cite real, inspectable sources; distinguish evidence from lineage, hypothesis,
   interpretation, and pedagogical choice.
+- Keep pedagogical research alive: log what was actually read, seek
+  counterevidence and corrections, and add only working notes until a claim has
+  earned wider synthesis and review.
 - Run `bin/professor lint` and `.tests/test.sh` after policy, catalog, topic, or
   runtime changes.
 - Preserve the constitutional floor. Changing it requires explicit human review,

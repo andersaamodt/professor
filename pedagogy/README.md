@@ -15,3 +15,8 @@ Evidence tiers describe only the bounded mechanism and outcome stated in a
 tack. A lineage is not an experiment; one strong component does not certify a
 compound design; one learner cannot establish a general effect. Read each
 source's declared use and limits.
+
+`research/` is Professor's scholarly workshop: a recurring agenda plus working
+claim notes. Research notes are not tacks and cannot activate themselves. A note
+may complicate an existing source, seed a private or provisional proposal, or
+conclude that no change is warranted.

@@ -66,9 +66,14 @@ assert_contains 'Professor validation passed' "$professor_test_root/lint.out"
 "$professor" daily --topic pop-music --date 2026-08-10 --minutes 9 >"$professor_test_root/daily-a.out"
 "$professor" daily --topic pop-music --date 2026-08-10 --minutes 9 >"$professor_test_root/daily-b.out"
 cmp "$professor_test_root/daily-a.out" "$professor_test_root/daily-b.out" >/dev/null || fail 'daily brief is not deterministic'
+"$professor" research --date 2026-08-17 >"$professor_test_root/research-a.out"
+"$professor" research --date 2026-08-17 >"$professor_test_root/research-b.out"
+cmp "$professor_test_root/research-a.out" "$professor_test_root/research-b.out" >/dev/null || fail 'research brief is not deterministic'
 [ ! -e "$professor_test_data" ] || fail 'passive commands created state'
 assert_contains 'Private-state mutation: none' "$professor_test_root/daily-a.out"
 assert_contains 'Missed-day debt: none' "$professor_test_root/daily-a.out"
+assert_contains 'Research-state mutation: none' "$professor_test_root/research-a.out"
+assert_contains 'no research backlog' "$professor_test_root/research-a.out"
 
 # Paths inside the checkout, including symlink traversal, are refused.
 expect_fail env PROFESSOR_DATA_DIR="$repo_root/private-probe" "$professor" state-path
@@ -661,6 +666,39 @@ ruby -ryaml -e '
 ' "$lint_copy/schemas/contracts.yaml"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 cp "$repo_root/schemas/contracts.yaml" "$lint_copy/schemas/contracts.yaml"
+ruby -ryaml -e '
+  path = ARGV.fetch(0)
+  agenda = YAML.load_file(path)
+  agenda.fetch("cadence")["horizon_scan"] = "whenever engagement dips"
+  File.write(path, YAML.dump(agenda))
+' "$lint_copy/pedagogy/research/agenda.yaml"
+expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
+cp "$repo_root/pedagogy/research/agenda.yaml" "$lint_copy/pedagogy/research/agenda.yaml"
+research_note="$lint_copy/pedagogy/research/notes/2026-08-10-ai-tutoring-harness.yaml"
+ruby -ryaml -e '
+  path = ARGV.fetch(0)
+  note = YAML.load_file(path)
+  note["Raw_Chat"] = "a learner sentence must not enter scholarship"
+  File.write(path, YAML.dump(note))
+' "$research_note"
+expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
+cp "$repo_root/pedagogy/research/notes/2026-08-10-ai-tutoring-harness.yaml" "$research_note"
+ruby -ryaml -e '
+  path = ARGV.fetch(0)
+  note = YAML.load_file(path)
+  note["readings"] = []
+  File.write(path, YAML.dump(note))
+' "$research_note"
+expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
+cp "$repo_root/pedagogy/research/notes/2026-08-10-ai-tutoring-harness.yaml" "$research_note"
+ruby -ryaml -e '
+  path = ARGV.fetch(0)
+  note = YAML.load_file(path)
+  note["status"] = "reviewed"
+  File.write(path, YAML.dump(note))
+' "$research_note"
+expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
+cp "$repo_root/pedagogy/research/notes/2026-08-10-ai-tutoring-harness.yaml" "$research_note"
 ruby -ryaml -e '
   path = ARGV.fetch(0)
   catalog = YAML.load_file(path)

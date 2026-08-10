@@ -1,0 +1,42 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: REPLACE
+title: REPLACE
+status: working
+created_on: YYYY-MM-DD
+updated_on: YYYY-MM-DD
+question_ids: [REPLACE]
+scope: REPLACE
+method:
+  search_date: YYYY-MM-DD
+  approach: REPLACE
+  inclusion: REPLACE
+  exclusions: REPLACE
+  limitations: REPLACE
+readings:
+  - id: REPLACE
+    kind: REPLACE
+    citation: REPLACE
+    url: https://REPLACE
+    publication_date: YYYY-MM-DD
+    accessed_on: YYYY-MM-DD
+    reading_level: discovered
+    population_context: REPLACE
+    design: REPLACE
+    finding: REPLACE
+    limits: REPLACE
+claims:
+  - id: REPLACE
+    statement: REPLACE
+    confidence: low
+    source_ids: [REPLACE]
+    supports: REPLACE
+    tensions: REPLACE
+    boundary_conditions: REPLACE
+    does_not_license: REPLACE
+implications: [REPLACE]
+open_questions: [REPLACE]
+next_actions: [REPLACE]
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted

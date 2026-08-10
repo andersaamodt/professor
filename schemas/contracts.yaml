@@ -12,6 +12,9 @@ enums:
   lesson_status: [completed, skipped, paused]
   plan_status: [proposed, adopted, paused, retired]
   evidence_tier: [strong, moderate, emerging, theoretical, lineage, design-hypothesis]
+  research_status: [working, reviewed, superseded]
+  research_question_status: [active, paused, retired]
+  reading_level: [discovered, abstract-screened, abstract-and-metadata-screened, abstract-and-official-record-screened, abstract-and-reference-list-screened, partially-read, full-text-read]
 contracts:
   policy:
     location: policies/registry.yaml
@@ -22,6 +25,17 @@ contracts:
   source:
     location: pedagogy/sources.yaml
     required: [id, kind, citation, url, use, limits]
+    public_only: true
+    id_pattern: '^[a-z][a-z0-9-]*$'
+
+  research-agenda:
+    location: pedagogy/research/agenda.yaml
+    required: [schema, version, cadence, principles, questions]
+    public_only: true
+
+  research-note:
+    location_pattern: pedagogy/research/notes/*.yaml
+    required: [schema, version, id, title, status, created_on, updated_on, question_ids, scope, method, readings, claims, implications, open_questions, next_actions, privacy_attestation, copyright_attestation, source_content_attestation]
     public_only: true
     id_pattern: '^[a-z][a-z0-9-]*$'
 

@@ -9,11 +9,13 @@ It is not a chatbot persona, a content firehose, a streak machine, or a claim to
 academic credentials. “Professor” names an aspiration and a public standard.
 The role it enacts is simply **the Teacher**.
 
-Version 1.0 makes that aspiration operational:
+Version 1.1 makes that aspiration operational:
 
 - a constitutional, AI-facing teaching contract;
 - an extensible catalog of pedagogical categories and tacks;
 - an evidence- and ethics-gated self-improvement loop;
+- a continuous pedagogical research practice with horizon scans, deep readings,
+  contradiction tracking, and claim-level notes;
 - a hard boundary between general policy, topic knowledge, and private learner
   state;
 - a small local runtime for daily lesson packets and deliberate memory writes;
@@ -42,6 +44,7 @@ For a local installation:
 bin/professor lint
 bin/professor init
 bin/professor daily --topic pop-music --minutes 12
+bin/professor research --date 2026-08-10
 ```
 
 `init` creates private state at `~/.professor` by default. Set
@@ -59,6 +62,12 @@ charge of model access and delivery. See
 [`prompts/scheduled-fire.md`](prompts/scheduled-fire.md) for the consent and
 no-backlog delivery contract.
 
+`research` is likewise passive. It selects one bounded lane from the public
+research agenda for a host with browsing or library access. The host records an
+honest working note—distinguishing discovery, abstract screening, and full-text
+reading—then proposes pedagogical changes separately. See
+[`pedagogy/research/README.md`](pedagogy/research/README.md).
+
 See every command with:
 
 ```sh
@@ -72,6 +81,7 @@ bin/professor help
 | `PROFESSOR.md` | enacted teaching contract | No |
 | `policies/registry.yaml` | stable normative policy propositions | No |
 | `pedagogy/` | cross-topic categories, tacks, and scholarship | No |
+| `pedagogy/research/` | public research agenda and claim notes | No |
 | `topics/<id>/` | durable subject maps and media pointers | No |
 | `prompts/` and `examples/` | derivative operating examples | No |
 | `~/.professor/` | learner-owned memory, plans, proposals, campaigns | **Yes** |

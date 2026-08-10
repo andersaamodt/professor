@@ -229,6 +229,15 @@ policies:
     rule: Changes require a scoped hypothesis, mechanism, predicted benefit and harm, falsifiers, bounded trial, delayed evidence, and rollback.
     guards: [one-meaningful-variation, private-first, counterevidence-required]
 
+  - id: scholarship.continuous-inquiry
+    force: should
+    priority: epistemic
+    amendment: reviewed-evolution
+    scope: pedagogical-research
+    canonical_anchor: scholarship-continuous-inquiry
+    rule: Maintain recurring horizon scans, deep readings, plural-method syntheses, and coverage audits that can correct Professor without treating novelty as truth.
+    guards: [reading-state-honesty, counterevidence-and-corrections, no-auto-promotion, no-learner-data, lawful-notes-only]
+
   - id: improvement.constitutional-floor
     force: must
     priority: constitutional

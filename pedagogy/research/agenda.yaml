@@ -1,0 +1,79 @@
+schema: professor.research-agenda/v1
+version: 1.0.0
+cadence:
+  horizon_scan: weekly
+  deep_read: monthly
+  synthesis: quarterly
+  reconstruction: annually
+principles:
+  - Search for correction and counterevidence, not only confirmation or novelty.
+  - Match methods to questions and compare across epistemic traditions.
+  - Record actual reading depth and never inflate metadata or an abstract into a reading.
+  - Keep learner data out of public scholarship and research out of unrequested learner time.
+  - Translate findings into separate provisional proposals; never auto-promote teaching policy.
+questions:
+  - id: ai-scaffolding-independent-learning
+    status: active
+    question: Which designs for AI-supported teaching improve durable independent learning and transfer rather than only assisted performance?
+    why_now: AI tutors are spreading faster than evidence about delayed transfer, dependence, and design-specific effects.
+    lenses: [experimental, learning-process, metacognitive, agency, accessibility, critical-technology]
+    source_routes: [primary-experiments, systematic-reviews, learning-analytics, qualitative-use-studies, corrections-and-retractions]
+    watch_venues: [Journal of the Learning Sciences, Learning and Instruction, Computers & Education, npj Science of Learning, AIED and ISLS proceedings]
+    last_scanned_on: 2026-08-10
+    next_scan_on: 2026-08-17
+    reframe_when: Independent delayed outcomes and learner agency are no longer distinguishable within one question.
+
+  - id: assessment-and-authorship-under-ai
+    status: active
+    question: What forms of assessment reveal learner capability, judgment, and authorship when generative tools are ordinary parts of work?
+    why_now: Product quality increasingly confounds learner knowledge with tool capability.
+    lenses: [assessment-validity, authentic-practice, epistemic-agency, equity, authorship]
+    source_routes: [assessment-studies, design-based-research, workplace-learning, student-and-teacher-studies, policy-evaluations]
+    watch_venues: [Assessment & Evaluation in Higher Education, Educational Assessment, AERA, British Journal of Educational Technology]
+    last_scanned_on: 2026-08-10
+    next_scan_on: 2026-08-17
+    reframe_when: Distinct domains require separate validity arguments.
+
+  - id: durable-memory-transfer-and-calibration
+    status: active
+    question: How should retrieval, spacing, feedback, explanation, generation, and varied practice be combined across domains and timescales?
+    why_now: Strong component findings are often overgeneralized into universal study recipes.
+    lenses: [cognitive, domain-specific, developmental, affective, ecological-validity]
+    source_routes: [registered-experiments, replications, meta-analyses, classroom-studies, null-results]
+    watch_venues: [Journal of Educational Psychology, Educational Psychology Review, Memory & Cognition, Instructional Science]
+    last_scanned_on: 2026-08-10
+    next_scan_on: 2026-09-01
+    reframe_when: A component requires its own domain- and age-specific agenda.
+
+  - id: humanizing-critical-and-healing-pedagogies
+    status: active
+    question: How do critical, culturally sustaining, decolonial, abolitionist, healing-centered, and Indigenous pedagogies change the purposes and relations of teaching?
+    why_now: Technique-centered evidence can erase history, power, community knowledge, relation, and the ends education serves.
+    lenses: [critical, historical, participatory, Indigenous, cultural, ethical]
+    source_routes: [books, community-scholarship, participatory-research, historical-analysis, design-based-research]
+    watch_venues: [Journal of the Learning Sciences, Harvard Educational Review, Equity & Excellence in Education, Indigenous education journals, ISLS proceedings]
+    last_scanned_on: 2026-08-10
+    next_scan_on: 2026-09-01
+    reframe_when: The umbrella conceals important disagreement or collapses distinct traditions.
+
+  - id: access-disability-and-equivalent-participation
+    status: active
+    question: Which designs create genuinely equivalent participation across disability, language, bandwidth, sensory modality, and environment?
+    why_now: Accessibility is often measured as format availability rather than equal intellectual opportunity.
+    lenses: [disability-studies, universal-design, participatory-design, cognitive, sociotechnical]
+    source_routes: [disabled-led-scholarship, accessibility-evaluations, interaction-studies, standards, participatory-design]
+    watch_venues: [ACM Transactions on Accessible Computing, ASSETS, Disability & Society, CAST research, International Journal of Inclusive Education]
+    last_scanned_on: 2026-08-10
+    next_scan_on: 2026-09-01
+    reframe_when: Affected communities define materially different access questions.
+
+  - id: motivation-play-aesthetics-and-sustainable-effort
+    status: active
+    question: When do play, narrative, humor, beauty, curiosity, challenge, and choice deepen learning without becoming coercion or spectacle?
+    why_now: Engagement mechanics are easy to measure and therefore easy to mistake for educational value.
+    lenses: [motivation, aesthetics, game-studies, rhetoric, affect, ethics]
+    source_routes: [experiments, longitudinal-studies, humanities-scholarship, game-studies, learner-led-design]
+    watch_venues: [Contemporary Educational Psychology, Motivation and Emotion, Game Studies, Arts and Humanities in Higher Education]
+    last_scanned_on: 2026-08-10
+    next_scan_on: 2026-09-01
+    reframe_when: A medium or population requires a distinct mechanism and harm model.
