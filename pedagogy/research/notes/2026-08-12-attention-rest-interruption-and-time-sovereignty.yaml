@@ -1,0 +1,287 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: attention-rest-interruption-and-time-sovereignty-2026-08-12
+title: Attention is situated and finite; the learner does not owe it continuously
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [motivation-play-aesthetics-and-sustainable-effort, technology-datafication-personalization-and-public-value]
+scope: >-
+  A bounded inquiry into attention, mind-wandering, digital distraction,
+  interruption, seductive details, micro-breaks, movement, fatigue, sleep,
+  notification design, and time sovereignty. It asks how Professor should earn
+  and release attention without surveillance, productivity moralism, or
+  platform incentives that treat continued use as educational success.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared meta-analyses of task-unrelated thought, reading comprehension,
+    seductive details, breaks, movement, and sleep restriction with systematic
+    reviews of digital distraction. Distinguished learning, task performance,
+    vigor, fatigue, wellbeing, engagement, return, and platform activity.
+  inclusion: >-
+    Quantitative syntheses with task and outcome distinctions, systematic
+    reviews of educational contexts, and evidence relevant to system-level
+    interruption rather than only individual self-control.
+  exclusions: >-
+    “Attention span collapse” headlines, age or diagnosis stereotypes, webcam or
+    biometric attention inference, productivity-hack lists, sleep optimization
+    beyond educational competence, and claims that every interesting detail is
+    distraction or every mind-wandering episode is failure.
+  limitations: >-
+    Attention and task-unrelated thought are measured inconsistently and often
+    by probes that themselves interrupt activity. Correlation does not determine
+    cause. Break and sleep studies span unlike populations and tasks. Classroom
+    and workplace evidence transfers imperfectly to brief, voluntary, asynchronous
+    AI encounters. No evidence here licenses individual attention profiling.
+readings:
+  - id: randall-et-al-2022-task-unrelated-thought
+    kind: meta-analysis
+    citation: >-
+      Randall, J. G., Oswald, F. L., & Beier, M. E. (2022). Task-unrelated
+      thought during educational activities: A meta-analysis of its occurrence
+      and relationship with learning. Contemporary Educational Psychology, 71,
+      102105. https://doi.org/10.1016/j.cedpsych.2022.102105
+    url: https://doi.org/10.1016/j.cedpsych.2022.102105
+    publication_date: 2022-07-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Educational activities including reading, video lectures, and in-person lectures.
+    design: Meta-analysis of task-unrelated thought occurrence and association with learning outcomes.
+    finding: >-
+      Task-unrelated thought was common and negatively associated with learning
+      on average, with variation across activity, measurement, and context.
+    limits: >-
+      Probe methods, self-report, correlational relationships, and heterogeneous
+      learning measures do not establish that suppression improves learning.
+
+  - id: fabbri-et-al-2022-mind-wandering-reading
+    kind: meta-analysis
+    citation: >-
+      Fabbri, M., et al. (2022). The relationship between mind wandering and
+      reading comprehension: A meta-analysis. Psychonomic Bulletin & Review, 30,
+      40-59. https://doi.org/10.3758/s13423-022-02141-w
+    url: https://doi.org/10.3758/s13423-022-02141-w
+    publication_date: 2022-07-16
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Readers across studies using varied texts, mind-wandering measures, and comprehension outcomes.
+    design: Meta-analysis of association and moderators involving participant, text, and methodological characteristics.
+    finding: >-
+      More mind-wandering was associated with poorer reading comprehension on
+      average, while measurement and context contributed to variation.
+    limits: >-
+      Association does not distinguish boredom, fatigue, concern, imagination,
+      inaccessible text, low value, or a mind appropriately leaving the task.
+
+  - id: rey-2012-seductive-details
+    kind: meta-analysis-and-review
+    citation: >-
+      Rey, G. D. (2012). A review of research and a meta-analysis of the
+      seductive detail effect. Educational Research Review, 7(3), 216-237.
+      https://doi.org/10.1016/j.edurev.2012.05.003
+    url: https://doi.org/10.1016/j.edurev.2012.05.003
+    publication_date: 2012-05-30
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-metadata-screened
+    population_context: Thirty-nine experimental effects involving interesting but instructionally irrelevant text, illustrations, sound, or other details.
+    design: Review and meta-analysis of learning and transfer under seductive-detail manipulations.
+    finding: >-
+      Interesting details unrelated to the learning aim harmed learning on
+      average, with timing, modality, placement, prior knowledge, and design
+      contributing to effect variation.
+    limits: >-
+      Relevance depends on the real educational aim; beauty, narrative, humor,
+      and encounter can be ends or meaning-bearing structures rather than decoration.
+
+  - id: gherhes-et-al-2025-digital-distraction
+    kind: systematic-review
+    citation: >-
+      Gherheș, V., et al. (2025). Digital distractions in education: A
+      systematic review of research on causes, consequences and prevention
+      strategies. Educational Technology Research and Development.
+      https://doi.org/10.1007/s11423-025-10550-6
+    url: https://doi.org/10.1007/s11423-025-10550-6
+    publication_date: 2025-08-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Twenty-six studies of digital distraction across educational environments.
+    design: Systematic review of causes, consequences, frameworks, and prevention approaches.
+    finding: >-
+      Notifications, connectivity, social communication, task switching, and
+      off-task device use were linked with interrupted attention, learning cost,
+      and wellbeing concerns; few studies used strong theoretical frameworks.
+    limits: >-
+      Diverse and often correlational studies do not justify device bans,
+      individualized surveillance, or AI attention management as the remedy.
+
+  - id: albulescu-et-al-2022-microbreaks
+    kind: systematic-review-and-meta-analysis
+    citation: >-
+      Albulescu, P., Macsinga, I., Rusu, A., Sulea, C., Bodnaru, A., & Tulbure,
+      B. T. (2022). “Give me a break!” A systematic review and meta-analysis on
+      the efficacy of micro-breaks for increasing well-being and performance.
+      PLOS ONE, 17(8), e0272460. https://doi.org/10.1371/journal.pone.0272460
+    url: https://doi.org/10.1371/journal.pone.0272460
+    publication_date: 2022-08-31
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Adults completing work-like cognitive and emotional tasks with short breaks.
+    design: Random-effects meta-analyses of vigor, fatigue, and task performance with duration and task-demand moderators.
+    finding: >-
+      Micro-breaks modestly increased vigor and reduced fatigue; overall
+      performance improvement was not statistically clear and appeared mainly
+      for less cognitively demanding tasks, with longer breaks associated with
+      stronger performance effects.
+    limits: >-
+      Workplace-like short tasks, self-report wellbeing, varied break activities,
+      and immediate outcomes do not prescribe a break schedule for learning.
+
+  - id: castro-et-al-2021-active-breaks-attention
+    kind: systematic-review-and-meta-analysis
+    citation: >-
+      Castro, O., et al. (2021). Active school breaks and students’ attention: A
+      systematic review with meta-analysis. Brain Sciences, 11(6), 675.
+      https://doi.org/10.3390/brainsci11060675
+    url: https://doi.org/10.3390/brainsci11060675
+    publication_date: 2021-05-25
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: School learners receiving brief physically active breaks and attention measures.
+    design: Systematic review and meta-analysis across controlled and crossover studies.
+    finding: >-
+      Active breaks showed a small favorable average relation with attention,
+      but few studies and substantial design heterogeneity made optimal duration,
+      intensity, and activity uncertain.
+    limits: >-
+      Attention-test effects are not durable learning or universal acceptability;
+      movement demands can create access barriers or social discomfort.
+
+  - id: crowley-et-al-2024-sleep-restriction
+    kind: systematic-review-and-meta-analysis
+    citation: >-
+      Crowley, R., Alderman, E., Javadi, A.-H., & Tamminen, J. (2024). A
+      systematic and meta-analytic review of the impact of sleep restriction on
+      memory formation. Neuroscience & Biobehavioral Reviews, 167, 105929.
+      https://doi.org/10.1016/j.neubiorev.2024.105929
+    url: https://doi.org/10.1016/j.neubiorev.2024.105929
+    publication_date: 2024-10-18
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Controlled sleep-restriction studies assessing memory formation.
+    design: Systematic review and meta-analysis across memory tasks and restriction protocols.
+    finding: >-
+      Sleep restriction impaired memory formation on average, supporting sleep
+      as a real condition of learning rather than time available for more study.
+    limits: >-
+      Protocols and memory types vary; educational systems should not turn this
+      evidence into sleep surveillance, medical advice, or moral judgment.
+claims:
+  - id: attention-is-a-relation-not-a-trait
+    statement: >-
+      Attention arises from relations among object, purpose, knowledge, body,
+      emotion, environment, medium, interruption, fatigue, and competing concern;
+      one episode of drift or silence does not reveal a person's capacity or care.
+    confidence: high
+    source_ids: [randall-et-al-2022-task-unrelated-thought, fabbri-et-al-2022-mind-wandering-reading, gherhes-et-al-2025-digital-distraction]
+    supports: >-
+      Improve the object, representation, pacing, relevance, and environment or
+      offer a clean exit before attributing failure to learner discipline.
+    tensions: >-
+      People can develop portable attentional practices and voluntarily shape
+      environments to support chosen goals.
+    boundary_conditions: Task, stakes, prior knowledge, health, fatigue, environment, disability, medium, value, and learner choice.
+    does_not_license: Attention-span labels, diagnosis, webcam inference, typing or pause surveillance, moralized focus, or covert adaptive stimulation.
+
+  - id: the-system-should-not-create-the-interruption
+    statement: >-
+      An educational system should first remove its own unnecessary alerts,
+      menus, streaks, recaps, autoplay, unsolicited follow-ups, and context
+      switches before prescribing learner attention management.
+    confidence: high
+    source_ids: [gherhes-et-al-2025-digital-distraction]
+    supports: >-
+      Make wakeups brief and suppressible, keep one clear object in view, avoid
+      notification debt, and let the learner control when a longer path opens.
+    tensions: >-
+      Timely reminders, alternative routes, and interactive media can reduce
+      planning burden and help chosen practice recur.
+    boundary_conditions: Consent, urgency, frequency, relevance, controllability, accessibility, and platform incentives.
+    does_not_license: Device bans, blame, notification surveillance, AI interruption timing based on inferred state, or making silence opt-out labor.
+
+  - id: interest-must-belong-to-the-aim
+    statement: >-
+      Vividness, humor, narrative, sound, image, and surprise earn attention when
+      they constitute the encounter or clarify a consequential relation; when
+      unrelated to the aim, they can consume processing and fragment memory.
+    confidence: high
+    source_ids: [rey-2012-seductive-details]
+    supports: >-
+      Ask what each arresting element lets the learner encounter, predict,
+      distinguish, remember, judge, or make, and remove it when no answer exists.
+    tensions: >-
+      Curiosity, aesthetic experience, associative drift, and delight may be
+      complete educational aims rather than instruments for a narrow objective.
+    boundary_conditions: Actual aim, learner purpose, prior knowledge, placement, medium, complexity, and transfer claim.
+    does_not_license: Sterile minimalism, treating art as decoration, clickbait, spectacle, or retroactively inventing an objective for every beautiful detail.
+
+  - id: rest-is-a-good-without-a-performance-proof
+    statement: >-
+      Breaks can reduce fatigue and restore vigor even when immediate task
+      performance does not improve; rest need not earn legitimacy by increasing output.
+    confidence: high
+    source_ids: [albulescu-et-al-2022-microbreaks, castro-et-al-2021-active-breaks-attention]
+    supports: >-
+      End a small arc cleanly, normalize stopping, and offer movement, stillness,
+      continuation, or return as choices rather than a compulsory reset routine.
+    tensions: >-
+      Scheduled or prompted breaks can help when effort and system design make
+      internal stopping cues unreliable or costly.
+    boundary_conditions: Task length, fatigue, disability, movement access, environment, urgency, learner preference, and return cost.
+    does_not_license: Mandatory movement, wellness theater, break gamification, productivity claims, or inferring fatigue from behavior.
+
+  - id: time-sovereignty-is-an-educational-condition
+    statement: >-
+      Durable learning depends partly on time outside the immediate interaction,
+      including rest and sleep; Professor must not treat continuous availability,
+      rapid reply, daily completion, or platform return as educational virtue.
+    confidence: high
+    source_ids: [crowley-et-al-2024-sleep-restriction, albulescu-et-al-2022-microbreaks]
+    supports: >-
+      Keep missed days debt-free, separate wakeup from obligation, avoid urgency,
+      and let a lesson mature without prompting visible proof of consolidation.
+    tensions: >-
+      Spacing and reminders can protect learner-chosen goals from competing
+      demands, and consistent routines can reduce activation cost.
+    boundary_conditions: Consent, schedule, stakes, sleep and health privacy, learner goal, reminder control, and opportunity cost.
+    does_not_license: Sleep advice beyond competence, health tracking, streaks, guilt, attendance inference, or claiming consolidation without evidence.
+implications:
+  - >-
+    A daily 6 p.m. Professor wakeup should produce at most one brief, complete
+    invitation, fact, object, or small set of routes. It should not summarize
+    missed work, demand a reply, or optimize for reopening the task.
+  - >-
+    A philological object earns attention through its actual strangeness—form,
+    sound, attestation, semantic fork, or historical consequence—not through
+    unrelated trivia or decorative animation.
+  - >-
+    Professor should never infer attention from response latency, typing,
+    cursor, camera, emotion, or return behavior. Explicit learner statements may
+    guide the present encounter but need not become a stored trait.
+  - >-
+    Existing schedule, wellbeing, media, privacy, and motivation policy already
+    governs these conclusions. No active tack change is earned.
+open_questions:
+  - How can a wakeup automation remain genuinely easy to silence without gradually becoming invisible or pressuring return?
+  - Which brief lesson forms remain memorable after interruption without turning every encounter into retrieval practice?
+  - When is learner-requested attention support helpful, and what data can remain entirely local or unstored?
+  - How do disability, care work, shift work, illness, poverty, and household conditions change the ethics of pacing and scheduled learning?
+  - Which forms of mind-wandering support incubation, imagination, autobiographical meaning, or creative connection rather than interfere with the aim?
+next_actions:
+  - Study chronobiology, sleep, fatigue, attention, and disability only far enough to improve educational boundaries, not to perform health coaching.
+  - Seek qualitative learner studies of interruption, platform pressure, rest, and asynchronous education across material conditions.
+  - Audit Professor's automation prompt and daily loop for urgency, novelty pressure, notification debt, recap burden, and retention optimization.
+  - Test short encounter forms on completeness and source integrity, not click-through or reply rate.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
