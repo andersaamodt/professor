@@ -1,0 +1,156 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: language-learning-corrective-feedback-and-translanguaging-2026-08-12
+title: Language teaching must distinguish communicative life, noticed form, historical inquiry, and institutional language power
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise, epistemic-justice-curriculum-and-knowledge-access, humanizing-critical-and-healing-pedagogies]
+scope: Second-language instruction, input and interaction, explicit form, oral corrective feedback, multilingual repertoires, translanguaging, translation, pronunciation, identity, philology, and etymological inference.
+method:
+  search_date: 2026-08-12
+  approach: Compared foundational synthesis and classroom interaction studies with corrective-feedback meta-analysis, multilingual-pedagogy reviews, a recent null-confidence review, and historical-linguistic cautions.
+  inclusion: Sources distinguishing instructional mechanisms, classroom outcomes, linguistic repertoires, social position, contemporary usage, or evidential limits.
+  exclusions: Method wars, native-speaker imitation as the universal aim, English-only ideology, multilingualism as automatic liberation, etymology as present definition, and error correction as moral judgment.
+  limitations: Much SLA evidence targets readily tested forms, English or European languages, short interventions, and institutionally legible proficiency; multilingual-pedagogy terminology and outcome measures remain heterogeneous.
+readings:
+  - id: norris-ortega-2000-l2-instruction
+    kind: research-synthesis-and-meta-analysis
+    citation: Norris, J. M., & Ortega, L. (2000). Effectiveness of L2 instruction—A research synthesis and quantitative meta-analysis. Language Learning, 50(3), 417-528. https://doi.org/10.1111/0023-8333.00136
+    url: https://doi.org/10.1111/0023-8333.00136
+    publication_date: 2000-09-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Experimental and quasi-experimental L2 instruction studies published from 1980 through 1998; 49 unique samples with sufficient quantitative data.
+    design: Systematic research synthesis and meta-analysis comparing focused, explicit, implicit, focus-on-form, and focus-on-forms instruction.
+    finding: Focused instruction produced substantial target-oriented gains on average, with larger estimates for explicit approaches; outcome measure type materially affected estimates.
+    limits: Construct operationalization and replication were weak, treatments and tests were often closely aligned, and target-form gains do not settle communicative, identity, or long-term use aims.
+
+  - id: mackey-1999-interaction
+    kind: experimental-study
+    citation: Mackey, A. (1999). Input, interaction, and second language development—An empirical study of question formation in ESL. Studies in Second Language Acquisition, 21(4), 557-587. https://doi.org/10.1017/S0272263199004027
+    url: https://doi.org/10.1017/S0272263199004027
+    publication_date: 1999-12-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Adult ESL learners working on English question formation through different interaction conditions.
+    design: Experimental comparison of interactional opportunities and later developmental outcomes.
+    finding: Conversational interaction, particularly participation in negotiated interaction, was associated with development on the targeted structure.
+    limits: One feature, language, population, and intervention; interaction packages input, attention, feedback, output, and affect, so the active mechanism is not singular.
+
+  - id: lyster-saito-2010-oral-feedback
+    kind: meta-analysis
+    citation: Lyster, R., & Saito, K. (2010). Oral feedback in classroom SLA—A meta-analysis. Studies in Second Language Acquisition, 32(2), 265-302. https://doi.org/10.1017/S0272263109990520
+    url: https://doi.org/10.1017/S0272263109990520
+    publication_date: 2010-06-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 827 learners in 15 classroom-based oral corrective-feedback studies.
+    design: Meta-analysis examining feedback type, timing and type of outcome, setting, treatment duration, and age.
+    finding: Oral corrective feedback supported target-language development on average, with effects varying across feedback and study conditions.
+    limits: Small study pool, target-specific measures, heterogeneous contrasts, limited delayed and spontaneous-use evidence, and no warrant for correcting every deviation.
+
+  - id: lyster-saito-sato-2013-review
+    kind: state-of-the-art-review
+    citation: Lyster, R., Saito, K., & Sato, M. (2013). Oral corrective feedback in second language classrooms. Language Teaching, 46(1), 1-40. https://doi.org/10.1017/S0261444812000365
+    url: https://doi.org/10.1017/S0261444812000365
+    publication_date: 2013-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Classroom SLA research on feedback frequency, teacher and learner preferences, uptake, and developmental effects.
+    design: Integrative review of descriptive, experimental, and practitioner-relevant research.
+    finding: Learners often report wanting more correction than teachers prefer to give, while usefulness depends on target, salience, learner, timing, and interactional context.
+    limits: Preference is not effect, immediate uptake is not acquisition, and visible correction can impose face, identity, fluency, and participation costs.
+
+  - id: cenoz-gorter-2022-pedagogical-translanguaging
+    kind: theoretical-and-practice-synthesis
+    citation: Cenoz, J., & Gorter, D. (2022). Pedagogical translanguaging and its application to language classes. RELC Journal, 53(2), 342-354. https://doi.org/10.1177/00336882221082751
+    url: https://doi.org/10.1177/00336882221082751
+    publication_date: 2022-08-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Multilingual language classrooms using planned cross-linguistic resources.
+    design: Conceptual account and practice synthesis distinguishing planned pedagogical strategies within multilingual repertoires.
+    finding: Planned comparison and movement across languages can develop linguistic and metalinguistic awareness while valuing learners' available resources.
+    limits: Theoretical plausibility and examples do not establish comparative effects; named languages remain institutionally consequential even when repertoires are fluid.
+
+  - id: poarch-et-al-2023-translanguaging-efl-review
+    kind: systematic-review
+    citation: Poarch, G. J., et al. (2023). Implementation and effects of pedagogical translanguaging in EFL classrooms—A systematic review. Languages, 8(3), 194. https://doi.org/10.3390/languages8030194
+    url: https://doi.org/10.3390/languages8030194
+    publication_date: 2023-08-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Empirical studies of pedagogical translanguaging in English-as-a-foreign-language classrooms.
+    design: Systematic review of implementation and evaluated effects.
+    finding: Practices were diverse and often promising, but the review found insufficient robust evidence for a confident judgment about English-proficiency effects.
+    limits: Proficiency is only one legitimate outcome, yet weak comparison, inconsistent constructs, and heterogeneous measures also constrain strong emancipatory or causal claims.
+
+  - id: essentials-linguistics-language-change
+    kind: open-textbook-chapter
+    citation: Anderson, C., et al. (2022). Why do languages change? In Essentials of Linguistics, 2nd edition. eCampusOntario.
+    url: https://ecampusontario.pressbooks.pub/essentialsoflinguistics2/chapter/14-1-why-do-languages-change/
+    publication_date: 2022-01-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Introductory historical-linguistics learners examining semantic and other language change.
+    design: Scholarly open textbook exposition with examples of historical development and contemporary meaning.
+    finding: Languages change across generations, and a word's historical source may differ sharply from its current meaning; origin cannot substitute for relevant present usage.
+    limits: Introductory exposition rather than primary empirical study; usage itself varies by community, register, context, and time.
+contradictions:
+  - Explicit and focused instruction can efficiently improve a selected form, yet communicative life cannot be reduced to conscious rules or tests designed around that form.
+  - Corrective feedback can advance development, yet immediate uptake may be repair without learning and frequent public correction may reduce risk-taking, fluency, or belonging.
+  - Drawing on a full linguistic repertoire can improve access and metalinguistic noticing, yet some learners also need protected practice in a target variety and institutions still reward named-language boundaries.
+  - Etymology can make semantic change visible and memorable, yet treating ancestry as a word's true current meaning erases usage, polysemy, register, and speaker communities.
+claims:
+  - claim: Choose language-teaching moves by the learner's present language action, not allegiance to a global method.
+    evidence: convergent-synthesis
+    confidence: high
+    source_ids: [norris-ortega-2000-l2-instruction, mackey-1999-interaction, lyster-saito-2010-oral-feedback]
+    supports: Distinguish encountering meaning, comprehending, participating, noticing form, rehearsing, retrieving, interpreting, translating, and studying history; then match input, model, explanation, interaction, correction, or comparison.
+    tensions: A coherent encounter may serve several actions at once, while excessive decomposition makes language lifeless.
+    boundary_conditions: Goal, proficiency, linguistic repertoire, task, stakes, register, medium, time, identity, and opportunity for later use.
+    does_not_license: A universal teaching method, form-free exposure, grammar-only instruction, forced production, or judging intelligence through target-language fluency.
+
+  - claim: Corrective feedback is an optional information channel whose target, timing, explicitness, and social cost must be chosen deliberately.
+    evidence: meta-analytic-and-review-synthesis
+    confidence: high
+    source_ids: [lyster-saito-2010-oral-feedback, lyster-saito-sato-2013-review]
+    supports: Agree on the focus; preserve the communicative turn when possible; use recast, prompt, brief explanation, model, delayed note, or no correction according to the goal; later check unprompted use.
+    tensions: Learner requests for comprehensive correction deserve respect, but attention and working memory remain finite and not every variation is an error.
+    boundary_conditions: Correctability, intelligibility, target variety, learner preference, face, privacy, stage, recurrence, assessment, and delayed criterion.
+    does_not_license: Accent eradication, correction as interruption reflex, public embarrassment, dialect discrimination, uptake as proof of acquisition, or teacher preference overriding a direct learner request.
+
+  - claim: Multilingual resources should be available by function while access to sustained target-language practice remains real.
+    evidence: theoretical-and-systematic-review-synthesis
+    confidence: moderate
+    source_ids: [cenoz-gorter-2022-pedagogical-translanguaging, poarch-et-al-2023-translanguaging-efl-review]
+    supports: Permit translation, cognate comparison, multilingual annotation, cross-language source checking, or drafting when each serves comprehension, analysis, identity, or production; identify the later target-language action separately.
+    tensions: Fluid repertoires challenge monolingual ideology, but named languages and varieties remain material in schooling, migration, employment, revitalization, and sovereignty.
+    boundary_conditions: Learner aims, language status, minoritization, assessment regime, community authority, teacher competence, source quality, and whether the target is additive or subtractive multilingualism.
+    does_not_license: Covert English-only rules, compulsory disclosure of home language, treating translation as failure, using an unfamiliar language for display, or claiming liberation from multilingual activity alone.
+
+  - claim: Philological teaching should hold diachronic pathway and synchronic use in productive tension.
+    evidence: disciplinary-synthesis
+    confidence: high
+    source_ids: [essentials-linguistics-language-change]
+    supports: Show attested forms, sound and semantic changes, borrowing routes, cognates, dates, genres, uncertainty, and current contextual uses; ask what a history reveals and what it cannot decide.
+    tensions: A vivid folk decomposition may awaken attention even when historically false, but delight must not silently convert resemblance into lineage.
+    boundary_conditions: Attestation, reconstruction status, language contact, corpus, register, period, polysemy, folk etymology, and learner's actual interpretive question.
+    does_not_license: Root fallacy, false cognates as proof, proto-form certainty, prescriptive conclusions from origin, or turning every living utterance into a museum specimen.
+implications:
+  - Professor should label each linguistic move as present use, historical attestation, reconstruction, analogy, mnemonic play, or speculation whenever confusion is plausible.
+  - A philology encounter may begin with a striking resemblance or image, but should expose the evidence joint before drawing lineage or semantic conclusions.
+  - Ask whether correction is wanted and what kind when the interaction is primarily communicative; never convert unsolicited conversation into an exam.
+  - Offer original, gloss, translation, sound, and morphological segmentation independently when feasible so access does not require surrendering the live object.
+  - Treat pronunciation targets as intelligibility, listening discrimination, identity choice, or repertoire expansion—not default imitation of a prestige speaker.
+open_questions:
+  - How can daily philology encounters preserve etymological surprise while steadily teaching comparative-method discipline?
+  - Which feedback choices best support historical-language reading when oral conversational proficiency is not the goal?
+  - How should Professor distinguish a useful learner-requested prestige variety from reproducing linguistic subordination?
+next_actions:
+  - Stress-test these principles in civic disagreement and worldview education, where language choice and correction also distribute authority.
+  - In the final audit, check that etymology is framed as evidence-bearing history rather than a hidden definition engine.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
