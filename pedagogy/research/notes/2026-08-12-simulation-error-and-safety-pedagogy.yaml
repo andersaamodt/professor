@@ -1,0 +1,192 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: simulation-error-and-safety-pedagogy-2026-08-12
+title: Safe practice must distinguish errors worth rehearsing from harms that must be prevented
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise, educational-ethics-and-nonideal-judgment, durable-memory-transfer-and-calibration]
+scope: >-
+  Simulation-based education, deliberate and mastery practice, error-management
+  training, psychological safety, team and crew-resource training, debriefing,
+  transfer to practice, and the ethics of rehearsing uncertainty and failure.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared meta-analyses and reviews of simulation and error-management with
+    organizational research on speaking up and critical reviews of debriefing and
+    crew-resource transfer; separated learning outcomes from real-world safety.
+  inclusion: Sources measuring performance, adaptive transfer, team learning, behavior, organizational outcomes, or methodological limits.
+  exclusions: High-fidelity equipment as a proxy for learning, surprise simulations without consent, emotional intensity as realism, error celebration, and safety claims inferred from satisfaction.
+  limitations: >-
+    Most evidence comes from medicine, workplace software tasks, aviation-derived
+    training, and organizational teams. Safety-critical domains differ in hazard,
+    regulation, team structure, error tolerance, and valid performance criteria.
+readings:
+  - id: mcgaghie-et-al-2011-simulation-dp
+    kind: meta-analytic-comparative-review
+    citation: McGaghie, W. C., Issenberg, S. B., Cohen, E. R., Barsuk, J. H., & Wayne, D. B. (2011). Does simulation-based medical education with deliberate practice yield better results than traditional clinical education? Academic Medicine, 86(6), 706-711. https://doi.org/10.1097/ACM.0b013e318217e119
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3102783/
+    publication_date: 2011-06-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Health-professions learners practicing clinical skills through simulation with deliberate practice.
+    design: Random-effects meta-analysis comparing simulation-based deliberate practice with traditional clinical education.
+    finding: Simulation with deliberate practice produced stronger measured learning outcomes across included studies than traditional clinical education.
+    limits: Heterogeneous studies, selected skills, publication bias, variable comparators, and educational outcomes do not guarantee patient or system benefit.
+
+  - id: keith-frese-2008-error-management
+    kind: meta-analysis
+    citation: Keith, N., & Frese, M. (2008). Effectiveness of error management training—A meta-analysis. Journal of Applied Psychology, 93(1), 59-69. https://doi.org/10.1037/0021-9010.93.1.59
+    url: https://doi.org/10.1037/0021-9010.93.1.59
+    publication_date: 2008-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 2,183 participants across 24 studies learning workplace and computer-based skills through exploration and explicit error encouragement.
+    design: Meta-analysis of error-management training versus proceduralized error avoidance or exploration without error framing.
+    finding: Error-management training had a positive mean effect, especially for adaptive transfer to structurally different tasks; active exploration and error encouragement both contributed.
+    limits: Effect heterogeneity was substantial, tasks were generally safe simulations, and encouragement to err cannot transfer to irreversible or poorly bounded hazards.
+
+  - id: edmondson-1999-psychological-safety
+    kind: multimethod-field-study
+    citation: Edmondson, A. (1999). Psychological safety and learning behavior in work teams. Administrative Science Quarterly, 44(2), 350-383. https://doi.org/10.2307/2666999
+    url: https://doi.org/10.2307/2666999
+    publication_date: 1999-06-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 51 teams in a manufacturing company reporting interpersonal risk, learning behaviors, support, coaching, and performance.
+    design: Multimethod organizational field study testing a model of team psychological safety and learning behavior.
+    finding: Shared safety for interpersonal risk was associated with seeking feedback, discussing errors, experimenting, and other team learning behavior, which mediated performance relations.
+    limits: Organizational association is not a classroom intervention; psychological safety is collective and contextual, not a personality feeling or a promise of no consequences.
+
+  - id: oconnor-et-al-2002-crm-evaluation
+    kind: literature-review
+    citation: O'Connor, P., Flin, R., & Fletcher, G. (2002). Techniques used to evaluate crew resource management training—A literature review. Human Factors and Aerospace Safety, 2(3), 217-233.
+    url: https://trid.trb.org/View/644338
+    publication_date: 2002-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Flight crews and workers in aviation and other safety-critical industries receiving crew-resource training.
+    design: Review of 48 studies across reactions, attitudes, behavior, and organizational effects.
+    finding: Training often improved reactions, attitudes, and observed behaviors, while evidence for organizational safety and productivity effects was much weaker.
+    limits: Evaluation designs and training content varied; rare accidents and system changes make organizational attribution difficult.
+
+  - id: gross-et-al-2015-healthcare-crm
+    kind: systematic-review
+    citation: Gross, B., Rusin, L., Kiesewetter, J., et al. (2019). Crew resource management training in healthcare—A systematic review of intervention design, training conditions and evaluation. BMJ Open, 9, e025247. https://doi.org/10.1136/bmjopen-2018-025247
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6410092/
+    publication_date: 2019-02-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Healthcare teams receiving aviation-derived human-factors and crew-resource training.
+    design: Systematic review of content, delivery, evaluation, behavior transfer, and organizational implementation.
+    finding: Interventions and reporting were heterogeneous; durable behavior and organization-wide safety culture require more than isolated classroom training and may depend on a critical mass and institutional conditions.
+    limits: Incomplete descriptions and weak designs prevent precise component and outcome claims.
+
+  - id: duff-et-al-2024-debriefing
+    kind: systematic-review
+    citation: Duff, J. P., Morse, K. J., Seelandt, J., et al. (2024). Debriefing methods for simulation in healthcare—A systematic review. Simulation in Healthcare, 19(1S), S112-S121. https://doi.org/10.1097/SIH.0000000000000765
+    url: https://pubmed.ncbi.nlm.nih.gov/38240623/
+    publication_date: 2024-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Healthcare providers participating in simulation debriefing and feedback interventions.
+    design: Systematic comparison of 70 studies of debriefing concepts, approaches, tools, and educational or clinical outcomes.
+    finding: Debriefing is widely treated as central, but particular frameworks and techniques rest on limited robust comparative evidence.
+    limits: Heterogeneous interventions, outcomes, facilitators, and incomplete reporting constrain synthesis.
+
+  - id: cheng-et-al-2014-video-debrief
+    kind: systematic-review-and-meta-analysis
+    citation: Cheng, A., Eppich, W., Grant, V., Sherbino, J., Zendejas, B., & Cook, D. A. (2014). Debriefing for technology-enhanced simulation—A systematic review and meta-analysis. Medical Education, 48(7), 657-666. https://doi.org/10.1111/medu.12432
+    url: https://doi.org/10.1111/medu.12432
+    publication_date: 2014-07-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Healthcare learners using technology-enhanced simulation with debriefing.
+    design: Systematic review and meta-analysis of comparative studies.
+    finding: Debriefing generally accompanied improved outcomes, but video-assisted debriefing did not reliably outperform debriefing without video.
+    limits: Debrief characteristics were poorly reported, and comparison groups do not isolate every active component.
+claims:
+  - id: error-policy-follows-consequence
+    statement: >-
+      Errors should be invited only where consequences are contained, consented,
+      observable, recoverable, and followed by feedback; elsewhere, prevention and supervised interruption take priority.
+    confidence: high
+    source_ids: [keith-frese-2008-error-management, mcgaghie-et-al-2011-simulation-dp]
+    supports: Classify the error envelope before practice, build stopping rules and recovery, and rehearse recognition and response as well as primary performance.
+    tensions: Excessive error prevention can produce brittle rule-following and hide how conditions actually degrade.
+    boundary_conditions: Reversibility, hazard, consent, supervision, learner readiness, system redundancy, and affected third parties.
+    does_not_license: “Fail fast” in hazardous systems, surprise exposure, preventable harm as authenticity, or treating every error as a growth opportunity.
+
+  - id: simulation-fidelity-is-relational
+    statement: >-
+      A simulation is sufficiently faithful when it preserves the cues, decisions,
+      constraints, consequences, coordination, and feedback needed for the learning objective—not when it merely looks expensive or realistic.
+    confidence: high
+    source_ids: [mcgaghie-et-al-2011-simulation-dp, gross-et-al-2015-healthcare-crm]
+    supports: Define the target performance and transfer context, then select only the physical, semantic, emotional, social, and temporal features that matter.
+    tensions: Unanticipated contextual details can be part of expert performance and may need progressively richer environments.
+    boundary_conditions: Objective, expertise, hazard, equipment, team, transfer distance, cost, and access.
+    does_not_license: High-fidelity theater, simulated distress as rigor, using LLM plausibility as world accuracy, or claiming a role-play is equivalent to practice.
+
+  - id: practice-needs-feedback-and-criterion
+    statement: >-
+      Repetition becomes deliberate or mastery-oriented only when there is a valid
+      criterion, interpretable performance evidence, targeted feedback, another attempt, and eventual independent retention or transfer.
+    confidence: high
+    source_ids: [mcgaghie-et-al-2011-simulation-dp]
+    supports: State the criterion and its rationale, vary cases, permit time and attempts, fade prompts, and verify delayed independent performance.
+    tensions: Some forms of artistry, judgment, and teamwork resist one threshold, and fixed mastery cutoffs can conceal inequity or invalid measurement.
+    boundary_conditions: Skill, criterion validity, time, resources, stakes, learner goal, fatigue, and transfer.
+    does_not_license: Drill, punitive retesting, threshold fetish, unlimited unpaid practice, equating speed with mastery, or certification from simulation alone.
+
+  - id: speaking-up-needs-structural-reception
+    statement: >-
+      Telling learners to question authority or report error is not a safety
+      intervention unless higher-status actors, incentives, procedures, and consequences make reception credible.
+    confidence: high
+    source_ids: [edmondson-1999-psychological-safety, gross-et-al-2015-healthcare-crm, oconnor-et-al-2002-crm-evaluation]
+    supports: Train leaders to invite and act on concern, clarify escalation routes, rehearse graded assertion, protect refusal, and track what happens after reports.
+    tensions: Safety to speak does not exempt a claim from evidence, conflict, accountability, or appropriate consequence.
+    boundary_conditions: Team hierarchy, employment, regulation, culture, retaliation risk, urgency, and reporting system.
+    does_not_license: Vulnerability demands, “safe space” guarantees, making junior people fix culture, reporting quotas, or interpreting silence as agreement.
+
+  - id: debrief-is-inquiry-not-confession
+    statement: >-
+      A debrief should reconstruct observable events, frames, system conditions,
+      consequences, and alternatives in order to improve next performance, not extract remorse or display facilitator insight.
+    confidence: high
+    source_ids: [duff-et-al-2024-debriefing, cheng-et-al-2014-video-debrief]
+    supports: Begin from events and objectives, invite the participant's frame without claiming mind-reading, supply expert standards directly, and end with a rehearseable change.
+    tensions: Emotional reaction may need acknowledgment, and conduct causing harm can require accountability beyond technical analysis.
+    boundary_conditions: Consent, culture, role, stakes, privacy, recording, facilitator expertise, harm, and timing.
+    does_not_license: Compulsory emotional disclosure, public humiliation, replay without consent, therapy, blame-free impunity, or one branded debrief framework by default.
+
+  - id: learning-outcome-is-not-safety-outcome
+    statement: >-
+      Improved knowledge, confidence, attitude, or simulated behavior does not by
+      itself establish safer real-world practice or organizational outcomes.
+    confidence: high
+    source_ids: [oconnor-et-al-2002-crm-evaluation, gross-et-al-2015-healthcare-crm, mcgaghie-et-al-2011-simulation-dp]
+    supports: Trace transfer to behavior, process reliability, near misses, adverse events, affected people, and system conditions with appropriate designs and time horizons.
+    tensions: Rare harms and complex systems make direct safety effects difficult to attribute, so proximal validated measures remain necessary.
+    boundary_conditions: Outcome frequency, observation, reporting, confounding, system change, time, and ethics.
+    does_not_license: Dismissing training without accident data, safety claims from satisfaction, confidence as competence, or blaming learners for system failures.
+implications:
+  - Professor may create low-stakes simulations for reasoning, communication, and decision rehearsal, but must state what they omit and never issue real-world certification.
+  - Error encouragement should be off by default for medical, legal, physical, financial, security, or third-party stakes unless the sandbox is genuinely contained.
+  - A simulated learner, client, witness, or culture is a designed case—not authentic testimony or evidence about how real people respond.
+  - Debriefing a lesson should produce one observable next move or revised condition; if it produces only self-description, it should not accumulate.
+  - Existing safety, role, assessment, and evidence policies suffice. No high-fidelity or error-management tack is earned automatically.
+open_questions:
+  - Which conversational tasks have a sufficiently contained error envelope for autonomous daily practice?
+  - How can Professor represent system conditions in a simulation without generating a falsely coherent world?
+  - What evidence can connect AI-supported rehearsal to independent real-world behavior without invasive monitoring?
+  - How should debriefing change across cultures where public disagreement, hierarchy, face, and error attribution differ?
+next_actions:
+  - Study consent and deception in pedagogical simulation, including standardized patients, role-play, and surprise scenarios.
+  - Add an error-envelope question to future tack proposals involving failure, games, or simulation.
+  - Audit any AI confidence-building language for competence and transfer evidence.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
