@@ -1,0 +1,232 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: play-curiosity-games-and-coercive-engagement-2026-08-12
+title: Play preserves agency and possibility; gamification often targets behavior instead
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [motivation-play-aesthetics-and-sustainable-effort, durable-memory-transfer-and-calibration]
+scope: >-
+  A bounded inquiry into guided play, free play, direct instruction,
+  gamification, game-based learning, curiosity, fiction, competition, and
+  engagement. It asks which mechanisms make an encounter playful and educative,
+  when guidance preserves learner agency, and when game elements become
+  behavioral control, ranking, surveillance, or a substitute for worthwhile
+  subject matter.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared guided-play and gamification meta-analyses with a developmental
+    curiosity review and critical distinctions among play, full games, gameful
+    overlays, narrative, feedback, social interaction, choice, and discovery.
+    Read immediate behavior beside learning, transfer, delayed motivation,
+    access, consent, identity, competition, manipulation, and opportunity cost.
+  inclusion: >-
+    Reviews that specify comparators and outcomes, distinguish gameful designs,
+    or analyze internally motivated information seeking across contexts.
+  exclusions: >-
+    Engagement-as-learning claims, retention or daily-use metrics, “add points”
+    recipes, educational games evaluated only against inactivity, and curiosity
+    hooks that withhold needed information or manufacture anxiety.
+  limitations: >-
+    Guided-play evidence is early-childhood-specific and highly heterogeneous.
+    The main gamification meta-analysis searched through 2017 and pooled diverse
+    elements and instructional contexts. Curiosity research is construct- and
+    measure-diverse, and evidence about children cannot be applied wholesale to
+    voluntary adult humanities learning.
+readings:
+  - id: skene-et-al-2022-guided-play
+    kind: systematic-review-and-meta-analysis
+    citation: >-
+      Skene, K., O’Farrelly, C. M., Byrne, E. M., Kirby, N., Stevens, E. C., &
+      Ramchandani, P. G. (2022). Can guidance during play enhance children’s
+      learning and development in educational contexts? A systematic review and
+      meta-analysis. Child Development, 93(4), 1162-1180.
+      https://doi.org/10.1111/cdev.13730
+    url: https://doi.org/10.1111/cdev.13730
+    publication_date: 2022-01-12
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Young children in educational guided-play studies across literacy, numeracy, executive, socioemotional, and other outcomes.
+    design: Systematic review, twelve outcome meta-analyses, pooled analyses, and narrative analysis of adult guidance and child choice.
+    finding: >-
+      Guided play sometimes outperformed free play and direct instruction for
+      specific early mathematics, shape, spatial-vocabulary, and task-switching
+      outcomes, but the overall comparison with direct instruction was not
+      significant and heterogeneity was high. Implementations varied sharply in
+      child choice and adult guidance.
+    limits: >-
+      Small and uneven subgroup pools, inconsistent definitions, high
+      heterogeneity, and mostly proximal measures prevent a universal guided-
+      play superiority claim.
+
+  - id: sailer-homner-2020-gamification
+    kind: meta-analysis
+    citation: >-
+      Sailer, M., & Homner, L. (2020). The Gamification of Learning: a Meta-
+      analysis. Educational Psychology Review, 32, 77-112.
+      https://doi.org/10.1007/s10648-019-09498-w
+    url: https://doi.org/10.1007/s10648-019-09498-w
+    publication_date: 2019-08-15
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Controlled studies of adding game elements to educational processes across settings and ages.
+    design: Random-effects meta-analysis of cognitive, motivational, and behavioral outcomes with moderators and methodological-rigor subsplits.
+    finding: >-
+      Gamification showed small positive pooled effects, but heterogeneity was
+      substantial and motivational and behavioral effects did not survive the
+      high-rigor subsplits. Behavioral measures were usually taken inside the
+      gameful intervention, leaving immediate effort confounded with durable
+      learning outside it.
+    limits: >-
+      Few eligible studies, broad constructs, underpowered moderator groups,
+      inconsistent instruments, and a March 2017 search limit causal and current
+      conclusions. Positive cognitive effects do not identify a safe element.
+
+  - id: jirout-evans-son-2024-curiosity
+    kind: developmental-integrative-review
+    citation: >-
+      Jirout, J. J., Evans, N. S., & Son, L. K. (2024). Curiosity in children
+      across ages and contexts. Nature Reviews Psychology, 3, 622-635.
+      https://doi.org/10.1038/s44159-024-00346-5
+    url: https://doi.org/10.1038/s44159-024-00346-5
+    publication_date: 2024-08-07
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Children's internally and externally expressed curiosity across home, school, social, and knowledge contexts.
+    design: Integrative review of state curiosity as internally motivated information-seeking around a question or knowledge gap.
+    finding: >-
+      Curiosity varies across age and context and directs attention and
+      information seeking in knowledge development; external signs do not fully
+      capture internally experienced curiosity.
+    limits: >-
+      Subscription access limited this scan. Definitions and measures vary, and
+      curiosity is neither uniformly pleasant nor sufficient for reliable
+      inquiry, accurate belief, sustained effort, or equitable opportunity.
+claims:
+  - id: play-is-a-mode-not-a-reward-shell
+    statement: >-
+      Educational play is a mode of voluntary, exploratory, rule- or possibility-
+      responsive activity in which action has intelligible consequences; points,
+      badges, streaks, fiction, and animation do not by themselves create play.
+    confidence: high
+    source_ids: [skene-et-al-2022-guided-play, sailer-homner-2020-gamification]
+    supports: >-
+      Let the subject matter generate moves, feedback, surprise, alternatives,
+      and replay; provide a plain path; permit stopping; and evaluate what the
+      learner can do after the play frame disappears.
+    tensions: >-
+      Lightweight game elements can clarify progress, invite rehearsal, and
+      make low-stakes effort more approachable for some learners.
+    boundary_conditions: >-
+      Consent, intrinsic relation to content, access, stakes, competition,
+      feedback, persistence pressure, social visibility, and delayed transfer.
+    does_not_license: Streak pressure, variable-ratio rewards, fake scarcity, points for disclosure, obligatory avatars, surprise penalties, or calling a quiz a game.
+
+  - id: guided-play-needs-both-agency-and-educational-intent
+    statement: >-
+      Guidance can improve learning within play when it responds to the
+      learner's action and preserves meaningful choice, while free play and
+      direct instruction remain valuable alternatives for different purposes.
+    confidence: high
+    source_ids: [skene-et-al-2022-guided-play]
+    supports: >-
+      Arrange a generative object or problem, notice the learner's move, offer a
+      cue or constraint only when it opens further agency, and give a direct
+      explanation immediately when requested.
+    tensions: >-
+      Too little guidance can leave a domain structure invisible; too much
+      converts play into disguised compliance and makes learner choice cosmetic.
+    boundary_conditions: >-
+      Age, prior knowledge, task structure, learner aim, safety, time, guidance
+      timing, degree of choice, and the comparator.
+    does_not_license: Unguided discovery as default, Socratic withholding, pretending a predetermined path is open, or assuming play always beats explicit teaching.
+
+  - id: curiosity-needs-an-honest-gap-and-a-reliable-path
+    statement: >-
+      A curiosity invitation is pedagogically sound when a real, graspable gap
+      connects to available knowledge and a credible way to investigate it; the
+      teacher should not manufacture uncertainty or withhold closure merely to
+      keep the learner engaged.
+    confidence: medium
+    source_ids: [jirout-evans-son-2024-curiosity]
+    supports: >-
+      Open on a vivid contradiction, form, sound, object, or question; reveal
+      enough structure for the learner to choose a route; model source judgment;
+      and answer fully on request.
+    tensions: >-
+      Mystery, delayed revelation, and unresolved ambiguity can have genuine
+      aesthetic and epistemic value when freely chosen.
+    boundary_conditions: >-
+      Trust, stakes, prior knowledge, answer availability, time, emotion,
+      accessibility, and whether the learner consents to the mystery frame.
+    does_not_license: Clickbait, fake suspense, fear hooks, concealing the answer, exploiting confusion, or treating question frequency as curiosity.
+
+  - id: gameful-behavior-is-not-independent-motivation
+    statement: >-
+      More attempts, time, clicks, completions, or visible enthusiasm inside a
+      gameful system do not establish independent motivation, learning, or
+      voluntary return after its contingencies are removed.
+    confidence: high
+    source_ids: [sailer-homner-2020-gamification]
+    supports: >-
+      Measure unprompted strategy use, chosen continuation, delayed performance,
+      transfer, emotional and time cost, and whether interest survives without
+      reward or surveillance.
+    tensions: >-
+      Immediate participation can create needed practice and competence, which
+      may later support more self-endorsed motivation.
+    boundary_conditions: >-
+      Baseline motivation, reward meaning, duration, learner control, social
+      comparison, measurement timing, task value, and scaffold fading.
+    does_not_license: Retention optimization, attendance rewards as learning evidence, compulsory fun, leaderboards by default, or escalating rewards when interest falls.
+
+  - id: play-can-be-complete-without-instrumental-payoff
+    statement: >-
+      A playful or aesthetic encounter may be educationally complete as a
+      chosen form of attention, imagination, relation, or delight; it need not
+      disguise itself as a delivery mechanism for a distant measurable skill.
+    confidence: medium
+    source_ids: [skene-et-al-2022-guided-play, jirout-evans-son-2024-curiosity]
+    supports: >-
+      State honestly when the aim is encounter, exploration, or delight and do
+      not attach a quiz or reflection tax merely to certify educational value.
+    tensions: >-
+      Public or compulsory education must also answer for access, opportunity,
+      knowledge, safety, time, and whose play is recognized or excluded.
+    boundary_conditions: >-
+      Voluntariness, learner purpose, resource and time cost, access, cultural
+      meaning, public obligation, and whether hidden assessment is attached.
+    does_not_license: Aimlessness imposed on learners, spectacle instead of access, avoiding evidence for a claimed skill outcome, or romanticizing play across every culture and age.
+implications:
+  - >-
+    Professor should begin many daily encounters with a small live mystery,
+    image, sound, word, or move, but offer an immediate plain explanation or
+    alternate route and never demand that the learner “play along.”
+  - >-
+    A philological word nucleus is naturally gameful when the learner can test
+    segmentations, relations, sounds, attestations, and semantic paths; points
+    and streaks would usually add less than the object itself.
+  - >-
+    Preserve surprise without deception. Preserve difficulty without blocked
+    access. Preserve uncertainty without pretending evidence is unavailable.
+  - >-
+    Evaluate a game by the capability, encounter, or chosen experience it was
+    meant to create, including what happens when the game ends.
+  - >-
+    Existing constitutional game and motivation rules are stronger than any new
+    change justified here; retain this as synthesis and counterevidence.
+open_questions:
+  - Which kinds of adult humanities play support rigorous source judgment without trivializing the object?
+  - How should uncertainty and disputed etymology become playable while claim status stays exact?
+  - What access barriers are created by game literacy, speed, competition, motor demands, fiction, or hidden rules?
+  - Which measures distinguish curiosity, confusion, novelty response, anxiety, and compliance without surveillance?
+  - When can collaborative competition be genuinely consensual and fair in a one-learner AI setting?
+next_actions:
+  - Read game studies, play scholarship, disability critiques, and non-Western accounts before treating experimental gamification as a theory of play.
+  - Seek delayed and post-removal outcomes for gamification, including adverse effects and learner preference heterogeneity.
+  - Study question-asking, intellectual need, productive failure, and explanation as related but distinct mechanisms.
+  - Audit Professor examples for streaks, faux choice, manipulative mystery, compulsory interaction, and quizzes attached to complete encounters.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
