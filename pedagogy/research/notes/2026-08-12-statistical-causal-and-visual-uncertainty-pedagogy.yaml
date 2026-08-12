@@ -95,11 +95,11 @@ readings:
     finding: Effective displays align perceptual encoding with the intended comparison and audience; visualizations can also cause systematic misunderstanding, especially when design and graph literacy mismatch.
     limits: Design guidance cannot determine the ethical question, data quality, or intended inference and may not generalize across culture, disability, device, and domain.
 
-  - id: rho-et-al-2025-misleading-visualizations
+  - id: rho-et-al-2026-misleading-visualizations
     kind: experiment
-    citation: Rho, J., Rau, M. A., Bharti, S. K., et al. (2025). Comparing the deceptive impact of misleading data visualizations—Implications for adaptive data literacy support. Computers & Education, 229, 105285. https://doi.org/10.1016/j.compedu.2025.105285
-    url: https://doi.org/10.1016/j.compedu.2025.105285
-    publication_date: 2025-07-01
+    citation: Rho, J., Rau, M. A., & Zhu, X. (2026). Comparing the deceptive impact of misleading data visualizations—Implications for adaptive data literacy support in computer-based learning environments. Computers & Education, 243, 105508. https://doi.org/10.1016/j.compedu.2025.105508
+    url: https://doi.org/10.1016/j.compedu.2025.105508
+    publication_date: 2026-03-01
     accessed_on: 2026-08-12
     reading_level: abstract-screened
     population_context: 68 undergraduates interpreting misleading and nonmisleading versions of charts.
@@ -158,7 +158,7 @@ claims:
       Probabilities, frequencies, tables, icon arrays, intervals, distributions,
       and graphs are not neutral containers; each makes some operations perceptually or cognitively easier and others harder.
     confidence: high
-    source_ids: [hoffrage-et-al-2015-natural-frequencies, shah-et-al-2022-visual-communication, rho-et-al-2025-misleading-visualizations]
+    source_ids: [hoffrage-et-al-2015-natural-frequencies, shah-et-al-2022-visual-communication, rho-et-al-2026-misleading-visualizations]
     supports: Translate across at least two representations, use natural frequencies when appropriate, and test whether the display supports the intended comparison.
     tensions: Translation can introduce new ambiguity, and expertise includes fluency with conventional abstract forms.
     boundary_conditions: Task, audience, numeracy, device, disability, convention, and reference class.

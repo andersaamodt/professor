@@ -38,11 +38,11 @@ readings:
     finding: Frequency formats substantially increased correct Bayesian inferences in these tasks.
     limits: Constructed problems, selected scoring, trained population, and format effects may depend on nested sets, wording, numeracy, visual aid, and demanded response.
 
-  - id: binder-et-al-2018-frequency-counterevidence
+  - id: binder-et-al-2021-frequency-counterevidence
     kind: experimental-counterevidence
-    citation: Binder, K., et al. (2018). Natural frequency trees improve diagnostic efficiency in Bayesian reasoning. Advances in Health Sciences Education, 23, 867-889. https://doi.org/10.1007/s10459-018-9840-6
-    url: https://doi.org/10.1007/s10459-018-9840-6
-    publication_date: 2018-01-01
+    citation: Binder, K., Krauss, S., Schmidmaier, R., & Braun, L. T. (2021). Natural frequency trees improve diagnostic efficiency in Bayesian reasoning. Advances in Health Sciences Education, 26, 847-863. https://doi.org/10.1007/s10459-020-10025-8
+    url: https://doi.org/10.1007/s10459-020-10025-8
+    publication_date: 2021-08-01
     accessed_on: 2026-08-12
     reading_level: abstract-screened
     population_context: Learners interpreting diagnostic information with frequency-tree support.
