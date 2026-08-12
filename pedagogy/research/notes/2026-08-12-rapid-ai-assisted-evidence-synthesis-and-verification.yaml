@@ -52,11 +52,11 @@ readings:
 
   - id: living-review-methods-2023
     kind: scoping-review
-    citation: Akl, E. A., et al. (2023). Methods and guidance on conducting, reporting, publishing, and appraising living systematic reviews—A scoping review. Journal of Clinical Epidemiology. https://pmc.ncbi.nlm.nih.gov/articles/PMC10722674/
+    citation: Iannizzi, C., et al. (2023). Methods and guidance on conducting, reporting, publishing, and appraising living systematic reviews—A scoping review. Systematic Reviews, 12, 239. https://doi.org/10.1186/s13643-023-02396-x
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10722674/
     publication_date: 2023-01-01
     accessed_on: 2026-08-12
-    reading_level: partially-read
+    reading_level: full-text-read
     population_context: Guidance documents and methods for continuously surveilled and updated systematic reviews.
     design: Scoping review of living-review conduct, reporting, appraisal, update frequency, and lifecycle decisions.
     finding: Living mode needs an explicit protocol, surveillance process, update trigger, publication history, and criteria for entering and leaving living status.
@@ -64,11 +64,11 @@ readings:
 
   - id: korda-et-al-2020-living-approaches
     kind: methods-review
-    citation: Korda, R. J., et al. (2020). Living systematic reviews and other approaches for updating evidence. Journal of Clinical Epidemiology. https://pmc.ncbi.nlm.nih.gov/articles/PMC7542271/
+    citation: Lansky, A., & Wethington, H. R. (2020). Living systematic reviews and other approaches for updating evidence. American Journal of Public Health, 110(11), 1605–1606. https://doi.org/10.2105/AJPH.2020.305920
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7542271/
     publication_date: 2020-01-01
     accessed_on: 2026-08-12
-    reading_level: partially-read
+    reading_level: full-text-read
     population_context: High-priority questions in fast-moving fields where new evidence may change conclusions.
     design: Review and comparison of living and periodic evidence-update approaches.
     finding: Living review is justified when the question matters to decisions, evidence changes often, and new evidence could alter conclusions enough to warrant ongoing resources.
@@ -95,7 +95,7 @@ readings:
     reading_level: full-text-read
     population_context: Eighty public research notes and 515 reading records produced during one bounded four-hour AI-assisted study.
     design: Structured count, duplicate-ID analysis, DOI-resolution scan, manual anomaly follow-up, confidence-versus-reading-depth audit, validation, and correction commits.
-    finding: Bibliographic follow-up corrected eleven substantive metadata errors, including plausible splices of real authors, titles, journals, and identifiers; 19 shallow-source empirical claims were downgraded from high to moderate confidence.
+    finding: Bibliographic follow-up corrected thirteen substantive metadata errors, including plausible splices of real authors, titles, journals, and identifiers; 19 shallow-source empirical claims were downgraded from high to moderate confidence.
     limits: Same-agent self-audit, targeted rather than exhaustive bibliographic checking, no independent reviewer, no estimate of undetected error, and repository tests do not verify scholarship.
 contradictions:
   - Rapid synthesis can make time-sensitive evidence usable, yet every omitted search route, duplicate check, full-text read, and appraisal narrows what the conclusion can responsibly say.

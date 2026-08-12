@@ -47,7 +47,7 @@ readings:
     design: Structured synthesis records with scope, method, reading depth, findings, limits, claims, implications, open questions, and attestations.
     finding: >-
       The notes contained 522 reading records, 511 distinct reading identifiers,
-      and 384 claims at final audit time: 81 full-text-read, 241 partially-read,
+      and 384 claims at final audit time: 83 full-text-read, 239 partially-read,
       172 abstract-screened, 15 abstract-and-metadata-screened, 7
       abstract-and-official-record-screened, and 6 citation-traced. Eleven
       reading identifiers recur across notes, so record count is not source count.
@@ -92,7 +92,7 @@ readings:
       was not silently changed from scans. Validation caught invalid depth labels,
       identifiers, and agenda references before commits. An automated resolution
       check initially covered 275 distinct DOI-bearing URLs; manual follow-up on
-      anomalous results found and corrected eleven substantive citation-metadata
+      anomalous results and later decisive-source rereading found and corrected thirteen substantive citation-metadata
       errors, including spliced authorship and venues rather than broken links alone.
     limits: >-
       Tests establish structural and selected policy invariants, not source
