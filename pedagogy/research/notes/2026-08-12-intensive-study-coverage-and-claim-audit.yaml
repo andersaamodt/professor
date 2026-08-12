@@ -43,12 +43,12 @@ readings:
     publication_date: 2026-08-12
     accessed_on: 2026-08-12
     reading_level: full-text-read
-    population_context: Eighty public, learner-data-free notes spanning pedagogy, ethics, philosophy, learning sciences, technology, access, curriculum, institutions, and topic-specific teaching.
+    population_context: Eighty-one public, learner-data-free notes spanning pedagogy, ethics, philosophy, learning sciences, technology, access, curriculum, institutions, topic-specific teaching, and research method.
     design: Structured synthesis records with scope, method, reading depth, findings, limits, claims, implications, open questions, and attestations.
     finding: >-
-      The notes contained 515 reading records, 504 distinct reading identifiers,
-      and 377 claims at final audit time: 79 full-text-read, 237 partially-read,
-      171 abstract-screened, 15 abstract-and-metadata-screened, 7
+      The notes contained 522 reading records, 511 distinct reading identifiers,
+      and 384 claims at final audit time: 81 full-text-read, 241 partially-read,
+      172 abstract-screened, 15 abstract-and-metadata-screened, 7
       abstract-and-official-record-screened, and 6 citation-traced. Eleven
       reading identifiers recur across notes, so record count is not source count.
     limits: >-
@@ -181,7 +181,7 @@ claims:
 
   - id: reconnaissance-depth-must-constrain-voice
     statement: >-
-      Because 435 of 515 reading records were partial readings, abstract-level
+      Because 441 of 522 reading records were partial readings, abstract-level
       screenings, or citation traces, the corpus supports route finding,
       contradiction discovery, and bounded working hypotheses more strongly than
       fine-grained adjudication of the underlying literatures.
@@ -235,7 +235,7 @@ implications:
     boundaries, future source routes, and teacherly judgment while preserving
     the constitutional and promotion gates.
   - >-
-    Treat all 80 notes as a reconnaissance corpus. Before a note supports bundled
+    Treat all 81 notes as a reconnaissance corpus. Before a note supports bundled
     curriculum, active policy, or a consequential recommendation, reread its
     decisive sources and recheck metadata, lineage, population, and counterevidence.
   - >-

@@ -20,7 +20,7 @@ readings:
     url: https://doi.org/10.1136/bmj-2023-076335
     publication_date: 2024-02-06
     accessed_on: 2026-08-12
-    reading_level: partially-read
+    reading_level: full-text-read
     population_context: Teams conducting resource-efficient evidence syntheses for urgent and high-priority effectiveness questions.
     design: Evidence-informed methods guidance update covering question refinement, search, screening, extraction, risk of bias, synthesis, and certainty.
     finding: Rapid review is a systematic but streamlined synthesis; shortcuts should be selected and reported deliberately, and certainty and summary-of-findings judgments remain necessary.
@@ -35,8 +35,8 @@ readings:
     reading_level: partially-read
     population_context: Rapid-review teams deciding where and how to abbreviate duplicate study selection, extraction, and appraisal.
     design: Methods-series guidance based on methodological research and expert consensus.
-    finding: Single-reviewer shortcuts increase error and bias risks; calibrated second-person checking and piloting can preserve speed while targeting consequential decisions.
-    limits: Team workflows do not map directly onto a single AI agent; independence requires more than repeated passes by the same model and prompt lineage.
+    finding: The guidance recommends piloting eligibility decisions on a shared sample, continuing single-reviewer screening only after strong agreement, verifying one-person data extraction and risk-of-bias judgments with a second reviewer, and not omitting risk-of-bias assessment merely to save time.
+    limits: The suggested screening proportions and agreement thresholds are pragmatic guidance rather than universal guarantees; team workflows do not map directly onto a single AI agent, and repeated passes by the same model and prompt lineage are not independent review.
 
   - id: eldridge-et-al-2024-evidence-gap-maps
     kind: systematic-methods-review
@@ -134,7 +134,7 @@ claims:
     evidence: methods-guidance-synthesis
     confidence: high
     source_ids: [nussbaumer-streit-et-al-2023-rapid-selection, professor-intensive-audit-2026]
-    supports: Pilot criteria; duplicate a sample and every high-consequence decision; compare disagreements; verify decisive quotations, effect directions, corrections, and source identities; retain an audit trail.
+    supports: Pilot criteria on a shared sample; require a declared agreement threshold before abbreviating duplicate screening; independently verify extracted evidence and appraisal judgments; compare disagreements; verify decisive quotations, effect directions, corrections, and source identities; retain an audit trail.
     tensions: A second reviewer can share the same database, cultural frame, and error; universal duplication consumes time that could deepen one decisive source.
     boundary_conditions: Stakes, error prevalence, reviewer independence, task complexity, volume, time, and auditability.
     does_not_license: “Human in the loop” theater, same-prompt repetition as independence, majority vote as truth, or unpaid affected-person review.
@@ -150,12 +150,12 @@ claims:
 implications:
   - Professor research should declare its product type—scan, map, rapid review, deep reading, synthesis, or audit—and keep learner-facing certainty within that product's warrant.
   - Add automated duplicate and identifier anomaly checks to future research validation only as warnings; manual or independently sourced resolution remains necessary.
-  - Before any promotion, require a source-identity pass, decisive-source rereading, shallow-confidence audit, counterevidence search, and an independent review proportionate to consequence.
+  - Before any promotion, require a source-identity pass, decisive-source rereading, shallow-confidence audit, counterevidence search, and an independent review proportionate to consequence; same-agent reruns can expose inconsistencies but do not satisfy the independence requirement.
   - Prefer fewer maintained claims over repeated near-synonyms; a quarterly synthesis should supersede or prune rather than concatenate.
   - A daily professor should use research beside teaching and offer a small live encounter first; it should not unload its scholarly backlog onto the learner.
 open_questions:
   - Which automated bibliographic checks have acceptable false-positive and false-negative rates across books, chapters, archives, multilingual sources, and Indigenous community publications?
-  - How much independent checking is enough for a reversible daily lesson, a bundled curriculum, a policy change, and a high-stakes recommendation?
+  - How much independent checking is enough for a reversible daily lesson, a bundled curriculum, a policy change, and a high-stakes recommendation, and what calibration sample and disagreement rule should govern each tier?
   - Can claim-level lineage and supersession reduce repeated notes without creating an opaque knowledge graph?
 next_actions:
   - Add bibliographic anomaly and high-confidence-shallow-source audits as proposed tooling, but do not make them hard gates until false alarms and non-DOI exclusions are tested.
