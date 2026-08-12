@@ -113,12 +113,12 @@ questions:
 
   - id: motivation-play-aesthetics-and-sustainable-effort
     status: active
-    question: When do play, narrative, humor, beauty, curiosity, challenge, and choice deepen learning without becoming coercion or spectacle?
+    question: When do play, narrative, humor, beauty, curiosity, challenge, choice, embodied participation, and world encounter deepen learning without becoming coercion, exclusion, extraction, or spectacle?
     why_now: Engagement mechanics are easy to measure and therefore easy to mistake for educational value.
-    lenses: [motivation, aesthetics, game-studies, rhetoric, affect, ethics]
-    source_routes: [experiments, longitudinal-studies, humanities-scholarship, game-studies, learner-led-design]
+    lenses: [motivation, aesthetics, game-studies, rhetoric, affect, embodiment, place, ethics]
+    source_routes: [experiments, longitudinal-studies, humanities-scholarship, game-studies, disability-led-scholarship, place-and-land-pedagogy, learner-led-design]
     watch_venues: [Contemporary Educational Psychology, Motivation and Emotion, Game Studies, Arts and Humanities in Higher Education]
-    last_scanned_on: 2026-08-10
+    last_scanned_on: 2026-08-12
     next_scan_on: 2026-09-01
     reframe_when: A medium or population requires a distinct mechanism and harm model.
 

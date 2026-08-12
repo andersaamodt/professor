@@ -1,0 +1,312 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: embodiment-aesthetics-affect-and-place-2026-08-12
+title: A world-aware lesson is not a text lesson with decorative motion or feeling
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [motivation-play-aesthetics-and-sustainable-effort, access-disability-and-equivalent-participation]
+scope: >-
+  A bounded inquiry into bodily action, aesthetic encounter, achievement
+  emotion, confusion, and place-based learning. It asks what these modes make
+  learnable, what is lost when they are reduced to engagement devices, and how
+  a conversational AI can invite world contact without prescribing bodies,
+  inferring feelings, or turning people and places into instructional props.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared a critical taxonomy and a current meta-analysis of embodied
+    learning, a research synthesis on arts transfer, control-value theory and
+    an integrative review of confusion, and systematic reviews of place-based
+    and outdoor education. Read for mechanisms, heterogeneity, intrinsic versus
+    instrumental value, participation burdens, and claims that outrun designs.
+  inclusion: >-
+    Open or inspectable reviews and syntheses that distinguish interventions,
+    learning targets, moderators, causal status, or ethical and access limits.
+  exclusions: >-
+    Generic multisensory advice, learning-style matching, engagement marketing,
+    neuroaesthetic slogans, compulsory movement, and aesthetic claims presented
+    as empirical proof.
+  limitations: >-
+    This was not a database-complete systematic review. The recent embodiment
+    meta-analysis pools highly heterogeneous outcomes and interventions; the
+    arts synthesis is older and focuses on transfer rather than the intrinsic
+    worth of artistic study; emotion evidence is often reciprocal or
+    correlational; and place/outdoor reviews largely concern school settings.
+readings:
+  - id: skulmowski-rey-2018-embodied-taxonomy
+    kind: critical-review-and-taxonomy
+    citation: >-
+      Skulmowski, A., & Rey, G. D. (2018). Embodied Learning: Introducing a
+      Taxonomy Based on Bodily Engagement and Task Integration. Cognitive
+      Research: Principles and Implications, 3, 6.
+      https://doi.org/10.1186/s41235-018-0092-9
+    url: https://doi.org/10.1186/s41235-018-0092-9
+    publication_date: 2018-03-07
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Educational embodiment research including gesture, enactment, physical and virtual activity.
+    design: Critical narrative review organized by bodily engagement and semantic integration with the learning task.
+    finding: >-
+      Embodied interventions vary from observed gesture to locomotion. Amount
+      of movement alone does not characterize their instructional mechanism;
+      whether an action is meaningfully integrated with the target is a
+      separate and consequential dimension.
+    limits: >-
+      The taxonomy is theoretical rather than a pooled causal estimate, and
+      examples concentrate on cognitive outcomes rather than access, fatigue,
+      dignity, or the learner's authority over bodily participation.
+
+  - id: zhou-et-al-2025-embodied-meta-analysis
+    kind: meta-analysis
+    citation: >-
+      Zhou, et al. (2025). The Effect of Embodied Learning on Students'
+      Learning Performance: A Meta-Analysis. Frontiers in Psychology, 16,
+      1658797. https://doi.org/10.3389/fpsyg.2025.1658797
+    url: https://doi.org/10.3389/fpsyg.2025.1658797
+    publication_date: 2025-09-03
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Forty-six published (quasi-)experimental studies from 2010-2025 across subjects and education levels.
+    design: Random-effects meta-analysis of 66 effect sizes with moderator and publication-bias analyses.
+    finding: >-
+      The pooled estimate was moderately positive (g = 0.406), but heterogeneity
+      was very high (I-squared = 87.884%). Effects varied by discipline, age,
+      duration, grouping, and embodiment definition; some primary studies found
+      null effects or increased physical load.
+    limits: >-
+      English-language published quantitative studies only; qualitative work
+      was excluded; broad outcome measures were combined; moderator cells were
+      sometimes sparse; publication-bias diagnostics do not resolve design or
+      construct heterogeneity. The review also invokes learning-style language,
+      which does not establish matching as a valid prescription.
+
+  - id: winner-goldstein-vincent-lancrin-2013-arts
+    kind: research-synthesis
+    citation: >-
+      Winner, E., Goldstein, T. R., & Vincent-Lancrin, S. (2013). Art for Art's
+      Sake? The Impact of Arts Education. OECD Publishing.
+      https://doi.org/10.1787/9789264180789-en
+    url: https://doi.org/10.1787/9789264180789-en
+    publication_date: 2013-06-14
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: School, integrated, and out-of-school education in music, visual art, theatre, and dance.
+    design: Broad synthesis of empirical research on academic, thinking, creativity, motivational, and social transfer outcomes.
+    finding: >-
+      Arts participation correlates with many valued outcomes, but causal far
+      transfer is uneven and cannot be inferred from selection into arts study.
+      Plausible habits such as close observation require direct teaching and
+      evidence of transfer rather than rhetorical assumption.
+    limits: >-
+      The synthesis is now dated and explicitly does not evaluate education
+      about art or cultural education. Its transfer frame cannot adjudicate the
+      intrinsic educational value of perception, form, making, interpretation,
+      pleasure, difficulty, and cultural participation.
+
+  - id: pekrun-2006-control-value
+    kind: theory-and-research-synthesis
+    citation: >-
+      Pekrun, R. (2006). The Control-Value Theory of Achievement Emotions:
+      Assumptions, Corollaries, and Implications for Educational Research and
+      Practice. Educational Psychology Review, 18, 315-341.
+      https://doi.org/10.1007/s10648-006-9029-9
+    url: https://doi.org/10.1007/s10648-006-9029-9
+    publication_date: 2006-11-05
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Research on emotions associated with learning activities and achievement outcomes.
+    design: Integrative theoretical account connecting control and value appraisals, emotion, motivation, cognition, and performance.
+    finding: >-
+      Learning emotions are multiple, object- and domain-specific, and linked
+      reciprocally with perceived control, value, engagement, and achievement;
+      they cannot be read as a one-way causal meter of instructional quality.
+    limits: >-
+      A theory is not a warrant to infer an individual's feelings, and school
+      achievement constructs do not exhaust aesthetic, ethical, relational, or
+      existential experience.
+
+  - id: arguel-et-al-2019-confusion
+    kind: integrative-review
+    citation: >-
+      Arguel, A., Lockyer, L., Lipp, O. V., Lodge, J. M., & Kennedy, G. (2019).
+      Inside Out: Detecting Learners' Confusion to Improve Interactive Digital
+      Learning Environments. Journal of Educational Computing Research. Review
+      version: Understanding Difficulties and Resulting Confusion in Learning.
+      https://doi.org/10.3389/feduc.2018.00049
+    url: https://doi.org/10.3389/feduc.2018.00049
+    publication_date: 2018-06-19
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Research on cognitive impasse, subjective confusion, frustration, and digital learning.
+    design: Integrative conceptual review of productive and unproductive difficulty and confusion.
+    finding: >-
+      A resolvable impasse may sometimes support learning, but persistent
+      confusion that becomes frustration is commonly harmful. Studies often
+      cannot isolate whether difficulty, felt confusion, or their interaction
+      caused learning gains, and different learners can interpret the same
+      condition differently.
+    limits: >-
+      The literature uses inconsistent definitions and many findings come from
+      intelligent-tutoring studies. Detection research creates additional
+      privacy, surveillance, and misclassification questions not settled by
+      evidence that confusion can sometimes be productive.
+
+  - id: yemini-et-al-2025-place-based-review
+    kind: systematic-review
+    citation: >-
+      Yemini, M., Engel, L., & Ben Simon, A. (2025). Place-Based Education—A
+      Systematic Review of Literature. Educational Review, 77.
+      https://doi.org/10.1080/00131911.2023.2177260
+    url: https://doi.org/10.1080/00131911.2023.2177260
+    publication_date: 2023-02-20
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: International scholarship on place-based education, heavily concentrated in the United States and school settings.
+    design: Systematic review categorizing purposes, practices, and outcomes of place-based education.
+    finding: >-
+      Place-based work ranges from learning in or about a locality to learning
+      for its communities and ecologies. The literature includes academic
+      outcomes but also social justice, community, and decolonization, which
+      individual achievement measures can erase.
+    limits: >-
+      Definitions and study designs vary, geographic production is uneven, and
+      neither locality nor community partnership guarantees nonextractive or
+      decolonial practice.
+
+  - id: becker-et-al-2017-outdoor-review
+    kind: systematic-review
+    citation: >-
+      Becker, C., Lauterbach, G., Spengler, S., Dettweiler, U., & Mess, F.
+      (2017). Effects of Regular Classes in Outdoor Education Settings: A
+      Systematic Review on Students' Learning, Social and Health Dimensions.
+      International Journal of Environmental Research and Public Health, 14,
+      485. https://doi.org/10.3390/ijerph14050485
+    url: https://doi.org/10.3390/ijerph14050485
+    publication_date: 2017-05-05
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Regular school curriculum conducted outside classrooms.
+    design: Systematic review of learning, social, and health outcomes.
+    finding: >-
+      Outdoor instruction showed promising multidimensional outcomes, while
+      implementation depended on transport, staffing, time, curriculum, and
+      teacher preparation rather than location alone.
+    limits: >-
+      Study quality and comparability varied, and practical barriers can become
+      unequal participation burdens. Outdoor access is not equivalent access
+      without safe, dignified alternatives and support.
+claims:
+  - id: embodiment-is-task-specific-participation
+    statement: >-
+      Bodily or material participation earns a place in a lesson when its
+      action, perception, or constraint is meaningfully coupled to the target;
+      movement volume and technological immersion are not mechanisms by
+      themselves.
+    confidence: medium
+    source_ids: [skulmowski-rey-2018-embodied-taxonomy, zhou-et-al-2025-embodied-meta-analysis]
+    supports: >-
+      Invite a gesture, manipulation, rehearsal, walk, listening posture, or
+      making act only when the learner can later point to what that act made
+      perceptible, possible, testable, or memorable.
+    tensions: >-
+      Incidental movement can still support alertness, pleasure, health, or
+      regulation even when it does not represent the concept.
+    boundary_conditions: >-
+      Physical safety, fatigue, pain, sensory access, space, privacy, culture,
+      equipment, and equivalent nonbodily routes must be considered before an
+      invitation becomes an expectation.
+    does_not_license: Learning-style matching, compulsory movement, biometric inference, spectacle, or treating stillness as disengagement.
+
+  - id: aesthetic-education-need-not-borrow-worth
+    statement: >-
+      An aesthetic encounter may be educational through more exact perception,
+      discrimination, making, interpretation, judgment, and participation in a
+      form; it need not claim remote gains in unrelated subjects to deserve
+      time.
+    confidence: medium
+    source_ids: [winner-goldstein-vincent-lancrin-2013-arts]
+    supports: >-
+      Let the work be encountered as a work, name the form-specific capability,
+      and test any transfer claim at the destination rather than asserting that
+      beauty or creativity automatically generalizes.
+    tensions: >-
+      Arts learning can have instrumental consequences, and refusing all
+      transfer questions could hide public benefits or unequal access.
+    boundary_conditions: >-
+      Formal attention needs context when provenance, harm, appropriation,
+      warning, or cultural authority materially changes the encounter.
+    does_not_license: Taste policing, context-free formalism, poetry as proof, sentimental manipulation, or arts-as-engagement garnish.
+
+  - id: affect-is-situated-evidence-not-a-control-signal
+    statement: >-
+      Feeling can shape and reveal learning, but observed or inferred affect is
+      ambiguous, reciprocal, domain-specific evidence—not a reliable command
+      to intensify, soothe, gamify, or continue a lesson.
+    confidence: high
+    source_ids: [pekrun-2006-control-value, arguel-et-al-2019-confusion]
+    supports: >-
+      Make difficulty locatable and escapable, ask rather than diagnose when
+      affect matters, distinguish impasse from emotion, and supply a hint,
+      answer, pause, or alternate route before confusion becomes abandonment.
+    tensions: >-
+      Ignoring expressed emotion can be neglectful, and some bounded difficulty
+      or ambiguity is constitutive of inquiry rather than a defect to erase.
+    boundary_conditions: >-
+      Direct learner reports outrank behavioral guesses; high-stakes, traumatic,
+      clinical, identity-laden, or persistent distress requires a smaller
+      pedagogical claim and often human care beyond the AI's role.
+    does_not_license: Emotion detection, engineered frustration, desirable-difficulty slogans, forced disclosure, or equating pleasure with learning.
+
+  - id: place-is-relation-not-scenery
+    statement: >-
+      Place-based learning should make reciprocal relations, histories,
+      authority, material constraints, and consequences available to inquiry;
+      merely moving a task outdoors or mentioning a locality does not do so.
+    confidence: medium
+    source_ids: [yemini-et-al-2025-place-based-review, becker-et-al-2017-outdoor-review]
+    supports: >-
+      Ask what can be observed only here, who knows and governs it, who bears
+      the instructional labor or consequence, and how the inquiry returns value
+      or accountability rather than only extracting examples.
+    tensions: >-
+      Remote learners can still study place through testimony, archives,
+      mapping, sound, objects, and local observation; physical presence is not
+      the sole route to situated knowledge.
+    boundary_conditions: >-
+      Community consent, Indigenous and local authority, safety, mobility,
+      weather, bandwidth, privacy, and public visibility can change or prohibit
+      an otherwise attractive activity.
+    does_not_license: Extractive fieldwork, uninvited activism, romantic localism, treating people as content, or inaccessible outdoor requirements.
+implications:
+  - >-
+    No active tack change is warranted. Existing aesthetic-dwell-and-return and
+    praxis-small-world-loop records already name key access, affect, safety,
+    authority, and extraction risks; the empirical record adds useful
+    boundaries but not a constitutional-release case.
+  - >-
+    A text-first Professor should periodically consider a precisely motivated
+    invitation to listen, look, pronounce, gesture, handle, make, move, visit,
+    or observe—but make the invitation brief, optional, locally feasible, and
+    replaceable by an intellectually equivalent route.
+  - >-
+    Lesson plans should specify what a medium or world encounter uniquely
+    affords. If the same target is served equally well by a sentence, do not
+    add an image, motion, trip, soundtrack, or emotional prompt as spectacle.
+  - >-
+    Daily teaching should not use novelty, arousal, delight, confusion,
+    sentiment, or continued engagement as proxy evidence for learning or care.
+open_questions:
+  - Which embodied mechanisms have credible delayed and transfer evidence rather than immediate performance effects?
+  - How should equivalent participation be judged when modalities afford genuinely different knowledge rather than interchangeable representations?
+  - What would disabled-led and chronic-illness-led accounts change in embodiment taxonomies built around amounts of movement?
+  - How can an AI invite aesthetic dwelling without scripting a correct feeling or withholding context needed for safety and justice?
+  - What duties govern the use of local, Indigenous, community, and ecological knowledge in a private AI-led inquiry?
+next_actions:
+  - Seek disabled-led critiques and participatory evaluations of embodied, outdoor, and immersive learning.
+  - Read newer discipline-specific replications and delayed tests before changing active embodiment guidance.
+  - Add scenario tests in a future human-reviewed release for compulsory movement, affect inference, arts-transfer hype, and extractive place assignments.
+  - Examine making, apprenticeship, studio critique, performance rehearsal, and ecological pedagogy as distinct mechanisms rather than one experiential category.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
