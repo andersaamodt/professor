@@ -1,0 +1,319 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: teaching-philology-through-etymological-nuclei-2026-08-12
+title: A vivid resemblance should open historical inquiry, not settle ancestry
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise, epistemic-justice-curriculum-and-knowledge-access]
+scope: >-
+  A general, non-learner-specific study of teaching philology and historical
+  linguistics from memorable word clusters. It asks how etymological attraction
+  can generate attention while regular correspondence, attested usage,
+  morphology, borrowing, semantic change, textual history, and multilingual
+  authority keep the inquiry honest. This note is pedagogy, not a curriculum.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Read university and scholarly accounts of the comparative method, folk
+    etymology, historical semantics, vocabulary instruction through morphology
+    and etymology, and systematic reviews of pedagogical translanguaging.
+    Sought both inclusive multilingual mechanisms and warnings about weak causal
+    evidence, threatened minority languages, resemblance-based inference, and
+    origins presented as present meaning.
+  inclusion: >-
+    Inspectable linguistic methods, pedagogical syntheses, and critiques that
+    distinguish observation, historical claim, meaning in context, and teaching
+    choice.
+  exclusions: >-
+    Unsourced word-origin lists, visual similarity as cognacy proof,
+    proto-language fantasy, present usage policed by ancient roots, and
+    English-only vocabulary outcomes treated as the whole of philology.
+  limitations: >-
+    Direct research on teaching philology as an integrated discipline is sparse.
+    Vocabulary and translanguaging evidence does not directly test a
+    longitudinal, adult, curiosity-led philology curriculum; several pedagogical
+    sources were abstract-screened, and historical-linguistic method sources are
+    disciplinary rather than intervention studies.
+readings:
+  - id: warnow-ringe-taylor-1996-comparative-method
+    kind: disciplinary-method-account
+    citation: >-
+      Warnow, T., Ringe, D., & Taylor, A. (1996). Reconstructing the
+      Evolutionary History of Natural Languages. Proceedings of the National
+      Academy of Sciences, 93(15), 7537-7541.
+      https://doi.org/10.1073/pnas.93.15.7537
+    url: https://doi.org/10.1073/pnas.93.15.7537
+    publication_date: 1996-07-23
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Historical linguistics and computational formalization of language subgrouping.
+    design: Methodological account of comparative reconstruction and shared innovations.
+    finding: >-
+      The comparative method moves from recurring sound correspondences to
+      lineage-specific sound changes and then to cognacy judgments. It can
+      distinguish seductive sound-and-meaning resemblance from common descent.
+    limits: >-
+      The simplified step account begins with languages already known to be
+      related and emphasizes phonology; contact, borrowing, analogy, uncertainty,
+      semantic history, textual variation, and sociopolitical classification
+      require additional evidence.
+
+  - id: jasanoff-historical-linguistics-overview
+    kind: disciplinary-overview
+    citation: >-
+      Jasanoff, J. Historical Linguistics. Harvard University.
+      https://sites.harvard.edu/jasanoff/historical-linguistics/
+    url: https://sites.harvard.edu/jasanoff/historical-linguistics/
+    publication_date: 2024-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: University introduction to classical and modern study of language change.
+    design: Scholarly overview of regular sound correspondence, reconstruction, change, and prehistory.
+    finding: >-
+      Genealogical relationship is usually demonstrated by systematic
+      phonological correspondences attributable to regular changes, not isolated
+      lookalikes; historical linguistics also connects linguistic evidence with
+      the study of prehistory.
+    limits: >-
+      An overview cannot adjudicate individual etymologies, and traditional
+      Indo-European emphasis can narrow the apparent scope and history of the
+      field.
+
+  - id: castano-adiego-2014-folk-etymology
+    kind: disciplinary-reference
+    citation: >-
+      Castaño, E., & Adiego, I.-X. (2014). Folk Etymology. Diccionari de
+      Lingüística On Line, Universitat de Barcelona.
+      https://www.ub.edu/diccionarilinguistica/content/folk-etymology-0
+    url: https://www.ub.edu/diccionarilinguistica/content/folk-etymology-0
+    publication_date: 2014-03-11
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Historical-linguistic reference with English examples of reanalysis.
+    design: Peer-reviewed teaching reference defining folk-etymological change.
+    finding: >-
+      Speakers can reshape opaque loans or compounds toward familiar forms and
+      meanings. A historically false analysis can therefore become causally real
+      in later spelling, pronunciation, morphology, or word formation.
+    limits: >-
+      “Folk” should not be used to belittle speakers; the account gives examples
+      rather than a complete typology or a method for proving every proposed
+      reanalysis.
+
+  - id: denham-lobeck-2023-etymology-morphology
+    kind: pedagogical-chapter
+    citation: >-
+      Denham, K., & Lobeck, A. (2023). A Linguistic Approach to Vocabulary
+      Instruction: Using Etymology and Morphology to Learn Vocabulary, Improve
+      Writing, and Read the World. In Theoretical Linguistics in the
+      Pre-University Classroom. British Academy.
+      https://doi.org/10.5871/bacad/9780197267472.003.0008
+    url: https://doi.org/10.5871/bacad/9780197267472.003.0008
+    publication_date: 2023-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Pre-university vocabulary, writing, language variation, prescriptivism, and antiracist linguistic education.
+    design: Pedagogical chapter connecting explicit linguistic analysis with language arts.
+    finding: >-
+      Etymology and morphology can serve not merely mnemonic vocabulary study
+      but inquiry into word structure, writing choices, variation, histories,
+      and the social meanings attached to language.
+    limits: >-
+      The chapter was not available in full and does not by itself establish
+      effect sizes, optimal sequence, delayed transfer, or suitability across
+      languages and ages.
+
+  - id: prilutskaya-2021-pedagogical-translanguaging
+    kind: systematic-review
+    citation: >-
+      Prilutskaya, M. (2021). Examining Pedagogical Translanguaging: A
+      Systematic Review of the Literature. Languages, 6(4), 180.
+      https://doi.org/10.3390/languages6040180
+    url: https://doi.org/10.3390/languages6040180
+    publication_date: 2021-10-26
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Pedagogical studies mobilizing learners' multilingual repertoires across language-education settings.
+    design: Systematic review of theoretical and empirical translanguaging pedagogy.
+    finding: >-
+      Planned use of a learner's full linguistic repertoire can support
+      linguistically inclusive inquiry and metalinguistic comparison rather than
+      treating named languages as sealed monolingual containers.
+    limits: >-
+      Translanguaging is theoretically polysemous, studies vary in rigor and
+      outcome, and “full repertoire” cannot authorize a Teacher to infer,
+      display, or appropriate languages the learner has not offered.
+
+  - id: mcintosh-et-al-2023-efl-translanguaging-effects
+    kind: systematic-review
+    citation: >-
+      McIntosh, K., et al. (2023). Implementation and Effects of Pedagogical
+      Translanguaging in EFL Classrooms: A Systematic Review. Languages, 8(3),
+      194. https://doi.org/10.3390/languages8030194
+    url: https://doi.org/10.3390/languages8030194
+    publication_date: 2023-08-04
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: English-as-a-foreign-language classroom interventions using pedagogical translanguaging.
+    design: Multi-database systematic review of implementation and effects.
+    finding: >-
+      The assembled studies did not provide sufficiently robust evidence for a
+      confident judgment about English-proficiency effects, though identity,
+      anxiety, access, and metalinguistic outcomes may matter independently.
+    limits: >-
+      The review's proficiency focus does not exhaust multilingual educational
+      value, and EFL settings differ from historical-linguistic inquiry.
+
+  - id: cenoz-gorter-2026-sustainable-translanguaging
+    kind: critical-theoretical-and-empirical-synthesis
+    citation: >-
+      Cenoz, J., & Gorter, D. (2026). Towards Sustainable Translanguaging:
+      Reconsidering Its Role in Minority Language Education. Journal of
+      Multilingual and Multicultural Development.
+      https://doi.org/10.1080/01434632.2026.2612960
+    url: https://doi.org/10.1080/01434632.2026.2612960
+    publication_date: 2026-01-14
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Multilingual education involving hegemonic and threatened regional minority languages, especially Basque contexts.
+    design: Critical synthesis of translanguaging evidence and language-sustainability conditions.
+    finding: >-
+      Flexible repertoire use can support learning, but benefits are mostly
+      studied where no minority language is threatened. Sustainable design must
+      protect space for the minoritized language rather than letting the
+      hegemonic language absorb every multilingual activity.
+    limits: >-
+      Context-specific language ecologies resist universal prescriptions, and a
+      Teacher outside the community cannot define sustainability or linguistic
+      authority on its behalf.
+claims:
+  - id: attraction-is-a-hypothesis-generator
+    statement: >-
+      Sound, spelling, image, and meaning resemblance can generate a memorable
+      historical question, but ancestry requires recurring correspondence,
+      attestation, plausible chronology, morphology, contact history, and
+      comparison with alternative explanations.
+    confidence: high
+    source_ids: [warnow-ringe-taylor-1996-comparative-method, jasanoff-historical-linguistics-overview]
+    supports: >-
+      Open on the resemblance; mark observation separately from hypothesis;
+      test a family of forms and dates; then let confirmed relation, borrowing,
+      coincidence, analogy, or uncertainty each produce a different lesson.
+    tensions: >-
+      An isolated resemblance can still be historically important as pun,
+      reanalysis, poetic association, translation choice, or later folk
+      etymology even when it is not cognacy.
+    boundary_conditions: >-
+      Written attestation, reconstruction, language contact, dialect variation,
+      spelling convention, taboo, expressive formation, and disputed family
+      classification affect what can be claimed.
+    does_not_license: Root divination, national or racial origin myths, “sounds like” cognacy, or presenting a proto-form without uncertainty and derivation.
+
+  - id: etymology-is-a-timeline-not-an-essence
+    statement: >-
+      A word history should track forms, senses, speakers, texts, borrowings,
+      reanalyses, and contexts through time; its earliest recoverable source does
+      not dictate the word's current or morally correct meaning.
+    confidence: high
+    source_ids: [castano-adiego-2014-folk-etymology, jasanoff-historical-linguistics-overview]
+    supports: >-
+      Use dated quotations and semantic waypoints, distinguish origin from later
+      productive structure, and ask what each community could do with the word
+      at a given time.
+    tensions: >-
+      Historical residues can still constrain connotation, law, identity,
+      genre, or interpretation; rejecting origin-as-essence does not make history
+      irrelevant.
+    boundary_conditions: >-
+      Present meaning is usage- and context-sensitive, while historical textual
+      interpretation must reconstruct meanings available in its own period.
+    does_not_license: Etymological fallacy, prescriptive correction by antiquity, single-line arrows that erase coexistence, or declaring one first attestation the moment of invention.
+
+  - id: folk-etymology-is-error-and-language-change
+    statement: >-
+      Folk etymology can be wrong as an account of origin and simultaneously
+      real as a process by which speakers reshape form, meaning, or productivity;
+      correction should preserve both levels.
+    confidence: high
+    source_ids: [castano-adiego-2014-folk-etymology]
+    supports: >-
+      Ask first whether the proposed analysis describes descent, later speaker
+      reanalysis, synchronic wordplay, or private mnemonic association.
+    tensions: >-
+      The label “folk” has been used to police nonexpert speakers, even though
+      reanalysis is ordinary linguistic creativity rather than stupidity.
+    boundary_conditions: >-
+      A private association becomes historical language change only with
+      socially distributed effects on usage, form, or productivity.
+    does_not_license: Mocking intuition, accepting a beautiful story as descent, or erasing productive reinterpretation because its origin story is false.
+
+  - id: multilingual-comparison-needs-power-awareness
+    statement: >-
+      Drawing on multiple languages can deepen metalinguistic and historical
+      reasoning, but comparison must distinguish genealogy, contact, typology,
+      translation, and repertoire while protecting minoritized-language space
+      and learner authority.
+    confidence: high
+    source_ids: [prilutskaya-2021-pedagogical-translanguaging, mcintosh-et-al-2023-efl-translanguaging-effects, cenoz-gorter-2026-sustainable-translanguaging]
+    supports: >-
+      Invite, never presume, relevant language knowledge; name which relation is
+      being tested; preserve correct scripts and pronunciation routes; and credit
+      speakers, lexicographers, corpora, and communities.
+    tensions: >-
+      Named-language boundaries can be political and porous, yet they also
+      organize rights, institutions, revitalization, and community claims that
+      a universal “repertoire” vocabulary can obscure.
+    boundary_conditions: >-
+      Language vitality, proficiency, literacy, script, privacy, colonial
+      history, community norms, and source availability change the design.
+    does_not_license: Inferring ethnicity from language, demanding translation labor, treating multilingualism as a spectacle, or using a hegemonic language as the inevitable explanatory center.
+
+  - id: vivid-nucleus-needs-method-return
+    statement: >-
+      A striking word, image, pun, or semantic cluster can organize recurring
+      encounters if each return adds a distinct philological capability and
+      remains corrigible by linguistic and textual evidence.
+    confidence: medium
+    source_ids: [denham-lobeck-2023-etymology-morphology, warnow-ringe-taylor-1996-comparative-method, castano-adiego-2014-folk-etymology]
+    supports: >-
+      Spiral from noticing to attestation, morphology, sound correspondence,
+      semantic change, borrowing, textual interpretation, social history, and
+      source criticism; occasionally contrast a compelling false relation.
+    tensions: >-
+      A favorite nucleus can overselect the field, making philology look like a
+      collection of curiosities or forcing every method back into one metaphor.
+    boundary_conditions: >-
+      Returns should be preserved only when they create new capability or revise
+      the map; otherwise the curriculum should leave the nucleus behind.
+    does_not_license: Trivia chains, rote root lists, one-origin narratives, accumulating plan debt, or presenting the learner's private associations as public curriculum.
+implications:
+  - >-
+    Developing philology curriculum belongs in the private learner data
+    directory, by default ~/.professor/curricula/, not this repository. Only a
+    de-personalized, reviewed topic module should later be explicitly promoted.
+  - >-
+    A daily philology encounter can open with one vivid form or attested line,
+    then offer a small choice: hear or pronounce it, inspect a historical form,
+    test a relation, or follow a semantic turn. It need not begin with a lecture.
+  - >-
+    The Teacher should maintain a visible claim ladder: perceived resemblance;
+    proposed segmentation; attested forms and senses; regular correspondence;
+    borrowing or inheritance hypothesis; confidence and live alternatives.
+  - >-
+    No top-level or active general pedagogy change is warranted. This note
+    defines topic-specific PCK requirements and future private curriculum design.
+open_questions:
+  - What is the minimum evidence packet for a responsible daily etymology claim across well-documented and low-resource languages?
+  - How should uncertainty and competing etymologies be made pleasurable without turning scholarship into mystery theater?
+  - Which sequences best teach comparative method through a small set of memorable word families without Indo-European becoming the model of all language history?
+  - How can sound, script, manuscripts, corpora, maps, material inscriptions, and performance make philology more than text explanation while preserving access?
+  - Which community permissions and benefits are required before using endangered or revitalizing language material in a public curriculum?
+next_actions:
+  - Build a private, expiring philology curriculum plan only from learner-authorized nuclei and keep learner language out of the repo.
+  - Study philology's histories, textual criticism, manuscript studies, lexicography, corpus methods, semantic change, onomastics, language contact, and sociolinguistics as separate capability strands.
+  - Add source-quality criteria for etymological dictionaries, corpora, reconstructions, first attestations, disputed claims, and pronunciation.
+  - Seek historical-linguistics pedagogy outside Indo-European and scholarship authored within minoritized and revitalizing language communities.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
