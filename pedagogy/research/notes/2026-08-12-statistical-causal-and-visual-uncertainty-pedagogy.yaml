@@ -168,7 +168,7 @@ claims:
     statement: >-
       A causal question asks what would differ under an intervention or exposure
       contrast; data alone do not identify that difference without design and assumptions.
-    confidence: high
+    confidence: moderate
     source_ids: [kaplan-2020-causal-intro-stats]
     supports: State treatment or exposure, outcome, units, timing, comparison, assignment or identification strategy, confounders, mediators, selection, interference, and target population.
     tensions: Causal understanding can also be mechanistic, historical, qualitative, or system-level and not reducible to one average treatment effect.
