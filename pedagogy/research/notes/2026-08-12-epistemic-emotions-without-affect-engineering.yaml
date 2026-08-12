@@ -1,0 +1,192 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: epistemic-emotions-without-affect-engineering-2026-08-12
+title: Epistemic emotion is evidence to interpret, not a lever for engineering the learner
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [motivation-play-aesthetics-and-sustainable-effort, educational-ethics-and-nonideal-judgment, pedagogical-authority-voice-and-non-domination]
+scope: >-
+  Curiosity, surprise, confusion, frustration, boredom, anxiety, enjoyment, awe,
+  and shame as situated parts of learning, with special attention to duration,
+  appraisal, control, task fit, and the ethical boundary against affect engineering.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Read experimental, theoretical, review, and classroom studies across curiosity,
+    confusion, boredom, and achievement emotions; sought findings that complicate
+    the simple positive-emotion/good and negative-emotion/bad partition.
+  inclusion: Sources distinguishing momentary state, appraisal, trajectory, task context, regulation, and learning outcome.
+  exclusions: Facial or vocal emotion recognition marketed without construct validation, trait diagnosis, engagement scoring, and therapeutic claims.
+  limitations: >-
+    Emotion labels and measurements vary across cultures, languages, studies, and
+    time scales. Much evidence is correlational, self-reported, laboratory-bound,
+    or drawn from conventional classrooms rather than voluntary AI dialogue.
+readings:
+  - id: dmello-et-al-2014-confusion
+    kind: theory-and-experiments
+    citation: D'Mello, S., Lehman, B., Pekrun, R., & Graesser, A. (2014). Confusion can be beneficial for learning. Learning and Instruction, 29, 153-170. https://doi.org/10.1016/j.learninstruc.2012.05.003
+    url: https://doi.org/10.1016/j.learninstruc.2012.05.003
+    publication_date: 2014-02-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Learners encountering contradictions and impasses in computer-mediated learning.
+    design: Theoretical model plus studies of induced cognitive disequilibrium, confusion, resolution, and learning.
+    finding: Confusion can accompany productive deliberation when an impasse is relevant and resolvable; unresolved or prolonged confusion is not beneficial by itself.
+    limits: Artificial induction, specific materials, and tutor environments constrain transfer to ordinary teaching.
+
+  - id: gruber-et-al-2014-curiosity
+    kind: laboratory-experiment
+    citation: Gruber, M. J., Gelman, B. D., & Ranganath, C. (2014). States of curiosity modulate hippocampus-dependent learning via the dopaminergic circuit. Neuron, 84(2), 486-496. https://doi.org/10.1016/j.neuron.2014.08.060
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4252494/
+    publication_date: 2014-10-22
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Adults learning answers to trivia questions under varying self-reported curiosity.
+    design: Behavioral immediate and one-day-delayed memory measures combined with functional neuroimaging.
+    finding: High-curiosity states predicted better memory for sought answers and some incidental material presented during those states.
+    limits: Trivia curiosity and neural association do not establish a general recipe, causal neurotransmitter story, durable understanding, or ethical permission to manufacture information gaps.
+
+  - id: gruber-ranganath-2019-pace
+    kind: integrative-theoretical-review
+    citation: Gruber, M. J., & Ranganath, C. (2019). How curiosity enhances hippocampus-dependent memory—The PACE framework. Trends in Cognitive Sciences, 23(12), 1014-1025. https://doi.org/10.1016/j.tics.2019.10.003
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6891259/
+    publication_date: 2019-12-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Human curiosity, information seeking, exploration, memory encoding, and consolidation across laboratory studies.
+    design: Integrative framework generating predictions from curiosity, reward, memory, and exploration research.
+    finding: Prediction, appraisal, curiosity, and exploration may connect information gaps to enhanced encoding and consolidation, but the proposed chain remains a framework with boundary conditions.
+    limits: Framework-level synthesis can outrun direct tests; curiosity induced by trivia differs from relational, moral, aesthetic, or disciplinary inquiry.
+
+  - id: westgate-wilson-2018-boredom
+    kind: theoretical-and-experimental-program
+    citation: Westgate, E. C., & Wilson, T. D. (2018). Boring thoughts and bored minds—The MAC model of boredom and cognitive engagement. Psychological Review, 125(5), 689-713. https://doi.org/10.1037/rev0000097
+    url: https://doi.org/10.1037/rev0000097
+    publication_date: 2018-09-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: State boredom during activities that vary in attentional demand, resources, and perceived meaning.
+    design: Meaning-and-attention-components model integrating experimental evidence.
+    finding: Boredom may signal a mismatch in attention, meaning, or both; excessive and insufficient demand can each contribute.
+    limits: Boredom is heterogeneous, context-sensitive, and not reducible to the task or person alone; later work continues to test the model.
+
+  - id: pekrun-2006-control-value
+    kind: educational-emotion-theory
+    citation: Pekrun, R. (2006). The control-value theory of achievement emotions—Assumptions, corollaries, and implications for educational research and practice. Educational Psychology Review, 18, 315-341. https://doi.org/10.1007/s10648-006-9029-9
+    url: https://doi.org/10.1007/s10648-006-9029-9
+    publication_date: 2006-12-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Emotions connected to achievement activities and anticipated or retrospective outcomes.
+    design: Theoretical account centering appraisals of subjective control and value, with reciprocal person-environment relations.
+    finding: The same nominal task can elicit different emotions because control and value appraisals differ; emotion, motivation, cognition, and environment influence one another.
+    limits: Broad theoretical categories need domain-, culture-, and episode-specific evidence and should not be treated as a real-time diagnostic instrument.
+
+  - id: tze-et-al-2016-boredom-meta
+    kind: meta-analysis
+    citation: Tze, V. M. C., Daniels, L. M., & Klassen, R. M. (2016). Evaluating the relationship between boredom and academic outcomes—A meta-analysis. Educational Psychology Review, 28, 119-144. https://doi.org/10.1007/s10648-015-9301-y
+    url: https://doi.org/10.1007/s10648-015-9301-y
+    publication_date: 2016-03-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Academic boredom, motivation, learning strategies, and achievement across educational studies.
+    design: Meta-analysis of associations between boredom and academic outcomes.
+    finding: Boredom is generally negatively associated with achievement, motivation, and adaptive learning behavior, with variation by measure and context.
+    limits: Association does not identify whether meaning, demand, control, instruction, institution, or other conditions caused either boredom or outcome.
+
+  - id: robinson-et-al-2024-error-emotions
+    kind: embedded-intervention-study
+    citation: Robinson, C., et al. (2024). The role of momentary emotions in promoting error learning orientation among lower secondary school students—An intervention study embedded in a short visual programming course. British Journal of Educational Psychology. https://doi.org/10.1111/bjep.12675
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11802965/
+    publication_date: 2024-03-20
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: 269 lower-secondary learners in a one-day out-of-school visual-programming course.
+    design: Repeated state-emotion measures around an embedded intervention and error-learning orientation.
+    finding: Momentary enjoyment, anxiety, and boredom changed across the workshop while error-learning orientation was more stable, warning against reading a fleeting emotion as a fixed learner property.
+    limits: Short course, self-report measures, and age- and setting-specific sample limit generalization.
+claims:
+  - id: emotions-are-trajectories-not-badges
+    statement: >-
+      A label such as confusion or boredom has little pedagogical meaning without
+      its object, appraisal, intensity, duration, trajectory, context, and available response.
+    confidence: high
+    source_ids: [dmello-et-al-2014-confusion, westgate-wilson-2018-boredom, pekrun-2006-control-value, robinson-et-al-2024-error-emotions]
+    supports: Ask what changed and whether the learner wants orientation, challenge adjustment, direct explanation, a different object, or an exit.
+    tensions: Naming an emotion can sometimes help metacognition when the learner supplies or accepts the term.
+    boundary_conditions: Culture, language, disability, domain, stakes, voluntariness, privacy, relation, and time scale.
+    does_not_license: Emotion recognition from prose, voice, face, latency, or error patterns; trait inference; or covert learner-state scoring.
+
+  - id: productive-confusion-requires-a-route
+    statement: >-
+      Confusion may support learning when it marks a pertinent, tolerable impasse
+      and the learner has resources and a credible route toward partial or full resolution.
+    confidence: medium
+    source_ids: [dmello-et-al-2014-confusion]
+    supports: Make the live discrepancy inspectable, monitor persistence, offer hints or explanation, and resolve or release the impasse before it curdles into helplessness.
+    tensions: Immediate explanation can foreclose useful prediction, search, or conceptual reorganization.
+    boundary_conditions: Prior knowledge, control, task value, cognitive load, safety, duration, and requested level of withholding.
+    does_not_license: Deliberate mystification, gotchas, prolonged withholding, calling distress productive, or treating nonresponse as perseverance.
+
+  - id: curiosity-is-not-clickbait
+    statement: >-
+      Curiosity can organize attention, exploration, and memory, but an information
+      gap is educational only if seeking and closure serve the learner's inquiry rather than the teacher's retention metric.
+    confidence: medium
+    source_ids: [gruber-et-al-2014-curiosity, gruber-ranganath-2019-pace]
+    supports: Open with a genuine object, discrepancy, question, or prediction and provide truthful closure proportionate to the learner's interest.
+    tensions: Some mysteries deserve to remain open, and premature closure can diminish inquiry.
+    boundary_conditions: Relevance, trust, stakes, answerability, spoiler preference, time, and whether the gap was freely entered.
+    does_not_license: Teasers without payoff, variable-reward engagement design, sentimental suspense, fabricated mysteries, or hiding requested answers.
+
+  - id: boredom-is-feedback-not-fault
+    statement: >-
+      Boredom can be evidence of attentional mismatch, insufficient meaning, low
+      control, excessive or insufficient demand, or a wish to do something else—not proof of laziness or low ability.
+    confidence: high
+    source_ids: [westgate-wilson-2018-boredom, tze-et-al-2016-boredom-meta, pekrun-2006-control-value]
+    supports: Change scale, medium, demand, relevance, pacing, or activity; offer a clean exit; investigate the lesson before diagnosing the learner.
+    tensions: Not every worthwhile practice is continuously interesting, and building tolerance for low-stimulation work can itself be chosen and valuable.
+    boundary_conditions: Fatigue, access, sensory environment, coercion, task value, goal ownership, skill, and available alternatives.
+    does_not_license: Entertainment escalation, shame, gamification by default, attention surveillance, or assuming the teacher must defeat every moment of boredom.
+
+  - id: shame-crosses-from-act-to-self
+    statement: >-
+      Feedback becomes ethically dangerous when a bounded error is made to signify
+      a defective self, exposed social standing, or unworthiness to participate.
+    confidence: medium
+    source_ids: [pekrun-2006-control-value]
+    supports: Locate the claim or move, preserve privacy, separate revision from worth, model correction, and restore an ordinary route back into participation.
+    tensions: Harm, negligence, and accountable conduct sometimes require direct moral language and repair, not affect-neutral reframing.
+    boundary_conditions: Publicity, power, identity threat, histories of exclusion, stakes, consent, harm, and relation.
+    does_not_license: Humiliation, sarcastic exposure, forced confession, reassurance that erases harm, therapy, or inferring shame from silence.
+
+  - id: teacher-may-shape-conditions-not-own-affect
+    statement: >-
+      Teaching inevitably changes feeling, but the ethical object is a just and
+      intelligible learning environment, not production of a target emotional state.
+    confidence: high
+    source_ids: [pekrun-2006-control-value, dmello-et-al-2014-confusion, westgate-wilson-2018-boredom]
+    supports: Shape control, meaning, challenge, clarity, safety, encounter, and choice while accepting affective plurality and learner refusal.
+    tensions: Celebration, humor, suspense, solemnity, and aesthetic form can be integral to truthful teaching rather than detachable manipulation.
+    boundary_conditions: Transparency, consent, asymmetry, medium, age, culture, vulnerability, and the difference between invitation and compulsion.
+    does_not_license: Mood optimization, dependency, simulated intimacy, emotional mirroring claims, or maximizing engagement as a proxy for learning.
+implications:
+  - Professor should treat emotion words as hypotheses or learner reports, never hidden state, identity, or diagnosis.
+  - A brief daily opening may invite curiosity but must deliver an immediate worthwhile encounter and an equally easy exit.
+  - When confusion appears, the next teacherly move is contingent—orient, hint, explain, change representation, reduce load, or stop—not automatically another question.
+  - Teacherly voice should make revision socially ordinary and should never convert an etymological conjecture, wrong answer, or lapse into a verdict on the learner.
+  - Existing agency, no-covert-profiling, challenge, clean-exit, and evidence policies are sufficient; no automatic emotion-adaptation tack is earned.
+open_questions:
+  - How do emotion concepts and display rules differ across languages, disciplines, cultures, and neurotypes?
+  - What observable, consented signals are adequate for adapting a one-to-one lesson without pretending to infer emotion?
+  - When do awe, humor, beauty, or suspense illuminate an object, and when do they manufacture assent or authority?
+  - How should Professor distinguish chosen practice through boredom from acquiescence to a stale lesson?
+next_actions:
+  - Study humor, metaphor, narrative, awe, and charisma as pedagogical forms with epistemic and power risks.
+  - Audit automatic openings for unanswered teasers, compulsory cheer, simulated intimacy, and emotional overclaiming.
+  - Seek disability-led and cross-cultural work that challenges universal emotion taxonomies and behavioral inference.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
