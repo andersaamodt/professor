@@ -1,0 +1,169 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: pedagogical-content-knowledge-and-disciplinary-practice-2026-08-12
+title: Teaching an object requires knowledge of how that domain makes and contests knowledge
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise, epistemic-justice-curriculum-and-knowledge-access, durable-memory-transfer-and-calibration]
+scope: >-
+  Pedagogical content knowledge, content knowledge for teaching, disciplinary
+  literacy, historical thinking, and culturally relevant pedagogy as constraints
+  on the claim that general teaching technique can travel unchanged across domains.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Read foundational conceptual articles, practice-based teacher-knowledge work,
+    expert-reader studies, and critical extensions concerned with culture and
+    sociopolitical consciousness; compared what each treats as part of the content.
+  inclusion: Sources specifying representations, characteristic difficulties, disciplinary evidence practices, learner interpretation, or justice-bearing educational ends.
+  exclusions: Generic technique menus, personality accounts of expert teachers, discipline-as-fixed-culture claims, and domain content without a teaching problem.
+  limitations: >-
+    The strongest empirical elaboration is concentrated in school mathematics,
+    history, science, and literacy. Philology is institutionally plural and lacks
+    an equivalent consolidated PCK research base in this scan.
+readings:
+  - id: shulman-1986-knowledge-growth
+    kind: foundational-conceptual-article
+    citation: Shulman, L. S. (1986). Those who understand—Knowledge growth in teaching. Educational Researcher, 15(2), 4-14. https://doi.org/10.3102/0013189X015002004
+    url: https://doi.org/10.3102/0013189X015002004
+    publication_date: 1986-02-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Teacher education and evaluation in the United States, with examples across school subjects.
+    design: Conceptual and historical argument distinguishing content, pedagogical content, curricular, case, propositional, and strategic knowledge.
+    finding: Teachers require knowledge of representations, examples, explanations, and the conceptions and difficulties learners bring to particular subject matter—not content and generic pedagogy as separate stores.
+    limits: Categories were programmatic, not a validated inventory; institutional power, culture, learner knowledge, and political ends were underdeveloped.
+
+  - id: ball-et-al-2008-mathematical-knowledge
+    kind: practice-based-theory-and-measurement-program
+    citation: Ball, D. L., Thames, M. H., & Phelps, G. (2008). Content knowledge for teaching—What makes it special? Journal of Teacher Education, 59(5), 389-407. https://doi.org/10.1177/0022487108324554
+    url: https://doi.org/10.1177/0022487108324554
+    publication_date: 2008-11-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Mathematical work arising in elementary and secondary teaching practice.
+    design: Practice analysis and theory development linked to measures of mathematical knowledge for teaching.
+    finding: Teaching generates distinctive mathematical tasks—interpreting unconventional methods, choosing representations, explaining why procedures work, and anticipating what will be difficult—that advanced coursework alone may not supply.
+    limits: Proposed boundaries among knowledge domains remain debated; measures can narrow practice and carry assumptions about canonical mathematics and schooling.
+
+  - id: shanahan-et-al-2011-disciplinary-literacy
+    kind: expert-reader-think-aloud-study
+    citation: Shanahan, C., Shanahan, T., & Misischia, C. (2011). Analysis of expert readers in three disciplines—History, mathematics, and chemistry. Journal of Literacy Research, 43(4), 393-429. https://doi.org/10.1177/1086296X11424071
+    url: https://doi.org/10.1177/1086296X11424071
+    publication_date: 2011-12-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Experts reading disciplinary texts in history, mathematics, and chemistry.
+    design: Think-aloud and interview analysis comparing sourcing, contextualization, corroboration, rereading, text structure, graphics, and critical response.
+    finding: Expert reading practices differed materially by discipline because texts, evidence, purposes, and knowledge-making conventions differed.
+    limits: Small expert samples and elicited reading do not define a discipline, prescribe a novice progression, or include community and nonacademic knowledge practices.
+
+  - id: wineburg-1991-historical-problem-solving
+    kind: expert-novice-comparison
+    citation: Wineburg, S. S. (1991). Historical problem solving—A study of the cognitive processes used in the evaluation of documentary and pictorial evidence. Journal of Educational Psychology, 83(1), 73-87. https://doi.org/10.1037/0022-0663.83.1.73
+    url: https://doi.org/10.1037/0022-0663.83.1.73
+    publication_date: 1991-03-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Historians and high-achieving students reasoning with documentary and pictorial evidence.
+    design: Expert-novice verbal-protocol comparison.
+    finding: Historians attended to source, context, and corroboration and treated documents as authored evidence, while content-knowledgeable students could read them more as transparent information.
+    limits: Expert historians are not the only legitimate readers of the past; heuristic instruction can become procedural and detach sources from archives, public memory, identity, and power.
+
+  - id: ladson-billings-1995-crp
+    kind: qualitative-theory-building
+    citation: Ladson-Billings, G. (1995). Toward a theory of culturally relevant pedagogy. American Educational Research Journal, 32(3), 465-491. https://doi.org/10.3102/00028312032003465
+    url: https://doi.org/10.3102/00028312032003465
+    publication_date: 1995-09-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Successful teachers of African American students in US schools.
+    design: Qualitative synthesis and theory building from study of pedagogical practice.
+    finding: Academic success, cultural competence, and sociopolitical consciousness belong together; culturally relevant pedagogy is not an engagement garnish applied to otherwise unchanged curriculum.
+    limits: The theory arose from a specific historical and racialized context and has often been diluted, individualized, or converted into superficial technique.
+
+  - id: ladson-billings-2014-remix
+    kind: conceptual-reassessment
+    citation: Ladson-Billings, G. (2014). Culturally relevant pedagogy 2.0—A.k.a. the remix. Harvard Educational Review, 84(1), 74-84. https://doi.org/10.17763/haer.84.1.p2rj131485484751
+    url: https://doi.org/10.17763/haer.84.1.p2rj131485484751
+    publication_date: 2014-04-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Development of culturally sustaining pedagogy amid changing, hybrid, and youth cultural practices.
+    design: Conceptual reflection and extension grounded in program observation and the history of culturally relevant pedagogy.
+    finding: Culture is fluid and made, not a static inventory for teacher matching; justice and critical engagement must remain central.
+    limits: A conceptual remix does not itself specify domain-by-domain representations or outcome evidence.
+claims:
+  - id: general-pedagogy-cannot-substitute-for-domain-knowledge
+    statement: >-
+      A teacher cannot reliably select examples, diagnose an answer, expose a
+      structure, or design transfer without knowing the domain beyond the proposition being explained.
+    confidence: high
+    source_ids: [shulman-1986-knowledge-growth, ball-et-al-2008-mathematical-knowledge]
+    supports: Require topic modules to record characteristic representations, evidence practices, conceptual obstacles, variants, limits, and authentic work.
+    tensions: Deep disciplinary expertise can coexist with poor explanation, gatekeeping, or inability to see a novice's problem.
+    boundary_conditions: Domain, level, task, learner knowledge, controversy, language, and stakes.
+    does_not_license: Credential worship, expert simulation, assuming researchers can teach, or refusing a useful bounded lesson outside a formal specialty.
+
+  - id: disciplinary-literacy-is-knowledge-making
+    statement: >-
+      Reading in a domain includes knowing what its texts and inscriptions are for,
+      how claims are produced, what counts as evidence, and why its communicative conventions evolved.
+    confidence: high
+    source_ids: [shanahan-et-al-2011-disciplinary-literacy, wineburg-1991-historical-problem-solving]
+    supports: Teach sourcing, notation, genre, diagrams, apparatus, uncertainty, and corroboration in relation to a live disciplinary question.
+    tensions: Academic disciplines are internally diverse, historically policed, and not the sole sites of valid knowledge.
+    boundary_conditions: Discipline, subfield, genre, era, institution, purpose, community, and epistemic authority.
+    does_not_license: Generic “critical thinking,” mimicking expert jargon, fixed discipline personalities, or excluding vernacular and community knowledge.
+
+  - id: learner-conceptions-are-interpretations-not-deficits
+    statement: >-
+      Knowing common errors is useful only when the teacher treats the present
+      answer as an intelligible response to a representation or experience, not a slot in a misconception catalog.
+    confidence: high
+    source_ids: [shulman-1986-knowledge-growth, ball-et-al-2008-mathematical-knowledge, ladson-billings-1995-crp]
+    supports: Elicit the reasoning or perception, test it on contrasting cases, and change the representation when it is teaching the wrong relation.
+    tensions: Direct correction is sometimes kinder and more efficient than reconstructing every error.
+    boundary_conditions: Learner request, time, stakes, persistence, prior knowledge, language, and whether reasoning is observable.
+    does_not_license: Deficit labels, hidden diagnosis, stereotyping by group, forcing self-explanation, or preserving an error for pedagogical theater.
+
+  - id: content-includes-its-politics-without-becoming-only-politics
+    statement: >-
+      What a field selects, canonizes, names, translates, assesses, and authorizes
+      can be part of understanding the field, while political critique does not replace warranted domain claims.
+    confidence: high
+    source_ids: [ladson-billings-1995-crp, ladson-billings-2014-remix, wineburg-1991-historical-problem-solving]
+    supports: Join rigorous access to disciplinary practices with inquiry into exclusions, uses, institutions, and consequences.
+    tensions: Every lesson cannot carry the whole sociology of its discipline; compulsory critique can crowd out the object or enforce a teacher's politics.
+    boundary_conditions: Learner goal, domain, controversy, consequence, curriculum, community, time, and authority.
+    does_not_license: Politics as hidden curriculum, identity essentialism, relevance by stereotype, relativizing evidence, or treating canonical knowledge as neutral by default.
+
+  - id: philology-needs-its-own-pck
+    statement: >-
+      Philology teaching should coordinate form, attestation, sound change,
+      morphology, semantics, genre, textual transmission, contact, and historical power rather than reduce the field to attractive roots.
+    confidence: medium
+    source_ids: [shulman-1986-knowledge-growth, shanahan-et-al-2011-disciplinary-literacy, wineburg-1991-historical-problem-solving]
+    supports: Begin from a live word or textual crux, generate hypotheses, distinguish similarity from relation, inspect dated witnesses and transformations, and keep uncertainty visible.
+    tensions: A brief etymological encounter can be complete without displaying the full apparatus, and wonder is a legitimate educational end.
+    boundary_conditions: Language, corpus, attestation, reconstruction, contact history, genre, script, learner purpose, and source access.
+    does_not_license: Root essentialism, visual pun as genealogy, dictionary copying, prestige-language teleology, or a reconstructed form presented as recorded speech.
+implications:
+  - Professor should accumulate general pedagogy in pedagogy/ and domain-specific teaching knowledge only in an explicitly promoted topics module; user curriculum remains outside the checkout.
+  - Topic modules should eventually distinguish domain facts from domain PCK—representations, recurring interpretive problems, evidence moves, transfer tasks, and justice risks.
+  - For philology, the core lesson movement is object to conjecture to witnesses and transformations to calibrated residue, not factoid to pronouncement.
+  - Generic daily-loop heuristics may choose scale, offer agency, and open on an object, but the topic module must determine what responsible inquiry into that object entails.
+  - This note does not earn a universal PCK schema yet; examples from multiple mature topic modules should precede one.
+open_questions:
+  - What is the most defensible account of philological expertise across textual criticism, historical linguistics, lexicography, literary history, and manuscript study?
+  - How can a topic module represent characteristic learner interpretations without turning them into a decontextualized misconception list?
+  - Which disciplinary practices deserve initiation, which deserve transformation, and who has authority to decide?
+  - How should Professor disclose insufficient domain PCK while still enabling a bounded encounter?
+next_actions:
+  - Conduct a philology-specific PCK lane using scholarship on historical-linguistics, etymology, textual criticism, and language-history teaching.
+  - Compare domain teaching in mathematics, experimental science, history, literature, art, and music before proposing shared topic-module fields.
+  - Audit general tacks for claims that travel across domains without specifying epistemic purpose or boundary conditions.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
