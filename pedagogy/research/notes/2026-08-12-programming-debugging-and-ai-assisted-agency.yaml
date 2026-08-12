@@ -1,0 +1,165 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: programming-debugging-and-ai-assisted-agency-2026-08-12
+title: Programming learning should grow executable mental models, debugging judgment, and accountable tool use
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [ai-scaffolding-independent-learning, assessment-and-authorship-under-ai, teacher-knowledge-noticing-and-adaptive-expertise, durable-memory-transfer-and-calibration]
+scope: Introductory programming, code tracing, notional machines, worked examples, subgoals, Parsons problems, scaffolding, debugging, collaboration, projects, testing, security, AI code generation, comprehension, transfer, authorship, and production responsibility.
+method:
+  search_date: 2026-08-12
+  approach: Compared programming worked-example experiments, semester implementation, debugging systematic review, pair-programming meta-analysis, Parsons-problem review, and recent systematic reviews of LLM-assisted programming education.
+  inclusion: Sources distinguishing task completion, code quality, comprehension, mental model, debugging process, independent transfer, collaboration, and accountability.
+  exclusions: Code that runs as proof of learning, typing from scratch as necessary authenticity, debugging by random edits, AI bans as pedagogy, prompt fluency as programming mastery, and production deployment as a classroom simulation.
+  limitations: Tools and models change quickly; recent AI reviews inherit short interventions and weak transfer measurement; computing tasks, languages, ages, and professional standards differ; publication enthusiasm is likely.
+readings:
+  - id: margulieux-et-al-2016-subgoals
+    kind: controlled-experiment
+    citation: Margulieux, L. E., Catrambone, R., & Guzdial, M. (2016). Employing subgoals in computer programming education. Computer Science Education, 26(1), 44-67. https://doi.org/10.1080/08993408.2016.1144429
+    url: https://doi.org/10.1080/08993408.2016.1144429
+    publication_date: 2016-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Novice learners studying programming procedures through worked examples with or without functional subgoal labels.
+    design: Experimental comparison of example design, procedural articulation, and novel problem solving.
+    finding: Grouping steps under functional subgoals can improve structural processing and transfer relative to conventional procedural examples.
+    limits: Short, bounded procedural tasks; labels can become another script; success depends on subgoal quality, example variation, prior knowledge, and later independent selection.
+
+  - id: morrison-et-al-2020-subgoal-course
+    kind: classroom-quasi-experiment
+    citation: Morrison, B. B., Margulieux, L. E., & Decker, A. (2020). Reducing withdrawal and failure rates in introductory programming with subgoal labeled worked examples. International Journal of STEM Education, 7, 19. https://doi.org/10.1186/s40594-020-00222-7
+    url: https://doi.org/10.1186/s40594-020-00222-7
+    publication_date: 2020-05-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 265 students across sections of a semester-long introductory Java course.
+    design: Quasi-experiment replacing conventional examples with subgoal-labeled examples while holding common course structures.
+    finding: Subgoal examples improved near formative quizzes and reduced score variance and withdrawal or failure, but did not significantly improve summative exams.
+    limits: Nonrandom sections, one institution and course, bundle implementation, and proximal gains without clear broad transfer.
+
+  - id: mccartney-et-al-2018-parsons-review
+    kind: systematic-practice-review
+    citation: Ericson, B. J., et al. (2018). A review of research on Parsons problems. Proceedings of ITiCSE 2018, 153-158. https://doi.org/10.1145/3197091.3197146
+    url: https://doi.org/10.1145/3197091.3197146
+    publication_date: 2018-07-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Computing learners ordering, selecting, indenting, or adapting provided code fragments.
+    design: Review of Parsons-problem variants, tools, studies, and open research questions.
+    finding: Parsons problems can focus attention on program structure while reducing syntax-generation burden, but evidence and design conventions remain uneven.
+    limits: Ordering supplied lines does not establish generation, debugging, design, or transfer; distractors and interface can alter the construct.
+
+  - id: o-rourke-et-al-2024-debugging
+    kind: systematic-literature-review
+    citation: O'Rourke, E., et al. (2024). Decoding debugging instruction—A systematic literature review of debugging interventions. ACM Transactions on Computing Education. https://doi.org/10.1145/3690652
+    url: https://doi.org/10.1145/3690652
+    publication_date: 2024-10-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Programming learners in debugging interventions from 2010 through 2022 using tools, courses, unplugged activities, and written supports.
+    design: PRISMA-guided systematic review of skills, intervention mechanisms, and evaluation methods.
+    finding: Debugging requires language, program-system, procedural, strategic, and experiential knowledge; interventions emphasize symptom identification and diagnosis more than problem-space construction and reflection.
+    limits: Heterogeneous measures and interventions, sparse long-term transfer, and tool telemetry may privilege visible actions over correct mental models.
+
+  - id: ullah-et-al-2019-pair-programming
+    kind: meta-analysis
+    citation: Umapathy, K., & Ritzhaupt, A. D. (2017). A meta-analysis of pair-programming in computer programming courses—Implications for educational practice. ACM Transactions on Computing Education, 17(4), 16. https://doi.org/10.1145/2996201
+    url: https://eric.ed.gov/?id=EJ1252509
+    publication_date: 2017-09-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Learners in programming courses working in pairs compared with individual programming.
+    design: Meta-analysis of achievement, assignment, affective, and persistence-related outcomes.
+    finding: Pair programming shows positive average effects on several learning and affective outcomes, with variation by implementation and measure.
+    limits: Pairing can create domination, role segregation, masking, or unequal authorship; aggregate effects do not ensure both partners can perform independently.
+
+  - id: huang-tseng-2026-genai-programming
+    kind: systematic-review
+    citation: Huang, T.-C., & Tseng, H.-P. (2026). Learning, behavior, and pedagogy—A systematic review of generative AI use in programming education. International Journal of Information and Education Technology, 16(1), 102-116. https://doi.org/10.18178/ijiet.2026.16.1.2360
+    url: https://www.ijiet.org/show-236-3152-1.html
+    publication_date: 2026-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Programming learners using generative AI for explanation, generation, debugging, feedback, and task completion.
+    design: Systematic review synthesizing performance, self-efficacy, behavior, code-quality, and dependency findings.
+    finding: AI assistance often improves proximal performance, engagement, and code outcomes, while some studies report reduced depth, dependency, and difficulty with complex reasoning.
+    limits: Rapidly changing tools, weak active controls, short exposure, self-report, outcome alignment, and limited delayed unaided transfer.
+
+  - id: sarkar-et-al-2026-llm-programming
+    kind: systematic-review
+    citation: Sarkar, A., et al. (2026). Systematic review of large language model applications in programming education. Frontiers in Artificial Intelligence and Applications. https://doi.org/10.3233/FAIA250512
+    url: https://doi.org/10.3233/FAIA250512
+    publication_date: 2026-05-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: 25 empirical studies of LLMs in programming instruction published from 2022 through May 2025.
+    design: Systematic review of settings, benefits, risks, and measured learning outcomes.
+    finding: LLMs support feedback, explanation, generation, and task performance, but only three included studies explicitly examined transfer and some found weak novel-problem generalization.
+    limits: Very small transfer evidence base, novelty and publication bias, inconsistent comparison conditions, and models can confidently generate insecure or subtly incorrect code.
+contradictions:
+  - Worked and subgoal examples reduce novice burden and can improve retention, yet proximal quizzes may improve without exam or novel-task transfer.
+  - Pair programming can improve outcomes and belonging, yet a functioning pair can conceal one learner's silence, exclusion, or dependency.
+  - AI code generation can accelerate authentic creation and reveal patterns, yet completion and code quality can rise while comprehension, transfer, and debugging agency fall.
+  - Productive debugging builds mental models, yet leaving novices to random trial-and-error wastes effort and teaches superstition rather than hypothesis testing.
+claims:
+  - claim: Programming competence is evidenced by predicting, explaining, modifying, testing, debugging, and bounding program behavior—not source production alone.
+    evidence: systematic-and-experimental-synthesis
+    confidence: high
+    source_ids: [margulieux-et-al-2016-subgoals, o-rourke-et-al-2024-debugging, sarkar-et-al-2026-llm-programming]
+    supports: Trace small executions, state invariants and assumptions, compare input cases, explain subgoals, make a bounded modification, construct a test, and diagnose a planted or natural fault.
+    tensions: Real software work legitimately relies on tools, libraries, search, peers, and AI; unaided coding is not the only authentic criterion.
+    boundary_conditions: Learner aim, role, language, abstraction level, system risk, testability, tool availability, time, and transfer target.
+    does_not_license: Typing tests, memorized syntax as mastery, requiring thought-process disclosure, forbidding tools categorically, or accepting running code as understood code.
+
+  - claim: Examples should expose functional structure, execution, and variation, then fade toward independent selection and adaptation.
+    evidence: experimental-and-classroom-synthesis
+    confidence: high
+    source_ids: [margulieux-et-al-2016-subgoals, morrison-et-al-2020-subgoal-course, mccartney-et-al-2018-parsons-review]
+    supports: Label why a block exists, trace state changes, contrast near examples, remove or reorder selected lines, complete a portion, adapt constraints, and finally design from a specification.
+    tensions: Excess annotation can split attention or make the expert decomposition seem uniquely natural.
+    boundary_conditions: Prior knowledge, problem family, notation, interface, subgoal validity, example diversity, assessment, and desired independence.
+    does_not_license: Permanent fill-in-the-blank coding, surface copying, Parsons success as generation, one canonical decomposition, or scaffold retention after it stops changing performance.
+
+  - claim: Debugging should be taught as model-based inquiry with an error budget and explicit stopping or escalation rules.
+    evidence: systematic-review-synthesis
+    confidence: high
+    source_ids: [o-rourke-et-al-2024-debugging]
+    supports: Reproduce, state expected and observed behavior, minimize, inspect relevant state, form competing hypotheses, choose a discriminating observation, change one cause, test regression, and record only durable system knowledge.
+    tensions: Fast exploratory edits can generate hypotheses, while high-risk systems require disciplined change control and expertise.
+    boundary_conditions: Error consequence, observability, reproducibility, code ownership, test environment, security, privacy, time, and expertise.
+    does_not_license: Random patching, changing multiple variables without trace, production experimentation on users, blaming the learner, or treating frustration as necessary initiation.
+
+  - claim: AI assistance is pedagogically warranted when it increases the learner's control over a real programming action and leaves an auditable route to justified trust.
+    evidence: emerging-systematic-synthesis
+    confidence: moderate
+    source_ids: [huang-tseng-2026-genai-programming, sarkar-et-al-2026-llm-programming]
+    supports: Let the learner choose generation, explanation, test design, critique, refactor, or direct answer; mark generated provenance; constrain scope; run tests and static checks; inspect dependencies and security; require independent verification proportionate to consequence.
+    tensions: Requiring explanation of every generated line can create an interaction tax and is unrealistic for mature libraries; low-stakes prototyping tolerates more uncertainty than deployment.
+    boundary_conditions: Learning goal, stakes, code size, novelty, dependency, privacy, license, security, runtime access, assessment, and future maintenance.
+    does_not_license: Covert generation, fabricated execution, hallucinated APIs, shipping unreviewed code, learner authorship claims without policy fit, or dependency profiling from tool use.
+
+  - claim: Collaboration needs rotating consequential roles and individual re-entry, not merely shared output.
+    evidence: meta-analytic-with-ethical-qualification
+    confidence: high
+    source_ids: [ullah-et-al-2019-pair-programming]
+    supports: Rotate driver, navigator, tester, explainer, and reviewer; preserve accessible communication; make disagreement safe; periodically ask each participant to modify or diagnose a small independent case.
+    tensions: Rigid role clocks can disrupt flow or disability accommodations; authentic teams specialize.
+    boundary_conditions: Relationship, experience gap, accessibility, identity power, assessment, task decomposition, communication mode, and consent.
+    does_not_license: Pairing as automatic inclusion, surveillance of keystrokes, equal credit without participation evidence when assessment matters, or forcing public performance.
+implications:
+  - Professor should distinguish “make it work,” “help me understand,” “help me learn,” “review it,” and “make it safe to deploy” before choosing an AI coding response.
+  - When providing code, include the smallest runnable unit, assumptions, expected behavior, and one verification path; do not bury the answer under a compulsory tutorial.
+  - Never claim execution or test success unless tools actually ran it in the stated environment.
+  - Debugging hints should identify the next discriminating observation, not merely point vaguely toward the faulty line.
+  - For consequential code, escalate review to domain, security, privacy, accessibility, and operational expertise rather than treating pedagogical confidence as production authorization.
+open_questions:
+  - Which small independent checks best predict whether AI-assisted code comprehension transfers to maintenance weeks later?
+  - How can a professor reveal generated-code provenance without making tool use morally suspect?
+  - When does requiring a manual implementation build a needed model, and when is it artisanal gatekeeping?
+next_actions:
+  - Study studio, design, and making pedagogy, where critique, iteration, authorship, craft, briefs, and public artifacts broaden the production question.
+  - Include execution truth, test provenance, transfer, role equity, and deployment boundary in the final audit.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
