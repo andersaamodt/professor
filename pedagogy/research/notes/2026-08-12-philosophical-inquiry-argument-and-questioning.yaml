@@ -1,0 +1,146 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: philosophical-inquiry-argument-and-questioning-2026-08-12
+title: A question teaches only when it returns authority, structure, or consequence to the learner
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [pedagogical-authority-voice-and-non-domination, teacher-knowledge-noticing-and-adaptive-expertise, epistemic-justice-curriculum-and-knowledge-access]
+scope: Philosophy teaching, communities of inquiry, Socratic questioning, argument mapping, critical thinking, epistemic participation, direct answers, and efficacy-to-scale evidence.
+method:
+  search_date: 2026-08-12
+  approach: Compared meta-analysis, smaller efficacy and larger effectiveness trials, an argument-diagramming study, clinical questioning critique, and epistemic-justice theory.
+  inclusion: Sources measuring reasoning or attainment, documenting scale limits, or analyzing authority and participation in questioning.
+  exclusions: Socratic as a prestige label, questions counted as dialogue, debate victory as reasoning, and discomfort as proof of rigor.
+  limitations: School programs differ from adult AI conversation; measures and implementations vary, and normative analyses do not estimate effects.
+readings:
+  - id: kilby-2025-p4wc-meta
+    kind: meta-analysis
+    citation: Kilby, B. (2025). Philosophy for/with Children—A meta-analysis. International Journal of Contemporary Educational Research, 12(1), 26-38.
+    url: https://eric.ed.gov/?id=EJ1465596
+    publication_date: 2025-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Children and adolescents in 30 studies yielding 62 quantitative datasets.
+    design: Meta-analysis with outcome, age, and regional subgroups.
+    finding: Reports a positive overall effect and larger critical-thinking subgroup, with regional differences.
+    limits: Abstract access leaves quality, dependence, bias, controls, fidelity, and small-study effects unresolved.
+
+  - id: lord-et-al-2021-p4c-effectiveness
+    kind: cluster-randomized-effectiveness-trial
+    citation: Lord, P., Dirie, A., Kettlewell, K., & Styles, B. (2021). Evaluation of Philosophy for Children—An effectiveness trial. NFER and Education Endowment Foundation.
+    url: https://www.nfer.ac.uk/publications/evaluation-of-philosophy-for-children-an-effectiveness-trial/
+    publication_date: 2021-03-03
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Year-six pupils in 75 intervention and 123 comparison primary schools.
+    design: Large cluster-randomized effectiveness trial with attainment, survey, and process evaluation.
+    finding: Found no reading, mathematics, or surveyed social-communication impact, including for disadvantaged pupils, despite positive reports.
+    limits: Null transfer outcomes do not test every intrinsic philosophical outcome; implementation and measures differed from the efficacy trial.
+
+  - id: gorard-et-al-2017-p4c-efficacy
+    kind: cluster-randomized-efficacy-trial
+    citation: Gorard, S., Siddiqui, N., & See, B. H. (2017). Philosophy for Children—Evaluation report. Education Endowment Foundation.
+    url: https://educationendowmentfoundation.org.uk/projects-and-evaluation/projects/philosophy-for-children/
+    publication_date: 2017-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 3,159 pupils in 48 English primary schools under supported implementation.
+    design: Cluster-randomized efficacy trial with attainment, cognitive, and process outcomes.
+    finding: Reported modest reading and mathematics gains, no overall writing gain, and smaller cognitive-measure results.
+    limits: Moderate security, multiple outcomes, research support, and later failure to replicate at scale constrain the claim.
+
+  - id: harrell-2011-argument-diagramming
+    kind: naturalistic-quasi-experiment
+    citation: Harrell, M. (2011). Argument diagramming and critical thinking in introductory philosophy. Higher Education Research & Development, 30(3), 371-385. https://doi.org/10.1080/07294360.2010.502559
+    url: https://www.tandfonline.com/doi/abs/10.1080/07294360.2010.502559
+    publication_date: 2011-06-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 269 introductory-philosophy students with and without diagram instruction.
+    design: Two naturalistic quasi-experiments with pre/post argument-analysis tasks.
+    finding: Initially lower performers benefited most; higher performers did not differ and intermediate results were mixed.
+    limits: Nonrandom assignment, course-specific outcomes, and argument analysis is not judgment in every domain.
+
+  - id: stoddard-oconnor-2016-socratic-clinical
+    kind: historical-conceptual-practice-analysis
+    citation: Stoddard, H. A., & O'Connor, S. K. (2016). Would Socrates have actually used the Socratic method for clinical teaching? Journal of General Internal Medicine, 31, 1092-1096. https://doi.org/10.1007/s11606-016-3722-2
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4978680/
+    publication_date: 2016-09-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Clinical teaching, including public rapid-fire questioning or “pimping.”
+    design: Conceptual and historical comparison of elenchus, diagnostic teaching, and humiliation.
+    finding: Questions used to expose ignorance or hierarchy differ from inquiry developing self-directed reasoning.
+    limits: Does not compare learning outcomes; historical Socrates remains contested.
+
+  - id: schwind-2026-formative-epistemic-injustice
+    kind: normative-philosophical-analysis
+    citation: Schwind, P. (forthcoming). Beyond credibility—Formative epistemic injustice and the allocation of epistemic goods. Journal of Philosophy of Education.
+    url: https://philarchive.org/rec/SCHBCF-3
+    publication_date: 2026-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Learners receiving unequal attention, interpretive effort, or evaluative uptake in asymmetrical discourse.
+    design: Normative account of formative epistemic injustice.
+    finding: Maldistribution of formative epistemic goods can wrong developing agency beyond inaccurate credibility judgments.
+    limits: Forthcoming theory; fair adaptive uptake needs operational and empirical work.
+contradictions:
+  - Meta-analysis reports large benefits, but a large pragmatic trial found none on targeted attainment and social-communication outcomes.
+  - Open inquiry promises shared authority, yet the teacher chooses stimuli, recognizes contributions, controls time, and often evaluates.
+  - Perplexity can expose an unstable assumption, while serial questions can withhold an explanation the learner requested.
+  - Maps reveal support relations but can erase testimony, ambiguity, framing, emotion, genre, and power.
+claims:
+  - claim: Philosophical dialogue should be justified by philosophical participation, not borrowed attainment or character effects.
+    evidence: conflicting-trial-and-synthesis
+    confidence: high
+    source_ids: [kilby-2025-p4wc-meta, gorard-et-al-2017-p4c-efficacy, lord-et-al-2021-p4c-effectiveness]
+    supports: Aim proximally at questions, reasons, implications, objections, revisions, and calibrated suspension.
+    tensions: Transfer may occur under some conditions but must be measured.
+    boundary_conditions: Facilitation, duration, integration, language, age, assessment, knowledge, norms, and outcome alignment.
+    does_not_license: Promising literacy, mathematics, empathy, confidence, democracy, or general intelligence.
+
+  - claim: A teacher question needs a pedagogical function and a release condition.
+    evidence: normative-pedagogical-synthesis
+    confidence: high
+    source_ids: [stoddard-oconnor-2016-socratic-clinical, schwind-2026-formative-epistemic-injustice]
+    supports: Elicit a commitment, locate a joint, test a consequence, invite objection, or transfer the next move; answer when withholding no longer serves agency.
+    tensions: Declaring every function can make conversation mechanical.
+    boundary_conditions: Learner request, stakes, publicness, time, accessibility, failed attempts, affect, and assessment power.
+    does_not_license: Gotchas, public exposure, password guessing, endless hints, or treating nonresponse as incuriosity.
+
+  - claim: Argument maps can support analysis, especially for novices, but are lenses rather than arguments themselves.
+    evidence: bounded-quasi-experimental
+    confidence: moderate
+    source_ids: [harrell-2011-argument-diagramming]
+    supports: Externalize conclusions, reasons, objections, assumptions, and gaps when complexity overloads memory.
+    tensions: Mapping costs attention and can strip actual reasoning of context.
+    boundary_conditions: Genre, proficiency, notation burden, access, knowledge, and the live question.
+    does_not_license: Mandatory maps, universal transfer, or replacing evidence with tidy arrows.
+
+  - claim: Equal permission to speak is not equal epistemic participation.
+    evidence: normative-inference
+    confidence: high
+    source_ids: [schwind-2026-formative-epistemic-injustice, stoddard-oconnor-2016-socratic-clinical]
+    supports: Track whose questions reshape inquiry, whose reasons receive interpretation, and who can decline or challenge premises.
+    tensions: Justice still permits discriminating among claims by relevance, warrant, and harm.
+    boundary_conditions: Status, language, disability, tempo, turn structure, stereotype, expertise, safety, and relevance.
+    does_not_license: Praise without engagement, lowered standards by identity, extracted testimony, or neutrality toward domination.
+implications:
+  - Professor should answer direct requests directly; questioning must add a clear affordance.
+  - Use only questions the learner has time to metabolize; state the distinction instead of repeated guessing.
+  - Offer premise-conclusion sketches optionally while retaining sources, uncertainty, values, and excluded framing.
+  - Treat stop, plain version, show me, disagreement, and refusal as epistemic agency.
+  - No automatic Socratic or mapping tack is warranted.
+open_questions:
+  - How can one-to-one AI expose its control of question selection and stopping points without constant process talk?
+  - What measures independent philosophical judgment across new domains rather than argumentative vocabulary?
+  - How should testimony, affect, narrative, and silence enter representations without subordination to deductive form?
+  - What observable release condition distinguishes useful withholding from obstruction?
+next_actions:
+  - Audit question sequences for missing release conditions or direct-answer routes.
+  - Study legal case reasoning and moral judgment under authority, precedent, remedy, and real stakes.
+  - Keep learner commitments in private state, never bundled policy notes.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
