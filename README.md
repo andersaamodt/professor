@@ -46,6 +46,9 @@ bin/professor daily --minutes 12
 bin/professor research --date 2026-08-10
 ```
 
+The runtime is POSIX `sh`. It uses the standard Unix toolchain and the system
+`openssl` command; it has no Ruby, Python, or package-manager dependency.
+
 `init` creates private state at `~/.professor` by default. Set
 `PROFESSOR_DATA_DIR` to another external directory if needed. Professor refuses
 to put private state inside the checkout, including through a symlink.

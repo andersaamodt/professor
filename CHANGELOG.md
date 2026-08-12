@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- Replace the Ruby CLI with a smaller POSIX `sh` runtime built from standard
+  Unix tools and the system `openssl` command.
+- Convert the complete behavioral test harness to POSIX shell and replace
+  language-specific catalog projections with inspectable SHA-256 release
+  guards.
+
 ## 1.3.0 — 2026-08-12
 
 - Separate core Professor features from optional bundled curriculum in the

@@ -43,16 +43,28 @@ mode_of() {
   stat -f '%Lp' "$1" 2>/dev/null || stat -c '%a' "$1"
 }
 
+digest_file() {
+  if command -v sha256sum >/dev/null 2>&1; then
+    sha256sum "$1" | awk '{print $1}'
+  else
+    shasum -a 256 "$1" | awk '{print $1}'
+  fi
+}
+
+digest_stream() {
+  if command -v sha256sum >/dev/null 2>&1; then
+    sha256sum | awk '{print $1}'
+  else
+    shasum -a 256 | awk '{print $1}'
+  fi
+}
+
 state_digest() {
-  ruby -rdigest -e '
-    root = ARGV.fetch(0)
-    digest = Digest::SHA256.new
-    Dir.glob(File.join(root, "**", "*"), File::FNM_DOTMATCH).sort.each do |path|
-      next unless File.file?(path)
-      digest << path.sub(root, "") << "\0" << File.binread(path) << "\0"
-    end
-    print digest.hexdigest
-  ' "$1"
+  root=$1
+  find "$root" -type f -print | sort | while IFS= read -r file; do
+    printf '%s\n' "${file#"$root"}"
+    digest_file "$file"
+  done | digest_stream
 }
 
 export PROFESSOR_DATA_DIR="$professor_test_data"
@@ -127,25 +139,29 @@ for private_dir in proposals plans curricula campaigns keys exports; do
   [ -d "$professor_test_data/$private_dir" ] || fail "$private_dir was not initialized"
   [ "$(mode_of "$professor_test_data/$private_dir")" = 700 ] || fail "$private_dir mode is not 700"
 done
-private_canary="professor-canary-$(ruby -rsecurerandom -e 'print SecureRandom.hex(12)')@example.invalid"
-private_phrase="private-observation-$(ruby -rsecurerandom -e 'print SecureRandom.hex(16)')"
-short_phrase="priv8-$(ruby -rsecurerandom -e 'print SecureRandom.hex(4)')"
-ruby -ryaml -e '
-  path, phrase, short_phrase = ARGV
-  profile = YAML.load_file(path)
-  profile.fetch("declarations").fetch("goals") << {
-    "id" => "goal-private-phrase", "value" => phrase,
-    "purpose" => "exercise the private-state boundary", "expires_on" => "2026-12-31"
+private_canary="professor-canary-$(openssl rand -hex 12)@example.invalid"
+private_phrase="private-observation-$(openssl rand -hex 16)"
+short_phrase="priv8-$(openssl rand -hex 4)"
+awk -v phrase="$private_phrase" -v short_phrase="$short_phrase" '
+  /^  goals:/ {
+    print "  goals:"
+    print "    - id: goal-private-phrase"
+    print "      value: " phrase
+    print "      purpose: exercise the private-state boundary"
+    print "      expires_on: 2026-12-31"
+    print "    - id: goal-short-phrase"
+    print "      value: " short_phrase
+    print "      purpose: exercise short overlap detection"
+    print "      expires_on: 2026-12-31"
+    next
   }
-  profile.fetch("declarations").fetch("goals") << {
-    "id" => "goal-short-phrase", "value" => short_phrase,
-    "purpose" => "exercise short overlap detection", "expires_on" => "2026-12-31"
-  }
-  File.open(path, "w", 0o600) { |file| file.write(YAML.dump(profile)); file.chmod(0o600) }
-' "$professor_test_data/profile.yaml" "$private_phrase" "$short_phrase"
-profile_digest=$(ruby -rdigest -e 'print Digest::SHA256.file(ARGV.fetch(0)).hexdigest' "$professor_test_data/profile.yaml")
+  { print }
+' "$professor_test_data/profile.yaml" >"$professor_test_root/profile-with-goals.yaml"
+cp "$professor_test_root/profile-with-goals.yaml" "$professor_test_data/profile.yaml"
+chmod 600 "$professor_test_data/profile.yaml"
+profile_digest=$(digest_file "$professor_test_data/profile.yaml")
 "$professor" init >/dev/null
-[ "$profile_digest" = "$(ruby -rdigest -e 'print Digest::SHA256.file(ARGV.fetch(0)).hexdigest' "$professor_test_data/profile.yaml")" ] || fail 'init overwrote profile'
+[ "$profile_digest" = "$(digest_file "$professor_test_data/profile.yaml")" ] || fail 'init overwrote profile'
 "$professor" memory consent personalization granted >/dev/null
 "$professor" memory consent scheduling declined >/dev/null
 
@@ -214,13 +230,8 @@ privacy_attestation: no-raw-learner-language-or-identifiers
 YAML
 expect_fail "$professor" record "$professor_test_root/result-private.yaml"
 assert_not_contains "$private_canary" "$professor_test_data/events.jsonl"
-ruby -ryaml -e '
-  input, output = ARGV
-  event = YAML.load_file(input)
-  event["id"] = "evt-case-privacy"
-  event.fetch("evidence")["Raw_Chat"] = "hidden payload"
-  File.write(output, YAML.dump(event))
-' "$professor_test_root/result-a.yaml" "$professor_test_root/result-case-privacy.yaml"
+sed -e 's/id: evt-due-review/id: evt-case-privacy/' -e '/^  observation:/a\
+  Raw_Chat: hidden payload' "$professor_test_root/result-a.yaml" >"$professor_test_root/result-case-privacy.yaml"
 expect_fail "$professor" record "$professor_test_root/result-case-privacy.yaml"
 
 "$professor" daily --topic pop-music --date 2026-08-11 --minutes 4 >"$professor_test_root/daily-no-schedule.out"
@@ -233,15 +244,8 @@ assert_contains 'not backlog' "$professor_test_root/daily-due.out"
 "$professor" daily --topic pop-music --date 2026-08-12 --minutes 4 >"$professor_test_root/daily-missed-due.out"
 assert_not_contains 'due retrieval' "$professor_test_root/daily-missed-due.out"
 
-# A repeated artifact is valid on Ruby 2.6, and ad-hoc teaching needs no repo coordinate.
-ruby -ryaml -e '
-  input, output = ARGV
-  event = YAML.load_file(input)
-  event["id"] = "evt-repeat-artifact"
-  event["occurred_on"] = "2026-08-12"
-  event["next_review_on"] = nil
-  File.write(output, YAML.dump(event))
-' "$professor_test_root/result-a.yaml" "$professor_test_root/result-repeat.yaml"
+# A repeated artifact remains valid, and ad-hoc teaching needs no repo coordinate.
+sed -e 's/id: evt-due-review/id: evt-repeat-artifact/' -e "s/occurred_on: '2026-08-10'/occurred_on: '2026-08-12'/" -e "s/next_review_on: '2026-08-11'/next_review_on: null/" "$professor_test_root/result-a.yaml" >"$professor_test_root/result-repeat.yaml"
 "$professor" record "$professor_test_root/result-repeat.yaml" >/dev/null
 "$professor" daily --topic pop-music --date 2026-08-13 >"$professor_test_root/daily-repeat.out"
 assert_contains '# Professor daily teaching brief' "$professor_test_root/daily-repeat.out"
@@ -305,20 +309,13 @@ wait "$record_pid_c"
 [ "$(wc -l <"$professor_test_data/events.jsonl" | tr -d ' ')" = 5 ] || fail 'concurrent records were lost'
 
 # Rewrites and appends share one mutation lock, so forget cannot lose a concurrent record.
-ruby -ryaml -e '
-  input, output = ARGV
-  event = YAML.load_file(input)
-  event["id"] = "evt-race-new"
-  File.write(output, YAML.dump(event))
-' "$professor_test_root/result-c.yaml" "$professor_test_root/result-race-new.yaml"
-ruby -e '
-  lock_path, ready, release = ARGV
-  File.open(lock_path, "r+") do |file|
-    file.flock(File::LOCK_EX)
-    File.write(ready, "ready")
-    sleep 0.01 until File.exist?(release)
-  end
-' "$professor_test_data/.professor-mutation.lock" "$professor_test_root/race-ready" "$professor_test_root/race-release" &
+sed 's/id: evt-concurrent-c/id: evt-race-new/' "$professor_test_root/result-c.yaml" >"$professor_test_root/result-race-new.yaml"
+(
+  while ! mkdir "$professor_test_data/.professor-mutation.lock" 2>/dev/null; do sleep 0.01; done
+  printf '%s\n' ready >"$professor_test_root/race-ready"
+  while [ ! -e "$professor_test_root/race-release" ]; do sleep 0.01; done
+  rmdir "$professor_test_data/.professor-mutation.lock"
+) &
 lock_holder_pid=$!
 while [ ! -e "$professor_test_root/race-ready" ]; do sleep 0.01; done
 "$professor" record "$professor_test_root/result-race-new.yaml" >"$professor_test_root/race-record.out" &
@@ -326,7 +323,7 @@ race_record_pid=$!
 "$professor" memory forget event evt-concurrent-c >"$professor_test_root/race-forget.out" &
 race_forget_pid=$!
 sleep 0.2
-ruby -e 'File.write(ARGV.fetch(0), "release")' "$professor_test_root/race-release"
+printf '%s\n' release >"$professor_test_root/race-release"
 wait "$lock_holder_pid"
 wait "$race_record_pid"
 wait "$race_forget_pid"
@@ -336,15 +333,15 @@ assert_not_contains 'evt-concurrent-c' "$professor_test_data/events.jsonl"
 # Corruption fails closed and preserves the original bytes.
 cp "$professor_test_data/events.jsonl" "$professor_test_root/events-good.jsonl"
 printf '%s\n' '{broken-json' >>"$professor_test_data/events.jsonl"
-corrupt_digest=$(ruby -rdigest -e 'print Digest::SHA256.file(ARGV.fetch(0)).hexdigest' "$professor_test_data/events.jsonl")
+corrupt_digest=$(digest_file "$professor_test_data/events.jsonl")
 expect_fail "$professor" daily --topic pop-music --date 2026-08-12
-[ "$corrupt_digest" = "$(ruby -rdigest -e 'print Digest::SHA256.file(ARGV.fetch(0)).hexdigest' "$professor_test_data/events.jsonl")" ] || fail 'corrupt events were rewritten'
+[ "$corrupt_digest" = "$(digest_file "$professor_test_data/events.jsonl")" ] || fail 'corrupt events were rewritten'
 cp "$professor_test_root/events-good.jsonl" "$professor_test_data/events.jsonl"
 chmod 600 "$professor_test_data/events.jsonl"
-ruby -rjson -e 'File.open(ARGV.fetch(0), "a") { |file| file.puts(JSON.generate("parseable-but-not-an-event")) }' "$professor_test_data/events.jsonl"
-nonmapping_digest=$(ruby -rdigest -e 'print Digest::SHA256.file(ARGV.fetch(0)).hexdigest' "$professor_test_data/events.jsonl")
+printf '%s\n' '"parseable-but-not-an-event"' >>"$professor_test_data/events.jsonl"
+nonmapping_digest=$(digest_file "$professor_test_data/events.jsonl")
 expect_fail "$professor" memory forget event evt-concurrent-b
-[ "$nonmapping_digest" = "$(ruby -rdigest -e 'print Digest::SHA256.file(ARGV.fetch(0)).hexdigest' "$professor_test_data/events.jsonl")" ] || fail 'parseable non-mapping corruption was rewritten'
+[ "$nonmapping_digest" = "$(digest_file "$professor_test_data/events.jsonl")" ] || fail 'parseable non-mapping corruption was rewritten'
 cp "$professor_test_root/events-good.jsonl" "$professor_test_data/events.jsonl"
 chmod 600 "$professor_test_data/events.jsonl"
 
@@ -414,13 +411,7 @@ privacy_attestation: no-learner-language-or-identifying-detail
 YAML
 expect_fail "$professor" propose "$professor_test_root/proposal-overlap.yaml"
 [ ! -e "$professor_test_data/proposals/proposal-private-overlap.yaml" ] || fail 'private-state string overlap was stored'
-ruby -ryaml -e '
-  input, output, short_phrase = ARGV
-  proposal = YAML.load_file(input)
-  proposal["id"] = "proposal-short-overlap"
-  proposal["observation_summary"] = "A synthetic summary repeats #{short_phrase} from private state."
-  File.write(output, YAML.dump(proposal))
-' "$professor_test_root/proposal-good.yaml" "$professor_test_root/proposal-short.yaml" "$short_phrase"
+sed -e 's/id: proposal-small-arc-001/id: proposal-short-overlap/' -e "s|^observation_summary:.*|observation_summary: A synthetic summary repeats $short_phrase from private state.|" "$professor_test_root/proposal-good.yaml" >"$professor_test_root/proposal-short.yaml"
 expect_fail "$professor" propose "$professor_test_root/proposal-short.yaml"
 [ ! -e "$professor_test_data/proposals/proposal-short-overlap.yaml" ] || fail 'short private-state overlap was stored'
 
@@ -517,26 +508,23 @@ YAML
 chmod 600 "$professor_test_data/model.yaml"
 # Malformed learner structures fail closed before prune or inspection.
 cp "$professor_test_data/model.yaml" "$professor_test_root/model-valid.yaml"
-ruby -ryaml -e '
-  path = ARGV.fetch(0)
-  model = YAML.load_file(path)
-  model.fetch("hypotheses").first.delete("expires_on")
-  File.write(path, YAML.dump(model))
-' "$professor_test_data/model.yaml"
-malformed_model_digest=$(ruby -rdigest -e 'print Digest::SHA256.file(ARGV.fetch(0)).hexdigest' "$professor_test_data/model.yaml")
+awk 'BEGIN{removed=0} !removed && /^[[:space:]]+expires_on:/ {removed=1; next} {print}' "$professor_test_data/model.yaml" >"$professor_test_root/model-malformed.yaml"
+cp "$professor_test_root/model-malformed.yaml" "$professor_test_data/model.yaml"
+malformed_model_digest=$(digest_file "$professor_test_data/model.yaml")
 expect_fail "$professor" memory prune --date 2026-08-12
-[ "$malformed_model_digest" = "$(ruby -rdigest -e 'print Digest::SHA256.file(ARGV.fetch(0)).hexdigest' "$professor_test_data/model.yaml")" ] || fail 'malformed model was rewritten'
+[ "$malformed_model_digest" = "$(digest_file "$professor_test_data/model.yaml")" ] || fail 'malformed model was rewritten'
 cp "$professor_test_root/model-valid.yaml" "$professor_test_data/model.yaml"
 chmod 600 "$professor_test_data/model.yaml"
-ruby -ryaml -e '
-  path = ARGV.fetch(0)
-  profile = YAML.load_file(path)
-  profile.fetch("declarations").fetch("goals") << {
-    "id" => "goal-expired", "value" => "one expired bounded goal",
-    "purpose" => "test expiry", "expires_on" => "2026-08-11"
+awk '
+  /^  time_preferences:/ {
+    print "    - id: goal-expired"
+    print "      value: one expired bounded goal"
+    print "      purpose: test expiry"
+    print "      expires_on: 2026-08-11"
   }
-  File.write(path, YAML.dump(profile))
-' "$professor_test_data/profile.yaml"
+  {print}
+' "$professor_test_data/profile.yaml" >"$professor_test_root/profile-expired.yaml"
+cp "$professor_test_root/profile-expired.yaml" "$professor_test_data/profile.yaml"
 chmod 600 "$professor_test_data/profile.yaml"
 "$professor" memory prune --date 2026-08-12 >"$professor_test_root/prune.out"
 assert_not_contains 'h-expired' "$professor_test_data/model.yaml"
@@ -586,9 +574,9 @@ printf '%s' "the-city-turns-when-the-third-bell-is-silent" >"$quest_plain"
 "$professor" quest keygen "$quest_key" >/dev/null
 "$professor" quest keygen "$wrong_key" >/dev/null
 [ "$(mode_of "$quest_key")" = 600 ] || fail 'quest key mode is not 600'
-quest_key_digest=$(ruby -rdigest -e 'print Digest::SHA256.file(ARGV.fetch(0)).hexdigest' "$quest_key")
+quest_key_digest=$(digest_file "$quest_key")
 expect_fail "$professor" quest keygen "$quest_key"
-[ "$quest_key_digest" = "$(ruby -rdigest -e 'print Digest::SHA256.file(ARGV.fetch(0)).hexdigest' "$quest_key")" ] || fail 'quest keygen clobbered an existing key'
+[ "$quest_key_digest" = "$(digest_file "$quest_key")" ] || fail 'quest keygen clobbered an existing key'
 expect_fail "$professor" quest keygen "$repo_root/forbidden-test.key"
 [ ! -e "$repo_root/forbidden-test.key" ] || fail 'in-repo quest key was created'
 "$professor" quest seal "$quest_plain" "$sealed_one" --key-file "$quest_key" >/dev/null
@@ -600,18 +588,14 @@ cmp "$quest_plain" "$professor_test_root/opened.secret" >/dev/null || fail 'ques
 expect_fail "$professor" quest open "$sealed_one" --key-file "$wrong_key"
 expect_fail "$professor" quest open "$professor_test_root/missing.sealed" --key-file "$quest_key"
 assert_contains 'sealed quest does not exist' "$failure_output"
-assert_not_contains 'tools/professor.rb:' "$failure_output"
-ruby -e 'File.write(ARGV.fetch(0), "[]\n")' "$professor_test_root/array-envelope.sealed"
+assert_not_contains 'tools/professor:' "$failure_output"
+printf '%s\n' '[]' >"$professor_test_root/array-envelope.sealed"
 expect_fail "$professor" quest open "$professor_test_root/array-envelope.sealed" --key-file "$quest_key"
 assert_contains 'envelope must be a mapping' "$failure_output"
-assert_not_contains 'tools/professor.rb:' "$failure_output"
+assert_not_contains 'tools/professor:' "$failure_output"
 cp "$sealed_one" "$professor_test_root/tampered.sealed"
-ruby -rjson -e '
-  path = ARGV.fetch(0)
-  value = JSON.parse(File.read(path))
-  value["ciphertext"][0] = value["ciphertext"][0] == "A" ? "B" : "A"
-  File.write(path, JSON.pretty_generate(value) + "\n")
-' "$professor_test_root/tampered.sealed"
+sed 's/"authentication":"./"authentication":"0/' "$professor_test_root/tampered.sealed" >"$professor_test_root/tampered-new.sealed"
+cp "$professor_test_root/tampered-new.sealed" "$professor_test_root/tampered.sealed"
 expect_fail "$professor" quest open "$professor_test_root/tampered.sealed" --key-file "$quest_key"
 
 # The linter independently detects a constitutional text change and media payload.
@@ -620,119 +604,64 @@ cp -R "$repo_root" "$lint_copy"
 touch "$lint_copy/forbidden.mp3"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 rm "$lint_copy/forbidden.mp3"
-ruby -ryaml -e '
-  path = ARGV.fetch(0)
-  registry = YAML.load_file(path)
-  registry.fetch("policies").find { |policy| policy["id"] == "dignity.no-shame" }["rule"] = "Engagement may override dignity."
-  File.write(path, YAML.dump(registry))
-' "$lint_copy/policies/registry.yaml"
+sed 's/^    rule: Challenge work.*/    rule: Engagement may override dignity./' "$lint_copy/policies/registry.yaml" >"$lint_copy/policies/registry.new"
+mv "$lint_copy/policies/registry.new" "$lint_copy/policies/registry.yaml"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 cp "$repo_root/policies/registry.yaml" "$lint_copy/policies/registry.yaml"
-ruby -e '
-  path = ARGV.fetch(0)
-  text = File.read(path)
-  text.sub!("Engagement is useful only while every priority above it remains intact.", "Engagement may override every priority above it.")
-  File.write(path, text)
-' "$lint_copy/PROFESSOR.md"
+sed 's/Engagement is useful only while every priority above it remains intact./Engagement may override every priority above it./' "$lint_copy/PROFESSOR.md" >"$lint_copy/PROFESSOR.new"
+mv "$lint_copy/PROFESSOR.new" "$lint_copy/PROFESSOR.md"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 cp "$repo_root/PROFESSOR.md" "$lint_copy/PROFESSOR.md"
-ruby -ryaml -e '
-  path = ARGV.fetch(0)
-  catalog = YAML.load_file(path)
-  catalog.fetch("tacks").find { |tack| tack["id"] == "live-object-first" }["mechanism"] = "Engagement alone certifies learning."
-  File.write(path, YAML.dump(catalog))
-' "$lint_copy/pedagogy/tacks.yaml"
+awk '!done && /^    mechanism:/ {$0="    mechanism: Engagement alone certifies learning."; done=1} {print}' "$lint_copy/pedagogy/tacks.yaml" >"$lint_copy/pedagogy/tacks.new"
+mv "$lint_copy/pedagogy/tacks.new" "$lint_copy/pedagogy/tacks.yaml"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 cp "$repo_root/pedagogy/tacks.yaml" "$lint_copy/pedagogy/tacks.yaml"
-ruby -ryaml -e '
-  path = ARGV.fetch(0)
-  catalog = YAML.load_file(path)
-  catalog.fetch("sources").find { |source| source["id"] == "dewey-experience-education" }["limits"] = "No limits; universal proof."
-  File.write(path, YAML.dump(catalog))
-' "$lint_copy/pedagogy/sources.yaml"
+awk '!done && /^    limits:/ {$0="    limits: No limits; universal proof."; done=1} {print}' "$lint_copy/pedagogy/sources.yaml" >"$lint_copy/pedagogy/sources.new"
+mv "$lint_copy/pedagogy/sources.new" "$lint_copy/pedagogy/sources.yaml"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 cp "$repo_root/pedagogy/sources.yaml" "$lint_copy/pedagogy/sources.yaml"
-ruby -ryaml -e '
-  path = ARGV.fetch(0)
-  catalog = YAML.load_file(path)
-  catalog["status_values"] << "auto-approved"
-  File.write(path, YAML.dump(catalog))
-' "$lint_copy/pedagogy/tacks.yaml"
+sed 's/^status_values:.*/status_values: [provisional, active, retired, auto-approved]/' "$lint_copy/pedagogy/tacks.yaml" >"$lint_copy/pedagogy/tacks.new"
+mv "$lint_copy/pedagogy/tacks.new" "$lint_copy/pedagogy/tacks.yaml"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 cp "$repo_root/pedagogy/tacks.yaml" "$lint_copy/pedagogy/tacks.yaml"
-ruby -ryaml -e '
-  path = ARGV.fetch(0)
-  catalog = YAML.load_file(path)
-  provisional = catalog.fetch("tacks").find { |tack| tack["status"] == "provisional" }
-  provisional["Raw_Chat"] = "learner verbatim should never enter public policy"
-  File.write(path, YAML.dump(catalog))
-' "$lint_copy/pedagogy/tacks.yaml"
+printf '%s\n' 'Raw_Chat: learner verbatim should never enter public policy' >>"$lint_copy/pedagogy/tacks.yaml"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 cp "$repo_root/pedagogy/tacks.yaml" "$lint_copy/pedagogy/tacks.yaml"
-ruby -ryaml -e '
-  path = ARGV.fetch(0)
-  catalog = YAML.load_file(path)
-  catalog.fetch("contracts").fetch("policy").fetch("required") << "self_authorized_field"
-  File.write(path, YAML.dump(catalog))
-' "$lint_copy/schemas/contracts.yaml"
+awk '!done && /required: \[/ {sub(/required: \[/,"required: [self_authorized_field, "); done=1} {print}' "$lint_copy/schemas/contracts.yaml" >"$lint_copy/schemas/contracts.new"
+mv "$lint_copy/schemas/contracts.new" "$lint_copy/schemas/contracts.yaml"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 cp "$repo_root/schemas/contracts.yaml" "$lint_copy/schemas/contracts.yaml"
-ruby -ryaml -e '
-  path = ARGV.fetch(0)
-  agenda = YAML.load_file(path)
-  agenda.fetch("cadence")["horizon_scan"] = "whenever engagement dips"
-  File.write(path, YAML.dump(agenda))
-' "$lint_copy/pedagogy/research/agenda.yaml"
+sed 's/^  horizon_scan:.*/  horizon_scan: whenever engagement dips/' "$lint_copy/pedagogy/research/agenda.yaml" >"$lint_copy/pedagogy/research/agenda.new"
+mv "$lint_copy/pedagogy/research/agenda.new" "$lint_copy/pedagogy/research/agenda.yaml"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 cp "$repo_root/pedagogy/research/agenda.yaml" "$lint_copy/pedagogy/research/agenda.yaml"
 research_note="$lint_copy/pedagogy/research/notes/2026-08-10-ai-tutoring-harness.yaml"
-ruby -ryaml -e '
-  path = ARGV.fetch(0)
-  note = YAML.load_file(path)
-  note["Raw_Chat"] = "a learner sentence must not enter scholarship"
-  File.write(path, YAML.dump(note))
-' "$research_note"
+printf '%s\n' 'Raw_Chat: a learner sentence must not enter scholarship' >>"$research_note"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 cp "$repo_root/pedagogy/research/notes/2026-08-10-ai-tutoring-harness.yaml" "$research_note"
-ruby -ryaml -e '
-  path = ARGV.fetch(0)
-  note = YAML.load_file(path)
-  note["readings"] = []
-  File.write(path, YAML.dump(note))
-' "$research_note"
+sed 's/^readings:.*/readings: []/' "$research_note" >"$research_note.new"
+mv "$research_note.new" "$research_note"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 cp "$repo_root/pedagogy/research/notes/2026-08-10-ai-tutoring-harness.yaml" "$research_note"
-ruby -ryaml -e '
-  path = ARGV.fetch(0)
-  note = YAML.load_file(path)
-  note["status"] = "reviewed"
-  File.write(path, YAML.dump(note))
-' "$research_note"
+sed 's/^status:.*/status: reviewed/' "$research_note" >"$research_note.new"
+mv "$research_note.new" "$research_note"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 cp "$repo_root/pedagogy/research/notes/2026-08-10-ai-tutoring-harness.yaml" "$research_note"
-ruby -ryaml -e '
-  path = ARGV.fetch(0)
-  catalog = YAML.load_file(path)
-  catalog["scenarios"] = []
-  File.write(path, YAML.dump(catalog))
-' "$lint_copy/.tests/teaching-scenarios.yaml"
+sed 's/^scenarios:.*/scenarios: []/' "$lint_copy/.tests/teaching-scenarios.yaml" >"$lint_copy/.tests/teaching-scenarios.new"
+mv "$lint_copy/.tests/teaching-scenarios.new" "$lint_copy/.tests/teaching-scenarios.yaml"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 cp "$repo_root/.tests/teaching-scenarios.yaml" "$lint_copy/.tests/teaching-scenarios.yaml"
-ruby -ryaml -e '
-  path = ARGV.fetch(0)
-  catalog = YAML.load_file(path)
-  catalog["schema"] = "professor.adversarial-teaching-scenarios/v999"
-  File.write(path, YAML.dump(catalog))
-' "$lint_copy/.tests/teaching-scenarios.yaml"
+sed 's|^schema:.*|schema: professor.adversarial-teaching-scenarios/v999|' "$lint_copy/.tests/teaching-scenarios.yaml" >"$lint_copy/.tests/teaching-scenarios.new"
+mv "$lint_copy/.tests/teaching-scenarios.new" "$lint_copy/.tests/teaching-scenarios.yaml"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 cp "$repo_root/.tests/teaching-scenarios.yaml" "$lint_copy/.tests/teaching-scenarios.yaml"
 mkdir "$lint_copy/plans"
 touch "$lint_copy/plans/learner-plan.yaml" "$lint_copy/world.sealed" "$lint_copy/.professor-data-v1" "$lint_copy/full-lyrics.txt"
-ruby -e 'File.binwrite(ARGV.fetch(0), "\x89PNG\r\n\x1A\n")' "$lint_copy/disguised-payload"
+printf '\211PNG\r\n\032\n' >"$lint_copy/disguised-payload"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 
 # Full reset removes learner state in place, preserves unknown files, and remains passive.
-ruby -e 'File.write(ARGV.fetch(0), "preserve this unrelated file\n")' "$professor_test_data/unowned-note.txt"
+printf '%s\n' 'preserve this unrelated file' >"$professor_test_data/unowned-note.txt"
 "$professor" memory forget --all --yes >"$professor_test_root/forget-all.out"
 assert_contains 'Reset validated Professor-owned learner state' "$professor_test_root/forget-all.out"
 [ -f "$professor_test_data/unowned-note.txt" ] || fail 'forget --all deleted an unowned entry'
