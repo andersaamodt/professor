@@ -1,0 +1,156 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: science-inquiry-models-and-epistemic-plurality-2026-08-12
+title: Science teaching should apprentice learners into guided model-evidence revision without erasing culture, institution, or sovereignty
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise, epistemic-justice-curriculum-and-knowledge-access, indigenous-decolonial-and-sovereign-pedagogies, durable-memory-transfer-and-calibration]
+scope: Science inquiry and engineering design, guidance, conceptual change, learner ideas, nature of science, models, evidence, uncertainty, scientific institutions, cultural practices, Indigenous knowledge, and data sovereignty.
+method:
+  search_date: 2026-08-12
+  approach: Compared inquiry meta-analysis and consensus synthesis, conceptual-change meta-analysis and critique, nature-of-science meta-analysis, cultural-epistemology research, and Indigenous data-governance principles.
+  inclusion: Sources specifying instructional mechanism, guidance, epistemic outcome, prior conception, model revision, cultural relation, or authority over knowledge.
+  exclusions: Unguided discovery as virtue, fact transmission as science, a universal linear scientific method, learner ideas as personal defects, token Indigenous examples, and open access overriding collective authority.
+  limitations: Science domains and age groups differ; achievement measures often align with interventions; epistemic plurality debates use contested categories; community-specific knowledge cannot be generalized from published scholarship.
+readings:
+  - id: furtak-et-al-2012-inquiry-meta
+    kind: meta-analysis
+    citation: Furtak, E. M., Seidel, T., Iverson, H., & Briggs, D. C. (2012). Experimental and quasi-experimental studies of inquiry-based science teaching—A meta-analysis. Review of Educational Research, 82(3), 300-329. https://doi.org/10.3102/0034654312457206
+    url: https://doi.org/10.3102/0034654312457206
+    publication_date: 2012-09-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: School science learners in experimental and quasi-experimental inquiry-based instruction studies.
+    design: Meta-analysis coding cognitive, conceptual, epistemic, and social inquiry features and teacher versus learner leadership.
+    finding: Inquiry-based teaching produced positive average achievement effects, with stronger results in approaches that included teacher guidance and epistemic engagement.
+    limits: “Inquiry” covered diverse designs, outcome alignment and study quality varied, and teacher-led guidance was not one uniform treatment.
+
+  - id: nasem-2018-investigation-design
+    kind: consensus-study-report
+    citation: National Academies of Sciences, Engineering, and Medicine. (2018). Science and engineering for grades 6-12—Investigation and design at the center. National Academies Press. https://doi.org/10.17226/25216
+    url: https://doi.org/10.17226/25216
+    publication_date: 2018-11-13
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Middle- and high-school science and engineering systems, teachers, curricula, professional learning, and assessment.
+    design: Expert consensus synthesis of research and implementation conditions.
+    finding: Sustained investigation of phenomena and design problems can deepen understanding when curricula, teacher guidance, discourse, assessment, time, and professional learning align.
+    limits: Consensus rather than primary effect study; system transformation demands resources and can be reduced to activity sequences without epistemic work.
+
+  - id: pacaci-et-al-2024-conceptual-change
+    kind: meta-analysis
+    citation: Pacaci, C., et al. (2024). Effectiveness of conceptual change strategies in science education—A meta-analysis. Journal of Research in Science Teaching, 61(6), 1263-1325. https://doi.org/10.1002/tea.21887
+    url: https://doi.org/10.1002/tea.21887
+    publication_date: 2024-08-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Learners in 218 science-education studies using cognitive conflict, bridging, ontological shift, refutation, or related conceptual-change strategies.
+    design: Comprehensive meta-analysis with moderators and Bayesian statistical modeling.
+    finding: Conceptual-change strategies showed large average effects on science achievement across categories, with meaningful heterogeneity explained by study features.
+    limits: Achievement and intervention alignment, publication bias, varied controls, unclear concept ontology, and replacement metaphors may misdescribe context-sensitive knowledge activation.
+
+  - id: diuit-treagust-2003-conceptual-change
+    kind: theoretical-review
+    citation: Duit, R., & Treagust, D. F. (2003). Conceptual change—A powerful framework for improving science teaching and learning. International Journal of Science Education, 25(6), 671-688. https://doi.org/10.1080/09500690305016
+    url: https://doi.org/10.1080/09500690305016
+    publication_date: 2003-06-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Science learners bringing everyday and instructional conceptions to varied domains.
+    design: Integrative theoretical review of cognitive, affective, social, and epistemological developments in conceptual-change research.
+    finding: Learning often requires restructuring relations among prior ideas, intelligibility, plausibility, and fruitfulness, not merely adding facts; affect and context matter.
+    limits: “Conception” coherence is contested and change may be gradual, situational, plural, or repertoire-based rather than wholesale replacement.
+
+  - id: deng-et-al-2025-nos-meta
+    kind: meta-analysis
+    citation: Deng, F., Shi, Z., Tian, P., & Sun, D. (2025). Explicit-reflective teaching and students' understanding of nature of science—A meta-analysis. Research in Science Education. https://doi.org/10.1007/s11165-025-10250-1
+    url: https://repository.eduhk.hk/en/publications/explicit-reflective-teaching-and-students-understanding-of-nature/
+    publication_date: 2025-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Learners in 25 independent studies receiving explicit-reflective nature-of-science instruction.
+    design: Meta-analysis of effects on understanding science's epistemology and practices.
+    finding: Explicit reflection improved measured nature-of-science understanding on average relative to implicit or comparison instruction.
+    limits: Construct inventories can reward canonical declarative statements; stated understanding may not transfer to evaluating live science claims.
+
+  - id: bang-et-al-2010-multiple-epistemologies
+    kind: community-based-design-research
+    citation: Bang, M., Medin, D., Washinawatok, K., & Chapman, S. (2010). Innovations in culturally based science education through partnerships and community. In Cultural processes in science education—Supporting the navigation of multiple epistemologies. Science Education, 94(6), 1008-1026. https://doi.org/10.1002/sce.20392
+    url: https://doi.org/10.1002/sce.20392
+    publication_date: 2010-11-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Urban Indigenous, rural Menominee, and European-American community practices and Indigenous-community science learning environments.
+    design: Comparative cognitive research joined with community partnership and learning-environment design.
+    finding: Epistemic orientations and human-nature relations are culturally patterned; place-based work with elders, families, and community can broaden participation and scientific sense-making.
+    limits: Communities and nations are not interchangeable, published cases do not release knowledge from local governance, and cross-cultural contrasts risk essentialism.
+
+  - id: carroll-et-al-2020-care
+    kind: indigenous-governance-framework
+    citation: Carroll, S. R., et al. (2020). The CARE principles for Indigenous data governance. Data Science Journal, 19, 43. https://doi.org/10.5334/dsj-2020-043
+    url: https://doi.org/10.5334/dsj-2020-043
+    publication_date: 2020-11-04
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Indigenous peoples and organizations governing data, traditional knowledge, research, open science, machine learning, and secondary use.
+    design: International Indigenous Data Sovereignty Interest Group framework developed through consultation around collective benefit, authority to control, responsibility, and ethics.
+    finding: Open and FAIR data norms are insufficient without collective rights, benefit, control, relational responsibility, and ethical future use.
+    limits: High-level principles require nation- and community-specific law and practice; citation or public availability does not establish teaching permission.
+contradictions:
+  - Investigation supports science learning, yet novice inquiry without sufficient models, background knowledge, tools, or feedback can become guessing and inequitable hidden guidance.
+  - Conceptual-change interventions can correct systematic errors, yet “misconception” language may reify a unitary defective belief and ignore useful everyday reasoning or cultural context.
+  - Science seeks claims answerable to shared evidence, yet its questions, categories, institutions, labor, risks, and access are socially situated and historically unequal.
+  - Including Indigenous knowledge can repair exclusion and enlarge inquiry, yet extraction into a generic curriculum can violate sovereignty and strip knowledge from land, language, relation, and protocol.
+claims:
+  - claim: Science inquiry is guided participation in the public revision of models against evidence, not unguided rediscovery or a fixed sequence of steps.
+    evidence: meta-analytic-and-consensus-synthesis
+    confidence: high
+    source_ids: [furtak-et-al-2012-inquiry-meta, nasem-2018-investigation-design]
+    supports: Begin with a consequential phenomenon; supply relevant prior models and tools; let learners generate or compare questions, predictions, representations, evidence, explanations, and revisions; fade guidance by competence.
+    tensions: Direct explanation can be the most honest and efficient move when discovery adds no epistemic value or error is costly.
+    boundary_conditions: Prior knowledge, equipment, time, safety, phenomenon, guidance, feedback, social organization, and intended scientific practice.
+    does_not_license: Discovery withholding, cookbook labs called inquiry, one universal scientific method, activity without explanation, or learner ownership claimed over a teacher-controlled result.
+
+  - claim: Prior scientific ideas should be diagnosed at the level of prediction and explanatory use, then reorganized rather than treated as stains on the learner.
+    evidence: meta-analytic-and-theoretical-synthesis
+    confidence: high
+    source_ids: [pacaci-et-al-2024-conceptual-change, diuit-treagust-2003-conceptual-change]
+    supports: Elicit a low-stakes prediction, expose an anomaly or contrast, preserve useful intuition, introduce a more powerful model, compare scope and mechanism, and check transfer to a new case.
+    tensions: Elicitation can rehearse error, demand public exposure, or waste time when a concise model would suffice.
+    boundary_conditions: Idea stability, prior knowledge, task, privacy, model complexity, affect, language, outcome, feedback, and transfer opportunity.
+    does_not_license: Misconception labels as traits, humiliation by contradiction, assuming one wrong answer reveals a coherent theory, or culturalizing an individual error.
+
+  - claim: The nature of science must be made explicit at live evidential joints, while avoiding a mythology of either pure objectivity or mere social construction.
+    evidence: meta-analytic-and-philosophical-synthesis
+    confidence: high
+    source_ids: [deng-et-al-2025-nos-meta, nasem-2018-investigation-design]
+    supports: Name observation-model relations, uncertainty, replication, peer challenge, instrumentation, values in question choice, institutional incentives, revision, and why some conclusions are nevertheless strongly warranted.
+    tensions: Excess methodological commentary can displace the object and turn science into slogans about science.
+    boundary_conditions: Case, learner aim, evidential controversy, historical context, decision stakes, and disciplinary practice.
+    does_not_license: Science as infallible facts, science as only opinion, “teach both sides” without evidential standing, or institutional critique as rejection of reliable findings.
+
+  - claim: Epistemic plurality requires precise comparison of questions, practices, validation, relations, authority, and consequences—not ranking whole cultures on one scale or declaring all claims equivalent.
+    evidence: community-design-and-governance-synthesis
+    confidence: high
+    source_ids: [bang-et-al-2010-multiple-epistemologies, carroll-et-al-2020-care]
+    supports: Identify who knows, through what relation and practice, what claim is made, where it travels, how it is warranted, who may teach it, and what collective duties govern use; collaborate under community authority.
+    tensions: Translation can create mutual insight or false commensurability; scientific testing can be relevant to an empirical claim without exhausting its cultural meaning.
+    boundary_conditions: Nation, community, land, language, protocol, restriction, intellectual property, sacredness, empirical consequence, risk, and benefit.
+    does_not_license: Pan-Indigenous examples, scraping traditional knowledge, spiritual claims masquerading as laboratory findings, scientific claims immune from cultural critique, or citation treated as consent.
+implications:
+  - Professor should open science lessons on a phenomenon or model conflict, then give enough knowledge and equipment for genuine epistemic action.
+  - Label models by purpose, scale, idealization, evidence, and failure conditions; do not teach a diagram as the thing itself.
+  - When correcting, preserve the local situation in which an intuition works before marking the boundary where a scientific model outperforms it.
+  - Explicitly distinguish settled-for-purpose conclusions, active scientific uncertainty, value disagreement, implementation uncertainty, and manufactured controversy.
+  - Professor must not retrieve, reproduce, or generalize restricted Indigenous knowledge merely because it is searchable; sovereignty precedes curricular novelty.
+open_questions:
+  - How can an AI stage empirical inquiry without pretending a generated simulation is observation of the world?
+  - Which nature-of-science reflections transfer from historical cases to judging current scientific institutions and claims?
+  - How should Professor respond when a learner asks to compare a community-governed knowledge claim with a scientific claim but community authorization is unknown?
+next_actions:
+  - Study mathematics teaching and proof, where explanation, representation, discovery, formal authority, and identity pose a distinct disciplinary test.
+  - Include model status, guidance sufficiency, manufactured controversy, and knowledge sovereignty in the final audit.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
