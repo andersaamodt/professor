@@ -1,0 +1,165 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: library-research-and-information-infrastructure-2026-08-12
+title: Research instruction should teach situated search, provenance, access, and stopping—not source-check rituals
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [media-literacy-correction-and-epistemic-trust, epistemic-justice-curriculum-and-knowledge-access, durable-memory-transfer-and-calibration, privacy-surveillance-and-inference-restraint]
+scope: Libraries, information literacy, research questions, search systems, lateral reading, source evaluation, authority, access, classification, citation, research data, synthesis, intellectual freedom, privacy, and stopping rules.
+method:
+  search_date: 2026-08-12
+  approach: Compared information-literacy framework and school review, civic-online-reasoning intervention research and counterevidence, critical librarianship review, research-data-management review, and scholarship on search and epistemic authority.
+  inclusion: Sources distinguishing discovery, access, source identity, claim evidence, context, synthesis, data stewardship, transfer, search traces, institutional power, and uncertainty.
+  exclusions: Domain-agnostic source checklists, prestige as truth, search rank as relevance, “do your own research” as expertise, citations as comprehension, generalized skepticism, and total retrieval as a prerequisite for answering.
+  limitations: Information systems and manipulation change rapidly; many interventions use proximal tasks; library scholarship is higher-education and English-language heavy; access and censorship conditions differ by jurisdiction.
+readings:
+  - id: acrl-2016-framework
+    kind: professional-framework
+    citation: Association of College and Research Libraries. (2016). Framework for Information Literacy for Higher Education. https://www.ala.org/acrl/standards/ilframework
+    url: https://www.ala.org/acrl/standards/ilframework
+    publication_date: 2016-01-11
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Higher-education learners conducting inquiry and participating in scholarly communication.
+    design: Professionally developed conceptual framework organized around threshold-like frames rather than decontextualized competencies.
+    finding: Authority is constructed and contextual; information creation is process; information has value; research is inquiry; scholarship is conversation; searching is strategic exploration.
+    limits: Broad frames need disciplinary enactment and empirical evaluation; threshold language can imply irreversible transformation or academic norms as universal.
+
+  - id: mcgrew-breakstone-2023-cor
+    kind: curriculum-intervention-study
+    citation: McGrew, S., & Breakstone, J. (2023). Civic online reasoning across the curriculum—Developing and testing the efficacy of digital literacy lessons. AERA Open, 9. https://doi.org/10.1177/23328584231176451
+    url: https://doi.org/10.1177/23328584231176451
+    publication_date: 2023-06-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Secondary learners receiving short civic-online-reasoning lessons integrated into biology and geography.
+    design: Curriculum development and pre-post efficacy study of lateral reading and online evaluation.
+    finding: Repeated domain-integrated practice can improve aspects of source evaluation, with exposure and enactment varying by course.
+    limits: No randomized untreated comparison in all settings, proximal constructed assessments, implementation variation, and source investigation does not settle claim truth.
+
+  - id: perucchini-et-al-2025-science-disinfo
+    kind: classroom-experiment
+    citation: Perucchini, P., et al. (2025). The impact of interventions against science disinformation in high school students. Computers & Education. https://pubmed.ncbi.nlm.nih.gov/41034382/
+    url: https://pubmed.ncbi.nlm.nih.gov/41034382/
+    publication_date: 2025-10-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 2,288 Northern Italian high-school students evaluating real-world scientific and pseudoscientific Instagram posts.
+    design: Ecological classroom experiment comparing civic online reasoning, cognitive-bias, and inoculation interventions.
+    finding: No intervention significantly improved overall accuracy; civic online reasoning indirectly helped through limited lateral reading and click restraint, while inoculation increased generalized skepticism that reduced trust in valid science.
+    limits: Short intervention, platform and stimulus dependence, engagement variation, and process mediation among a small subset.
+
+  - id: smith-2024-school-il-review
+    kind: systematic-review
+    citation: Smith, J. K., et al. (2024). Information literacy development and assessment at school level—A systematic review of the literature. https://arxiv.org/abs/2404.19020
+    url: https://arxiv.org/abs/2404.19020
+    publication_date: 2024-04-29
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Primary and secondary information-literacy definitions, instruction, standards, skills, and assessments.
+    design: Systematic literature review.
+    finding: School information literacy is defined and assessed inconsistently across skills, contexts, standards, and instruments.
+    limits: Preprint status, heterogeneous terminology and quality, publication-language limits, and competence lists may miss inquiry purpose and power.
+
+  - id: del-junco-2024-critical-stem-libraries
+    kind: critical-literature-review
+    citation: del Junco, C. (2024). Critical pedagogies and critical information literacy in STEM librarianship—A literature review. Issues in Science and Technology Librarianship, 105. https://eric.ed.gov/?id=EJ1419277
+    url: https://eric.ed.gov/?id=EJ1419277
+    publication_date: 2024-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: STEM librarianship and instruction considering whose information, authority, and classification are valued.
+    design: Critical review of literature and pedagogical possibilities.
+    finding: Information literacy should examine power shaping publication, classification, access, authority, and erasure rather than teach retrieval and evaluation as neutral techniques.
+    limits: Normative synthesis with a small STEM literature; critique of power does not by itself validate a source or empirical claim.
+
+  - id: oo-et-al-2022-rdm-training
+    kind: systematic-review
+    citation: Oo, C. Z., Chew, A. W., Wong, A. L. H., Gladding, J., & Stenstrom, C. (2022). Delineating the successful features of research data management training—A systematic review. International Journal for Academic Development, 27(3), 249-264. https://doi.org/10.1080/1360144X.2021.1898399
+    url: https://doi.org/10.1080/1360144X.2021.1898399
+    publication_date: 2022-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Students, researchers, and staff in 28 research-data-management training studies selected from 1,256 records.
+    design: Seven-database systematic review of training designs and reported success features.
+    finding: Effective data-management training is contextual, practical, collaboratively supported, and connected to the research lifecycle rather than a one-time compliance list.
+    limits: Self-report and satisfaction dominate, disciplinary and institutional heterogeneity is large, and enactment or long-term data quality is rarely verified.
+
+  - id: noble-2018-algorithms-oppression
+    kind: critical-empirical-monograph
+    citation: Noble, S. U. (2018). Algorithms of Oppression—How Search Engines Reinforce Racism. New York University Press.
+    url: https://nyupress.org/9781479837243/algorithms-of-oppression/
+    publication_date: 2018-02-20
+    accessed_on: 2026-08-12
+    reading_level: citation-traced
+    population_context: Commercial search infrastructures, representation, classification, advertising, racism, and public knowledge access.
+    design: Critical analysis using search cases, platform political economy, media history, and Black feminist scholarship.
+    finding: Search results are produced by commercial and social systems and can reproduce oppressive classification; rank is neither neutral relevance nor public consensus.
+    limits: Cases and platforms change; structural diagnosis does not determine the credibility of each result or imply that every ranking is intentionally discriminatory.
+contradictions:
+  - Lateral reading can reveal who stands behind a source, yet leaving a page is neither necessary nor sufficient for evaluating its particular claim and evidence.
+  - Critical information literacy reveals power in authority and access, yet suspicion of institutions can become generalized skepticism that discounts warranted expertise.
+  - Scholarly conversation supports traceable claims, yet paywalls, prestige, English dominance, citation networks, and publication bias exclude knowledge and distort visibility.
+  - More searching can find counterevidence, yet search itself consumes time, exposes private interests, and creates an illusion that completeness is attainable.
+claims:
+  - claim: Research begins by specifying the decision, encounter, or question well enough to know what kinds of evidence and uncertainty matter.
+    evidence: framework-and-review-synthesis
+    confidence: high
+    source_ids: [acrl-2016-framework, smith-2024-school-il-review]
+    supports: State the live question, audience, stakes, relevant time and place, plausible answer forms, disconfirming evidence, access constraints, and a provisional stopping rule.
+    tensions: Early questions can be transformed by discovery; excessive specification narrows inquiry before the field is visible.
+    boundary_conditions: Novelty, stakes, time, domain, source access, learner aim, and whether exploration or decision is primary.
+    does_not_license: Premature certainty, a mandatory thesis before exploration, exhaustive search claims, or expanding a small learner question into a research project.
+
+  - claim: Source evaluation should move among source identity, production process, claim, evidence, context, comparison, and downstream use rather than apply one checklist.
+    evidence: intervention-framework-synthesis
+    confidence: high
+    source_ids: [acrl-2016-framework, mcgrew-breakstone-2023-cor, perucchini-et-al-2025-science-disinfo]
+    supports: Read laterally when identity matters; inspect methods and primary evidence; compare independent sources; check date and corrections; distinguish expertise, interest, access, and claim scope.
+    tensions: Fast heuristics are useful under attention constraints, and direct primary materials can be harder to interpret than responsible synthesis.
+    boundary_conditions: Claim type, consequence, domain, source genre, novelty, manipulation risk, language, access, and available expertise.
+    does_not_license: CRAAP-style scoring as truth, credential worship, ad hominem dismissal, platform badges as verification, or generalized distrust.
+
+  - claim: Search is a designed and power-laden sampling process whose omissions, rankings, vocabulary, and access barriers must be part of the inference.
+    evidence: critical-framework-synthesis
+    confidence: high
+    source_ids: [acrl-2016-framework, del-junco-2024-critical-stem-libraries, noble-2018-algorithms-oppression]
+    supports: Vary terms and languages, databases and community routes; record filters and dates; inspect ranking incentives; follow citations backward and forward; identify absent voices without fabricating them.
+    tensions: No search can represent every knowledge system, and critical breadth can overwhelm the bounded question.
+    boundary_conditions: Platform, index, language, paywall, location, personalization, censorship, community protocol, and time.
+    does_not_license: Scraping restricted or private knowledge, bypassing lawful access controls, treating low rank as low value, or claiming silence proves absence.
+
+  - claim: Research data stewardship is part of inquiry quality and participant ethics, not clerical work after analysis.
+    evidence: systematic-review-synthesis
+    confidence: high
+    source_ids: [oo-et-al-2022-rdm-training]
+    supports: Plan minimization, consent, provenance, naming, versioning, access, metadata, licensing, retention, deletion, reproducibility, community governance, and handoff before collection.
+    tensions: Maximal openness can conflict with privacy, sovereignty, safety, copyright, and withdrawal; documentation has labor costs.
+    boundary_conditions: Data sensitivity, participant and community rights, law, funder policy, reproducibility need, threat model, and resources.
+    does_not_license: Collecting data because storage is available, open-by-default personal data, retrospective consent, permanent retention, or compliance theater.
+
+  - claim: A research answer should expose its search and inference boundaries while ending when further retrieval is unlikely to change the proportionate decision.
+    evidence: methodological-ethical-synthesis
+    confidence: high
+    source_ids: [acrl-2016-framework, oo-et-al-2022-rdm-training]
+    supports: Report searched routes and dates, reading depth, strongest counterevidence, conflicts, inaccessible materials, confidence, and what would reopen the search.
+    tensions: High-stakes systematic work requires formal protocols; a conversational answer may need only a transparent bounded search.
+    boundary_conditions: Stakes, novelty, legal or clinical consequence, decision reversibility, user request, source saturation, and time.
+    does_not_license: “Research complete,” citation dumping, laundering abstracts into full readings, concealing failed searches, or prolonging inquiry to avoid judgment.
+implications:
+  - Professor should ask what the learner is trying to decide or encounter before producing a bibliography, unless the learner explicitly wants open exploration.
+  - Model live source moves—query variation, lateral identity check, method inspection, comparison, and correction search—without turning each answer into a compulsory research lesson.
+  - Cite the source nearest the claim and state reading depth; do not let fluent synthesis imply direct reading or comprehensive coverage.
+  - Explain why a source is useful for this claim, including limits, rather than using authority labels as verdicts.
+  - Protect query and reading histories as learner data; do not infer ideology, health, identity, or vulnerability from searches.
+open_questions:
+  - Which combinations of lateral reading and claim-level method inspection transfer across domains without generalized skepticism?
+  - How can a professor teach classification and search power while preserving the value of warranted expertise and usable shortcuts?
+  - What is an adequate stopping rule for a daily lesson versus a high-stakes scholarly synthesis?
+next_actions:
+  - Conduct the final cross-record audit of today's evidence mix, geographic and methodological gaps, contradictions, role boundaries, learner agency, and promotion restraint.
+  - Prune or reprioritize the living agenda only where the audit finds a durable uncovered question.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
