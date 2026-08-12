@@ -1,0 +1,156 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: reading-code-knowledge-dialect-and-encounter-2026-08-12
+title: Reading teaching should secure code access while building language, knowledge, interpretation, and literary life
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [epistemic-justice-curriculum-and-knowledge-access, access-disability-and-equivalent-participation, teacher-knowledge-noticing-and-adaptive-expertise, durable-memory-transfer-and-calibration]
+scope: Reading acquisition, phonological awareness, phonics, fluency, oral language, vocabulary, morphology, grammar, background knowledge, comprehension, strategy, literary encounter, multilingualism, dialect, orthography, and philology.
+method:
+  search_date: 2026-08-12
+  approach: Compared foundational panel synthesis and integrative reading-science review with multilingual review-of-reviews, content-knowledge meta-analysis, morphological-instruction meta-analysis, dialect research, and culturally sustaining critique.
+  inclusion: Sources separating word recognition, language comprehension, text knowledge, transfer, linguistic variation, and instructional consequence.
+  exclusions: Reading-war packages, guessing unfamiliar words from pictures, phonics as the whole curriculum, comprehension as generic strategy drill, dialect as disorder, and etymology as sufficient decoding or meaning.
+  limitations: Alphabetic English dominates the evidence; policy labels exceed studied interventions; standardized comprehension measures sample knowledge and language unevenly; dialect studies are often correlational.
+readings:
+  - id: national-reading-panel-2000
+    kind: evidence-review-and-panel-report
+    citation: National Reading Panel. (2000). Teaching children to read—An evidence-based assessment of the scientific research literature on reading and its implications for reading instruction. NICHD.
+    url: https://www.nichd.nih.gov/publications/pubs/nrp/report
+    publication_date: 2000-04-13
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Primarily English-reading children in experimental and quasi-experimental research on alphabetics, fluency, vocabulary, and comprehension.
+    design: Federally commissioned panel review with meta-analyses across specified instructional domains.
+    finding: Systematic phonemic-awareness and phonics instruction improve early word reading; guided oral reading supports fluency; vocabulary and comprehension instruction also matter in a complete program.
+    limits: Search and inclusion decisions have been contested; older evidence; English alphabetic focus; limited attention to culture, multilingual transfer, knowledge curriculum, disability variation, and literary aims.
+
+  - id: castles-rastle-nation-2018-reading-wars
+    kind: integrative-tutorial-review
+    citation: Castles, A., Rastle, K., & Nation, K. (2018). Ending the reading wars—Reading acquisition from novice to expert. Psychological Science in the Public Interest, 19(1), 5-51. https://doi.org/10.1177/1529100618772271
+    url: https://doi.org/10.1177/1529100618772271
+    publication_date: 2018-06-11
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Alphabetic reading development from novice decoding through expert word recognition and comprehension.
+    design: Broad cognitive-science tutorial review of phonology, orthography, morphology, vocabulary, fluency, and comprehension.
+    finding: Explicit access to alphabetic code is essential for beginners, while skilled reading develops through extensive language and text experience that integrates word recognition and meaning.
+    limits: Cognitive architecture does not by itself choose curriculum, texts, dialect policy, identity relation, or resource allocation; languages and writing systems differ.
+
+  - id: vaughn-et-al-2024-multilingual-sor
+    kind: systematic-review-of-reviews
+    citation: Vaughn, S., et al. (2024). What does research say about the science of reading for K-5 multilingual learners? A systematic review of systematic reviews.
+    url: https://udspace.udel.edu/items/a607d0c0-ac3e-40e1-97b9-33330c90cf65
+    publication_date: 2024-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Kindergarten through fifth-grade multilingual learners developing English and first-language literacy.
+    design: Review of systematic reviews across foundational skills, oral language, cross-linguistic transfer, and comprehension.
+    finding: Foundational code skills remain important, but oral language and reading skill in both English and learners' other languages are essential and can support transfer.
+    limits: Review inherits primary-review gaps, multilingual learners and biliteracy programs are heterogeneous, and English outcome priority can obscure additive multilingual aims.
+
+  - id: hwang-et-al-2026-content-knowledge
+    kind: meta-analytic-review
+    citation: Hwang, H., et al. (2026). Content knowledge and comprehension—A meta-analytic review of correlational and causal associations. Review of Educational Research. https://pubmed.ncbi.nlm.nih.gov/41396531/
+    url: https://pubmed.ncbi.nlm.nih.gov/41396531/
+    publication_date: 2026-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Learners reading texts with measured or instructionally manipulated topic and domain knowledge.
+    design: Meta-analysis separating correlational associations and causal knowledge-building or activation interventions.
+    finding: Content knowledge supports comprehension, with larger effects on research-developed aligned tasks than norm-referenced measures and larger effects for activation than building interventions.
+    limits: Alignment inflates apparent transfer, knowledge activation presupposes prior access, and whose knowledge becomes curriculum remains a political choice.
+
+  - id: colenbrander-et-al-2024-morphology
+    kind: preregistered-systematic-review-and-meta-analysis
+    citation: Colenbrander, D., et al. (2024). The effects of morphological instruction on literacy outcomes for children in English-speaking countries—A systematic review and meta-analysis. Educational Psychology Review, 36. https://doi.org/10.1007/s10648-024-09953-3
+    url: https://doi.org/10.1007/s10648-024-09953-3
+    publication_date: 2024-10-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Primary-school children in 28 English-language studies, including learners with literacy difficulty and multilingual learners.
+    design: Preregistered meta-analysis distinguishing trained words, untrained transfer, spelling, fluency, and comprehension.
+    finding: Morphology instruction produced large effects on trained-word reading and spelling and possible spelling transfer, but little reliable immediate evidence for broad reading-comprehension improvement.
+    limits: High heterogeneity and imprecision, few delayed measures, varied controls, and English derivational morphology may not generalize across languages or scripts.
+
+  - id: craig-et-al-2009-dialect-shifting
+    kind: observational-study
+    citation: Craig, H. K., Zhang, L., Hensel, S. L., & Quinn, E. J. (2009). African American English-speaking students—An examination of the relationship between dialect shifting and reading outcomes. Journal of Speech, Language, and Hearing Research, 52(4), 839-855. https://doi.org/10.1044/1092-4388(2009/08-0056)
+    url: https://doi.org/10.1044/1092-4388(2009/08-0056)
+    publication_date: 2009-08-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 165 African American first- through fifth-grade speakers across socioeconomic backgrounds producing oral and written narratives.
+    design: Structural-equation analysis of dialect shifting, oral language, writing, socioeconomic status, and standardized reading outcomes.
+    finding: Greater shifting toward standardized written English in literacy tasks was associated with higher reading scores, partly through oral-language comprehension.
+    limits: Correlation cannot show that suppressing AAE causes achievement; standardized tests privilege the target variety; dialect shifting may index instruction, opportunity, or metalinguistic knowledge.
+
+  - id: castro-et-al-2024-multilingual-teachers
+    kind: qualitative-study
+    citation: Castro, M., et al. (2024). If we could look at kids as a whole—Teachers negotiating science of reading approaches with multilingual learners. NABE Journal of Research and Practice, 14(3-4). https://doi.org/10.1080/26390043.2024.2442920
+    url: https://doi.org/10.1080/26390043.2024.2442920
+    publication_date: 2024-12-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Teachers implementing foundational-skills reforms in bilingual and multilingual programs.
+    design: Qualitative study of teacher knowledge, negotiation, and contextual adaptation.
+    finding: Reading-science approaches strengthened knowledge of English foundational skills but did not adequately address bilingual, cultural, and contextual dimensions without teacher adaptation.
+    limits: Teacher perspective rather than causal learner outcomes; local implementation and policy conditions shape conclusions.
+contradictions:
+  - Systematic code instruction is an equity-enabling necessity for many readers, yet phonics policy can narrow curriculum and displace oral language, knowledge, writing, interpretation, and joy.
+  - Context and meaning are essential for comprehension, yet using them to guess an unidentified printed word can prevent the orthographic learning needed for independence.
+  - Background knowledge improves comprehension, yet testing comprehension through culturally narrow knowledge can misclassify language or opportunity as reading ability.
+  - Learning a standardized written variety can expand institutional access, yet treating a home dialect as error reproduces linguistic hierarchy and confuses difference with disability.
+claims:
+  - claim: Diagnose and teach the present reading action—decoding, word recognition, fluency, language, knowledge, integration, inference, interpretation, evaluation, or encounter.
+    evidence: convergent-review-synthesis
+    confidence: high
+    source_ids: [national-reading-panel-2000, castles-rastle-nation-2018-reading-wars, hwang-et-al-2026-content-knowledge]
+    supports: Use explicit grapheme-phoneme teaching for code, repeated meaningful reading for fluency, rich oral and written language for comprehension, coherent knowledge building, and full texts for interpretation and literary life.
+    tensions: Components interact continuously, and overdiagnosis can fragment a living act of reading.
+    boundary_conditions: Writing system, language, age, prior instruction, text, purpose, disability, dialect, knowledge, and motivation.
+    does_not_license: A fixed reader type, generic comprehension-skill worksheets, phonics-only curriculum, context guessing for word identity, or withholding rich text until code mastery.
+
+  - claim: Foundational skills and culturally and linguistically sustaining literacy are joint obligations rather than alternatives.
+    evidence: review-and-qualitative-synthesis
+    confidence: high
+    source_ids: [vaughn-et-al-2024-multilingual-sor, castro-et-al-2024-multilingual-teachers, craig-et-al-2009-dialect-shifting]
+    supports: Teach the target orthography and prestige register explicitly while valuing and using home languages and dialects, comparing systems, building biliteracy where desired, and naming institutional language power.
+    tensions: Additive multilingual goals need time and competent teaching; code-switching access can be empowering or coerced linguistic assimilation.
+    boundary_conditions: Learner and community goals, language status, script, dialect, schooling language, revitalization, assessment, teacher competence, and material access.
+    does_not_license: Dialect correction as remediation, accent ranking, monolingual immersion by default, romanticizing home language while denying prestige-code access, or diagnosing disability from standardized-language mismatch.
+
+  - claim: Morphological and etymological analysis supports word reading and meaning when integrated with form, use, syntax, and text, but does not guarantee comprehension transfer.
+    evidence: preregistered-meta-analytic-synthesis
+    confidence: high
+    source_ids: [colenbrander-et-al-2024-morphology]
+    supports: Segment genuine morphemes, compare word families and allomorphy, connect spelling and pronunciation, examine semantic drift, retrieve the form in context, and return to the sentence or text.
+    tensions: Historical structure and synchronic learner analysis can diverge; a pedagogically useful segmentation may not be the full etymology.
+    boundary_conditions: Language, orthography, morphological transparency, word frequency, learner knowledge, historical period, semantic opacity, and comprehension goal.
+    does_not_license: Root fallacy, false segmentation, folk etymology presented as history, isolated root lists as reading curriculum, or promising that word study transfers automatically to text understanding.
+
+  - claim: Reading comprehension is text-by-reader construction constrained by accurate word identification and publicly answerable textual evidence.
+    evidence: cognitive-and-knowledge-synthesis
+    confidence: high
+    source_ids: [castles-rastle-nation-2018-reading-wars, hwang-et-al-2026-content-knowledge]
+    supports: Ensure access to words and syntax, supply or build relevant knowledge, distinguish stated from inferred, compare interpretations by textual fit and context, and permit aesthetic response beyond testable propositions.
+    tensions: Evidence disciplines interpretation, while literary meaning also arises through form, affect, history, reader position, and unresolved ambiguity.
+    boundary_conditions: Genre, purpose, text, language, knowledge, cultural distance, interpretive community, and assessment.
+    does_not_license: One hidden interpretation, personal response as unanswerable proof, background knowledge assumed rather than taught, or comprehension inferred from oral performance alone.
+implications:
+  - Professor should offer pronunciation, orthographic segmentation, morphology, gloss, syntax, translation, context, and historical note as separable layers around a philological object.
+  - When a learner misreads a word, first distinguish code, dialect, vocabulary, language, and knowledge rather than calling it a comprehension failure.
+  - Do not interrupt a complete literary encounter with compulsory strategy prompts; offer analysis after the object has had room to act.
+  - Teach prestigious written forms as additional power with explicit social context, never as evidence that another dialect or language is broken.
+  - A daily etymological nucleus should return to at least one attested or contemporary use so history reconnects to living reading.
+open_questions:
+  - How can Professor teach historical spelling and sound correspondence without displacing the pleasure of the word or line?
+  - Which micro-encounters build coherent background knowledge rather than a cabinet of disconnected curiosities?
+  - How should code instruction differ for an adult philology learner reading an unfamiliar historical script rather than learning initial literacy?
+next_actions:
+  - Study computing and programming pedagogy, where code literacy, worked examples, debugging, project creation, abstraction, and AI assistance pose related but distinct problems.
+  - Include live-text return, code-versus-language diagnosis, dialect respect, and morphology-transfer humility in the final audit.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
