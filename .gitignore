@@ -102,6 +102,7 @@ wizardry-compiled/
 
 # Professor-specific learner state and sealed-game material
 .professor/
+curricula/
 private/
 learner-data/
 state/

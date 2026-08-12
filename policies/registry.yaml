@@ -55,8 +55,8 @@ policies:
     amendment: human-review-only
     scope: repository-and-runtime
     canonical_anchor: privacy-scope-separation
-    rule: General and topic knowledge may enter Git; learner data and game secrets may not.
-    guards: [external-data-home, no-raw-chats, private-proposals]
+    rule: General pedagogy and explicitly human-promoted public topic bundles may enter Git; developing or learner-shaped curriculum, learner data, and game secrets remain in the external data home.
+    guards: [external-data-home, curriculum-accumulation-is-not-promotion, explicit-human-bundle-request, no-raw-chats, private-proposals]
 
   - id: privacy.learner-control
     force: must

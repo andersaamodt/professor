@@ -21,7 +21,7 @@ module Professor
   PROFILE_FILE = 'profile.yaml'
   MODEL_FILE = 'model.yaml'
   EVENTS_FILE = 'events.jsonl'
-  STATE_DIRECTORIES = %w[proposals campaigns keys exports plans].freeze
+  STATE_DIRECTORIES = %w[proposals campaigns keys exports plans curricula].freeze
   STATE_ROOT_ENTRIES = ([DATA_MARKER, LOCK_FILE, PROFILE_FILE, MODEL_FILE, EVENTS_FILE] + STATE_DIRECTORIES).freeze
   ID_PATTERN = /\A[a-zA-Z0-9][a-zA-Z0-9._-]*\z/
   PUBLIC_ID_PATTERN = /\A[a-z0-9][a-z0-9._-]*\z/
@@ -276,7 +276,7 @@ module Professor
     entries = Dir.children(root)
     unknown = entries - STATE_ROOT_ENTRIES
     raise Error, "data home contains unowned root entries: #{unknown.join(', ')}" unless unknown.empty?
-    required = [DATA_MARKER, LOCK_FILE, PROFILE_FILE, MODEL_FILE, EVENTS_FILE, 'proposals', 'campaigns', 'keys', 'exports']
+    required = [DATA_MARKER, LOCK_FILE, PROFILE_FILE, MODEL_FILE, EVENTS_FILE] + STATE_DIRECTORIES
     missing = required - entries
     raise Error, "data home is missing owned components: #{missing.join(', ')}" unless missing.empty?
     entries.each do |name|
@@ -1111,7 +1111,7 @@ module Professor
       ]
       private_components = %w[
         .professor private learner-data state profiles sessions campaigns proposals
-        plans exports keys
+        plans curricula exports keys
       ]
       Dir.glob(File.join(REPO_ROOT, '**', '*'), File::FNM_DOTMATCH).each do |path|
         relative = path.sub(REPO_ROOT + File::SEPARATOR, '')
@@ -1267,7 +1267,7 @@ module Professor
           bin/professor memory forget declaration DECLARATION-ID
           bin/professor memory forget proposal PROPOSAL-ID
           bin/professor memory forget plan PLAN-ID
-          bin/professor memory forget campaign|key|export ENTRY-ID
+          bin/professor memory forget campaign|curriculum|key|export ENTRY-ID
           bin/professor memory forget --all --yes
           bin/professor memory prune [--date YYYY-MM-DD]
           bin/professor quest keygen KEY-FILE
@@ -2018,6 +2018,8 @@ module Professor
       end
       campaign_dir = File.join(root, 'campaigns')
       Professor.validate_private_tree_entry!(campaign_dir, 'campaign directory', File.lstat(root).dev)
+      curriculum_dir = File.join(root, 'curricula')
+      Professor.validate_private_tree_entry!(curriculum_dir, 'curriculum directory', File.lstat(root).dev)
       key_dir = File.join(root, 'keys')
       export_dir = File.join(root, 'exports')
       Professor.validate_private_tree_entry!(key_dir, 'key directory', File.lstat(root).dev)
@@ -2033,6 +2035,7 @@ module Professor
         'plans' => plans,
         'plan_files' => private_inventory(plan_dir),
         'campaign_files' => private_inventory(campaign_dir),
+        'curriculum_files' => private_inventory(curriculum_dir),
         'key_files' => private_inventory(key_dir),
         'export_files' => private_inventory(export_dir)
       }
@@ -2098,8 +2101,8 @@ module Professor
       when 'declaration' then forget_declaration(id)
       when 'proposal' then forget_proposal(id)
       when 'plan' then forget_plan(id)
-      when 'campaign', 'key', 'export' then forget_reserved_entry(kind, id)
-      else raise Error, 'forget needs event, hypothesis, declaration, proposal, plan, campaign, key, export, or --all --yes'
+      when 'campaign', 'curriculum', 'key', 'export' then forget_reserved_entry(kind, id)
+      else raise Error, 'forget needs event, hypothesis, declaration, proposal, plan, campaign, curriculum, key, export, or --all --yes'
       end
     end
 
@@ -2175,7 +2178,7 @@ module Professor
     end
 
     def forget_reserved_entry(kind, id)
-      directory_name = { 'campaign' => 'campaigns', 'key' => 'keys', 'export' => 'exports' }.fetch(kind)
+      directory_name = { 'campaign' => 'campaigns', 'curriculum' => 'curricula', 'key' => 'keys', 'export' => 'exports' }.fetch(kind)
       root = Professor.initialized_root
       path = File.join(root, directory_name, id)
       Professor.with_mutation_lock(root) do

@@ -2,7 +2,9 @@ schema: professor.contract-catalog/v1
 version: 1.0.0
 description: >-
   Machine-readable record shapes. Repository catalogs are public and generic;
-  learner records are external-only. Tools enforce the security-relevant subset
+  learner records and developing curriculum are external-only. Developing
+  curriculum lives under $PROFESSOR_DATA_DIR/curricula until explicit reviewed
+  promotion to a public topic pack. Tools enforce the security-relevant subset
   directly so validation has no third-party dependency.
 enums:
   status: [provisional, active, retired]

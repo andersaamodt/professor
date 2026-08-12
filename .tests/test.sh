@@ -123,6 +123,10 @@ assert_contains 'preserved unowned entries' "$professor_test_root/fake-forget.ou
 for private_file in .professor-data-v1 profile.yaml model.yaml events.jsonl; do
   [ "$(mode_of "$professor_test_data/$private_file")" = 600 ] || fail "$private_file mode is not 600"
 done
+for private_dir in proposals plans curricula campaigns keys exports; do
+  [ -d "$professor_test_data/$private_dir" ] || fail "$private_dir was not initialized"
+  [ "$(mode_of "$professor_test_data/$private_dir")" = 700 ] || fail "$private_dir mode is not 700"
+done
 private_canary="professor-canary-$(ruby -rsecurerandom -e 'print SecureRandom.hex(12)')@example.invalid"
 private_phrase="private-observation-$(ruby -rsecurerandom -e 'print SecureRandom.hex(16)')"
 short_phrase="priv8-$(ruby -rsecurerandom -e 'print SecureRandom.hex(4)')"
@@ -479,11 +483,16 @@ sed -e 's/id: plan-pop-topology/id: plan-expired/' -e "s/expires_on: '2027-02-10
 "$professor" plan adopt "$professor_test_root/plan-expired.yaml" >/dev/null
 
 # Learner can inspect, expire, and delete itemized memory.
+mkdir "$professor_test_data/curricula/draft-topic"
+chmod 700 "$professor_test_data/curricula/draft-topic"
+printf '%s\n' 'private working curriculum' >"$professor_test_data/curricula/draft-topic/outline.txt"
+chmod 600 "$professor_test_data/curricula/draft-topic/outline.txt"
 "$professor" memory inspect >"$professor_test_root/memory.out"
 assert_contains "$private_phrase" "$professor_test_root/memory.out"
 assert_contains 'goal-private-phrase' "$professor_test_root/memory.out"
 assert_contains 'evt-due-review' "$professor_test_root/memory.out"
 assert_contains 'plan-pop-topology' "$professor_test_root/memory.out"
+assert_contains 'draft-topic/outline.txt' "$professor_test_root/memory.out"
 cat >"$professor_test_data/model.yaml" <<'YAML'
 schema: professor.learner-model/v1
 version: 1
@@ -544,6 +553,8 @@ assert_not_contains 'h-current' "$professor_test_data/model.yaml"
 [ ! -e "$professor_test_data/proposals/proposal-small-arc-001.yaml" ] || fail 'proposal was not deleted itemwise'
 "$professor" memory forget plan plan-pop-topology >"$professor_test_root/forget-plan.out"
 [ ! -e "$professor_test_data/plans/plan-pop-topology.yaml" ] || fail 'teaching plan was not deleted itemwise'
+"$professor" memory forget curriculum draft-topic >"$professor_test_root/forget-curriculum.out"
+[ ! -e "$professor_test_data/curricula/draft-topic" ] || fail 'working curriculum was not deleted itemwise'
 
 # Quest sealing is authenticated, nondeterministic, external, and explicit.
 quest_key="$professor_test_root/facilitator.key"

@@ -9,7 +9,8 @@ Decide among:
 2. session-local adaptation only;
 3. learner hypothesis with expiry, stored externally;
 4. private bounded experiment with explicit consent;
-5. topic-specific proposal;
+5. external topic-specific or curriculum proposal, retained under the
+   Professor data home until an explicit human-reviewed bundle request;
 6. general provisional tack;
 7. genuinely new provisional category and associated tack;
 8. retirement or narrowing of an existing tack;

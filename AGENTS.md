@@ -39,7 +39,10 @@ a learner's lesson unless the learner asked for the scholarship itself.
 ## Keep scopes clean
 
 - General teaching knowledge belongs in `pedagogy/`.
-- Topic knowledge belongs in `topics/<topic-id>/`.
+- Developing, learner-shaped, or merely accumulated topic knowledge and
+  curriculum belongs in `$PROFESSOR_DATA_DIR/curricula/`. `topics/<topic-id>/`
+  contains only public, de-personalized curriculum that a human explicitly
+  approved for bundling after review.
 - Learner goals, preferences, accessibility needs, hypotheses, answers,
   progress, plans, experiments, schedules, and game state belong only in
   `$PROFESSOR_DATA_DIR` or, by default, `~/.professor`.
@@ -68,6 +71,11 @@ Session evidence first becomes a private proposal. One learner or one fluent
 performance never establishes a universal rule. Promote only the abstraction,
 never the person or transcript. If the checkout is not writable, return a
 candidate record instead of pretending it was installed.
+
+Curriculum follows the same boundary. Accumulation is not promotion. Draft,
+adapt, and test topic material outside the checkout; move a clean topic pack
+into `topics/` only after an explicit authenticated human request to bundle it,
+scope and source review, privacy inspection, and the repository test gates.
 
 ## Repository discipline
 

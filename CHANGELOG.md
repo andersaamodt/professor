@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.3.0 — 2026-08-12
+
+- Separate core Professor features from optional bundled curriculum in the
+  README; present the pop-music atlas as one explicit bundle rather than a
+  defining top-level capability.
+- Reserve `$PROFESSOR_DATA_DIR/curricula/` for developing, learner-shaped, or
+  merely accumulated topic work and include it in private initialization,
+  inspection, export inventory, itemized deletion, and full reset.
+- Require an explicit authenticated human bundle request plus source, rights,
+  representation, privacy, and test review before any curriculum is promoted
+  into public `topics/`; accumulation alone grants no authority to publish.
+- Add an adversarial scenario that rejects automatic curriculum promotion.
+
 ## 1.2.0 — 2026-08-12
 
 - Make scheduled fires minimal wake signals: Professor orients silently,

@@ -9,7 +9,7 @@ It is not a chatbot persona, a content firehose, a streak machine, or a claim to
 academic credentials. “Professor” names an aspiration and a public standard.
 The role it enacts is simply **the Teacher**.
 
-Version 1.2 makes that aspiration operational:
+Version 1.3 makes that aspiration operational:
 
 - a constitutional, AI-facing teaching contract;
 - an extensible catalog of pedagogical categories and tacks;
@@ -19,7 +19,6 @@ Version 1.2 makes that aspiration operational:
 - a hard boundary between general policy, topic knowledge, and private learner
   state;
 - a small local runtime for daily lesson packets and deliberate memory writes;
-- a world-aware pop-music atlas built for one vivid musical encounter a day;
 - a safe pattern for opt-in riddles, worlds, and ARGs;
 - executable structural, privacy, state, scheduling, and cryptographic tests,
   plus adversarial teaching scenarios specified for host-level semantic evals.
@@ -43,17 +42,19 @@ For a local installation:
 ```sh
 bin/professor lint
 bin/professor init
-bin/professor daily --topic pop-music --minutes 12
+bin/professor daily --minutes 12
 bin/professor research --date 2026-08-10
 ```
 
 `init` creates private state at `~/.professor` by default. Set
 `PROFESSOR_DATA_DIR` to another external directory if needed. Professor refuses
 to put private state inside the checkout, including through a symlink.
-The marked `proposals/`, `plans/`, `campaigns/`, `keys/`, and `exports/`
-subdirectories are reserved for Professor data; `memory forget --all --yes`
-clears their contents while preserving unrecognized siblings at the data-home
-root.
+The marked `proposals/`, `plans/`, `curricula/`, `campaigns/`, `keys/`, and
+`exports/` subdirectories are reserved for Professor data. Developing topic
+knowledge and curriculum stays under `curricula/`; it does not enter this
+checkout merely because it has accumulated. `memory forget --all --yes` clears
+these owned directories while preserving unrecognized siblings at the
+data-home root.
 
 `daily` is passive and deterministic: it does not create state, consume missed
 days as debt, or make an API call. It emits compact orientation for the host
@@ -83,8 +84,9 @@ bin/professor help
 | `policies/registry.yaml` | stable normative policy propositions | No |
 | `pedagogy/` | cross-topic categories, tacks, and scholarship | No |
 | `pedagogy/research/` | public research agenda and claim notes | No |
-| `topics/<id>/` | durable subject maps and media pointers | No |
+| `topics/<id>/` | explicitly promoted, bundled subject maps and media pointers | No |
 | `prompts/` and `examples/` | derivative operating examples | No |
+| `~/.professor/curricula/` | developing, learner-shaped, or unreviewed topic curriculum | **Yes** |
 | `~/.professor/` | learner-owned memory, plans, proposals, campaigns | **Yes** |
 
 The separation is architectural, not aspirational. The validator rejects
@@ -111,7 +113,8 @@ Professor adapts on four deliberately separated timescales:
 1. **In the moment:** change example, pace, representation, or scaffold.
 2. **For this learner:** store an editable, expiring hypothesis outside Git,
    with provenance and contrary evidence.
-3. **For this topic:** propose a reusable content or sequence improvement.
+3. **For this topic:** accumulate content or sequence work externally under
+   `curricula/`; propose a reusable, de-personalized bundle separately.
 4. **For teaching generally:** propose a new category or tack, test it across
    contexts, and promote it through review.
 
@@ -124,13 +127,20 @@ distant routes porous, and includes a clean pause or retirement path.
 The loop is:
 
 > observation → scoped hypothesis → predicted benefit and harm → bounded trial
-> → delayed evidence → private proposal → reviewed promotion or retirement
+> → delayed evidence → private proposal → explicit reviewed promotion or retirement
 
 The ethical kernel cannot auto-amend. New techniques cannot promote themselves.
 A method that raises completion while reducing autonomy, wellbeing,
 accessibility, or truthfulness has failed.
 
-## Pop music as a first expedition
+## Optional bundled curriculum
+
+Professor's core does not require a bundled topic. This repository currently
+ships one explicitly promoted example: a world-aware pop-music atlas built for
+one vivid musical encounter at a time. Bundles are public, generic curriculum,
+not a record of curriculum being developed with a learner.
+
+### Pop music as a first expedition
 
 The initial topic does not pretend there is one neutral “canon” or a linear
 march from old to new. It builds **topographic hearing**: the ability to locate
