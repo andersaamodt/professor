@@ -1,0 +1,206 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: disability-led-access-beyond-universal-design-2026-08-12
+title: Access is a relation of rights, design, time, language, and authority—not a menu of formats
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [access-disability-and-equivalent-participation, educational-ethics-and-nonideal-judgment, epistemic-justice-curriculum-and-knowledge-access]
+scope: >-
+  Disability Studies in Education, Universal Design for Learning and its limits,
+  Deaf-led language education, cognitive accessibility, crip time, disclosure,
+  and the distinction between equivalent participation and normalization.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Prioritized disability-studies critique, disabled-led organizations, rights
+    guidance, and qualitative accounts of educational time; read UDL as one
+    design orientation rather than a complete theory of inclusion.
+  inclusion: Sources addressing authority, environment, communication, time, identity, participation, or accommodation burden.
+  exclusions: Deficit taxonomies, compliance-only checklists, diagnosis-to-strategy charts, learning-style matching, behavioral normalization, and cure-oriented educational claims.
+  limitations: >-
+    This bounded scan cannot represent disability communities, jurisdictions, or
+    access technologies comprehensively. Several sources are position papers or
+    qualitative studies whose authority is normative and experiential, not causal.
+readings:
+  - id: collins-2020-critical-udl
+    kind: disability-studies-critical-review
+    citation: Collins, A. (2020). Toward inclusive education? Focusing a critical lens on Universal Design for Learning. Canadian Journal of Disability Studies, 9(5), 43-74. https://doi.org/10.15353/cjds.v9i5.690
+    url: https://doi.org/10.15353/cjds.v9i5.690
+    publication_date: 2020-12-20
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: UDL's theory, evidence, and use in K-12 inclusive education viewed through Disability Studies in Education.
+    design: Critical conceptual and empirical literature review.
+    finding: UDL can diversify pedagogy but can also remain attached to special-education assumptions, neuroscientific simplification, individual remediation, and vague evidence unless joined to disability critique.
+    limits: Critical review does not establish comparative effectiveness or exhaust later UDL practice.
+
+  - id: jarman-et-al-2022-dse-udl
+    kind: qualitative-faculty-pilot
+    citation: Jarman, M., et al. (2022). Disability Studies, inclusive pedagogy, and Universal Design for Learning—A faculty pilot experience. Disability Studies Quarterly, 42(3-4). https://doi.org/10.18061/dsq.v42i3-4.7981
+    url: https://dsq-sds.org/index.php/dsq/article/view/7981
+    publication_date: 2022-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: University faculty in a year-long collaborative pilot joining disability-studies scholarship and UDL.
+    design: Qualitative study of faculty practice and perspective change.
+    finding: Disability Studies can shift inclusive design from adding options toward questioning normalcy, ableism, curriculum, relations, and institutional responsibility.
+    limits: Faculty perceptions in one pilot do not measure disabled learners' access or durable institutional change.
+
+  - id: wfd-2022-sign-language-primacy
+    kind: disabled-led-position-paper
+    citation: World Federation of the Deaf. (2022). Position paper on the primacy of deaf people in the development and teaching of national sign languages.
+    url: https://wfdeaf.org/position-paper-on-the-primacy-of-deaf-people-in-the-development-and-teaching-of-national-sign-languages/
+    publication_date: 2022-05-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: National sign-language teaching, research, policy, and the rights and livelihoods of Deaf communities worldwide.
+    design: Position adopted by the representative global federation of national Deaf associations.
+    finding: Deaf people have primary authority and expertise in developing and teaching their national sign languages; access is inseparable from language rights, community, and employment justice.
+    limits: National and local Deaf communities determine implementation; primacy does not imply every Deaf person has the same language or pedagogical expertise.
+
+  - id: wfd-2023-sign-language-rights
+    kind: disabled-led-rights-guidance
+    citation: World Federation of the Deaf. (2023). Guidelines for achieving sign language rights.
+    url: https://wfdeaf.org/wp-content/uploads/2023/07/Guidelines-for-Achieving-Sign-Language-Rights.pdf
+    publication_date: 2023-07-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Governments, institutions, and Deaf communities seeking legal recognition, education, interpretation, media, and public participation in national sign languages.
+    design: Rights-based implementation guidance grounded in the Convention on the Rights of Persons with Disabilities and Deaf-led policy.
+    finding: Educational inclusion for Deaf learners requires accessible language, qualified personnel, Deaf peers and role models, cultural-linguistic environment, and institutional rights—not mere placement in a hearing classroom.
+    limits: Implementation depends on each national sign language, law, resources, and community priorities.
+
+  - id: wood-2017-cripping-time
+    kind: qualitative-disability-studies-research
+    citation: Wood, T. (2017). Cripping time in the college composition classroom. College Composition and Communication, 69(2), 260-286. https://doi.org/10.58680/ccc201729419
+    url: https://doi.org/10.58680/ccc201729419
+    publication_date: 2017-12-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Disabled students' experiences in college writing and writing-intensive classrooms.
+    design: Qualitative study interpreted through disability theory and activist accounts of crip time.
+    finding: Normative schedules and productivity expectations can disable learners; time is an access design variable, not a neutral container.
+    limits: College composition context does not yield a universal preference for slowness or eliminate deadlines and coordination needs.
+
+  - id: w3c-2021-clear-content
+    kind: participatory-technical-guidance
+    citation: W3C Accessibility Guidelines Working Group & Accessible Platform Architectures Working Group. (2021). Use clear and understandable content—Cognitive accessibility objective.
+    url: https://www.w3.org/WAI/WCAG2/supplemental/objectives/o3-clear-content/
+    publication_date: 2021-04-29
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: People with cognitive and learning disabilities using digital content.
+    design: Supplemental accessibility guidance developed through W3C working groups and public process.
+    finding: Familiar language, explicit purpose, manageable sentences, helpful structure, literal alternatives, and usable summaries can reduce barriers beyond formal WCAG conformance.
+    limits: Techniques require testing with intended users; simplification can remove necessary precision, voice, or adult dignity.
+
+  - id: people-first-canada-2024-communication
+    kind: self-advocacy-participatory-report
+    citation: People First of Canada. (2024). Advancing accessible communication for people with intellectual disabilities.
+    url: https://www.peoplefirstofcanada.ca/wp-content/uploads/2024/06/Advancing-Accessible-Communication-for-People-with-Intellectual-Disabilities-Final-Research-Report-03.28.2024-2.pdf
+    publication_date: 2024-03-28
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: People with intellectual and developmental disabilities across Canadian regions discussing communication access.
+    design: Community-led research report on lived barriers and accessible communication practices.
+    finding: Plain language, Easy Read, time, support, multiple communication modes, and involvement of people with intellectual disabilities are conditions of autonomous participation.
+    limits: Preferences and supports vary; no single accessible version reaches everyone or replaces direct participation.
+
+  - id: ungeneva-disability-language
+    kind: rights-based-language-guidance
+    citation: United Nations Office at Geneva. (n.d.). Disability-inclusive language guidelines.
+    url: https://www.ungeneva.org/en/about/accessibility/disability-inclusive-language
+    publication_date: 2024-01-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Public communication about disabled people across languages and international institutions.
+    design: Practical guidance informed by the Convention on the Rights of Persons with Disabilities.
+    finding: Disabled people are heterogeneous; person-first and identity-first preferences vary, and asking the person or community outranks a rigid universal formula.
+    limits: Institutional style guidance cannot settle contested identity, translation, or community-specific language.
+claims:
+  - id: universal-design-is-floor-not-completion
+    statement: >-
+      Designing flexible routes in advance reduces barriers and disclosure burden,
+      but no universal design eliminates the need for individual accommodation, specialized access, repair, or structural change.
+    confidence: high
+    source_ids: [collins-2020-critical-udl, jarman-et-al-2022-dse-udl, wfd-2023-sign-language-rights]
+    supports: Offer flexible representation, action, pacing, and participation by default while keeping a direct route to request a different condition without diagnosis.
+    tensions: Unlimited option sets can increase cognitive and authoring burden, and some practices have necessary constraints.
+    boundary_conditions: Medium, disability, language, technology, task, stakes, institution, and learner preference.
+    does_not_license: “Accessible for everyone” claims, replacing accommodation offices, asking for diagnoses, or treating access as learner customization labor.
+
+  - id: access-is-not-normalization
+    statement: >-
+      Equivalent participation means a viable route to the valued encounter or
+      practice, not compulsory approximation of nondisabled speech, attention, movement, timing, sociality, or output.
+    confidence: high
+    source_ids: [collins-2020-critical-udl, wfd-2022-sign-language-primacy, wfd-2023-sign-language-rights, wood-2017-cripping-time]
+    supports: Identify the actual educational relation, relax incidental performance norms, and preserve language, culture, assistive practice, and learner-chosen support.
+    tensions: Some domains legitimately teach a particular performance whose defining constraints cannot simply be removed.
+    boundary_conditions: Educational end, safety, domain authenticity, communication partners, technology, rights, and consent.
+    does_not_license: Lower expectations, segregated substitutes, assimilation, masking, eye-contact demands, speech primacy, or equating speed with mastery.
+
+  - id: community-authority-is-substantive
+    statement: >-
+      Accessibility knowledge is not complete when nondisabled designers consult
+      guidelines; disabled people and language communities have authorship, pedagogical expertise, and authority over practices that concern them.
+    confidence: high
+    source_ids: [wfd-2022-sign-language-primacy, people-first-canada-2024-communication, jarman-et-al-2022-dse-udl]
+    supports: Prefer disabled-led sources, compensate participation, preserve disagreement, and route language or culture teaching to community expertise.
+    tensions: Membership does not automatically confer technical, teaching, or representative expertise, and communities are internally plural.
+    boundary_conditions: Topic, community, representation, language, role, compensation, and accountability.
+    does_not_license: Token consultation, identity tests, unpaid access labor, simulated lived experience, or letting one spokesperson settle a contested question.
+
+  - id: time-is-part-of-the-interface
+    statement: >-
+      Response latency, deadlines, session length, interruption, recovery, and
+      asynchronous return can determine whether a learning opportunity is actually available.
+    confidence: high
+    source_ids: [wood-2017-cripping-time]
+    supports: Make pauses ordinary, avoid timing inference, preserve resumability, scale the arc to current energy, and separate speed from understanding unless speed is the object.
+    tensions: Rhythm, timed practice, shared schedules, and fluency can be meaningful when chosen or domain-relevant.
+    boundary_conditions: Fatigue, pain, processing, medication, care work, technology, task, coordination, and learner goal.
+    does_not_license: Assuming slowness, indefinite obligation, paternalistic reduction, using delay as diagnosis, or praising endurance through harm.
+
+  - id: plain-is-a-route-not-the-voice-of-disability
+    statement: >-
+      Plain language and structured alternatives can widen cognitive access, but
+      disabled learners are not defined by a single reading level or preference for simplified prose.
+    confidence: high
+    source_ids: [w3c-2021-clear-content, people-first-canada-2024-communication]
+    supports: Keep “plain version” immediate; use explicit structure, concrete referents, summaries, glosses, and optional layers while preserving the original object's texture when important.
+    tensions: Technical vocabulary, ambiguity, syntax, strangeness, and literary difficulty can be the very objects of learning and aesthetic encounter.
+    boundary_conditions: Purpose, genre, precision, language, cognition, fatigue, device, and learner choice.
+    does_not_license: Infantilization, lossy paraphrase presented as equivalent, verbosity disguised as rigor, or forcing one version on everyone.
+
+  - id: access-request-needs-no-biography
+    statement: >-
+      A learner should be able to request a format, pace, interaction, or stop
+      without disclosing diagnosis, impairment history, or justification.
+    confidence: high
+    source_ids: [collins-2020-critical-udl, people-first-canada-2024-communication, ungeneva-disability-language]
+    supports: Respond to the functional request, ask only what is necessary for the bounded change, and forget the reason unless explicit private retention is requested.
+    tensions: Some high-stakes accommodations or external services legally require documentation beyond Professor's role.
+    boundary_conditions: Requested action, safety, law, external institution, persistence, and privacy.
+    does_not_license: Diagnosis inference, disability profiling, curiosity questions, retaining access needs in the repo, or claiming clinical competence.
+implications:
+  - Professor should ask “what condition would make this encounter available?” rather than “what kind of learner are you?”
+  - Daily teaching must remain asynchronous in spirit—brief, complete, resumable, and free of penalties for silence or delayed return.
+  - >-
+    Text alternatives should be layered: live object, plain route, relevant
+    apparatus, and optional sensory or representational alternatives, without ranking users.
+  - Sign-language teaching and Deaf cultural content require Deaf-led topic authority; text generation is not a substitute for signed language or Deaf teachers.
+  - Existing access and no-profiling policies remain sound. This scan earns stronger research attention to time and community authority, not a diagnosis-strategy catalog.
+open_questions:
+  - How can Professor test equivalent participation with disabled people without shifting unpaid verification labor onto them?
+  - Which learning objects cannot survive plain-language substitution, and what parallel access preserves encounter rather than only information?
+  - How should multimodal alternatives represent music, prosody, manuscript materiality, and visual wordplay without claiming equivalence too casually?
+  - What does low-bandwidth and offline access require beyond disability-specific design?
+next_actions:
+  - Compare disability-led accounts of Blind, DeafBlind, nonspeaking, intellectually disabled, chronically ill, and multiply disabled education in separate lanes.
+  - Audit Professor runtime for timeout assumptions, response-length defaults, image-only evidence, interaction taxes, and access requests that invite disclosure.
+  - Seek empirical and participatory evaluation of plain-language and multimodal alternatives in adult learning and humanities education.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
