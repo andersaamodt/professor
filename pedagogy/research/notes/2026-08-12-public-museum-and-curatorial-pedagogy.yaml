@@ -1,0 +1,157 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: public-museum-and-curatorial-pedagogy-2026-08-12
+title: Curation teaches through selection, provenance, sequence, access, and absence before any explanation begins
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [epistemic-justice-curriculum-and-knowledge-access, pedagogical-authority-voice-and-non-domination, humanizing-critical-and-healing-pedagogies]
+scope: Public pedagogy, museums, memorials, difficult heritage, visitor learning, labels, provenance, community authority, accessibility, curation, and AI-selected encounters.
+method:
+  search_date: 2026-08-12
+  approach: Compared professional ethics and definition, visitor-label research, contextual learning theory, difficult-knowledge philosophy, community-centered critical museum work, and decolonization review.
+  inclusion: Sources addressing curatorial authority, visitor-object relations, difficult histories, provenance, participation, or the material and social conditions of encounter.
+  exclusions: Attendance as learning, emotional force as transformation, institutional neutrality, token participation, objects severed from acquisition history, and trauma spectacle.
+  limitations: Museum sectors and legal regimes differ; visitor evidence is often qualitative or site-specific, and institutional aspiration is not implementation evidence.
+readings:
+  - id: icom-2022-museum-definition
+    kind: international-professional-definition
+    citation: International Council of Museums. (2022). ICOM approves a new museum definition.
+    url: https://icom.museum/en/news/icom-approves-a-new-museum-definition/
+    publication_date: 2022-08-24
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: International museum community defining institutional purpose and responsibility.
+    design: Multi-stage member deliberation and formal adoption.
+    finding: The definition links research, collection, conservation, interpretation, exhibition, access, inclusion, community participation, education, enjoyment, reflection, and knowledge sharing.
+    limits: Consensus language is aspirational and does not demonstrate that institutions enact access, inclusion, ethics, or participation.
+
+  - id: icom-2026-code-ethics
+    kind: international-professional-standard
+    citation: International Council of Museums. (2026). ICOM Code of Ethics for Museums.
+    url: https://icom.museum/en/resources/standards-guidelines/code-of-ethics/
+    publication_date: 2026-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Museums, workers, collections, source and affected communities, visitors, donors, researchers, and publics.
+    design: Revised international code establishing minimum professional standards.
+    finding: Ethical museum practice includes provenance and due diligence, public trust, care, access, representation, community relationships, and responsible education.
+    limits: Self-regulatory standards require local law, resources, enforcement, community authority, and transparent accountability to become practice.
+
+  - id: screven-2007-label-engagement
+    kind: qualitative-visitor-study
+    citation: Screven, C. G. (2007). Learning in the history museum—Designing exhibit labels that engage visitors. University of New Brunswick.
+    url: https://unbscholar.lib.unb.ca/items/d879b56f-4c02-45b2-a16b-5cf11348a652
+    publication_date: 2007-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Visitors encountering objects and interpretive labels in a history museum.
+    design: Qualitative study of labels and engagement.
+    finding: Labels could initiate, extend, transform, interrupt, or sever object connections; prior museum experience shaped responses, and observation alone missed meanings disclosed in conversation.
+    limits: One setting, qualitative interpretation, and engagement is not equivalent to accurate understanding or durable learning.
+
+  - id: falk-dierking-2005-contextual-model
+    kind: theory-informed-visitor-research
+    citation: Falk, J. H., & Dierking, L. D. (2005). Using the contextual model of learning to understand visitor learning. In Museums—Social Learning Spaces and Knowledge Producing Processes.
+    url: https://paperzz.com/doc/7201632/using-the-contextual-model-of-learning-to-understand-visi...
+    publication_date: 2005-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Visitors in free-choice museum and science-center environments.
+    design: Synthesis of visitor research through interacting personal, sociocultural, and physical contexts.
+    finding: Visitor learning unfolds through motives, prior knowledge, companions, mediation, architecture, movement, and later experience rather than exhibit content alone.
+    limits: A broad framework can redescribe almost any outcome and should not harden visitor motives into fixed identity types.
+
+  - id: zembylas-2018-vulnerability-museum
+    kind: philosophical-pedagogical-analysis
+    citation: Zembylas, M. (2018). Vulnerability as a key concept in museum pedagogy on difficult matters. Studies in Philosophy and Education, 37, 153-166. https://doi.org/10.1007/s11217-017-9579-y
+    url: https://link.springer.com/article/10.1007/s11217-017-9579-y
+    publication_date: 2018-03-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Museum encounters with historical trauma, loss, conflict, and ethically difficult knowledge.
+    design: Philosophical synthesis of difficult knowledge, vulnerability, witnessing, and museum pedagogy.
+    finding: Difficult matter involves learner, represented other, institutional frame, affect, loss, and the possibility of non-mastery rather than simple attitude correction.
+    limits: Psychoanalytic and ethical interpretation does not predict visitor response; transformation rhetoric can itself become coercive.
+
+  - id: cupo-2024-critical-difficult-heritage
+    kind: qualitative-doctoral-study
+    citation: Cupo, A. (2024). Developing a Critical Pedagogical Practice for Presenting Difficult Heritage in Museums. University of Manchester doctoral thesis.
+    url: https://research.manchester.ac.uk/en/studentTheses/developing-a-critical-pedagogical-practice-for-presenting-difficu/
+    publication_date: 2024-02-09
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Museum professionals, communities, visitors, and exhibitions presenting difficult heritage.
+    design: Critical-pedagogical analysis of hegemonic, recast, and dialogic curatorial strategies.
+    finding: Replacing visible actors without changing institutional authority can leave curation intact; solidarity and community cooperation concern control, not representation alone.
+    limits: Thesis-specific sites and a Freirean frame; “community” contains internal differences and no single representative voice.
+
+  - id: navarro-2026-decolonization-museums
+    kind: state-of-field-review
+    citation: Navarro, O. (2026). The decolonization of museums. Current Opinion in Psychology.
+    url: https://www.sciencedirect.com/science/article/pii/S2352250X26000680
+    publication_date: 2026-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Museums negotiating colonial collections, narratives, institutional power, participation, trauma, and symbolic reparation.
+    design: Narrative review and future research agenda.
+    finding: Decolonization concerns relational participation, visibility, inclusion, decentering, education, transparency, memory, and institutional limits, with major empirical gaps.
+    limits: Broad emerging field, unclear comparative search procedure, and institutional language can outpace redistribution, restitution, or changed governance.
+contradictions:
+  - Free-choice language respects visitor agency, yet price, geography, architecture, collection history, publicity, disability access, policing, and cultural familiarity shape who arrives and how freely they move.
+  - Contextual information can open perception, but labels can preempt looking or impose the institution's interpretation before an object acts.
+  - Difficult heritage may demand affective and ethical encounter, while intensity, identification, immersion, and transformation can be engineered coercively.
+  - Community participation can redistribute authority, but consultation may legitimate a decision already made or compress contested communities into one voice.
+claims:
+  - claim: Curation is pedagogical authorship before it becomes explanatory prose.
+    evidence: interdisciplinary-convergence
+    confidence: high
+    source_ids: [icom-2022-museum-definition, icom-2026-code-ethics, screven-2007-label-engagement, cupo-2024-critical-difficult-heritage]
+    supports: Make selection, provenance, acquisition, custody, omission, sequence, scale, label authorship, access, and community authority inspectable.
+    tensions: Full curatorial apparatus can overwhelm a brief encounter; disclosure should be layered without concealing material ethical facts.
+    boundary_conditions: Ownership, sacred or restricted knowledge, living artists and communities, human remains, copyright, conservation, access, and contested attribution.
+    does_not_license: Display as neutral, provenance-free illustrations, scraped cultural objects, synthetic community voice, or “diversity” by juxtaposition alone.
+
+  - claim: Object-first does not mean context-free.
+    evidence: bounded-visitor-and-theoretical-synthesis
+    confidence: high
+    source_ids: [screven-2007-label-engagement, falk-dierking-2005-contextual-model]
+    supports: Let perception begin, then offer optional layers timed to extend or revise noticing; place essential safety, provenance, access, and ethical context up front.
+    tensions: Some objects are illegible or harmful without prior orientation, while explanation can sever attention from material form.
+    boundary_conditions: Expertise, medium, language, sensory access, sacredness, violence, reproduction quality, time, and visitor purpose.
+    does_not_license: Withholding necessary context for a reveal, silent display as universal access, or treating fascination as learning.
+
+  - claim: Difficult knowledge is not a technology for producing the correct emotion or transformed self.
+    evidence: philosophical-ethical-synthesis
+    confidence: high
+    source_ids: [zembylas-2018-vulnerability-museum, cupo-2024-critical-difficult-heritage]
+    supports: Preserve historical specificity, response plurality, non-mastery, distance, refusal, support, and affected communities' authority.
+    tensions: Avoiding coercion must not sanitize violence, deny responsibility, or protect visitors from every implication.
+    boundary_conditions: Age, proximity, identity, image ethics, repetition, graphic content, memorial purpose, privacy, and support.
+    does_not_license: Shock, reenacted victimhood, compelled empathy, voyeurism, redemptive closure, or measuring distress as depth.
+
+  - claim: Participation changes authority only when participants can alter consequential curatorial decisions.
+    evidence: critical-institutional-synthesis
+    confidence: moderate
+    source_ids: [icom-2022-museum-definition, cupo-2024-critical-difficult-heritage, navarro-2026-decolonization-museums]
+    supports: Specify who sets questions, controls objects and narratives, approves representation, receives resources, can dissent, and can require revision or non-display.
+    tensions: No community is singular; professional conservation, public duties, law, and cross-community conflict remain.
+    boundary_conditions: Representation, governance, restitution, intellectual property, sacred restriction, funding, labor, and internal dissent.
+    does_not_license: Token advisory panels, consultation theater, anonymous aggregation, or calling institutional self-description decolonization.
+implications:
+  - When Professor shows an object, word, image, sound, or passage, it should identify the source and selection rationale and distinguish original, reproduction, excerpt, transcription, translation, and reconstruction.
+  - Use progressive disclosure—encounter, one orienting cue, optional provenance or comparison—while placing essential ethical context before exposure.
+  - Do not infer a stable visitor or learner type from a choice, dwell time, reaction, or preference.
+  - Domain-specific daily selections and their evolving sequence belong in private user curriculum state; only explicitly reviewed material may become bundled curriculum.
+  - No museum-style tactic is automatically activated.
+open_questions:
+  - What minimum provenance must accompany a two-minute philological or musical object encounter?
+  - How can an AI disclose selection absences when its retrieval universe and ranking are partly opaque?
+  - When should a community-held object or story not be reproduced even if legally accessible?
+  - What counts as consequential participation in a one-to-one curriculum whose learner controls their own private path?
+next_actions:
+  - Study comparative and international education, including policy borrowing, measurement regimes, language, and local institutional ecology.
+  - Audit future “show me” lessons for provenance, selection rationale, essential pre-context, and optional layers.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
