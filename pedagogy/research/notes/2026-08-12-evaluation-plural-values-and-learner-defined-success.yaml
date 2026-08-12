@@ -1,0 +1,155 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: evaluation-plural-values-and-learner-defined-success-2026-08-12
+title: Evaluation is a negotiated judgment, not a neutral score
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [assessment-and-authorship-under-ai, critical-pedagogies-dialogue-power-and-refusal]
+scope: >-
+  A bounded counterweight to causal and psychometric evaluation: responsive,
+  utilization-focused, realist, participatory, and design-based approaches,
+  with attention to plural values, learner-defined purposes, power, use, and burden.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared foundational or official accounts of five evaluation traditions and
+    asked what each makes visible, who controls the question, and what it cannot warrant.
+  inclusion: Foundational texts, official guidance, reporting standards, and explicit methodological syntheses.
+  exclusions: Satisfaction as the sole outcome, consultation presented as shared power, and method labels without an actual decision or user.
+  limitations: >-
+    This is a conceptual comparison, not evidence that any one approach improves
+    learning. Participation can be extractive, realist mechanisms contestable,
+    use politically captured, and iterative design biased toward its own artifact.
+readings:
+  - id: stake-1976-responsive-evaluation
+    kind: foundational-theoretical-statement
+    citation: Stake, R. E. (1976). A theoretical statement of responsive evaluation. Studies in Educational Evaluation, 2(1), 19-22.
+    url: https://eric.ed.gov/?id=EJ168879
+    publication_date: 1976-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-metadata-screened
+    population_context: Educational programs with multiple audiences and conflicting values.
+    design: Contrasts responsive evaluation with preordinate objectives-and-instruments evaluation.
+    finding: Responsive evaluation attends to program activity, emerging issues, audience needs, observation, and explicitly different value perspectives.
+    limits: Responsiveness can privilege the most audible audience and does not by itself settle standards, rights, or causal questions.
+
+  - id: patton-2012-utilization-focused
+    kind: methodological-account
+    citation: Patton, M. Q. (2012). Essentials of Utilization-Focused Evaluation. SAGE.
+    url: https://study.sagepub.com/sites/default/files/Patton2012.pdf
+    publication_date: 2012-01-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Program evaluations intended to inform concrete decisions by identifiable users.
+    design: Situational process organized around intended use by intended users rather than one prescribed method.
+    finding: Evaluation design is value-laden and should be fitted collaboratively to specific users, purposes, uses, and conditions.
+    limits: A focus on primary users can marginalize affected nonusers or make usefulness to powerful decision-makers the criterion of worth.
+
+  - id: uk-magenta-realist-evaluation-2026
+    kind: official-methodological-guidance
+    citation: "UK Government. (2026). Supplementary Guide: Realist Evaluation. Magenta Book."
+    url: https://www.gov.uk/government/publications/the-magenta-book/supplementary-guide-realist-evaluation-html
+    publication_date: 2026-06-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Complex public policies and programs with variable effects across settings.
+    design: Theory-based evaluation of context-mechanism-outcome configurations.
+    finding: The useful question is often what works, for whom, in what respects, to what extent, in which contexts, and how—not only an average effect.
+    limits: Context and mechanism can be underspecified or retrofitted; the method requires resources and is unnecessary for simple or purely net-effect questions.
+
+  - id: design-based-research-collective-2003
+    kind: foundational-methodological-article
+    citation: The Design-Based Research Collective. (2003). Design-based research—An emerging paradigm for educational inquiry. Educational Researcher, 32(1), 5-8. https://doi.org/10.3102/0013189X032001005
+    url: https://doi.org/10.3102/0013189X032001005
+    publication_date: 2003-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Designed learning environments in complex educational practice.
+    design: Iterative, theory-driven design and study of educational innovations in use.
+    finding: Educational artifacts embody theoretical claims; iteration can jointly improve a design and knowledge about relations among theory, artifact, context, and practice.
+    limits: Designer allegiance, moving interventions, weak comparison, local specificity, and selective reporting can make general causal claims unsafe.
+
+  - id: rameses-ii-2016
+    kind: reporting-standards-development
+    citation: Wong, G., et al. (2016). RAMESES II reporting standards for realist evaluations. BMC Medicine, 14, 96. https://doi.org/10.1186/s12916-016-0643-1
+    url: https://doi.org/10.1186/s12916-016-0643-1
+    publication_date: 2016-06-24
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Realist evaluations of complex social and health programs.
+    design: Delphi and consensus process producing reporting standards.
+    finding: Realist claims need an explicit program theory, justified data and analysis, context-mechanism-outcome reasoning, and visible theory refinement.
+    limits: Reporting standards improve transparency, not truth; expert consensus can stabilize a vocabulary without resolving philosophical disputes.
+claims:
+  - id: success-requires-an-owner-and-purpose
+    statement: >-
+      Educational success is not inherent in a score: it is a judgment about a
+      valued consequence for a stated purpose, made from some standpoint and for some use.
+    confidence: high
+    source_ids: [stake-1976-responsive-evaluation, patton-2012-utilization-focused]
+    supports: Ask what the learner wanted the encounter to make possible before selecting evidence; expose Professor's own criterion rather than naturalizing it.
+    tensions: Some rights, epistemic standards, and safety duties cannot be waived by immediate preference, and learners need not formulate objectives before every encounter.
+    boundary_conditions: Stakes, rights, purpose, affected parties, learner agency, domain standards, and future consequences.
+    does_not_license: Consumer satisfaction as truth, abandoning warranted correction, or making the learner manage Professor's evaluation system.
+
+  - id: plural-values-need-visible-disagreement
+    statement: >-
+      When people value different consequences, evaluation should identify the
+      relevant perspectives and conflicts rather than collapse them into an opaque aggregate.
+    confidence: high
+    source_ids: [stake-1976-responsive-evaluation, patton-2012-utilization-focused]
+    supports: Keep factual accuracy, learner purpose, access, delight, effort, independence, and social consequence distinguishable when they diverge.
+    tensions: Endless perspectival catalogues can evade judgment and reproduce the agenda of whoever gets named as a stakeholder.
+    boundary_conditions: Who is affected, who can speak, representation, decision authority, rights, and material asymmetry.
+    does_not_license: False balance, relativism about evidence, stakeholder theater, or transferring adjudication burden to the learner.
+
+  - id: context-is-part-of-the-explanation
+    statement: >-
+      An educational resource does not act identically on everyone; outcomes
+      emerge through responses and mechanisms enabled or constrained by context.
+    confidence: medium
+    source_ids: [uk-magenta-realist-evaluation-2026, rameses-ii-2016]
+    supports: Record a provisional mechanism and boundary conditions for general tacks, seek negative cases, and adapt without turning context into a fixed learner type.
+    tensions: Mechanism language can individualize structural causes or become an unfalsifiable story told after the result.
+    boundary_conditions: Access, language, history, resources, authority, timing, setting, task, and plausible rival explanations.
+    does_not_license: Profiling, hidden personalization, deterministic typologies, or blaming a learner's response for an inaccessible design.
+
+  - id: iterative-improvement-is-not-effect-proof
+    statement: >-
+      Iteration can improve local fit and sharpen theory, but a design becoming
+      more usable across revisions is not by itself proof of a stable causal effect or universal principle.
+    confidence: high
+    source_ids: [design-based-research-collective-2003, rameses-ii-2016]
+    supports: Keep research notes working, log revisions and failures, and promote only abstractions that survive counterevidence and review.
+    tensions: Demanding fixed interventions too early can prevent responsible repair and misrepresent teaching as context-free delivery.
+    boundary_conditions: Version, implementation, context, comparison, negative cases, designer role, evidence source, and replication.
+    does_not_license: Perpetual beta as immunity from accountability, silent policy drift, or universal claims from one learner.
+
+  - id: evaluation-must-be-worth-using
+    statement: >-
+      Evaluation should have an identifiable learner-serving decision or use;
+      collection without such a use is avoidable surveillance and interaction debt.
+    confidence: high
+    source_ids: [patton-2012-utilization-focused, stake-1976-responsive-evaluation]
+    supports: Before asking a diagnostic question or retaining evidence, state what decision it could change and whether the learner benefits enough to justify the burden.
+    tensions: Inquiry can reveal unanticipated harms and values; not every useful observation can be anticipated in advance.
+    boundary_conditions: Decision, beneficiary, consent, burden, retention, privacy, stakes, and alternative evidence.
+    does_not_license: Ignoring inequity because no administrator requested a report, or allowing a powerful intended user to define all value.
+implications:
+  - Professor's smallest honest evaluation is often a sentence naming what the encounter made newly possible and under what observed conditions—not a score.
+  - A learner may define the day's success as noticing, encountering, enjoying, questioning, making, remembering, or deciding to stop; Professor must still maintain accuracy and constitutional safeguards.
+  - Evaluation questions belong in private learner space only when needed for an agreed use. General claims promoted to the repository must abstract away the learner and retain contrary evidence.
+  - The existing living-agenda, working-note, review-date, falsifier, and rollback architecture is substantially aligned; no new active tack is earned.
+open_questions:
+  - How can Professor invite learner-defined success without beginning each encounter with bureaucratic goal elicitation?
+  - Which people beyond the learner are materially affected by one-to-one educational advice, and when must their interests enter evaluation?
+  - What is an adequate negative case for a pedagogical tack when no transcript or learner profile may enter the repository?
+  - How should a model disclose its own role as designer, evaluator, narrator, and interested party in claims about teaching quality?
+next_actions:
+  - Study empowerment and participatory evaluation critically, including tokenism, representation, and evaluator authority.
+  - Study educational institutions, labor, platform power, and the material conditions hidden by individualized evaluation.
+  - Add no learner score, progress dashboard, or evaluation ritual merely because it is measurable.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
