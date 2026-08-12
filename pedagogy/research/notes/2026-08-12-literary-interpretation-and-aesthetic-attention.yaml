@@ -1,0 +1,155 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: literary-interpretation-and-aesthetic-attention-2026-08-12
+title: Let the work act before converting it into a lesson about something else
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [motivation-play-aesthetics-and-sustainable-effort, epistemic-justice-curriculum-and-knowledge-access, pedagogical-authority-voice-and-non-domination]
+scope: >-
+  Literary encounter, aesthetic attention, reader response, close reading,
+  interpretive discussion, ambiguity, form, teacher authority, and claims that
+  fiction transfers to empathy or social cognition.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared pragmatist aesthetic philosophy, reader-response classroom review,
+    interpretive-discussion studies, a social-cognition meta-analysis, and a
+    large independent replication; separated intrinsic encounter from transfer.
+  inclusion: Sources addressing what readers do with works, how discussion supports interpretation, or whether claimed social effects survive synthesis and replication.
+  exclusions: Theme extraction as interpretation, personal reaction as self-validating proof, empathy as moral credential, canon prestige as quality evidence, and engagement as compulsory disclosure.
+  limitations: >-
+    Classroom evidence is heterogeneous and often school-based; philosophical
+    accounts cannot estimate effects. Social-cognition tests capture only a
+    narrow possible consequence of literary reading.
+readings:
+  - id: dewey-1934-art-as-experience
+    kind: philosophical-work
+    citation: Dewey, J. (1934). Art as Experience. Minton, Balch & Company.
+    url: https://archive.org/details/artasexperience00dewe
+    publication_date: 1934-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Aesthetic experience across making, perceiving, ordinary life, and institutionally separated fine art.
+    design: Pragmatist philosophical reconstruction of art as an organized transaction among organism, material, environment, rhythm, resistance, and consummation.
+    finding: The work locates art in the achieved quality of experience rather than in passive reception, prestige objects, or detachable messages.
+    limits: Normative and phenomenological analysis; its organic vocabulary and universal gestures require historical and critical qualification.
+
+  - id: karasma-2026-reader-response-review
+    kind: systematic-review
+    citation: Karasma, K., et al. (2026). Classroom applications of the reader-response approach in primary and secondary education—A systematic review (1989-2024). L1-Educational Studies in Language and Literature.
+    url: https://research.utu.fi/converis/portal/detail/Publication/508484762?lang=en_US
+    publication_date: 2026-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Primary and secondary literature classrooms across 39 empirical studies.
+    design: Systematic review of reader-response classroom applications.
+    finding: The review groups practice around discussion, free and creative response, reading modalities, and read-alouds, reporting personal, literary, engagement, identity, and empathy outcomes.
+    limits: Abstract access does not reveal study quality, geography, outcome measurement, nulls, or causal identification; broad benefit categories risk synthesis inflation.
+
+  - id: dalkou-frydaki-2016-interpretive-discussion
+    kind: quasi-experimental-study
+    citation: Dalkou, A., & Frydaki, E. (2016). Small-group discussion and the development of interpretive strategies in literature classrooms—A quasi-experimental study with ninth-grade students. International Journal of Learning, Teaching and Educational Research, 15(1).
+    url: https://www.ijlter.org/index.php/ijlter/article/view/549
+    publication_date: 2016-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Ninth-grade literature students in a peer-led, teacher-facilitated group and a teacher-centered comparison.
+    design: Quasi-experimental classroom study across an academic year.
+    finding: Group work showed stronger observed development of interpretive strategies, but the reported individual competence improvement was not statistically significant.
+    limits: Small nonrandomized comparison, implementation and teacher effects, limited reporting at abstract level, and mixed outcome evidence.
+
+  - id: dodell-feder-tamir-2018-fiction-meta
+    kind: meta-analysis
+    citation: Dodell-Feder, D., & Tamir, D. I. (2018). Fiction reading has a small positive impact on social cognition—A meta-analysis. Journal of Experimental Psychology—General, 147(11), 1713-1727. https://doi.org/10.1037/xge0000395
+    url: https://pubmed.ncbi.nlm.nih.gov/29481102/
+    publication_date: 2018-11-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Experimental participants reading fiction, nonfiction, or nothing across 14 studies and 53 effects.
+    design: Multilevel random-effects meta-analysis including published and unpublished experimental data.
+    finding: Fiction produced a small proximal advantage on social-cognitive measures, approximately g=.15-.16, across the analyzed contrasts.
+    limits: Brief manipulations, heterogeneous genres and controls, test outcomes rather than conduct or relationship, and uncertain mechanism and durability.
+
+  - id: panero-et-al-2016-literary-fiction-replication
+    kind: multi-lab-randomized-replication
+    citation: Panero, M. E., et al. (2016). Does reading a single passage of literary fiction really improve theory of mind? An attempt at replication. Journal of Personality and Social Psychology, 111(5), e46-e54. https://doi.org/10.1037/pspa0000064
+    url: https://pubmed.ncbi.nlm.nih.gov/27642659/
+    publication_date: 2016-11-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 792 participants across three independent groups assigned to literary fiction, popular fiction, nonfiction, or no reading.
+    design: Randomized replication using a theory-of-mind outcome and lifetime exposure measure.
+    finding: The experiment found no immediate literary-fiction advantage; lifetime fiction exposure correlated with performance but could reflect selection or verbal ability.
+    limits: One outcome instrument and brief passages cannot adjudicate the humanistic value of literature or long-term social development.
+
+  - id: menheere-et-al-2022-narrative-dialogue
+    kind: interdisciplinary-theoretical-review
+    citation: Menheere, A., et al. (2022). How do children socially learn from narrative fiction—Getting the lesson, simulating social worlds, or dialogic inquiry? Review of Philosophy and Psychology, 13, 541-568. https://doi.org/10.1007/s13164-021-00569-4
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9365732/
+    publication_date: 2022-09-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Children reading and discussing morally and socially relevant fiction with peers or adults.
+    design: Interdisciplinary conceptual review of direct lesson extraction, mental simulation, and dialogic inquiry.
+    finding: The authors argue that jointly examining and justifying interpretations may support social learning differently from absorbing a story's apparent moral.
+    limits: Mechanisms overlap, age and facilitation matter, and dialogic opportunities are not direct evidence of changed real-world conduct.
+contradictions:
+  - Reader-response teaching restores the reader's activity, but can become another orthodoxy if every response is praised without returning to language, form, history, or other readers.
+  - Close reading disciplines attention, but text-only formalism can conceal publication, genre, translation, racialization, class, gender, disability, and institutional canon formation.
+  - Discussion can distribute interpretive authority, but teacher prompts, uptake, time, status, and evaluation continue to structure whose reading becomes discussable.
+  - Fiction has a small average proximal social-cognition effect in one meta-analysis, while a prominent immediate-effect claim failed a large multi-group replication; neither result measures moral character.
+claims:
+  - claim: An aesthetic encounter may be educational without yielding a detachable proposition or remote transfer benefit.
+    evidence: philosophical-and-pedagogical-synthesis
+    confidence: moderate
+    source_ids: [dewey-1934-art-as-experience, karasma-2026-reader-response-review]
+    supports: Attend to rhythm, image, sound, syntax, expectation, resistance, feeling, relation, and the changed quality of perception.
+    tensions: Intrinsic value can become an excuse for inaccessible initiation, canon worship, or refusing to articulate instructional purpose.
+    boundary_conditions: Medium, sensory access, language, cultural history, learner consent, time, reproduction quality, and prior familiarity.
+    does_not_license: Claiming transformation, prescribing an emotion, making appreciation mandatory, or using art as decorative bait.
+
+  - claim: A reading becomes accountable by showing how the work affords and resists it, not by matching a hidden teacher answer.
+    evidence: disciplinary-design-synthesis
+    confidence: high
+    source_ids: [dalkou-frydaki-2016-interpretive-discussion, menheere-et-al-2022-narrative-dialogue]
+    supports: Point to pattern and anomaly, paraphrase the inference, compare alternatives, test scope, and revise under counter-detail.
+    tensions: Textual evidence underdetermines some questions; authorial, historical, material, and reception evidence may also matter.
+    boundary_conditions: Genre, irony, translation, edition, performance, allusion, narrative position, and interpretive community.
+    does_not_license: “Anything goes,” symbol decoding, biographical reduction, intention as sole tribunal, or teacher preference disguised as textual necessity.
+
+  - claim: Personal response is a beginning and a boundary, not raw material the teacher owns.
+    evidence: ethical-pedagogical-inference
+    confidence: high
+    source_ids: [karasma-2026-reader-response-review, menheere-et-al-2022-narrative-dialogue]
+    supports: Invite noticing, association, pleasure, aversion, puzzlement, or silence while allowing a third-person, formal, historical, or craft route.
+    tensions: Interpretation is situated, but requiring autobiography can expose learners and make identity perform evidentiary labor.
+    boundary_conditions: Trauma, identity, publicness, assessment, group power, age, privacy, and work content.
+    does_not_license: Compelled disclosure, diagnosing resistance, demanding identification, or treating identity as interpretive destiny.
+
+  - claim: Literature should not be marketed as an instant empathy technology.
+    evidence: meta-analysis-with-replication-tension
+    confidence: high
+    source_ids: [dodell-feder-tamir-2018-fiction-meta, panero-et-al-2016-literary-fiction-replication]
+    supports: Describe small, proximal, heterogeneous evidence and preserve social imagination as a possibility to investigate rather than a virtue certificate.
+    tensions: Long-term reading, genre, discussion, selection, and real relationships may matter in ways brief experiments cannot identify.
+    boundary_conditions: Text, reader, language, identification, social position, facilitation, exposure duration, outcome, and behavior context.
+    does_not_license: Calling readers kinder, using fiction as therapy, ranking genres morally, or claiming a micro-lesson changed social conduct.
+implications:
+  - Professor should sometimes present the line, sound, image, or form and then stop; exposition is optional when the encounter itself has achieved attention.
+  - Interpretive prompts should open observable joints—an unexpected word, recurrence, break, rhythm, address, omission, tonal turn—not ask for the predetermined theme.
+  - Offer at least one reading with its warrant and one detail that strains it. State whether the question is formal, historical, ethical, affective, or comparative.
+  - Do not demand personal identification or advertise empathy gains. A learner may remain opaque and still read deeply.
+  - No active tack is warranted; these are constraints on how existing encounter and dialogue tacks are selected.
+open_questions:
+  - How can a text-only Professor support sonic, performative, visual, and embodied form without reducing it to description?
+  - When should historical context precede encounter, and when does it foreclose perception?
+  - How can an AI reveal its interpretive uncertainty without producing a bland menu of readings?
+  - What evidence distinguishes a memorable interpretation from greater independent noticing on a new work?
+next_actions:
+  - Study philosophy pedagogy and argument, where productive ambiguity must coexist with explicit inferential validity.
+  - Audit future lessons for premature paraphrase, theme extraction, empathy claims, and compulsory response.
+  - Preserve learner-specific reading sequences outside the repository unless explicitly reviewed for bundled promotion.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
