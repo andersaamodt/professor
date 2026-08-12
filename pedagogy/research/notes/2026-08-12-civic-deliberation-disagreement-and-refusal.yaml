@@ -1,0 +1,156 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: civic-deliberation-disagreement-and-refusal-2026-08-12
+title: Democratic discussion requires knowledge, contestable procedure, consequential voice, and a right not to perform reconciliation
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [critical-pedagogies-dialogue-power-and-refusal, pedagogical-authority-voice-and-non-domination, epistemic-justice-curriculum-and-knowledge-access]
+scope: Civic education, controversial-issue discussion, deliberation, constructive controversy, open classroom climate, teacher political disclosure, civility, dialogue, silence, refusal, and cross-cultural encounter.
+method:
+  search_date: 2026-08-12
+  approach: Read empirical and review work on civic opportunities, structured controversy, open classroom climate, and deliberative intervention alongside feminist and Indigenous critiques of dialogic emancipation.
+  inclusion: Sources exposing outcomes, classroom procedures, teacher authority, unequal participation, political disclosure, refusal, or null effects.
+  exclusions: Debate as spectacle, neutrality as absence of commitments, compulsory disclosure, false balance, consensus as the only civic end, and civility used to suppress substantive challenge.
+  limitations: Civic outcomes are politically selected and often self-reported; national institutional contexts vary; critical accounts illuminate power and experience but do not estimate average effects.
+readings:
+  - id: johnson-johnson-2009-constructive-controversy
+    kind: theory-and-meta-analytic-review
+    citation: Johnson, D. W., & Johnson, R. T. (2009). Energizing learning—The instructional power of conflict. Educational Researcher, 38(1), 37-51. https://doi.org/10.3102/0013189X08330540
+    url: https://doi.org/10.3102/0013189X08330540
+    publication_date: 2009-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Learners in studies comparing constructive controversy with debate, concurrence seeking, and individualistic processes.
+    design: Theoretical account and review of meta-analytic validation research.
+    finding: Structured intellectual conflict can improve achievement, reasoning, perspective taking, and motivation relative to several alternatives.
+    limits: Author-developed program, heterogeneous studies, and educational controversy under designed interdependence differs from disputes involving identity, rights, trauma, or live coercion.
+
+  - id: kahne-et-al-2000-civic-opportunities
+    kind: observational-study
+    citation: Kahne, J., Rodriguez, M., Smith, B., & Thiede, K. (2000). Developing citizens for democracy? Assessing opportunities to learn in Chicago's social studies classrooms. Theory & Research in Social Education, 28(3), 311-338. https://doi.org/10.1080/00933104.2000.10505911
+    url: https://doi.org/10.1080/00933104.2000.10505911
+    publication_date: 2000-07-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Observations of 135 eighth- through tenth-grade social-studies classrooms in Chicago.
+    design: Classroom observation coded against five democratic-education frameworks.
+    finding: Students had few opportunities to develop democratic capacities; classrooms offering more varied civic opportunities also offered more higher-order and disciplined inquiry.
+    limits: Observational association, locally constructed rubrics, no direct long-term citizenship outcome, and opportunity quantity does not establish equal access or quality.
+
+  - id: jerome-et-al-2024-active-citizenship-review
+    kind: systematic-review
+    citation: Jerome, L., et al. (2024). A systematic literature review of research examining the impact of citizenship education on active citizenship outcomes. Review of Education, 12. https://doi.org/10.1002/rev3.3472
+    url: https://doi.org/10.1002/rev3.3472
+    publication_date: 2024-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Formal citizenship education and later or intended civic participation across varied school systems.
+    design: Systematic review of intervention and observational evidence on active-citizenship outcomes.
+    finding: Open discussion, school participation, curriculum, and civic opportunities show promising associations, but causal and longer-term evidence is uneven.
+    limits: Self-selection, self-report, outcome heterogeneity, short follow-up, and the normative ambiguity of treating participation frequency as democratic quality.
+
+  - id: brinker-et-al-2019-deliberative-field-experiment
+    kind: field-experiment
+    citation: Brinker, D. L., Gastil, J., & Richards, R. C. (2019). Does deliberative education increase civic competence? Results from a field experiment. Journal of Experimental Political Science, 6(3), 193-203. https://doi.org/10.1017/XPS.2019.2
+    url: https://doi.org/10.1017/XPS.2019.2
+    publication_date: 2019-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Students receiving deliberative education with outcomes including knowledge, interest, discussion, and democratic values.
+    design: Field experiment testing civic-competence effects.
+    finding: The study found little evidence of significant increases in civic competence, contrary to stronger claims from earlier correlational work.
+    limits: One intervention and setting, possible implementation and power limitations, and measured competence does not exhaust democratic educational value.
+
+  - id: mcavoy-hess-2011-political-disclosure
+    kind: mixed-method-ethical-analysis
+    citation: McAvoy, P., & Hess, D. (2011). The ethics of political disclosure in high school classrooms. APSA Annual Meeting paper.
+    url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1901226
+    publication_date: 2011-08-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: High-school civic classrooms and three teacher-practice cases from longitudinal mixed-method research.
+    design: Normative framework informed by empirical cases.
+    finding: Teacher political disclosure is not categorically right or wrong; its defensibility depends on democratic aims, evidence, context, and effects on students' inquiry.
+    limits: Cases do not yield a universal rule, and apparent non-disclosure cannot remove the teacher's agenda-setting, grading, framing, or institutional power.
+
+  - id: ellsworth-1989-repressive-myths
+    kind: critical-reflective-case
+    citation: Ellsworth, E. (1989). Why doesn't this feel empowering? Working through the repressive myths of critical pedagogy. Harvard Educational Review, 59(3), 297-324. https://doi.org/10.17763/haer.59.3.058342114k266250
+    url: https://eric.ed.gov/?id=EJ396155
+    publication_date: 1989-08-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: An antiracist university course and its teacher's situated reflection on critical pedagogy.
+    design: Feminist critical analysis of practice and the concepts of empowerment, voice, dialogue, and critical reflection.
+    finding: Abstract claims of rational dialogue and empowerment can conceal partial knowledge, unequal power, and the teacher's inability to create a transparent, universally emancipatory forum.
+    limits: Situated case and theoretical critique rather than comparative causal evaluation; it sharpens obligations without supplying a procedural recipe.
+
+  - id: jones-1999-cross-cultural-dialogue
+    kind: critical-case-analysis
+    citation: Jones, A. (1999). The limits of cross-cultural dialogue—Pedagogy, desire, and absolution in the classroom. Educational Theory, 49(3), 299-316. https://doi.org/10.1111/j.1741-5446.1999.00299.x
+    url: https://doi.org/10.1111/j.1741-5446.1999.00299.x
+    publication_date: 1999-09-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: A New Zealand feminist education course with Māori, Pacific, and Pākehā students taught partly in separate groups.
+    design: Critical analysis of learner journals, pedagogy, Indigenous-settler relations, and desires for cross-cultural dialogue.
+    finding: Dominant-group desire for dialogue can demand access, intimacy, instruction, or absolution from Indigenous others who may legitimately refuse togetherness.
+    limits: One course and political relation; separation is not universally emancipatory and requires community authority, purpose, and safeguards against imposed segregation.
+contradictions:
+  - Structured controversy can improve reasoning, but a controversy format can falsely symmetrize evidence, turn rights into classroom sport, or force affected learners to debate their own legitimacy.
+  - Open classroom climate correlates with civic outcomes, but those already fluent in dominant discussion norms may experience and benefit from openness differently.
+  - Teacher disclosure can make values inspectable, yet it can chill disagreement; non-disclosure can protect inquiry, yet it can disguise power as neutrality.
+  - Dialogue can coordinate plural judgment, yet demands for voice, mutual understanding, or reconciliation can reproduce extraction and make refusal appear educationally deficient.
+claims:
+  - claim: A democratic discussion is designed around a public question, evidential floor, decision or judgment, and contestable participation rules—not speech quantity.
+    evidence: empirical-and-normative-synthesis
+    confidence: high
+    source_ids: [johnson-johnson-2009-constructive-controversy, kahne-et-al-2000-civic-opportunities, jerome-et-al-2024-active-citizenship-review]
+    supports: Clarify what is genuinely unsettled, provide common evidence, distinguish fact from value and forecast, distribute turns and roles, permit revision, and show what the discussion can affect.
+    tensions: Strong structure can widen access or domesticate dissent into teacher-approved forms.
+    boundary_conditions: Stakes, evidence asymmetry, learner relation to the issue, time, group history, language, disability, assessment, and actual decision authority.
+    does_not_license: Both-sides rituals, competitive debate by default, participation grades for disclosure, consensus requirements, or controversializing established evidence for balance.
+
+  - claim: Dialogue is one political and pedagogical relation among several; silence, caucus, witness, study, representation, withdrawal, and refusal may be legitimate.
+    evidence: critical-theoretical-and-case-synthesis
+    confidence: high
+    source_ids: [ellsworth-1989-repressive-myths, jones-1999-cross-cultural-dialogue]
+    supports: Ask who wants exchange, on what terms, for whose benefit, with what protection and consequence; offer private or asynchronous routes and do not require injured parties to educate others.
+    tensions: Refusal can preserve sovereignty and safety, while institutions or powerful actors can also invoke refusal to evade accountability.
+    boundary_conditions: Power, vulnerability, community authority, privacy, history, compulsory attendance, grading, repair obligations, and reversibility.
+    does_not_license: Treating silence as consent, disengagement, ignorance, or oppression; compelled reconciliation; entitlement to testimony; or romanticizing separation.
+
+  - claim: Teacher political authority should be visible, bounded, and answerable whether or not the teacher discloses a personal conclusion.
+    evidence: ethical-case-synthesis
+    confidence: high
+    source_ids: [mcavoy-hess-2011-political-disclosure, ellsworth-1989-repressive-myths]
+    supports: State the learning aim, relevant commitments, source-selection logic, uncertainty, nonnegotiable safety floor, assessment criterion, and routes to challenge framing; disclose a view only when its likely inquiry benefit exceeds coercive cost.
+    tensions: Learners may reasonably want to know the teacher's position, but disclosure can become the answer key in a dependent relationship.
+    boundary_conditions: Age, institutional role, grading power, issue, classroom trust, viewpoint diversity, teacher competence, legal duties, and learner request.
+    does_not_license: Ideological conversion, hidden persuasion, pretending neutrality, grading political agreement, or laundering misinformation as an alternative perspective.
+
+  - claim: Civic learning requires both substantive institutional knowledge and opportunities for consequential judgment and action.
+    evidence: observational-review-with-null-counterevidence
+    confidence: moderate
+    source_ids: [kahne-et-al-2000-civic-opportunities, jerome-et-al-2024-active-citizenship-review, brinker-et-al-2019-deliberative-field-experiment]
+    supports: Pair law, history, institutions, media, evidence, and power analysis with deliberation, organizing, public work, observation, or genuine school governance suited to the setting.
+    tensions: Participation without knowledge can be manipulable, while knowledge without efficacy becomes spectator civics; not all activism is democratically valuable.
+    boundary_conditions: Political system, age, risk, legal rights, community, outcome horizon, voluntariness, and whether participation has authentic consequences.
+    does_not_license: Activism quotas, partisan recruitment, civic virtue inferred from frequency, simulation represented as public power, or deliberation claimed effective without outcome evidence.
+implications:
+  - Professor should first ask whether a matter is open to interpretation, forecast, value judgment, or decision; it should not manufacture controversy around well-supported facts.
+  - Before inviting dialogue, expose who frames the question, who bears its consequences, who is absent, and whether refusal or private study is available.
+  - “Be civil” must be operationalized as a symmetric protection against threat, domination, interruption, or dehumanization, not a demand for placid tone from the harmed.
+  - When offering multiple positions, represent their evidence, stakes, provenance, and power rather than assigning equal weight or artificial symmetry.
+  - AI dialogue must not claim democratic participation merely because a learner converses with a model; consequential shared authority requires humans and institutions.
+open_questions:
+  - How can a one-to-one AI professor rehearse public judgment without simulating consent from absent communities?
+  - Which forms of disagreement preserve the aesthetic and receptive value of a text before converting it into an issue position?
+  - How should a professor distinguish protected refusal from avoidance when no coercive assessment is present?
+next_actions:
+  - Study worldview, religious, and ethical education as a test of disclosure, neutrality, formation, and the right of exit.
+  - Include false balance, compelled dialogue, consequential authority, and refusal routes in the final audit.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
