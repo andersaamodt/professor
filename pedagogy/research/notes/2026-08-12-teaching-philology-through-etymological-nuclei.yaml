@@ -40,11 +40,10 @@ readings:
     kind: disciplinary-method-account
     citation: >-
       Warnow, T., Ringe, D., & Taylor, A. (1996). Reconstructing the
-      Evolutionary History of Natural Languages. Proceedings of the National
-      Academy of Sciences, 93(15), 7537-7541.
-      https://doi.org/10.1073/pnas.93.15.7537
-    url: https://doi.org/10.1073/pnas.93.15.7537
-    publication_date: 1996-07-23
+      Evolutionary History of Natural Languages. In Proceedings of the Seventh
+      Annual ACM-SIAM Symposium on Discrete Algorithms (pp. 314-322). SIAM.
+    url: https://dblp.org/rec/conf/soda/WarnowRT96
+    publication_date: 1996-01-28
     accessed_on: 2026-08-12
     reading_level: partially-read
     population_context: Historical linguistics and computational formalization of language subgrouping.

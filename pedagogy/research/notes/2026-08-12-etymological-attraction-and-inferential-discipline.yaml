@@ -29,11 +29,11 @@ readings:
     finding: Genetic relationship is supported by systematic correspondences and shared innovations while chance, borrowing, onomatopoeia, universals, and errors must be excluded.
     limits: Methodological safeguards do not mechanically resolve every deep-time case, and a negative genetic result does not erase contact or cultural association.
 
-  - id: ringe-1996-mathematical-comparison
+  - id: warnow-1997-mathematical-comparison
     kind: methodological-analysis
-    citation: Ringe, D. (1996). Mathematical approaches to comparative linguistics. Proceedings of the National Academy of Sciences, 93(8), 3677-3680. https://doi.org/10.1073/pnas.93.8.3677
-    url: https://doi.org/10.1073/pnas.93.8.3677
-    publication_date: 1996-04-16
+    citation: Warnow, T. (1997). Mathematical approaches to comparative linguistics. Proceedings of the National Academy of Sciences, 94(13), 6585-6590. https://doi.org/10.1073/pnas.94.13.6585
+    url: https://doi.org/10.1073/pnas.94.13.6585
+    publication_date: 1997-06-24
     accessed_on: 2026-08-12
     reading_level: partially-read
     population_context: Formal subgrouping and genetic inference within established language families.
@@ -94,7 +94,7 @@ claims:
       Resemblance in sound, spelling, image, or meaning is a legitimate reason to
       look, but it does not distinguish inheritance, borrowing, convergence, chance, or later reinterpretation.
     confidence: high
-    source_ids: [campbell-2003-distant-relationship, ringe-1996-mathematical-comparison, campbell-2020-comparative-method]
+    source_ids: [campbell-2003-distant-relationship, warnow-1997-mathematical-comparison, campbell-2020-comparative-method]
     supports: Welcome a learner's association as an observation, then ask what dated forms, correspondence sets, contact routes, and semantic stages would discriminate histories.
     tensions: Excessive correction at the moment of noticing can extinguish generative attention; not every poetic association needs a genetic verdict.
     boundary_conditions: Number of forms, chronology, regularity, semantics, borrowability, contact, documentation, and proposed relation.
@@ -127,7 +127,7 @@ claims:
       For a genetic claim, a recurring correspondence across independent lexical
       material is stronger evidence than one exceptionally vivid semantic and phonetic match.
     confidence: high
-    source_ids: [campbell-2003-distant-relationship, ringe-1996-mathematical-comparison, campbell-2020-comparative-method]
+    source_ids: [campbell-2003-distant-relationship, warnow-1997-mathematical-comparison, campbell-2020-comparative-method]
     supports: Follow an attractive nucleus sideways to a small correspondence set; include a near-lookalike that fails and explain why.
     tensions: Pedagogy must begin somewhere, and one vivid item can serve as the perceptual handle for a less vivid system.
     boundary_conditions: Independence, sample size, correspondence regularity, semantic plausibility, morphology, borrowing, and reconstruction.
