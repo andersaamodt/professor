@@ -1,0 +1,274 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: writing-rhetoric-voice-and-ai-displacement-2026-08-12
+title: Writing teaches through consequential composing, not prose production alone
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [assessment-and-authorship-under-ai, durable-memory-transfer-and-calibration]
+scope: >-
+  A bounded inquiry into writing-to-learn, explicit strategy instruction,
+  process and rhetorical approaches, revision, models, audience, multilingual
+  practice, voice, and AI writing assistance. It asks which composing operations
+  produce learning, how conventions and language power should be taught, and
+  when assistance supports or displaces authorship and judgment.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared writing-to-learn and writing-instruction syntheses with feedback,
+    second-language voice critiques, translingual implementation research, and
+    recent AI-assisted writing reviews. Distinguished textual quality, content
+    learning, authorial contribution, rhetorical effectiveness, language
+    conformity, learner preference, and independent transfer.
+  inclusion: >-
+    Meta-analyses with stated outcomes, reviews of teachable composing
+    practices, and multilingual or AI scholarship that addresses agency,
+    consequences, and institutional language norms.
+  exclusions: >-
+    Essay quantity as engagement, formulaic genre compliance as universal
+    quality, AI-detection claims, authenticity policing, and tool evaluations
+    based only on polish, speed, satisfaction, or plagiarism anxiety.
+  limitations: >-
+    Much causal writing research concerns school populations and conventional
+    academic tasks. Writing-to-learn effects are heterogeneous. Translingual and
+    voice debates are context-specific. AI-writing evidence is recent, rapidly
+    changing, often small, perception-led, and concentrated in English-language
+    education; it cannot establish durable authorship or transfer.
+readings:
+  - id: graham-kiuhara-mackay-2020-writing-to-learn
+    kind: meta-analysis
+    citation: >-
+      Graham, S., Kiuhara, S. A., & MacKay, M. (2020). The effects of writing
+      on learning in science, social studies, and mathematics: A meta-analysis.
+      Review of Educational Research, 90(2), 179-226.
+      https://doi.org/10.3102/0034654320914744
+    url: https://doi.org/10.3102/0034654320914744
+    publication_date: 2020-03-24
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-metadata-screened
+    population_context: School learners writing to learn science, social studies, and mathematics.
+    design: Meta-analysis of experimental and quasi-experimental writing-to-learn comparisons and moderators.
+    finding: >-
+      Writing about content produced a positive average effect on learning,
+      while effects varied across writing activity, instruction, domain, grade,
+      and design. Writing is a family of operations, not one treatment.
+    limits: >-
+      Publication and design heterogeneity, school contexts, and content tests
+      limit transfer to adult humanities inquiry and voluntary writing.
+
+  - id: graham-perin-2007-writing-next
+    kind: meta-analytic-practice-report
+    citation: >-
+      Graham, S., & Perin, D. (2007). Writing Next: Effective Strategies to
+      Improve Writing of Adolescents in Middle and High Schools. Alliance for
+      Excellent Education.
+    url: https://carnegie.org/publication/writing-next-effective-strategies-to-improve-writing-of-adolescents-in-middle-and-high-schools/
+    publication_date: 2007-01-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Adolescent writing instruction, primarily grades 4-12 and struggling writers.
+    design: Meta-analysis and practice synthesis of strategies, summarization, collaboration, goals, sentence combining, inquiry, process, models, and writing-to-learn.
+    finding: >-
+      Explicit planning, revising, and editing strategies, models, inquiry,
+      sentence work, and process opportunities were among beneficial elements;
+      the report emphasizes combining elements rather than prescribing a single
+      complete program.
+    limits: >-
+      Older school evidence, variable study quality, broad writing outcomes,
+      and effect-size comparisons do not dictate adult or discipline-specific
+      pedagogy.
+
+  - id: graham-harris-santangelo-2015-practices
+    kind: meta-analysis-and-meta-synthesis
+    citation: >-
+      Graham, S., Harris, K. R., & Santangelo, T. (2015). Research-based writing
+      practices and the Common Core: Meta-analysis and meta-synthesis. The
+      Elementary School Journal, 115(4), 498-522.
+      https://doi.org/10.1086/681964
+    url: https://doi.org/10.1086/681964
+    publication_date: 2015-06-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Elementary writing interventions and qualitative studies of effective literacy teachers.
+    design: Meta-analysis of writing practices combined with qualitative meta-synthesis and comparison to standards.
+    finding: >-
+      Effective writing instruction combines explicit strategies and knowledge,
+      frequent meaningful writing, goals, feedback, collaboration, models, and a
+      supportive environment rather than choosing between process and explicitness.
+    limits: >-
+      Elementary and standards-oriented evidence does not settle disciplinary
+      genre, multilingual practice, political authority, or AI assistance.
+
+  - id: stapleton-2002-voice
+    kind: critical-conceptual-review
+    citation: >-
+      Stapleton, P. (2002). Critiquing voice as a viable pedagogical tool in L2
+      writing: Returning the spotlight to ideas. Journal of Second Language
+      Writing, 11(3), 177-190.
+      https://doi.org/10.1016/S1060-3743(02)00070-X
+    url: https://doi.org/10.1016/S1060-3743(02)00070-X
+    publication_date: 2002-08-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Debates about authorial voice in second-language writing pedagogy.
+    design: Critical review of claims that voice should be a central teachable and assessable construct.
+    finding: >-
+      The article argues that voice is underspecified and overstated as an L2
+      pedagogical tool, and that attention should return to ideas and their
+      development rather than presumed authorial presence.
+    limits: >-
+      A conceptual critique does not negate rhetorical stance, identity,
+      linguistic ownership, or the harms of forced conformity.
+
+  - id: sun-2023-translingual-implementation
+    kind: systematic-review
+    citation: >-
+      Sun, Y. (2023). Implementation of translingual pedagogies in EAL writing:
+      A systematic review. Language Teaching Research.
+      https://doi.org/10.1177/13621688221090665
+    url: https://doi.org/10.1177/13621688221090665
+    publication_date: 2022-04-12
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: English-as-an-additional-language writing pedagogy across empirical implementation studies.
+    design: Systematic review of translingual practices, benefits, tensions, and institutional constraints.
+    finding: >-
+      Translingual approaches can resource multilingual meaning-making, while
+      learners and teachers also report high-stakes concerns, limited guidance,
+      and possible exclusion of some linguistically minoritized learners.
+    limits: >-
+      Diverse definitions, small situated studies, and unequal consequences
+      prevent translingualism from becoming a universal classroom mandate.
+
+  - id: li-wilson-2025-ai-writing-agency
+    kind: systematic-review
+    citation: >-
+      Li, M., & Wilson, J. (2025). AI-integrated scaffolding to enhance agency
+      and creativity in K-12 English language learners: A systematic review.
+      Information, 16(7), 519. https://doi.org/10.3390/info16070519
+    url: https://doi.org/10.3390/info16070519
+    publication_date: 2025-06-21
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: K-12 English-as-a-foreign-language learners using AI-integrated writing supports.
+    design: Systematic review focused on writing proficiency, agency, creativity, scaffolding, and implementation.
+    finding: >-
+      The reviewed evidence suggests AI support can assist ideation, language,
+      feedback, and revision when integrated as scaffold, while risks include
+      dependence, homogenization, unequal access, and displaced learner control.
+    limits: >-
+      Small, short, heterogeneous studies and rapidly changing tools make
+      causal, developmental, and durable-transfer conclusions premature.
+claims:
+  - id: writing-to-learn-needs-a-transformative-operation
+    statement: >-
+      Writing supports learning when composing requires selecting, retrieving,
+      organizing, connecting, explaining, transforming, testing, or revising
+      knowledge; transcription and prose quantity do not guarantee these acts.
+    confidence: high
+    source_ids: [graham-kiuhara-mackay-2020-writing-to-learn, graham-perin-2007-writing-next]
+    supports: >-
+      Choose the smallest written form that performs the desired operation: a
+      contrast, gloss, stemma, claim-evidence warrant, attestation note, or
+      revision after counterevidence.
+    tensions: >-
+      Fluency, transcription, imitation, and low-stakes freewriting can create
+      access and material from which later thought develops.
+    boundary_conditions: Purpose, prior knowledge, language, motor access, audience, feedback, time, genre, and opportunity to revise.
+    does_not_license: Essay tax, compulsory reflection, word-count worship, writing as proof of attention, or denying nontextual routes.
+
+  - id: process-and-explicitness-are-complements
+    statement: >-
+      Writers benefit from meaningful composing and revision together with
+      explicit strategies, models, language knowledge, genre analysis, and
+      feedback; “process” and “instruction” are not ethical or empirical opposites.
+    confidence: high
+    source_ids: [graham-perin-2007-writing-next, graham-harris-santangelo-2015-practices]
+    supports: >-
+      Model a move, let the learner use it toward a real purpose, inspect its
+      consequence, and fade the scaffold rather than demand a formula forever.
+    tensions: >-
+      Overexplicit routines can replace rhetorical judgment with compliance,
+      while open process can hide conventions from those denied prior access.
+    boundary_conditions: Genre, stakes, experience, language, disability, disciplinary norms, audience, and learner aim.
+    does_not_license: Five-paragraph universals, discovery-only writing, correction-only writing, genre secrecy, or permanent templates.
+
+  - id: voice-is-an-effect-not-an-identity-test
+    statement: >-
+      “Voice” is a reader's situated judgment about rhetorical choices and
+      relations, not a transparent measure of authentic self, authorship,
+      culture, effort, or freedom from AI assistance.
+    confidence: high
+    source_ids: [stapleton-2002-voice, sun-2023-translingual-implementation]
+    supports: >-
+      Discuss stance, rhythm, diction, address, evidence, language choice, and
+      consequence specifically; let writers choose how much self-presence the
+      task and audience warrant.
+    tensions: >-
+      Naming voice can help writers notice ownership, relation, positionality,
+      suppression, and the possibilities of linguistic choice.
+    boundary_conditions: Genre, audience, language ideology, stakes, identity safety, collaboration, and publication context.
+    does_not_license: Authenticity policing, accent erasure, personality inference, “sounds like you” grading, or demanding disclosure of AI use beyond legitimate rules.
+
+  - id: teach-power-and-access-in-language-conventions
+    statement: >-
+      Writers deserve explicit access to consequential conventions and honest
+      accounts of who enforces them, while retaining language plurality and the
+      ability to comply, negotiate, transform, or challenge where consequences allow.
+    confidence: high
+    source_ids: [sun-2023-translingual-implementation, graham-perin-2007-writing-next]
+    supports: >-
+      Name the convention, audience, likely consequence, alternatives, and
+      strategic choice without treating a prestige variety as superior thought.
+    tensions: >-
+      Some conventions provide shared precision, accessibility, archival
+      continuity, or safety and are not merely arbitrary domination.
+    boundary_conditions: Audience power, stakes, language status, accessibility, purpose, community practice, and learner choice.
+    does_not_license: Withholding dominant codes, compulsory codemeshing, error romanticization, standard-language supremacy, or representative burden.
+
+  - id: ai-assistance-must-preserve-the-target-operation
+    statement: >-
+      AI writing assistance is educative only when the learner still performs or
+      can independently demonstrate the intellectual and rhetorical operation
+      the activity was meant to develop; polished output is otherwise ambiguous.
+    confidence: high
+    source_ids: [li-wilson-2025-ai-writing-agency, graham-kiuhara-mackay-2020-writing-to-learn]
+    supports: >-
+      Specify the target operation, place AI before or after it deliberately,
+      retain source inspection and revision authority, and test on a fresh case
+      without the same assistance when independence is claimed.
+    tensions: >-
+      Equivalent access may require assistance during demonstration, and real
+      writing is socially and technologically distributed rather than solitary.
+    boundary_conditions: Aim, permitted tools, accessibility, authorship convention, stakes, privacy, transfer, and contribution evidence.
+    does_not_license: AI bans as purity rituals, prompt-performance grading, hidden ghostwriting, generated source claims, surveillance, or conflating prose ownership with learning.
+implications:
+  - >-
+    Philology writing should often be tiny and consequential: annotate a sound
+    change, distinguish inheritance from borrowing, write a lexical-entry caveat,
+    or revise a relation after an earlier attestation appears.
+  - >-
+    Professor may generate prose, examples, or alternatives, but should not
+    replace the learner's target act when learning is claimed. It should state
+    what assistance changes the evidentiary meaning of the result.
+  - >-
+    Receptive reading, oral explanation, arranging forms, drawing a relation,
+    or selecting evidence can be equivalent routes; writing is not obligatory
+    proof of serious attention.
+  - >-
+    Existing contribution, access, feedback, and anti-profiling policy already
+    covers these conclusions. No active tack change is earned.
+open_questions:
+  - Which small writing forms best develop philological source judgment and historical explanation?
+  - What counts as independent authorship in collaborative, editorial, translated, dictated, and AI-assisted writing?
+  - How should Professor teach scholarly conventions while exposing the institutions and language histories that authorize them?
+  - Which AI supports improve later unaided revision and which only improve the assisted text?
+  - How can a writer contest an AI's homogenizing rewrite without needing expert terminology or a stored style profile?
+next_actions:
+  - Study composition and rhetoric traditions beyond school intervention research, including disability rhetoric, Indigenous rhetoric, translation, orality, and multimodal composition.
+  - Seek primary delayed-transfer studies of AI-assisted planning, drafting, feedback, and revision with transparent assistance conditions.
+  - Audit Professor writing invitations for unnecessary length, authenticity language, hidden conventions, and target operations displaced by generated prose.
+  - Keep learner drafts, preferences, and evolving curriculum outside the repository and retain nothing without bounded consent.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
