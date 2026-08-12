@@ -1,0 +1,165 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: conflict-peace-and-restorative-boundaries-2026-08-12
+title: Conflict learning can build judgment without compelled encounter, false symmetry, or premature reconciliation
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [dignity-safety-and-non-coercion, democratic-emancipatory-and-deschooling-tensions, civic-deliberation-disagreement-and-refusal, teacher-labor-institutions-and-platform-power]
+scope: Conflict-resolution education, peace education, dialogue, peer mediation, restorative practices, accountability, repair, reintegration, structural violence, refusal, implementation, and role boundaries.
+method:
+  search_date: 2026-08-12
+  approach: Compared conflict-resolution meta-analysis, restorative-practice systematic reviews, implementation review, critical peace education, recent peace-education meta-analysis, and pedagogical critique of restorative justice.
+  inclusion: Sources distinguishing knowledge and procedural skill, behavior, safety, responsibility, repair, reconciliation, reintegration, structural change, voluntariness, implementation, and distributional effects.
+  exclusions: Peace as quiet compliance, dialogue as universal remedy, apology as evidence of repair, harmed people as teaching resources, mediation where coercion or severe power asymmetry makes negotiation unsafe, and suspension reduction as sufficient justice.
+  limitations: Programs use unstable labels and bundled components; school discipline evidence is mostly nonexperimental; peace outcomes are culturally contested; adverse effects and nonparticipants are rarely measured.
+readings:
+  - id: garrard-lipsey-2007-conflict-meta
+    kind: meta-analysis
+    citation: Garrard, W. M., & Lipsey, M. W. (2007). Conflict resolution education and antisocial behavior in U.S. schools—A meta-analysis. Conflict Resolution Quarterly, 25(1), 9-38. https://doi.org/10.1002/crq.188
+    url: https://doi.org/10.1002/crq.188
+    publication_date: 2007-09-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Kindergarten-through-grade-12 learners in United States school-based conflict-resolution programs.
+    design: Meta-analysis of controlled studies assessing antisocial behavior.
+    finding: Conflict-resolution education produced a modest favorable average effect on antisocial behavior, with variation across implementation and participants.
+    limits: Older United States evidence, bundled curricula, reporting and design weaknesses, and behavior measures do not establish justice, safety, or voluntary reconciliation.
+
+  - id: fronius-et-al-2019-rj-review
+    kind: systematic-review
+    citation: Fronius, T., Darling-Hammond, S., Persson, H., Guckenburg, S., Hurley, N., & Petrosino, A. (2019). Restorative Justice in U.S. Schools—An Updated Research Review. WestEd.
+    url: https://www.wested.org/resources/restorative-justice-in-u-s-schools-an-updated-research-review/
+    publication_date: 2019-03-01
+    accessed_on: 2026-08-12
+    reading_level: citation-traced
+    population_context: United States school restorative-justice initiatives and the empirical literature available through 2018.
+    design: Updated research review of implementation, discipline, climate, equity, and academic outcomes.
+    finding: Restorative approaches are promising but evidence quality and implementation descriptions are insufficient for confident causal conclusions.
+    limits: Broad program label, selection and implementation confounding, limited adverse-event evidence, and rapidly evolving practice.
+
+  - id: zakszeski-rutherford-2021-mind-gap
+    kind: systematic-review
+    citation: Zakszeski, B., & Rutherford, L. (2021). Mind the gap—A systematic review of research on restorative practices in schools. School Psychology Review, 50(2-3), 371-387. https://doi.org/10.1080/2372966X.2020.1852056
+    url: https://doi.org/10.1080/2372966X.2020.1852056
+    publication_date: 2021-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: School restorative-practice studies across universal, targeted, and disciplinary uses.
+    design: Systematic review emphasizing definitions, implementation measurement, and evaluation rigor.
+    finding: The literature needs discrete practice definitions, strategic implementation support, fidelity evidence, and more rigorous experimental evaluation.
+    limits: Methodological critique does not determine which restorative values or local practices are desirable.
+
+  - id: almeida-et-al-2021-restorative-conflicts
+    kind: systematic-review
+    citation: Almeida, T. C., et al. (2021). Reducing conflicts in school environments using restorative practices—A systematic review. Aggression and Violent Behavior, 59, 101498. https://doi.org/10.1016/j.avb.2020.101498
+    url: https://doi.org/10.1016/j.avb.2020.101498
+    publication_date: 2021-07-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Primary and secondary school learners and teachers in peer-reviewed quantitative restorative-practice studies.
+    design: Multi-database systematic review of measured conflict-related outcomes.
+    finding: Restorative practices show potential to improve school conflict outcomes, but the evidence base is small and heterogeneous.
+    limits: Variable definitions, settings, outcome measures, implementation, and comparison conditions preclude a universal package claim.
+
+  - id: evans-vaandering-2016-restorative-education
+    kind: critical-theoretical-synthesis
+    citation: Evans, K., & Vaandering, D. (2016). The Little Book of Restorative Justice in Education—Fostering Responsibility, Healing, and Hope in Schools. Good Books.
+    url: https://www.simonandschuster.com/books/The-Little-Book-of-Restorative-Justice-in-Education/Katherine-Evans/Justice-and-Peacebuilding/9781680991722
+    publication_date: 2016-09-20
+    accessed_on: 2026-08-12
+    reading_level: citation-traced
+    population_context: Educators applying relational and restorative principles to schooling and discipline.
+    design: Practitioner-theoretical synthesis connecting worth, interdependence, responsibility, harm, needs, and institutional practice.
+    finding: Restorative education is a relational orientation and institutional responsibility, not merely a circle, scripted questions, or alternative sanction.
+    limits: Normative and practitioner account rather than causal evaluation; “restoration” may assume a prior just relationship that never existed.
+
+  - id: bajaj-hantzopoulos-2016-peace
+    kind: critical-theoretical-anthology
+    citation: Bajaj, M., & Hantzopoulos, M. (Eds.). (2016). Peace Education—International Perspectives. Bloomsbury Academic.
+    url: https://www.bloomsbury.com/us/peace-education-9781474233700/
+    publication_date: 2016-01-28
+    accessed_on: 2026-08-12
+    reading_level: citation-traced
+    population_context: Peace education across international, conflict-affected, human-rights, social-justice, and school settings.
+    design: International theoretical and empirical perspectives on peace education praxis.
+    finding: Peace education must examine structural and cultural violence, rights, local histories, and learner agency rather than train interpersonal calm alone.
+    limits: Plural approaches resist one outcome metric; “critical” curricula can still import external political categories or desired conclusions.
+
+  - id: liu-et-al-2026-peace-meta
+    kind: meta-analysis
+    citation: Liu, S., et al. (2026). The impacts of peace education—A meta-analysis. International Journal of Educational Development, 122. https://doi.org/10.1016/j.ijedudev.2026.103542
+    url: https://doi.org/10.1016/j.ijedudev.2026.103542
+    publication_date: 2026-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Learners in peace-education interventions across educational levels and settings.
+    design: Meta-analysis of social values, conflict-resolution skill, personal qualities, and negative outcomes with moderator analysis.
+    finding: Peace education improved several positive outcomes on average, with effects varying by age and setting.
+    limits: Construct and intervention heterogeneity, likely publication and allegiance effects, culturally loaded measures, and uncertain behavioral or structural transfer.
+contradictions:
+  - Teaching negotiation can enlarge a learner's repertoire, yet framing an event as a mutual “conflict” can erase aggression, rights violations, institutional responsibility, or unequal power.
+  - Restorative processes can center harm and repair, yet institutions can deploy them to avoid accountability, reduce visible sanctions, compel disclosure, or pressure forgiveness.
+  - Exclusion can deepen inequity and fail to repair anything, yet immediate separation can be necessary for safety, uninterrupted learning, evidence preservation, or a harmed person's requested distance.
+  - Peace education can expose structural violence and create action, yet it can also prescribe the teacher's favored politics and call assent transformation.
+claims:
+  - claim: Before choosing dialogue, mediation, adjudication, protection, teaching, or repair, identify the kind of problem and whose authority and safety are at stake.
+    evidence: systematic-critical-synthesis
+    confidence: high
+    source_ids: [fronius-et-al-2019-rj-review, zakszeski-rutherford-2021-mind-gap, bajaj-hantzopoulos-2016-peace]
+    supports: Distinguish disagreement, misunderstanding, coordination failure, norm breach, harm, abuse, discrimination, and immediate danger; identify rights, evidence, power, and available appeal.
+    tensions: Categories can be contested and premature classification can foreclose participants' accounts.
+    boundary_conditions: Severity, recurrence, coercion, relationship, age, institutional duty, law, cultural jurisdiction, and requested outcome.
+    does_not_license: Diagnosing parties, forced neutrality, mutualizing unilateral harm, amateur investigation, or substituting a lesson for protection and accountable process.
+
+  - claim: Conflict procedures are teachable options whose success requires transfer and voluntary use, not ritual verbal compliance.
+    evidence: meta-analytic-synthesis
+    confidence: moderate
+    source_ids: [garrard-lipsey-2007-conflict-meta, liu-et-al-2026-peace-meta]
+    supports: Model listening, claim-evidence distinction, interest and right identification, de-escalation, option generation, refusal, documentation, and escalation; use low-stakes cases before live disputes.
+    tensions: Procedural fluency cannot resolve material scarcity, bad faith, structural oppression, or incompatible rights claims.
+    boundary_conditions: Development, culture, language, power, stakes, available remedies, facilitator competence, and whether participation is safe.
+    does_not_license: Live conflict as practice material, compelled vulnerability, grading reconciliation, false equivalence, or calling silence peacefulness.
+
+  - claim: A restorative process is warranted only when it is specific about harm, voluntary for affected participants, capable of material repair, and nested in independent safeguards.
+    evidence: systematic-normative-synthesis
+    confidence: high
+    source_ids: [almeida-et-al-2021-restorative-conflicts, zakszeski-rutherford-2021-mind-gap, evans-vaandering-2016-restorative-education]
+    supports: Ask affected people what safety and repair require; separate fact-finding from dialogue; offer advocates and alternatives; specify commitments, resources, monitoring, recurrence response, and exit.
+    tensions: Institutions may require accountability even when a person responsible declines; some harms cannot be repaired or relationships restored.
+    boundary_conditions: Consent, severity, evidence, retaliation risk, capacity, institutional duty, community protocol, remedy, and independent recourse.
+    does_not_license: Forced apology, forgiveness expectations, encounter with a person who caused harm, confidentiality promises beyond authority, replacing consequences automatically, or claiming closure.
+
+  - claim: Peace teaching should join interpersonal capability to truthful study of institutions, history, rights, resources, and competing conceptions of peace.
+    evidence: critical-and-meta-analytic-synthesis
+    confidence: moderate
+    source_ids: [bajaj-hantzopoulos-2016-peace, liu-et-al-2026-peace-meta]
+    supports: Compare negative peace, positive peace, justice, security, nonviolence, resistance, sovereignty, reconciliation, and repair through situated cases and plural sources.
+    tensions: Conceptual plurality must not neutralize clear evidence of atrocity or rights violations.
+    boundary_conditions: Conflict proximity, source safety, learner implication, historical record, jurisdiction, identity threat, and action consequence.
+    does_not_license: Sanitized harmony, propaganda, compelled activism, trauma exposure, geopolitical simulation detached from affected knowledge, or teacher certainty as moral development.
+
+  - claim: Institutions must measure implementation burdens and harms, not transfer restorative labor to individual teachers and affected people.
+    evidence: implementation-review-synthesis
+    confidence: high
+    source_ids: [fronius-et-al-2019-rj-review, zakszeski-rutherford-2021-mind-gap]
+    supports: Resource training, facilitation, preparation, advocates, follow-through, data governance, protection, appeal, workload, and evaluation disaggregated by who benefits and bears cost.
+    tensions: Formal infrastructure can bureaucratize relational practice and exclude community-led forms.
+    boundary_conditions: Scale, staffing, labor agreement, community governance, law, case complexity, privacy, and evaluation capacity.
+    does_not_license: Unfunded mandates, teacher therapy roles, counting circles as fidelity, success by suspension reduction alone, or confidential learner dossiers.
+implications:
+  - Professor should ask whether the learner wants to understand a conflict, prepare for a conversation, test an argument, identify options, document harm, or find qualified support before adopting a mediator voice.
+  - Do not summon an absent party's motives, pressure contact, script forgiveness, or tell a harmed learner that reconciliation is the educationally mature outcome.
+  - For live danger, abuse, discrimination, legal process, or severe power asymmetry, prioritize safety and appropriate human or institutional help over dialogue coaching.
+  - In case discussion, keep empirical disagreement distinct from rights, values, remedies, and uncertainty; do not manufacture a balanced controversy.
+  - A brief professor can teach one conflict distinction or rehearsal move without turning the learner's personal history into required material.
+open_questions:
+  - Which implementation measures detect coercion and burden that participation counts conceal?
+  - When does restorative language legitimate institutional inaction more than it enables repair?
+  - How can peace education invite political judgment without predetermining the judgment that counts as learning?
+next_actions:
+  - Audit all records for dialogue, disclosure, public performance, healing, reconciliation, and participation assumptions.
+  - Preserve the distinction among teaching, facilitation, investigation, adjudication, protection, therapy, and repair in the final synthesis.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
