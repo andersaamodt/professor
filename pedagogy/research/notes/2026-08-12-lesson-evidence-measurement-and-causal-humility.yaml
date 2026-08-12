@@ -1,0 +1,263 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: lesson-evidence-measurement-and-causal-humility-2026-08-12
+title: Evidence after a lesson is not automatically evidence caused by the lesson
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [assessment-and-authorship-under-ai, teacher-knowledge-noticing-and-adaptive-expertise]
+scope: >-
+  A bounded inquiry into lesson-level evidence, pre-post change, gain scores,
+  measurement reactivity, practice effects, single-case experimental design,
+  construct validity, causal attribution, and learner burden. It asks what a
+  daily Professor may honestly infer from one interaction and when systematic
+  experimentation would be disproportionate or require explicit consent.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared educational research standards for group and single-case designs,
+    measurement-reactivity work, growth-score reliability analysis, learning-
+    gain validity critique, and testing-effect evidence. Separated observed
+    performance, change, retention, transfer, authorship, cause, and educational value.
+  inclusion: >-
+    Official design standards, methodological analyses of change measures and
+    test reactivity, validity arguments, and evidence that measurement can itself teach.
+  exclusions: >-
+    Dashboard metrics without construct arguments, causal language from one
+    before-after observation, response speed as mastery, engagement analytics,
+    hidden experimentation, and assessment added solely to prove Teacher impact.
+  limitations: >-
+    Formal research standards are designed for intervention evidence, not every
+    pedagogical judgment. Applying them literally to daily teaching would create
+    burden and distort the relationship. Methodological sources diagnose
+    inference risks but do not specify the right humane evidence for each encounter.
+readings:
+  - id: wwc-2022-standards
+    kind: official-research-standards
+    citation: >-
+      What Works Clearinghouse. (2022). Procedures and Standards Handbook,
+      Version 5.0. Institute of Education Sciences, U.S. Department of Education.
+    url: https://ies.ed.gov/ncee/wwc/Handbooks
+    publication_date: 2022-12-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Group, regression-discontinuity, and single-case educational intervention research reviewed by the WWC.
+    design: Formal standards for design integrity, baseline equivalence, attrition, confounds, outcome eligibility, reporting, and evidence synthesis.
+    finding: >-
+      Credible intervention claims require design-specific controls, transparent
+      outcomes and samples, handling of confounds, and replication or comparison;
+      observation of improvement alone does not meet these standards.
+    limits: >-
+      Standards encode contestable thresholds and a restricted evidence mission;
+      meeting them does not establish ethical value, local fit, mechanism, or
+      authority, and failing them does not make qualitative knowledge worthless.
+
+  - id: wwc-single-case-technical-documentation
+    kind: official-single-case-design-guidance
+    citation: >-
+      What Works Clearinghouse. (2022). Single-Case Design Standards and
+      Technical Documentation. Institute of Education Sciences.
+    url: https://ies.ed.gov/ncee/wwc/Docs/ReferenceResources/wwc_scd.pdf
+    publication_date: 2022-12-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Repeated-measure single-case educational and behavioral intervention designs.
+    design: Standards for systematic phase change, sufficient data, demonstration of effect, replication, and visual and statistical analysis.
+    finding: >-
+      Single-case causal logic depends on repeated prediction, verification, and
+      replication across planned phase changes, not merely treating one learner
+      as their own control after a single lesson.
+    limits: >-
+      Withdrawal and repeated probes can be impossible, unethical, reactive, or
+      irrelevant for irreversible learning and voluntary low-stakes encounters.
+
+  - id: french-et-al-2021-measurement-reactivity
+    kind: methodological-program-and-review
+    citation: >-
+      French, D. P., et al. (2021). Reducing bias in trials from reactions to
+      measurement: The MERIT study. Health Technology Assessment, 25(55).
+      https://doi.org/10.3310/hta25550
+    url: https://www.ncbi.nlm.nih.gov/books/NBK574081/
+    publication_date: 2021-09-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Trials in which outcome measurement can alter participant cognition, behavior, or subsequent outcomes.
+    design: Systematic methodological development, expert work, and framework for measurement reactivity and bias.
+    finding: >-
+      Taking a measurement can itself change later outcomes or interact with an
+      intervention, violating assumptions that assessment is a passive window.
+    limits: >-
+      Health-trial evidence transfers indirectly to learning, where retrieval
+      and explanation make assessment reactivity often desirable rather than only bias.
+
+  - id: culpepper-2014-gain-score-reliability
+    kind: psychometric-methodological-analysis
+    citation: >-
+      Culpepper, S. A. (2014). The reliability of linear gain scores as measures
+      of student growth at the classroom level in the presence of measurement
+      bias and student tracking. Applied Psychological Measurement, 38(7),
+      503-517. https://doi.org/10.1177/0146621614534763
+    url: https://doi.org/10.1177/0146621614534763
+    publication_date: 2014-10-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Classroom-level evaluation using pre-post linear gain scores under measurement bias and student tracking.
+    design: Analytic latent-variable comparison of difference and residualized gain-score reliability.
+    finding: >-
+      Reliability depends on measurement invariance and model conditions;
+      tracking can artificially inflate apparent reliability, and alternative
+      gain formulations behave differently under bias.
+    limits: >-
+      Reliability is not validity or causality, and classroom aggregation differs
+      from interpretation of one learner's voluntary encounter.
+
+  - id: shavelson-et-al-2018-cla-learning-gain
+    kind: validity-critique
+    citation: >-
+      Shavelson, R. J., Zlatkin-Troitschanskaia, O., Beck, K., Schmidt, S., &
+      Marino, J. P. (2019). Assessment of university students’ critical thinking:
+      Next generation performance assessment. International Journal of Testing,
+      19(4), 337-362. https://doi.org/10.1080/15305058.2018.1543309
+    url: https://doi.org/10.1080/15305058.2018.1543309
+    publication_date: 2018-12-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-metadata-screened
+    population_context: Higher-education critical-thinking and learning-gain assessment.
+    design: Construct and performance-assessment analysis of inference from standardized tasks to broad critical thinking.
+    finding: >-
+      Broad capability claims require representative tasks, scoring quality, and
+      an explicit inference from observed performance to the target construct;
+      one proxy cannot transparently measure generalized learning gain.
+    limits: >-
+      This scan used metadata and adjacent accessible validity discussion; the
+      full article was not read, so claims remain at the construct level.
+
+  - id: agarwal-nunes-blunt-2021-classroom-testing
+    kind: systematic-review-and-meta-analysis
+    citation: >-
+      Agarwal, P. K., Nunes, L. D., & Blunt, J. R. (2021). Retrieval practice
+      consistently benefits student learning: A systematic review of applied
+      research in schools and classrooms. Educational Psychology Review, 33,
+      1409-1453. https://doi.org/10.1007/s10648-021-09595-9
+    url: https://doi.org/10.1007/s10648-021-09595-9
+    publication_date: 2021-03-05
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: 48,478 students across 222 classroom and school retrieval-practice studies.
+    design: Systematic and meta-analytic review of test-enhanced learning and boundary conditions.
+    finding: >-
+      Retrieval tests frequently improve later learning relative to comparison
+      activities, demonstrating that an assessment can be part of the treatment
+      rather than a neutral measure of what instruction caused.
+    limits: >-
+      Benefits vary by task, feedback, criterion, content, and design; testing
+      evidence does not justify compulsory quizzes or using reactive outcomes as pure measurement.
+claims:
+  - id: performance-change-cause-are-distinct
+    statement: >-
+      A correct or improved response after teaching is evidence of present
+      performance under those conditions; claims of learning, durability,
+      transfer, authorship, or causal impact require additional and different evidence.
+    confidence: high
+    source_ids: [wwc-2022-standards, culpepper-2014-gain-score-reliability, shavelson-et-al-2018-cla-learning-gain]
+    supports: >-
+      State the narrowest claim supported, vary conditions only when useful, and
+      avoid crediting Professor for every change between conversational turns.
+    tensions: >-
+      Teachers must act on incomplete evidence, and a well-chosen immediate
+      performance can be strongly diagnostic for a bounded distinction.
+    boundary_conditions: Construct, assistance, timing, baseline, measurement error, task sampling, prior exposure, and alternative causes.
+    does_not_license: Evidentiary paralysis, withholding positive recognition, or refusing all adaptive judgment without experimental proof.
+
+  - id: assessment-can-be-intervention
+    statement: >-
+      Prediction, retrieval, self-explanation, comparison, and reflection can
+      change what is learned, so their results cannot always be interpreted as
+      passive measures of a separate lesson.
+    confidence: high
+    source_ids: [french-et-al-2021-measurement-reactivity, agarwal-nunes-blunt-2021-classroom-testing]
+    supports: >-
+      Design such acts for their educational value, record their presence when
+      attributing outcomes, and avoid pretending a posttest was untouched by itself.
+    tensions: >-
+      Reactivity is often the point of formative assessment and does not prevent
+      a measure from supplying useful evidence.
+    boundary_conditions: Task, repetition, feedback, salience, learner inference, delay, and comparison.
+    does_not_license: Quiz saturation, covert measurement, assessment debt, or treating every learner response as research data.
+
+  - id: one-learner-is-not-a-single-case-experiment
+    statement: >-
+      Personalization or repeated conversation with one learner does not create a
+      single-case experiment; causal single-case evidence requires planned,
+      sufficiently measured, replicable phase logic and control of plausible rivals.
+    confidence: high
+    source_ids: [wwc-single-case-technical-documentation]
+    supports: >-
+      Call ordinary adaptation judgment under uncertainty; use a formal private
+      n-of-one experiment only for a learner-endorsed consequential question with
+      consent, suitable design, minimal burden, and clear stop rules.
+    tensions: >-
+      Informal within-person contrasts can still reveal practical preferences,
+      access barriers, and promising hypotheses without causal status.
+    boundary_conditions: Reversibility, measurement frequency, consent, burden, stability, replication, privacy, and stakes.
+    does_not_license: Hidden A/B tests, variable reward experiments, withdrawal of helpful support, or publishing learner-shaped evidence.
+
+  - id: measurement-quality-is-condition-specific
+    statement: >-
+      A score or growth estimate is interpretable only under evidence that its
+      tasks, scoring, invariance, assistance conditions, and consequences support
+      the proposed use; numerical precision does not repair a weak construct.
+    confidence: high
+    source_ids: [culpepper-2014-gain-score-reliability, shavelson-et-al-2018-cla-learning-gain]
+    supports: >-
+      Prefer small direct evidence tied to the actual capability, keep uncertainty
+      visible, and avoid aggregating unlike encounters into a mastery number.
+    tensions: >-
+      Common scales and repeated measures can reveal patterns invisible in anecdotes
+      and support allocation when their use is validated and accountable.
+    boundary_conditions: Construct, task, scoring, population, language, disability, stakes, invariance, assistance, and decision.
+    does_not_license: Mastery dashboards, gain-score teacher ranking, behavior proxies, false decimals, or demographic correction as fairness.
+
+  - id: evaluation-must-not-consume-the-lesson
+    statement: >-
+      The value of stronger evidence must be weighed against learner time,
+      privacy, anxiety, interaction tax, distortion of the encounter, and the
+      possibility that no learning claim is needed.
+    confidence: high
+    source_ids: [french-et-al-2021-measurement-reactivity, wwc-single-case-technical-documentation]
+    supports: >-
+      Use existing action as evidence where possible, ask at most one diagnostic
+      move when it serves the learner, and end without a check when the encounter
+      was receptive, aesthetic, or complete.
+    tensions: >-
+      Avoiding all evaluation can hide ineffective teaching, inequity, dependence,
+      and confident self-deception.
+    boundary_conditions: Claimed outcome, stakes, learner purpose, burden, privacy, risk, reversibility, and available evidence.
+    does_not_license: No-accountability teaching, satisfaction-only evidence, manufactured interaction, or claiming success from eloquence.
+implications:
+  - >-
+    Professor should say “that distinction is present in this answer” rather
+    than “you learned it” unless delayed or transferred evidence exists.
+  - >-
+    A daily philology encounter may include one fresh form or source judgment to
+    make a relation active, but should not append a posttest merely to validate Professor.
+  - >-
+    Learner corrections, questions, and return can guide teaching without being
+    stored as a growth trajectory. Any private evidence record needs bounded consent.
+  - >-
+    Existing evaluation and privacy policy already require multidimensional,
+    claim-matched evidence and no learner-data leakage. No active tack change is earned.
+open_questions:
+  - What minimal delayed evidence can arise naturally in a daily philology route without a review queue or assessment tax?
+  - Which one-turn signals are sufficiently diagnostic to adapt explanation but too weak to store as progress?
+  - How can Professor distinguish a learner's preference from access need, present energy, novelty, or social response without profiling?
+  - When does formal private n-of-one inquiry benefit the learner enough to justify measurement and design burden?
+  - Which qualitative consequences—new noticing, richer encounter, confidence to inspect a source—can be warranted without numerical growth claims?
+next_actions:
+  - Study qualitative evaluation, realist evaluation, design-based research, and learner-defined success alongside causal standards.
+  - Audit Professor language for “learned,” “mastered,” “improved,” and causal self-credit unsupported by evidence.
+  - Keep interaction analytics and inferred progress out of the repository and do not create them by default in the private data home.
+  - Test future teaching proposals against the smallest warranted claim before adding an assessment component.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
