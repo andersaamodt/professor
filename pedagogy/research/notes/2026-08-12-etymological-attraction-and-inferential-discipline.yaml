@@ -1,0 +1,166 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: etymological-attraction-and-inferential-discipline-2026-08-12
+title: A compelling resemblance is an observation, not yet a history
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise, durable-memory-transfer-and-calibration, epistemic-justice-curriculum-and-knowledge-access]
+scope: >-
+  Chance resemblance, regular sound correspondence, inheritance, borrowing,
+  semantic change, folk etymology, present meaning, poetic association, and how
+  to preserve etymological wonder without converting imagery into false lineage.
+method:
+  search_date: 2026-08-12
+  approach: Compared comparative-method accounts with scholarship on folk etymology, semantic argument, and pedagogically accessible reconstruction.
+  inclusion: Methodological sources distinguishing inheritance, contact, chance, and meaning change; accounts treating popular reanalysis as a real historical process.
+  exclusions: Unattested macrofamily speculation, isolated lookalike lists, dictionary-copy chains, and present meanings derived solely from roots.
+  limitations: Several sources are methodological chapters or reference accounts rather than teaching studies; the note proposes epistemic moves, not an effectiveness claim.
+readings:
+  - id: campbell-2003-distant-relationship
+    kind: comparative-method-chapter
+    citation: Campbell, L. (2003). How to show languages are related—Methods for distant genetic relationship. In B. D. Joseph & R. D. Janda (Eds.), The Handbook of Historical Linguistics, 262-282. https://doi.org/10.1002/9780470756393.ch4
+    url: https://doi.org/10.1002/9780470756393.ch4
+    publication_date: 2003-02-03
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-metadata-screened
+    population_context: Historical-linguistic proposals of genetic relationship, especially at long range.
+    design: Methodological critique of evidence, chance similarity, borrowing, universals, and comparison.
+    finding: Genetic relationship is supported by systematic correspondences and shared innovations while chance, borrowing, onomatopoeia, universals, and errors must be excluded.
+    limits: Methodological safeguards do not mechanically resolve every deep-time case, and a negative genetic result does not erase contact or cultural association.
+
+  - id: ringe-1996-mathematical-comparison
+    kind: methodological-analysis
+    citation: Ringe, D. (1996). Mathematical approaches to comparative linguistics. Proceedings of the National Academy of Sciences, 93(8), 3677-3680. https://doi.org/10.1073/pnas.93.8.3677
+    url: https://doi.org/10.1073/pnas.93.8.3677
+    publication_date: 1996-04-16
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Formal subgrouping and genetic inference within established language families.
+    design: Methodological overview of comparative linguistic characters, shared innovation, probability, compatibility, and borrowing.
+    finding: Useful genetic evidence should be unlikely to arise independently and either resistant to borrowing or paired with ways to detect borrowing.
+    limits: Formal character models depend on linguistic coding judgments, known family structure, and assumptions that can fail under extensive contact.
+
+  - id: castano-adiego-2014-folk-etymology
+    kind: scholarly-reference-entry
+    citation: Castaño, E., & Adiego, I.-X. (2014). Folk etymology. Diccionari de lingüística on line, University of Barcelona.
+    url: https://www.ub.edu/diccionarilinguistica/content/folk-etymology-0
+    publication_date: 2014-03-11
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Historical changes in which speakers relate unfamiliar forms to familiar ones.
+    design: Reviewed linguistic reference synthesis with examples and bibliography.
+    finding: A historically mistaken association can cause a genuine later change in a word's form or meaning; false analysis and real linguistic consequence can coexist.
+    limits: The category's boundaries and terminology vary, and polished examples can hide uncertain intermediate stages.
+
+  - id: poruciuc-1991-folk-etymology
+    kind: linguistic-analysis
+    citation: Poruciuc, A. (1991). Folk etymology in English and elsewhere. Kansas Working Papers in Linguistics, 16, 53-58. https://doi.org/10.17161/KWPL.1808.424
+    url: https://doi.org/10.17161/KWPL.1808.424
+    publication_date: 1991-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Irregular phonetic-semantic shifts under borrowing and change across periods.
+    design: Comparative linguistic discussion of folk-etymological processes.
+    finding: Popular reanalysis is not merely an ignorant mistake but a complex mechanism through which form and meaning can be reorganized.
+    limits: Examples and theoretical framing need verification against later specialist etymologies.
+
+  - id: hutton-1998-etymological-fallacy
+    kind: philosophical-and-historical-counterargument
+    citation: Hutton, C. (1998). Semantics and the “etymological fallacy” fallacy. Language Sciences, 20(2), 189-200. https://doi.org/10.1016/S0388-0001(97)00025-9
+    url: https://doi.org/10.1016/S0388-0001(97)00025-9
+    publication_date: 1998-04-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-metadata-screened
+    population_context: Cultural, legal, sacred, and philosophical traditions that use etymology to reason about language and authority.
+    design: Historical-philosophical critique of dismissing etymological semantics as a simple fallacy.
+    finding: Appeals to origin are themselves historically significant theories and practices of language, especially where change threatens textual or normative authority.
+    limits: Explaining why origin meanings carry cultural force does not establish that they determine present conventional meaning.
+
+  - id: campbell-2020-comparative-method
+    kind: methodological-textbook-chapter
+    citation: Campbell, L. (2020). The comparative method and linguistic reconstruction. In Historical Linguistics—An Introduction, 4th ed., 140-193. Edinburgh University Press. https://doi.org/10.1515/9781474463133-013
+    url: https://doi.org/10.1515/9781474463133-013
+    publication_date: 2020-09-14
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-metadata-screened
+    population_context: Learners and researchers reconstructing proto-forms and historical relations.
+    design: Systematic methodological exposition of cognates, correspondence sets, reconstruction, and controls.
+    finding: Reconstruction proceeds across sets of comparable forms and recurring sound relations, with hypotheses revised to account for the whole pattern.
+    limits: Textbook sequences can make actual expert judgment appear more algorithmic and determinate than it is.
+claims:
+  - id: resemblance-opens-inquiry
+    statement: >-
+      Resemblance in sound, spelling, image, or meaning is a legitimate reason to
+      look, but it does not distinguish inheritance, borrowing, convergence, chance, or later reinterpretation.
+    confidence: high
+    source_ids: [campbell-2003-distant-relationship, ringe-1996-mathematical-comparison, campbell-2020-comparative-method]
+    supports: Welcome a learner's association as an observation, then ask what dated forms, correspondence sets, contact routes, and semantic stages would discriminate histories.
+    tensions: Excessive correction at the moment of noticing can extinguish generative attention; not every poetic association needs a genetic verdict.
+    boundary_conditions: Number of forms, chronology, regularity, semantics, borrowability, contact, documentation, and proposed relation.
+    does_not_license: Ridicule, lookalike etymology, rejecting contact relations because forms are not cognate, or demanding a dissertation before enjoying a pun.
+
+  - id: folk-etymology-is-false-history-and-real-history
+    statement: >-
+      A speaker's mistaken analysis can become causally real when it reshapes a
+      word, meaning, spelling, pronunciation, story, or later pattern of use.
+    confidence: high
+    source_ids: [castano-adiego-2014-folk-etymology, poruciuc-1991-folk-etymology]
+    supports: Teach two timelines when needed—the earlier lineage and the later attractive reinterpretation—and ask what evidence shows the reinterpretation entered usage.
+    tensions: Not every popular false explanation changes language; “folk” can be used dismissively against noninstitutional knowledge.
+    boundary_conditions: Attestation, diffusion, form change, meaning change, speaker community, register, and chronology.
+    does_not_license: Calling any misconception folk etymology, treating later reanalysis as original derivation, or positioning experts outside language change.
+
+  - id: origin-does-not-own-present-meaning
+    statement: >-
+      Earlier senses constrain a historical account but do not legislate what a
+      form conventionally means in a later speech community and context.
+    confidence: high
+    source_ids: [hutton-1998-etymological-fallacy, castano-adiego-2014-folk-etymology]
+    supports: Place current usage evidence beside origin; distinguish a historical explanation, rhetorical reclamation, legal interpretation, and prescriptive argument.
+    tensions: Etymology can remain active in polysemy, technical coinage, wordplay, cultural memory, or disputes over authoritative texts.
+    boundary_conditions: Date, community, genre, register, discourse, polysemy, institutional authority, and speaker intention.
+    does_not_license: Dismissing historical meaning as irrelevant, declaring semantic drift corruption, or using roots as secret definitions.
+
+  - id: regularity-beats-vividness-for-lineage
+    statement: >-
+      For a genetic claim, a recurring correspondence across independent lexical
+      material is stronger evidence than one exceptionally vivid semantic and phonetic match.
+    confidence: high
+    source_ids: [campbell-2003-distant-relationship, ringe-1996-mathematical-comparison, campbell-2020-comparative-method]
+    supports: Follow an attractive nucleus sideways to a small correspondence set; include a near-lookalike that fails and explain why.
+    tensions: Pedagogy must begin somewhere, and one vivid item can serve as the perceptual handle for a less vivid system.
+    boundary_conditions: Independence, sample size, correspondence regularity, semantic plausibility, morphology, borrowing, and reconstruction.
+    does_not_license: Mechanical majority voting, ignoring irregular analogy, dismissing rare evidence, or confusing statistical association with a historical mechanism.
+
+  - id: poetic-truth-needs-its-own-label
+    statement: >-
+      A word image can reveal how a present learner thinks and can organize
+      memorable relations without being a claim about the word's historical derivation.
+    confidence: medium
+    source_ids: [hutton-1998-etymological-fallacy, castano-adiego-2014-folk-etymology]
+    supports: Preserve metaphors such as a river “de-rived” as synchronic play, then place attested morphological and etymological analysis alongside it without flattening either.
+    tensions: Poetic association can quietly harden into remembered fact, especially when repeated by an authoritative fluent system.
+    boundary_conditions: Labeling, learner purpose, mnemonic use, repetition, factual stakes, and later retrieval context.
+    does_not_license: Confabulated morphology, coy ambiguity about facts, or correcting away delight that makes no historical claim.
+implications:
+  - >-
+    Each etymological nucleus should have an evidence card with earliest relevant forms, language and date, proposed pathway, correspondence evidence, contact route, semantic stages, alternatives, and confidence.
+  - >-
+    The daily professor can say “that is a powerful reanalysis” before saying whether it is also the documented derivation; appreciation and adjudication are separate acts.
+  - >-
+    At least one counter-attractor—a persuasive resemblance with a different history—should recur across a philology route so inferential caution becomes a usable skill.
+  - >-
+    This earns no generic tack. It sharpens future private philology curriculum and the existing requirement to distinguish evidence, interpretation, and hypothesis.
+open_questions:
+  - How frequently should a daily route revisit counterexamples before caution becomes suspicion of every meaningful pattern?
+  - Which compact visual notation can show inheritance, borrowing, semantic influence, folk reanalysis, and poetic association without implying one tree fits all relations?
+  - How can Professor correct its own earlier etymological overstatement without making the correction the learner's burden?
+  - What evidence would warrant teaching an uncertain but generative etymology at all?
+next_actions:
+  - Study semantic change and lexical polysemy using dated corpus evidence rather than dictionary gloss chains.
+  - Study multilingual and contact-centered pedagogy so borrowing is not treated as contamination or linguistic impurity.
+  - Test a future private nucleus card against both a specialist etymological source and primary attestations before teaching it as lineage.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
