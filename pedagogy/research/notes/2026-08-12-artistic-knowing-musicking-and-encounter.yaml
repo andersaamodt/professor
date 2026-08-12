@@ -1,0 +1,192 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: artistic-knowing-musicking-and-encounter-2026-08-12
+title: Arts learning concerns perception, making, relation, and judgment before it concerns transferable benefits
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [motivation-play-aesthetics-and-sustainable-effort, teacher-knowledge-noticing-and-adaptive-expertise, epistemic-justice-curriculum-and-knowledge-access]
+scope: >-
+  Aesthetic encounter, studio pedagogy, critique, informal music learning,
+  musicking, notation, canon, learner choice, and the evidential limits of claims
+  that arts education improves general academic or cognitive performance.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Read observational, qualitative, philosophical, and review work on visual-art
+    studios and music learning, including implementation tensions and decolonial
+    critique; sought domain-valued outcomes before cross-domain transfer claims.
+  inclusion: Sources examining what learners perceive, make, perform, interpret, revise, or enact in relation to works, media, peers, audiences, and traditions.
+  exclusions: Arts advocacy based only on test-score transfer, passive exposure branded as enrichment, canonical “masterpiece” lists without pedagogy, and music reduced to mood control.
+  limitations: >-
+    The arts are heterogeneous and culturally situated. This scan emphasizes
+    visual art and popular-music education and cannot stand for dance, theatre,
+    craft, film, architecture, oral poetics, or specific musical traditions.
+readings:
+  - id: dewey-1934-art-experience
+    kind: philosophy-of-aesthetic-experience
+    citation: Dewey, J. (1934). Art as experience. Minton, Balch & Company.
+    url: https://archive.org/details/artasexperience00dewe
+    publication_date: 1934-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Art, perception, making, environment, and experience in ordinary and institutional life.
+    design: Pragmatist philosophical inquiry.
+    finding: The aesthetic is an organized quality of live interaction among doing, undergoing, material, attention, rhythm, and consummation—not a property sealed inside elite objects.
+    limits: Dewey's universal language can understate specific histories, traditions, institutions, disability, colonial extraction, and conflicts over whose experience defines art.
+
+  - id: hetland-et-al-2007-studio-thinking
+    kind: observational-theory-building
+    citation: Hetland, L., Winner, E., Veenema, S., & Sheridan, K. M. (2007). Studio thinking—The real benefits of visual arts education. Teachers College Press.
+    url: https://www.tcpress.com/studio-thinking-9780807748191
+    publication_date: 2007-09-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Visual-arts teaching in two arts-focused US high schools.
+    design: Qualitative observation and coding of demonstrations, studio work, critique, exhibition, and recurring habits of mind.
+    finding: Studios supported domain practices including observing, envisioning, expressing, developing craft, engaging and persisting, stretching and exploring, reflecting, and understanding art worlds.
+    limits: Selected strong programs and theory-building observations do not establish general transfer, exhaustive categories, or applicability to every medium and culture.
+
+  - id: winner-et-al-2013-art-transfer-review
+    kind: evidence-review
+    citation: Winner, E., Goldstein, T. R., & Vincent-Lancrin, S. (2013). Art for art's sake? The impact of arts education. OECD Publishing. https://doi.org/10.1787/9789264180789-en
+    url: https://doi.org/10.1787/9789264180789-en
+    publication_date: 2013-06-14
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Visual art, music, theatre, dance, and multi-arts education and proposed transfer to academic, cognitive, motivational, and social outcomes.
+    design: Large international review of correlational, quasi-experimental, experimental, and meta-analytic evidence.
+    finding: Many broad transfer claims remain unproven or confounded; strong justification begins with artistic learning and valued participation in art itself.
+    limits: Outcome and causal standards can privilege easily measured school effects and underrepresent cultural, relational, civic, and long-horizon artistic value.
+
+  - id: green-2008-informal-music
+    kind: classroom-research
+    citation: Green, L. (2008). Group cooperation, inclusion and disaffected pupils—Some responses to informal learning in the music classroom. Music Education Research, 10(2), 177-192. https://doi.org/10.1080/14613800802079085
+    url: https://discovery.ucl.ac.uk/id/eprint/10001113/
+    publication_date: 2008-06-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: School pupils working in small groups through practices adapted from popular musicians' informal learning.
+    design: Qualitative analysis within a classroom research project emphasizing learner-chosen music, listening and copying, peer direction, and holistic performance.
+    finding: Informal practices could change cooperation, leadership, inclusion, motivation, and musical work, including for some previously disaffected pupils.
+    limits: “Informal” practices transplanted into school remain teacher-framed; groups can reproduce status, exclusion, genre hierarchy, and unequal prior access.
+
+  - id: mariguddi-2022-musical-futures
+    kind: implementation-case-study
+    citation: Mariguddi, A. (2022). Research-informed teaching—The case of Musical Futures. British Educational Research Journal, 48(3), 519-535. https://doi.org/10.1002/berj.3780
+    url: https://doi.org/10.1002/berj.3780
+    publication_date: 2022-03-08
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Key program figures, teachers, and pupils involved in the informal-learning branch of Musical Futures in English secondary schools.
+    design: Interviews and four school case studies analyzed through trustworthiness, generalizability, implementation support, fidelity, and accountability.
+    finding: Research-informed pedagogy changes as it scales; teachers adapted, misunderstood, or marketized informal-learning principles amid tensions between freedom and authority.
+    limits: Small qualitative cases do not yield one correct implementation or learning-effect estimate.
+
+  - id: small-1998-musicking
+    kind: philosophy-and-sociology-of-music
+    citation: Small, C. (1998). Musicking—The meanings of performing and listening. Wesleyan University Press.
+    url: https://www.weslpress.org/9780819572240/musicking/
+    publication_date: 1998-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Performance, listening, composition, rehearsal, dancing, labor, audience, venue, and social relations in musical events.
+    design: Philosophical, ethnographic, and critical argument shifting the noun “music” toward the activity “to music.”
+    finding: Musical meaning is enacted through participation and relationships, not exhausted by the autonomous work, score, composer, or formal analysis.
+    limits: Relational interpretation should not erase sonic structure, individual craft, historical specificity, work concepts that matter within traditions, or exploitative relations in participation.
+
+  - id: reid-2022-nonwestern-theory
+    kind: decolonial-curriculum-practice
+    citation: Reid, M. (2022). Nonwestern music and decolonial pedagogy in the music theory classroom. Journal of Music Theory Pedagogy, 36, 79-108.
+    url: https://digitalcollections.lipscomb.edu/jmtp/vol36/iss1/4/
+    publication_date: 2022-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: North American college music-theory curricula expanding beyond the Western classical canon.
+    design: Critical pedagogical and curriculum argument with classroom applications.
+    finding: Adding diverse repertoire without changing analytic authority, listening practice, context, or course structure can preserve the framework that made other musics peripheral.
+    limits: No single decolonial classroom design can represent traditions, and outsiders require musical and community competence rather than generic inclusion intent.
+claims:
+  - id: encounter-precedes-paraphrase
+    statement: >-
+      In arts learning, sustained looking, listening, moving, making, or performing
+      may be the primary epistemic event; explanation should answer to that encounter rather than replace it.
+    confidence: high
+    source_ids: [dewey-1934-art-experience, hetland-et-al-2007-studio-thinking, small-1998-musicking]
+    supports: Present the work or a responsible trace, allow a first encounter, then direct attention, compare, imitate, alter, contextualize, or name what becomes perceptible.
+    tensions: Unguided encounter is not neutral; selection, framing, access, prior knowledge, and institutional reverence already teach.
+    boundary_conditions: Medium, rights, access, tradition, learner goal, familiarity, context, and whether direct presentation is possible.
+    does_not_license: Withholding context indefinitely, “just feel it,” aesthetic mystification, reproducing copyrighted works unlawfully, or treating reaction as interpretation.
+
+  - id: artistic-outcomes-need-not-borrow-prestige
+    statement: >-
+      Arts education need not prove its worth through mathematics, literacy,
+      intelligence, wellbeing, or workforce transfer before artistic perception, making, judgment, and participation count as educational goods.
+    confidence: high
+    source_ids: [winner-et-al-2013-art-transfer-review, hetland-et-al-2007-studio-thinking]
+    supports: State domain-valued ends and assess works, processes, revisions, attention, craft, interpretation, and participation appropriate to the practice.
+    tensions: Cross-domain effects may be real and socially important, and learners may legitimately pursue them.
+    boundary_conditions: Art form, community, institution, learner purpose, evidence, and public funding argument.
+    does_not_license: Romantic exceptionalism, immunity from evidence, denying instrumental aims, or treating all participation as equally educative.
+
+  - id: critique-is-shared-judgment-not-verdict
+    statement: >-
+      Critique can externalize perception and criteria around an evolving work, but
+      its educational value depends on specific attention, revisability, plurality, and power-aware participation.
+    confidence: high
+    source_ids: [hetland-et-al-2007-studio-thinking]
+    supports: Locate observations, distinguish intention from effect, invite alternatives, let the maker decide the next experiment, and keep identity separate from the work.
+    tensions: Traditions and commissions can impose nonnegotiable constraints, and expert judgment sometimes must be direct.
+    boundary_conditions: Publicity, status, stage of work, tradition, criteria, consent, vulnerability, and learner purpose.
+    does_not_license: Taste as authority, praise sandwiches, public humiliation, compelled disclosure of intention, consensus, or endless revision.
+
+  - id: informal-does-not-mean-powerless
+    statement: >-
+      Learner choice, peer imitation, self-directed listening, and whole-piece work
+      can redistribute musical authority, but informal groups still contain expertise, status, market, gender, race, access, and teacher framing.
+    confidence: high
+    source_ids: [green-2008-informal-music, mariguddi-2022-musical-futures]
+    supports: Offer authentic choice and peer work while noticing exclusion, ensuring access to instruments and techniques, and intervening without reclaiming all control.
+    tensions: Teacher demonstration, sequencing, notation, and deliberate practice can provide access that friendship groups and self-teaching do not.
+    boundary_conditions: Genre, group, instruments, technology, prior access, learner goal, space, and institutional assessment.
+    does_not_license: Abandonment as autonomy, forced group work, genre essentialism, popular equals natural, or formal equals oppressive.
+
+  - id: notation-is-a-tool-with-a-tradition
+    statement: >-
+      A notation selects musical relations for preservation, coordination, analysis,
+      or authority; it is neither music itself nor a culturally empty transcription layer.
+    confidence: high
+    source_ids: [small-1998-musicking, reid-2022-nonwestern-theory, green-2008-informal-music]
+    supports: Teach notation through the practice it serves, compare what different representations capture and omit, and keep listening and performance in the loop.
+    tensions: Staff notation and formal analysis are powerful, portable practices that learners may need for access to particular musical worlds.
+    boundary_conditions: Tradition, genre, technology, performance practice, purpose, institution, and learner goal.
+    does_not_license: Notation-first universalism, dismissing literacy, translating every tradition into one analytic grid, or presenting a score as exhaustive evidence.
+
+  - id: music-is-relation-and-structured-sound
+    statement: >-
+      Musical learning may concern both organized sonic action and the relationships
+      enacted among performer, listener, maker, laborer, technology, place, and tradition; neither dimension should erase the other.
+    confidence: high
+    source_ids: [small-1998-musicking, green-2008-informal-music]
+    supports: Ask what is heard and done, by whom, with what materials and conventions, under which relations, and how changing one changes the event.
+    tensions: Different musical ontologies do not partition sound and relation in the same way.
+    boundary_conditions: Tradition, event, work concept, medium, ritual, commerce, community, and listener position.
+    does_not_license: Sociological paraphrase instead of listening, formalism as neutrality, claiming universal musical emotions, or simulated cultural authority.
+implications:
+  - Professor should open a music lesson with sound when rights and medium allow, not a paragraph about sound; a visual-art lesson with an image or material trace, not its interpretation.
+  - A daily “encounter” can be complete when it changes noticing or affords a resonant perception; it need not culminate in a quiz or verbal response.
+  - Pop-music curriculum belongs in an explicitly promoted topic module only when its artifacts, rights, listening practices, histories, and analytic frames are reviewable; personal listening paths remain private data.
+  - Teacherly factoids about music should be subordinate to listening, comparison, performance, making, and source context rather than substitute for them.
+  - No generic art-for-transfer, mood-management, or informal-learning tack is earned; domain and tradition determine responsible form.
+open_questions:
+  - What can a text-first AI genuinely teach about music without access to licensed sound, performance feedback, embodiment, or ensemble relation?
+  - How can Professor facilitate critique without becoming the taste-making center or manufacturing consensus?
+  - Which rights-respecting excerpts or user-owned artifacts permit a real one-song encounter rather than metadata commentary?
+  - How should assessment differ across imitation, improvisation, interpretation, composition, production, listening, scholarship, and communal participation?
+next_actions:
+  - Study listening pedagogy, ear training, performance feedback, improvisation, and music-production learning as distinct PCK lanes.
+  - Audit pop-music topic materials for work-centrism, canon formation, notation bias, rights, cultural authority, and claims of universal affect.
+  - Compare aesthetic encounter in literature, visual art, dance, theatre, film, and craft before extracting any cross-arts heuristic.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
