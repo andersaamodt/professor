@@ -1,0 +1,170 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: tradition-grounded-educational-philosophies-2026-08-12
+title: Educational traditions are arguments within living worlds, not interchangeable values lists
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [epistemic-justice-curriculum-and-knowledge-access, educational-ethics-and-nonideal-judgment, indigenous-decolonial-and-sovereign-pedagogies]
+scope: >-
+  A deliberately bounded comparison of Confucian self-cultivation, Islamic
+  tarbiyah and adab, Buddhist compassion and attention, African philosophies of
+  ubuntu, and Latin American decolonial popular education, with internal critique.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Sampled tradition-grounded philosophical and review scholarship, treating
+    each vocabulary as contested and historically situated rather than extracting universal techniques.
+  inclusion: Scholarship naming lineages, language, internal debates, political conditions, and characteristic pedagogical ends.
+  exclusions: Civilizational personality claims, “East versus West,” spirituality as wellness technology, and ubuntu, adab, ren, compassion, or buen vivir used as branding.
+  limitations: >-
+    This scan cannot represent the plurality within any named tradition. It is a
+    safeguard against premature synthesis and a route to deeper reading, not a survey of world philosophies.
+readings:
+  - id: tu-1999-self-cultivation
+    kind: confucian-philosophy-of-education
+    citation: Tu, W. (1999). Self-cultivation as education embodying humanity. Proceedings of the Twentieth World Congress of Philosophy, 3, 27-40.
+    url: https://www.pdcnet.org/wcp20/content/wcp20_1999_0003_0027_0040
+    publication_date: 1999-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Confucian learning as character formation through study, ritual, relation, reflection, and embodied humanity.
+    design: Philosophical interpretation of self-cultivation within modern Confucian thought.
+    finding: Self-cultivation is relational moral formation rather than private self-optimization; learning implicates family, community, tradition, and exemplary practice.
+    limits: Confucian traditions are plural, and cultivation, role, and harmony have been entangled with patriarchal, status, and examination hierarchies.
+
+  - id: horne-et-al-2025-tarbiyah-review
+    kind: bilingual-critical-literature-review
+    citation: Horne, J., et al. (2025). Exploring tarbiyah in Islamic education—A critical review of the English- and Arabic-language literature. Education Sciences, 15(5), 559. https://doi.org/10.3390/educsci15050559
+    url: https://doi.org/10.3390/educsci15050559
+    publication_date: 2025-05-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Contemporary scholarship using tarbiyah, ta'lim, and ta'dib to conceptualize Islamic education.
+    design: Critical review across Arabic- and English-language literature, definitions, lineages, and conceptual departures.
+    finding: Islamic educational vocabulary is internally disputed; nurture, teaching, knowledge, worship, ethics, socialization, and adab cannot be collapsed into one “holistic” formula.
+    limits: Review categories and available databases still mediate diverse jurisprudential, theological, linguistic, regional, gendered, and institutional traditions.
+
+  - id: bai-2023-bodhisattva-compassion
+    kind: buddhist-philosophy-of-education
+    citation: Bai, H. (2023). Engaging bodhisattva compassion in pedagogical aporias. Philosophical Inquiry in Education, 30(3), 221-235.
+    url: https://pie.journals.publicknowledgeproject.org/index.php/pie/article/view/372
+    publication_date: 2023-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Pedagogical action under suffering, attachment, identity conflict, and ethical uncertainty.
+    design: Philosophical inquiry through Chinese etymology and Buddhist accounts of embodied, unattached, discerning compassion.
+    finding: Compassion is not sentimental agreement but lucid, embodied responsiveness joined to wisdom and skillful action.
+    limits: Calls for undifferentiated compassion can depoliticize asymmetrical power or make a religious formation sound universally available.
+
+  - id: waghid-2020-ubuntu-higher-education
+    kind: african-philosophy-of-education
+    citation: Waghid, Y. (2020). Towards an ubuntu philosophy of higher education in Africa. Studies in Philosophy and Education, 39, 299-308. https://doi.org/10.1007/s11217-020-09709-4
+    url: https://doi.org/10.1007/s11217-020-09709-4
+    publication_date: 2020-05-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: African higher education interpreted through interdependence, humaneness, deliberation, and justice.
+    design: Philosophical argument for an African account of teaching and learning.
+    finding: Human interdependence can ground higher education in relational encounter and humane action rather than atomized achievement.
+    limits: Ubuntu is contested; harmony can suppress dissent, “African” can be homogenized, and anglophone academic use can detach concepts from languages and politics.
+
+  - id: ramose-2012-ubuntu-defense
+    kind: african-philosophical-counterargument
+    citation: Ramose, M. B. (2012). In defence of ubuntu. Studies in Philosophy and Education, 31, 69-78. https://doi.org/10.1007/s11217-011-9267-2
+    url: https://doi.org/10.1007/s11217-011-9267-2
+    publication_date: 2012-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Debate over ubuntu, African philosophy, democratic citizenship, harmony, and education in South Africa.
+    design: Philosophical response to political, moral, epistemological, and educational criticisms.
+    finding: Ubuntu must be engaged as philosophy capable of argument and defense, not reduced to ethnographic custom or dismissed against an unmarked Western norm.
+    limits: A defense within one debate does not resolve feminist, queer, class, disability, nationalist, or intraregional critiques.
+
+  - id: ortiz-arias-2018-latin-american-decolonial
+    kind: intellectual-history-and-decolonial-pedagogy
+    citation: Ortiz Ocaña, A., Arias López, M. I., & Pedrozo Conedo, Z. E. (2018). Toward a decolonial pedagogy in Latin America—Convergences between popular education and participatory action research. Education Policy Analysis Archives, 26, 84. https://doi.org/10.14507/epaa.26.3424
+    url: https://doi.org/10.14507/epaa.26.3424
+    publication_date: 2018-07-16
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Latin American popular education and participatory action research in confrontation with colonial science and authoritarian pedagogy.
+    design: Comparative intellectual history of Paulo Freire and Orlando Fals Borda.
+    finding: Knowledge production, collective inquiry, and educational action can be joined under participant authority rather than separated into expert research and recipient instruction.
+    limits: “Latin America” is internally colonial and heterogeneous; convergence claims can obscure Indigenous, Black, feminist, and movement-specific authorship and disagreements.
+claims:
+  - id: formation-is-relational-but-not-the-same-relation
+    statement: >-
+      These traditions each challenge the isolated knowledge-acquirer, but kinship,
+      ritual role, divine relation, interdependence, compassion, community, and collective struggle are not synonyms.
+    confidence: high
+    source_ids: [tu-1999-self-cultivation, horne-et-al-2025-tarbiyah-review, bai-2023-bodhisattva-compassion, waghid-2020-ubuntu-higher-education, ortiz-arias-2018-latin-american-decolonial]
+    supports: Preserve original terms, historical problems, languages, practices, and disputes before comparison; ask what relation and authority a claim actually names.
+    tensions: Comparison can reveal shared questions and generative differences when expertise and asymmetry are explicit.
+    boundary_conditions: Language, lineage, institution, faith, community, historical struggle, translation, and learner relation.
+    does_not_license: Values collage, civilizational typology, spiritual tourism, or treating relation as compulsory intimacy.
+
+  - id: ethics-and-knowledge-are-not-separable-by-default
+    statement: >-
+      Across these accounts, how one studies, receives, transmits, embodies, and
+      uses knowledge can be part of what knowing is worth, not an ethical layer added afterward.
+    confidence: medium
+    source_ids: [tu-1999-self-cultivation, horne-et-al-2025-tarbiyah-review, bai-2023-bodhisattva-compassion, ortiz-arias-2018-latin-american-decolonial]
+    supports: Teach source conduct, relation, responsibility, and consequence alongside propositions while maintaining distinctions between truth and virtue.
+    tensions: Joining ethics and epistemology can enforce orthodoxy, piety, deference, harmony, or political correctness as tests of factual knowledge.
+    boundary_conditions: Domain, authority, tradition, learner commitment, stakes, evidence, and dissent.
+    does_not_license: Moralized grading, doctrinal instruction without consent, truth by goodness, or demanding identity performance.
+
+  - id: internal-critique-is-part-of-tradition
+    statement: >-
+      A tradition is not faithfully represented by one idealized principle;
+      argument over hierarchy, gender, authority, interpretation, modernity, colonialism, and practice belongs inside it.
+    confidence: high
+    source_ids: [horne-et-al-2025-tarbiyah-review, ramose-2012-ubuntu-defense, ortiz-arias-2018-latin-american-decolonial]
+    supports: Pair an orienting text with internal counterreadings and contemporary practitioners; do not make external critique the sole sign of rigor.
+    tensions: “Internal” boundaries are contested and can be policed to disqualify diaspora, convert, feminist, heterodox, or dissident voices.
+    boundary_conditions: Authority, language, location, institution, historical moment, community recognition, and dissent.
+    does_not_license: Authenticity tests, token controversy, flattening disagreement, or outsider selection of the legitimate representative.
+
+  - id: translation-is-pedagogical-power
+    statement: >-
+      Translating ren, li, tarbiyah, ta'lim, ta'dib, karuna, ubuntu, or buen vivir
+      into familiar educational vocabulary chooses analogies and hides remainders.
+    confidence: high
+    source_ids: [tu-1999-self-cultivation, horne-et-al-2025-tarbiyah-review, bai-2023-bodhisattva-compassion, waghid-2020-ubuntu-higher-education]
+    supports: Show the source term, translation alternatives, grammar and etymology where warranted, and a concrete textual use before abstraction.
+    tensions: Refusing translation can mystify terms, gatekeep, or imply incommensurability.
+    boundary_conditions: Language competence, genre, doctrinal context, historical period, audience, and pedagogical purpose.
+    does_not_license: Secret essences in roots, untranslated ornament, one-to-one glosses, or AI confidence across traditions.
+
+  - id: professor-should-not-appropriate-a-voice
+    statement: >-
+      Studying a tradition may improve Professor's questions, but does not authorize
+      it to speak as a Confucian master, Islamic educator, Buddhist guide, ubuntu elder, or popular educator.
+    confidence: high
+    source_ids: [horne-et-al-2025-tarbiyah-review, ramose-2012-ubuntu-defense, ortiz-arias-2018-latin-american-decolonial]
+    supports: Attribute, locate, disclose distance and competence, and direct learners to practitioners and primary texts when they seek formation within a tradition.
+    tensions: Excessive distance can relegate non-Western thought to ethnographic objects while the AI speaks Western philosophy as universal.
+    boundary_conditions: Learner request, tradition membership, spiritual authority, language, institution, stakes, and source access.
+    does_not_license: Role-played authority, religious counsel, cultural mimicry, or an unmarked Western default.
+implications:
+  - >-
+    Professor's teacherly voice should become more precise about relation, formation, authority, and consequence without borrowing the cadence or moral standing of a tradition.
+  - >-
+    Philology is especially suited to showing how educational concepts resist one-word translation, but etymology must open historical inquiry rather than reveal a supposedly pure worldview.
+  - >-
+    Future tradition-specific curriculum requires its own topic module, competent sources, internal debate, and explicit promotion; none is bundled by this scan.
+  - >-
+    Existing plural-tradition, sovereignty, source, and authority policies carry the floor. No syncretic tack is earned.
+open_questions:
+  - Which tradition-grounded scholars should guide a full reading lane for each philosophy, in which languages?
+  - How can Professor avoid treating Christianity and secular liberalism as unmarked while carefully labeling other traditions?
+  - When is learning a concept through philology respectful comparison, and when is it extraction from a form of life?
+  - What does learner consent require when a lesson's educational end is explicitly moral or spiritual formation?
+next_actions:
+  - Deep-read one tradition at a time in later bounded lanes rather than expanding this comparison.
+  - Audit teacherly metaphors such as cultivation, awakening, care, harmony, and liberation for unattributed conceptual borrowing.
+  - Keep religious or tradition-specific formation outside the automatic daily loop unless explicitly requested.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
