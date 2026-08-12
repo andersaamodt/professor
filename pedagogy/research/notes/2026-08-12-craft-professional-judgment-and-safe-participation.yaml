@@ -1,0 +1,180 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: craft-professional-judgment-and-safe-participation-2026-08-12
+title: Professional formation joins embodied judgment to public responsibility
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise, adult-development-prior-knowledge-and-self-direction, educational-ethics-and-nonideal-judgment]
+scope: >-
+  Craft knowledge, cognitive apprenticeship, professional signature pedagogies,
+  reflection-in-action, expansive and restrictive apprenticeship, safety,
+  workmanship, tacit judgment, labor, and the learner's route to independent practice.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Read foundational apprenticeship and professional-education accounts beside
+    workplace-learning and embodied craft studies; used labor, safety, and
+    non-domination lenses to test romantic master-apprentice narratives.
+  inclusion: Sources specifying demonstration, guided participation, judgment, material mediation, occupational context, autonomy, or workplace opportunity.
+  exclusions: Employability traits without occupational practice, heroic-master narratives, reflection journals as compliance, simulated authenticity, and productive labor mislabeled education.
+  limitations: >-
+    Evidence spans school cognition, steel apprenticeships, professional schools,
+    textile classrooms, and Norwegian construction. Craft, profession, occupation,
+    and workplace are not interchangeable, and safety regimes vary radically.
+readings:
+  - id: collins-et-al-1989-cognitive-apprenticeship
+    kind: foundational-instructional-theory
+    citation: Collins, A., Brown, J. S., & Newman, S. E. (1989). Cognitive apprenticeship—Teaching the crafts of reading, writing, and mathematics. In L. B. Resnick (Ed.), Knowing, learning, and instruction. Lawrence Erlbaum.
+    url: https://www.aft.org/ae/winter1991/collins_brown_holum
+    publication_date: 1989-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Learners acquiring cognitive and metacognitive strategies in reading, writing, mathematics, and problem solving.
+    design: Theoretical synthesis of traditional apprenticeship, situated cognition, and instructional programs.
+    finding: Modeling, coaching, scaffolding and fading, articulation, reflection, and exploration can make hidden expert strategies observable and transfer increasing responsibility for both solving and framing problems.
+    limits: Expert cognition cannot always be verbalized accurately; forced articulation adds load; the sequence can idealize expertise and understate institutional and labor power.
+
+  - id: fuller-unwin-2003-expansive
+    kind: longitudinal-workplace-study-and-framework
+    citation: Fuller, A., & Unwin, L. (2003). Fostering workplace learning—Looking through the lens of apprenticeship. European Educational Research Journal, 2(1), 41-55. https://doi.org/10.2304/eerj.2003.2.1.9
+    url: https://doi.org/10.2304/eerj.2003.2.1.9
+    publication_date: 2003-03-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Apprentices and experienced workers in the English steel industry over three years.
+    design: Workplace research developing an expansive-restrictive continuum for apprenticeship participation and learning opportunity.
+    finding: Expansive environments provide broad participation, planned development, multiple sites and communities, recognized learner status, skilled mentors, and progression; restrictive environments narrow tasks and future possibility.
+    limits: One industrial and national setting cannot define quality across occupations, and expansive rhetoric can coexist with exploitation.
+
+  - id: shulman-2005-signature-pedagogies
+    kind: comparative-professional-education-theory
+    citation: Shulman, L. S. (2005). Signature pedagogies in the professions. Daedalus, 134(3), 52-59. https://doi.org/10.1162/0011526054622015
+    url: https://www.amacad.org/publication/daedalus/signature-pedagogies-professions
+    publication_date: 2005-07-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Preparation in law, medicine, engineering, clergy, teaching, and other professions.
+    design: Comparative conceptual analysis of characteristic professional teaching forms and their surface, deep, and implicit structures.
+    finding: Recurrent public pedagogies socialize ways of thinking, performing, and acting with integrity under uncertainty, but their hidden curriculum can also reproduce professional hierarchy and habit.
+    limits: “Signature” can essentialize professions, romanticize established forms, and obscure variation, exclusion, labor, and evidence of outcomes.
+
+  - id: schon-1983-reflective-practitioner
+    kind: epistemology-of-professional-practice
+    citation: Schön, D. A. (1983). The reflective practitioner—How professionals think in action. Basic Books.
+    url: https://archive.org/details/reflectivepracti0000scho
+    publication_date: 1983-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Architecture, psychotherapy, engineering, management, and other professions facing indeterminate situations.
+    design: Case-based philosophical account critiquing technical rationality and describing knowing- and reflection-in-action.
+    finding: Skilled practitioners frame uncertain situations, notice surprise, experiment within action, and revise their appreciation rather than merely apply general theory.
+    limits: Reflection is often vague, retrospectively reconstructed, individualistic, and insufficiently attentive to organizational power, evidence, routinization, and public accountability.
+
+  - id: koskinen-et-al-2015-craft-embodiment
+    kind: videographic-interaction-study
+    citation: Koskinen, A., Seitamaa-Hakkarainen, P., & Hakkarainen, K. (2015). Interaction and embodiment in craft teaching. Techne Series, 22(1), 59-72.
+    url: https://researchportal.helsinki.fi/en/publications/interaction-and-embodiment-in-craft-teaching/
+    publication_date: 2015-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Nine seventh-grade girls and a teacher during garment sewing in a textile classroom.
+    design: Approximately five hours of video analyzed for gesture, material and tool mediation, and embodied interaction.
+    finding: Gesture, positioning, touch, tools, materials, and learner bodily response carried instructional information that verbal accounts alone would miss.
+    limits: Small gendered classroom case and selected sewing episodes cannot define craft learning broadly.
+
+  - id: lensjo-2024-vocational-craft
+    kind: narrative-qualitative-study
+    citation: Lensjø, M. (2024). Vocational teachers' craft knowledge and working-life experiences in building and construction—A narrative study of embodied and tacit learning. Vocations and Learning, 17, 301-322. https://doi.org/10.1007/s12186-024-09344-3
+    url: https://doi.org/10.1007/s12186-024-09344-3
+    publication_date: 2024-05-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Eleven Norwegian vocational teachers with 15-30 years of prior plumbing or carpentry experience.
+    design: Retrospective semistructured interviews interpreted phenomenologically and through situated learning.
+    finding: Craft judgment involved bodily perception, tools, materials, comparison across cases, problem solving, standards of quality, occupational identity, and largely invisible choices accumulated over time.
+    limits: Retrospective expert narratives may idealize career history, tacitness, perfection, masculinity, or professional identity and do not directly observe learner outcomes.
+claims:
+  - id: demonstration-must-reveal-attention
+    statement: >-
+      A useful demonstration makes visible not only the finished motion or answer
+      but what the practitioner notices, anticipates, feels through the tool, checks, and does when conditions depart from plan.
+    confidence: high
+    source_ids: [collins-et-al-1989-cognitive-apprenticeship, koskinen-et-al-2015-craft-embodiment, lensjo-2024-vocational-craft]
+    supports: Slow or replay critical moments, contrast cases, name cues when possible, preserve nonverbal views, and let the learner attempt with timely coaching.
+    tensions: Expert narration can disrupt fluid performance, misdescribe tacit control, or overload the novice.
+    boundary_conditions: Task, hazard, visibility, expertise, material, tool, medium, and learner access.
+    does_not_license: Thought-stream theater, polished output as teaching, unsafe imitation, or pretending text can transmit touch, force, sound, smell, and timing.
+
+  - id: tacit-does-not-mean-mystical
+    statement: >-
+      Skilled judgment may exceed immediate verbal report while remaining open to
+      comparison, guided participation, instrumentation, artifacts, outcomes, critique, and partial articulation.
+    confidence: high
+    source_ids: [schon-1983-reflective-practitioner, koskinen-et-al-2015-craft-embodiment, lensjo-2024-vocational-craft]
+    supports: Use cases, demonstrations, sensory cues, annotated artifacts, failure contrasts, and repeated situated practice rather than demand a complete rule first.
+    tensions: “Tacit knowledge” can hide superstition, unsafe tradition, gatekeeping, or an expert's inability to explain.
+    boundary_conditions: Practice, evidence, safety, material variation, measurement, tradition, and practitioner competence.
+    does_not_license: Master mystique, anti-theory, immunity from testing, secret knowledge, or devaluing explicit standards and science.
+
+  - id: authenticity-is-structured-access-to-practice
+    statement: >-
+      A task is educationally authentic when it gives access to consequential
+      relations, standards, tools, decisions, and feedback of a practice at a safe and developmentally usable scale.
+    confidence: high
+    source_ids: [collins-et-al-1989-cognitive-apprenticeship, fuller-unwin-2003-expansive, shulman-2005-signature-pedagogies]
+    supports: Preserve a real judgment or consequence, provide skilled supervision, rotate beyond menial tasks, and connect local work to wider knowledge and progression.
+    tensions: Simulations and isolated exercises can safely concentrate rare, dangerous, or hidden features better than a real workplace.
+    boundary_conditions: Hazard, labor law, learner readiness, workplace, supervision, task consequence, and educational end.
+    does_not_license: Free labor, production pressure, exposure to harm, humiliation, “real world” incivility, or withholding background knowledge.
+
+  - id: professional-formation-has-a-hidden-curriculum
+    statement: >-
+      Recurrent professional pedagogies teach who may speak, what uncertainty may
+      be admitted, whose judgment counts, how clients or publics are viewed, and which harms are normalized alongside technical competence.
+    confidence: high
+    source_ids: [shulman-2005-signature-pedagogies, fuller-unwin-2003-expansive]
+    supports: Inspect roles, turn-taking, cases, evaluation, authority, ethical dilemmas, labor, and the route for challenging unsafe or unjust norms.
+    tensions: Stable norms, hierarchy, and standard routines can coordinate safety and responsibility in high-stakes teams.
+    boundary_conditions: Profession, jurisdiction, hazard, institution, client or public, learner status, and accountability.
+    does_not_license: Anti-professionalism, flattening every role, treating all hierarchy as domination, or replacing competence with critical vocabulary.
+
+  - id: reflection-needs-an-object-and-consequence
+    statement: >-
+      Reflection supports professional learning when it revisits a specific frame,
+      cue, decision, outcome, norm, or surprise and informs a testable next action.
+    confidence: high
+    source_ids: [schon-1983-reflective-practitioner]
+    supports: Compare intention, observation, alternative frames, evidence, consequences, and the next experiment; allow nonverbal or collaborative replay where appropriate.
+    tensions: Not every competent action requires conscious reflection, and immediate safety protocols can override improvisation.
+    boundary_conditions: Time, consequence, evidence, privacy, team, task, and safety.
+    does_not_license: Compulsory journaling, confession, rumination, post-hoc hero stories, introspection as evidence, or reflection without changed practice.
+
+  - id: apprenticeship-must-expand-independent-possibility
+    statement: >-
+      A learning arrangement is restrictive when it makes the learner useful to the
+      current task while withholding breadth, theory, mobility, voice, recognized status, or a route beyond dependence.
+    confidence: high
+    source_ids: [fuller-unwin-2003-expansive, collins-et-al-1989-cognitive-apprenticeship]
+    supports: Track breadth of tasks, access to expertise and off-job knowledge, problem framing, credentials, feedback, progression, and ability to refuse unsafe work.
+    tensions: Early practice necessarily includes repetition, peripheral tasks, and close supervision.
+    boundary_conditions: Stage, hazard, employment relation, compensation, credential, mentor, institution, and learner goal.
+    does_not_license: Premature independence, romantic exploration, unpaid “exposure,” permanent scaffolds, or loyalty demands.
+implications:
+  - Professor can model cognitive work and judgment but must disclose where embodied, material, social, licensed, or safety-supervised practice cannot be replaced by dialogue.
+  - A teacherly demonstration should include one cue, one decision, one check, and one failure response—not an exhaustive simulated chain of thought.
+  - Professional cases need clients, workers, institutions, uncertainty, and consequences, not merely a technical puzzle with an ethical epilogue.
+  - Reflection prompts should expire when they produce no changed hypothesis or action; reflective accumulation is not evidence of growth.
+  - Existing apprenticeship and labor notes provide the policy floor. No generic authenticity or cognitive-apprenticeship routine is earned.
+open_questions:
+  - Which kinds of tacit judgment can remote multimodal tools safely support, and which require co-present expert supervision?
+  - How should learners challenge a professional standard while still becoming competent enough to understand its function?
+  - What counts as evidence that fading support increased independence rather than merely reduced help?
+  - How can craft quality be taught without fusing personal worth to perfection or occupational identity?
+next_actions:
+  - Study safety pedagogy, simulation, deliberate practice, and error management in aviation, medicine, trades, and laboratory work.
+  - Audit Professor's “authentic task” language for uncompensated labor, false stakes, simulated clients, and missing supervision.
+  - Keep regulated or hazardous skill instruction bounded to conceptual orientation and direct learners to qualified hands-on teaching.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
