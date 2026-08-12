@@ -1,0 +1,311 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: trauma-healing-disclosure-and-role-boundaries-2026-08-12
+title: Design for dignity and choice without diagnosing trauma or promising healing
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [educational-ethics-and-nonideal-judgment, access-disability-and-equivalent-participation]
+scope: >-
+  A bounded, high-stakes inquiry into trauma-informed education, trauma and
+  violence-informed principles, healing-centered engagement, difficult subject
+  matter, disclosure, avoidance, racialized and structural harm, clinical
+  boundaries, and AI teaching. It asks which universal conditions are warranted,
+  what claims remain unproven, and what an educator must neither infer nor do.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared rigorous and broader systematic reviews, a recent longitudinal
+    implementation study, racial-equity analysis, scholarship on teaching
+    traumatic material, an ethical countercritique of avoidance, and the
+    founding healing-centered account. Read educational, organizational,
+    clinical, political, privacy, access, and learner-agency claims separately.
+  inclusion: >-
+    Reviews with explicit definitions and comparison standards, studies naming
+    nulls and implementation limits, affected-population or structural analysis,
+    and ethical arguments about disclosure, difficulty, safety, and role.
+  exclusions: >-
+    Polyvagal or neuroscience branding as direct pedagogical proof, ACE scoring,
+    behavior-to-trauma inference, mandatory personal narrative, therapeutic
+    exercises outside competence, compliance framed as regulation, and resilience
+    rhetoric that leaves harmful conditions intact.
+  limitations: >-
+    Most studies concern children and whole schools, not voluntary adult AI
+    teaching. “Trauma-informed” denotes heterogeneous organizational and clinical
+    bundles. Outcomes are often proximal and designs weak. Healing-centered work
+    is a political-practice framework rather than a validated universal
+    intervention. This note is not mental-health guidance or clinical competence.
+readings:
+  - id: maynard-et-al-2019-trauma-informed-schools
+    kind: systematic-review
+    citation: >-
+      Maynard, B. R., Farina, A., Dell, N. A., & Kelly, M. S. (2019). Effects of
+      trauma-informed approaches in schools: A systematic review. Campbell
+      Systematic Reviews, 15(1-2), e1018. https://doi.org/10.1002/cl2.1018
+    url: https://doi.org/10.1002/cl2.1018
+    publication_date: 2019-07-17
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Whole-school trauma-informed approaches for children and youth in educational settings.
+    design: Preregistered systematic review requiring randomized or quasi-experimental comparison designs.
+    finding: >-
+      The review found no studies meeting eligibility criteria and therefore no
+      basis for conclusions about effects. It emphasized conceptual and
+      implementation variation hidden by the singular label “trauma-informed school.”
+    limits: >-
+      Absence of eligible evidence in that search period is not evidence of no
+      benefit; whole-school complexity makes narrow effectiveness designs difficult.
+
+  - id: fondren-et-al-2020-school-wide-review
+    kind: systematic-review
+    citation: >-
+      Fondren, K., Lawson, M., Speidel, R., McDonnell, C. G., & Valentino, K.
+      (2020). Buffering the effects of childhood trauma within the school
+      setting: A systematic review of trauma-informed and trauma-responsive
+      interventions among trauma-affected youth. Children and Youth Services
+      Review, 109, 104691. https://doi.org/10.1016/j.childyouth.2019.104691
+    url: https://doi.org/10.1016/j.childyouth.2019.104691
+    publication_date: 2019-12-19
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Trauma-affected youth and school-based trauma-informed or responsive interventions.
+    design: Systematic review of school models, student outcomes, implementation, training, and sustainability.
+    finding: >-
+      Models and implementation varied substantially; preliminary outcomes and
+      organizational learning were reported, while methodological weakness and
+      limited controlled evidence constrained causal conclusions.
+    limits: >-
+      Broader eligibility maps practice but cannot supply the causal confidence
+      absent from stricter reviews.
+
+  - id: wassink-de-stigter-et-al-2024-implementation
+    kind: longitudinal-pre-post-study
+    citation: >-
+      Wassink-de Stigter, R., et al. (2024). Implementing a school-wide trauma-
+      informed education approach: An evaluation of student outcomes during the
+      first year of implementation. Journal of Child & Adolescent Trauma.
+      https://doi.org/10.1007/s40653-024-00663-0
+    url: https://doi.org/10.1007/s40653-024-00663-0
+    publication_date: 2024-10-23
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Two regular primary and six special primary and secondary schools across baseline and first implementation year.
+    design: Six-wave piecewise latent-growth pre-post evaluation without randomized comparison.
+    finding: >-
+      Modest favorable changes emerged for classroom atmosphere and resilience,
+      while the many other measured mental-health, behavior, executive-function,
+      relationship, and order outcomes did not support a broad transformation claim.
+    limits: >-
+      Small school sample, no concurrent control, multiple outcomes, first-year
+      implementation, and possible history or measurement effects limit attribution.
+
+  - id: chafouleas-et-al-2025-racial-equity
+    kind: scoping-review
+    citation: >-
+      Chafouleas, S. M., et al. (2025). Common elements of trauma-informed
+      schools and attention to racial equity: A scoping review. School Mental
+      Health. https://doi.org/10.1007/s12310-024-09721-2
+    url: https://doi.org/10.1007/s12310-024-09721-2
+    publication_date: 2024-12-23
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Preschool-12 school- and district-wide trauma-informed models spanning organizational, workforce, educational, and clinical practices.
+    design: Scoping review coding common components and attention to racial equity.
+    finding: >-
+      Published models largely took a color-blind approach and often neglected
+      structural and racialized trauma and retraumatization within schools;
+      equity-related components appeared unevenly and outcome evidence was sparse.
+    limits: >-
+      Scoping review describes the literature rather than estimating effects;
+      coding cannot reveal unreported practices or lived consequences.
+
+  - id: carello-butler-2014-perilous-pedagogies
+    kind: ethical-and-practice-analysis
+    citation: >-
+      Carello, J., & Butler, L. D. (2014). Potentially perilous pedagogies:
+      Teaching trauma is not the same as trauma-informed teaching. Journal of
+      Trauma & Dissociation, 15(2), 153-168.
+      https://doi.org/10.1080/15299732.2014.867571
+    url: https://doi.org/10.1080/15299732.2014.867571
+    publication_date: 2014-01-13
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Nonclinical higher-education courses engaging trauma theory, traumatic material, or learner disclosure.
+    design: Conceptual and practice analysis of exposure, emotional safety, disclosure, content, and instructor responsibility.
+    finding: >-
+      Teaching about trauma does not itself make teaching trauma-informed;
+      immersive exposure and encouraged disclosure can create foreseeable harm,
+      requiring advance design, choice, alternatives, boundaries, and support.
+    limits: >-
+      Ethical caution does not specify effect sizes or imply that difficult
+      content, emotion, or discomfort is itself harmful.
+
+  - id: bakshi-2026-care-avoidance
+    kind: interdisciplinary-ethical-counterargument
+    citation: >-
+      Bakshi, P. (2026). Between care and avoidance: Ethical limits of trauma-
+      informed pedagogy in education. Journal of Philosophy of Education.
+    url: https://philpapers.org/rec/BAKBCA-2
+    publication_date: 2026-07-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Educational trauma-informed practices and assumptions about discomfort, harm, avoidance, and difficulty.
+    design: Interdisciplinary philosophical critique drawing on ethics, psychology, linguistics, neuroscience, pain science, education, and political philosophy.
+    finding: >-
+      The author challenges equations between discomfort and material harm,
+      assumptions that avoidance is preferable, and duties to protect learners
+      from difficulty, arguing these lack adequate ethical and empirical grounding.
+    limits: >-
+      The full argument was not available in this scan; critique of avoidance
+      does not validate imposed exposure, disclosure, inaccessible difficulty,
+      or educators deciding another person's safety threshold.
+
+  - id: ginwright-2018-healing-centered
+    kind: practitioner-scholar-framework
+    citation: >-
+      Ginwright, S. (2018). The future of healing: Shifting from trauma-informed
+      care to healing-centered engagement.
+    url: https://ginwright.medium.com/the-future-of-healing-shifting-from-trauma-informed-care-to-healing-centered-engagement-634f557ce69c
+    publication_date: 2018-05-31
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Youth development, particularly young people of color, community conditions, culture, identity, civic action, adult wellbeing, and collective healing.
+    design: Practitioner-scholar conceptual argument grounded in youth-development research and experience.
+    finding: >-
+      Healing-centered engagement shifts from damage-centered individual trauma
+      toward assets, culture, identity, collective conditions, agency, civic
+      action, aspiration, and adult responsibility; healing is relational and political.
+    limits: >-
+      It is not an effectiveness trial, comprehensive clinical model, or license
+      for outsiders to claim healing authority or infer what a person needs.
+claims:
+  - id: universal-dignity-before-trauma-classification
+    statement: >-
+      Predictability, nonhumiliation, intelligible boundaries, meaningful choice,
+      equivalent routes, adjustable pacing, privacy, and clean exits should be
+      ordinary educational conditions rather than benefits rationed by trauma disclosure.
+    confidence: high
+    source_ids: [carello-butler-2014-perilous-pedagogies, maynard-et-al-2019-trauma-informed-schools]
+    supports: >-
+      Build safe-enough options into the first path and respond to a direct
+      learner request without requiring a cause, diagnosis, or personal history.
+    tensions: >-
+      Individual needs can exceed universal design and require specific human,
+      clinical, institutional, or accessibility support.
+    boundary_conditions: Stakes, content, learner request, environment, disability, age, institutional duty, available support, and imminent risk.
+    does_not_license: Assuming no accommodation is needed, calling every preference trauma-informed, therapeutic claims, or substituting politeness for structural change.
+
+  - id: behavior-does-not-disclose-trauma
+    statement: >-
+      Withdrawal, agitation, missed work, silence, urgency, disagreement,
+      forgetfulness, avoidance, or changed performance cannot identify trauma or
+      its cause; educational response should address the observable barrier and request.
+    confidence: high
+    source_ids: [maynard-et-al-2019-trauma-informed-schools, chafouleas-et-al-2025-racial-equity]
+    supports: >-
+      Change task conditions, offer routes, state boundaries, and invite only
+      the minimum information needed for a bounded accommodation.
+    tensions: >-
+      Trained human professionals may have role-specific duties to notice signs,
+      screen under consent and protocol, and connect people with support.
+    boundary_conditions: Role, competence, consent, risk, age, law, institutional policy, and availability of human support.
+    does_not_license: Diagnosis, ACE scoring, emotion inference, profiling, surveillance, clinical screening by Professor, or explaining conduct through a trauma story.
+
+  - id: safety-is-not-comfort-or-avoidance
+    statement: >-
+      Psychological and educational safety cannot be reduced to the absence of
+      discomfort, uncertainty, effort, disagreement, or difficult knowledge;
+      challenge becomes legitimate through purpose, proportionality, preparation,
+      choice where possible, support, and repair.
+    confidence: medium
+    source_ids: [bakshi-2026-care-avoidance, carello-butler-2014-perilous-pedagogies]
+    supports: >-
+      Give a plain description of demanding content, permit an alternate route
+      or stop, avoid forced immersion, and distinguish temporary discomfort from
+      foreseeable harm without overruling the learner's boundary.
+    tensions: >-
+      Warnings and options can become institutional disclaimers that transfer all
+      responsibility to learners or exclude essential knowledge.
+    boundary_conditions: Content, necessity, intensity, learner control, past and present power, support, accessibility, and consequence of opting out.
+    does_not_license: Exposure therapy, “growth outside comfort zone” coercion, disbelief, compulsory debate, or avoidance as the only accommodation.
+
+  - id: trauma-informed-is-not-one-proven-treatment
+    statement: >-
+      Trauma-informed education names heterogeneous organizational, pedagogical,
+      disciplinary, relational, screening, referral, and clinical components;
+      evidence about one bundle or proximal outcome cannot validate the label generally.
+    confidence: high
+    source_ids: [maynard-et-al-2019-trauma-informed-schools, fondren-et-al-2020-school-wide-review, wassink-de-stigter-et-al-2024-implementation]
+    supports: >-
+      Specify each proposed change, mechanism, evidence, consent, competence,
+      outcome, harm signal, and referral boundary rather than invoking the umbrella.
+    tensions: >-
+      Shared principles can coordinate broad organizational change even while
+      components and local implementation differ.
+    boundary_conditions: Component, population, implementation, comparator, outcome, timing, institution, and clinical integration.
+    does_not_license: Evidence branding, universal effectiveness claims, commercial certification as proof, or importing school-wide practices into one AI conversation.
+
+  - id: healing-requires-assets-culture-and-structural-change
+    statement: >-
+      A healing-centered frame challenges damage-only individualization by
+      including culture, identity, collective agency, aspiration, civic action,
+      adult and institutional responsibility, and transformation of harmful conditions.
+    confidence: medium
+    source_ids: [ginwright-2018-healing-centered, chafouleas-et-al-2025-racial-equity]
+    supports: >-
+      Teach structural history, preserve possibility and joy, treat culture as
+      living knowledge, and locate repair duties in systems and adults rather
+      than demanding individual resilience.
+    tensions: >-
+      “Healing” can become another expansive institutional promise, cultural
+      essentialism, or expectation that education cure harms it cannot repair.
+    boundary_conditions: Community authority, culture, learner purpose, institutional power, material change, role, consent, and human relationship.
+    does_not_license: Professor as healer, simulated community, forced optimism, spiritual appropriation, identity inference, or replacing clinical care.
+
+  - id: disclosure-is-never-the-price-of-care
+    statement: >-
+      Personal disclosure must not be required to earn flexibility, dignity,
+      belief, belonging, access, or an alternate route; teaching about suffering
+      does not create an entitlement to a learner's story.
+    confidence: high
+    source_ids: [carello-butler-2014-perilous-pedagogies, ginwright-2018-healing-centered]
+    supports: >-
+      Accept “not now,” permit nonspecific requests, avoid autobiographical
+      assignments by default, and explain limits of privacy and competence when
+      a learner volunteers sensitive information.
+    tensions: >-
+      Voluntary testimony, story, and mutual vulnerability can create knowledge,
+      solidarity, recognition, and political action under accountable conditions.
+    boundary_conditions: Consent, power, privacy, audience, recording, stakes, support, ownership, withdrawal, and downstream use.
+    does_not_license: Soliciting trauma narratives, praise for disclosure, storing histories, turning testimony into curriculum, or making silence suspicious.
+implications:
+  - >-
+    Professor should use universal dignity and access rules without labeling them
+    trauma-informed and should never infer, store, or teach from a trauma profile.
+  - >-
+    For difficult philological histories—colonial lexicography, racial slurs,
+    language suppression, sacred text, genocide, or archival violence—state the
+    object plainly, avoid gratuitous reproduction, offer route and stop control,
+    and teach the history rather than invite autobiography.
+  - >-
+    If a learner expresses imminent danger or asks for clinical help, Professor
+    should shift from teaching to bounded safety guidance and human escalation
+    appropriate to the situation; it should not perform therapy.
+  - >-
+    Existing constitutional dignity, privacy, accessibility, wellbeing, stop,
+    nonprofiling, and human-escalation rules are already stronger than any new
+    active tack justified here. Retain the note as boundary evidence.
+open_questions:
+  - Which universal educational design features reduce harm without clinicalizing ordinary learning or lowering intellectual access?
+  - How should content notices be written so they inform choice without sensationalizing, predicting distress, or becoming legalistic disclaimers?
+  - What do learners from affected communities identify as helpful, patronizing, extractive, avoidant, or structurally irrelevant?
+  - How should educational systems distinguish privacy-preserving accommodation from duties requiring human safeguarding or referral?
+  - Which healing-centered claims have independent outcome evidence, and which should remain ethical-political orientations?
+next_actions:
+  - Seek survivor-led, disability-led, Black, Indigenous, queer, refugee, and practitioner critiques without treating any group as uniform.
+  - Read clinical and legal guidance only for role boundaries and referral, not to import treatment into pedagogy.
+  - Audit Professor examples for diagnostic language, therapeutic tone, disclosure hooks, discomfort-as-harm, discomfort-as-growth, lowered demand, and false healing promises.
+  - Add no trauma-specific learner field, lesson tack, or automated classifier.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
