@@ -1,0 +1,257 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: adult-learning-prior-knowledge-and-transformation-2026-08-12
+title: Adulthood confers authority over one's life, not automatic expertise in every domain
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [adult-development-prior-knowledge-and-self-direction, pedagogical-authority-voice-and-non-domination]
+scope: >-
+  A bounded study of andragogy, self-direction, prior knowledge, expertise
+  reversal, and transformative learning. It asks which differences attributed
+  to adult learners are mechanisms, which are social conditions or ethical
+  claims, and which become stereotypes that excuse weak guidance.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Read a full critical review of Knowles' model, recent meta-analytic evidence
+    on expertise reversal, systematic reviews of self-directed learning, and
+    critical reviews of transformative learning. Compared age claims with
+    domain knowledge, coercion, time and institutional constraints, affect,
+    relationship, context, and the learner's authority over educational ends.
+  inclusion: >-
+    Reviews and syntheses that expose assumptions, comparisons, outcomes,
+    contextual limits, or counterevidence rather than repeating adult-learning
+    maxims as settled facts.
+  exclusions: >-
+    Corporate training slogans, age-essentialist lists, learning-style matching,
+    self-direction measured only as preference, and transformation treated as
+    inherently beneficial.
+  limitations: >-
+    Evidence clusters in health-professions and formal adult education; direct
+    transfer to voluntary conversational learning is uncertain. Some classic
+    critiques were accessed through later reviews rather than read in full, and
+    transformative-learning research remains definitionally and methodologically
+    heterogeneous.
+readings:
+  - id: mcgrath-2009-andragogy-review
+    kind: critical-review
+    citation: >-
+      McGrath, V. (2009). Reviewing the Evidence on How Adult Students Learn:
+      An Examination of Knowles' Model of Andragogy. The Adult Learner, 99-110.
+      https://files.eric.ed.gov/fulltext/EJ860562.pdf
+    url: https://files.eric.ed.gov/fulltext/EJ860562.pdf
+    publication_date: 2009-01-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Adult and continuing education, especially institutionally organized evening and vocational courses.
+    design: Critical narrative review of Knowles' assumptions and adult-education critiques.
+    finding: >-
+      Andragogy usefully foregrounds purpose, experience, participation, and
+      self-direction, but Knowles later called it a framework of assumptions,
+      not a complete learning theory. Adults can be novices, coerced attendees,
+      pressed by work and care, or learners whose prior experience obstructs as
+      well as supports new understanding.
+    limits: >-
+      The review is older, not systematic, and sometimes reproduces a crude
+      version of pedagogy as passive transmission. Its practical cases cannot
+      establish universal age differences.
+
+  - id: rolka-et-al-2025-expertise-reversal
+    kind: meta-analysis
+    citation: >-
+      Rolka, et al. (2025). A Cornerstone of Adaptivity—A Meta-Analysis of the
+      Expertise Reversal Effect. Learning and Instruction, 98, 102142.
+      https://doi.org/10.1016/j.learninstruc.2025.102142
+    url: https://doi.org/10.1016/j.learninstruc.2025.102142
+    publication_date: 2025-08-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Sixty experimental studies, 176 effect sizes, and 5,924 participants across education levels and domains.
+    design: PRISMA-guided meta-analysis accounting for dependent effect sizes.
+    finding: >-
+      Low-prior-knowledge learners benefited from higher assistance (d = 0.505),
+      while high-prior-knowledge learners benefited from lower assistance
+      (d = -0.428). The authors stress that supplying novices with help is more
+      important than aggressively withholding it from experts.
+    limits: >-
+      Prior-knowledge measure, educational status, and domain moderated effects;
+      expertise is task-specific, and a pooled interaction does not identify an
+      individual's optimal support from age, confidence, or fluent talk.
+
+  - id: murad-et-al-2010-self-directed-learning
+    kind: systematic-review-and-meta-analysis
+    citation: >-
+      Murad, M. H., Coto-Yglesias, F., Varkey, P., Prokop, L. J., & Murad,
+      A. L. (2010). The Effectiveness of Self-Directed Learning in Health
+      Professions Education: A Systematic Review. Medical Education, 44(11),
+      1057-1068. https://doi.org/10.1111/j.1365-2923.2010.03750.x
+    url: https://doi.org/10.1111/j.1365-2923.2010.03750.x
+    publication_date: 2010-11-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Health-professions learners in comparative studies of author-defined self-directed learning interventions.
+    design: Systematic review and random-effects meta-analysis of knowledge, skill, and attitude outcomes.
+    finding: >-
+      Self-directed learning was studied as a family of designed interventions,
+      not the mere withdrawal of teaching; reported benefits differed across
+      outcomes and settings.
+    limits: >-
+      The full text was not read in this scan, definitions varied, and health
+      professions learners face curricula, assessment, and professional stakes
+      unlike open-ended voluntary study.
+
+  - id: taylor-2000-transformative-classroom
+    kind: critical-review
+    citation: >-
+      Taylor, E. W. (2000). Fostering Mezirow's Transformative Learning Theory
+      in the Adult Education Classroom: A Critical Review. Canadian Journal for
+      the Study of Adult Education, 14(2), 1-28.
+      https://doi.org/10.56105/cjsae.v14i2.1929
+    url: https://doi.org/10.56105/cjsae.v14i2.1929
+    publication_date: 2000-11-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Twenty-three empirical studies of attempts to foster transformative learning in adult classrooms.
+    design: Critical review of empirical studies, nineteen of which were unpublished dissertations.
+    finding: >-
+      Reported transformative learning involved agency, group ownership,
+      experience, affect, critical reflection, relationships, context, and time;
+      it was not a reliable product of a disorienting prompt or rational
+      discussion alone.
+    limits: >-
+      Evidence was predominantly qualitative and theory-framed, outcome effects
+      remained unclear, and unpublished dissertations dominated the sample.
+
+  - id: cranton-taylor-2013-theory-in-progress
+    kind: critical-theoretical-review
+    citation: >-
+      Cranton, P., & Taylor, E. W. (2013). A Theory in Progress? Issues in
+      Transformative Learning Theory. European Journal for Research on the
+      Education and Learning of Adults, 4(1), 35-47.
+      https://doi.org/10.3384/rela.2000-7426.rela5000
+    url: https://doi.org/10.3384/rela.2000-7426.rela5000
+    publication_date: 2013-04-10
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Transformative-learning theory and research across adult-education settings.
+    design: Critical theoretical review of recurrent methodological and conceptual problems.
+    finding: >-
+      The literature risks deterministic narratives, shallow repetition,
+      insufficient critical testing, and an inherently positive account of
+      transformation. Experience, desire to change, empathy, power, and harmful
+      or unwanted transformations require explicit examination.
+    limits: >-
+      This is a theory critique rather than a comparative outcome study, and it
+      does not supply a ready operational boundary for conversational AI.
+claims:
+  - id: adult-status-and-domain-expertise-are-different
+    statement: >-
+      An adult's authority over purposes, disclosure, time, and life consequences
+      does not imply high prior knowledge in a particular domain; respectful
+      teaching can therefore be explicit and highly supportive without becoming
+      paternalistic.
+    confidence: high
+    source_ids: [mcgrath-2009-andragogy-review, rolka-et-al-2025-expertise-reversal]
+    supports: >-
+      Ask or lightly test what is already usable, state why a route matters,
+      provide models and answers to novices, and fade redundancy in response to
+      demonstrated capability rather than age, credential, or verbal fluency.
+    tensions: >-
+      Even domain novices bring consequential language, values, analogies,
+      practices, and histories that can reshape the curriculum rather than
+      merely serving as hooks for expert content.
+    boundary_conditions: >-
+      Prior knowledge is local to the target and may be partial, tacit,
+      inaccessible under current conditions, confidently wrong, or uneven
+      across subskills.
+    does_not_license: Infantilizing tone, compulsory explanation, diagnostic labeling, or treating a quick pretest as the person's identity.
+
+  - id: self-direction-is-supported-capability
+    statement: >-
+      Self-direction is a situated capability involving purpose, planning,
+      resource judgment, monitoring, and revision; it is not demonstrated by
+      leaving a learner alone or transferring all design labor to them.
+    confidence: medium
+    source_ids: [mcgrath-2009-andragogy-review, murad-et-al-2010-self-directed-learning]
+    supports: >-
+      Offer a usable first route, make consequential choices visible, teach the
+      planning and calibration moves themselves, and fade scaffolds as the
+      learner takes them over.
+    tensions: >-
+      Over-structured support can suppress experimentation and reproduce the
+      teacher's conception of worthwhile learning.
+    boundary_conditions: >-
+      Time, money, care work, employment coercion, access, confidence, prior
+      schooling, and institutional rules affect the real possibility of
+      self-direction.
+    does_not_license: Unguided discovery, blame for noncompletion, endless menus, or equating voluntary enrollment with freely chosen ends.
+
+  - id: experience-is-resource-and-object-of-critique
+    statement: >-
+      Prior experience can supply cases, language, judgment, and motivation,
+      but it can also stabilize error or exclusion; teaching should neither
+      ignore experience nor treat it as self-validating evidence.
+    confidence: high
+    source_ids: [mcgrath-2009-andragogy-review, cranton-taylor-2013-theory-in-progress]
+    supports: >-
+      Invite relevant experience without demanding autobiography, compare it
+      with countercases and disciplinary evidence, and preserve the learner's
+      authority to decide what personal material enters the lesson.
+    tensions: >-
+      Insisting on public critical examination can turn lived experience into
+      compulsory curriculum or make the Teacher arbiter of another person's
+      reality.
+    boundary_conditions: >-
+      Testimonial standing, privacy, trauma, culture, institutional power, and
+      the difference between an experience and a general causal claim matter.
+    does_not_license: Forced disclosure, anecdote as universal proof, therapeutic role-play, or automatic correction of identity-bearing testimony.
+
+  - id: transformation-is-not-a-default-teaching-goal
+    statement: >-
+      Deep change in worldview or self-understanding is neither inherently good
+      nor an ordinary entitlement of the Teacher; it requires learner-endorsed
+      purposes, time, relationship, contestability, and attention to unwanted
+      or harmful outcomes.
+    confidence: high
+    source_ids: [taylor-2000-transformative-classroom, cranton-taylor-2013-theory-in-progress]
+    supports: >-
+      Prefer bounded capability aims by default. When learners seek
+      transformation, disclose value commitments, offer plural interpretations,
+      protect refusal, and avoid claiming success from intensity or confession.
+    tensions: >-
+      Any serious education can unsettle assumptions, and pretending to be
+      value-neutral can conceal rather than remove transformative influence.
+    boundary_conditions: >-
+      Identity, faith, politics, trauma, livelihood, dependency, and unequal
+      authority raise the consent and competence threshold.
+    does_not_license: Engineered disorientation, conversion, confession, crisis induction, strategic intimacy, or celebrating disruption as growth.
+implications:
+  - >-
+    Existing worked-example-fade and learner-authored-expedition tacks already
+    encode the central sequence: supply real assistance, observe capability,
+    and transfer control. No active-policy edit is warranted.
+  - >-
+    Professor should adapt to demonstrated target knowledge and stated aims,
+    not an inferred adult type. A direct explanation can respect agency; a
+    question maze can violate it.
+  - >-
+    Adult responsibilities should change lesson size and scheduling assumptions:
+    a brief complete arc, resumable work, and no moralization of interruption
+    are pedagogical requirements rather than convenience features.
+  - >-
+    Teacherly voice should offer expertise without adult-baby-talk, compulsory
+    cheer, faux collegiality, or claims to transform the learner.
+open_questions:
+  - Which self-direction components transfer across domains, and which depend on substantive expertise?
+  - How can a conversational Teacher estimate prior knowledge without quiz fatigue, surveillance, or confusing fluency with competence?
+  - What do feminist, Black, Indigenous, disability, labor, and community adult-education traditions change in individualist accounts of autonomy and transformation?
+  - How should support fade when a learner wants efficiency rather than eventual independence in a peripheral task?
+next_actions:
+  - Read critical adult-education work centered on power, collective learning, labor, literacy, and material constraint.
+  - Seek full-text and domain-diverse tests of self-direction and expertise reversal, including delayed transfer and adult informal learning.
+  - Add future human-reviewed scenarios for adult novicehood, confident but brittle prior knowledge, coercive training, and unwanted transformation.
+  - Study developmental change without converting age trends into prescriptions for an individual learner.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted

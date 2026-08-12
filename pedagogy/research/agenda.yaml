@@ -45,6 +45,17 @@ questions:
     next_scan_on: 2026-09-01
     reframe_when: A component requires its own domain- and age-specific agenda.
 
+  - id: adult-development-prior-knowledge-and-self-direction
+    status: active
+    question: How should teaching respond to adult authority, developmental change, domain-specific prior knowledge, material constraint, and growing self-direction without age stereotypes or abandonment?
+    why_now: Adult-learning slogans often confuse ethical respect with expertise and self-direction with withdrawal of support.
+    lenses: [adult-education, developmental, expertise, self-direction, critical, labor, disability, ethics]
+    source_routes: [meta-analyses, longitudinal-studies, adult-literacy-and-community-scholarship, critical-adult-education, workplace-learning, learner-authored-accounts]
+    watch_venues: [Adult Education Quarterly, Studies in Continuing Education, International Journal of Lifelong Education, Learning and Instruction, European Journal for Research on the Education and Learning of Adults]
+    last_scanned_on: 2026-08-12
+    next_scan_on: 2026-09-01
+    reframe_when: Distinct developmental periods, domains, or compulsory and voluntary settings require separate mechanism and authority models.
+
   - id: humanizing-critical-and-healing-pedagogies
     status: retired
     question: How do critical, culturally sustaining, decolonial, abolitionist, healing-centered, and Indigenous pedagogies change the purposes and relations of teaching?
