@@ -1,0 +1,165 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: motor-learning-coaching-and-embodied-risk-2026-08-12
+title: Physical skill instruction needs observable goals, learner-controlled feedback, bodily consent, and risk-bounded practice
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [dignity-safety-and-non-coercion, autonomy-structure-and-nonmanipulative-motivation, teacher-knowledge-noticing-and-adaptive-expertise, durable-memory-transfer-and-calibration]
+scope: Motor learning, physical education, sport coaching, demonstration, practice design, feedback, challenge, touch, video, pain, autonomy, performance pressure, safeguarding, and AI limits.
+method:
+  search_date: 2026-08-12
+  approach: Compared motor-learning frameworks, systematic reviews of physical-education feedback and autonomy-support interventions, a large correlational meta-analysis, a video-feedback review, and a scoping review of physical contact.
+  inclusion: Sources distinguishing immediate performance, retained motor learning, motivation, wellbeing, feedback choice, practice difficulty, observation, bodily contact, and safeguarding.
+  exclusions: Pain as proof of progress, compliance as coachability, winning as educational success, touch without contemporaneous permission, universal technique from a text description, and movement surveillance as neutral evidence.
+  limitations: Motor tasks and populations vary sharply; much evidence is short-term and performance-centered; intervention fidelity and blinding are weak; autonomy correlations are not causal; safeguarding harms are systematically underreported.
+readings:
+  - id: guadagnoli-lee-2004-challenge
+    kind: theoretical-framework
+    citation: Guadagnoli, M. A., & Lee, T. D. (2004). Challenge point—A framework for conceptualizing the effects of various practice conditions in motor learning. Journal of Motor Behavior, 36(2), 212-224. https://doi.org/10.3200/JMBR.36.2.212-224
+    url: https://doi.org/10.3200/JMBR.36.2.212-224
+    publication_date: 2004-06-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Motor learners whose skill, task difficulty, practice organization, and feedback jointly alter functional challenge.
+    design: Integrative theoretical framework deriving hypotheses from motor-learning and information-processing research.
+    finding: The informational value and difficulty of practice depend on both learner capability and task conditions; more difficulty or variability is not uniformly better.
+    limits: An influential organizing model rather than a complete intervention; later review finds favorable use but limited practical application evidence.
+
+  - id: zhou-et-al-2021-pe-feedback
+    kind: systematic-review
+    citation: Zhou, Y., Shao, W. D., & Wang, L. (2021). Effects of feedback on students' motor skill learning in physical education—A systematic review. International Journal of Environmental Research and Public Health, 18(12), 6281. https://doi.org/10.3390/ijerph18126281
+    url: https://doi.org/10.3390/ijerph18126281
+    publication_date: 2021-06-09
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Physical-education students in 23 studies across 11 countries receiving verbal, visual, corrective, informational, or self-controlled feedback.
+    design: PRISMA systematic review of feedback and motor-skill learning.
+    finding: Feedback generally outperformed no feedback, but effective type and frequency depend on learner experience and task complexity; self-controlled visual feedback is promising.
+    limits: Sixty-five percent of studies were rated low quality, few studied frequency, evaluators were not blinded, and heterogeneous outcomes constrain prescriptions.
+
+  - id: han-et-al-2022-feedback-meta
+    kind: trial-sequential-meta-analysis
+    citation: Han, Y., et al. (2022). Feedback for promoting motor skill learning in physical education—A trial sequential meta-analysis. International Journal of Environmental Research and Public Health, 19(23), 15361. https://doi.org/10.3390/ijerph192315361
+    url: https://doi.org/10.3390/ijerph192315361
+    publication_date: 2022-11-22
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Students learning motor skills in physical-education interventions with feedback comparisons.
+    design: Systematic review, meta-analysis, and trial-sequential analysis.
+    finding: Feedback improved motor-skill outcomes on average, including support for visual observational approaches.
+    limits: Small and heterogeneous trials, outcome and bias concerns, and immediate measured performance may not equal retained adaptable skill.
+
+  - id: raabe-et-al-2019-autonomy-interventions
+    kind: systematic-review
+    citation: Raabe, J., Schmidt, K., Carl, J., & Höner, O. (2019). The effectiveness of autonomy support interventions with physical education teachers and youth sport coaches—A systematic review. Journal of Sport & Exercise Psychology, 41(6), 345-355. https://doi.org/10.1123/jsep.2019-0026
+    url: https://doi.org/10.1123/jsep.2019-0026
+    publication_date: 2019-12-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Physical-education teachers and youth coaches in 21 autonomy-support training studies.
+    design: Systematic review following screening of 1,523 records.
+    finding: Interventions often changed teacher and coach behavior toward greater autonomy support.
+    limits: Behavior change does not establish durable learner autonomy, safety, or skill; populations, measures, and intervention components vary.
+
+  - id: mossman-et-al-2022-autonomy-meta
+    kind: systematic-review-and-meta-analysis
+    citation: Mossman, G. J., et al. (2022). Autonomy support in sport and exercise settings—A systematic review and meta-analysis. International Review of Sport and Exercise Psychology, 17(1), 540-563. https://doi.org/10.1080/1750984X.2022.2031252
+    url: https://doi.org/10.1080/1750984X.2022.2031252
+    publication_date: 2022-02-02
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 131 independent sport and exercise samples, 38,844 participants, and 1,320 correlations involving perceived coach autonomy support.
+    design: Systematic review and correlational meta-analysis.
+    finding: Autonomy support was positively associated with autonomous motivation, need satisfaction, and wellbeing and negatively with distress and amotivation.
+    limits: Predominantly observational self-report, common-method and reverse-causality risks, heterogeneous sports, and association cannot identify a sufficient coaching script.
+
+  - id: modinger-et-al-2022-video
+    kind: systematic-review
+    citation: Mödinger, M., Woll, A., & Wagner, I. (2022). Video-based visual feedback to enhance motor learning in physical education—A systematic review. German Journal of Exercise and Sport Research, 52, 447-460. https://doi.org/10.1007/s12662-021-00782-y
+    url: https://doi.org/10.1007/s12662-021-00782-y
+    publication_date: 2021-12-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Primary and secondary physical-education learners in 11 studies using expert or self-modeling video with verbal support.
+    design: Systematic review of effectiveness and everyday feasibility.
+    finding: Video can aid motor learning and observation, but usefulness depends on verbal support, timing, learner, skill, group, and feasible implementation.
+    limits: Small evidence base, heterogeneous interventions, camera perspective and selection shape what becomes visible, and recording introduces privacy and body-image risks outside efficacy measures.
+
+  - id: owen-et-al-2022-physical-contact
+    kind: scoping-review
+    citation: Owen, K. B., et al. (2022). Physical contact in physical education, sports coaching and the preschool—A scoping review. Sport, Education and Society. https://doi.org/10.1080/13573322.2021.2019697
+    url: https://doi.org/10.1080/13573322.2021.2019697
+    publication_date: 2022-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Adult-child physical contact in physical education, sport coaching, and preschool research.
+    design: Cross-field scoping review of how touch, care, abuse, protection, safeguarding, and professional practice are framed.
+    finding: Contact is pedagogically and relationally meaningful but governed by shifting safeguarding discourses that can both expose harm and cast all contact as suspicious.
+    limits: Maps discourse and evidence gaps rather than determining safe conduct; law, culture, activity, age, disability, and institutional rules differ.
+contradictions:
+  - Feedback usually helps acquisition, yet frequent externally controlled correction can improve the practice display while weakening self-detection or attention to task-relevant cues.
+  - A demanding task can yield informative errors, yet the same nominal drill can be trivial, impossible, frightening, painful, or dangerous for different bodies and histories.
+  - Demonstration and video make movement visible, yet camera angle, ideal-body exemplars, replay, and retention can intensify shame, comparison, surveillance, or misleading imitation.
+  - Touch can communicate care, safety, positioning, and force more directly than words, yet authority and urgency can make apparent assent unreliable.
+claims:
+  - claim: Motor learning should be inferred from retained and adaptable action, not practice fluency or coach satisfaction alone.
+    evidence: framework-and-review-synthesis
+    confidence: high
+    source_ids: [guadagnoli-lee-2004-challenge, zhou-et-al-2021-pe-feedback, han-et-al-2022-feedback-meta]
+    supports: Define the functional goal, let the learner attempt, compare outcome to intention, vary one relevant condition, reduce prompts, and revisit after delay when consequential.
+    tensions: Immediate performance matters for urgent safety and can be the learner's actual aim.
+    boundary_conditions: Skill, learner capability, fatigue, environment, equipment, risk, sensory access, time, and transfer context.
+    does_not_license: Technique universalism, pain as effort evidence, unsafe testing, forced repetition, or claiming bodily learning from verbal recall.
+
+  - claim: Feedback should deliver the smallest actionable cue the learner can use, with meaningful control over timing, modality, and amount.
+    evidence: systematic-review-synthesis
+    confidence: high
+    source_ids: [zhou-et-al-2021-pe-feedback, han-et-al-2022-feedback-meta, modinger-et-al-2022-video]
+    supports: Ask whether feedback is wanted; focus on an external effect or discriminating cue when fitting; compare self-estimate with observation; fade toward self-monitoring.
+    tensions: Novices may not know what information they need, and immediate directive correction is warranted to prevent harm.
+    boundary_conditions: Expertise, task complexity, safety, feedback literacy, sensory access, emotional cost, equipment, and learner goal.
+    does_not_license: Constant correction, body appraisal, deceptive praise, covert recording, replay by default, or feedback withheld to manufacture struggle.
+
+  - claim: Challenge is functional and negotiated, while exposure to injury, humiliation, coercion, or medically significant symptoms is not a learning variable to optimize.
+    evidence: ethical-framework-synthesis
+    confidence: high
+    source_ids: [guadagnoli-lee-2004-challenge, mossman-et-al-2022-autonomy-meta, owen-et-al-2022-physical-contact]
+    supports: Offer scalable constraints and exits; distinguish effort, discomfort, pain, fear, and injury signals; use qualified supervision and emergency rules; stop for unexplained or escalating symptoms.
+    tensions: Some chosen disciplines include contact, fear, fatigue, discomfort, and managed risk; zero risk is neither possible nor always desired.
+    boundary_conditions: Age, health, disability, environment, equipment, contact rules, supervision, law, competitive pressure, and access to clinical expertise.
+    does_not_license: Diagnosis, return-to-play clearance, “no pain no gain,” punitive exercise, concealing risk, overriding stop, or using educational authority as medical authority.
+
+  - claim: Bodily contact, recording, and public performance require separate, specific, renewable permission rather than consent inferred from participation.
+    evidence: scoping-and-ethical-synthesis
+    confidence: high
+    source_ids: [owen-et-al-2022-physical-contact, modinger-et-al-2022-video]
+    supports: Explain purpose and alternatives before contact or capture; request assent at the moment; minimize area, force, audience, retention, and access; make refusal consequence-free.
+    tensions: Emergency prevention may require immediate protective action; some activities have constitutive consensual contact.
+    boundary_conditions: Immediacy of danger, role, age, communication, cultural protocol, accessibility, institutional policy, storage, and downstream audience.
+    does_not_license: Surprise touch, forced spotting, presumed media release, appearance analysis, indefinite video retention, or public correction as motivation.
+
+  - claim: Autonomy-supportive coaching combines real choice and rationale with usable structure, not motivational laissez-faire.
+    evidence: systematic-and-meta-analytic-synthesis
+    confidence: moderate
+    source_ids: [raabe-et-al-2019-autonomy-interventions, mossman-et-al-2022-autonomy-meta]
+    supports: Acknowledge perspective, explain the constraint, offer meaningful choices, use noncontrolling language, set clear safety boundaries, and let goals and methods be revisable.
+    tensions: Most outcome evidence is correlational; competition, teams, and emergencies constrain individual choice.
+    boundary_conditions: Role, age, team obligation, competitive stakes, safety, institutional rules, and genuine alternatives.
+    does_not_license: Choice theater, guilt, identity appeals, pressure disguised as encouragement, or treating compliant enthusiasm as consent.
+implications:
+  - Professor must state that text and images cannot substitute for in-person sensory observation, qualified spotting, clinical assessment, or activity-specific safety supervision.
+  - Before a movement cue, establish the learner's goal, environment, relevant constraint, pain or injury boundary, equipment, and whether the movement can safely be attempted alone.
+  - Prefer one observable effect and one low-risk trial; do not issue long chains of body-part commands from an inadequate view.
+  - Treat videos and body measurements as sensitive learner data, not ordinary teaching artifacts or automatic progress evidence.
+  - A stop report ends the trial; do not reframe pain, fear, refusal, fatigue, or privacy concern as deficient commitment.
+open_questions:
+  - Which self-controlled feedback designs improve error detection after feedback disappears?
+  - How should a non-embodied AI distinguish a useful low-risk cue from advice requiring live qualified observation?
+  - What consent procedures work during fast, contact-rich activity without becoming empty ritual?
+next_actions:
+  - Study peace, conflict, restorative, and trauma-adjacent pedagogy without turning education into therapy or compelled reconciliation.
+  - Include bodily authority, movement-data privacy, and the performance-retention distinction in the final audit.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
