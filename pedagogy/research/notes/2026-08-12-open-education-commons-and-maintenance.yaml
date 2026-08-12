@@ -1,0 +1,178 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: open-education-commons-and-maintenance-2026-08-12
+title: Open curriculum needs governance, maintenance, and a private alternative
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [epistemic-justice-curriculum-and-knowledge-access, technology-datafication-personalization-and-public-value, educational-ethics-and-nonideal-judgment]
+scope: >-
+  Open educational resources, access, licensing, adaptation, open pedagogy,
+  public learner work, privacy, educational commons, quality, maintenance labor,
+  community protocol, and explicit promotion of curriculum into Professor.
+method:
+  search_date: 2026-08-12
+  approach: Compared international OER policy, evidence syntheses, an access-mechanism critique, open-pedagogy cases and ethics guidance, and knowledge-commons governance.
+  inclusion: Sources distinguishing price, access, learning, participation, publicness, licensing, sustainability, and governance.
+  exclusions: “Free on the web” as OER, public posting as intrinsically authentic, cost savings as a learning effect, and commons metaphors without maintainers.
+  limitations: Most OER outcomes evidence is higher-education textbook research; open-pedagogy studies are small and perception-heavy; commons transfer is conceptual.
+readings:
+  - id: unesco-2019-oer-recommendation
+    kind: international-normative-instrument
+    citation: UNESCO. (2019). Recommendation on Open Educational Resources.
+    url: https://www.unesco.org/en/legal-affairs/recommendation-open-educational-resources-oer
+    publication_date: 2019-11-25
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Governments, institutions, educators, learners, creators, and OER ecosystems internationally.
+    design: Intergovernmental recommendation covering capacity, policy, quality and equity, sustainability, and international cooperation.
+    finding: OER requires permissions for no-cost access, reuse, adaptation, and redistribution plus capacity, inclusive quality, supportive policy, and sustainable models.
+    limits: Open licensing is one governance layer and cannot itself ensure relevance, accessibility, labor support, cultural authority, or learning.
+
+  - id: hilton-2020-oer-synthesis
+    kind: research-synthesis
+    citation: Hilton, J. (2020). Open educational resources, student efficacy, and user perceptions—A synthesis of research published between 2015 and 2018. Educational Technology Research and Development, 68, 853-876. https://doi.org/10.1007/s11423-019-09700-4
+    url: https://doi.org/10.1007/s11423-019-09700-4
+    publication_date: 2019-08-06
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 121,168 higher-education students or faculty across 16 efficacy and 20 perception studies.
+    design: Narrative synthesis of comparative outcomes and user perceptions of OER.
+    finding: OER users generally reported positive experiences and outcomes were usually no worse than commercial materials while direct learner costs fell.
+    limits: Nonrandom adoption, instructor and course confounds, heterogeneous materials, publication patterns, and author involvement in open education constrain causal claims.
+
+  - id: grimaldi-et-al-2019-access-hypothesis
+    kind: methodological-and-empirical-analysis
+    citation: Grimaldi, P. J., Basu Mallick, D., Waters, A. E., & Baraniuk, R. G. (2019). Do open educational resources improve student learning? Implications of the access hypothesis. PLOS ONE, 14(3), e0212508. https://doi.org/10.1371/journal.pone.0212508
+    url: https://doi.org/10.1371/journal.pone.0212508
+    publication_date: 2019-03-06
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: College courses comparing open and commercial resources where access differs among learners.
+    design: Analysis of why common course-average comparisons can mask an OER benefit concentrated among students who otherwise lack materials.
+    finding: If openness works through access, averaging over learners who would have acquired either text dilutes the effect and can make an equity benefit appear null.
+    limits: The mechanism does not imply every open resource is instructionally equivalent or that subgroup identification is simple and nonstigmatizing.
+
+  - id: koseoglu-et-al-2023-oer-meta-analysis
+    kind: meta-analysis-and-research-synthesis
+    citation: Koseoglu, S., et al. (2023). Are open educational resources and practices effective in improving learning achievement? International Journal of Educational Technology in Higher Education, 20, 54. https://doi.org/10.1186/s41239-023-00424-3
+    url: https://doi.org/10.1186/s41239-023-00424-3
+    publication_date: 2023-11-07
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 25 independent studies comparing learning achievement under OER or open practices.
+    design: Meta-analysis and research synthesis with subject, level, region, and setting moderators.
+    finding: Average achievement effects were negligible; access, pedagogy, and resource quality must be analyzed separately rather than assuming openness is an instructional treatment.
+    limits: Heterogeneous OER and OEP are pooled, study quality varies, and achievement measures omit cost, agency, adaptation, and public value.
+
+  - id: gilpin-et-al-2023-open-case-studies
+    kind: learner-perception-case-study
+    citation: Gilpin, D., et al. (2023). Open pedagogy benefits and challenges—Student perceptions of writing open case studies. Open Praxis, 15(1), 27-36. https://doi.org/10.55982/openpraxis.15.1.518
+    url: https://doi.org/10.55982/openpraxis.15.1.518
+    publication_date: 2023-05-09
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: University students creating public, openly licensed case studies.
+    design: Ethics-approved case survey of perceived value, learning, and challenges.
+    finding: Learners saw authentic public value, but some experienced increased stress; open production changes audience, risk, and emotional conditions as well as task purpose.
+    limits: Small local self-report cannot establish achievement effects or represent learners who refused public work.
+
+  - id: ubc-open-pedagogy-privacy
+    kind: institutional-ethics-guidance
+    citation: University of British Columbia Program for Open Scholarship and Education. Risk, Privacy and Ownership—Student Considerations for Open Pedagogy.
+    url: https://pose.open.ubc.ca/open-education/open-pedagogy/student-considerations/
+    publication_date: 2025-01-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Students asked to create, communicate, or publish through public platforms and open assignments.
+    design: Practical ethics guidance addressing informed consent, accounts, identity, ownership, public scrutiny, and alternatives.
+    finding: Public work creates distinct privacy and ownership risks; learners should not have to surrender privacy to complete an educational requirement.
+    limits: Institutional guidance is not comparative evidence and local legal requirements differ.
+
+  - id: franchi-et-al-2024-renewable-assignments
+    kind: design-study
+    citation: Franchi, T., et al. (2024). High structure renewable assignments—A design study. Open Praxis, 16(1). https://doi.org/10.55982/openpraxis.14.1.146
+    url: https://doi.org/10.55982/openpraxis.14.1.146
+    publication_date: 2024-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Learners contributing to iteratively improved public educational resources.
+    design: Mixed-method iterative design using surveys, focus groups, and assignment revisions.
+    finding: Renewable work benefits from substantial structure, staged contribution, redundancy, feedback, and iterative quality control rather than publicness alone.
+    limits: Local design findings need replication and the maintenance cost after a course remains uncertain.
+claims:
+  - id: openness-solves-permission-not-pedagogy
+    statement: >-
+      An open license changes who may access, adapt, and redistribute a resource;
+      it does not establish accuracy, accessibility, coherence, teachability, cultural authority, or learning effect.
+    confidence: high
+    source_ids: [unesco-2019-oer-recommendation, koseoglu-et-al-2023-oer-meta-analysis, hilton-2020-oer-synthesis]
+    supports: Review bundled curriculum on pedagogical and governance dimensions independently of license; retain provenance, version, review, and rollback.
+    tensions: Permission to adapt can make local correction and access possible in ways closed resources structurally prevent.
+    boundary_conditions: License, source quality, design, accessibility, locality, authority, language, maintenance, and use.
+    does_not_license: License laundering, low-quality substitution, assuming expensive means sound, or refusing open adaptation.
+
+  - id: access-effects-can-be-distributive
+    statement: >-
+      A no-cost resource may chiefly benefit learners excluded by price, timing,
+      format, or procurement, so an unchanged course average can conceal meaningful equity.
+    confidence: high
+    source_ids: [grimaldi-et-al-2019-access-hypothesis, hilton-2020-oer-synthesis]
+    supports: Evaluate who gains access and when, not only mean performance; provide materials from the start without requiring disclosure of financial need.
+    tensions: Digital access, printing, bandwidth, disability, language, and device costs can relocate rather than remove exclusion.
+    boundary_conditions: Prior access, cost, timing, format, connectivity, device, accessibility, and course design.
+    does_not_license: Poverty profiling, “free” platform surveillance, equating availability with use, or claiming an achievement gain without evidence.
+
+  - id: public-work-requires-a-private-equivalent
+    statement: >-
+      Publishing learner work changes the assignment's audience, persistence,
+      scrutiny, ownership, and risk; an equivalent private route is an ethical requirement.
+    confidence: high
+    source_ids: [ubc-open-pedagogy-privacy, gilpin-et-al-2023-open-case-studies]
+    supports: Obtain specific revocable consent, minimize identity and platform exposure, clarify rights, and make refusal consequence-free.
+    tensions: Public contribution can create authentic purpose, pride, solidarity, and durable value when freely chosen.
+    boundary_conditions: Stakes, identity, platform, persistence, audience, license, moderation, legal capacity, and withdrawal.
+    does_not_license: Coerced openness, public grading, requiring accounts, making privacy the inferior option, or publishing drafts by default.
+
+  - id: a-commons-has-maintainers
+    statement: >-
+      Shared curriculum remains usable through situated labor—selection,
+      checking, accessibility work, translation, moderation, versioning, repair, and governance—not through openness alone.
+    confidence: high
+    source_ids: [unesco-2019-oer-recommendation, franchi-et-al-2024-renewable-assignments]
+    supports: Name maintainers and review horizons, limit scope, archive or prune stale material, and resource contribution rather than celebrating unpaid abundance.
+    tensions: Distributed voluntary contribution can sustain resources that neither markets nor institutions would provide.
+    boundary_conditions: Community, authority, funding, workload, versioning, contribution rules, dispute process, and exit.
+    does_not_license: Centralized ownership as the only solution, invisible learner labor, perpetual accumulation, or abandoned open repositories.
+
+  - id: promotion-is-a-governance-act
+    statement: >-
+      Moving a private curriculum seed into Professor's bundled repository gives
+      it common visibility, maintenance expectations, and normative weight; that move requires explicit review beyond usefulness to one learner.
+    confidence: high
+    source_ids: [unesco-2019-oer-recommendation, ubc-open-pedagogy-privacy, franchi-et-al-2024-renewable-assignments]
+    supports: Preserve private development as the default, promote only generalized reviewed material, document license and authority, and delete stale candidates rather than queue them forever.
+    tensions: Excessive gates can preserve a narrow canon and keep useful public work invisible.
+    boundary_conditions: Generality, privacy, license, community authority, evidence, accessibility, maintainer, review date, and rollback.
+    does_not_license: Automatic promotion from use, repository-as-memory, expert gatekeeping without appeal, or indefinite provisional clutter.
+implications:
+  - >-
+    Professor should prefer open, inspectable sources where quality and authority are adequate, but never infer pedagogical value or cultural permission from openness.
+  - >-
+    Learner-specific lesson plans and nuclei stay in the private data home. A bundled topic is a separately reviewed public curriculum artifact, not a synchronized learner folder.
+  - >-
+    Future bundled curriculum needs a named maintainer or review mechanism; otherwise the honest act is to leave it private or remove it.
+  - >-
+    Current repository scope and explicit-promotion rules already enact this distinction. No automatic open-production task is earned.
+open_questions:
+  - What is the smallest sustainable maintainer contract for a bundled Professor topic?
+  - How can learner-authored corrections inform private teaching without pressuring public contribution or leaking authorship?
+  - When may an AI-generated derivative satisfy open-license attribution while still failing epistemic provenance?
+  - Which public curriculum gaps deserve active resourcing rather than another volunteer repository?
+next_actions:
+  - Audit bundled topics for maintainer, review horizon, authority, and archival criteria.
+  - Study democratic, anarchist, deschooling, and public-education traditions that contest institutional ownership in different ways.
+  - Do not invite the learner to publish or maintain curriculum merely to make a lesson feel authentic.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
