@@ -95,7 +95,7 @@ readings:
     reading_level: full-text-read
     population_context: Eighty-one public research notes and 522 reading records produced during one bounded four-hour AI-assisted study.
     design: Structured count, duplicate-ID analysis, DOI-resolution scan, manual anomaly follow-up, confidence-versus-reading-depth audit, validation, and correction commits.
-    finding: Bibliographic follow-up corrected twenty-four substantive metadata errors, including plausible splices of real authors, titles, journals, and identifiers; 19 shallow-source empirical claims were downgraded from high to moderate confidence.
+    finding: Bibliographic follow-up corrected twenty-six substantive metadata errors, including plausible splices of real authors, titles, journals, and identifiers, and repaired one materially truncated title; 19 shallow-source empirical claims were downgraded from high to moderate confidence.
     limits: Same-agent self-audit, targeted rather than exhaustive bibliographic checking, no independent reviewer, no estimate of undetected error, and repository tests do not verify scholarship.
 contradictions:
   - Rapid synthesis can make time-sensitive evidence usable, yet every omitted search route, duplicate check, full-text read, and appraisal narrows what the conclusion can responsibly say.

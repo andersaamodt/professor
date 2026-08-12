@@ -50,11 +50,11 @@ readings:
     finding: Open discussion, school participation, curriculum, and civic opportunities show promising associations, but causal and longer-term evidence is uneven.
     limits: Self-selection, self-report, outcome heterogeneity, short follow-up, and the normative ambiguity of treating participation frequency as democratic quality.
 
-  - id: brinker-et-al-2019-deliberative-field-experiment
+  - id: persson-et-al-2019-deliberative-field-experiment
     kind: field-experiment
-    citation: Brinker, D. L., Gastil, J., & Richards, R. C. (2019). Does deliberative education increase civic competence? Results from a field experiment. Journal of Experimental Political Science, 6(3), 193-203. https://doi.org/10.1017/XPS.2019.2
-    url: https://doi.org/10.1017/XPS.2019.2
-    publication_date: 2019-01-01
+    citation: Persson, M., Andersson, K., Zetterberg, P., Ekman, J., & Lundin, S. (2020). Does deliberative education increase civic competence? Results from a field experiment. Journal of Experimental Political Science, 7(3), 199–208. https://doi.org/10.1017/XPS.2019.29
+    url: https://doi.org/10.1017/XPS.2019.29
+    publication_date: 2020-01-01
     accessed_on: 2026-08-12
     reading_level: abstract-screened
     population_context: Students receiving deliberative education with outcomes including knowledge, interest, discussion, and democratic values.
@@ -133,7 +133,7 @@ claims:
   - claim: Civic learning requires both substantive institutional knowledge and opportunities for consequential judgment and action.
     evidence: observational-review-with-null-counterevidence
     confidence: moderate
-    source_ids: [kahne-et-al-2000-civic-opportunities, jerome-et-al-2024-active-citizenship-review, brinker-et-al-2019-deliberative-field-experiment]
+    source_ids: [kahne-et-al-2000-civic-opportunities, jerome-et-al-2024-active-citizenship-review, persson-et-al-2019-deliberative-field-experiment]
     supports: Pair law, history, institutions, media, evidence, and power analysis with deliberation, organizing, public work, observation, or genuine school governance suited to the setting.
     tensions: Participation without knowledge can be manipulable, while knowledge without efficacy becomes spectator civics; not all activism is democratically valuable.
     boundary_conditions: Political system, age, risk, legal rights, community, outcome horizon, voluntariness, and whether participation has authentic consequences.

@@ -65,11 +65,11 @@ readings:
     finding: Comparing and making translations exposes interpretive choices otherwise hidden by treating translated wording as a transparent original.
     limits: Translation practice can exceed a novice's language knowledge and risks substituting theory slogans for linguistic evidence.
 
-  - id: thomason-chang-2023-decolonizing-historical-linguistics
+  - id: bowern-dockum-2024-decolonizing-historical-linguistics
     kind: critical-domain-pedagogy-chapter
-    citation: Thomason, S., & Chang, J. (2023). Decolonizing historical linguistics in the classroom and beyond. In A. Charity Hudley, C. Mallinson, & M. Bucholtz (Eds.), Decolonizing Linguistics. Oxford University Press. https://doi.org/10.1093/oso/9780197755259.003.0014
+    citation: Bowern, C., & Dockum, R. (2024). Decolonizing historical linguistics in the classroom and beyond. In A. H. Charity Hudley, C. Mallinson, & M. Bucholtz (Eds.), Decolonizing Linguistics. Oxford University Press. https://doi.org/10.1093/oso/9780197755259.003.0011
     url: https://academic.oup.com/book/56269/chapter/445194700
-    publication_date: 2023-12-01
+    publication_date: 2024-01-01
     accessed_on: 2026-08-12
     reading_level: partially-read
     population_context: Introductory and advanced historical-linguistics courses and language-community work.
@@ -162,7 +162,7 @@ claims:
       Judging a philological claim includes asking how the archive, edition,
       transcription, classification, and discipline came to possess authority and whose purposes they served.
     confidence: high
-    source_ids: [thomason-chang-2023-decolonizing-historical-linguistics, daly-galeano-2026-editing-learning, thow-2022-translation-pedagogy]
+    source_ids: [bowern-dockum-2024-decolonizing-historical-linguistics, daly-galeano-2026-editing-learning, thow-2022-translation-pedagogy]
     supports: Pair technical method with provenance, colonial and editorial history, living language-community authority, and alternative witnesses.
     tensions: Historical critique can become a ritual preface detached from the actual inference or imply that compromised provenance nullifies all evidence.
     boundary_conditions: Community sovereignty, archive formation, collector role, editorial method, language vitality, access, and current use.
