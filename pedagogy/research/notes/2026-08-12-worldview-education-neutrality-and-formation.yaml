@@ -1,0 +1,144 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: worldview-education-neutrality-and-formation-2026-08-12
+title: Worldview education must distinguish literacy, encounter, inquiry, formation, and conversion
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [educational-ethics-and-nonideal-judgment, pedagogical-authority-voice-and-non-domination, epistemic-justice-curriculum-and-knowledge-access]
+scope: Religious and nonreligious worldview education, neutrality, impartiality, indoctrination, autonomy, formation, insider and outsider accounts, sacred materials, conscience, and exit.
+method:
+  search_date: 2026-08-12
+  approach: Compared human-rights guidance, intercultural policy, philosophy of worldview concepts, curriculum proposals and critiques, teacher-disclosure research, and indoctrination analysis.
+  inclusion: Sources clarifying aims, rights, curricular fairness, disciplinary representation, formative authority, contestability, or learner conscience.
+  exclusions: Tradition catalogues, token festivals, all beliefs as equivalent propositions, secularism as viewpoint absence, confessional formation disguised as neutral study, and debunking disguised as inquiry.
+  limitations: Much literature concerns European public schools and legal settlements; empirical learning evidence is thinner than normative and curricular argument, and communities are internally plural.
+readings:
+  - id: osce-2007-toledo
+    kind: human-rights-guidance
+    citation: OSCE/ODIHR. (2007). Toledo guiding principles on teaching about religions and beliefs in public schools.
+    url: https://odihr.osce.org/odihr/29154
+    publication_date: 2007-11-27
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Legislators, curriculum designers, schools, teachers, families, and learners in OSCE participating states.
+    design: Expert-developed legal and pedagogical guidance grounded in freedom of religion or belief and nondiscrimination.
+    finding: Teaching about religions and beliefs can serve public education when curricula and teachers are fair, accurate, rights-respecting, inclusive of religious and nonreligious views, and professionally prepared.
+    limits: Guidance rather than effect study; “objective” and “impartial” require contextual interpretation, and state endorsement does not itself guarantee community accuracy.
+
+  - id: council-europe-2008-religious-diversity
+    kind: policy-recommendation
+    citation: Council of Europe Committee of Ministers. (2008). Recommendation CM/Rec(2008)12 on the dimension of religions and non-religious convictions within intercultural education.
+    url: https://www.coe.int/en/web/education-and-religious-diversity/-/dimension-of-religions-and-non-religious-convictions-within-intercultural-education-recommendation-cm-rec-2008-12-and-explanatory-memorandum-2009-
+    publication_date: 2008-12-10
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: European education systems addressing religious diversity and intercultural dialogue.
+    design: Intergovernmental recommendation and explanatory framework.
+    finding: Religious and nonreligious convictions belong within intercultural education when treated with human-rights safeguards, plurality, critical understanding, and dialogue competence.
+    limits: European institutional assumptions, broad implementation language, and intercultural harmony can obscure political conflict or unequal recognition.
+
+  - id: hand-2012-worldview
+    kind: philosophical-critique
+    citation: Hand, M. (2012). What's in a worldview? On Trevor Cooling's Doing God in education. Oxford Review of Education, 38(5), 527-537. https://doi.org/10.1080/03054985.2012.722862
+    url: https://eric.ed.gov/?id=EJ983069
+    publication_date: 2012-10-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Curriculum arguments about religion and worldview across school subjects.
+    design: Conceptual distinction between worldviews as theories of life's meaning and as constitutive conceptual schemes.
+    finding: Explicit study of rival meaning-of-life views is educationally defensible, but the stronger claim that all thought requires initiation into one worldview equivocates on the term.
+    limits: Philosophical argument without classroom evaluation; “rival” views may not be commensurable packages or proposition sets.
+
+  - id: waller-et-al-2020-worldviews-big-ideas
+    kind: curriculum-review-and-proposal
+    citation: Waller, A., et al. (2020). Worldviews and big ideas—A way forward for religious education? Nordidactica, 2020(4), 1-27.
+    url: https://journals.lub.lu.se/nordidactica/article/view/21891
+    publication_date: 2020-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Religious education in England following proposals to broaden the subject to Religion and Worldviews.
+    design: Literature review and conceptual curriculum analysis.
+    finding: A worldview frame can include lived, personal, institutional, religious, and nonreligious perspectives, but creates selection, coherence, scale, and disciplinary challenges.
+    limits: Proposed curriculum architecture, not demonstrated learning impact; broad inclusion can thin substantive knowledge into generic comparison.
+
+  - id: barnes-2022-worldview-critique
+    kind: philosophical-curriculum-critique
+    citation: Barnes, L. P. (2022). The Commission on Religious Education, worldviews and the future of religious education. British Journal of Educational Studies, 70(1), 87-102. https://doi.org/10.1080/00071005.2021.1871590
+    url: https://doi.org/10.1080/00071005.2021.1871590
+    publication_date: 2022-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: English religious-education policy and the proposed worldviews framework.
+    design: Philosophical and disciplinary critique of a national commission proposal.
+    finding: Broadening to worldviews may correct exclusions but can also privilege a secular framing, blur subject boundaries, and weaken religion's distinctive depth.
+    limits: Normative critique with contested characterization of secular framing; preserving depth need not preserve confessional or majority privilege.
+
+  - id: mcavoy-hess-2011-disclosure-reprise
+    kind: mixed-method-ethical-analysis
+    citation: McAvoy, P., & Hess, D. (2011). The ethics of political disclosure in high school classrooms. APSA Annual Meeting paper.
+    url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1901226
+    publication_date: 2011-08-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: High-school teachers deciding whether to disclose contested commitments.
+    design: Ethical framework informed by longitudinal mixed-method cases.
+    finding: Disclosure is contextually judged by educational aims, evidence, role power, and effects on inquiry rather than prohibited or required categorically.
+    limits: Political disclosure does not map perfectly to faith, practice, identity, sacred obligation, or community membership.
+contradictions:
+  - Broad “religion and worldviews” curricula can recognize nonreligion and lived plurality, yet the umbrella can flatten internally diverse traditions into comparable personal outlooks.
+  - Impartial teaching can protect conscience, yet a detached external gaze may install secular academic categories as the unmarked norm.
+  - Encountering an insider voice can correct textbook caricature, yet no individual represents a whole tradition and learners must not become specimen or spokesperson.
+  - Education inevitably forms habits and values, but acknowledging formation does not make conversion, closure to reasons, or manipulation educationally acceptable.
+claims:
+  - claim: Name the mode of worldview education before selecting the material or teacherly voice.
+    evidence: policy-philosophical-synthesis
+    confidence: high
+    source_ids: [osce-2007-toledo, council-europe-2008-religious-diversity, hand-2012-worldview]
+    supports: Distinguish historical and cultural literacy, first-person encounter, comparative interpretation, philosophical truth inquiry, ethical deliberation, communal formation, devotional practice, and conversion; disclose when modes overlap.
+    tensions: Traditions may reject the separation of knowledge, practice, belonging, and truth assumed by academic modes.
+    boundary_conditions: Institution, age, learner request, legal context, community authority, coercive power, assessment, and right of exit.
+    does_not_license: Smuggling formation into literacy, presenting academic categories as tradition-neutral, coercing practice, or claiming all modes equally appropriate in every setting.
+
+  - claim: Impartiality is an answerable procedure for representation and inquiry, not a teacher without commitments.
+    evidence: normative-synthesis
+    confidence: high
+    source_ids: [osce-2007-toledo, council-europe-2008-religious-diversity, mcavoy-hess-2011-disclosure-reprise]
+    supports: Expose selection and framing, use multiple situated sources, distinguish description from evaluation, allow correction by competent community and scholarly accounts, state evidential standards, and protect disagreement.
+    tensions: Equal time can misrepresent scale or relevance; unequal time can reproduce majority privilege.
+    boundary_conditions: Curriculum purpose, source availability, internal diversity, historical power, empirical claim, sacred restriction, and learner relation.
+    does_not_license: View-from-nowhere performance, equal credence for incompatible evidence claims, hostile debunking, reverential immunity from inquiry, or grading belief.
+
+  - claim: Indoctrination risk rises when authority seeks durable assent while disabling competent reconsideration.
+    evidence: philosophical-and-rights-synthesis
+    confidence: high
+    source_ids: [osce-2007-toledo, hand-2012-worldview]
+    supports: Inspect aim, method, evidence access, emotional leverage, alternatives, sanction, dependency, exit, future revisability, and whether reasons remain answerable.
+    tensions: Initiation into language, practice, and trust precedes fully autonomous judgment; nonformation is impossible, especially for children.
+    boundary_conditions: Age, dependency, stakes, tradition, public or voluntary institution, parental and learner rights, vulnerability, and reversibility.
+    does_not_license: Calling every value education indoctrination, assuming secular education is nonformative, or delaying all commitments until impossible ideal autonomy.
+
+  - claim: Traditions and worldviews should be represented as internally argued, historically changing, practiced, institutional, and unequally positioned.
+    evidence: curriculum-synthesis
+    confidence: moderate
+    source_ids: [waller-et-al-2020-worldviews-big-ideas, barnes-2022-worldview-critique]
+    supports: Pair doctrines with practices, material culture, authority structures, dissent, reform, ordinary life, historical change, and first-person plurality; preserve disciplinary depth.
+    tensions: Complexity corrects stereotypes but can overwhelm a brief encounter; exemplars necessarily select.
+    boundary_conditions: Time, learner knowledge, community, scale, disciplinary question, source provenance, and curricular consequence.
+    does_not_license: Checklist diversity, a single authentic representative, treating nonreligion as empty default, psychologizing belief, or reducing religion to identity and festivals.
+implications:
+  - Professor should state whether a worldview encounter asks what a tradition teaches, how people live it, how it changed, what reasons support a claim, or whether the learner wishes to explore practice.
+  - Never invite devotional participation, confession, testimony, or identity disclosure without explicit opt-in and a genuinely equivalent nonparticipatory route.
+  - Sacred or restricted materials require provenance, access norms, and community context; availability online is not blanket pedagogical permission.
+  - When giving a first-person account, label its speaker and situation rather than making it the voice of a tradition.
+  - Teacher commitments may be disclosed to clarify situated judgment, but never as an answer key or a condition of belonging.
+open_questions:
+  - How should an AI represent embodied and initiatory knowledge it cannot possess without simulating an insider voice?
+  - What is an equivalent alternative when the educational object is itself communal practice?
+  - How can short daily encounters preserve both religious depth and nonreligious plurality without catalogue pedagogy?
+next_actions:
+  - Study early-childhood and developmental pedagogy, where formation, assent, protection, play, and adult authority are especially asymmetric.
+  - Audit Professor's teacherly voice for covert conversion, false neutrality, and first-person simulation.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
