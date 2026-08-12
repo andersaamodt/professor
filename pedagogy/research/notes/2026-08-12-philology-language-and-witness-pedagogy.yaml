@@ -117,7 +117,7 @@ claims:
     statement: >-
       Philological understanding begins more reliably from an inspectable form,
       sound, passage, witness, or variant than from a smooth story of where a word came from.
-    confidence: high
+    confidence: moderate
     source_ids: [oaks-2021-mother-goose, cable-2017-auditory-imagination, daly-galeano-2026-editing-learning]
     supports: Open a daily lesson with one small live object and invite noticing before supplying a lineage; keep dates, forms, and sources visible.
     tensions: A concise narrative can orient attention and make a difficult witness approachable when its uncertainty is explicit.
@@ -128,7 +128,7 @@ claims:
     statement: >-
       Philology is not a store of word histories but disciplined comparison among
       forms, sound correspondences, meanings, genres, material witnesses, translations, and historical situations.
-    confidence: high
+    confidence: moderate
     source_ids: [hayes-burkette-2017-history-english, thow-2022-translation-pedagogy, daly-galeano-2026-editing-learning]
     supports: Let the learner align two or three objects, propose a relation, and distinguish observation from reconstruction and interpretation.
     tensions: Comparison without sufficient background invites accidental resemblance and overconfident inference.
@@ -139,7 +139,7 @@ claims:
     statement: >-
       Performance, handwriting, layout, damage, typography, and variant witnesses
       reveal historical language as embodied and transmitted practice rather than abstract strings alone.
-    confidence: high
+    confidence: moderate
     source_ids: [cable-2017-auditory-imagination, daly-galeano-2026-editing-learning, thow-2022-translation-pedagogy]
     supports: Use audio, facsimiles, diplomatic transcription, apparatus, and multiple translations when they materially change what can be noticed.
     tensions: Media can overwhelm the distinction or cosmetically simulate authenticity; reconstructions and digitizations remain interpretations.
@@ -150,7 +150,7 @@ claims:
     statement: >-
       Explicit historical or linguistic explanation can accelerate attention to a
       feature, but usable knowledge requires encounters in which the learner perceives, interprets, compares, or produces the feature under varied conditions.
-    confidence: high
+    confidence: moderate
     source_ids: [norris-ortega-2000-l2-instruction, li-2010-corrective-feedback-l2, thow-2022-translation-pedagogy]
     supports: Give the rule when helpful, then return quickly to a fresh form; correct selectively in service of the present distinction and future independent judgment.
     tensions: Receptive historical understanding is not communicative L2 competence, and some encounters are complete without production.

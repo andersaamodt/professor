@@ -198,7 +198,7 @@ claims:
       “Voice” is a reader's situated judgment about rhetorical choices and
       relations, not a transparent measure of authentic self, authorship,
       culture, effort, or freedom from AI assistance.
-    confidence: high
+    confidence: moderate
     source_ids: [stapleton-2002-voice, sun-2023-translingual-implementation]
     supports: >-
       Discuss stance, rhythm, diction, address, evidence, language choice, and

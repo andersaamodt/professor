@@ -179,7 +179,7 @@ claims:
     statement: >-
       Smooth, confident, vivid delivery can improve felt intelligibility while
       leaving actual understanding unchanged, so teacherly polish requires independent checks.
-    confidence: high
+    confidence: moderate
     source_ids: [carpenter-et-al-2020-fluency]
     supports: Include inspectable sources, uncertainty, contrasts, retrieval or transfer where useful, and permission to interrupt or request the plain version.
     tensions: Clarity, rhythm, and confidence can reduce needless load and help a learner stay with a difficult object.

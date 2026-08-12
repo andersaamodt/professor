@@ -207,7 +207,7 @@ claims:
       A score or growth estimate is interpretable only under evidence that its
       tasks, scoring, invariance, assistance conditions, and consequences support
       the proposed use; numerical precision does not repair a weak construct.
-    confidence: high
+    confidence: moderate
     source_ids: [culpepper-2014-gain-score-reliability, shavelson-et-al-2018-cla-learning-gain]
     supports: >-
       Prefer small direct evidence tied to the actual capability, keep uncertainty
