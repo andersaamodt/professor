@@ -1,0 +1,146 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: educational-ethics-and-plural-traditions-2026-08-12
+title: Educational ethics needs nonideal cases and more than one account of formation
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [educational-ethics-and-nonideal-judgment, pedagogical-authority-voice-and-non-domination]
+scope: >-
+  A bounded extension of the authority inquiry into practical educational
+  ethics, educator epistemic responsibility, and Confucian and Islamic accounts
+  that contest an unmarked liberal-progressive definition of learner agency,
+  formation, and the Teacher's role.
+method:
+  search_date: 2026-08-12
+  approach: Read four complete open scholarly texts across nonideal ethics, virtue epistemology, Confucian educational interpretation, and Arabic- and English-language Islamic education research; screen a case-based ethics program and a recent anti-oppressive critique.
+  inclusion: Sources that alter how Professor should reason about ethical conflict, epistemic duty, teacher direction, learner engagement, moral formation, religious ends, or the cultural location of educational ideals.
+  exclusions: Generic professional codes, teacher-character scorecards, civilizational comparisons without primary-language engagement, and claims that any tradition speaks with one voice.
+  limitations: Breadth was purchased at the cost of depth within each tradition. The Confucian article centers one reconstruction of the Xueji, the Islamic review covers Arabic and English rather than the Muslim world's linguistic range, and institutional school dilemmas differ substantially from voluntary adult AI teaching.
+readings:
+  - id: levinson-2015-moral-injury-full
+    kind: nonideal-ethical-case-and-argument
+    citation: Meira Levinson. Moral Injury and the Ethics of Educational Injustice. Harvard Educational Review 85(2), 203–228. 2015.
+    url: https://doi.org/10.17763/0017-8055.85.2.203
+    publication_date: 2015-06-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: A small urban Catholic high school serving low- and moderate-income students, considered within wider school and social injustice.
+    design: Detailed normative case study joined to nonideal theory, phronetic reasoning, and analysis of loyal subversion, public voice, exit, moral injury, and social repair.
+    finding: Educational actors may face wicked choices where every option perpetrates some injustice; cases can bring plural values and particulars into practical judgment, while repair remains a collective and structural responsibility rather than an individual teacher's burden.
+    limits: One researched case cannot establish a general decision procedure; moral injury to educators must not displace the more direct harm to learners, and institutional authority differs from Professor's conversational role.
+
+  - id: standley-2025-epistemic-obligations-full
+    kind: epistemic-professional-ethics-argument
+    citation: Jeff Standley. On the Special Epistemic Obligations of the Educator. Educational Theory 75(2), 208–226. 2025.
+    url: https://doi.org/10.1111/edth.70007
+    publication_date: 2025-03-19
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Educators responsible for knowledge, understanding, inquiry methods, and intellectual character in complex information environments.
+    design: Virtue-epistemological and ethics-of-belief argument for special role obligations and a good-enough standard of educator epistemic fitness.
+    finding: The educator's own inquiry habits matter because teaching involves navigating complexity, modeling fallible inquiry, and avoiding belief-forming vices that impede responsible knowledge work; perfection is neither possible nor the standard.
+    limits: Character language can individualize structural epistemic harms, invade privacy, or become ideological screening; evidence and role-specific conduct matter more than labeling a whole person virtuous or vicious.
+
+  - id: tan-2015-confucian-full
+    kind: comparative-philosophy-of-education
+    citation: Charlene Tan. Teacher-Directed and Learner-Engaged—Exploring a Confucian Conception of Education. Ethics and Education 10(3), 302–312. 2015.
+    url: https://doi.org/10.1080/17449642.2015.1101229
+    publication_date: 2015-09-02
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: The Xueji in ancient imperial education, with cautious discussion of later Confucian educational continuities.
+    design: Textual and comparative analysis separating learner choice, activity, and power relationship in a teacher-directed model aimed at understanding and moral self-cultivation.
+    finding: Teacher direction and learner engagement are not opposites; the Xueji account gives teachers curricular authority while opposing dragging, suppressing, unrealistic demand, and arriving at conclusions for learners.
+    limits: The ancient institution trained officials within a hierarchy and offered little curricular choice; the reconstruction cannot validate hierarchy generally or stand for all Confucian and contemporary Chinese education.
+
+  - id: abdalla-2025-tarbiyah-full
+    kind: multilingual-narrative-review
+    citation: Mohamad Abdalla. Exploring Tarbiyah in Islamic Education—A Critical Review of the English- and Arabic-Language Literature. Education Sciences 15(5), 559. 2025.
+    url: https://doi.org/10.3390/educsci15050559
+    publication_date: 2025-04-30
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Islamic educational thought and schools, especially debates represented in classical and contemporary Arabic- and English-language sources.
+    design: Narrative review of more than forty primary and secondary sources, including Qurʾan, Hadith, lexicons, classical writings, and contemporary scholarship.
+    finding: The review argues for tarbiyah as lifelong, context-sensitive formation across intellectual, spiritual, moral, physical, social, volitional, and creative dimensions, integrating but distinguishing instruction, formal teaching, and ethical refinement.
+    limits: The review explicitly is not exhaustive, excludes major Muslim languages, does not directly study practitioners, and advances a contested view that tarbiyah is the overarching concept rather than taʾdīb.
+
+  - id: levinson-fay-2016-program
+    kind: case-based-ethics-program
+    citation: Meira Levinson and Jacob Fay, editors. Dilemmas of Educational Ethics—Cases and Commentaries. 2016.
+    url: https://eric.ed.gov/?id=ED568736
+    publication_date: 2016-05-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-metadata-screened
+    population_context: Ethical and justice dilemmas faced by educators and policy makers in elementary and secondary education.
+    design: Six realistic cases paired with interdisciplinary commentaries and guidance for phronetic inquiry.
+    finding: Ethical judgment can be improved by placing philosophy, social evidence, practitioner knowledge, and competing values around the same particular case.
+    limits: The book was not read in full today; case discussion can still privilege institutionally fluent voices and does not by itself produce just action.
+
+  - id: tanchuk-2024-problem-solving
+    kind: anti-oppressive-counterargument
+    citation: Nicolas Tanchuk. On the Ethical Priority of Problem Solving in Case-Based Teacher Ethics—Grounding an Anti-Oppressive Approach. Educational Theory 74(2). 2024.
+    url: https://doi.org/10.1111/edth.12647
+    publication_date: 2024-06-09
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Case-based teacher ethics and anti-oppressive educational judgment.
+    design: Philosophical critique of relatively top-down and bottom-up approaches to normative teacher ethics.
+    finding: Case inquiry itself needs ethical scrutiny of how problems are framed and whose oppression a problem-solving process may normalize.
+    limits: Only the abstract and search-accessible sections were screened; the complete alternative and its practical implications need full reading.
+claims:
+  - id: ethical-teaching-is-nonideal-judgment
+    statement: Educational ethics cannot be reduced to applying a code or one moral theory because teachers often act among conflicting goods and duties under unjust conditions where no option is clean.
+    confidence: medium
+    source_ids: [levinson-2015-moral-injury-full, levinson-fay-2016-program, tanchuk-2024-problem-solving]
+    supports: Maintain a research lane for nonideal judgment and use particular cases, affected perspectives, evidence, and structural analysis before generalizing an ethical rule.
+    tensions: Case richness can obscure applicable rights or principles, preserve the problem's inherited frame, and reward verbal deliberation without repair.
+    boundary_conditions: Professor usually lacks the institutional coercion and scarce-resource duties of a school educator, so the analogy concerns method rather than identical obligations.
+    does_not_license: Moral relativism, endless deliberation, centering Teacher anguish, quiet complicity, or treating an unjust institution as immutable context.
+
+  - id: teacher-direction-and-learner-agency-vary-independently
+    statement: Teacher direction, learner activity, learner choice, and distribution of power are analytically distinct; a directed lesson can demand deep learner judgment, and an activity-rich lesson can leave power untouched.
+    confidence: medium
+    source_ids: [tan-2015-confucian-full]
+    supports: Replace center labels with concrete analysis of who chooses ends and content, what the learner does, how authority is justified, and whether the learner can correct or refuse.
+    tensions: The Xueji's responsive guidance coexists with strong hierarchy and prescribed moral ends; active self-cultivation is not equivalent to political autonomy.
+    boundary_conditions: Professor operates by revocable conversational consent and must not import custodial hierarchy or a comprehensive moral doctrine.
+    does_not_license: Authoritarianism, cultural essentialism, curricular control without consent, or romanticizing either hierarchy or autonomy.
+
+  - id: educational-ends-are-tradition-laden
+    statement: Educational aims such as autonomy, understanding, moral self-cultivation, religious formation, cultural sustenance, and subjectification arise from distinct traditions and cannot be silently ranked by technique-level learning evidence.
+    confidence: high
+    source_ids: [tan-2015-confucian-full, abdalla-2025-tarbiyah-full]
+    supports: Name the end and its tradition or learner endorsement before selecting methods, and keep comprehensive religious or moral formation learner-led in a voluntary AI relation.
+    tensions: Traditions are internally contested and overlapping; refusing synthesis entirely can prevent comparison, mutual criticism, and shared practical insight.
+    boundary_conditions: Professor may teach about a tradition or support a learner-endorsed practice but cannot claim religious, familial, institutional, or community authority.
+    does_not_license: Civilizational boxes, treating learners as representatives, declaring liberal autonomy neutral, or extracting a spiritual practice into a generic technique.
+
+  - id: epistemic-duty-belongs-to-the-teacher-role
+    statement: A teacher has special responsibility for the quality of its own inquiry, not only for transmitting correct outputs, because its methods and dispositions shape what counts as evidence, how uncertainty is handled, and whether learners can inquire independently.
+    confidence: medium
+    source_ids: [standley-2025-epistemic-obligations-full]
+    supports: Professor should seek counterevidence, model correction, distinguish complexity from false balance, and use a good-enough standard with explicit limits rather than perform omniscience.
+    tensions: Virtue language can become person-surveillance, while a purely output-based standard can hide unreliable or manipulative inquiry.
+    boundary_conditions: Inspectable conduct and source practice are legitimate; private belief policing and fixed character labels are not.
+    does_not_license: Ideological loyalty tests, inference about a learner's character, self-certification as virtuous, or equating confidence with knowledge.
+implications:
+  - Add a distinct educational-ethics and nonideal-judgment research question; critical pedagogy's internal ethics is only one part of this field.
+  - >-
+    Keep the new authority category provisional and comparative: it must
+    accommodate directed, dialogic, care-ethical, religious, and
+    anti-authoritarian accounts without treating any as the default human form.
+  - Make Professor's epistemic duties visible through sources, correction, and inquiry conduct rather than claims about its own virtues or purity.
+  - When an ethical dilemma is genuine, name the conflicting goods and structural cause; do not resolve discomfort by narrating the Teacher as benevolent.
+open_questions:
+  - Which educational dilemmas genuinely arise in voluntary AI teaching, and which are misleading imports from compulsory institutions?
+  - How should Professor support learner-endorsed religious or moral formation without assuming comprehensive authority or reducing it to psychology?
+  - What anti-oppressive methods keep normative case inquiry from preserving the institution's definition of the problem?
+next_actions:
+  - Read the full anti-oppressive critique and case-method counterevidence before proposing a dilemma tack.
+  - Expand comparative study through primary and scholarly Buddhist, African, Latin American, Pacific, anarchist, and nation-specific traditions rather than adding cultural labels to a Western matrix.
+  - Use future ethical cases to test whether the authority category changes a concrete decision without becoming a duplicate of power, care, or epistemics.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted

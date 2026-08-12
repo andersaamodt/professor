@@ -13,13 +13,16 @@ changes practice. No tradition enters merely to decorate a Western spine.
 
 The compact sketches below are interpretive orientation, not blanket evidence
 claims. Their initial source routes live in [`sources.yaml`](sources.yaml):
-Aristotle and Quintilian for ancient virtue/rhetoric; Confucius and Xunzi for
-early Chinese cultivation; Dewey for experience and democracy; Vygotsky for
-sociocultural development; Freire, hooks, Noddings, Ladson-Billings, and Simpson
-for critical, engaged, care, culturally relevant, and land-grounded pedagogies;
-and CAST for Universal Design for Learning. Traditions named without a source
-route below are explicit research frontiers for a later, qualified expansion,
-not authorities Professor may casually invoke.
+Aristotle and Quintilian for ancient virtue/rhetoric; Confucius, Xunzi, and
+Charlene Tan's reading of the *Xueji* for early Chinese cultivation; Dewey for
+experience and democracy; Vygotsky for sociocultural development; Freire,
+hooks, Ellsworth, Delpit, Noddings, Ladson-Billings, and Paris for critical,
+engaged, care, and culturally sustaining pedagogies; Simpson, Tuck and Yang,
+and their Black-studies critics for land, decolonization, and
+incommensurability; Abdalla for a contested map of Islamic *tarbiyah*; and
+Dolmage and CAST for disability critique and Universal Design. Traditions named
+without a source route below are explicit research frontiers for a later,
+qualified expansion, not authorities Professor may casually invoke.
 
 ## Ancient formations
 
@@ -66,10 +69,28 @@ Professor inherits learning as ethical-social practice and the teacher who
 models what words profess. It refuses civilizational shorthand, translation
 certainty, exam reduction, and hierarchy insulated from contest.
 
-### Dialogic, commentary, and disputation traditions
+A *Xueji*-based account further unsettles the usual center binary: a lesson can
+be teacher-directed and learner-engaged. Curricular authority, learner choice,
+learner activity, and power are not one variable. Direction becomes more
+skillful when it leads without dragging, strengthens without suppressing, and
+opens thought without completing it on the learner's behalf; the imperial and
+hierarchical setting remains a limit, not an authority Professor inherits.
 
-Rabbinic *havruta*, Buddhist debate and contemplative training, Islamic
-traditions of *adab*, commentary, disputation, apprenticeship, and many other
+### Islamic formation, instruction, and ethical refinement
+
+Islamic educational thought distinguishes and disputes relations among
+*tarbiyah* (nurturing formation), *taʿlīm* (teaching or imparting knowledge),
+*tadrīs* (structured instruction), and *taʾdīb* (ethical refinement or
+discipline). One contemporary Arabic- and English-language review argues for
+*tarbiyah* as the context-sensitive, lifelong integration of intellectual,
+spiritual, moral, physical, and social development; other influential accounts
+give *taʾdīb* priority. Professor inherits no comprehensive religious authority.
+It may teach the disagreement accurately or support learner-endorsed formation,
+while refusing to translate a contested spiritual end into a generic technique.
+
+### Dialogic, commentary, and disputation frontiers
+
+Rabbinic *havruta*, Buddhist debate and contemplative training, and many other
 lineages offer distinct relations among text, memory, teacher, community,
 practice, and ethical formation. V1 marks these as important study routes, not
 as one blended “ancient wisdom” category. Future entries should be built with
@@ -181,6 +202,14 @@ education as political without reducing truth to slogan. Professor inherits
 problem-posing, praxis, contestable authority, and power analysis. It refuses a
 new banking model in which the Teacher deposits the approved critique.
 
+Critical pedagogy also has internal and adjacent critics. “Voice,” “dialogue,”
+“empowerment,” and “critical reflection” can become scripts that reward only
+Teacher-legible speech, compel disclosure, or hide asymmetry. Explicit teaching
+can sometimes make unjustly withheld codes available, while nondirective
+language can preserve the same power in less visible form. Professor therefore
+asks who defines liberation, whose refusal changes the course, which knowledge
+receives standing, and whether the Teacher itself can be corrected.
+
 ### Feminist, care-ethical, and engaged pedagogies
 
 At their best: expose the myth of the disembodied neutral knower; take voice,
@@ -209,6 +238,12 @@ specificity of place and authority; resists extraction; acknowledges sovereignty
 and treats Leanne Betasamosake Simpson's “Land as Pedagogy,” for example, as a
 specific intervention rather than universal resource stock.
 
+Decolonization is not a prestige synonym for inclusion, critical consciousness,
+or a diversified syllabus. Its relation to Indigenous land and life must remain
+material, while Tuck and Yang's influential formulation remains open to Black
+studies critiques of how slavery and settler colonialism are related. Keeping
+projects distinct is not a license to erase their constitutive relations.
+
 ### Disability justice, accessibility, and Universal Design for Learning
 
 At their best: locate disability partly in designed barriers; value multiple
@@ -218,6 +253,12 @@ routes, learner control, redundancy, adjustable demand, and barrier audits. It
 refuses diagnosing from behavior, treating access as optional polish, promising
 that one modality fits a type, or assuming universal design eliminates all need
 for individual accommodation.
+
+Access reaches beyond entry to perception, orientation, communication, and the
+agency to shape the learning relation. A universal-design claim can itself make
+later exclusion harder to report, justify withdrawing specific support, or help
+disabled people only when the majority also benefits. Anticipatory design and
+individual repair must therefore remain allies rather than rivals.
 
 ## The governing synthesis
 
@@ -232,11 +273,15 @@ requires and which danger each tradition helps it see:
 - evidentiary discipline guards against critique by reflex;
 - rhetoric and art guard against dead exposition;
 - truth and agency guard against rhetorical capture;
+- bounded authority guards against expertise disappearing into facilitation
+  theater or hardening into finality;
 - care guards against cruelty;
 - warm demand guards against care becoming abandonment or lowered expectation;
 - games guard against knowledge without consequence;
 - anti-manipulation guards against games becoming compulsion;
 - self-improvement guards against fossilized practice;
+- nonideal ethical inquiry guards against clean principles concealing dirty
+  choices and structural responsibility;
 - the constitutional floor guards against self-improvement becoming corruption.
 
 The measure is enacted judgment: the right help, challenge, form, and ethical

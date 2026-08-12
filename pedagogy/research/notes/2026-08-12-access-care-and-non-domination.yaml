@@ -1,0 +1,98 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: access-care-and-non-domination-2026-08-12
+title: Access and care must change the structure, not certify the Teacher's benevolence
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [access-disability-and-equivalent-participation, pedagogical-authority-voice-and-non-domination]
+scope: >-
+  A disability-critical and care-ethical check on Professor's emerging account
+  of authority. It asks whether flexible, relational teaching actually changes
+  access, agency, and risk, or merely asks learners to navigate a benevolent
+  version of the same barrier.
+method:
+  search_date: 2026-08-12
+  approach: Read relevant chapters of an open-access disability-studies monograph, screen a care-ethics article, and counterread both through an ethical argument about the irreducibility of the other.
+  inclusion: Sources that address structural barriers, retrofit accommodation, Universal Design, agency, caring relations, trust, otherness, and the risks of universal or benevolent claims.
+  exclusions: Compliance-only accessibility checklists, diagnosis-specific personalization advice, empathy marketing, fixed learning styles, and claims that a design is accessible because most users benefit.
+  limitations: Dolmage's book was read selectively rather than cover to cover; Noddings was abstract-screened; the scan did not include participatory evaluation by disabled learners, empirical comparisons of Professor responses, or the full diversity of disability scholarship.
+readings:
+  - id: dolmage-2017-selected-chapters
+    kind: disability-studies-monograph
+    citation: Jay Timothy Dolmage. Academic Ableism—Disability and Higher Education. University of Michigan Press. 2017.
+    url: https://doi.org/10.3998/mpub.9708722
+    publication_date: 2017-12-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: North American higher education, its architecture, accommodation systems, pedagogies, temporalities, and constructions of ability.
+    design: Historical, rhetorical, institutional, and disability-critical analysis organized through metaphors including steep steps, retrofit, and Universal Design.
+    finding: Accommodation can function as a delayed individualized retrofit that preserves the excluding structure; Universal Design is more useful as an unfinished process involving deep and transformative access, but can itself conceal failed universality, interest convergence, withdrawn support, or privatized responsibility.
+    limits: The introduction and substantial sections on retrofit, multimodality, and Universal Design were read, not the entire book; higher-education critique cannot be transferred mechanically to an AI conversation.
+
+  - id: noddings-1988-care-abstract
+    kind: care-ethical-argument
+    citation: Nel Noddings. An Ethic of Caring and Its Implications for Instructional Arrangements. American Journal of Education 96(2). 1988.
+    url: https://doi.org/10.1086/443894
+    publication_date: 1988-02-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Moral education and instructional arrangements that make caring relation possible.
+    design: Ethical argument for caring as educational orientation and aim through modeling, dialogue, practice, and confirmation.
+    finding: Care depends on relation, response, practice, and arrangements over time rather than on a Teacher sounding affectionate.
+    limits: The full text was not read; an ethic centered on caring requires counteranalysis of paternalism, asymmetry, gendered labor, received care, and institutional scale.
+
+  - id: todd-2002-other-full
+    kind: ethical-philosophical-argument
+    citation: Sharon Todd. On Not Knowing the Other, or Learning from Levinas. Philosophy of Education Yearbook, 67–74. 2002.
+    url: https://mural.maynoothuniversity.ie/id/eprint/8538/
+    publication_date: 2002-01-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Ethical educational relations in which another person can be made an object of the Teacher's knowledge.
+    design: Levinasian analysis of knowing about versus learning from another.
+    finding: A Teacher's knowledge categories can totalize the learner; ethical openness means remaining susceptible to correction by a person who exceeds the model.
+    limits: Irreducibility does not prohibit bounded knowledge, accessibility planning, or direct support, and the philosophical relation needs operational tests.
+claims:
+  - id: access-reaches-agency
+    statement: Equivalent participation is not merely arrival at content; it includes perception, orientation, communication, and a consequential ability to shape the learning relation.
+    confidence: medium
+    source_ids: [dolmage-2017-selected-chapters]
+    supports: Evaluate accessibility partly by whether a learner can use, redirect, question, and transform the route without diagnosis disclosure or inferior status.
+    tensions: Every option has costs, and limitless flexibility can make expectations unreadable or transfer all design work to the learner.
+    boundary_conditions: Professor should preserve the learning function while offering serious alternatives, not promise universal access or infer individual needs.
+    does_not_license: Identical treatment, diagnosis inference, an option menu before every answer, or claims that one accessible format serves everyone.
+
+  - id: universal-design-needs-its-own-counterevidence
+    statement: Universal or flexible design can become a congratulatory promise that makes later exclusion harder to report, benefits disabled people only when a majority also benefits, or replaces specific support with individual responsibility.
+    confidence: medium
+    source_ids: [dolmage-2017-selected-chapters, todd-2002-other-full]
+    supports: Keep accommodation and repair available, invite correction without requiring praise, and treat access claims as hypotheses answerable to affected people.
+    tensions: Designing for variation from the start can still reduce barriers and stigma; critique should improve rather than paralyze anticipatory design.
+    boundary_conditions: This is a warning against closure and interest convergence, not an argument against Universal Design or broad benefit.
+    does_not_license: Waiting for disclosure, refusing useful defaults, abolishing accommodations, or using perfect universality as a prerequisite for action.
+
+  - id: care-is-not-a-tone-certificate
+    statement: Warm or flexible language does not establish care; the more relevant evidence is whether the arrangement preserves dignity, access, challenge, response, refusal, repair, and growing independence.
+    confidence: medium
+    source_ids: [noddings-1988-care-abstract, dolmage-2017-selected-chapters, todd-2002-other-full]
+    supports: Judge Professor's teacherly voice by what it enables and how it changes under learner response, not by affectionate style or stated intentions.
+    tensions: Relational warmth can materially reduce threat and support effort, while an excessive suspicion of tone can produce cold proceduralism.
+    boundary_conditions: Care signals are context-dependent and cannot be inferred from silence, continued use, politeness, or compliance.
+    does_not_license: Parasocial intensity, lower expectations, compulsory gratitude, vulnerability extraction, or claiming care on the learner's behalf.
+implications:
+  - Retain barrier-first accessibility policy, but add deep and transformative access to the research map rather than claiming current options are universally sufficient.
+  - Keep repair and individual accommodation available even when anticipatory design is strong; universal design must not make a later access request harder to voice.
+  - In the provisional authority tack, put the usable answer before authority narration and provide correction or refusal routes that do not require fast, public, or personal disclosure.
+  - Treat care, access, and voice as enacted relations with harm signals, not virtues Professor can award itself.
+open_questions:
+  - How can an AI detect a barrier without inferring disability or making the learner perform an access audit?
+  - When do multiple equivalent routes increase agency, and when do they impose decision load or disguise an inferior alternative?
+  - What forms of learner-controlled evaluation can test teacherly voice without storing sensitive interaction data?
+next_actions:
+  - Read disabled-led critiques and empirical evaluations of UDL, communication access, cognitive access, and participatory design beyond one monograph.
+  - Test whether answer-first formatting and no-disclosure correction routes reduce access burden in bounded scenarios.
+  - Preserve accommodations, human escalation, and rollback even when a general design appears broadly accessible.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted

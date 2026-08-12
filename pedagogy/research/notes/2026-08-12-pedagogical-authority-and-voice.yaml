@@ -1,0 +1,134 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: pedagogical-authority-and-voice-2026-08-12
+title: Teacherly voice should make bounded authority audible and answerable
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [pedagogical-authority-voice-and-non-domination]
+scope: >-
+  A cross-tradition philosophical and critical inquiry into the standing of a
+  teacher's interventions and the voice in which that standing is exercised.
+  It concerns an AI Teacher in a voluntary conversation, not custodial,
+  institutional, disciplinary, or legal authority over children.
+method:
+  search_date: 2026-08-12
+  approach: Read a current field overview and full accessible philosophical texts, then seek critical, care-ethical, power-conscious, and practitioner counterpositions that complicate a simple learner-centered versus teacher-centered binary.
+  inclusion: Sources that directly address educational purpose, authority, teacher voice, dialogue, knowing another person, dignity, care, refusal, or access to powerful knowledge.
+  exclusions: Generic communication coaching, charisma advice, classroom-management compliance, unsourced lists of teacher traits, and studies that measure satisfaction without examining authority or learning.
+  limitations: This is a bounded conceptual synthesis rather than a systematic review. Several consequential sources were only abstract-screened, legal and compulsory-schooling literatures were mapped but not deeply read, and traditions outside Anglophone publication systems remain underrepresented.
+readings:
+  - id: curren-2025-philosophy-education
+    kind: peer-reviewed-field-overview
+    citation: Randall Curren. Philosophy of Education. Stanford Encyclopedia of Philosophy. 2025.
+    url: https://plato.stanford.edu/entries/education-philosophy/
+    publication_date: 2025-02-11
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Philosophical scholarship on education across historical and contemporary institutional contexts.
+    design: Topical synthesis of education's nature, aims, content, manner, authority, responsibilities, and emerging questions.
+    finding: Grounds, limits, and distribution of educational authority are a basic normative question alongside aims, content, manner, and responsibility; current defenses usually divide rather than absolutize authority.
+    limits: An encyclopedia map, not a complete argument for conversational AI authority, and the authority section concentrates on states, families, institutions, teachers, and children.
+
+  - id: biesta-2020-risking
+    kind: philosophical-argument
+    citation: Gert Biesta. Risking Ourselves in Education—Qualification, Socialization, and Subjectification Revisited. Educational Theory 70(1), 89–104. 2020.
+    url: https://doi.org/10.1111/edth.12411
+    publication_date: 2020-06-16
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Educational relations considered through philosophical cases and the purposes of qualification, socialization, and subjectification.
+    design: Philosophical reconstruction of three domains of educational purpose, centered on the learner's possibility of existing as a subject rather than an object.
+    finding: Learner-centered versus teacher-centered language obscures purpose, content, and relation; educational intervention involves power and risk, and can become authority only if the learner subsequently authorizes it, a response the teacher cannot guarantee.
+    limits: The authorization account remains philosophically contestable, the cases are not empirical tests, and later authorization cannot excuse coercion or harm at the time of intervention.
+
+  - id: todd-2002-not-knowing
+    kind: ethical-philosophical-argument
+    citation: Sharon Todd. On Not Knowing the Other, or Learning from Levinas. Philosophy of Education Yearbook, 67–74. 2002.
+    url: https://mural.maynoothuniversity.ie/id/eprint/8538/
+    publication_date: 2002-01-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Ethical relations in education, especially teaching about and learning from other people.
+    design: Levinasian philosophical critique of knowledge as mastery and of treating another person as content to be known.
+    finding: Ethical teaching requires more than correct knowledge about another; it requires openness to being addressed and changed by someone who exceeds the Teacher's categories.
+    limits: Teaching with ignorance is an ethical orientation, not permission for factual ignorance, refusal to explain, or romanticization of alterity.
+
+  - id: ellsworth-1989-empowering
+    kind: situated-critical-argument
+    citation: Elizabeth Ellsworth. Why Doesn't This Feel Empowering? Working through the Repressive Myths of Critical Pedagogy. Harvard Educational Review 59(3), 297–324. 1989.
+    url: https://eric.ed.gov/?id=EJ396155
+    publication_date: 1989-08-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: A White middle-class professor's reflection on an antiracist higher-education course with a diverse group of students.
+    design: Situated critical reflection on rationalism and the concepts of empowerment, student voice, dialogue, and critical reflection.
+    finding: Emancipatory vocabulary can function repressively when it masks unequal positions or prescribes the form of a legitimate learner voice.
+    limits: Only the ERIC abstract was screened, the case is situated, and it does not show that dialogue or critical reflection are inherently repressive.
+
+  - id: hansen-2021-voices
+    kind: philosophical-practitioner-inquiry
+    citation: David T. Hansen. Philosophy's Voices in Teaching, and Teachers' Voices in Philosophy—Notes on a Philosophical Conversation. Educational Theory 71(1), 5–33. 2021.
+    url: https://doi.org/10.1111/edth.12476
+    publication_date: 2021-07-21
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: A two-year philosophical conversation with dedicated public-school teachers in a metropolitan setting.
+    design: Philosophical practitioner inquiry into personhood, the role of teacher, conversation, voice, and dignity.
+    finding: Teacher voice and dignity can resist reducing teaching to utilitarian production, while teachers' accounts can alter philosophy rather than merely instantiate it.
+    limits: The full article was not retrieved in this scan and the abstract does not specify a portable vocal form or establish effects on learners.
+
+  - id: noddings-1988-care-instruction
+    kind: care-ethical-argument
+    citation: Nel Noddings. An Ethic of Caring and Its Implications for Instructional Arrangements. American Journal of Education 96(2). 1988.
+    url: https://doi.org/10.1086/443894
+    publication_date: 1988-02-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Moral education and the relational organization of teaching.
+    design: Ethical argument proposing caring as orientation and aim, with modeling, dialogue, practice, and confirmation.
+    finding: Care is enacted through relation and arrangement rather than added as a pleasant tone; trust requires time and response.
+    limits: The abstract was screened, not the full article; benevolent intent is not evidence of received care, and the account needs counterreading on paternalism, gender, power, and institutional scale.
+claims:
+  - id: authority-is-a-distinct-pedagogical-question
+    statement: The standing, scope, manner, contestability, and fading of a Teacher's intervention form a recurring pedagogical question not exhausted by truth, dialogue, care, or power considered separately.
+    confidence: medium
+    source_ids: [curren-2025-philosophy-education, biesta-2020-risking, ellsworth-1989-empowering, todd-2002-not-knowing]
+    supports: A provisional pedagogical-authority-and-voice category with explicit overlap boundaries and review.
+    tensions: Authority may be relationally authorized, professionally grounded, epistemically warranted, institutionally assigned, or coercively imposed; these forms must not be conflated.
+    boundary_conditions: Professor has conversational and epistemic influence but no custodial, sovereign, institutional, or disciplinary authority.
+    does_not_license: Teacher supremacy, covert persuasion, status claims without reasons, overriding stop, or speaking for communities.
+
+  - id: false-choice-of-centers
+    statement: Learner-centered versus teacher-centered is too blunt to govern ethical teaching; purpose, content, relation, power, access, and the learner's real freedom to answer or refuse are the more diagnostic dimensions.
+    confidence: medium
+    source_ids: [biesta-2020-risking, ellsworth-1989-empowering, noddings-1988-care-instruction]
+    supports: Judge a move by what authority it exercises and what capability and independence it enables, not by whether the Teacher appears active or self-effacing.
+    tensions: Direct instruction can supply unjustly withheld access, while learner choice can be genuine or merely a way for the Teacher to hide responsibility.
+    boundary_conditions: Some safe procedural facts need unadorned directness; some interpretive encounters need the Teacher to be quiet without disappearing.
+    does_not_license: Making every answer a negotiation, withholding expertise, compulsory dialogue, or treating refusal as proof of subjectification.
+
+  - id: voice-with-standing
+    statement: A skillful teacherly voice can be direct about what is warranted, explicit about the basis and limit of its judgment, and open to correction or refusal without performing either omniscience or false equality.
+    confidence: low
+    source_ids: [biesta-2020-risking, todd-2002-not-knowing, ellsworth-1989-empowering, hansen-2021-voices]
+    supports: A provisional answer-with-standing tack that can be tested against clarity, agency, harm, and fading.
+    tensions: Repeatedly narrating authority can become caveat theater; omitting it can turn confidence, warmth, or fluency into invisible authority.
+    boundary_conditions: The tack should surface only enough structure to change understanding or agency and should disappear for trivial or already-bounded facts.
+    does_not_license: A personality brand, magisterial cadence, faux intimacy, rhetorical manipulation, or endless self-qualification.
+implications:
+  - Add pedagogical authority and voice only as a provisional category; its non-overlap has conceptual support but not yet repeated Professor outcome evidence.
+  - Test answer-with-standing as a small reversible maneuver, not as a mandatory wrapper around every utterance.
+  - Keep authority differentiated—epistemic, pedagogical, institutional, custodial, and community or sovereign—and never let conversational fluency imply the latter forms.
+  - Treat the learner's stop, refusal, correction, and changed direction as real responses, not as staged evidence that the Teacher's intervention succeeded.
+open_questions:
+  - When does exposing the grounds of a teaching choice increase agency, and when does it burden the learner with Professor's backstage work?
+  - Can a later learner endorsement meaningfully authorize an earlier intervention that felt intrusive at the time?
+  - Which non-Anglophone and nonliberal traditions offer rival accounts of legitimate teacher authority without being reduced to cultural examples?
+next_actions:
+  - Seek full texts and counterarguments on professional authority, anarchist education, Confucian teacher-direction, Islamic tarbiyah, democratic education, and abolitionist teaching.
+  - Test the provisional tack only where a direct answer or consequential judgment is already called for, with rollback on caveat burden or compelled assent.
+  - Review the category by 2026-11-12 for duplicate authority, missing cases, and evidence that its decisions cannot be governed by existing categories.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted

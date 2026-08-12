@@ -1,5 +1,5 @@
 schema: professor.source-ledger/v1
-version: 1.0.0
+version: 1.1.0
 note: >-
   Source kinds are intentionally plural. An empirical effect, ethical argument,
   historical lineage, critical lens, and design framework answer different
@@ -201,3 +201,101 @@ sources:
     url: https://unesdoc.unesco.org/ark:/48223/pf0000386693
     use: Human agency, inclusion, privacy, governance, and age-appropriate uses of generative AI in education.
     limits: Global guidance that requires local legal, cultural, institutional, and learner-specific interpretation.
+
+  - id: ellsworth-1989
+    kind: critical-countertradition
+    citation: Elizabeth Ellsworth. Why Doesn't This Feel Empowering? Working through the Repressive Myths of Critical Pedagogy. 1989.
+    url: https://eric.ed.gov/?id=EJ396155
+    use: Critique of rationalist assumptions and coercive possibilities inside claims about empowerment, dialogue, student voice, and critical reflection.
+    limits: A situated critical account of one antiracist course; the abstract was screened here, not the full article, and it does not invalidate dialogue as such.
+
+  - id: biesta-risking-2020
+    kind: philosophical-theoretical
+    citation: Gert Biesta. Risking Ourselves in Education—Qualification, Socialization, and Subjectification Revisited. 2020.
+    url: https://doi.org/10.1111/edth.12411
+    use: Educational purpose beyond generic learning, the learner as subject, and pedagogical authority as an unresolved relation involving freedom and risk.
+    limits: A philosophical argument illustrated by cases, not a causal evaluation; its account of subjectification and authority is contestable and not a warrant for teacher unilateralism.
+
+  - id: todd-not-knowing-2002
+    kind: ethical-philosophical
+    citation: Sharon Todd. On Not Knowing the Other, or Learning from Levinas. 2002.
+    url: https://mural.maynoothuniversity.ie/id/eprint/8538/
+    use: Epistemic humility in educational relation and the distinction between learning about another person and remaining answerable to an irreducible other.
+    limits: A Levinasian philosophical intervention, not a general prohibition on knowledge or explanation; its ethical vocabulary needs translation into bounded practice.
+
+  - id: tuck-yang-2012
+    kind: decolonial-critical
+    citation: Eve Tuck and K. Wayne Yang. Decolonization Is Not a Metaphor. 2012.
+    url: https://jps.library.utoronto.ca/index.php/des/article/view/18630
+    use: Keeps decolonization tied to Indigenous land and life, identifies settler moves to innocence, and warns against absorbing incommensurable projects into generic social justice language.
+    limits: A forceful theoretical intervention with contested treatment of slavery and settler-colonial relations; it must be read with Black studies and other Indigenous scholarship, not made a final vocabulary court.
+
+  - id: garba-sorentino-2020
+    kind: critical-countertradition
+    citation: Tapji Garba and Sara-Maria Sorentino. Slavery Is a Metaphor—A Critical Commentary on Eve Tuck and K. Wayne Yang's Decolonization Is Not a Metaphor. 2020.
+    url: https://doi.org/10.1111/anti.12615
+    use: Challenges a settler–Native dyad, the reduction of slavery to forced labor, and a clean division between material and symbolic relations.
+    limits: An immanent theoretical critique screened at abstract level here; it does not license returning decolonization to a generic metaphor or collapsing Black and Indigenous histories.
+
+  - id: dolmage-academic-ableism-2017
+    kind: disability-critical
+    citation: Jay Timothy Dolmage. Academic Ableism—Disability and Higher Education. 2017.
+    url: https://doi.org/10.3998/mpub.9708722
+    use: Structural critique of academic ableism, retrofit accommodation, normate design, and Universal Design understood as an unfinished process involving agency and transformation.
+    limits: Focused on higher education, especially North American institutions; Universal Design can itself conceal exclusion, interest convergence, and withdrawn support if treated as a promise or checklist.
+
+  - id: delpit-silenced-dialogue-1988
+    kind: critical-theoretical
+    citation: Lisa D. Delpit. The Silenced Dialogue—Power and Pedagogy in Educating Other People's Children. 1988.
+    url: https://eric.ed.gov/?id=EJ378426
+    use: Power, the need to hear communities whose knowledge is discounted, and the justice case for explicitly teaching access to dominant codes while making their power visible.
+    limits: Abstract and metadata were screened here; explicit instruction can itself dominate if detached from community knowledge, plural competence, and critique of the rules being taught.
+
+  - id: paris-culturally-sustaining-2012
+    kind: critical-theoretical
+    citation: Django Paris. Culturally Sustaining Pedagogy—A Needed Change in Stance, Terminology, and Practice. 2012.
+    url: https://doi.org/10.3102/0013189X12441244
+    use: Moves beyond relevance or responsiveness toward sustaining linguistic, literate, and cultural pluralism as an educational aim.
+    limits: A programmatic conceptual essay, not a universal method; sustaining practice requires community definition and cannot be inferred from surface representation.
+
+  - id: hansen-teachers-voices-2021
+    kind: philosophical-practitioner-inquiry
+    citation: David T. Hansen. Philosophy's Voices in Teaching, and Teachers' Voices in Philosophy—Notes on a Philosophical Conversation. 2021.
+    url: https://doi.org/10.1111/edth.12476
+    use: Teacher voice, philosophical conversation, and dignity as ethical goods resistant to purely utilitarian accounts of teaching.
+    limits: A two-year philosophical conversation with a particular group of public-school teachers, screened at abstract level here; it does not establish one ideal vocal style.
+
+  - id: noddings-care-instruction-1988
+    kind: ethical-lineage
+    citation: Nel Noddings. An Ethic of Caring and Its Implications for Instructional Arrangements. 1988.
+    url: https://doi.org/10.1086/443894
+    use: Caring as an educational orientation and aim expressed through modeling, dialogue, practice, confirmation, and sustained relations.
+    limits: Abstract-screened here; care remains vulnerable to paternalism, gendered burden, institutional scaling problems, and the substitution of benevolent intent for learner experience.
+
+  - id: levinson-moral-injury-2015
+    kind: nonideal-ethical-case
+    citation: Meira Levinson. Moral Injury and the Ethics of Educational Injustice. 2015.
+    url: https://doi.org/10.17763/0017-8055.85.2.203
+    use: Ethical judgment where structural injustice makes every available action morally compromising, with phronetic case inquiry, moral injury, voice, and collective responsibility.
+    limits: A richly developed but single institutional case; the concept of moral injury must not recenter educator suffering over the people directly harmed or naturalize unjust structures.
+
+  - id: tan-teacher-directed-2015
+    kind: comparative-philosophical
+    citation: Charlene Tan. Teacher-Directed and Learner-Engaged—Exploring a Confucian Conception of Education. 2015.
+    url: https://doi.org/10.1080/17449642.2015.1101229
+    use: A Xueji-based account that separates teacher direction, learner activity, learner choice, power, moral self-cultivation, and responsive guidance.
+    limits: One scholar's reconstruction of one ancient text in its imperial context; neither Confucian traditions nor contemporary Chinese learners are unitary, and hierarchy is not self-justifying.
+
+  - id: abdalla-tarbiyah-2025
+    kind: multilingual-narrative-review
+    citation: Mohamad Abdalla. Exploring Tarbiyah in Islamic Education—A Critical Review of the English- and Arabic-Language Literature. 2025.
+    url: https://doi.org/10.3390/educsci15050559
+    use: Distinguishes tarbiyah, taʿlīm, tadrīs, and taʾdīb and maps an Islamic educational debate about holistic intellectual, moral, spiritual, physical, and social formation.
+    limits: A non-exhaustive narrative review in Arabic and English; it advances a particular ordering of contested concepts and does not represent the linguistic or theological diversity of Muslim educational traditions.
+
+  - id: standley-epistemic-obligations-2025
+    kind: epistemic-professional-ethics
+    citation: Jeff Standley. On the Special Epistemic Obligations of the Educator. 2025.
+    url: https://doi.org/10.1111/edth.70007
+    use: Connects educational epistemic aims to educator inquiry, role-modeling, intellectual virtues, responsible belief formation, and a good-enough rather than ideal standard.
+    limits: A philosophical argument centered on educator character; it risks privacy intrusion, ideological policing, and individualizing failures produced by institutions or hostile information environments.

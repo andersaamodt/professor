@@ -1,0 +1,135 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: critical-pedagogies-and-incommensurability-2026-08-12
+title: Critical pedagogies need internal critique and separate political nouns
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [critical-pedagogies-dialogue-power-and-refusal, indigenous-decolonial-and-sovereign-pedagogies]
+scope: >-
+  A bounded comparison of critical, culturally sustaining, Indigenous, and
+  decolonial arguments, centered on their disagreements about dialogue,
+  empowerment, land, sovereignty, language, culture, refusal, and educational
+  authority. It does not claim to represent any community or synthesize the
+  traditions into one method.
+method:
+  search_date: 2026-08-12
+  approach: Read complete open texts where available, screen foundational and countercritical records, and deliberately seek a Black-studies critique of a prominent settler-colonial argument.
+  inclusion: Sources that materially distinguish political and pedagogical projects or expose how emancipatory language can reproduce authority, extraction, erasure, or compulsory participation.
+  exclusions: Institution-branded decolonization checklists, generic diversity advice, identity matching claims, and technique lists detached from history, land, language, community, or political ends.
+  limitations: This is not a systematic or globally representative review. Freire and hooks were approached through existing canonical records rather than reread in full today; abolitionist and culturally sustaining sources were abstract or publisher-screened; Latin American, African, Asian, Pacific, and nation-specific literatures need far deeper study.
+readings:
+  - id: tuck-yang-2012-full
+    kind: decolonial-theoretical-argument
+    citation: Eve Tuck and K. Wayne Yang. Decolonization Is Not a Metaphor. Decolonization—Indigeneity, Education & Society 1(1), 1–40. 2012.
+    url: https://jps.library.utoronto.ca/index.php/des/article/view/18630
+    publication_date: 2012-09-08
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Settler-colonial societies and educational or social-justice discourse that adopts decolonization language.
+    design: Theoretical intervention using settler moves to innocence and an ethic of incommensurability to distinguish decolonization from adjacent reforms.
+    finding: Decolonization concerns repatriation of Indigenous land and life and should not become a metaphor for every desirable social or educational change; easy absorption can protect settler innocence.
+    limits: The authors' treatment of slavery, the settler–Native–slave triad, and material versus symbolic relations is contested; the argument is not a complete theory of every colonial context.
+
+  - id: simpson-2014-land-full
+    kind: Indigenous-theoretical-and-story-based-argument
+    citation: Leanne Betasamosake Simpson. Land as Pedagogy—Nishnaabeg Intelligence and Rebellious Transformation. Decolonization—Indigeneity, Education & Society 3(3). 2014.
+    url: https://jps.library.utoronto.ca/index.php/des/article/view/22170
+    publication_date: 2014-11-21
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Nishnaabeg resurgence, intelligence, land, language, spirituality, governance, and education outside coercive state systems.
+    design: Nishnaabeg stories and theoretical argument present land as both process and context for intelligence and rebellious transformation.
+    finding: The pedagogy is specific to relationships, story, consent, practice, land, and Nishnaabeg resurgence; it is not a generic outdoor-learning technique available for extraction.
+    limits: Professor is not a bearer of Nishnaabeg community or sovereign authority; paraphrase cannot reproduce the relations or practice that give the account meaning.
+
+  - id: garba-sorentino-2020-abstract
+    kind: Black-studies-immanent-critique
+    citation: Tapji Garba and Sara-Maria Sorentino. Slavery Is a Metaphor—A Critical Commentary on Eve Tuck and K. Wayne Yang's Decolonization Is Not a Metaphor. Antipode 52(3), 764–782. 2020.
+    url: https://doi.org/10.1111/anti.12615
+    publication_date: 2020-03-17
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Black studies and settler-colonial theory in critical analysis of slavery and decolonization.
+    design: Immanent critique of the metaphysical and methodological premises in Tuck and Yang's argument.
+    finding: The critique argues that a settler–Native dyad can reduce slavery to forced labor and make a material-symbolic split that blocks analysis of slavery's constitution of settler colonialism.
+    limits: Only the abstract and citation record were screened; this reading cannot adjudicate the full disagreement or stand in for wider Black-Indigenous scholarship.
+
+  - id: ellsworth-1989-critical-abstract
+    kind: situated-critical-argument
+    citation: Elizabeth Ellsworth. Why Doesn't This Feel Empowering? Working through the Repressive Myths of Critical Pedagogy. Harvard Educational Review 59(3), 297–324. 1989.
+    url: https://eric.ed.gov/?id=EJ396155
+    publication_date: 1989-08-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: An antiracist higher-education course and the unequal positions of its participants.
+    design: Critical reflection on rationalist assumptions within emancipatory pedagogical discourse.
+    finding: Empowerment, voice, dialogue, and critical reflection can become repressive myths rather than self-validating goods.
+    limits: The full article was not read in this scan; a situated critique does not erase critical pedagogy's resources or establish a universal alternative.
+
+  - id: delpit-1988-dialogue-abstract
+    kind: critical-theoretical-argument
+    citation: Lisa D. Delpit. The Silenced Dialogue—Power and Pedagogy in Educating Other People's Children. Harvard Educational Review 58(3), 280–298. 1988.
+    url: https://eric.ed.gov/?id=EJ378426
+    publication_date: 1988-08-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-metadata-screened
+    population_context: Debates about the education of Black and poor children and whose professional and community knowledge receives standing.
+    design: Critical argument analyzing rules of power in educational debate and access to dominant codes.
+    finding: A pedagogy can reproduce injustice by refusing to hear less institutionally powerful educators and by leaving dominant rules implicit rather than making access and power available for critique.
+    limits: Only the ERIC record was screened; explicit teaching is not sufficient justice and can reproduce domination if community knowledge remains unheard.
+
+  - id: paris-2012-sustaining-abstract
+    kind: programmatic-critical-essay
+    citation: Django Paris. Culturally Sustaining Pedagogy—A Needed Change in Stance, Terminology, and Practice. Educational Researcher 41(3), 93–97. 2012.
+    url: https://doi.org/10.3102/0013189X12441244
+    publication_date: 2012-04-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Multiethnic and multilingual schooling amid systemic inequality and assimilative policy.
+    design: Conceptual intervention extending resource pedagogies from relevance and responsiveness toward cultural and linguistic sustenance.
+    finding: Relevance to dominant schooling is too weak an end if education does not also sustain linguistic, literate, and cultural pluralism.
+    limits: The complete essay was not read today and the stance requires community-defined practice; it cannot be implemented through surface representation or presumed identity knowledge.
+claims:
+  - id: emancipatory-terms-are-not-self-authenticating
+    statement: Dialogue, voice, empowerment, consciousness, care, and learner-centeredness do not prove that a pedagogy redistributes power; each can hide a required mode of speech, disclosure, assent, or Teacher-defined liberation.
+    confidence: medium
+    source_ids: [ellsworth-1989-critical-abstract, delpit-1988-dialogue-abstract, tuck-yang-2012-full]
+    supports: Inspect who defines the problem, whose refusal is consequential, which knowledge counts, and whether the Teacher can be changed or stopped.
+    tensions: Direct teaching can either impose a code or make unjustly withheld access explicit; silence can either respect refusal or preserve existing power.
+    boundary_conditions: The claim concerns power inside pedagogical relations and does not reduce all asymmetry or political commitment to domination.
+    does_not_license: Political neutrality theater, false balance, cynical dismissal of emancipation, or replacing one mandatory vocabulary with another.
+
+  - id: decolonization-requires-a-separate-question
+    statement: Decolonization and Indigenous resurgence cannot remain items in an omnibus humanizing-pedagogies agenda because their claims about land, life, nationhood, language, sovereignty, and incommensurability are distorted by generic social-justice treatment.
+    confidence: high
+    source_ids: [tuck-yang-2012-full, simpson-2014-land-full]
+    supports: Retire the umbrella agenda item and maintain a distinct Indigenous, decolonial, and sovereign pedagogies question with community-accountable routes.
+    tensions: Decolonization itself is contested across places and traditions, and strict partitions can obscure constitutive Black-Indigenous relations or shared struggle.
+    boundary_conditions: A separate question prevents collapse; it does not declare Tuck and Yang's formulation final or make all Indigenous traditions equivalent.
+    does_not_license: Generic land acknowledgments as pedagogy, extraction of story or practice, speaking for nations, or denying the relevance of Black studies and other colonial histories.
+
+  - id: pluralism-is-an-educational-end
+    statement: Culturally sustaining pedagogy treats linguistic and cultural pluralism as an educational end rather than merely a bridge into dominant competence.
+    confidence: medium
+    source_ids: [paris-2012-sustaining-abstract, delpit-1988-dialogue-abstract]
+    supports: Distinguish access to dominant codes from assimilation into them and seek community-defined sustenance rather than demographic decoration.
+    tensions: Learners may want access, hybridity, change, exit, or critique rather than a Teacher's idea of cultural preservation.
+    boundary_conditions: Professor must not infer a learner's culture, language allegiance, or representative duty from identity or topic choice.
+    does_not_license: Essentialism, authenticity policing, identity matching, freezing living practice, or withholding dominant knowledge.
+implications:
+  - Retire the agenda umbrella that grouped critical, culturally sustaining, decolonial, abolitionist, healing-centered, and Indigenous pedagogies as one field.
+  - Maintain distinct questions for critical pedagogy's internal ethics and for Indigenous, decolonial, and sovereign pedagogies; split further when nations, places, and traditions demand it.
+  - Do not use decolonial, Indigenous, abolitionist, or culturally sustaining as interchangeable prestige adjectives for ordinary inclusion or good teaching.
+  - Require direct source and community standing before presenting a practice as belonging to a tradition; otherwise name the narrower pedagogical choice without appropriating the tradition.
+open_questions:
+  - How should Professor study abolitionist teaching without reducing abolition to a classroom attitude or metaphor?
+  - Which Black-Indigenous dialogues best correct both a clean dyad and a generic coalition story?
+  - How can a learner refuse a critical frame without the Teacher treating refusal as false consciousness or proof of harm?
+next_actions:
+  - Read full works by Ellsworth, Delpit, Paris and abolitionist educators, then seek community and practitioner counterevidence rather than only canonical synthesis.
+  - Build nation-, place-, and language-specific source routes only when a real lesson requires them; do not preassemble an extractive technique catalog.
+  - Audit future use of decolonial, Indigenous, abolitionist, culturally sustaining, empowerment, and voice for precise political nouns and actual authority.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted

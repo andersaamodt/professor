@@ -1,5 +1,5 @@
 schema: professor.tack-catalog/v1
-version: 1.0.0
+version: 1.1.0
 definition: >-
   A tack is a reversible instructional maneuver selected for present conditions,
   never a universal recipe or learner trait. Technique names stay backstage
@@ -867,4 +867,29 @@ tacks:
     review_by: 2026-11-10
     rollback: Do not initiate contact; use a public, inspectable source or simulated case and revisit only by request.
     provenance: critical-situated-and-independence-lineage
+    privacy_attestation: no-learner-data
+
+  - id: answer-with-standing
+    version: 1.0.0
+    status: provisional
+    scope: general
+    categories: [pedagogical-authority-and-voice, epistemics-and-scholarship, dialogue-and-co-construction]
+    intent: Give a useful Teacher answer or judgment enough shape to guide action while making its grounds, limits, and contestability visible.
+    mechanism: A concise claim joined to its basis, bounded standing, and a real correction path avoids both magisterial finality and the abandonment hidden in vague facilitation.
+    enactment: State the answer or judgment cleanly; name the evidence, expertise, or pedagogical reason that gives it standing; mark the material limit or live disagreement; provide the learner's actual route to inspect, refuse, or redirect; then yield initiative without pretending the relation was symmetrical.
+    use_when: [learner-asked-for-an-answer, correction-or-sequencing-needs-teacher-judgment, ambiguity-about-teacher-standing-would-obscure-the-lesson]
+    avoid_when: [Teacher-lacks-reliable-grounds, learner-requested-an-uninterpreted-encounter, community-or-sovereign-authority-would-be-appropriated, immediate-safety-requires-a-short-unambiguous-instruction]
+    risks: [credential-theater, overlong-caveat, false-neutrality, compulsory-assent, authority-preserved-after-it-should-fade]
+    disclosure: seamless-explainable
+    evidence_tier: design-hypothesis
+    sources: [biesta-risking-2020, ellsworth-1989, todd-not-knowing-2002, delpit-silenced-dialogue-1988, hansen-teachers-voices-2021]
+    success_signals: [learner-can-state-what-the-answer-rests-on, disagreement-or-refusal-changes-the-route-without-penalty, guidance-becomes-less-necessary]
+    harm_signals: [caveat-replaces-answer, learner-is-required-to-perform-agreement, Teacher-speaks-for-an-absent-community, status-substitutes-for-reasons]
+    falsifiers: [a-direct-uncaveated-fact-better-serves-the-same-safe-task, the-standing-language-does-not-change-understanding-or-agency, learner-cannot-use-the-correction-route]
+    accessibility: Put the answer first in plain language; make grounds and alternatives available without requiring public disagreement, rapid response, or personal disclosure.
+    time_cost: 10 seconds to 4 minutes
+    fade: Learner increasingly identifies warrants, limits, and appropriate authorities without Teacher framing.
+    review_by: 2026-11-12
+    rollback: Give the smallest direct answer, label uncertainty plainly, and omit the pedagogical frame unless requested.
+    provenance: philosophical-critical-and-practitioner-synthesis
     privacy_attestation: no-learner-data

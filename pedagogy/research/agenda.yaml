@@ -1,5 +1,5 @@
 schema: professor.research-agenda/v1
-version: 1.0.0
+version: 1.1.0
 cadence:
   horizon_scan: weekly
   deep_read: monthly
@@ -46,15 +46,59 @@ questions:
     reframe_when: A component requires its own domain- and age-specific agenda.
 
   - id: humanizing-critical-and-healing-pedagogies
-    status: active
+    status: retired
     question: How do critical, culturally sustaining, decolonial, abolitionist, healing-centered, and Indigenous pedagogies change the purposes and relations of teaching?
     why_now: Technique-centered evidence can erase history, power, community knowledge, relation, and the ends education serves.
     lenses: [critical, historical, participatory, Indigenous, cultural, ethical]
     source_routes: [books, community-scholarship, participatory-research, historical-analysis, design-based-research]
     watch_venues: [Journal of the Learning Sciences, Harvard Educational Review, Equity & Excellence in Education, Indigenous education journals, ISLS proceedings]
-    last_scanned_on: 2026-08-10
+    last_scanned_on: 2026-08-12
+    next_scan_on: 2026-08-12
+    reframe_when: Met on 2026-08-12; the umbrella concealed disagreement and collapsed projects with different agents, histories, ends, and claims to authority.
+
+  - id: pedagogical-authority-voice-and-non-domination
+    status: active
+    question: What gives a teacher's intervention legitimate standing, how should that standing sound and remain contestable, and when must it yield or fade?
+    why_now: Learner-centered and teacher-centered labels obscure whether authority is explicit, warranted, answerable, noncoercive, useful, and independence-producing.
+    lenses: [philosophy-of-education, professional-ethics, rhetoric, care-ethics, disability-ethics, anti-authoritarian]
+    source_routes: [philosophical-arguments, teacher-practitioner-inquiry, learner-and-community-critique, discourse-analysis, comparative-traditions]
+    watch_venues: [Educational Theory, Journal of Philosophy of Education, Studies in Philosophy and Education, Ethics and Education, Philosophy of Education Yearbook]
+    last_scanned_on: 2026-08-12
     next_scan_on: 2026-09-01
-    reframe_when: The umbrella conceals important disagreement or collapses distinct traditions.
+    reframe_when: Institutional, custodial, epistemic, and moment-to-moment pedagogical authority require separate governing questions.
+
+  - id: critical-pedagogies-dialogue-power-and-refusal
+    status: active
+    question: When do critical dialogue, voice, consciousness, explicit instruction, and emancipatory aims redistribute power, and when do they conceal or reproduce it?
+    why_now: Critical pedagogy can expose domination while its own language of dialogue and empowerment can compel disclosure, assent, or participation in the Teacher's political script.
+    lenses: [Freirean, feminist, Black-studies, culturally-sustaining, abolitionist, rhetorical, empirical]
+    source_routes: [foundational-texts, internal-critiques, community-scholarship, classroom-cases, learner-authored-accounts]
+    watch_venues: [Harvard Educational Review, Educational Theory, Curriculum Inquiry, Race Ethnicity and Education, Equity & Excellence in Education]
+    last_scanned_on: 2026-08-12
+    next_scan_on: 2026-09-01
+    reframe_when: A named tradition's aims or harm model become distorted by treatment as generic critical pedagogy.
+
+  - id: indigenous-decolonial-and-sovereign-pedagogies
+    status: active
+    question: How should Professor encounter Indigenous and decolonial pedagogies without metaphorizing decolonization, extracting technique, or claiming community and sovereign authority it does not possess?
+    why_now: Generic social-justice vocabulary can erase land, nationhood, language, consent, resurgence, Black-Indigenous relations, and the incommensurability of distinct political projects.
+    lenses: [Indigenous-studies, settler-colonial-studies, Black-studies, sovereignty, land-and-language, community-accountability]
+    source_routes: [Indigenous-authored-scholarship, nation-and-community-publications, primary-stories-with-permission, Black-Indigenous-dialogue, critical-counterreadings]
+    watch_venues: [Decolonization Indigeneity Education & Society archive, American Indian Culture and Research Journal, Journal of American Indian Education, AlterNative, Indigenous community publications]
+    last_scanned_on: 2026-08-12
+    next_scan_on: 2026-09-01
+    reframe_when: Distinct nations, places, languages, or Black-Indigenous relations demand separate questions and accountable source routes.
+
+  - id: educational-ethics-and-nonideal-judgment
+    status: active
+    question: How should teachers reason and act when educational goods, rights, relationships, professional duties, and structural injustices conflict and no option is clean?
+    why_now: Codes and ideal theories underdescribe ordinary educational judgment, while benevolent improvisation can hide harm, moral injury, or institutional responsibility.
+    lenses: [phronesis, nonideal-theory, professional-ethics, care-ethics, justice, epistemic-ethics, institutional-analysis]
+    source_routes: [normative-case-studies, philosophical-arguments, practitioner-inquiry, affected-person-accounts, institutional-and-policy-analysis]
+    watch_venues: [Educational Theory, Ethics and Education, Harvard Educational Review, Journal of Philosophy of Education, Teaching and Teacher Education]
+    last_scanned_on: 2026-08-12
+    next_scan_on: 2026-09-01
+    reframe_when: Conversational AI decisions and institutional educator dilemmas prove to have materially different responsibilities, harms, and repair agents.
 
   - id: access-disability-and-equivalent-participation
     status: active

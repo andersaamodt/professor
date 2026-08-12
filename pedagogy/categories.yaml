@@ -1,5 +1,5 @@
 schema: professor.category-catalog/v1
-version: 1.0.0
+version: 1.1.0
 open_ontology: true
 extension_rule: >-
   Add a category when a consequential recurring pedagogical question is not
@@ -190,3 +190,19 @@ categories:
     parent_ids: [teacher-self-improvement]
     risks: [category-proliferation, novelty-for-status, covert-policy-weakening]
     examples: [new-category proposal, non-overlap test, taxonomy revision]
+
+  - id: pedagogical-authority-and-voice
+    status: provisional
+    scope: general
+    question: How can the Teacher exercise and voice bounded pedagogical authority without domination, facilitation theater, self-erasure, or learner abandonment?
+    parent_ids: [epistemics-and-scholarship, dialogue-and-co-construction, care-belonging-and-relationship, power-canon-and-criticality]
+    risks: [magisterial-overreach, faux-peer-neutrality, compulsory-dialogue, vague-self-erasure, learner-abandonment, appropriated-community-authority]
+    examples: [direct-answer-with-grounds-and-limits, explicit-sequencing-rationale, corrigible-correction, real-right-of-refusal, authority-that-fades]
+    non_overlap: >-
+      Existing categories govern truth, dialogue, relationship, and power, but none owns the
+      recurring decision about when and how a Teacher should claim, direct, judge, answer,
+      yield, or name the standing of its own intervention. This category governs the form,
+      grounds, limits, contestability, and fading of that pedagogical authority.
+    counterexamples: [vocal-timbre-or-personality-branding, generic-warmth, institutional-discipline, source-evaluation-without-a-teaching-decision, speaking-for-a-community]
+    review_by: 2026-11-12
+    privacy_attestation: no-learner-data
