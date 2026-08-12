@@ -1,0 +1,165 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: studio-design-critique-and-making-2026-08-12
+title: Studio learning needs visible criteria, critique choice, protected authorship, and finite iteration
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise, assessment-and-authorship-under-ai, curriculum-coherence-progression-and-hidden-lessons, dignity-safety-and-non-coercion]
+scope: Art and design studios, making, project-based learning, briefs, exemplars, critique, taste, iteration, public display, authentic clients, creative judgment, authorship, and stopping.
+method:
+  search_date: 2026-08-12
+  approach: Compared a studio-creativity systematic review, cross-disciplinary studio observation, project-based-learning meta-analysis, moral inquiry into critique, critical accounts of studio culture, and review of minimally guided instruction.
+  inclusion: Sources separating artifact quality, disciplinary judgment, creative process, participation, critique experience, knowledge gain, transfer, authorship, and power.
+  exclusions: Public exposure as necessary rigor, ambiguity as automatic creativity, taste as neutral, projects as self-teaching, revision without a stopping condition, and a polished artifact as proof that every collaborator learned.
+  limitations: Studio studies are concentrated in higher education and Western professional schools; creativity constructs vary; critique harms are undermeasured; project meta-analysis combines unlike interventions and outcomes.
+readings:
+  - id: sawyer-2017-studio-review
+    kind: systematic-literature-review
+    citation: Sawyer, R. K. (2017). Teaching creativity in art and design studio classes—A systematic literature review. Educational Research Review, 22, 99-113. https://doi.org/10.1016/j.edurev.2017.07.002
+    url: https://doi.org/10.1016/j.edurev.2017.07.002
+    publication_date: 2017-11-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Learners and teachers in art and design studio courses across the empirical literature.
+    design: Systematic synthesis of observed studio teaching and learning practices related to creativity.
+    finding: Studio learning combines open tasks, iterative making, material engagement, exemplars, dialogue, critique, and teacher guidance rather than a single generic creativity technique.
+    limits: Diverse disciplines and constructs, largely postsecondary settings, and descriptive prevalence does not establish causal benefit or ethical acceptability.
+
+  - id: sawyer-2018-create-schools
+    kind: qualitative-multisite-study
+    citation: Sawyer, R. K. (2018). Teaching and learning how to create in schools of art and design. Journal of the Learning Sciences, 27(1), 137-181. https://doi.org/10.1080/10508406.2017.1381963
+    url: https://doi.org/10.1080/10508406.2017.1381963
+    publication_date: 2018-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: 38 professors in 15 art and design disciplines in United States professional schools.
+    design: Interviews and classroom observation used to characterize a cultural model of studio teaching.
+    finding: Studio instructors coordinate constraints, process demonstrations, individual consultations, peer interaction, and evaluative talk to induct learners into disciplinary creation.
+    limits: Expert teacher accounts and selected observations; tacit norms may be reproduced rather than justified; no comparison or long-term transfer test.
+
+  - id: mcdonald-michela-2019-moral-goods
+    kind: philosophical-qualitative-inquiry
+    citation: McDonald, J. K., & Michela, E. (2019). The design critique and the moral goods of studio pedagogy. Design and Technology Education—An International Journal, 24(3), 39-53. https://scholarsarchive.byu.edu/facpub/3140/
+    url: https://scholarsarchive.byu.edu/facpub/3140/
+    publication_date: 2019-10-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Design instructors and learners participating in studio critiques.
+    design: Interpretive study of critique as a practice organized around multiple goods pursued by participants.
+    finding: Critique is not merely information transmission; participants interpret comments through desired forms of growth, relationship, professional identity, and artifact consequence.
+    limits: Moral-goods framing diagnoses meaning and conflict but does not itself decide whose goods should prevail or measure learning and harm.
+
+  - id: blair-2006-crit
+    kind: qualitative-study
+    citation: Blair, B. (2006). At the end of a huge crit in the summer, it was crap—I had received no feedback. Art, Design & Communication in Higher Education, 5(2), 83-95. https://doi.org/10.1386/adch.5.2.83_1
+    url: https://doi.org/10.1386/adch.5.2.83_1
+    publication_date: 2006-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Higher-education art and design students experiencing the studio crit.
+    design: Qualitative investigation of student perceptions of critique and feedback.
+    finding: Ritual critique can fail to provide intelligible, usable feedback despite its visibility and disciplinary status.
+    limits: Situated accounts, retrospective interpretation, and no test of alternative critique structures.
+
+  - id: dutton-1991-voices-studio
+    kind: critical-theoretical-analysis
+    citation: Dutton, T. A. (Ed.). (1991). Voices in Architectural Education—Cultural Politics and Pedagogy. Bergin & Garvey.
+    url: https://www.bloomsbury.com/us/voices-in-architectural-education-9780897892310/
+    publication_date: 1991-01-01
+    accessed_on: 2026-08-12
+    reading_level: citation-traced
+    population_context: Architectural education and studio cultures considered through critical pedagogy and cultural politics.
+    design: Edited theoretical and critical analyses of institutional practices, authority, knowledge, and the hidden curriculum.
+    finding: Studio forms can naturalize hierarchy, professional taste, competition, overwork, and exclusion while presenting them as neutral formation.
+    limits: Heterogeneous essays and historical settings; critical diagnosis needs local evidence and cannot make all asymmetry or disciplinary judgment suspect by default.
+
+  - id: zhang-ma-2023-pbl
+    kind: meta-analysis
+    citation: Zhang, L., & Ma, Y. (2023). A study of the impact of project-based learning on student learning effects—A meta-analysis study. Frontiers in Psychology, 14, 1202728. https://doi.org/10.3389/fpsyg.2023.1202728
+    url: https://doi.org/10.3389/fpsyg.2023.1202728
+    publication_date: 2023-07-31
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 66 experimental or quasi-experimental studies yielding 190 effects across subjects, regions, ages, and project structures.
+    design: Meta-analysis of academic achievement, affective outcomes, and thinking skills with moderator analyses.
+    finding: Project-based learning showed positive average effects, with substantial variation by region, subject, course, group and class size, and duration; some named thinking outcomes were null or imprecise.
+    limits: Intervention and outcome heterogeneity, study-quality and publication-bias concerns, correlated effects, broad labels, and weak evidence about which components caused gains.
+
+  - id: kirschner-sweller-clark-2006-guidance
+    kind: theoretical-evidence-review
+    citation: Kirschner, P. A., Sweller, J., & Clark, R. E. (2006). Why minimal guidance during instruction does not work. Educational Psychologist, 41(2), 75-86. https://doi.org/10.1207/s15326985ep4102_1
+    url: https://doi.org/10.1207/s15326985ep4102_1
+    publication_date: 2006-06-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Novice learners in discovery, problem-based, inquiry, experiential, and constructivist instructional settings.
+    design: Theoretical review connecting working-memory limits, novice-expert differences, and evidence comparing guided and minimally guided learning.
+    finding: Novices generally need structured guidance and relevant knowledge; activity or authentic problems alone do not reliably produce the intended schemas.
+    limits: Collapses important distinctions among approaches and implementations; guidance can occur inside projects, and the argument does not warrant passive instruction or uniform scripts.
+contradictions:
+  - Open briefs can make genuine judgment possible, yet underspecified criteria let inherited taste and the teacher's unstated preferences govern evaluation.
+  - Public critique can distribute perception and disciplinary language, yet it can reward confident self-defense, expose unfinished work, and turn authority into spectacle.
+  - Projects can integrate knowledge and produce consequential objects, yet the object's completion can conceal uneven labor, copied expertise, missing foundations, and weak independent transfer.
+  - Iteration supports experimentation and refinement, yet endless revision can teach compliance, perfectionism, overwork, and dependence on the latest critic.
+claims:
+  - claim: A making project should be chosen because the artifact affords a needed act of integration or judgment, not because production is inherently authentic.
+    evidence: meta-analytic-and-theoretical-synthesis
+    confidence: high
+    source_ids: [zhang-ma-2023-pbl, kirschner-sweller-clark-2006-guidance, sawyer-2017-studio-review]
+    supports: Name the knowledge and decisions the artifact must embody; teach prerequisites directly when useful; use milestones, models, and constrained trials; verify individual re-entry separately from group polish.
+    tensions: Emergent discoveries may be the project's central value and cannot all be prespecified.
+    boundary_conditions: Prior knowledge, material cost, duration, group structure, accessibility, audience, disciplinary risk, and transfer target.
+    does_not_license: Unguided discovery, decorative projects, compulsory public products, unpaid client labor, or artifact quality as proof of every participant's learning.
+
+  - claim: Critique should distinguish description, interpretation, evaluation, and possible action while keeping the maker's worth outside the object of judgment.
+    evidence: qualitative-and-philosophical-synthesis
+    confidence: high
+    source_ids: [mcdonald-michela-2019-moral-goods, blair-2006-crit, dutton-1991-voices-studio]
+    supports: First attend to the work; identify audience, brief, criterion, evidence, and uncertainty; ask what kind of response is wanted; offer options whose tradeoffs remain visible.
+    tensions: Direct expert judgment can be efficient and welcome; excessive hedging can deprive a learner of usable standards.
+    boundary_conditions: Critique purpose, relationship, stage, stakes, publicness, cultural code, communication access, learner request, and reversibility.
+    does_not_license: Personality judgments, humiliation, mind reading, compulsory defense, taste disguised as fact, vague praise, or withholding a direct model when requested.
+
+  - claim: Studio criteria and disciplinary taste should be made contestable without pretending that all judgments are interchangeable.
+    evidence: critical-and-qualitative-synthesis
+    confidence: moderate
+    source_ids: [sawyer-2018-create-schools, dutton-1991-voices-studio, mcdonald-michela-2019-moral-goods]
+    supports: Name functional constraints, traditions, audience assumptions, evidence standards, aesthetic commitments, and whose practice established them; allow reasoned departures.
+    tensions: Tacit perception and embodied craft cannot be fully reduced to rubrics; overexplication can flatten surprise.
+    boundary_conditions: Domain, audience, community ownership, safety, professional standards, historical tradition, and learner aim.
+    does_not_license: Rubric totalism, cultural extraction, false neutrality, arbitrary novelty demands, or treating canonical taste as natural ability.
+
+  - claim: Iteration needs a learning question and stopping condition so revision remains inquiry rather than obedience.
+    evidence: studio-practice-synthesis
+    confidence: high
+    source_ids: [sawyer-2017-studio-review, blair-2006-crit]
+    supports: Run a bounded variation, predict what will change, inspect the consequence, preserve versions, decide whether evidence answers the question, and stop when value no longer justifies cost.
+    tensions: A work may disclose its problem only through making; premature stopping can protect the first idea from serious revision.
+    boundary_conditions: Time, fatigue, cost, reversibility, deadline, purpose, stakes, and whether refinement still changes perception or capability.
+    does_not_license: Endless polish, destructive overwrite, revision quotas, glamorized exhaustion, or treating refusal of a suggestion as resistance to learning.
+
+  - claim: Authorship and audience are ethical design variables, especially when work leaves the learning space.
+    evidence: ethical-critical-synthesis
+    confidence: high
+    source_ids: [dutton-1991-voices-studio, mcdonald-michela-2019-moral-goods]
+    supports: Agree on attribution, ownership, reuse, privacy, access, compensation, withdrawal, client authority, AI provenance, and publication before external circulation.
+    tensions: Collaborative practices often distribute authorship and build on shared traditions; rigid individual ownership can erase communities and infrastructure.
+    boundary_conditions: Learner age, power, community protocol, law, medium, platform, sponsor, publicness, permanence, and consequence.
+    does_not_license: Publishing learner work by default, coerced portfolios, speculative labor, fabricated clients, cultural appropriation, or claiming sole authorship over substantial assistance.
+implications:
+  - Professor should look at or listen to the artifact before prescribing changes and should say when direct encounter is unavailable.
+  - Ask briefly whether the learner wants noticing, interpretation, standards-based review, options, troubleshooting, or a direct edit; an answer can be given without imposing a critique ritual.
+  - Keep comments anchored to the artifact, audience, constraint, evidence, and next decision; do not infer identity or emotional investment from style.
+  - Offer a finite experiment and a stopping rule when suggesting iteration, and preserve the learner's authority to reject the suggestion.
+  - Never display, retain, or repurpose learner work as an exemplar without bounded informed permission.
+open_questions:
+  - Which critique sequences improve later independent judgment rather than only the current artifact?
+  - How can tacit craft be demonstrated while making its cultural and material assumptions inspectable?
+  - What is a proportionate individual re-entry check for genuinely collaborative making?
+next_actions:
+  - Study physical skill, coaching, and embodied risk, where demonstration, correction, pain, consent, and performance pressure sharpen these questions.
+  - Audit today's records for hidden productivity worship, public-performance assumptions, and revisions without stopping criteria.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
