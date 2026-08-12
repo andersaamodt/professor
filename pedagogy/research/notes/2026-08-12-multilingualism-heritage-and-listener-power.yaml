@@ -1,0 +1,154 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: multilingualism-heritage-and-listener-power-2026-08-12
+title: Language teaching must examine the listener who declares a speaker deficient
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [epistemic-justice-curriculum-and-knowledge-access, critical-pedagogies-dialogue-power-and-refusal, access-disability-and-equivalent-participation]
+scope: >-
+  Multilingual education, translanguaging, heritage-language identity, standard
+  language ideology, raciolinguistic perception, home-language access, and the
+  implications for philology and language correction by an AI professor.
+method:
+  search_date: 2026-08-12
+  approach: Compared international multilingual-education guidance with critical sociolinguistic theory and heritage-language research.
+  inclusion: Official policy synthesis, foundational critical language scholarship, conceptual counterarguments, and empirical heritage-language reviews.
+  exclusions: Monolingual-deficit measures, identity labels assigned from ancestry, and claims that any named language maps cleanly onto one bounded repertoire.
+  limitations: Policy evidence, conceptual critique, and classroom studies answer different questions; this note does not settle the debated ontology of translanguaging.
+readings:
+  - id: unesco-2025-languages-matter
+    kind: global-guidance-and-evidence-synthesis
+    citation: UNESCO. (2025). Languages Matter—Global Guidance on Multilingual Education.
+    url: https://unesdoc.unesco.org/ark:/48223/pf0000392477
+    publication_date: 2025-01-29
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Language-in-education systems, especially learners excluded by an unfamiliar medium of instruction.
+    design: Global policy guidance synthesizing principles, implementation actions, evidence, and cases.
+    finding: Education in languages learners understand, sustained multilingual pathways, materials, prepared teachers, aligned assessment, and community participation are access and quality conditions.
+    limits: “Mother tongue” can be administratively simplified; implementation, political economy, orthography, staffing, and within-community plurality determine results.
+
+  - id: flores-rosa-2015-appropriateness
+    kind: critical-sociolinguistic-theory
+    citation: Flores, N., & Rosa, J. (2015). Undoing appropriateness—Raciolinguistic ideologies and language diversity in education. Harvard Educational Review, 85(2), 149-171. https://doi.org/10.17763/0017-8055.85.2.149
+    url: https://doi.org/10.17763/0017-8055.85.2.149
+    publication_date: 2015-06-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-metadata-screened
+    population_context: Racialized multilingual and multidialectal learners judged against supposedly objective academic language norms.
+    design: Theoretical synthesis and critique of appropriateness-based language education through a raciolinguistic lens.
+    finding: A racialized speaker may be heard as deficient even when approximating standardized forms; evaluation resides partly in the listening subject and institutional ideology.
+    limits: The argument does not imply forms never matter, all listeners act identically, or learners should be denied strategic access to dominant registers.
+
+  - id: garcia-li-2022-one-repertoire
+    kind: decolonial-conceptual-article
+    citation: García, O., & Li Wei. (2022). Not a first language but one repertoire—Translanguaging as a decolonizing project. RELC Journal, 53(2), 313-324. https://doi.org/10.1177/00336882221092841
+    url: https://doi.org/10.1177/00336882221092841
+    publication_date: 2022-04-18
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Multilingual speakers whose practices are divided into named-language systems by institutions.
+    design: Conceptual argument for translanguaging as a decolonial account of one integrated semiotic repertoire.
+    finding: Merely permitting a subordinated “first language” can leave colonial language boundaries intact; pedagogy can begin from speakers' coordinated meaning-making resources.
+    limits: The unitary-repertoire ontology is debated and can understate the political, historical, and community reality of named languages and language rights.
+
+  - id: leeman-2015-heritage-language-identity
+    kind: critical-research-review
+    citation: Leeman, J. (2015). Heritage language education and identity in the United States. Annual Review of Applied Linguistics, 35, 100-119. https://doi.org/10.1017/S0267190514000245
+    url: https://doi.org/10.1017/S0267190514000245
+    publication_date: 2015-03-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Learners with diverse family, community, migratory, and educational relations to minoritized languages in the United States.
+    design: Critical review of identity categories, motivations, negotiated classroom identities, and pedagogical research.
+    finding: “Heritage learner” is not a neutral fixed identity; educational classification and classroom practice participate in constructing who counts and how legitimacy is negotiated.
+    limits: The United States framing and reviewed period do not represent all Indigenous, diasporic, postcolonial, or language-reclamation contexts.
+
+  - id: garcia-2019-countering-raciolinguistic
+    kind: critical-pedagogical-analysis
+    citation: García, O. (2019). Countering raciolinguistic ideologies—The role of translanguaging in educating bilingual children. Cahiers internationaux de sociolinguistique, 16(2), 19-41. https://doi.org/10.3917/cisl.1902.0019
+    url: https://doi.org/10.3917/cisl.1902.0019
+    publication_date: 2019-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Minoritized bilingual children in schools organized by standardized-language expectations and language separation.
+    design: Critical theoretical analysis illustrated through bilingual educational practice.
+    finding: A translanguaging stance can redirect teacher attention from policing named-language boundaries toward learners' meaning, creativity, criticality, and full communicative performance.
+    limits: Stance alone cannot alter high-stakes language regimes or material inequality and can be appropriated as a superficial classroom technique.
+claims:
+  - id: comprehensible-language-is-access
+    statement: >-
+      When the language of instruction blocks understanding, the barrier is in
+      the educational arrangement, not evidence of low capacity in the learner.
+    confidence: high
+    source_ids: [unesco-2025-languages-matter]
+    supports: Offer explanation, source support, glossing, and response across languages where possible; distinguish domain difficulty from medium difficulty.
+    tensions: Learning a new language can itself be the valued goal, and strategic challenge must not become permanent linguistic segregation.
+    boundary_conditions: Goal, proficiency, materials, teacher capability, assessment language, transition design, community authority, and stakes.
+    does_not_license: Machine-translated confidence, assigning a home language, isolating learners from wider repertoires, or using multilingualism without resources.
+
+  - id: correction-judges-listener-and-speaker
+    statement: >-
+      A judgment of linguistic deficiency may reflect the listener's racialized,
+      classed, national, or standard-language expectations as well as the speaker's form.
+    confidence: high
+    source_ids: [flores-rosa-2015-appropriateness, garcia-2019-countering-raciolinguistic]
+    supports: Before correcting, specify the target audience, register, communicative consequence, and power relation; teach dominant conventions as situated access, not intrinsic superiority.
+    tensions: Listeners can genuinely fail to understand, and learners may explicitly seek exact control of a prestige or specialist register.
+    boundary_conditions: Audience, intelligibility, identity attribution, register, institution, stakes, learner goal, and reciprocal accommodation.
+    does_not_license: Withholding requested standard forms, denying interactional breakdown, romanticizing marginalization, or essentializing every listener.
+
+  - id: repertoire-is-not-a-profile
+    statement: >-
+      A multilingual repertoire is situated and changing; ancestry, country,
+      surname, or one observed form does not authorize Professor to infer language identity or proficiency.
+    confidence: high
+    source_ids: [leeman-2015-heritage-language-identity, garcia-li-2022-one-repertoire]
+    supports: Ask only the language choice needed for the present act, permit mixing and comparison, and retain no identity classification by default.
+    tensions: Continuity across sessions can support learning when a learner deliberately records languages, goals, and access preferences privately.
+    boundary_conditions: Consent, present purpose, self-description, privacy, proficiency dimension, context, and expiry.
+    does_not_license: Heritage assignment, monolingual assumptions, stable fluency labels, or treating all named-language distinctions as unreal.
+
+  - id: language-boundaries-are-tools-and-political-facts
+    statement: >-
+      Named languages are neither purely natural sealed systems nor mere illusions;
+      they are analytical, historical, communal, legal, and political formations with real consequences.
+    confidence: medium
+    source_ids: [garcia-li-2022-one-repertoire, unesco-2025-languages-matter, leeman-2015-heritage-language-identity]
+    supports: Move flexibly between repertoire-level meaning and language-specific history, rights, standards, archives, and community names.
+    tensions: Theoretical compromise can blur genuine disagreement between structural, sociolinguistic, decolonial, and community-sovereignty positions.
+    boundary_conditions: Analytic purpose, self-identification, sovereignty, policy, archive, pedagogy, and communicative practice.
+    does_not_license: Erasing endangered-language claims, nationalist purity, treating code labels as cognitive compartments, or deciding community ontology externally.
+
+  - id: philology-must-not-reproduce-prestige-hierarchy
+    statement: >-
+      Choosing whose forms count as canonical, corrupt, innovative, dialectal,
+      classical, or merely oral is a historical argument with distributive and identity consequences.
+    confidence: high
+    source_ids: [flores-rosa-2015-appropriateness, leeman-2015-heritage-language-identity, unesco-2025-languages-matter]
+    supports: Include nonprestige witnesses and living variation, identify editorial labels and listening positions, and separate descriptive change from social valuation.
+    tensions: Textual and comparative work needs bounded corpora, transcription conventions, and sometimes a reference variety.
+    boundary_conditions: Corpus formation, genre, archive, literacy, community authority, standardization history, and research question.
+    does_not_license: Treating every variant as interchangeable, denying genre conventions, token inclusion, or appropriating community language as illustrative data.
+implications:
+  - >-
+    A private philology route should ask which languages and varieties the learner wants brought into relation, never infer that choice from personal data or the bingo card alone.
+  - >-
+    Professor should correct toward a named purpose—historical form, requested register, audience intelligibility, or source fidelity—not toward an unnamed universal standard.
+  - >-
+    Multilingual glosses and comparisons require verification by competent sources; model fluency across languages is not evidence of equal reliability.
+  - >-
+    Existing anti-profiling, access, epistemic-justice, and correction policies carry the floor. No automatic translanguaging tack is earned.
+open_questions:
+  - How can an AI reveal uncertainty that differs sharply across languages without recentralizing English as the language of truth?
+  - When does cross-language comparison support philology, and when does it recruit minoritized forms as exotic evidence for an English-centered story?
+  - How should Professor respond when a learner requests prestige-language correction that may serve agency while reproducing an unjust listening regime?
+  - What community review is required before bundling curriculum about a living minoritized language?
+next_actions:
+  - Study language revitalization, reclamation, sovereignty, and AI extraction with community-authored sources.
+  - Audit future philology plans for monolingual defaults and unnamed prestige standards.
+  - Keep learner language goals and choices private, explicit, revisable, and absent unless needed for the present encounter.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
