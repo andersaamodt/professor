@@ -1,0 +1,278 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: autonomy-structure-and-nonmanipulative-motivation-2026-08-12
+title: Autonomy support must not become skillful preference management
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [pedagogical-authority-voice-and-non-domination, access-disability-and-equivalent-participation]
+scope: >-
+  A bounded empirical and ethical inquiry into autonomy support, structure,
+  choice, praise, relationship, and motivational influence. It asks how a
+  Teacher can make worthwhile action possible without treating engagement,
+  internalization, or continuation as permission to manage a learner's ends.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Read recent syntheses of autonomy support and structure, an intervention
+    meta-analysis, classic choice evidence, a current praise experiment, an
+    affective-relationship meta-analysis, and a systematic ethical review of
+    nudging; compared measured motivational benefits with accounts of freedom,
+    agency, self-constitution, power, and easy resistance.
+  inclusion: >-
+    Empirical syntheses or normative reviews that specify constructs,
+    comparisons, moderators, outcomes, or competing conceptions of autonomy.
+  exclusions: >-
+    Charisma advice, generic engagement tips, product retention claims, reward
+    systems without learner outcomes, and sources that equate compliance with
+    motivation.
+  limitations: >-
+    This was not a database-complete systematic review. Much autonomy research
+    is correlational or self-report, construct definitions overlap, the
+    intervention synthesis explicitly excluded disability terms, and evidence
+    from compulsory classrooms does not transfer directly to voluntary adult-AI
+    conversation.
+readings:
+  - id: bureau-howard-chong-2025-autonomy-structure
+    kind: systematic-review-and-meta-analysis
+    citation: >-
+      Bureau, J. S., Howard, J. L., & Chong, J. X. Y. (2025). Blending Teacher
+      Autonomy Support and Provision of Structure in the Classroom for Optimal
+      Motivation: A Systematic Review and Meta-Analysis. Educational
+      Psychology Review, 37. https://doi.org/10.1007/s10648-025-09994-2
+    url: https://doi.org/10.1007/s10648-025-09994-2
+    publication_date: 2025-05-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Classroom studies across school levels, subjects, cultures, reports, and observations.
+    design: Systematic conceptual synthesis and meta-analysis of the relation between autonomy support and structure.
+    finding: >-
+      Autonomy support and structure were positively related and independently
+      associated with favorable outcomes. Autonomy support was commonly
+      operationalized through choice, rationale, and acknowledgment; structure
+      through guidance, expectations, and informational feedback. Definitions
+      often overlapped, and observed associations were smaller than report-based ones.
+    limits: >-
+      Most studies did not specify subject, measures varied widely, causal
+      outcome evidence was not the main object, and publication-bias analysis
+      suggested missing small or negative associations.
+
+  - id: wang-et-al-2024-sdt-interventions
+    kind: systematic-review-and-meta-analysis
+    citation: >-
+      Wang, Y., Wang, D., et al. (2024). A Systematic Review and Meta-Analysis
+      of Self-Determination-Theory-Based Interventions in the Education
+      Context. Learning and Motivation, 87, 102015.
+      https://doi.org/10.1016/j.lmot.2024.102015
+    url: https://doi.org/10.1016/j.lmot.2024.102015
+    publication_date: 2024-08-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Education interventions involving students, teachers, parents, mentors, or combinations across varied ages and cultures.
+    design: PRISMA-guided systematic review and meta-analysis of 137 effects from 9,433 participants.
+    finding: >-
+      Interventions improved measured autonomy and competence on average, but
+      constructs and measures varied, competence and relatedness evidence was
+      thinner, and most studies did not assess long-term effects or involve
+      participants in intervention development.
+    limits: >-
+      The search string explicitly excluded disability terms; no grey-literature
+      or forward-citation search was conducted; many samples were small,
+      voluntary, single-center, and demographically underreported.
+
+  - id: patall-cooper-robinson-2008-choice
+    kind: meta-analysis
+    citation: >-
+      Patall, E. A., Cooper, H., & Robinson, J. C. (2008). The Effects of Choice
+      on Intrinsic Motivation and Related Outcomes: A Meta-Analysis of Research
+      Findings. Psychological Bulletin, 134(2), 270-300.
+      https://doi.org/10.1037/0033-2909.134.2.270
+    url: https://doi.org/10.1037/0033-2909.134.2.270
+    publication_date: 2008-03-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Forty-one studies with child and adult participants across laboratory and naturalistic settings.
+    design: Meta-analysis of choice effects on motivation, effort, performance, and perceived competence.
+    finding: >-
+      Choice improved several outcomes on average, but intrinsic-motivation
+      effects were larger for instructionally irrelevant choices, two to four
+      successive choices, no subsequent reward, and comparisons with the most
+      controlling control groups.
+    limits: >-
+      The full article was not read. A choice manipulation is not equivalent to
+      authority over aims, and stronger effects for inconsequential choices warn
+      against treating option count as agency.
+
+  - id: kuyer-gordijn-2023-nudge-ethics
+    kind: systematic-normative-review
+    citation: >-
+      Kuyer, P., & Gordijn, B. (2023). Nudge in Perspective: A Systematic
+      Literature Review on the Ethical Issues with Nudging. Rationality and
+      Society, 35(2), 191-230. https://doi.org/10.1177/10434631231155005
+    url: https://doi.org/10.1177/10434631231155005
+    publication_date: 2023-03-20
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Normative literature on public, commercial, clinical, and technological choice architecture.
+    design: Systematic search and full relevance review of 131 records discussing ethical issues with nudging.
+    finding: >-
+      The literature clusters concerns around autonomy, welfare, long-term
+      effects, and democracy or deliberation. Autonomy disputes concern not
+      only available options but agency, easy resistance, arbitrary power, and
+      a person's authority to form and revise their own ends.
+    limits: >-
+      This is a synthesis of arguments rather than an educational outcome study;
+      it does not imply that all framing or influence is avoidable or wrong.
+
+  - id: xu-et-al-2026-person-praise
+    kind: experiment
+    citation: >-
+      Xu, et al. (2026). Effects of Person Praise on Students' Motivation and
+      Performance under Ego-Involving and Task-Involving Feedback Conditions.
+      Instructional Science. https://doi.org/10.1007/s11251-026-09789-0
+    url: https://doi.org/10.1007/s11251-026-09789-0
+    publication_date: 2026-04-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Students facing a new task under experimentally varied anticipated feedback climates.
+    design: Experiment on person praise before task participation under ego- versus task-involving feedback.
+    finding: >-
+      Person praise improved motivation under an ego-involving condition but
+      reduced participation motivation and performance in an already
+      task-focused condition, consistent with distracting self-focus.
+    limits: >-
+      A new finding requiring replication; condition-specific laboratory
+      mechanisms do not justify a universal ban on affirmation or establish
+      effects in adult conversational learning.
+
+  - id: roorda-et-al-2017-relationships
+    kind: meta-analysis
+    citation: >-
+      Roorda, D. L., Jak, S., Zee, M., Oort, F. J., & Koomen, H. M. Y. (2017).
+      Affective Teacher-Student Relationships and Students' Engagement and
+      Achievement: A Meta-Analytic Update and Test of the Mediating Role of
+      Engagement. School Psychology Review, 46(3), 239-261.
+      https://doi.org/10.17105/SPR-2017-0035.V46-3
+    url: https://doi.org/10.17105/SPR-2017-0035.V46-3
+    publication_date: 2017-09-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 189 studies and 249,198 learners from preschool through secondary school.
+    design: Meta-analysis and mediational modeling with a longitudinal subsample.
+    finding: >-
+      Positive and negative relationship dimensions were more strongly related
+      to engagement than achievement; engagement partially, not fully,
+      mediated their association with achievement.
+    limits: >-
+      Most evidence was correlational and school-based. Affective relationship
+      cannot be reduced to tone, and engagement is neither care nor learning
+      nor authorization of teacher influence.
+claims:
+  - id: autonomy-is-more-than-choice
+    statement: >-
+      Pedagogical autonomy includes meaningful alternatives, capacity and
+      information for judgment, easy resistance, and authority to revise ends;
+      it cannot be established by an option menu alone.
+    confidence: high
+    source_ids: [patall-cooper-robinson-2008-choice, kuyer-gordijn-2023-nudge-ethics, bureau-howard-chong-2025-autonomy-structure]
+    supports: >-
+      Make the purpose and stakes intelligible, offer consequential redirect or
+      refusal routes, provide enough structure to act, and keep influence
+      visible and contestable when it could alter a learner's priorities.
+    tensions: >-
+      Every presentation frames attention; endless choice can transfer design
+      work to the learner, obscure professional judgment, or create decision load.
+    boundary_conditions: >-
+      Low-stakes sequencing defaults need less narration than value-laden aims,
+      recurring plans, rewards, identity appeals, or personalized persuasion.
+    does_not_license: Faux choice, silent optimization for continuation, option overload, or interpreting a selected menu item as endorsement of the larger aim.
+
+  - id: structure-can-support-autonomy
+    statement: >-
+      Clear guidance, expectations, models, and informational feedback can
+      support rather than oppose autonomy when they increase a learner's real
+      capacity to judge and act without making compliance the price of support.
+    confidence: medium
+    source_ids: [bureau-howard-chong-2025-autonomy-structure, wang-et-al-2024-sdt-interventions]
+    supports: >-
+      Offer a bounded path, rationale, help, and exit; distinguish a strong
+      recommendation from a requirement and let direct requests override the
+      preferred instructional sequence when safe.
+    tensions: >-
+      Teachers and researchers sometimes classify the same behavior as
+      structure, autonomy support, competence support, or control; benevolent
+      structure can still normalize the Teacher's ends.
+    boundary_conditions: >-
+      The relation depends on who sets the purpose, whether refusal is costly,
+      what alternatives are genuinely usable, and whether the learner can
+      contest the Teacher's definition of progress.
+    does_not_license: Paternalistic answer withholding, compulsory struggle, hidden prerequisites, or claiming that clear rules are therefore just.
+
+  - id: motivation-is-not-a-permission-slip
+    statement: >-
+      Increased motivation, engagement, persistence, internalization, or
+      satisfaction does not by itself show that a pedagogical influence was
+      ethical, caring, or aligned with a learner's own ends.
+    confidence: high
+    source_ids: [kuyer-gordijn-2023-nudge-ethics, roorda-et-al-2017-relationships, wang-et-al-2024-sdt-interventions]
+    supports: >-
+      Evaluate influence against the worth of the aim, transparency, agency,
+      distribution of benefit and burden, easy refusal, learning evidence, and
+      decreasing dependence—not merely continuation or positive affect.
+    tensions: >-
+      Engagement and relationship can be genuine conditions for learning and
+      wellbeing; refusing to measure them would also erase consequential harm.
+    boundary_conditions: >-
+      Stronger disclosure and consent are needed when personalization, reward,
+      emotional language, social comparison, or repeated scheduling makes the
+      influence less visible or more difficult to resist.
+    does_not_license: Designing for addiction, flattering the learner into compliance, mining vulnerability, or declaring continued conversation a success signal.
+
+  - id: praise-should-return-attention-to-evidence
+    statement: >-
+      Affirmation is most defensible when it truthfully identifies an act,
+      decision, revision, or capability and returns attention to the work,
+      rather than assigning a desirable identity or manufacturing obligation.
+    confidence: medium
+    source_ids: [xu-et-al-2026-person-praise, roorda-et-al-2017-relationships]
+    supports: >-
+      Name observable evidence sparingly, avoid inflated traits, and allow the
+      learner to disagree without having to protect the relationship.
+    tensions: >-
+      Warmth and recognition can reduce threat and communicate belonging;
+      clinical evidence-only speech can itself be alienating or controlling.
+    boundary_conditions: >-
+      Culture, age, task novelty, feedback climate, relationship, and the
+      learner's interpretation alter what praise does.
+    does_not_license: Identity praise, praise sandwiches, strategic intimacy, or treating gratitude and compliance as received care.
+implications:
+  - >-
+    No active tack change is warranted. Existing purpose-compact,
+    voluntary-hint-ladder, authentic-ceiling-raise, reciprocal-question-turn,
+    and learner-authored-expedition records already contain the relevant risks,
+    consent gates, exits, and falsifiers.
+  - >-
+    Teacherly voice should replace generic encouragement with warranted
+    noticing, a clear recommendation where useful, and an unpenalized route to
+    redirect, disagree, request the answer, or stop.
+  - >-
+    A daily Professor must not optimize for opening, replying, streaks, lesson
+    completion, or relationship intensity. A brief encounter and a clean exit
+    can be a complete success.
+  - >-
+    Research evaluation should keep motivation, agency, learning, wellbeing,
+    and dependence separate; one must not serve as a proxy for the rest.
+open_questions:
+  - How can an AI disclose meaningful pedagogical influence without turning every small suggestion into consent theater?
+  - Which choices are consequential enough to support agency, and which merely decorate a route whose aim remains Teacher-owned?
+  - What measures can distinguish willing continuation from relational pressure, politeness, novelty, or interface habit without surveillance?
+  - How should autonomy support be reconstructed through disabled-led, Indigenous, relational, and collective accounts of self-determination?
+  - When does a strong Teacher recommendation reduce decision load while preserving rather than shrinking learner authority?
+next_actions:
+  - Read disabled-led and cross-cultural critiques that were excluded or underrepresented in the intervention syntheses.
+  - Seek preregistered experiments that separate consequential choice, cosmetic choice, structure, and easy refusal.
+  - Test Professor scenarios for faux choice, praise-induced obligation, hidden continuation goals, and explicit but nonburdensome recommendations.
+  - Keep engagement and retention metrics outside the definition of pedagogical success unless paired with capability, agency, wellbeing, and independence evidence.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
