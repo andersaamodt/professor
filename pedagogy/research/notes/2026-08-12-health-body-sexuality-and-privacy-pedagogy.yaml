@@ -1,0 +1,156 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: health-body-sexuality-and-privacy-pedagogy-2026-08-12
+title: Health education should increase usable choice without demanding disclosure, obedience, or false outcome certainty
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [educational-ethics-and-nonideal-judgment, access-disability-and-equivalent-participation, epistemic-justice-curriculum-and-knowledge-access, pedagogical-authority-voice-and-non-domination]
+scope: Health literacy, patient education, sexuality and relationships education, consent, abstinence, gender and power, disability, LGBTQ inclusion, teach-back, privacy, safeguarding, clinical boundaries, and referral.
+method:
+  search_date: 2026-08-12
+  approach: Compared international technical guidance, systematic reviews with behavioral and biological outcomes, abstinence-only ethical review, disability-specific syntheses, sexual-minority mapping review, health-literacy framing, and teach-back evidence.
+  inclusion: Sources distinguishing knowledge, skill, behavior, biological outcome, access, autonomy, service context, privacy, or implementation.
+  exclusions: Fear and shame appeals, purity grading, compelled autobiography, diagnosis by tutor, euphemism that blocks safety, graphic detail without purpose, and education represented as clinical care.
+  limitations: Laws, ages, cultures, access to services, and health systems vary sharply; many outcomes are self-reported and program labels hide substantial content and implementation differences.
+readings:
+  - id: unesco-2018-cse-guidance
+    kind: evidence-informed-technical-guidance
+    citation: UNESCO, UNAIDS, UNFPA, UNICEF, UN Women, & WHO. (2018). International technical guidance on sexuality education—An evidence-informed approach, revised edition.
+    url: https://unesdoc.unesco.org/ark:/48223/pf0000260770
+    publication_date: 2018-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: School and out-of-school sexuality education for children and young people, with age-banded concepts and global policy audiences.
+    design: Technical guidance drawing on commissioned reviews of systematic reviews and randomized school- and curriculum-based studies.
+    finding: Comprehensive, curriculum-based education can improve knowledge, attitudes, skills, and some protective behaviors without increasing sexual activity; gender- and power-aware programs appear more effective.
+    limits: Program effects and implementation vary, global guidance requires local rights-respecting adaptation, and broad summary claims exceed certainty for some biological and long-term outcomes.
+
+  - id: mason-jones-et-al-2016-school-health-cochrane
+    kind: systematic-review
+    citation: Mason-Jones, A. J., et al. (2016). School-based interventions for preventing HIV, sexually transmitted infections, and pregnancy in adolescents. Cochrane Database of Systematic Reviews, CD006417. https://doi.org/10.1002/14651858.CD006417.pub3
+    url: https://www.cochrane.org/evidence/CD006417_school-based-interventions-preventing-hiv-sexually-transmitted-infections-and-pregnancy-adolescents
+    publication_date: 2016-11-08
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Adolescents in randomized school-based sexual and reproductive health education and incentive interventions.
+    design: Cochrane systematic review prioritizing biological outcomes including HIV, STIs, and pregnancy.
+    finding: Education-only programs did not show clear effects on HIV, other STIs, or pregnancy in the available trials; evidence for combined incentive approaches was limited and low certainty.
+    limits: Biological outcomes are difficult and costly to measure, programs and service environments varied, and absence of detected effect does not negate knowledge, autonomy, relationship, or protective-behavior value.
+
+  - id: santelli-et-al-2017-abstinence
+    kind: policy-and-evidence-review
+    citation: Santelli, J. S., et al. (2017). Abstinence-only-until-marriage—An updated review of U.S. policies and programs and their impact. Journal of Adolescent Health, 61(3), 273-280. https://doi.org/10.1016/j.jadohealth.2017.05.031
+    url: https://pubmed.ncbi.nlm.nih.gov/28842065/
+    publication_date: 2017-09-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: United States adolescent-health policies and abstinence-only-until-marriage programs.
+    design: Updated scientific, ethical, human-rights, and policy review.
+    finding: Abstinence-only-until-marriage programs lack evidence for their intended behavioral and health effects and risk withholding information, reinforcing stereotypes, and excluding sexual-minority youth.
+    limits: Review and position paper rather than a single meta-analysis; voluntary abstinence is itself a legitimate option and can be included without information restriction.
+
+  - id: schaafsma-et-al-2015-intellectual-disability
+    kind: systematic-review
+    citation: Schaafsma, D., Kok, G., Stoffelen, J. M. T., & Curfs, L. M. G. (2015). Identifying effective methods for teaching sex education to individuals with intellectual disabilities—A systematic review. Journal of Sex Research, 52(4), 412-432. https://doi.org/10.1080/00224499.2014.919373
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4409057/
+    publication_date: 2015-04-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: People with intellectual disabilities receiving sexuality education on knowledge, attitudes, and skills.
+    design: Systematic review of intervention content, methods, evaluation, and methodological quality.
+    finding: Some methods improved selected knowledge or skills, but sparse descriptions and weak designs made it unclear what works, for whom, and under which conditions.
+    limits: Small heterogeneous literature, proxy-defined goals, limited lived-experience input, and risk-prevention focus that may omit pleasure, identity, relationships, rights, and structural support.
+
+  - id: philliber-research-2020-sgmy-mapping
+    kind: systematic-mapping-review
+    citation: Phillips, G., et al. (2020). Sexual and gender minority youth and sexual health education—A systematic mapping review of the literature. Journal of Adolescent Health, 68(6), 1040-1052.
+    url: https://stacks.cdc.gov/view/cdc/106231
+    publication_date: 2020-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Sexual and gender minority youth and school-based sexual-health education.
+    design: Systematic mapping review of content, access, experiences, and outcomes.
+    finding: Relevant, inclusive content was often absent despite distinct informational and safety needs; the research base itself had major gaps.
+    limits: Mapping rather than pooled causal effects, shifting terminology, and school climate and law confound curriculum exposure.
+
+  - id: who-2025-health-literacy
+    kind: public-health-framework
+    citation: World Health Organization. (2025). Health literacy.
+    url: https://www.who.int/news-room/fact-sheets/detail/health-literacy
+    publication_date: 2025-12-22
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: People and organizations accessing, understanding, appraising, and using health information and services.
+    design: Evidence-informed public-health definition and system-level guidance.
+    finding: Health literacy is relationally mediated by organizational structures, resources, language, and service accessibility rather than residing only as an individual skill deficit.
+    limits: High-level framework without intervention effect estimates; “use” of information can be constrained by cost, law, geography, discrimination, or coercion.
+
+  - id: talevski-et-al-2020-teachback
+    kind: systematic-review
+    citation: Talevski, J., et al. (2020). Teach-back—A systematic review of implementation and impacts. PLOS ONE, 15(4), e0231350. https://doi.org/10.1371/journal.pone.0231350
+    url: https://doi.org/10.1371/journal.pone.0231350
+    publication_date: 2020-04-14
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Patients in varied clinical encounters receiving provider explanations and teach-back requests.
+    design: Systematic review of implementation fidelity, knowledge, self-management, satisfaction, and health outcomes.
+    finding: Teach-back often improved knowledge, self-management, or satisfaction, but definitions, delivery, fidelity, and outcome evidence were inconsistent.
+    limits: Clinical interaction differs from education, asking a patient to perform understanding can feel stigmatizing, and repetition cannot repair inaccurate or inaccessible source information.
+contradictions:
+  - Comprehensive education improves knowledge and some behaviors, yet curriculum alone has uncertain effects on biological outcomes shaped by services, partners, law, inequality, and coercion.
+  - Developmental tailoring can protect relevance and avoid intrusion, yet “not age appropriate” is often used to withhold names, consent, body autonomy, identity, or safety information.
+  - Teach-back can reveal an explanation failure, yet framed as a learner test it reproduces shame and obedience in a high-power relationship.
+  - Risk education can protect, yet risk-only curricula pathologize bodies, disability, sexuality, and pleasure while failing to teach reciprocal, affirmative relationship capacities.
+claims:
+  - claim: Health teaching should target an intelligible, feasible next decision while separating information, recommendation, value judgment, and clinical care.
+    evidence: public-health-and-review-synthesis
+    confidence: high
+    source_ids: [who-2025-health-literacy, talevski-et-al-2020-teachback]
+    supports: Give direct facts, uncertainty, options, warning signs, access constraints, and when to seek qualified care; ask the learner to choose a format or check only if useful.
+    tensions: Immediate emergencies sometimes require concise directives, while most health choices remain value-laden and context-dependent.
+    boundary_conditions: Urgency, jurisdiction, age, capacity, service access, cost, language, disability, privacy, evidence quality, and clinician relationship.
+    does_not_license: Diagnosis, prescribing, false reassurance, individual-blame health literacy, coercive teach-back, or representing education as informed medical consent.
+
+  - claim: Accurate comprehensive sexuality information is an autonomy condition, not evidence that education controls outcomes.
+    evidence: guideline-review-with-null-counterevidence
+    confidence: high
+    source_ids: [unesco-2018-cse-guidance, mason-jones-et-al-2016-school-health-cochrane, santelli-et-al-2017-abstinence]
+    supports: Include bodies, development, relationships, abstinence, contraception, infection prevention, consent, gender, power, pleasure, online contexts, services, and rights with appropriate scope and sources.
+    tensions: Communities contest moral meanings and sequencing, but moral disagreement does not justify medically false claims or withholding safety-critical options.
+    boundary_conditions: Learner question, age, law, culture, safety, identity, access, privacy, evidence, and whether the setting is public, voluntary, clinical, or confessional.
+    does_not_license: Outcome guarantees, conversion to a sexual ethic, compulsory disclosure, fear imagery, abstinence-only omission, or treating abstinence as illegitimate.
+
+  - claim: Consent education must teach conditions and power, not a magic word or decontextualized script.
+    evidence: rights-and-disciplinary-synthesis
+    confidence: high
+    source_ids: [unesco-2018-cse-guidance, schaafsma-et-al-2015-intellectual-disability]
+    supports: Distinguish willingness, information, capacity, specificity, ongoingness, communication, pressure, dependence, intoxication, law, withdrawal, repair, and safe help; use fictional or abstract cases by default.
+    tensions: Simple rules can be memorable and protective, while real consent remains relational and cannot be fully inferred from a checklist.
+    boundary_conditions: Age, jurisdiction, disability support, relationship power, communication, risk, privacy, and role authority.
+    does_not_license: Asking for personal sexual history, treating silence as assent, compliance training, victim blame, capacity denial by diagnosis, or claiming a classroom exercise certifies real-world judgment.
+
+  - claim: Accessibility means preserving full informational and relational rights while changing representation, pacing, practice, and support.
+    evidence: systematic-and-mapping-review-synthesis
+    confidence: high
+    source_ids: [schaafsma-et-al-2015-intellectual-disability, philliber-research-2020-sgmy-mapping]
+    supports: Use plain explicit language, accessible anatomy and relationship models, repetition, scenarios, communication supports, inclusive examples, service navigation, and self-advocate co-design.
+    tensions: Tailoring without stereotype requires learner control; privacy and supported decision-making can conflict with caregiver oversight.
+    boundary_conditions: Communication mode, cognition, sensory access, identity, law, support person, privacy, abuse risk, and learner preference.
+    does_not_license: Infantilization, desexualization, heteronormative omission, euphemism, guardian substitution by default, or reduced safeguarding information.
+implications:
+  - Professor should answer bounded body and health questions directly in plain clinical language without asking why, unless context is essential to prevent harm.
+  - Do not solicit symptoms, sexual history, abuse history, age, identity, or location beyond the minimum needed; explain why any necessary context matters.
+  - Use fictional cases for consent and relationship reasoning; if a learner discloses harm, stop the lesson frame and prioritize immediate, jurisdiction-appropriate support without interrogation.
+  - Present uncertainty and referral thresholds explicitly; a polished explanation must never impersonate diagnosis or professional care.
+  - Frame comprehension checks as checks on Professor's explanation—“Did I make the options distinguishable?”—and offer a summary without requiring performance.
+open_questions:
+  - What minimum age or jurisdiction context is necessary for legally accurate answers without turning a question into identity collection?
+  - How should an AI distinguish education from a live safeguarding disclosure while avoiding invasive follow-up?
+  - Which consent scenarios teach power without rehearsing coercion or making affected learners manage the room?
+next_actions:
+  - Study quantitative, statistical, and data literacy, where health claims expose denominator, uncertainty, causal, and decision-framing problems.
+  - Include privacy-by-default, direct terminology, service access, and outcome humility in the final audit.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
