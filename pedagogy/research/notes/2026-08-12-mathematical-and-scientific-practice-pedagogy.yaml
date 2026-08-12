@@ -1,0 +1,228 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: mathematical-and-scientific-practice-pedagogy-2026-08-12
+title: Mathematics and science teaching must coordinate explicit guidance with genuine epistemic work
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise, durable-memory-transfer-and-calibration, epistemic-justice-curriculum-and-knowledge-access]
+scope: >-
+  Conceptual and procedural knowledge, worked examples, proof, learner resources,
+  inquiry, modeling, evidence, uncertainty, scientific explanation, and the
+  false opposition between explicit instruction and disciplinary participation.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared cognitive-load and worked-example research with mathematics- and
+    science-education studies of proof, conceptual change, inquiry, modeling,
+    learner thinking, and equitable disciplinary practice.
+  inclusion: Reviews, experiments, classroom frameworks, and foundational critiques that specify task, prior knowledge, guidance, epistemic practice, or learning outcome.
+  exclusions: “Science of” branding as authority, unguided discovery caricatured as all inquiry, inquiry as an activity sequence, productive struggle without a product, and correctness detached from justification.
+  limitations: >-
+    Mathematics and sciences contain many subfields and age-specific learning
+    progressions. Evidence from school algebra, physics, biology, or model-based
+    inquiry cannot travel unchanged to proof-based mathematics, field science,
+    laboratory craft, statistics, engineering, or advanced research.
+readings:
+  - id: rittle-johnson-et-al-2015-bidirectional
+    kind: empirical-review
+    citation: Rittle-Johnson, B., Schneider, M., & Star, J. R. (2015). Not a one-way street—Bidirectional relations between procedural and conceptual knowledge of mathematics. Educational Psychology Review, 27, 587-597. https://doi.org/10.1007/s10648-015-9302-x
+    url: https://doi.org/10.1007/s10648-015-9302-x
+    publication_date: 2015-12-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Children and students learning numerical and mathematical concepts and procedures.
+    design: Review of longitudinal, experimental, and microgenetic evidence about causal and developmental relations.
+    finding: Conceptual knowledge can support procedure generation and selection, while procedural practice can expose patterns and support conceptual growth; development is iterative rather than a single prescribed order.
+    limits: Constructs and measures overlap, domains vary, and bidirectionality does not specify the best sequence for a present learner and task.
+
+  - id: atkinson-et-al-2000-worked-examples
+    kind: cognitive-learning-review
+    citation: Atkinson, R. K., Derry, S. J., Renkl, A., & Wortham, D. (2000). Learning from examples—Instructional principles from the worked examples research. Review of Educational Research, 70(2), 181-214. https://doi.org/10.3102/00346543070002181
+    url: https://doi.org/10.3102/00346543070002181
+    publication_date: 2000-06-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Novices acquiring problem-solving schemas in mathematics, physics, and other structured domains.
+    design: Review of worked-example experiments and instructional-design principles.
+    finding: Well-designed examples can reduce unproductive search and support schema acquisition, especially when learners attend to rationale and examples vary appropriately.
+    limits: Example study can remain passive, mimic surface steps, or fail to transfer; effects depend on prior knowledge, self-explanation, task structure, and fading.
+
+  - id: nievelstein-et-al-2013-expertise-reversal
+    kind: controlled-experiments-and-counterexample
+    citation: Nievelstein, F., van Gog, T., van Dijck, G., & Boshuizen, H. P. A. (2013). The worked example and expertise reversal effect in less structured tasks—Learning to reason about legal cases. Contemporary Educational Psychology, 38(2), 118-125. https://doi.org/10.1016/j.cedpsych.2012.12.004
+    url: https://doi.org/10.1016/j.cedpsych.2012.12.004
+    publication_date: 2013-04-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Novice and advanced law students learning reasoning in less-structured legal cases.
+    design: Two experiments comparing process descriptions, worked examples, combined support, and unsupported problem solving.
+    finding: Worked examples improved efficiency for both novice and advanced learners; the expected expertise-reversal effect did not appear in this less-structured task.
+    limits: Legal reasoning differs from mathematics and science; “advanced” students may not have possessed task-specific schemas that made examples redundant.
+
+  - id: mariotti-et-al-2023-proof-review
+    kind: systematic-review
+    citation: Mariotti, M. A., et al. (2023). Proof and proving in school and university mathematics education research—A systematic review. ZDM—Mathematics Education, 55, 1277-1293. https://doi.org/10.1007/s11858-023-01518-y
+    url: https://doi.org/10.1007/s11858-023-01518-y
+    publication_date: 2023-10-11
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: School and university learners engaging in proof, argumentation, validation, and proving activity.
+    design: Systematic map and thematic synthesis of mathematics-education research.
+    finding: Proof learning involves learner, teacher, and mathematical content; proving can shift warrant from teacher or textbook authority toward mathematical necessity and shared validation.
+    limits: Research definitions of proof and success vary, and formal proof is only one mathematical practice.
+
+  - id: smith-et-al-1994-misconceptions-reconceived
+    kind: foundational-critical-synthesis
+    citation: Smith, J. P., diSessa, A. A., & Roschelle, J. (1994). Misconceptions reconceived—A constructivist analysis of knowledge in transition. Journal of the Learning Sciences, 3(2), 115-163. https://doi.org/10.1207/s15327809jls0302_1
+    url: https://doi.org/10.1207/s15327809jls0302_1
+    publication_date: 1994-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Research on learners' noncanonical ideas in mathematics and science and their transition toward expertise.
+    design: Critical theoretical reinterpretation of empirical misconceptions research.
+    finding: Learner ideas may be context-sensitive resources productively reorganized during learning rather than coherent false theories to eradicate.
+    limits: Resource accounts can understate stable commitments, identity, language, instruction-induced errors, and the need for explicit correction.
+
+  - id: kirschner-et-al-2006-minimal-guidance
+    kind: critical-cognitive-review
+    citation: Kirschner, P. A., Sweller, J., & Clark, R. E. (2006). Why minimal guidance during instruction does not work. Educational Psychologist, 41(2), 75-86. https://doi.org/10.1207/s15326985ep4102_1
+    url: https://doi.org/10.1207/s15326985ep4102_1
+    publication_date: 2006-06-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Novice learning under discovery, problem-based, experiential, and inquiry approaches characterized by the authors as minimally guided.
+    design: Theoretical review using cognitive architecture, working memory, and instructional-effect evidence.
+    finding: Novices often need explicit guidance because search can consume working memory without constructing usable knowledge.
+    limits: The review groups unlike pedagogies, treats some inquiry designs as minimally guided when they contain scaffolds, and privileges selected learning outcomes and theories.
+
+  - id: hmelo-silver-et-al-2007-scaffolding-response
+    kind: critical-response-and-evidence-review
+    citation: Hmelo-Silver, C. E., Duncan, R. G., & Chinn, C. A. (2007). Scaffolding and achievement in problem-based and inquiry learning—A response to Kirschner, Sweller, and Clark. Educational Psychologist, 42(2), 99-107. https://doi.org/10.1080/00461520701263368
+    url: https://doi.org/10.1080/00461520701263368
+    publication_date: 2007-06-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Problem-based and inquiry learning with scaffolds, facilitation, distributed expertise, and domain resources.
+    design: Theoretical and empirical response distinguishing guided designs from unguided discovery.
+    finding: Effective inquiry and PBL include substantial guidance and can support flexible knowledge, epistemic practice, collaboration, and self-directed learning.
+    limits: Successful designed programs are resource-intensive, implementation-sensitive, and do not show that inquiry is best for every outcome, novice, or timescale.
+
+  - id: windschitl-et-al-2018-ambitious-science
+    kind: research-synthesized-practice-framework
+    citation: Windschitl, M., Thompson, J., & Braaten, M. (2018). Ambitious science teaching. Harvard Education Press.
+    url: https://ambitiousscienceteaching.org/
+    publication_date: 2018-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: K-12 science classrooms and teacher education focused on equitable, evidence-based explanatory modeling.
+    design: Practice framework synthesized from classroom research, teacher learning, and iterative tool development.
+    finding: Coherent science teaching can plan around consequential phenomena, elicit learners' experiences and theories, support model revision through evidence, and consolidate public explanations.
+    limits: Core practices require subject knowledge, time, materials, and teacher judgment; routines can become performative if detached from phenomena and evidence.
+
+  - id: campbell-oh-2024-expansive-modeling
+    kind: systematic-synthesis
+    citation: Campbell, T., & Oh, P. S. (2024). Towards expansive model-based teaching—A systematic synthesis of modelling pedagogies in science education literature. Studies in Science Education. https://doi.org/10.1080/03057267.2024.2417157
+    url: https://doi.org/10.1080/03057267.2024.2417157
+    publication_date: 2024-11-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Empirical science-education studies using models as representational and epistemic tools.
+    design: Systematic synthesis focused on multidimensionality, meaningfulness, and equity.
+    finding: Model-based learning can support conceptual and epistemic growth when learners build, use, compare, and revise models in relation to evidence and meaningful phenomena.
+    limits: Modeling pedagogies vary substantially, and drawing a model is not itself evidence of modeling competence or equitable participation.
+claims:
+  - id: explicit-and-epistemic-are-not-opposites
+    statement: >-
+      Explanation, demonstration, worked examples, guided practice, inquiry,
+      argument, proof, and model revision answer different learning problems and can be coordinated within one arc.
+    confidence: high
+    source_ids: [atkinson-et-al-2000-worked-examples, kirschner-et-al-2006-minimal-guidance, hmelo-silver-et-al-2007-scaffolding-response, windschitl-et-al-2018-ambitious-science]
+    supports: Choose guidance by prior knowledge, task structure, intended practice, load, time, and evidence; fade or intensify it responsively.
+    tensions: Pedagogical eclecticism without mechanism can become incoherent and impossible to evaluate.
+    boundary_conditions: Domain, prior knowledge, task, medium, goal, time, material access, and teacher expertise.
+    does_not_license: Method wars, unguided abandonment, lecture by default, inquiry theater, or labeling every teacher prompt a scaffold.
+
+  - id: worked-example-is-an-object-for-reasoning
+    statement: >-
+      A worked example teaches more than steps when the learner can inspect why a
+      move is licensed, compare alternatives, predict a next move, and transfer the structure.
+    confidence: high
+    source_ids: [atkinson-et-al-2000-worked-examples, nievelstein-et-al-2013-expertise-reversal]
+    supports: Pair concise examples with completion, self-explanation by choice, contrasting cases, error detection, and later independent problems.
+    tensions: For some learners and tasks, direct imitation followed by fluent practice is a legitimate and efficient beginning.
+    boundary_conditions: Expertise, task structure, notation, complexity, load, transfer distance, and learner goal.
+    does_not_license: Copying as mastery, explaining every obvious step, rigid fading schedules, or assuming advanced learners never benefit from examples.
+
+  - id: concepts-and-procedures-co-develop
+    statement: >-
+      Mathematical understanding and procedure can develop reciprocally, so the
+      teacher should inspect which relation, representation, fact, or operation is missing rather than choose a permanent conceptual or procedural camp.
+    confidence: high
+    source_ids: [rittle-johnson-et-al-2015-bidirectional]
+    supports: Connect representations and rationales to accurate practice, and use procedural results to notice invariants and generate conceptual questions.
+    tensions: Particular topics may have a defensible local sequence, and fluency requires practice that is not continuously conceptualized.
+    boundary_conditions: Topic, learner knowledge, representation, procedure complexity, assessment, and intended transfer.
+    does_not_license: Aimless balance, drill without meaning, concept talk without competence, or inferring understanding from correct output alone.
+
+  - id: proof-relocates-authority
+    statement: >-
+      Learning to prove includes learning why a claim should be accepted through
+      mathematical relations and shared standards rather than because Professor says so.
+    confidence: high
+    source_ids: [mariotti-et-al-2023-proof-review]
+    supports: Distinguish evidence from proof, test cases from generality, intuition from warrant, and formal derivation from explanatory value.
+    tensions: Standards of rigor are historical, domain-specific, audience-sensitive, and taught through communities and authoritative exemplars.
+    boundary_conditions: Mathematical field, learner level, representation, audience, theorem, formal system, and purpose.
+    does_not_license: Formalism as the only understanding, proof by intimidation, dismissing empirical exploration, or hiding definitions and axioms.
+
+  - id: learner-ideas-are-resources-and-claims
+    statement: >-
+      A noncanonical idea may contain useful local coordination and still make a
+      false prediction; respecting its intelligibility does not require preserving its error.
+    confidence: high
+    source_ids: [smith-et-al-1994-misconceptions-reconceived, windschitl-et-al-2018-ambitious-science]
+    supports: Ask where the idea works, generate a discriminating case, preserve the productive piece, and explicitly consolidate the stronger account.
+    tensions: Some errors arise from misinformation and should be corrected directly without elicitation theater.
+    boundary_conditions: Stakes, persistence, context sensitivity, prior knowledge, time, motivation, and availability of a discriminating case.
+    does_not_license: Misconception diagnosis as identity, celebrating error without resolution, false equivalence, or inducing conflict for its own sake.
+
+  - id: inquiry-is-knowledge-making-not-worksheet-order
+    statement: >-
+      Scientific inquiry is engagement with questions, material or recorded
+      phenomena, models, measurement, uncertainty, evidence, alternatives, and public explanation—not following prescribed steps toward a hidden known answer.
+    confidence: high
+    source_ids: [hmelo-silver-et-al-2007-scaffolding-response, windschitl-et-al-2018-ambitious-science, campbell-oh-2024-expansive-modeling]
+    supports: Preserve a genuine epistemic decision, show how evidence bears on alternatives, and state when the activity is a demonstration or reconstruction rather than open research.
+    tensions: Reconstructing a known result can authentically teach instruments, models, controls, and evidence even when the outcome is not novel.
+    boundary_conditions: Safety, materials, learner expertise, uncertainty, curricular goal, time, ethics, and data quality.
+    does_not_license: Discovery myths, cookbook labs called inquiry, unsafe experimentation, hiding consensus, or treating personal observation as sufficient science.
+
+  - id: models-are-purposeful-and-revisable
+    statement: >-
+      A scientific model represents selected relations for a purpose and earns
+      confidence through explanatory, predictive, evidential, and comparative work—not resemblance alone.
+    confidence: high
+    source_ids: [windschitl-et-al-2018-ambitious-science, campbell-oh-2024-expansive-modeling]
+    supports: State target, purpose, assumptions, scale, mechanism, evidence, uncertainty, alternatives, and failure conditions; revise visibly.
+    tensions: Beginners need usable simplified models before they can manage all caveats and competing levels.
+    boundary_conditions: Phenomenon, scale, domain, evidence, purpose, uncertainty, and learner knowledge.
+    does_not_license: “All models are wrong” as dismissal, diagram completion as modeling, analogy as mechanism, or simulation output as evidence by itself.
+implications:
+  - Professor should answer a requested mathematical or scientific question directly, then offer an epistemic extension rather than using inquiry to withhold the answer.
+  - Short lessons can contain one authentic disciplinary move—predicting a case, finding an invariant, testing a model, locating a proof gap, or comparing explanations—without staging a full discovery cycle.
+  - An AI-generated worked solution must expose assumptions and check its result; fluent symbolic output is especially vulnerable to unearned authority.
+  - Science and mathematics topic modules need characteristic representations, task families, learner resources, proof or evidence standards, common overgeneralizations, and consolidation moves.
+  - No universal explicitness/inquiry ratio is earned. The design decision remains conditional and auditable.
+open_questions:
+  - How can a conversational AI support material inquiry without pretending that text simulation is observation or experiment?
+  - Which mathematical proof practices can be learned through dialogue without writing surfaces, diagrams, or formal verification tools?
+  - When does eliciting learner thinking improve instruction enough to justify the interaction burden?
+  - How should uncertainty be taught differently in deterministic mathematics, measurement science, statistical inference, and contested modeling?
+next_actions:
+  - Study statistics, causal inference, data visualization, and uncertainty pedagogy as a distinct domain.
+  - Audit lesson examples for hidden discovery scripts, procedure/concept false dichotomies, and models whose purpose or breakpoint is unstated.
+  - Compare the AI's proposed solution with an independent method or source before using it as a worked example in high-stakes domains.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
