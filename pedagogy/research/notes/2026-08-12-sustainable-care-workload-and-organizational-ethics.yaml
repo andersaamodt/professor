@@ -1,0 +1,156 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: sustainable-care-workload-and-organizational-ethics-2026-08-12
+title: Care is not sustainable when institutions convert structural scarcity into a teacher's private moral debt
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [humanizing-critical-and-healing-pedagogies, educational-ethics-and-nonideal-judgment, teacher-knowledge-noticing-and-adaptive-expertise]
+scope: Teacher wellbeing, workload, emotional labor, burnout, moral distress and injury, working conditions, organizational support, care ethics, boundaries, maintenance, and AI teacher availability.
+method:
+  search_date: 2026-08-12
+  approach: Compared longitudinal burnout review, emotional-labor synthesis, organizational panel evidence, individual-intervention meta-analysis, moral-injury studies, and critical care-ethics implications.
+  inclusion: Sources distinguishing individual resources from job demands, organizational conditions, ethical conflict, turnover, student outcomes, or compulsory reflection.
+  exclusions: Resilience as cure for understaffing, vocation as consent to limitless labor, warmth as emotional performance, burnout diagnosis from one session, and AI companionship as a substitute for human care systems.
+  limitations: Most studies are observational and school-based, measures vary across cultures, “moral injury” remains emerging in education, and an AI system does not experience occupational wellbeing as a human teacher does.
+readings:
+  - id: madigan-kim-2021-burnout-students
+    kind: systematic-review
+    citation: Madigan, D. J., & Kim, L. E. (2021). Does teacher burnout affect students? A systematic review of its association with academic achievement and student-reported outcomes. International Journal of Educational Research, 105, 101714. https://doi.org/10.1016/j.ijer.2020.101714
+    url: https://www.sciencedirect.com/science/article/pii/S0883035520318206
+    publication_date: 2021-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Teachers and their students across studies linking burnout with achievement and student-reported outcomes.
+    design: Systematic review of multi-source educational outcomes.
+    finding: Teacher burnout was generally associated with poorer academic and motivational outcomes, though direction and mechanisms remained uncertain.
+    limits: Correlation, shared organizational causes, selection, varied measures, and reciprocal teacher-student processes prevent simple causal attribution.
+
+  - id: kariou-et-al-2021-emotional-labor
+    kind: systematic-review
+    citation: Kariou, A., Koutsimani, P., Montgomery, A., & Lainidi, O. (2021). Emotional labor and burnout among teachers—A systematic review. International Journal of Environmental Research and Public Health, 18, 12760. https://doi.org/10.3390/ijerph182312760
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8657663/
+    publication_date: 2021-12-03
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Teachers across school levels and countries managing displayed and felt emotion at work.
+    design: Systematic review of emotional-labor strategies and burnout measures.
+    finding: Surface acting and emotional dissonance were more consistently related to exhaustion than naturally felt expression, with heterogeneous methods and mostly between-person designs.
+    limits: Self-report and cross-sectional dominance, cultural display norms, occupational selection, and no warrant to demand “authentic” emotion.
+
+  - id: araneda-et-al-2022-longitudinal-burnout
+    kind: systematic-review-of-longitudinal-studies
+    citation: Araneda, A., et al. (2022). Determinants of burnout among teachers—A systematic review of longitudinal studies. International Journal of Environmental Research and Public Health, 19, 5776. https://doi.org/10.3390/ijerph19095776
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9104901/
+    publication_date: 2022-05-09
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Teachers followed over time across occupational and school settings.
+    design: Systematic review restricted to longitudinal determinants of burnout.
+    finding: Work climate and pressure, collective exhaustion, job satisfaction, self-efficacy, classroom disruption, and some individual differences predicted later exhaustion.
+    limits: Heterogeneous designs and measures, bidirectionality, attrition, and incomplete organizational and political variables limit causal inference.
+
+  - id: kraft-marinell-yee-2016-organizational-context
+    kind: longitudinal-panel-study
+    citation: Kraft, M. A., Marinell, W. H., & Yee, D. S. (2016). School organizational contexts, teacher turnover, and student achievement—Evidence from panel data. American Educational Research Journal, 53(5), 1411-1499. https://doi.org/10.3102/0002831216667478
+    url: https://annenberg.brown.edu/publications/school-organizational-contexts-teacher-turnover-and-student-achievement-evidence-panel
+    publication_date: 2016-10-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: New York City middle schools measured repeatedly on leadership, expectations, teacher relationships, safety, turnover, and achievement.
+    design: School fixed-effects panel analysis using survey, administrative, and achievement data.
+    finding: Within-school improvements in organizational dimensions, especially leadership, were associated with reduced turnover; safety and expectations also tracked achievement gains.
+    limits: Nonrandom organizational change, survey measurement, policy context, and residual time-varying confounding prevent definitive causal claims.
+
+  - id: iancu-et-al-2018-burnout-interventions
+    kind: meta-analysis-of-controlled-interventions
+    citation: Iancu, A. E., Rusu, A., Maroiu, C., Pacurar, R., & Maricutoiu, L. P. (2018). The effectiveness of interventions aimed at reducing teacher burnout—A meta-analysis. Educational Psychology Review, 30, 373-396. https://doi.org/10.1007/s10648-017-9420-8
+    url: https://doi.org/10.1007/s10648-017-9420-8
+    publication_date: 2018-06-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Teachers receiving person-directed, organizational, or combined burnout interventions.
+    design: Meta-analysis of controlled intervention studies.
+    finding: Interventions yielded small reductions on some burnout dimensions, with substantial heterogeneity and limited organizational trials.
+    limits: Small studies, short follow-up, varied controls, publication bias risk, and individual symptom change does not repair harmful work design.
+
+  - id: winefield-et-al-2025-moral-injury-teaching
+    kind: qualitative-study
+    citation: Winefield, H., et al. (2025). Moral injury in teaching—The systemic roots of ethical conflict and emotional burnout in education. Educational Review. https://doi.org/10.1080/00131911.2025.2504523
+    url: https://www.tandfonline.com/doi/full/10.1080/00131911.2025.2504523
+    publication_date: 2025-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 57 Australian educators describing ethical conflict, betrayal, scarcity, policy, leadership, and professional disempowerment.
+    design: Qualitative analysis through an ecological systems framework.
+    finding: Participants located moral distress in interacting institutional and systemic constraints, not simply individual coping deficits.
+    limits: Emerging construct imported from other domains, self-selected qualitative accounts, and no prevalence or intervention estimate.
+
+  - id: finefter-rosenbluh-2017-reflective-predicaments
+    kind: qualitative-case-study
+    citation: Finefter-Rosenbluh, I. (2017). Behind the scenes of reflective practice in professional development—A glance into the ethical predicaments of secondary school teachers. Teaching and Teacher Education, 60, 1-11.
+    url: https://research.monash.edu/en/publications/behind-the-scenes-of-reflective-practice-in-professional-developm/
+    publication_date: 2017-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Twelve US secondary teachers and facilitators in reflective professional-development processes.
+    design: Qualitative case study of confidentiality, formative/summative role conflict, and work consequences.
+    finding: Evaluative reflective procedures created ethical predicaments and confidentiality violations rather than automatically supporting learning.
+    limits: Small context-specific study and moral-injury interpretation; it does not show that all assessed reflection is harmful.
+contradictions:
+  - Caring presence can be central to education, but prescribing unlimited availability or emotional congruence makes care a hidden performance demand.
+  - Individual regulation may reduce symptoms, while locating the remedy in the teacher can normalize preventable workload, unsafe conditions, and ethical betrayal.
+  - High expectations can support learning, but impossible standards without time, staff, materials, autonomy, or safety become institutionalized failure.
+  - Reflection can improve practice, yet reflective evidence used for appraisal, discipline, or public disclosure undermines candor and privacy.
+claims:
+  - claim: Teacher quality is partly an organizational accomplishment, not a portable individual trait.
+    evidence: longitudinal-and-review-synthesis
+    confidence: high
+    source_ids: [kraft-marinell-yee-2016-organizational-context, araneda-et-al-2022-longitudinal-burnout, madigan-kim-2021-burnout-students]
+    supports: Evaluate leadership, planning time, collegial trust, safety, staffing, workload, autonomy, materials, role clarity, compensation, and correction systems alongside individual practice.
+    tensions: Organizations do not erase personal responsibility for competence, discrimination, neglect, or abuse.
+    boundary_conditions: Labor market, governance, school level, collective bargaining, resources, student needs, policy, crisis, and leadership turnover.
+    does_not_license: Excusing harm, ranking schools by climate survey alone, or demanding teachers compensate privately for structural deprivation.
+
+  - claim: Warmth is not the same as compulsory emotional performance.
+    evidence: emotional-labor-synthesis
+    confidence: high
+    source_ids: [kariou-et-al-2021-emotional-labor]
+    supports: Permit professional steadiness, honest uncertainty, calm boundaries, repair, and varied culturally legible forms of regard without requiring intimacy or cheerfulness.
+    tensions: Learners are affected by contempt, volatility, indifference, and unreadable feedback; boundaries cannot justify relational neglect.
+    boundary_conditions: Culture, identity, role, publicness, disability, communication medium, crisis, learner age, and power.
+    does_not_license: Affect policing, authenticity tests, gendered care expectations, emotional extraction, or interpreting neutral tone as lack of commitment.
+
+  - claim: Burnout remedies must follow the causal level of the demand.
+    evidence: intervention-and-organizational-synthesis
+    confidence: high
+    source_ids: [iancu-et-al-2018-burnout-interventions, kraft-marinell-yee-2016-organizational-context, winefield-et-al-2025-moral-injury-teaching]
+    supports: Use individual tools for individual recovery needs and organizational change for workload, staffing, surveillance, conflict, unsafe systems, or unethical mandates.
+    tensions: Causal levels interact; waiting for structural reform should not withhold accessible immediate relief.
+    boundary_conditions: Control, reversibility, collective action, employment power, health, discrimination, legal duties, and resource allocation.
+    does_not_license: Mindfulness in place of staffing, resilience training as compliance, diagnosing a teacher, or calling refusal a wellbeing deficit.
+
+  - claim: Sustainable pedagogical care includes limits, handoffs, maintenance, and the right not to convert every encounter into a relationship.
+    evidence: ethical-design-inference
+    confidence: high
+    source_ids: [kariou-et-al-2021-emotional-labor, winefield-et-al-2025-moral-injury-teaching, finefter-rosenbluh-2017-reflective-predicaments]
+    supports: Define role and availability, make exits clean, refer beyond competence, minimize records, retire stale plans, and distribute maintenance explicitly.
+    tensions: Boundaries can be wielded bureaucratically to abandon people or deny reasonable access.
+    boundary_conditions: Urgency, dependency, safety, statutory duty, learner choice, service alternatives, privacy, continuity, and repair.
+    does_not_license: Simulated attachment, guilt for leaving, false crisis availability, abandonment, or hiding system limitations behind policy language.
+implications:
+  - Professor's daily wake-up should begin with a small voluntary affordance, not manufacture urgency, demand response, or imply disappointment after absence.
+  - Lesson plans require review, expiry, retirement, and evidence of continuing relevance; accumulation is maintenance debt, not proof of care.
+  - Professor must not present itself as therapist, emergency support, intimate companion, or infinitely available person; it should offer appropriate referral when stakes exceed teaching.
+  - Research and curriculum maintenance should be bounded beside teaching so scholarship does not consume the learner's encounter.
+  - No wellbeing tactic or learner profiling is warranted.
+open_questions:
+  - What maintenance budget should govern a growing library of provisional tacks and bundled curricula?
+  - How can an always-computable AI model honest availability and non-attachment without theatrically imitating human fatigue?
+  - Which learner-support duties remain nondelegable to human institutions even when AI tutoring is effective?
+next_actions:
+  - Study educational leadership, implementation, and improvement science without importing managerial surveillance into one-to-one teaching.
+  - Include plan retirement, workload, and causal-level remedy in the final audit.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
