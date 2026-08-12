@@ -1,0 +1,413 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: assessment-claims-and-accountable-judgment-under-ai-2026-08-12
+title: Assess the claimed capability, not a proxy for technological absence
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [assessment-and-authorship-under-ai]
+scope: >-
+  A bounded validity-and-equity scan of assessment under ordinary generative-AI
+  use. It examines what artifacts, oral encounters, process evidence, secure
+  performances, and detectors can and cannot support as evidence of capability,
+  judgment, and authorship. It is not a systematic review or an integrity code.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Began with argument-based validity and construct-contamination accounts;
+    compared official assessment-reform syntheses with conceptual design work,
+    empirical detector audits and counterevidence, oral-assessment equity work,
+    portfolio studies, and student accounts of remote proctoring.
+  inclusion: >-
+    Primary or authoritative sources that expose the inference from observed
+    performance to a capability or authorship claim, report equity or privacy
+    threats, or distinguish assessment for present certification from judgment
+    needed for future learning.
+  exclusions: >-
+    Detector vendor claims without independent validation, generic lists of
+    AI-proof tasks, misconduct anecdotes, and sources that equate a visible
+    production trace with either learning or guilt.
+  limitations: >-
+    English-language web discovery; no database-complete search; several design
+    papers are conceptual or practice-informed; most empirical studies concern
+    higher education; detector findings are language-, corpus-, model-, and
+    time-dependent; no reviewed source validates one universal assessment
+    architecture.
+readings:
+  - id: kane-2013-validating-interpretations-uses
+    kind: assessment-validity-theory
+    citation: >-
+      Kane, M. T. (2013). Validating the Interpretations and Uses of Test
+      Scores. Journal of Educational Measurement, 50(1), 1-73.
+      https://doi.org/10.1111/jedm.12000
+    url: https://doi.org/10.1111/jedm.12000
+    publication_date: 2013-03-14
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-official-record-screened
+    population_context: General educational and psychological assessment.
+    design: Argument-based account of validity.
+    finding: >-
+      Interpretations and uses, not tests in the abstract, are validated. Each
+      inference needs support; more ambitious claims need more evidence; and
+      consequences can make a proposed use unacceptable even when a narrower
+      interpretation remains supportable.
+    limits: The full 73-page article was not read in this scan.
+
+  - id: messick-1995-validity-psychological-assessment
+    kind: assessment-validity-theory
+    citation: >-
+      Messick, S. (1995). Validity of psychological assessment: Validation of
+      inferences from persons' responses and performances as scientific inquiry
+      into score meaning. American Psychologist, 50(9), 741-749.
+      https://doi.org/10.1037/0003-066X.50.9.741
+    url: https://doi.org/10.1037/0003-066X.50.9.741
+    publication_date: 1995-09-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: General educational and psychological assessment.
+    design: Theoretical synthesis of construct validity and its consequences.
+    finding: >-
+      Assessment meaning is threatened both when tasks underrepresent the
+      construct and when irrelevant task demands or easiness contaminate it.
+      Social consequences belong in the evaluation of score meaning and use.
+    limits: A web-accessible copy was screened selectively rather than linearly read.
+
+  - id: teqsa-2023-assessment-reform
+    kind: regulator-convened-practice-synthesis
+    citation: >-
+      Lodge, J. M., Howard, S., Bearman, M., Dawson, P., & Associates. (2023).
+      Assessment reform for the age of artificial intelligence. TEQSA.
+    url: https://www.teqsa.gov.au/sites/default/files/2023-09/assessment-reform-age-artificial-intelligence-discussion-paper.pdf
+    publication_date: 2023-11-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Australian higher education with international contributors.
+    design: Expert-convened discussion paper grounded in assessment scholarship.
+    finding: >-
+      No assessment type secures all purposes. Multiple, contextualized sources
+      can support learning assurance when their distinct evidentiary roles,
+      accessibility, privacy, fairness, and program-level relationships are clear.
+    limits: Guidance and synthesis, not a comparative intervention study.
+
+  - id: teqsa-2025-enacting-assessment-reform
+    kind: regulator-convened-practice-synthesis
+    citation: >-
+      TEQSA. (2025). Enacting assessment reform in a time of artificial
+      intelligence.
+    url: https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/enacting-assessment-reform-time-artificial-intelligence
+    publication_date: 2025-09-24
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Higher-education assessment practices across disciplines.
+    design: Curated implementation examples organized around assessment-reform principles.
+    finding: >-
+      Authentic AI use, program-wide design, process evidence, collaboration,
+      and secured moments can be combined selectively. Detection is not a
+      dependable foundation, and security must be balanced with inclusion and
+      the capability actually being claimed.
+    limits: Examples demonstrate possibilities rather than comparative effectiveness.
+
+  - id: sharma-2026-making-judgment-visible
+    kind: conceptual-practice-informed-article
+    citation: >-
+      Sharma, S. (2026). Educational integrity in GenAI-augmented assessment:
+      making judgement visible. International Journal for Educational
+      Integrity, 22, 6. https://doi.org/10.1007/s40979-026-00216-y
+    url: https://doi.org/10.1007/s40979-026-00216-y
+    publication_date: 2026-03-20
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: GenAI-augmented higher-education assessment.
+    design: Conceptual-theoretical argument with practice-informed examples.
+    finding: >-
+      Authorship can be operationalized as transparent, accountable evaluative
+      judgment through decision trails, justification, revision, and defense,
+      rather than inferred from technological absence.
+    limits: >-
+      The author explicitly presents examples as illustrative, not evidentiary;
+      visibility can become ritual, extra workload, or surveillance if every
+      trace is demanded rather than a few consequential decisions.
+
+  - id: boud-soler-2016-sustainable-assessment
+    kind: conceptual-review
+    citation: >-
+      Boud, D., & Soler, R. (2016). Sustainable assessment revisited.
+      Assessment & Evaluation in Higher Education, 41(3), 400-413.
+      https://doi.org/10.1080/02602938.2015.1018133
+    url: https://doi.org/10.1080/02602938.2015.1018133
+    publication_date: 2015-03-09
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-official-record-screened
+    population_context: Higher education across and beyond individual courses.
+    design: Conceptual review of sustainable assessment scholarship.
+    finding: >-
+      Assessment should not only meet present grading demands but develop the
+      learner's capacity to judge work and meet future learning needs.
+    limits: The full article and its underlying evidence base were not read in this scan.
+
+  - id: liang-et-al-2023-detector-bias
+    kind: empirical-detector-audit
+    citation: >-
+      Liang, W., Yuksekgonul, M., Mao, Y., Wu, E., & Zou, J. (2023). GPT
+      detectors are biased against non-native English writers. Patterns, 4(7),
+      100779. https://doi.org/10.1016/j.patter.2023.100779
+    url: https://doi.org/10.1016/j.patter.2023.100779
+    publication_date: 2023-07-10
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Native-English US eighth-grade essays and non-native-English TOEFL essays.
+    design: Audit of seven then-widely-used GPT detectors plus perturbation experiments.
+    finding: >-
+      Tested detectors frequently misclassified the non-native-English corpus
+      while rarely misclassifying the native-English comparison; simple lexical
+      changes also sharply reduced detection, exposing fragility.
+    limits: >-
+      Corpus, proficiency, genre, detector generation, and English-specific
+      conditions limit generalization to all writers, languages, or later systems.
+
+  - id: jiang-et-al-2024-gre-detectors
+    kind: empirical-detector-counterevidence
+    citation: >-
+      Jiang, Y., Hao, J., Fauss, M., & Li, C. (2024). Detecting ChatGPT-generated
+      essays in a large-scale writing assessment: Is there a bias against
+      non-native English speakers? Computers & Education, 217, 105070.
+      https://doi.org/10.1016/j.compedu.2024.105070
+    url: https://doi.org/10.1016/j.compedu.2024.105070
+    publication_date: 2024-08-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-official-record-screened
+    population_context: Large-scale GRE writing assessment data.
+    design: Detector construction and evaluation using sampled assessment data.
+    finding: >-
+      Linguistic-feature detectors trained on well-sampled GRE data achieved
+      near-perfect reported performance without the non-native-English bias
+      found in the earlier cross-corpus commercial-detector audit.
+    limits: >-
+      The publisher abstract and ETS record were screened, not the full methods;
+      fitted assessment data do not establish robustness to new models, domains,
+      paraphrasing, hybrid text, or local high-stakes deployment.
+
+  - id: al-ali-et-al-2026-czech-detectors
+    kind: empirical-detector-counterevidence
+    citation: >-
+      Al Ali, A., Helcl, J., & Libovicky, J. (2026). Different Time, Different
+      Language: Revisiting the Bias Against Non-Native Speakers in GPT
+      Detectors. arXiv:2602.05769.
+    url: https://arxiv.org/abs/2602.05769
+    publication_date: 2026-02-05
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Native and non-native Czech writing across multiple corpora.
+    design: Entropy analysis and evaluation of two custom and one commercial detector family.
+    finding: >-
+      The study found no systematic Czech non-native-speaker bias; results were
+      language- and domain-dependent, and the commercial system still showed
+      uneven model and domain generalization.
+    limits: >-
+      Preprint; only 29 longer non-native samples survived one filtering step;
+      one commercial detector; Czech results do not validate English deployments.
+
+  - id: rae-tai-dawson-2025-oral-inclusion
+    kind: conceptual-critical-review
+    citation: >-
+      Rae, M., Tai, J., & Dawson, P. (2025). Giving voice to women students:
+      designing oral assessments for inclusion and validity. Assessment &
+      Evaluation in Higher Education.
+      https://doi.org/10.1080/02602938.2025.2580622
+    url: https://doi.org/10.1080/02602938.2025.2580622
+    publication_date: 2025-10-31
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Women students in higher-education oral assessment.
+    design: Conceptual article and critical literature review.
+    finding: >-
+      Oral assessment can expose understanding but can also add construct-
+      irrelevant variance through anxiety, voice norms, interaction, assessor
+      expectations, and demands unrelated to the stated outcome.
+    limits: >-
+      The article focuses on gender and synthesizes heterogeneous studies; it
+      does not estimate a universal oral-versus-written effect or cover every
+      disability, language, race, class, or cultural interaction.
+
+  - id: knight-dipper-cruice-2018-viva-anxiety
+    kind: pre-post-intervention-study
+    citation: >-
+      Knight, R.-A., Dipper, L., & Cruice, M. (2018). Viva Survivors: the effect
+      of peer-mentoring on pre-viva anxiety in early-years students. Studies in
+      Higher Education, 43(1), 190-199.
+      https://doi.org/10.1080/03075079.2016.1161018
+    url: https://doi.org/10.1080/03075079.2016.1161018
+    publication_date: 2018-01-02
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-official-record-screened
+    population_context: 63 phonetics students across three cohorts.
+    design: Pre/post anxiety measure around a brief peer-mentoring session.
+    finding: >-
+      Viva anxiety was substantial enough to motivate intervention, and measured
+      anxiety declined after brief mentoring with previously successful peers.
+    limits: No randomized control; anxiety reduction does not establish score validity.
+
+  - id: balash-et-al-2021-proctoring-privacy
+    kind: mixed-methods-security-and-privacy-study
+    citation: >-
+      Balash, D. G., Kim, D., Shaibekova, D., Fainchtein, R. A., Sherr, M., &
+      Aviv, A. J. (2021). Examining the Examiners: Students' Privacy and
+      Security Perceptions of Online Proctoring Services. arXiv:2106.05917.
+    url: https://arxiv.org/abs/2106.05917
+    publication_date: 2021-06-10
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-official-record-screened
+    population_context: Online-proctoring extension reviews and an online survey of 102 test takers.
+    design: Review analysis plus survey.
+    finding: >-
+      Participants expressed concern about the amount and intimacy of captured
+      data; institutional power and trust may suppress overt opposition, so
+      apparent compliance is not evidence of meaningful consent.
+    limits: Preprint, modest self-selected survey, pandemic-specific context, and perceptions rather than learning outcomes.
+claims:
+  - id: assessment-evidence-is-claim-relative
+    statement: >-
+      An assessment observation supports only the capability interpretation and
+      use for which its inferential steps and consequences are warranted; a polished
+      artifact, oral answer, process trace, or detector score is never authorship or
+      mastery by itself.
+    confidence: high
+    source_ids: [kane-2013-validating-interpretations-uses, messick-1995-validity-psychological-assessment, teqsa-2023-assessment-reform]
+    supports: >-
+      State the target claim first: unaided retrieval, tool-mediated practice,
+      source judgment, revision, explanation, collaboration, or accountable
+      decision-making. Choose the least burdensome evidence that bears on it.
+    tensions: >-
+      Real professional capability is often distributed across people and tools,
+      while some foundational knowledge genuinely must remain rapidly available.
+    boundary_conditions: >-
+      Evidence demands should rise with the stakes and ambition of the inference;
+      low-stakes teaching encounters need not become examinations.
+    does_not_license: >-
+      Multiplying tasks by default, claiming validity from authenticity alone,
+      or treating one mode as a universal gold standard.
+
+  - id: triangulate-distinct-inferences-not-rituals
+    statement: >-
+      Multiple assessment moments are useful only when each contributes distinct
+      evidence to a declared claim; redundant traces add burden and can manufacture
+      an appearance of certainty without improving validity.
+    confidence: medium
+    source_ids: [teqsa-2023-assessment-reform, teqsa-2025-enacting-assessment-reform, boud-soler-2016-sustainable-assessment]
+    supports: >-
+      Pair an authentic tool-enabled act with a narrow changed-surface or secure
+      check only when both future practice and independently available knowledge
+      are intended outcomes; include self-judgment when future learning matters.
+    tensions: >-
+      Program-level coverage may require aggregation, but every additional
+      checkpoint consumes learner and teacher time and may change what is learned.
+    boundary_conditions: >-
+      Use sampling, learner-controlled evidence, and explicit retention limits;
+      accommodations are not suspicious gaps in a trace.
+    does_not_license: >-
+      Continuous logging, keystroke surveillance, performative prompt diaries,
+      or oral defense after every artifact.
+
+  - id: accountable-judgment-is-promising-operationalization
+    statement: >-
+      In authentic human-AI work, authorship is more defensibly approached through
+      responsibility for consequential choices, sources, revisions, explanations,
+      and effects than through proof that no technology participated.
+    confidence: medium
+    source_ids: [sharma-2026-making-judgment-visible, teqsa-2025-enacting-assessment-reform, boud-soler-2016-sustainable-assessment]
+    supports: >-
+      Ask for a small number of consequential decisions and permit the learner
+      to explain, revise, or challenge them in a fitting medium.
+    tensions: >-
+      Current evidence is substantially conceptual; a learner can narrate a
+      plausible process after the fact, and forced transparency can reward
+      fluent self-presentation rather than sound judgment.
+    boundary_conditions: >-
+      The decisions must connect to disciplinary criteria and the account must
+      be proportionate, accessible, contestable, and non-confessional.
+    does_not_license: >-
+      Treating disclosure as moral theater, equating fluency with ownership, or
+      demanding private drafts and complete interaction histories.
+
+  - id: oral-defense-is-evidence-with-contamination-risks
+    statement: >-
+      A dialogic or oral encounter can probe adaptive explanation and judgment,
+      but it also changes the construct and may introduce anxiety, speech,
+      interaction, gendered, linguistic, cultural, disability, and examiner effects.
+    confidence: medium
+    source_ids: [rae-tai-dawson-2025-oral-inclusion, knight-dipper-cruice-2018-viva-anxiety, messick-1995-validity-psychological-assessment]
+    supports: >-
+      Use oral evidence when responsive speaking is part of the claim or when an
+      accessible dialogue is the least burdensome probe; publish criteria,
+      scaffold familiarity, train assessors, and allow equivalent modalities.
+    tensions: >-
+      Oral dialogue may reveal understanding hidden by writing and may itself be
+      a preferred accommodation; contamination is contextual, not inevitable.
+    boundary_conditions: >-
+      Do not infer written capability from speech or vice versa without a validity
+      argument; evaluate subgroup consequences and permit repair or second evidence.
+    does_not_license: >-
+      Replacing every take-home task with an unprepared viva or using hesitation,
+      accent, eye contact, polish, or confidence as proxies for knowledge.
+
+  - id: detector-output-is-not-adjudicative-authorship-evidence
+    statement: >-
+      Generated-text detectors are time-, model-, language-, corpus-, and domain-
+      dependent classifiers whose outputs cannot by themselves support a high-
+      stakes finding about a person's authorship or integrity.
+    confidence: high
+    source_ids: [liang-et-al-2023-detector-bias, jiang-et-al-2024-gre-detectors, al-ali-et-al-2026-czech-detectors, kane-2013-validating-interpretations-uses]
+    supports: >-
+      Exclude detector scores from accusatory shortcuts; redesign evidence around
+      capability and accountable judgment, and provide ordinary due process when
+      independent evidence raises a genuine integrity question.
+    tensions: >-
+      Well-sampled contemporary detectors can perform strongly in bounded settings,
+      and later work does not reproduce one universal non-native-speaker bias.
+    boundary_conditions: >-
+      Even a locally validated classifier would require current base rates,
+      subgroup audits, error costs, version control, transparent limitations,
+      corroboration, and a contestable decision process.
+    does_not_license: >-
+      Claiming all detectors are equally inaccurate, ignoring real misconduct,
+      or treating a process interview as an interrogation prompted by a score.
+
+  - id: security-and-process-evidence-have-rights-costs
+    statement: >-
+      Secured performance and process evidence may strengthen a narrow inference,
+      but their privacy, power, access, anxiety, and self-censorship costs are part
+      of validity and ethical acceptability, not external implementation details.
+    confidence: medium
+    source_ids: [balash-et-al-2021-proctoring-privacy, kane-2013-validating-interpretations-uses, teqsa-2023-assessment-reform]
+    supports: >-
+      Prefer the least intrusive adequate observation, explain the inference,
+      minimize and expire captured data, provide alternatives, and separate
+      learning feedback from misconduct investigation.
+    tensions: >-
+      Some learners accept constrained monitoring for remote access or credible
+      certification, and privacy perceptions alone do not settle the tradeoff.
+    boundary_conditions: >-
+      Consent under institutional dependency is not fully voluntary; necessity,
+      proportionality, accessibility, governance, and contestability remain required.
+    does_not_license: >-
+      Covert monitoring, indefinite trace retention, inferring consent from login,
+      or collecting a whole process when a sampled performance would answer the claim.
+implications:
+  - No active tack change is warranted; Professor already requires claim-relative evidence, agency, accessibility, privacy, and proportionality.
+  - Future assessment proposals should name the target construct, permitted tools, inference chain, construct-irrelevant demands, consequences, retention, and route to challenge or repair.
+  - Professor should say tool-enabled, changed-surface, unaided, oral, and process evidence rather than collapsing them into authentic assessment or proof of authorship.
+  - Detector findings should be logged with system version, language, corpus, domain, base rate, subgroup results, and error costs; old audits must not become timeless slogans.
+open_questions:
+  - Which combinations of authentic and targeted checks predict later professional judgment without disproportionate burden?
+  - Can small learner-selected decision samples reveal evaluative judgment without rewarding retrospective storytelling?
+  - What equivalent modalities preserve the adaptive probing of an oral defense without assessing speech conventions irrelevant to the claim?
+  - How do disabled, multilingual, Indigenous, and racialized learners define legitimate evidence and unacceptable surveillance?
+  - Which process artifacts improve self-judgment for future learning rather than merely making authorship auditable to an institution?
+next_actions:
+  - Deep-read the GRE detector methods and seek independent replications, adversarial tests, current commercial audits, and correction records.
+  - Search learner-led and disability-led empirical work on oral defenses, process portfolios, and assessment surveillance.
+  - Compare program-level triangulation with equal-time single-mode assessment on validity, workload, privacy, and learning consequences.
+  - Build a candidate assessment-claim worksheet only after testing whether the current tacks and planning prompts already provide one semantic authority.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted

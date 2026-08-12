@@ -66,8 +66,8 @@ assert_contains 'Professor validation passed' "$professor_test_root/lint.out"
 "$professor" daily --topic pop-music --date 2026-08-10 --minutes 9 >"$professor_test_root/daily-a.out"
 "$professor" daily --topic pop-music --date 2026-08-10 --minutes 9 >"$professor_test_root/daily-b.out"
 cmp "$professor_test_root/daily-a.out" "$professor_test_root/daily-b.out" >/dev/null || fail 'daily brief is not deterministic'
-"$professor" research --date 2026-08-17 >"$professor_test_root/research-a.out"
-"$professor" research --date 2026-08-17 >"$professor_test_root/research-b.out"
+"$professor" research --date 2026-08-19 >"$professor_test_root/research-a.out"
+"$professor" research --date 2026-08-19 >"$professor_test_root/research-b.out"
 cmp "$professor_test_root/research-a.out" "$professor_test_root/research-b.out" >/dev/null || fail 'research brief is not deterministic'
 [ ! -e "$professor_test_data" ] || fail 'passive commands created state'
 assert_contains 'Private-state mutation: none' "$professor_test_root/daily-a.out"
