@@ -1,0 +1,144 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: improvement-implementation-and-non-surveillance-2026-08-12
+title: Improvement requires a falsifiable change theory and a protected right not to become its data exhaust
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise, technology-datafication-personalization-and-public-value, educational-ethics-and-nonideal-judgment]
+scope: Improvement science, implementation, fidelity and adaptation, educational leadership, practical measurement, organizational learning, equity, surveillance, experimentation, and retirement of failed changes.
+method:
+  search_date: 2026-08-12
+  approach: Compared networked-improvement theory, leadership meta-analyses, fidelity review, equity-centered adaptation, critical metric analysis, and organizational working-condition evidence.
+  inclusion: Sources specifying learning systems, leadership-outcome evidence, fidelity measurement, equity adaptation, or harms from visibility and datafication.
+  exclusions: Change activity as improvement, dashboards as understanding, fidelity as obedience, practitioner testimony as noise, rapid cycles without consent, and indefinite piloting on learners.
+  limitations: Improvement-science evidence is often descriptive and endogenous to its advocates; leadership findings are mainly correlational, and critique of surveillance does not eliminate the need for accountable evidence.
+readings:
+  - id: russell-et-al-2017-nic-initiation
+    kind: conceptual-design-framework
+    citation: Russell, J. L., Bryk, A. S., Dolle, J. R., Gomez, L. M., Lemahieu, P. G., & Grunow, A. (2017). A framework for the initiation of networked improvement communities. Teachers College Record, 119(5). https://doi.org/10.1177/016146811711900501
+    url: https://journals.sagepub.com/doi/10.1177/016146811711900501
+    publication_date: 2017-05-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Researchers and practitioners organizing cross-site educational improvement around a shared problem.
+    design: Conceptual framework for building a networked improvement community.
+    finding: The framework organizes inquiry around a specific aim, system understanding, explicit change theory, disciplined testing, variation, and networked learning.
+    limits: A design argument rather than comparative effect evidence; common aims and network governance can conceal unequal agenda power.
+
+  - id: robinson-lloyd-rowe-2008-leadership
+    kind: meta-analysis
+    citation: Robinson, V. M. J., Lloyd, C. A., & Rowe, K. J. (2008). The impact of leadership on student outcomes—An analysis of the differential effects of leadership types. Educational Administration Quarterly, 44(5), 635-674. https://doi.org/10.1177/0013161X08321509
+    url: https://journals.sagepub.com/doi/abs/10.1177/0013161X08321509
+    publication_date: 2008-12-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: School leaders, teachers, and students across 27 published leadership-outcome studies.
+    design: Meta-analysis comparing leadership types and practice dimensions.
+    finding: Leadership closer to teaching and teacher learning was more strongly associated with outcomes than broad transformational leadership.
+    limits: Few studies, overlapping constructs, observational mediation, publication selection, and historical system differences constrain causal prescriptions.
+
+  - id: tan-dimmock-walker-2024-leadership
+    kind: three-level-meta-analysis
+    citation: Tan, C. Y., Dimmock, C., & Walker, A. (2024). How school leadership practices relate to student outcomes—Insights from a three-level meta-analysis. Educational Management Administration & Leadership, 52(1), 6-27. https://doi.org/10.1177/17411432211061445
+    url: https://eprints.gla.ac.uk/260163/
+    publication_date: 2024-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: 108 studies yielding 493 effects on leadership practices and student outcomes.
+    design: Three-level meta-analysis accounting for dependent effects.
+    finding: Average associations were small, with instructional management, teacher capacity, and external engagement among relevant practices.
+    limits: Associations remain confounded by organizational quality and reverse causation; broad labels do not specify mechanisms or ethical implementation.
+
+  - id: van-dijk-et-al-2023-fidelity-reading
+    kind: systematic-review
+    citation: Van Dijk, W., Lane, H. B., & Gage, N. A. (2023). How do intervention studies measure the relation between implementation fidelity and students' reading outcomes? Elementary School Journal, 124(1). https://doi.org/10.1086/725672
+    url: https://www.journals.uchicago.edu/doi/10.1086/725672
+    publication_date: 2023-09-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Pre-K–12 reading interventions including fidelity in outcome analysis.
+    design: Systematic review of 50 intervention studies.
+    finding: Fidelity was conceptualized and constructed very differently across adherence, dosage, and quality measures, with varied relations to outcomes.
+    limits: Included studies selectively analyzed fidelity and may confound implementation quality with local capacity, learner need, or responsive adaptation.
+
+  - id: rankin-et-al-2024-equity-improvement
+    kind: participatory-design-case
+    citation: Rankin, Y., et al. (2024). Adapting improvement science tools and routines to build racial equity in out-of-school-time STEM spaces. Frontiers in Education, 9, 1434813. https://doi.org/10.3389/feduc.2024.1434813
+    url: https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1434813/full
+    publication_date: 2024-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: A networked community addressing racial and ethnic equity in informal STEM organizations.
+    design: Descriptive case of adapting tools, routines, participation, and measures around an equity aim.
+    finding: Improvement routines can be redesigned to foreground history, power, racialized experience, relational work, and participant authority rather than treating equity as an outcome gap alone.
+    limits: Self-described case without comparative effects; equity language can still be institutionalized without redistribution or durable outcome evidence.
+
+  - id: shay-2023-metrics-surveillance
+    kind: critical-philosophical-analysis
+    citation: Shay, P. W. (2023). Precluding critical pedagogy—Ethical democracy and the tyranny of functional metrics, visible learning, and data surveillance. Journal for Critical Education Policy Studies, 21(3), 26-58.
+    url: https://eric.ed.gov/?id=EJ1432722
+    publication_date: 2023-12-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Learners and teachers within assessable, visible, standardized, data-driven educational regimes.
+    design: Foucauldian philosophical critique of measurement and subject formation.
+    finding: Making all learning visible and functional can narrow educational ends and organize learners as monitored, economically legible subjects.
+    limits: Theoretical critique may understate how measurement can expose exclusion, correct teacher misjudgment, and support democratic accountability.
+contradictions:
+  - Disciplined cycles can replace anecdote with cumulative practical learning, yet perpetual cycles can normalize incomplete design and turn ordinary teaching into experimentation without a terminal review.
+  - Fidelity protects an intervention's hypothesized active ingredients, while rigid adherence can suppress professional judgment, accessibility, cultural fit, and learner refusal.
+  - Shared measurement makes variation discussable, but visible metrics reshape conduct, invite gaming, and privilege what is cheap to count.
+  - Leadership participation in teacher learning may support coherence, while observation and evaluation power can make professional learning performative and unsafe.
+claims:
+  - claim: Improvement begins with a bounded problem and change theory, not a favored solution.
+    evidence: methodological-synthesis
+    confidence: high
+    source_ids: [russell-et-al-2017-nic-initiation, rankin-et-al-2024-equity-improvement]
+    supports: State aim, system, hypothesized mechanism, affected parties, measures, countermeasures, falsifiers, decision rule, expiry, and ownership before testing.
+    tensions: Premature formalization can exclude emergent knowledge and community-defined problems.
+    boundary_conditions: Stakes, consent, reversibility, sample size, implementation burden, power, data, and whether a baseline is ethically acceptable.
+    does_not_license: Experimenting on learners, solutionism, one-way implementation, or treating variation as individual defect.
+
+  - claim: Fidelity is multidimensional evidence about enactment, not a moral score for obedience.
+    evidence: systematic-review-synthesis
+    confidence: high
+    source_ids: [van-dijk-et-al-2023-fidelity-reading, rankin-et-al-2024-equity-improvement]
+    supports: Distinguish active mechanism, dosage, quality, responsiveness, adaptation, reach, context, and participant experience; record why a change occurred.
+    tensions: Without minimum integrity, an adapted practice may no longer test the original claim.
+    boundary_conditions: Mechanism evidence, access, culture, disability, safety, professional discretion, learner agency, and local resources.
+    does_not_license: Punishing adaptation, scripting relationships, compliance surveillance, or blaming implementers for a design that cannot fit.
+
+  - claim: Practical measurement must be sufficient for a decision and no more invasive than the decision requires.
+    evidence: ethical-methodological-synthesis
+    confidence: high
+    source_ids: [shay-2023-metrics-surveillance, van-dijk-et-al-2023-fidelity-reading]
+    supports: Collect the smallest valid signal, name uncertainty, use countermeasures, minimize retention, permit inspection and correction, and stop collecting when the decision is made.
+    tensions: Sparse data can miss subgroup harm, delayed effects, and rare failure; minimization needs explicit risk analysis.
+    boundary_conditions: Stakes, validity, privacy, identifiability, group size, power, retention, secondary use, and audit rights.
+    does_not_license: Emotion inference, attention surveillance, hidden experiments, behavioral exhaust, dashboards without decisions, or retaining learner traces “for improvement.”
+
+  - claim: Leadership improves teaching indirectly by improving the conditions under which teachers learn and act.
+    evidence: meta-analytic-associational-synthesis
+    confidence: moderate
+    source_ids: [robinson-lloyd-rowe-2008-leadership, tan-dimmock-walker-2024-leadership]
+    supports: Align purpose, resources, curriculum, protected learning time, safety, coordination, evidence use, and removal of organizational obstacles.
+    tensions: “Instructional leadership” can centralize authority and micromanage technique under the banner of coherence.
+    boundary_conditions: Governance, trust, expertise, evaluation power, labor, resources, community authority, and organizational scale.
+    does_not_license: Walkthrough surveillance, charisma, managerial scripts, teacher blame, or direct causal claims from leadership labels.
+implications:
+  - Professor's self-improvement records should specify a decision and expiry; collecting observations without a pending decision is not harmless curiosity.
+  - Daily lessons are teaching, not covert A/B tests. A private learner may explicitly opt into an experiment, with an alternative and deletion route.
+  - Tacks need mechanism, evidence, risks, falsifiers, review, and rollback; adaptation should record what changed without accumulating learner wording in the repo.
+  - Failed, redundant, or stale plans should be retired rather than retained as a growing menu.
+  - No dashboard, fidelity score, or continuous-experiment tactic is warranted.
+open_questions:
+  - What minimum evidence should retire a lesson-plan branch before it becomes maintenance debt?
+  - How can Professor learn from repeated use without retaining behavioral exhaust or manufacturing a user model?
+  - Which countermeasures reveal when a locally improved outcome shifted burden or narrowed purpose elsewhere?
+next_actions:
+  - Study media literacy, misinformation, and epistemic vigilance; AI teaching sits inside a persuasion and information environment.
+  - Include privacy-budget and terminal-review checks in the final research audit.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
