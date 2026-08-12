@@ -1,0 +1,166 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: language-reclamation-sovereignty-and-data-care-2026-08-12
+title: Availability is not authority to teach, model, or circulate a language
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [indigenous-decolonial-and-sovereign-pedagogies, technology-datafication-personalization-and-public-value, epistemic-justice-curriculum-and-knowledge-access]
+scope: >-
+  Indigenous language rights, educational sovereignty, reclamation, community
+  accountability, Indigenous data governance, cultural protocols, AI language
+  technology, and boundaries on bundling philological curriculum.
+method:
+  search_date: 2026-08-12
+  approach: Prioritized rights instruments, Indigenous-led governance frameworks, community-accountable pedagogy, community-controlled metadata, and cases of sovereign language technology.
+  inclusion: Sources asserting collective authority and specifying governance, benefit, responsibility, protocol, or educational control.
+  exclusions: “Low-resource” extraction framed only as technical scarcity, open-web availability as consent, preservation without living community authority, and universal Indigenous protocol claims.
+  limitations: Indigenous peoples, nations, and communities are not interchangeable; CARE and Local Contexts are frameworks, not substitutes for the authority and law of a particular people.
+readings:
+  - id: united-nations-2007-undrip
+    kind: international-rights-instrument
+    citation: United Nations General Assembly. (2007). United Nations Declaration on the Rights of Indigenous Peoples, A/RES/61/295.
+    url: https://social.desa.un.org/sites/default/files/inline-files/UNDRIP_E_web_0.pdf
+    publication_date: 2007-09-13
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Indigenous peoples' individual and collective rights internationally.
+    design: General Assembly declaration developed through decades of Indigenous advocacy and intergovernmental negotiation.
+    finding: Indigenous peoples have rights to revitalize, use, develop, transmit, designate, establish, and control languages and educational systems in culturally appropriate ways.
+    limits: The declaration is not a community-specific protocol or implementation mechanism, and states vary in recognition and compliance.
+
+  - id: mccarty-lee-2014-sovereignty
+    kind: indigenous-education-theory-and-cases
+    citation: McCarty, T. L., & Lee, T. S. (2014). Critical culturally sustaining/revitalizing pedagogy and Indigenous education sovereignty. Harvard Educational Review, 84(1), 101-124. https://doi.org/10.17763/haer.84.1.q83746nl5pj34216
+    url: https://doi.org/10.17763/haer.84.1.q83746nl5pj34216
+    publication_date: 2014-04-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-metadata-screened
+    population_context: Native American educational contexts shaped by colonization, language suppression, and tribal sovereignty.
+    design: Critical theoretical synthesis grounded in ethnographic educational research and community accountability.
+    finding: Culturally sustaining pedagogy in Indigenous settings must also confront asymmetrical power, reclaim disrupted language and lifeways, and answer to Native communities' sovereignty.
+    limits: The framework cannot be detached from particular nations and used as a generic cultural-inclusion recipe.
+
+  - id: carroll-et-al-2020-care
+    kind: indigenous-data-governance-principles
+    citation: Carroll, S. R., et al. (2020). The CARE Principles for Indigenous Data Governance. Data Science Journal, 19, 43. https://doi.org/10.5334/dsj-2020-043
+    url: https://doi.org/10.5334/dsj-2020-043
+    publication_date: 2020-11-04
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Data about or from Indigenous peoples, lands, knowledge, and resources across research and data ecosystems.
+    design: Indigenous data-sovereignty principles developed through consultation across networks and organized as Collective Benefit, Authority to Control, Responsibility, and Ethics.
+    finding: Data governance must center people and purpose, collective benefit, authority, reciprocal responsibility, and future-oriented ethics, complementing findability and reuse concerns.
+    limits: CARE requires operationalization under specific Indigenous governance; a checklist assertion by an external actor is not compliance.
+
+  - id: local-contexts-labels
+    kind: community-controlled-governance-infrastructure
+    citation: Local Contexts. Traditional Knowledge and Biocultural Labels.
+    url: https://localcontexts.org/labels/traditional-knowledge-labels/
+    publication_date: 2019-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Indigenous communities communicating local protocols for traditional knowledge and biocultural data in institutions and digital systems.
+    design: Community-controlled metadata tools with customizable labels for provenance, permission, circulation, attribution, gender, seasonality, and other protocols.
+    finding: Standard copyright and open-access status can fail to express community responsibilities and permissions; community-authored metadata can make those protocols actionable.
+    limits: Labels do not transfer authority to outsiders, override law, or guarantee platform enforcement; absence of a label is not permission.
+
+  - id: hermes-2012-documentation-revitalization
+    kind: critical-field-review
+    citation: Hermes, M. (2012). Indigenous language revitalization and documentation in the United States—Collaboration despite colonialism. Language and Linguistics Compass, 6(3), 131-142. https://doi.org/10.1002/lnc3.327
+    url: https://doi.org/10.1002/lnc3.327
+    publication_date: 2012-03-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Indigenous language documentation and revitalization collaborations in the United States.
+    design: Critical synthesis connecting global revitalization, documentation, community goals, technology, and colonial relations.
+    finding: Documentation designed for scholarly preservation and revitalization designed for community use can diverge; collaboration must be reorganized around community purpose and power.
+    limits: Collaboration language can still hide who controls money, archives, credentials, publication, and refusal.
+
+  - id: te-hiku-kaitiakitanga-license
+    kind: indigenous-community-governance-instrument
+    citation: Te Hiku Media. Kaitiakitanga License and language-technology governance.
+    url: https://kaituhi.nz/kaitiakitanga
+    publication_date: 2022-11-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Te reo Māori recordings, transcriptions, datasets, services, and models stewarded by Te Hiku Media.
+    design: Community-originated license and service constraints grounding data use in kaitiakitanga and benefit to Māori.
+    finding: A language technology can refuse downstream dataset and model extraction while supporting community-serving use; stewardship and derived-work obligations matter beyond access.
+    limits: This is a specific Māori governance instrument, not a universal license for other peoples or all te reo Māori data.
+claims:
+  - id: language-education-can-be-sovereign-practice
+    statement: >-
+      For Indigenous peoples, language education may enact collective rights,
+      continuity, land and kinship relations, self-determination, and repair—not merely individual skill acquisition.
+    confidence: high
+    source_ids: [united-nations-2007-undrip, mccarty-lee-2014-sovereignty, hermes-2012-documentation-revitalization]
+    supports: Ask whose educational purpose and authority organize a curriculum; defer to nation and community institutions for goals, forms, protocols, and evaluation.
+    tensions: Individual learners have their own rights and varied relationships to community, and no external system should impose a singular authenticity test.
+    boundary_conditions: People and nation, jurisdiction, community process, learner relation, language status, institutional control, and colonial history.
+    does_not_license: Pan-Indigenous curriculum, ancestry policing, romanticization, speaking for a community, or denying individual refusal.
+
+  - id: public-does-not-mean-permitted
+    statement: >-
+      A word, recording, manuscript, dataset, or teaching resource being publicly
+      reachable does not establish permission to train on, repackage, generalize, or bundle it.
+    confidence: high
+    source_ids: [carroll-et-al-2020-care, local-contexts-labels, te-hiku-kaitiakitanga-license]
+    supports: Check source-specific rights, community protocols, intended use, benefit, attribution, and downstream restrictions before using Indigenous language material.
+    tensions: Communities may deliberately choose open circulation, and excessive external gatekeeping can obstruct the access they intend.
+    boundary_conditions: Governance authority, license, protocol, intended audience, sacredness, gender or seasonal restriction, derivation, and benefit.
+    does_not_license: Scraping, model memorization as fair use ethics, “preservation” against refusal, or assuming silence is consent.
+
+  - id: data-quality-cannot-repair-unauthorized-governance
+    statement: >-
+      Accurate transcription, strong provenance, and technically excellent models
+      do not cure the absence of collective authority, responsibility, or benefit.
+    confidence: high
+    source_ids: [carroll-et-al-2020-care, te-hiku-kaitiakitanga-license, mccarty-lee-2014-sovereignty]
+    supports: Treat governance as a design prerequisite and continuing relation, not an ethics appendix after technical work.
+    tensions: Authority can be internally contested, and rigid external demands for one representative can freeze plural community processes.
+    boundary_conditions: Decision procedure, representation, jurisdiction, benefit, stewardship, accountability, appeal, and continuing consent.
+    does_not_license: Outsider adjudication of legitimate leadership, procedural theater, or abandoning requested technical support.
+
+  - id: documentation-and-reclamation-have-different-centers
+    statement: >-
+      An archive optimized for linguistic description or future scholarship may
+      fail a reclamation effort centered on speakers, families, teachers, children, and everyday use.
+    confidence: high
+    source_ids: [hermes-2012-documentation-revitalization, mccarty-lee-2014-sovereignty]
+    supports: Judge materials by community-defined use, teachability, access, relations, and continuity as well as descriptive completeness.
+    tensions: Careful documentation can become indispensable to reclamation after violent interruption, and scholarly and community aims can align.
+    boundary_conditions: Purpose, audience, format, access control, orthography, fluency ecology, teacher capacity, archive ownership, and time horizon.
+    does_not_license: Dismissing archives, equating a corpus with a living language, or defining vitality from outside.
+
+  - id: professor-must-have-a-bundling-stop-rule
+    statement: >-
+      Professor must not bundle Indigenous or community-governed language
+      curriculum merely because sources appear reliable; authority and promotion review are independent requirements.
+    confidence: high
+    source_ids: [united-nations-2007-undrip, carroll-et-al-2020-care, local-contexts-labels]
+    supports: Keep exploratory notes private or omit them, record protocol uncertainty, and require explicit human and relevant community review before repository promotion.
+    tensions: A blanket block can erase public community-authored teaching resources explicitly intended for broad learners.
+    boundary_conditions: Community intent, rights, protocol, source license, topic scope, reviewer authority, reversibility, and update responsibility.
+    does_not_license: Using “sensitivity” to exclude Indigenous scholarship, universalizing one nation's protocol, or claiming community endorsement from citation.
+implications:
+  - >-
+    Future private philology nucleus cards need a governance field separate from bibliographic quality: permission, community authority, intended learners, protocol, benefit, and downstream use.
+  - >-
+    Professor should prefer community-authored public teaching materials when a community clearly invites broad learning, and still preserve the material's stated limits and attribution.
+  - >-
+    A learner's curiosity does not authorize Professor to reveal restricted material; Professor should explain the boundary without turning restricted knowledge into allure.
+  - >-
+    Existing sovereign-pedagogy, scope, consent, copyright, and promotion rules supply a strong floor. No content is bundled and no automatic tactic is earned.
+open_questions:
+  - How can Professor reliably discover community protocol when common search and metadata systems omit or flatten it?
+  - Which repository test could require a documented authority review for bundled living-language curriculum without pretending software can verify sovereignty?
+  - How should a globally trained model disclose that it may already embody language data obtained without valid community governance?
+  - What is the respectful response when governance is contested or no authorized public source exists?
+next_actions:
+  - Add no Indigenous-language curriculum during this general study.
+  - Study open education, copyright, public knowledge, and commons governance alongside sovereign restrictions.
+  - Develop only a candidate governance field through explicit human review; do not auto-install it from this note.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
