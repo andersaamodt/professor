@@ -1,0 +1,278 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: apprenticeship-participation-and-authenticity-2026-08-12
+title: Authentic practice teaches only through legitimate access, visible judgment, and changing responsibility
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise, epistemic-justice-curriculum-and-knowledge-access]
+scope: >-
+  A bounded inquiry into cognitive apprenticeship, situated learning,
+  legitimate peripheral participation, communities of practice, and productive
+  disciplinary engagement. It asks what makes participation educative, how
+  tacit judgment becomes learnable, and why authenticity and membership can
+  reproduce exclusion as readily as they can support capability and belonging.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Read foundational frameworks beside qualitative reviews and critical,
+    decolonial, and power-aware revisions. Compared instructional methods with
+    social access, legitimacy, identity, disciplinary accountability, resource
+    provision, transfer, and the allocation of consequential responsibility.
+  inclusion: >-
+    Sources that distinguish mechanisms of apprenticeship or participation,
+    examine actual implementations, or analyze authority, power, and exclusion
+    inside practices and communities.
+  exclusions: >-
+    “Learning by doing” slogans, simulations called authentic without a target
+    practice, workplace socialization treated as an unquestioned good, and
+    community labels applied to any group or forum.
+  limitations: >-
+    Foundational sources are frameworks supported by illustrative cases, not
+    universal comparative-effect estimates. Much implementation research is
+    qualitative and concentrated in health professions, STEM, or formal
+    classrooms. Critical sources reveal power and coloniality but do not imply
+    that every established practice should be rejected wholesale.
+readings:
+  - id: collins-brown-holum-1991-cognitive-apprenticeship
+    kind: foundational-framework
+    citation: >-
+      Collins, A., Brown, J. S., & Holum, A. (1991). Cognitive Apprenticeship:
+      Making Thinking Visible. American Educator, 15(3), 6-11, 38-46.
+    url: https://www.aft.org/ae/winter1991/collins_brown_holum
+    publication_date: 1991-01-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Illustrative reading, writing, and mathematics programs in formal education.
+    design: Instructional framework and analysis of worked cases.
+    finding: >-
+      Cognitive apprenticeship makes normally hidden strategies visible through
+      modeling, coaching, scaffolding and fading, articulation, reflection, and
+      exploration. It preserves a view of the whole task, varies contexts for
+      transfer, and aims to transform the learner toward expert authority.
+    limits: >-
+      The article's success cases do not isolate components or establish broad
+      causal effects. Expert verbalization can be incomplete or reconstructed,
+      and the framework is explicitly not appropriate for every target.
+
+  - id: stals-bolhuis-koopmanschap-2018-health-sciences-review
+    kind: qualitative-review
+    citation: >-
+      Stalmeijer, R. E., et al. (2016). Cognitive apprenticeship in health
+      sciences education: a qualitative review. Advances in Health Sciences
+      Education, 21, 791-812. https://doi.org/10.1007/s10459-015-9658-4
+    url: https://pubmed.ncbi.nlm.nih.gov/27544386/
+    publication_date: 2016-08-18
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Twenty-six health-sciences education articles with substantial theoretical use.
+    design: In-depth qualitative synthesis of how cognitive apprenticeship was applied.
+    finding: >-
+      Implementations tended to emphasize methods such as coaching and
+      scaffolding while attending less to content and sociology; the review
+      calls for attention to context, faculty preparation, instructional
+      design, and outcomes.
+    limits: >-
+      The abstract does not provide effect estimates or a full risk-of-bias
+      account, and health-professions apprenticeship includes clinical stakes
+      unlike many conversational teaching settings.
+
+  - id: consalvo-schallert-elias-2015-lpp-literacy-review
+    kind: critical-review
+    citation: >-
+      Consalvo, A. L., Schallert, D. L., & Elias, E. M. (2015). An examination
+      of the construct of legitimate peripheral participation as a theoretical
+      framework in literacy research. Educational Research Review, 16, 1-18.
+      https://doi.org/10.1016/j.edurev.2015.07.001
+    url: https://doi.org/10.1016/j.edurev.2015.07.001
+    publication_date: 2015-07-26
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Twenty literacy studies using legitimate peripheral participation or communities of practice.
+    design: Critical construct review with principles for evaluating theoretical fit.
+    finding: >-
+      Uses of legitimate peripheral participation vary greatly in fit; newcomer
+      positions can be legitimately developmental or merely relegated, and the
+      practice's social structure, power relations, and legitimacy conditions
+      define learning possibilities.
+    limits: >-
+      The full analysis was not available in this scan, so this note does not
+      reproduce its six evaluative principles or infer findings beyond the
+      abstract and indexed preview.
+
+  - id: cox-2005-communities-comparative-review
+    kind: comparative-conceptual-review
+    citation: >-
+      Cox, A. (2005). What are communities of practice? A comparative review of
+      four seminal works. Journal of Information Science, 31(6), 527-540.
+      https://doi.org/10.1177/0165551505057016
+    url: https://doi.org/10.1177/0165551505057016
+    publication_date: 2005-12-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Four influential formulations used in learning and organizational research.
+    design: Comparative conceptual review.
+    finding: >-
+      “Community of practice” does not name one stable construct: seminal
+      accounts differ substantially in their treatment of community, learning,
+      power, change, diversity, and informality.
+    limits: >-
+      Conceptual differentiation does not determine which design works in a
+      given setting, and later developments are outside this 2005 comparison.
+
+  - id: hannington-govender-2024-decolonial-cop
+    kind: decolonial-critique
+    citation: >-
+      Hannington, M., & Govender, L. (2024). Communities of practice: A
+      decolonial critique. The Clinical Teacher, 21(3), e13699.
+      https://doi.org/10.1111/tct.13699
+    url: https://doi.org/10.1111/tct.13699
+    publication_date: 2023-11-13
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Health-professions education considered from a South African decolonial perspective.
+    design: Critical viewpoint and theoretical re-reading.
+    finding: >-
+      Participation in a professional community cannot be separated from
+      coloniality, whose views are silenced, and which knowledge and identity
+      forms the community authorizes; critical consciousness is necessary when
+      using the framework.
+    limits: >-
+      This is a situated normative critique rather than comparative outcome
+      research. “Decolonial” cannot be abstracted into a generic inclusion
+      technique or detached from place and institutional history.
+
+  - id: engle-conant-2002-productive-disciplinary-engagement
+    kind: design-framework-case-analysis
+    citation: >-
+      Engle, R. A., & Conant, F. R. (2002). Guiding Principles for Fostering
+      Productive Disciplinary Engagement: Explaining an Emergent Argument in a
+      Community of Learners Classroom. Cognition and Instruction, 20(4),
+      399-483. https://doi.org/10.1207/S1532690XCI2004_1
+    url: https://doi.org/10.1207/S1532690XCI2004_1
+    publication_date: 2002-12-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: A high-school science controversy with comparisons to science and mathematics reform cases.
+    design: Detailed classroom case analysis used to articulate design principles.
+    finding: >-
+      Productive disciplinary engagement joined problematizing, learner
+      authority, accountability to peers and disciplinary norms, and sufficient
+      resources. Authority was not the absence of standards, and accountability
+      was not compliance with an answer supplied in advance.
+    limits: >-
+      One generative case cannot establish universal sufficiency or show equal
+      participation. Later power-aware revisions argue that positioning by
+      race, class, and gender requires explicit analysis rather than assumption.
+claims:
+  - id: authenticity-is-not-an-ethical-seal
+    statement: >-
+      A task is not educationally or ethically warranted merely because it
+      resembles real practice: real practices can conceal judgment, externalize
+      novice costs, exploit labor, police identity, and deny consequential access.
+    confidence: high
+    source_ids: [consalvo-schallert-elias-2015-lpp-literacy-review, cox-2005-communities-comparative-review, hannington-govender-2024-decolonial-cop]
+    supports: >-
+      Name the target practice and its contested purposes; inspect who grants
+      legitimacy, who bears error, whose knowledge counts, and what safe but
+      consequential participation is available now.
+    tensions: >-
+      Decontextualized exercises can also distort practice and deny learners a
+      sense of the whole, social meaning, audience, and tools.
+    boundary_conditions: >-
+      Stakes, labor, community consent, newcomer status, identity positioning,
+      error reversibility, access, and whether the practice itself is just.
+    does_not_license: Workplace simulation as default, unpaid learner labor, hazardous realism, enculturation into harmful norms, or calling any project authentic.
+
+  - id: expert-judgment-must-be-made-available-not-mythologized
+    statement: >-
+      Apprenticeship can make strategic attention and judgment learnable when
+      an expert demonstrates choices in a whole task and responds to learner
+      performance, but an expert's explanation is evidence to test rather than
+      transparent access to cognition or a script to imitate forever.
+    confidence: high
+    source_ids: [collins-brown-holum-1991-cognitive-apprenticeship, stals-bolhuis-koopmanschap-2018-health-sciences-review]
+    supports: >-
+      Demonstrate on the live object, mark cues and decisions, let the learner
+      perform a meaningful part, coach the resulting event, compare alternative
+      judgments, vary context, and fade support.
+    tensions: >-
+      Excessive think-aloud can overload, distort automatic expertise, or turn
+      a vivid encounter into commentary; some factual learning needs no
+      apprenticeship apparatus.
+    boundary_conditions: >-
+      Task complexity, observability, prior knowledge, expert reliability,
+      cognitive load, domain variation, and the learner's current purpose.
+    does_not_license: Mandatory chain-of-thought disclosure, expert worship, one canonical process, reflection after every move, or scaffolds without fading.
+
+  - id: participation-needs-access-influence-and-trajectory
+    statement: >-
+      Participation becomes a learning opportunity when it is legitimate,
+      consequential, resourced, and connected to a visible trajectory of
+      increasing access and responsibility; mere presence at the periphery can
+      be exclusion stabilized under a developmental name.
+    confidence: high
+    source_ids: [consalvo-schallert-elias-2015-lpp-literacy-review, engle-conant-2002-productive-disciplinary-engagement, hannington-govender-2024-decolonial-cop]
+    supports: >-
+      Give the learner a real decision or contribution whose uptake can be
+      seen; protect against catastrophic novice cost; disclose advancement
+      routes and permit refusal of the offered community identity.
+    tensions: >-
+      Observation and low-risk partial work can be valuable, and immediate full
+      responsibility may be unsafe, overwhelming, or impossible.
+    boundary_conditions: >-
+      Legitimacy, influence, feedback, mobility, social safety, material access,
+      disability, language, status, community gatekeeping, and learner consent.
+    does_not_license: Forced public participation, permanent peripheral roles, participation-count metrics, assimilation, or treating silence as nonlearning.
+
+  - id: authority-and-accountability-are-complements
+    statement: >-
+      Learner authority is productive when learners can genuinely frame and
+      pursue a problem while remaining answerable to evidence, affected others,
+      and corrigible disciplinary norms; accountability without authority is
+      compliance, while authority without resources and standards is abandonment.
+    confidence: medium
+    source_ids: [engle-conant-2002-productive-disciplinary-engagement, hannington-govender-2024-decolonial-cop]
+    supports: >-
+      Offer a consequential open problem, explicit evidence norms, multiple
+      resources and routes, sufficient time, and real power to revise the
+      question or reject the teacher's framing.
+    tensions: >-
+      Disciplines and communities contest their own norms, and “shared” norms
+      can encode historical exclusion; beginner access sometimes requires
+      direct teaching before open problem work.
+    boundary_conditions: >-
+      Domain maturity, stakes, prior knowledge, whose authority is recognized,
+      resource sufficiency, public consequence, and repair possibilities.
+    does_not_license: Discovery learning without guidance, consensus as truth, disciplinary gatekeeping, performative choice, or withholding direct answers to simulate inquiry.
+implications:
+  - >-
+    Open on a real object or move when possible, but distinguish the learning
+    function of authenticity from theater, difficulty, exposure, or prestige.
+  - >-
+    Model only the critical cues and decisions needed now. Let the learner see
+    alternatives and uncertainty rather than presenting expert fluency as magic.
+  - >-
+    Design a smallest consequential role: the learner makes, selects, tests,
+    interprets, or repairs something whose effect is visible without bearing an
+    inappropriate real-world risk.
+  - >-
+    Track access, influence, uptake, and movement—not participation frequency
+    alone—when judging whether a social learning arrangement is equitable.
+  - >-
+    An AI can simulate a case or demonstrate a method but cannot manufacture a
+    human community's membership, recognition, permission, or authority.
+open_questions:
+  - How can an individual AI lesson offer participation in a living practice without counterfeiting community membership?
+  - Which forms of expert modeling improve transfer, and when does verbalization overload or misrepresent tacit judgment?
+  - How should a learner contest the target practice's norms while still gaining access to its powerful knowledge and tools?
+  - What measures distinguish legitimate low-risk peripherality from relegation and invisible labor?
+  - How do disability, language, race, class, gender, geography, and platform design alter who receives consequential uptake?
+next_actions:
+  - Study expansive framing, boundary crossing, funds of knowledge, and cultural-historical activity theory as related but noninterchangeable accounts.
+  - Seek comparative trials of cognitive apprenticeship components with delayed transfer and independent performance.
+  - Read affected-newcomer accounts of gatekeeping, hazing, unpaid labor, and successful counter-practices.
+  - Develop topic-specific tests for whether a purported authentic task preserves the actual epistemic and social work of the domain.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
