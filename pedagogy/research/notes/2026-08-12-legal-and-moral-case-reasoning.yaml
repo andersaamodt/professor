@@ -1,0 +1,144 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: legal-and-moral-case-reasoning-2026-08-12
+title: A case is not solved until authority, error, consequence, and remedy are visible
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [educational-ethics-and-nonideal-judgment, pedagogical-authority-voice-and-non-domination, teacher-knowledge-noticing-and-adaptive-expertise]
+scope: Legal case method, moral case deliberation, clinical education, professional reflection, participation, precedent, institutional authority, error allocation, and remedy.
+method:
+  search_date: 2026-08-12
+  approach: Compared doctrinal case study, clinical pedagogy, moral deliberation, educational-ethics theory, study-habit evidence, participation research, and reflection-risk review.
+  inclusion: Sources revealing case-analysis mechanisms, transfer conditions, affected parties, social participation, theory-practice relations, or confidentiality risks.
+  exclusions: Issue spotting as judgment, appellate opinions as complete social reality, adversarial fluency as justice, reflection as confession, and professional realism as exposure to real clients without supervision.
+  limitations: Evidence spans different legal and health systems; several sources are qualitative or conceptual, and client outcomes are rarely measured.
+readings:
+  - id: mertz-2007-language-law-school
+    kind: linguistic-ethnographic-study
+    citation: Mertz, E. (2007). The Language of Law School—Learning to Think Like a Lawyer. Oxford University Press.
+    url: https://academic.oup.com/book/9942
+    publication_date: 2007-02-22
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: First-year US law classrooms across schools, with attention to race, gender, status, and context.
+    design: Comparative linguistic ethnography of classroom discourse.
+    finding: Learning legal reasoning is also socialization into linguistic forms that reframe people, facts, authority, and relevance, with participation patterned by social difference.
+    limits: Observed US classrooms from an earlier period do not represent every legal tradition or contemporary inclusive practice.
+
+  - id: cooper-gurung-2018-law-study-habits
+    kind: correlational-survey-study
+    citation: Cooper, J. M., & Gurung, R. A. R. (2018). Smarter law study habits—An empirical analysis of law learning strategies and relationship with law GPA. Saint Louis University Law Journal, 62(2), 361-402.
+    url: https://scholarship.law.slu.edu/lj/vol62/iss2/9/
+    publication_date: 2018-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Law students reporting study practices in relation to academic performance.
+    design: Survey and correlational analysis informed by learning-science distinctions.
+    finding: The authors identify a trap of case briefing and rule memorization without frequent self-testing and application practice.
+    limits: Self-report, GPA confounding, and law-school assessment alignment do not establish professional transfer or justice quality.
+
+  - id: du-plessis-2015-clinical-components
+    kind: comparative-practice-analysis
+    citation: Du Plessis, M. A. (2015). Clinical legal education—Identifying required pedagogical components. Journal for Juridical Science, 40(2), 1-21. https://doi.org/10.38140/jjs.v40i2.3260
+    url: https://journals.ufs.ac.za/index.php/jjs/article/view/3260
+    publication_date: 2015-06-30
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: South African university law clinics balancing student education and community service.
+    design: Analysis of clinic experience, classroom instruction, tutorials, ethics, and specialized units.
+    finding: Clinical pedagogy coordinates real experience with substantive instruction and focused tutorials rather than treating exposure alone as learning.
+    limits: Practice analysis does not isolate effects and real-client education raises duties not present in hypothetical cases.
+
+  - id: vazquez-webster-2024-epistemic-blinders
+    kind: normative-philosophical-analysis
+    citation: Vazquez, M., & Webster, D. (2024). Case-based reasoning in educational ethics—Phronesis and epistemic blinders. Educational Theory, 74, 492-511. https://doi.org/10.1111/edth.12656
+    url: https://onlinelibrary.wiley.com/doi/10.1111/edth.12656
+    publication_date: 2024-09-15
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Teacher education using ethical cases and practical-wisdom deliberation.
+    design: Philosophical critique of theory-free phronetic case reasoning and proposal for middle-level conceptual scaffolds.
+    finding: Case intuition without theory can preserve epistemic blinders; intermediate concepts can expose otherwise unnoticed values and structures.
+    limits: Theory can introduce its own blinders, and the proposed approach requires empirical and cross-cultural testing.
+
+  - id: molewijk-et-al-2016-dilemma-method
+    kind: practice-case-study
+    citation: Molewijk, B., et al. (2016). Bioethics education in clinical settings—Theory and practice of the dilemma method of moral case deliberation. BMC Medical Ethics, 17, 45. https://doi.org/10.1186/s12910-016-0125-1
+    url: https://link.springer.com/article/10.1186/s12910-016-0125-1
+    publication_date: 2016-07-22
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Healthcare professionals deliberating an experienced ethical issue in intellectual-disability services.
+    design: Detailed case study of a structured moral-deliberation method.
+    finding: A staged dialogue can clarify the dilemma, values, perspectives, alternatives, and learning without positioning the ethics facilitator as answer supplier.
+    limits: One facilitated case, no comparative outcome, and dilemma framing may falsely compress structural problems into two options.
+
+  - id: gostelow-gishen-2017-honest-reflection
+    kind: faculty-development-review
+    citation: Gostelow, N., & Gishen, F. (2017). Enabling honest reflection—A review. Clinical Teacher, 14(6), 390-396. https://doi.org/10.1111/tct.12703
+    url: https://pubmed.ncbi.nlm.nih.gov/28940970/
+    publication_date: 2017-12-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Clinical trainees writing reflective portfolios amid assessment, accreditation, patient confidentiality, and possible legal disclosure.
+    design: Faculty-development review organized around a UK disclosure case.
+    finding: Mandated written reflection can conflict with candor, confidentiality, and legal exposure; educational records should minimize identifiable patient data.
+    limits: Context-specific legal risk and narrative review; it does not establish that private or oral reflection reliably improves performance.
+contradictions:
+  - Cases make rules concrete, but edited appellate facts can conceal procedure, client goals, cost, bargaining, enforcement, and lives outside the opinion.
+  - Theory can correct intuition's blinders, while abstract theory can erase institutional feasibility, history, dependency, and nonideal options.
+  - Clinical work makes consequences real, but student learning cannot take priority over a client's service, privacy, time, or legal interests.
+  - Reflection can revise judgment, yet assessed or discoverable reflection rewards safe performance and may punish candor.
+claims:
+  - claim: Case reasoning is a comparison among facts, rules, purposes, authorities, analogies, procedures, and consequences—not rule retrieval alone.
+    evidence: interdisciplinary-synthesis
+    confidence: high
+    source_ids: [mertz-2007-language-law-school, cooper-gurung-2018-law-study-habits, vazquez-webster-2024-epistemic-blinders]
+    supports: Ask which fact changes the classification, who bears proof, what authority governs, what precedent is analogous, and what remedy follows.
+    tensions: Novices still need explicit doctrine and examples before variations become meaningful.
+    boundary_conditions: Jurisdiction, procedural posture, authority hierarchy, standard of review, institutional competence, facts, and available remedies.
+    does_not_license: Legal advice, prediction from surface similarity, invented citations, hiding value judgments in doctrinal vocabulary, or treating legality as morality.
+
+  - claim: A moral dilemma must remain open to reframing, additional parties, structural causes, and options outside the presented binary.
+    evidence: normative-and-practice-synthesis
+    confidence: high
+    source_ids: [vazquez-webster-2024-epistemic-blinders, molewijk-et-al-2016-dilemma-method]
+    supports: Identify who defined the case, who is absent, which constraints are mutable, which values conflict, and who bears each option's error.
+    tensions: Expanding indefinitely can evade a time-bound decision; nonideal judgment sometimes must choose among damaged options.
+    boundary_conditions: Urgency, authority, reversibility, rights, dependency, uncertainty, institutional alternatives, and affected-party voice.
+    does_not_license: Thought experiments that trivialize lived harm, forced disclosure, majority vote as ethical warrant, or consensus as correctness.
+
+  - claim: Authentic professional education owes a duty first to affected people, not to learner realism.
+    evidence: ethical-practice-synthesis
+    confidence: high
+    source_ids: [du-plessis-2015-clinical-components, gostelow-gishen-2017-honest-reflection]
+    supports: Use supervision, competence boundaries, confidentiality, conflict checks, informed client participation, service quality, and routes for correction.
+    tensions: Excluding learners from consequential work prevents supervised development and can preserve professional gatekeeping.
+    boundary_conditions: Licensure, supervision, client consent, stakes, reversibility, data, compensation, continuity, and remedy for error.
+    does_not_license: Unsupervised practice, using clients as cases, recording identifiable reflection, or sacrificing service for a teachable moment.
+
+  - claim: Reflection earns pedagogical value only when it changes an inspectable future decision, representation, check, or condition.
+    evidence: bounded-design-inference
+    confidence: moderate
+    source_ids: [gostelow-gishen-2017-honest-reflection, du-plessis-2015-clinical-components]
+    supports: Link a specific event to assumptions, evidence, alternatives, consequences, and one revised next move while protecting third-party data.
+    tensions: Some moral and emotional processing is noninstrumental and should not be assessed for productivity.
+    boundary_conditions: Privacy, legal discoverability, grading, trauma, third-party identity, time, supervision, and learner choice.
+    does_not_license: Compulsory confession, personality judgment, diary surveillance, catharsis claims, or storing learner reflection in the repository.
+implications:
+  - Professor may use invented low-stakes cases but must label them, state jurisdictional or normative assumptions, and avoid personalized legal advice.
+  - A case prompt should expose at least one consequence or remedy and allow the learner to challenge its framing, missing party, or forced binary.
+  - Doctrinal explanation, application practice, and feedback should be coordinated; cold-call performance is not evidence of independent judgment.
+  - Reflection prompts should be optional, data-minimal, action-linked, and private. The repo must contain only generalized research synthesis.
+  - No case-method tactic is activated automatically.
+open_questions:
+  - How can cases represent institutional delay, cost, enforcement, collective action, and cumulative harm without becoming simulations of false completeness?
+  - Which moral-learning outcomes transfer to actual conduct when authority and incentives change?
+  - How should AI disclose the limits of a jurisdiction or professional role without flooding a small educational encounter?
+next_actions:
+  - Study public pedagogy, museums, memorials, and civic institutions where interpretation, authority, encounter, and collective memory meet.
+  - Audit future cases for missing remedies, procedural posture, absent affected parties, and privacy risks.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
