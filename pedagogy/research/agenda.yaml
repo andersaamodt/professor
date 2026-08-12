@@ -23,6 +23,17 @@ questions:
     next_scan_on: 2026-08-19
     reframe_when: Independent delayed outcomes and learner agency are no longer distinguishable within one question.
 
+  - id: technology-datafication-personalization-and-public-value
+    status: active
+    question: When does educational technology expand learning, access, plurality, and agency, and when do personalization and datafication narrow opportunity or transfer authority to opaque and commercial systems?
+    why_now: Personalized AI can make adaptation more responsive while quietly turning educational aims, learner traces, and curricular exposure into optimization targets controlled elsewhere.
+    lenses: [critical-technology, learning-analytics, privacy, agency, political-economy, accessibility, public-value]
+    source_routes: [comparative-effectiveness-studies, systematic-reviews, critical-data-studies, participatory-design, audits, affected-person-accounts, governance-evaluations]
+    watch_venues: [Computers & Education, British Journal of Educational Technology, Learning Media and Technology, Journal of Learning Analytics, Big Data & Society]
+    last_scanned_on: 2026-08-12
+    next_scan_on: 2026-09-01
+    reframe_when: Institutional platforms, private tutors, minors, or high-stakes allocation require distinct authority, consent, and harm models.
+
   - id: assessment-and-authorship-under-ai
     status: active
     question: What forms of assessment reveal learner capability, judgment, and authorship when generative tools are ordinary parts of work?

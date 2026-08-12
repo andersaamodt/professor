@@ -1,0 +1,257 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: personalization-datafication-and-medium-accountability-2026-08-12
+title: Personalization allocates opportunity and must remain inspectable, plural, and reversible
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [ai-scaffolding-independent-learning, technology-datafication-personalization-and-public-value]
+scope: >-
+  A bounded inquiry into AI personalization, learning analytics, datafication,
+  human-centred educational technology, and the accountability of a chosen
+  medium. It asks what personalization distributes or withholds, what learner
+  traces can warrant, and when a tool's affordance justifies its privacy,
+  agency, relational, access, and opportunity costs.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared systematic reviews of personalized learning analytics, human-
+    centred analytics and AI, and ethical risks in AIED with UNESCO guidance
+    and critical scholarship on educational datafication. Read benefits beside
+    counterevidence about inference validity, homogenization, surveillance,
+    autonomy, relationships, labor, institutional power, and public value.
+  inclusion: >-
+    Reviews or guidance that named educational mechanisms and consequences,
+    stakeholder authority, evidence gaps, or governance duties rather than
+    treating technical capability as educational value by itself.
+  exclusions: >-
+    Product claims, personalization defined only as recommendation accuracy,
+    engagement dashboards without learning outcomes, and ethics checklists
+    detached from who can contest or reverse a consequential decision.
+  limitations: >-
+    The newest ethical-risk review synthesizes a heterogeneous and partly
+    normative literature rather than estimating causal prevalence. The
+    learning-analytics reviews span institutional settings unlike a private,
+    local-first tutor. Critical datafication scholarship diagnoses power well
+    but rarely supplies comparative learning-effect estimates.
+readings:
+  - id: khor-mutthulakshmi-2024-personalized-learning-analytics
+    kind: systematic-review
+    citation: >-
+      Khor, E. T., & Mutthulakshmi, K. (2024). A Systematic Review of the Role of
+      Learning Analytics in Supporting Personalized Learning. Education
+      Sciences, 14(1), 51. https://doi.org/10.3390/educsci14010051
+    url: https://doi.org/10.3390/educsci14010051
+    publication_date: 2023-12-31
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Research on learning analytics used to support personalized learning across educational settings.
+    design: Systematic review of applications, contributions, and challenges.
+    finding: >-
+      The review identifies accuracy of analytics insights, opportunity cost,
+      fairness, and privacy as prominent challenges; privacy and collaborative
+      dimensions receive less attention than technology, software, and subject
+      specificity.
+    limits: >-
+      The full text was not available in this scan, so the note does not infer
+      effect sizes, causal benefits, or detailed subgroup findings from the
+      abstract.
+
+  - id: alfredo-et-al-2024-human-centred-analytics
+    kind: systematic-review
+    citation: >-
+      Alfredo, R., Echeverria, V., Jin, Y., Yan, L., Swiecki, Z., Gašević, D.,
+      & Martinez-Maldonado, R. (2024). Human-centred learning analytics and AI
+      in education: A systematic literature review. Computers and Education:
+      Artificial Intelligence, 6, 100215.
+      https://doi.org/10.1016/j.caeai.2024.100215
+    url: https://doi.org/10.1016/j.caeai.2024.100215
+    publication_date: 2024-02-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: One hundred eight papers on human-centred learning analytics and AIED.
+    design: Systematic review of stakeholder participation, human control, automation, safety, reliability, and trustworthiness.
+    finding: >-
+      Human-centredness requires examining whether affected stakeholders
+      participate in design and how control is divided between people and
+      automation; privacy and agency remain central concerns.
+    limits: >-
+      “Human-centred” is an umbrella with variable operational definitions.
+      Participation can be tokenistic, and nominal human control does not show
+      that someone has the knowledge, time, or power to override a system.
+
+  - id: zhu-sun-yang-2025-responsible-aied
+    kind: systematic-review
+    citation: >-
+      Zhu, H., Sun, Y., & Yang, J. (2025). Towards responsible artificial intelligence in
+      education: a systematic review on identifying and mitigating ethical
+      risks. Humanities and Social Sciences Communications, 12.
+      https://doi.org/10.1057/s41599-025-05252-6
+    url: https://www.nature.com/articles/s41599-025-05252-6
+    publication_date: 2025-06-24
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Seventy-five education and computer-science articles published from January 2019 through June 2024.
+    design: PRISMA-guided systematic review with grounded-theory coding of technological, educational, and societal ethical risks.
+    finding: >-
+      The synthesis extends beyond bias and privacy to homogenized development
+      and teaching, deviation from educational aims, relationship alienation,
+      emotional disruption, digital divides, absent accountability, and
+      conflicts between commercial and educational interests. It specifically
+      warns that recommendation systems can narrow exposure and curtail
+      learner risk-taking under surveillance.
+    limits: >-
+      Counts are mentions in a heterogeneous literature, not incidence or
+      causal effect estimates. Some categories and mitigations inherit the
+      assumptions of the included normative papers, and database and language
+      choices constrain coverage.
+
+  - id: miao-holmes-2023-unesco-genai-guidance
+    kind: international-guidance
+    citation: >-
+      Miao, F., & Holmes, W. (2023). Guidance for Generative AI in Education
+      and Research. UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000386693
+    url: https://unesdoc.unesco.org/ark:/48223/pf0000386693
+    publication_date: 2023-09-07
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Global policy and institutional guidance for education and research.
+    design: Human-centred normative and policy framework.
+    finding: >-
+      The guidance treats data protection, age appropriateness, equity,
+      inclusion, human agency, and pedagogical validation as prior conditions
+      for meaningful adoption rather than downstream patches.
+    limits: >-
+      Guidance is not causal evidence of educational effectiveness; its global
+      scope necessarily leaves legal and institutional implementation local.
+
+  - id: williamson-bayne-shayne-2020-datafication
+    kind: critical-analysis
+    citation: >-
+      Williamson, B., Bayne, S., & Shayne, J. (2020). The datafication of
+      teaching in Higher Education: critical issues and perspectives. Teaching
+      in Higher Education, 25(4), 351-365.
+      https://doi.org/10.1080/13562517.2020.1748811
+    url: https://doi.org/10.1080/13562517.2020.1748811
+    publication_date: 2020-04-07
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Higher-education teaching, analytics, platforms, and policy.
+    design: Critical sociotechnical analysis and field framing.
+    finding: >-
+      Turning educational activity into data redistributes visibility and
+      authority among teachers, institutions, platforms, and commercial
+      actors; it can reproduce historical inequality rather than merely reveal
+      a neutral learning process.
+    limits: >-
+      The argument is interpretive and higher-education-specific. It identifies
+      mechanisms and political stakes but does not establish that every data
+      use has the same effect or that data refusal is costless.
+claims:
+  - id: personalization-is-allocation
+    statement: >-
+      Personalization is an allocation of attention, difficulty, explanation,
+      tradition, surprise, and opportunity—not merely a more accurate match—so
+      its educational justification must name what is shown, what is withheld,
+      whose end governs, and how the learner can alter the allocation.
+    confidence: high
+    source_ids: [khor-mutthulakshmi-2024-personalized-learning-analytics, zhu-sun-yang-2025-responsible-aied]
+    supports: >-
+      Make the current adaptation and its evidence legible; preserve chosen
+      challenge, serendipity, unfamiliar viewpoints, and an easy route to the
+      unpersonalized or differently personalized path.
+    tensions: >-
+      Refusing all adaptation can preserve avoidable barriers and make a
+      nominally common curriculum unequal in practice.
+    boundary_conditions: >-
+      Stakes, learner authority, domain structure, exposure diversity,
+      reversibility, accessibility, and the cost of a mistaken inference.
+    does_not_license: Filter bubbles, permanent tracks, hidden difficulty reduction, inferred interests as destiny, or optimizing return.
+
+  - id: a-learner-model-is-a-contestable-hypothesis
+    statement: >-
+      A learner model is a purpose-bound and fallible hypothesis, not a portrait
+      of the person; local storage can reduce exposure but cannot make an
+      inference valid, proportionate, non-discriminatory, or pedagogically wise.
+    confidence: high
+    source_ids: [alfredo-et-al-2024-human-centred-analytics, zhu-sun-yang-2025-responsible-aied, miao-holmes-2023-unesco-genai-guidance]
+    supports: >-
+      Retain the minimum evidence with provenance, uncertainty, contrary
+      evidence, purpose, and expiry; let the learner inspect, correct, disable,
+      and delete both record and consequence.
+    tensions: >-
+      Minimal longitudinal evidence can make continuity and access support
+      possible, and asking learners to restate everything also imposes costs.
+    boundary_conditions: >-
+      Sensitivity, identifiability, consent quality, downstream consequence,
+      developmental setting, power to refuse, and actual deletion behavior.
+    does_not_license: Emotion detection, protected-trait proxies, personality or learning-style labels, silent cross-context inference, or surveillance because data stay local.
+
+  - id: human-oversight-needs-effective-power
+    statement: >-
+      Human oversight is meaningful only when a responsible person has enough
+      information, competence, time, and authority to inspect, refuse, repair,
+      and answer for the system's consequential act.
+    confidence: medium
+    source_ids: [alfredo-et-al-2024-human-centred-analytics, zhu-sun-yang-2025-responsible-aied]
+    supports: >-
+      Assign decisions and repair routes explicitly; surface uncertainty and
+      provenance at the moment of decision; test whether override works.
+    tensions: >-
+      Automation can reduce routine burden, and requiring manual review of
+      every low-stakes act can create delay and ritualized rubber-stamping.
+    boundary_conditions: >-
+      Decision stakes, reversibility, expertise, workload, institutional
+      incentives, auditability, and whether the affected learner can appeal.
+    does_not_license: A “human in the loop” label, teacher blame for vendor opacity, or delegating responsibility while retaining nominal approval.
+
+  - id: a-medium-must-earn-displacement
+    statement: >-
+      An educational technology should be judged by the learning function it
+      uniquely or unusually enables and by what its use displaces, including
+      learner attention, privacy, human relation, teacher judgment, accessible
+      alternatives, money, labor, and contact with the world.
+    confidence: medium
+    source_ids: [khor-mutthulakshmi-2024-personalized-learning-analytics, zhu-sun-yang-2025-responsible-aied, williamson-bayne-shayne-2020-datafication]
+    supports: >-
+      Compare the tool with a credible lower-cost path and name the payoff,
+      duration, exit, accessibility equivalent, data practice, and repair agent.
+    tensions: >-
+      A new medium's value may initially be hard to measure, and crude
+      efficiency comparisons can erase aesthetic, relational, or emancipatory
+      goods.
+    boundary_conditions: >-
+      Learner purpose, alternative quality, access, social arrangement,
+      environmental and institutional context, and delayed independent use.
+    does_not_license: Technology for novelty, screen-time moralism, efficiency as the educational end, or assuming an offline medium is neutral.
+implications:
+  - Keep adaptations small, visible, reversible, and capable of being contradicted by the next encounter.
+  - Periodically offer an intentionally unpredicted route or wider field so a learner model does not become a curriculum cage.
+  - Treat omission and narrowed exposure as outcomes when evaluating recommendation quality.
+  - >-
+    Ask of a tool: what learning function, for whom, relative to which feasible
+    alternative, at whose cost, under whose control?
+  - Make the learner's right to inspect or delete operational; do not substitute reassuring language for tested behavior.
+  - >-
+    Preserve responsibility: the AI may advise, but it cannot manufacture a
+    competent, empowered human overseer by naming one.
+open_questions:
+  - Which exposure-diversity measures reflect educational plurality without imposing a hidden canon?
+  - How should a learner inspect the consequences of a model without being burdened by a technical dashboard?
+  - What comparative designs capture relation, agency, and opportunity cost alongside performance?
+  - When does an adaptive sequence increase rather than narrow learner-initiated exploration?
+  - How should public educational purposes constrain commercial model and platform incentives?
+next_actions:
+  - Longitudinal comparisons in which personalization broadens later independent exploration and transfer.
+  - Cases where richer learner data are necessary for an access benefit and cannot be replaced by learner-controlled declaration.
+  - Evidence that transparent, contestable recommendation systems avoid homogenization at scale.
+  - Studies separating the value of an AI affordance from extra time, novelty, teacher attention, or implementation support.
+  - >-
+    Revisit on 2026-11-12. Existing Professor rules already establish minimum
+    memory, learner control, equivalent paths, independence, and media
+    accountability. This synthesis supplies a stronger allocation and
+    effective-oversight rationale but does not yet justify duplicating
+    constitutional policy or installing a tack.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
