@@ -1,0 +1,212 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: educational-ends-capabilities-and-formation-2026-08-12
+title: No learning metric can choose the ends of education for us
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [educational-ethics-and-nonideal-judgment, pedagogical-authority-voice-and-non-domination, epistemic-justice-curriculum-and-knowledge-access]
+scope: >-
+  Human capital, capabilities, qualification, socialization, subjectification,
+  Bildung and formation, liberal education, pragmatist inquiry, existential
+  freedom, relational ethics, educational purpose, and plural or colonial critiques.
+method:
+  search_date: 2026-08-12
+  approach: Compared philosophical frameworks by the educational ends they make visible, their account of freedom and relation, and their characteristic danger when treated as a complete theory.
+  inclusion: Primary or close philosophical arguments, education-specific capability work, contemporary decolonial critique, and explicit counterreadings.
+  exclusions: “Whole person” without specified value or authority, economic return as the sole end, and lists of universal virtues treated as neutral.
+  limitations: This is a conceptual map rather than a genealogy or evidence synthesis; terms vary across translations, authors, and traditions and should not be collapsed.
+readings:
+  - id: sen-1999-development-freedom
+    kind: political-and-development-philosophy
+    citation: Sen, A. (1999). Development as Freedom. Oxford University Press.
+    url: https://global.oup.com/academic/product/development-as-freedom-9780198297581
+    publication_date: 1999-09-23
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-metadata-screened
+    population_context: Human development evaluated through substantive freedoms and social arrangements rather than income or utility alone.
+    design: Normative and empirical argument connecting capabilities, agency, institutions, public reasoning, and development.
+    finding: Education matters both for productivity and for what people are substantively free to be and do; resources alone do not reveal conversion into real opportunity.
+    limits: Selecting and measuring capabilities remains politically contested, and individual capability language can understate collective, ecological, and sovereign relations.
+
+  - id: nussbaum-2006-democratic-citizenship
+    kind: political-philosophy-of-education
+    citation: Nussbaum, M. C. (2006). Education and democratic citizenship—Capabilities and quality education. Journal of Human Development, 7(3), 385-395. https://doi.org/10.1080/14649880600815974
+    url: https://doi.org/10.1080/14649880600815974
+    publication_date: 2006-11-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Public education for democratic citizenship and human development.
+    design: Normative capabilities argument for education, critical reasoning, imagination, and democratic life.
+    finding: Educational quality includes capabilities needed for democratic citizenship and relations with others, not only literacy, testing, or economic growth.
+    limits: A universal capabilities list risks external prescription and requires democratic, cultural, disability, and postcolonial contestation.
+
+  - id: biesta-2020-risking-ourselves
+    kind: philosophy-of-education
+    citation: Biesta, G. (2020). Risking ourselves in education—Qualification, socialization, and subjectification revisited. Educational Theory, 70(1), 89-104. https://doi.org/10.1111/edth.12411
+    url: https://doi.org/10.1111/edth.12411
+    publication_date: 2020-06-16
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Education oriented to knowledge and capability, participation in traditions, and existing as a subject of one's own life.
+    design: Philosophical clarification of three domains of educational purpose, with emphasis on freedom and subjectification.
+    finding: The language of learning can hide questions of content, purpose, and relation; education inevitably acts across qualification, socialization, and subjectification in tension.
+    limits: “Grown-up” subjectivity and world-centeredness can be paternalistically interpreted, and the triplet can become a labeling template rather than judgment.
+
+  - id: buzzelli-2015-capabilities-early-education
+    kind: education-theory-application
+    citation: Buzzelli, C. A. (2015). The capabilities approach—Rethinking agency, freedom, and capital in early education. Contemporary Issues in Early Childhood, 16(3), 203-213. https://doi.org/10.1177/1463949115600030
+    url: https://doi.org/10.1177/1463949115600030
+    publication_date: 2015-09-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Early education and assessment interpreted beyond future productivity.
+    design: Conceptual comparison integrating but subordinating human-capital outcomes within capability, agency, and well-being.
+    finding: Equal resources or measured functionings do not show equal substantive opportunity because personal and social conversion conditions differ.
+    limits: Early-childhood application does not transfer directly to voluntary adult learning, and capability evaluation can expand assessment intrusion.
+
+  - id: dewey-1916-experimental-logic
+    kind: primary-pragmatist-philosophy
+    citation: Dewey, J. (1916). Essays in Experimental Logic—An Added Note as to the “Practical.” University of Chicago Press.
+    url: https://brocku.ca/MeadProject/Dewey/Dewey_1916/Dewey_1916_13.html
+    publication_date: 1916-01-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Inquiry, knowledge, practical consequence, and experimental testing under doubt.
+    design: Philosophical clarification against reducing pragmatism to material or immediate utility.
+    finding: Practical consequence tests and clarifies meaning through inquiry; pragmatism does not reduce knowledge to bread-and-butter usefulness.
+    limits: Consequences require a value-laden account of whose experience and horizon count and can be difficult to observe without premature closure.
+
+  - id: biesta-critique-world-centred-2024
+    kind: philosophical-counterreading
+    citation: Säfström, C. A. (2025). Biesta's world-centred education—Subjectification revisited? Journal of Philosophy of Education, 59(2), 274-289. https://doi.org/10.1093/jopedu/qhae042
+    url: https://doi.org/10.1093/jopedu/qhae042
+    publication_date: 2024-08-19
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Debate over subjectification, Bildung, qualification, socialization, and the place of the world in education.
+    design: Philosophical critique of the priority and conceptualization of subjectification.
+    finding: Centering subjectification can underplay Bildung, socialization, qualification, and the already shared world it means to protect.
+    limits: This is an internal philosophical dispute rather than an empirical adjudication.
+
+  - id: bengtsson-phillips-2026-decolonizing-philosophy
+    kind: decolonial-philosophy-counterreading
+    citation: Bengtsson, S., & Phillips, D. C. (2026). Decolonizing philosophy of education—In the shadow of the Enlightenment? Journal of Philosophy of Education. https://doi.org/10.1093/jopedu/qhag018
+    url: https://doi.org/10.1093/jopedu/qhag018
+    publication_date: 2026-07-13
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Philosophy of education confronting Enlightenment, empire, modernity, and decolonial critique.
+    design: Philosophical analysis testing both Eurocentric inheritance and homogenizing depictions of a singular Western Enlightenment.
+    finding: Autonomy, freedom, Bildung, democracy, literacy, reason, and justice carry colonial histories yet require differentiated critique rather than one civilizational essence.
+    limits: Conceptual differentiation can blunt demands for material decolonization if it remains internal to a Western canon.
+
+  - id: robinson-morris-2016-ubuntu
+    kind: relational-philosophy-of-education
+    citation: Robinson-Morris, D. W. (2016). Ubuntu—Rehumanizing education. Curriculum Studies Summer Collaborative.
+    url: https://digitalcommons.georgiasouthern.edu/cssc/2016/2016/58/
+    publication_date: 2016-06-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: U.S. education reconsidered through South African philosophical accounts of ubuntu.
+    design: Cross-traditional philosophical argument centering encounter, recognition, democratic justice, and relational humanity.
+    finding: Education can be understood as deepening relational humanity rather than producing isolated knowledge-acquirers or economic units.
+    limits: Importing ubuntu into U.S. discourse risks abstraction, cultural flattening, harmony rhetoric, and citation without African political and linguistic context.
+claims:
+  - id: learning-is-not-an-end
+    statement: >-
+      “More learning” is incomplete as an educational aim until its content,
+      direction, relation, distribution, and consequences are judged.
+    confidence: high
+    source_ids: [biesta-2020-risking-ourselves, dewey-1916-experimental-logic, nussbaum-2006-democratic-citizenship]
+    supports: State what a lesson may enable and why it is worth enabling; let the learner contest the end and preserve constitutional limits.
+    tensions: Curiosity and receptive encounter need not justify themselves in advance through a formal objective.
+    boundary_conditions: Purpose, content, affected parties, stakes, learner authority, rights, and uncertainty.
+    does_not_license: Bureaucratic objective-writing, instrumentalizing wonder, moralizing every fact, or neutral-content pretense.
+
+  - id: capability-is-real-opportunity
+    statement: >-
+      Possessing a resource or displaying one functioning does not show genuine
+      freedom to choose and achieve a valued way of knowing, acting, or being.
+    confidence: high
+    source_ids: [sen-1999-development-freedom, buzzelli-2015-capabilities-early-education]
+    supports: Attend to conversion conditions—time, language, disability, safety, recognition, tools, money, and social permission—without demanding private disclosure.
+    tensions: Capability measurement can become intrusive and a teacher cannot equalize every social condition within a lesson.
+    boundary_conditions: Resources, conversion, choice, social norm, institution, personal circumstance, and collective provision.
+    does_not_license: Capability profiling, paternalistic lists, inferring unchosen deprivation, or claiming opportunity from resource delivery alone.
+
+  - id: education-acts-in-several-domains
+    statement: >-
+      A lesson can qualify a learner for action, induct them into practices and
+      values, and alter how they exist as an author of judgment; gains in one domain can injure another.
+    confidence: high
+    source_ids: [biesta-2020-risking-ourselves, biesta-critique-world-centred-2024]
+    supports: Check whether efficient skill-building also normalizes dependence, whether belonging suppresses dissent, and whether autonomy rhetoric withholds knowledge.
+    tensions: The three domains overlap and do not yield a calculable balance or exhaustive ontology.
+    boundary_conditions: Domain, institution, tradition, identity, authority, skill, freedom, and social consequence.
+    does_not_license: Three-column lesson bureaucracy, always maximizing subjectification, or dismissing qualification as narrow.
+
+  - id: formation-is-never-culture-free
+    statement: >-
+      Ideals of cultivated humanity, liberal breadth, mature freedom, or a whole
+      person select traditions and forms of life and can encode classed, racialized, gendered, ableist, national, and colonial norms.
+    confidence: high
+    source_ids: [bengtsson-phillips-2026-decolonizing-philosophy, biesta-critique-world-centred-2024, nussbaum-2006-democratic-citizenship]
+    supports: Name the genealogy and exclusions of formation ideals, pluralize authorities, and permit refusal without abandoning access to canonical knowledge.
+    tensions: Historical compromise does not make every ideal empty; self-cultivation, breadth, judgment, and shared inheritance can be emancipatory.
+    boundary_conditions: Canon, institution, empire, class, language, disability, public, learner purpose, and authority.
+    does_not_license: Canon erasure, civilizational binaries, uncritical Bildung, or calling one curriculum universally human.
+
+  - id: freedom-is-relational-and-ambiguous
+    statement: >-
+      Educational freedom is exercised among other people, inherited worlds,
+      material limits, and uncertain consequences—not as unconstrained preference by an isolated chooser.
+    confidence: medium
+    source_ids: [sen-1999-development-freedom, biesta-2020-risking-ourselves, robinson-morris-2016-ubuntu]
+    supports: Combine agency with responsibility, relation, public consequence, and conditions that make choice real; leave existential uncertainty visible.
+    tensions: Relational rhetoric can demand conformity, sacrifice, or compulsory intimacy and can obscure individual rights.
+    boundary_conditions: Dependency, reciprocity, rights, community, material condition, dissent, and affected others.
+    does_not_license: Collectivist coercion, self-optimization, simulated AI reciprocity, or defining mature freedom for the learner.
+
+  - id: pragmatism-is-not-immediate-utility
+    statement: >-
+      Testing an idea by consequences means sustained inquiry into what difference
+      it makes under conditions, not valuing only what is quickly useful, measurable, or profitable.
+    confidence: high
+    source_ids: [dewey-1916-experimental-logic]
+    supports: Let interpretations meet sources, use, surprise, and revision; include aesthetic, conceptual, political, and long-horizon consequences.
+    tensions: Consequence language can remain vague, and truth cannot be reduced to local satisfaction or present success.
+    boundary_conditions: Inquiry community, horizon, evidence, value, affected parties, reproducibility, and revisability.
+    does_not_license: “Whatever works,” engagement metrics, truth by preference, or contempt for theory.
+
+  - id: no-framework-chooses-alone
+    statement: >-
+      Human capital, capabilities, qualification-socialization-subjectification,
+      formation, liberal education, pragmatism, existential freedom, and relational ethics illuminate different goods and risks; none mechanically resolves educational judgment.
+    confidence: high
+    source_ids: [sen-1999-development-freedom, biesta-2020-risking-ourselves, bengtsson-phillips-2026-decolonizing-philosophy, robinson-morris-2016-ubuntu]
+    supports: Use frameworks as questions and counterweights, disclose the chosen end, and seek traditions the frame excludes.
+    tensions: Permanent pluralism can become indecision or conceal a stable liberal meta-framework.
+    boundary_conditions: Stakes, tradition, rights, context, decision authority, affected parties, and available evidence.
+    does_not_license: Eclectic slogans, framework parades before learners, value neutrality, or evading a necessary choice.
+implications:
+  - >-
+    Professor's daily loop should choose a bounded educational good for the day but never turn that good into the learner's standing telos or profile.
+  - >-
+    A philology encounter may serve qualification in source judgment, socialization into scholarly norms, subjectification through independent interpretation, delight, cultural relation, or simple encounter; it need not serve all at once.
+  - >-
+    “Best conceivable teacher” is not a scalar optimization target. Professor should instead remain publicly fallible across plural goods under a constitutional ethical floor.
+  - >-
+    Existing purpose, learner-agency, plural-tradition, access, and evaluation policies carry this map. No philosophical synthesis is installed as doctrine.
+open_questions:
+  - How should Professor choose a daily good without inferring a stable conception of the learner's flourishing?
+  - Which non-Western philosophical traditions should next enter on their own terms rather than as relational correctives to European categories?
+  - When does capability-support become paternalistic anticipation of barriers the learner did not report?
+  - How can lesson review notice socialization into Professor's own voice and habits?
+next_actions:
+  - Study Confucian, Buddhist, Islamic, African, Latin American, feminist, and Indigenous philosophies of education through tradition-grounded scholarship.
+  - Audit Professor's metrics and language for human-capital or self-optimization defaults.
+  - Keep philosophical lenses in teacher preparation unless naming one helps the learner understand the live object or choice.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
