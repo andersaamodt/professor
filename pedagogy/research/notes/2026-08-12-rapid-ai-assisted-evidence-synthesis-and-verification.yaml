@@ -1,0 +1,166 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: rapid-ai-assisted-evidence-synthesis-and-verification-2026-08-12
+title: Rapid AI-assisted scholarship is reconnaissance until its sources, shortcuts, and inference chain are independently checkable
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise, educational-ethics-and-nonideal-judgment, technology-datafication-personalization-and-public-value]
+scope: Rapid reviews, scoping and evidence maps, living reviews, AI-assisted discovery and drafting, citation hallucination, source resolution, duplicate screening, reading depth, confidence, update triggers, and promotion boundaries.
+method:
+  search_date: 2026-08-12
+  approach: Compared Cochrane rapid- and living-review guidance, systematic studies of evidence maps, recent research on fabricated citations, and the observed error pattern in Professor's four-hour intensive study.
+  inclusion: Sources distinguishing mapping from synthesis, time-saving shortcuts, screening and extraction verification, bibliographic identity, source existence, reading depth, certainty, updating, and decision consequence.
+  exclusions: Citation count as quality, link resolution as truth, AI fluency as verification, a broad map as a systematic review, “human in the loop” without a defined check, and continuous updating without priority or stopping rules.
+  limitations: Much methods evidence comes from health synthesis; recent AI-citation studies are preprints and their detectors can err; this corpus's self-audit is one case and cannot estimate a general error rate.
+readings:
+  - id: garritty-et-al-2024-cochrane-rapid
+    kind: methods-guidance-update
+    citation: Garritty, C., et al. (2024). Updated recommendations for the Cochrane rapid review methods guidance for rapid reviews of effectiveness. BMJ, 384, e076335. https://doi.org/10.1136/bmj-2023-076335
+    url: https://doi.org/10.1136/bmj-2023-076335
+    publication_date: 2024-02-06
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Teams conducting resource-efficient evidence syntheses for urgent and high-priority effectiveness questions.
+    design: Evidence-informed methods guidance update covering question refinement, search, screening, extraction, risk of bias, synthesis, and certainty.
+    finding: Rapid review is a systematic but streamlined synthesis; shortcuts should be selected and reported deliberately, and certainty and summary-of-findings judgments remain necessary.
+    limits: Effectiveness and health focus, evidence for some shortcuts remains limited, and guidance does not validate an extremely broad single-reviewer scan.
+
+  - id: nussbaumer-streit-et-al-2023-rapid-selection
+    kind: methods-guidance
+    citation: Nussbaumer-Streit, B., et al. (2023). Rapid reviews methods series—Guidance on team considerations, study selection, data extraction and risk of bias assessment. BMJ Evidence-Based Medicine. https://pmc.ncbi.nlm.nih.gov/articles/PMC10715469/
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10715469/
+    publication_date: 2023-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Rapid-review teams deciding where and how to abbreviate duplicate study selection, extraction, and appraisal.
+    design: Methods-series guidance based on methodological research and expert consensus.
+    finding: Single-reviewer shortcuts increase error and bias risks; calibrated second-person checking and piloting can preserve speed while targeting consequential decisions.
+    limits: Team workflows do not map directly onto a single AI agent; independence requires more than repeated passes by the same model and prompt lineage.
+
+  - id: eldridge-et-al-2024-evidence-gap-maps
+    kind: systematic-methods-review
+    citation: Eldridge, S., et al. (2024). What are the methodological characteristics of evidence and gap maps? A systematic review and evidence and gap map. Campbell Systematic Reviews. https://pmc.ncbi.nlm.nih.gov/articles/PMC11795909/
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11795909/
+    publication_date: 2024-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Published evidence and gap maps across policy and research domains.
+    design: Systematic review coding protocols, searches, appraisal, visualization, stakeholder involvement, gap identification, and updating.
+    finding: Evidence maps systematically characterize broad research landscapes and can seed focused synthesis, but methods and reporting vary and an apparent gap may be a map artifact.
+    limits: Maps privilege codable published research; cells and counts do not establish effect, quality, importance, or absence of community-held knowledge.
+
+  - id: living-review-methods-2023
+    kind: scoping-review
+    citation: Akl, E. A., et al. (2023). Methods and guidance on conducting, reporting, publishing, and appraising living systematic reviews—A scoping review. Journal of Clinical Epidemiology. https://pmc.ncbi.nlm.nih.gov/articles/PMC10722674/
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10722674/
+    publication_date: 2023-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Guidance documents and methods for continuously surveilled and updated systematic reviews.
+    design: Scoping review of living-review conduct, reporting, appraisal, update frequency, and lifecycle decisions.
+    finding: Living mode needs an explicit protocol, surveillance process, update trigger, publication history, and criteria for entering and leaving living status.
+    limits: Guidance is heterogeneous and health-centered; continual update can consume scarce review capacity without changing decisions.
+
+  - id: korda-et-al-2020-living-approaches
+    kind: methods-review
+    citation: Korda, R. J., et al. (2020). Living systematic reviews and other approaches for updating evidence. Journal of Clinical Epidemiology. https://pmc.ncbi.nlm.nih.gov/articles/PMC7542271/
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7542271/
+    publication_date: 2020-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: High-priority questions in fast-moving fields where new evidence may change conclusions.
+    design: Review and comparison of living and periodic evidence-update approaches.
+    finding: Living review is justified when the question matters to decisions, evidence changes often, and new evidence could alter conclusions enough to warrant ongoing resources.
+    limits: A living label does not guarantee timely incorporation, adequate appraisal, stakeholder use, or maintenance funding.
+
+  - id: gao-et-al-2026-nonexistent-citations
+    kind: large-scale-bibliometric-preprint
+    citation: Gao, Y., et al. (2026). LLM hallucinations in the wild—Large-scale evidence from non-existent citations. arXiv. https://arxiv.org/abs/2605.07723
+    url: https://arxiv.org/abs/2605.07723
+    publication_date: 2026-05-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Scholarly documents examined for plausible but nonexistent citations and attribution patterns associated with LLM generation.
+    design: Large-scale bibliometric and detection study of identity-level citation failures.
+    finding: Fabricated references are appearing in published knowledge production and may redistribute erroneous credit toward already prominent scholars.
+    limits: Preprint; detection precision, causal attribution to AI, corpus sampling, false positives, and extrapolation require independent scrutiny.
+
+  - id: professor-intensive-audit-2026
+    kind: internal-case-audit
+    citation: Professor repository. (2026). Intensive study coverage and claim audit. Internal working research note.
+    url: https://github.com/andersaamodt/professor/blob/main/pedagogy/research/notes/2026-08-12-intensive-study-coverage-and-claim-audit.yaml
+    publication_date: 2026-08-12
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Eighty public research notes and 515 reading records produced during one bounded four-hour AI-assisted study.
+    design: Structured count, duplicate-ID analysis, DOI-resolution scan, manual anomaly follow-up, confidence-versus-reading-depth audit, validation, and correction commits.
+    finding: Bibliographic follow-up corrected eleven substantive metadata errors, including plausible splices of real authors, titles, journals, and identifiers; 19 shallow-source empirical claims were downgraded from high to moderate confidence.
+    limits: Same-agent self-audit, targeted rather than exhaustive bibliographic checking, no independent reviewer, no estimate of undetected error, and repository tests do not verify scholarship.
+contradictions:
+  - Rapid synthesis can make time-sensitive evidence usable, yet every omitted search route, duplicate check, full-text read, and appraisal narrows what the conclusion can responsibly say.
+  - AI can expand vocabulary, discover adjacent traditions, structure comparison, and check identifiers quickly, yet it can also splice real bibliographic fragments into unusually plausible false records.
+  - A living corpus can invite correction and avoid stale finality, yet maintenance can become indefinite accumulation whose volume discourages rereading and deletion.
+  - Evidence maps expose clusters and gaps, yet the map's ontology, searchable languages, databases, access, and coding choices partly manufacture both.
+claims:
+  - claim: A four-hour multidisciplinary scan is an evidence map and hypothesis generator, not an exhaustive review or credential.
+    evidence: methods-and-case-synthesis
+    confidence: high
+    source_ids: [garritty-et-al-2024-cochrane-rapid, eldridge-et-al-2024-evidence-gap-maps, professor-intensive-audit-2026]
+    supports: Name purpose, scope, routes, exclusions, date, depth, shortcuts, counts, contradictions, and unresolved gaps; reserve effect and practice conclusions for bounded later syntheses.
+    tensions: A map can still yield decisive corrections and ethical boundaries, and some learner-facing choices need proportionate judgment before a formal review exists.
+    boundary_conditions: Breadth, time, reviewer count, database access, languages, claim type, stakes, and decision reversibility.
+    does_not_license: Calling the field studied exhaustively, treating every record as equal evidence, refusing all action, or hiding behind “preliminary” after a clear correction.
+
+  - claim: Citation verification must establish bibliographic identity before a source is allowed to support a claim.
+    evidence: case-and-emerging-bibliometric-synthesis
+    confidence: high
+    source_ids: [gao-et-al-2026-nonexistent-citations, professor-intensive-audit-2026]
+    supports: Resolve DOI or stable record; compare title, authors, venue, year, volume, pages or article number; follow anomalies manually; preserve alternate editions explicitly; then inspect content at the declared depth.
+    tensions: Valid older, community, archival, and noncommercial sources may lack persistent identifiers; automated resolvers can block clients or return misleading codes.
+    boundary_conditions: Source genre, publication state, identifier infrastructure, language, access, citation consequence, and community protocol.
+    does_not_license: Deleting non-DOI knowledge, trusting a successful HTTP response as content verification, accepting search snippets as final metadata, or assuming unchecked references are sound.
+
+  - claim: Confidence labels should be auditable against reading depth, method, independence, counterevidence, and whether the claim is empirical, interpretive, or normative.
+    evidence: methods-and-case-synthesis
+    confidence: high
+    source_ids: [garritty-et-al-2024-cochrane-rapid, nussbaumer-streit-et-al-2023-rapid-selection, professor-intensive-audit-2026]
+    supports: Flag high-confidence claims whose cited trail is abstract-only; downgrade empirical claims, deepen reading, add independent sources, or state the separate ethical warrant rather than letting confidence float free.
+    tensions: Reading level is not comprehension; a full text may be poor evidence, and some rights-based constraints do not wait for experimental certainty.
+    boundary_conditions: Claim type, consequence, source quality, convergence, constitutional status, affected authority, and reversibility.
+    does_not_license: Mechanical confidence scoring, ranking knowledge traditions by experimental design, or disguising a value commitment as a meta-analytic result.
+
+  - claim: Independent checking should target the steps most likely to alter inclusion, extraction, attribution, confidence, or action.
+    evidence: methods-guidance-synthesis
+    confidence: high
+    source_ids: [nussbaumer-streit-et-al-2023-rapid-selection, professor-intensive-audit-2026]
+    supports: Pilot criteria; duplicate a sample and every high-consequence decision; compare disagreements; verify decisive quotations, effect directions, corrections, and source identities; retain an audit trail.
+    tensions: A second reviewer can share the same database, cultural frame, and error; universal duplication consumes time that could deepen one decisive source.
+    boundary_conditions: Stakes, error prevalence, reviewer independence, task complexity, volume, time, and auditability.
+    does_not_license: “Human in the loop” theater, same-prompt repetition as independence, majority vote as truth, or unpaid affected-person review.
+
+  - claim: A living research agenda needs update and retirement triggers, not a standing obligation to accumulate.
+    evidence: living-review-methods-synthesis
+    confidence: high
+    source_ids: [living-review-methods-2023, korda-et-al-2020-living-approaches]
+    supports: Keep a question living only when it remains decision-relevant, evidence changes, conclusions may change, and maintenance is resourced; version changes, supersede duplicates, retire umbrellas, and record no-change decisions.
+    tensions: Slow traditions and neglected questions may remain important without frequent publications; retirement can hide unresolved injustice.
+    boundary_conditions: Decision importance, evidence velocity, uncertainty, maintenance capacity, user need, source community, and change threshold.
+    does_not_license: Recency bias, deletion of historical lineage, automatic monthly summaries, curriculum accretion, or declaring a question solved because updating is burdensome.
+implications:
+  - Professor research should declare its product type—scan, map, rapid review, deep reading, synthesis, or audit—and keep learner-facing certainty within that product's warrant.
+  - Add automated duplicate and identifier anomaly checks to future research validation only as warnings; manual or independently sourced resolution remains necessary.
+  - Before any promotion, require a source-identity pass, decisive-source rereading, shallow-confidence audit, counterevidence search, and an independent review proportionate to consequence.
+  - Prefer fewer maintained claims over repeated near-synonyms; a quarterly synthesis should supersede or prune rather than concatenate.
+  - A daily professor should use research beside teaching and offer a small live encounter first; it should not unload its scholarly backlog onto the learner.
+open_questions:
+  - Which automated bibliographic checks have acceptable false-positive and false-negative rates across books, chapters, archives, multilingual sources, and Indigenous community publications?
+  - How much independent checking is enough for a reversible daily lesson, a bundled curriculum, a policy change, and a high-stakes recommendation?
+  - Can claim-level lineage and supersession reduce repeated notes without creating an opaque knowledge graph?
+next_actions:
+  - Add bibliographic anomaly and high-confidence-shallow-source audits as proposed tooling, but do not make them hard gates until false alarms and non-DOI exclusions are tested.
+  - Use the next research cycle for independent bibliographic and claim replication rather than another breadth marathon.
+  - Revisit the research agenda's update cadence and retirement logic at quarterly synthesis.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
