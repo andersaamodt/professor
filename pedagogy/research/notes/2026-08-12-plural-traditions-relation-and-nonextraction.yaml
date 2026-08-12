@@ -115,14 +115,14 @@ readings:
       The collective account is situated in Aotearoa and does not authorize an
       AI to imitate Pacific relation, speech, or community membership.
 
-  - id: torres-carrillo-2013-popular-education
+  - id: bruno-jofre-2016-popular-education
     kind: historical-conceptual-mapping
     citation: >-
-      Torres Carrillo, A. (2013). Popular education in Latin America in the
+      Bruno-Jofré, R. (2016). Popular education in Latin America in the
       1970s and 1980s: Mapping its political and pedagogical meanings. Foro de
-      Educación, 11(15), 429-451. https://doi.org/10.14516/fde.2013.011.015.019
-    url: https://doi.org/10.14516/fde.2013.011.015.019
-    publication_date: 2013-01-01
+      Educación, 14(20), 429-451. https://forodeeducacion.com/ojs/index.php/fde/article/view/233
+    url: https://forodeeducacion.com/ojs/index.php/fde/article/view/233
+    publication_date: 2016-01-01
     accessed_on: 2026-08-12
     reading_level: partially-read
     population_context: Latin American popular-education movements, organizations, political cultures, and debates in the 1970s and 1980s.
@@ -203,7 +203,7 @@ claims:
       politically organized, textually answerable, territorially embedded, or
       cultivating wisdom; no one model is the silent neutral baseline.
     confidence: high
-    source_ids: [molefe-2025-african-philosophy-education, vaioleti-2006-talanoa, torres-carrillo-2013-popular-education, matsuda-2022-saicho-education]
+    source_ids: [molefe-2025-african-philosophy-education, vaioleti-2006-talanoa, bruno-jofre-2016-popular-education, matsuda-2022-saicho-education]
     supports: >-
       Name the account of person and good implicit in a pedagogical proposal and
       ask whose authority, history, and future make that account legitimate.
@@ -219,7 +219,7 @@ claims:
       ordinary conversation differ in participants, texts, histories, ends,
       authority, obligations, and conditions; “dialogue” names no single method.
     confidence: high
-    source_ids: [vaioleti-2006-talanoa, kent-2010-havruta, torres-carrillo-2013-popular-education]
+    source_ids: [vaioleti-2006-talanoa, kent-2010-havruta, bruno-jofre-2016-popular-education]
     supports: >-
       Describe the actual relation and moves—who speaks, listens, interprets,
       refuses, decides, benefits, and remains answerable—without borrowing a

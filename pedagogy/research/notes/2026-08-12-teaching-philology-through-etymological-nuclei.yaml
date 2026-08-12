@@ -100,16 +100,16 @@ readings:
       rather than a complete typology or a method for proving every proposed
       reanalysis.
 
-  - id: denham-lobeck-2023-etymology-morphology
+  - id: plackowski-2023-etymology-morphology
     kind: pedagogical-chapter
     citation: >-
-      Denham, K., & Lobeck, A. (2023). A Linguistic Approach to Vocabulary
+      Plackowski, A. (2023). A Linguistic Approach to Vocabulary
       Instruction: Using Etymology and Morphology to Learn Vocabulary, Improve
       Writing, and Read the World. In Theoretical Linguistics in the
-      Pre-University Classroom. British Academy.
-      https://doi.org/10.5871/bacad/9780197267472.003.0008
-    url: https://doi.org/10.5871/bacad/9780197267472.003.0008
-    publication_date: 2023-01-01
+      Pre-University Classroom (pp. 163-176). British Academy.
+      https://doi.org/10.5871/bacad/9780197267479.003.0010
+    url: https://doi.org/10.5871/bacad/9780197267479.003.0010
+    publication_date: 2023-07-06
     accessed_on: 2026-08-12
     reading_level: abstract-screened
     population_context: Pre-university vocabulary, writing, language variation, prescriptivism, and antiracist linguistic education.
@@ -274,7 +274,7 @@ claims:
       encounters if each return adds a distinct philological capability and
       remains corrigible by linguistic and textual evidence.
     confidence: medium
-    source_ids: [denham-lobeck-2023-etymology-morphology, warnow-ringe-taylor-1996-comparative-method, castano-adiego-2014-folk-etymology]
+    source_ids: [plackowski-2023-etymology-morphology, warnow-ringe-taylor-1996-comparative-method, castano-adiego-2014-folk-etymology]
     supports: >-
       Spiral from noticing to attestation, morphology, sound correspondence,
       semantic change, borrowing, textual interpretation, social history, and
