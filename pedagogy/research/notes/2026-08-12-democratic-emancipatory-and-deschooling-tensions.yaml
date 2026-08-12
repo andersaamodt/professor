@@ -1,0 +1,189 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: democratic-emancipatory-and-deschooling-tensions-2026-08-12
+title: Education for freedom can itself become a service that teaches dependence
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [critical-pedagogies-dialogue-power-and-refusal, pedagogical-authority-voice-and-non-domination, educational-ethics-and-nonideal-judgment]
+scope: >-
+  Democratic education, experience, public life, anarchist education,
+  deschooling, learning webs, intellectual emancipation, student voice,
+  explication, structure, expertise, public provision, and AI-professor dependence.
+method:
+  search_date: 2026-08-12
+  approach: Read primary philosophical texts against contemporary reviews of autonomy-with-structure, democratic competence, and student voice, seeking tensions rather than one emancipatory formula.
+  inclusion: Dewey, Illich, Ferrer, Rancière scholarship, and systematic reviews addressing participation, autonomy, equality, or democratic outcomes.
+  exclusions: School abolition as a slogan, choice markets equated with democracy, “voice” without decision rights, and self-direction assumed to remove structural inequality.
+  limitations: The canonical texts arise from different eras and political projects; contemporary reviews operationalize only parts of their democratic aims.
+readings:
+  - id: dewey-1916-democracy-education
+    kind: primary-educational-philosophy
+    citation: Dewey, J. (1916). Democracy and Education—An Introduction to the Philosophy of Education.
+    url: https://www.gutenberg.org/files/852/852-h/852-h.htm
+    publication_date: 1916-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Education as communication, growth, experience, occupation, inquiry, and democratic social continuity.
+    design: Philosophical reconstruction of educational aims, method, subject matter, work, play, science, and democracy.
+    finding: Educative experience joins genuine activity and a real problem with needed information, observation, proposed solutions, and consequences tested in action; democracy is a mode of associated life.
+    limits: Dewey's universal voice and social-organism language can understate domination, conflict, colonialism, and who sets the shared world.
+
+  - id: illich-1971-deschooling
+    kind: primary-radical-institutional-critique
+    citation: Illich, I. (1971). Deschooling Society. Harper & Row.
+    url: https://www.davidtinapple.com/illich/1970_deschooling.html
+    publication_date: 1971-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Credentialed mass schooling and professionalized service institutions in industrial societies.
+    design: Polemical social and institutional critique with proposals for learning-resource, skill-exchange, peer-matching, and educator networks.
+    finding: Schooling can teach people to confuse instruction with learning, grades with education, diplomas with competence, and consumption of professional service with need fulfillment.
+    limits: Learning webs can reproduce unequal time, safety, status, network, disability access, and resource ownership; public schools also supply rights and social provision.
+
+  - id: ferrer-1913-modern-school
+    kind: primary-anarchist-educational-text
+    citation: Ferrer, F. (1913). The Origin and Ideals of the Modern School. Translated by Joseph McCabe.
+    url: https://theanarchistlibrary.org/library/francisco-ferrer-the-origin-and-ideals-of-the-modern-school
+    publication_date: 1913-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Secular, coeducational, rationalist schooling developed against clerical and state authority in Spain.
+    design: Political and autobiographical account of the Escuela Moderna's aims, curriculum, organization, and repression.
+    finding: Antiauthoritarian schooling can be institution-building rather than abandonment, joining freedom from dogma with access to inquiry and material educational practice.
+    limits: Ferrer's rationalism can substitute its own developmental and scientific authority, and historical practices require critical gender, colonial, and class reading.
+
+  - id: ranciere-1991-ignorant-schoolmaster
+    kind: political-philosophy-of-pedagogy
+    citation: Rancière, J. (1991). The Ignorant Schoolmaster—Five Lessons in Intellectual Emancipation. Translated by Kristin Ross. Stanford University Press.
+    url: https://www.sup.org/books/sociology/ignorant-schoolmaster
+    publication_date: 1991-08-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-metadata-screened
+    population_context: Joseph Jacotot's universal teaching and a critique of explication as enacted inequality.
+    design: Philosophical narration and critique organized around the axiom of equal intelligence.
+    finding: Teaching can demand attention, search, verification, and independent use of intelligence without explaining from a presumed hierarchy of minds.
+    limits: Equality of intelligence is an emancipatory axiom, not evidence that prior knowledge, expertise, disability, language access, or material support never matter.
+
+  - id: schaefer-et-al-2026-student-voice
+    kind: systematic-review
+    citation: Schaefer, M. B., Pennington, S. E., Divoll, K., & Tang, J. H. (2026). A systematic review of literature on student voice and agency in middle grade contexts.
+    url: https://educationalreform.org.au/resource-hub/a-systematic-review-of-literature-on-student-voice-and-agency-in-middle-grade-contexts/
+    publication_date: 2026-03-24
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 37 empirical studies from 2015-2024 in middle-grade settings.
+    design: PRISMA-guided systematic review of voice, feedback, partnership, participatory research, and decision-making.
+    finding: Student voice is inconsistently defined and participation is commonly consultative rather than transformative; invitation to speak does not establish shared power.
+    limits: Middle-grade formal schooling differs from voluntary adult AI teaching; review classifications remain interpretive.
+
+  - id: guay-et-al-2025-autonomy-structure
+    kind: systematic-review-and-meta-analysis
+    citation: Guay, F., et al. (2025). Blending teacher autonomy support and provision of structure in the classroom for optimal motivation—A systematic review and meta-analysis. Educational Psychology Review, 37. https://doi.org/10.1007/s10648-025-09994-2
+    url: https://doi.org/10.1007/s10648-025-09994-2
+    publication_date: 2025-03-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: 94 studies and 110 effects on teacher autonomy support, structure, motivation, and learning.
+    design: PRISMA systematic review and meta-analysis integrating definitions and associations.
+    finding: Autonomy support and clear competence-supporting structure are compatible and often jointly beneficial rather than opposite instructional poles.
+    limits: Predominantly correlational measures and construct overlap complicate causal and cultural interpretation.
+
+  - id: lindberg-et-al-2026-democracy-review
+    kind: systematic-scoping-review
+    citation: Lindberg, S. I., et al. (2026). Education for democracy—A review of studies examining effects on levels and distributions of democratic competences. Educational Research Review, 51, 100792.
+    url: https://doi.org/10.1016/j.edurev.2026.100792
+    publication_date: 2026-04-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: 359 empirical studies from 2001-2024 across curriculum, pedagogy, school ethos, training, assessment, attainment, and systems.
+    design: PRISMA-scoping review mapping evidence on democratic competences and their distribution.
+    finding: Democratic education is multidimensional; some system arrangements may show little overall benefit while widening inequality, so average competence and distribution must both be examined.
+    limits: The review maps heterogeneous evidence and English-language publications rather than grading causal credibility for each philosophical claim.
+claims:
+  - id: democracy-is-enacted-in-the-learning-relation
+    statement: >-
+      Education for democracy is not only civic content; who frames problems,
+      speaks, verifies, decides, dissents, and bears consequences teaches a form of associated life.
+    confidence: high
+    source_ids: [dewey-1916-democracy-education, schaefer-et-al-2026-student-voice, lindberg-et-al-2026-democracy-review]
+    supports: Give learner input a named decision scope, expose Professor's authority, accept correction and refusal, and judge distributive consequences as well as averages.
+    tensions: Not every factual or safety decision can be plebiscitary, and one learner may reasonably delegate routine choices.
+    boundary_conditions: Stakes, expertise, rights, affected parties, decision scope, representation, accountability, and appeal.
+    does_not_license: Consultation theater, false equivalence, endless process, or teacher abdication.
+
+  - id: freedom-needs-resources-and-structure
+    statement: >-
+      The freedom to learn requires accessible objects, time, information,
+      competent support, safe association, and enough structure to make independent action possible.
+    confidence: high
+    source_ids: [dewey-1916-democracy-education, illich-1971-deschooling, guay-et-al-2025-autonomy-structure]
+    supports: Offer a small menu and clear route, make resources inspectable, and allow the learner to reshape or leave it without losing access.
+    tensions: Structure can become surveillance or hidden compulsion; abundance can overwhelm and professional support can manufacture dependence.
+    boundary_conditions: Prior knowledge, disability, time, safety, material access, clarity, choice, and reversibility.
+    does_not_license: Abandonment named self-direction, rigid sequencing, choice overload, or compulsory participation.
+
+  - id: explication-can-produce-dependence
+    statement: >-
+      Explanation may help, but a system that always makes the teacher the route
+      from mystery to intelligibility can teach the learner to await authorized interpretation.
+    confidence: medium
+    source_ids: [ranciere-1991-ignorant-schoolmaster, illich-1971-deschooling]
+    supports: Sometimes present the common object and verification route first; let the learner's intelligence operate before adding explanation and return authority to sources and tests.
+    tensions: Withholding a concise explanation can waste time, enact dominance, or deny access; expertise is not identical to superiority of intelligence.
+    boundary_conditions: Learner request, stakes, background, source access, time, confusion, and cost of error.
+    does_not_license: Socratic withholding, celebrating ignorance, refusing direct answers, or pretending the model lacks influence.
+
+  - id: credentials-and-fluency-are-not-capability
+    statement: >-
+      Institutional status, grade progression, and fluent performance can be
+      weak or confounded evidence of independent capability and judgment.
+    confidence: high
+    source_ids: [illich-1971-deschooling, ranciere-1991-ignorant-schoolmaster]
+    supports: Test the actual bounded capability when needed, distinguish assistance and authorship, and avoid using Professor's title or prose as self-validating expertise.
+    tensions: Credentials and institutions can protect standards, portability, public accountability, and access to professions when validly governed.
+    boundary_conditions: Construct, assessment, assistance, institution, stakes, public trust, and alternative evidence.
+    does_not_license: Anti-expertise, fraudulent credentialing, dismissing hard-won qualification, or replacing public standards with platform reputation.
+
+  - id: deschooling-can-privatize-inequality
+    statement: >-
+      Decentralized learning networks can weaken coercive monopolies while also
+      shifting educational provision onto unequal families, markets, volunteers, platforms, and social networks.
+    confidence: high
+    source_ids: [illich-1971-deschooling, ferrer-1913-modern-school, lindberg-et-al-2026-democracy-review]
+    supports: Preserve the voluntary, convivial, peer-matching insight while defending public provision, access, safeguarding, redistribution, and accountable institutions.
+    tensions: Public systems themselves can segregate, credentialize, dominate, and exclude; institution-building need not mean current schooling.
+    boundary_conditions: Age, wealth, disability, geography, family capacity, safety, public funding, network position, and platform ownership.
+    does_not_license: School abolition as an AI product pitch, compulsory schooling as inherently just, or market choice equated with freedom.
+
+  - id: professor-should-make-itself-less-necessary
+    statement: >-
+      A daily AI teacher should expand direct relations to texts, languages,
+      people, tools, and independent inquiry rather than become the permanent interpreter of a curated world.
+    confidence: high
+    source_ids: [illich-1971-deschooling, ranciere-1991-ignorant-schoolmaster, dewey-1916-democracy-education]
+    supports: Cite inspectable sources, teach verification moves, suggest human and communal routes, welcome days without Professor, and prune response obligations.
+    tensions: Continuity, curation, conversation, and trusted assistance can sustain study; disappearance is not the sole measure of good teaching.
+    boundary_conditions: Learner purpose, access, dependence signals, source availability, safety, continuity, and requested relationship.
+    does_not_license: Premature withdrawal, performative self-erasure, denying companionship, or measuring success by reduced use alone.
+implications:
+  - >-
+    The daily wake-up should offer a compact object or a few genuinely different routes, not command a ritual response or imply that showing up proves learning.
+  - >-
+    Lesson-plan management should delete plans whose only rationale is maintaining engagement with Professor and preserve routes that open outward into sources and practices.
+  - >-
+    Learner voice is consequential only when it can change something; Professor should state the scope when asking preference or consent.
+  - >-
+    Existing agency, clean-exit, direct-answer, authority, and non-domination rules carry these conclusions. No doctrinal “deschooling” tack is earned.
+open_questions:
+  - What would count as an AI professor manufacturing a need that its own service then satisfies?
+  - How can a one-person daily practice sustain democratic relation without simulating a public or collective that is absent?
+  - Which knowledge and safety institutions should Professor actively direct the learner toward rather than disintermediate?
+  - How should equal-intelligence commitment coexist with candid differences in knowledge, capacity, and responsibility?
+next_actions:
+  - Audit the daily core loop for engagement-seeking, dependency, credential simulation, and empty preference elicitation.
+  - Study vocational and workplace learning, where real participation can educate and exploit simultaneously.
+  - Study philosophical traditions of Bildung, liberal education, pragmatism, capabilities, and existential choice without forcing synthesis.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
