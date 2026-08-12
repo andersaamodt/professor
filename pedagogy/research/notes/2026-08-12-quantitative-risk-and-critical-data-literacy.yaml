@@ -1,0 +1,168 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: quantitative-risk-and-critical-data-literacy-2026-08-12
+title: Quantitative literacy joins representation, uncertainty, causal structure, decision, and data power
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [epistemic-justice-curriculum-and-knowledge-access, teacher-knowledge-noticing-and-adaptive-expertise, technology-datafication-personalization-and-public-value, durable-memory-transfer-and-calibration]
+scope: Statistical and data literacy, absolute and relative risk, denominators, Bayesian reasoning, p-values, uncertainty, effect size, graph comprehension, causal language, critical data literacy, data production, missingness, and public decision.
+method:
+  search_date: 2026-08-12
+  approach: Compared experimental representation research and counterevidence, risk-communication synthesis, statistical professional guidance, graph-comprehension review, causal-language classroom research, and constructionist critical-data-literacy scholarship.
+  inclusion: Sources connecting representation to understanding, statistical output to warranted claim, data to sociotechnical production, or numerical evidence to a decision.
+  exclusions: Formula performance as literacy, p-value thresholds as conclusions, correlation slogans, charts as self-explanatory, datasets as raw reality, and critique without quantitative access.
+  limitations: Many studies use brief decontextualized tasks; data-literacy definitions and assessments vary; critical approaches have fewer comparative outcome studies; no single format is universally clearest.
+readings:
+  - id: zipkin-et-al-2014-risk-communication
+    kind: systematic-review
+    citation: Zipkin, D. A., et al. (2014). Evidence-based risk communication—A systematic review. Annals of Internal Medicine, 161(4), 270-280. https://doi.org/10.7326/M14-0295
+    url: https://pubmed.ncbi.nlm.nih.gov/25133362/
+    publication_date: 2014-08-19
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Patients and healthy volunteers receiving alternative presentations of probabilistic health information.
+    design: Systematic review of prospective and cross-sectional comparative studies.
+    finding: Absolute-risk presentations generally supported more accurate understanding and influenced treatment acceptance less than relative-risk presentations; frequency-versus-percentage results were inconclusive.
+    limits: Heterogeneous tasks and outcomes, health-specific settings, and comprehension does not determine the value-sensitive choice a person should make.
+
+  - id: hoffrage-et-al-2015-natural-frequencies
+    kind: experimental-study
+    citation: Hoffrage, U., Krauss, S., Martignon, L., & Gigerenzer, G. (2015). Natural frequencies improve Bayesian reasoning in simple and complex inference tasks. Frontiers in Psychology, 6, 1473. https://doi.org/10.3389/fpsyg.2015.01473
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4604268/
+    publication_date: 2015-10-06
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Medical students solving diagnostic Bayesian inference tasks of varying complexity.
+    design: Experiments comparing natural-frequency and probability formats across hypotheses and cues.
+    finding: Frequency formats substantially increased correct Bayesian inferences in these tasks.
+    limits: Constructed problems, selected scoring, trained population, and format effects may depend on nested sets, wording, numeracy, visual aid, and demanded response.
+
+  - id: binder-et-al-2018-frequency-counterevidence
+    kind: experimental-counterevidence
+    citation: Binder, K., et al. (2018). Natural frequency trees improve diagnostic efficiency in Bayesian reasoning. Advances in Health Sciences Education, 23, 867-889. https://doi.org/10.1007/s10459-018-9840-6
+    url: https://doi.org/10.1007/s10459-018-9840-6
+    publication_date: 2018-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Learners interpreting diagnostic information with frequency-tree support.
+    design: Comparative instructional research on representation and Bayesian diagnostic reasoning.
+    finding: Structured frequency trees can improve accuracy and efficiency beyond prose-only representations.
+    limits: The representation supplies part of the set structure; transfer to self-generated diagrams and real clinical uncertainty remains uncertain.
+
+  - id: mcDowell-jacobs-2017-natural-frequency-challenge
+    kind: experimental-counterevidence
+    citation: McDowell, M., & Jacobs, P. (2017). Meta-analysis of the effect of natural frequencies on Bayesian reasoning. Psychological Bulletin, 143(12), 1273-1312. https://doi.org/10.1037/bul0000126
+    url: https://doi.org/10.1037/bul0000126
+    publication_date: 2017-12-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Bayesian reasoning studies comparing natural frequencies with probability formats.
+    design: Meta-analysis examining representation features and moderators.
+    finding: Natural frequencies improve Bayesian reasoning on average, particularly when the nested-set structure is transparent, but format labels alone do not explain all benefit.
+    limits: Task construction and scoring influence estimates; natural frequencies are a tool rather than a universal cognitive language.
+
+  - id: wasserstein-lazar-2016-pvalues
+    kind: professional-consensus-statement
+    citation: Wasserstein, R. L., & Lazar, N. A. (2016). The ASA statement on p-values—Context, process, and purpose. The American Statistician, 70(2), 129-133. https://doi.org/10.1080/00031305.2016.1154108
+    url: https://doi.org/10.1080/00031305.2016.1154108
+    publication_date: 2016-06-09
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Researchers, instructors, analysts, and readers interpreting null-hypothesis significance tests.
+    design: American Statistical Association consensus principles responding to widespread misuse.
+    finding: P-values concern data-model incompatibility under assumptions; they do not measure hypothesis truth, effect size, importance, or by themselves provide a decision or complete evidential account.
+    limits: Consensus guidance does not settle competing inferential philosophies or provide a single replacement workflow.
+
+  - id: shah-et-al-2002-graph-comprehension
+    kind: integrative-review
+    citation: Shah, P., Freedman, E. G., & Vekiri, I. (2002). Review of graph comprehension research—Implications for instruction. Educational Psychology Review, 14(1), 47-69. https://doi.org/10.1023/A:1013180410169
+    url: https://deepblue.lib.umich.edu/items/e347a2b5-1625-442e-9fe3-d09575ad97df
+    publication_date: 2002-03-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Learners interpreting graphs across laboratory, classroom, and applied tasks.
+    design: Integrative cognitive and educational review of visual features, knowledge, task, and interpretation.
+    finding: Graph comprehension depends jointly on visual encoding, graph knowledge, domain knowledge, and task; design can guide or misdirect inference.
+    limits: Predates interactive and algorithmically generated visualization ecosystems; reading a graph differs from auditing its data production.
+
+  - id: bleske-rechek-et-al-2025-correlation-causation
+    kind: classroom-diagnostic-study
+    citation: Bleske-Rechek, A., et al. (2025). Improving the teaching of correlation does not equal causation in introductory psychology. Scholarship of Teaching and Learning in Psychology. https://pmc.ncbi.nlm.nih.gov/articles/PMC12488420/
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12488420/
+    publication_date: 2025-01-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Introductory psychology students reasoning from correlational study descriptions.
+    design: Analysis of exam responses and conceptual critique of a common instructional slogan.
+    finding: More than 30 percent displayed the converse error that correlation cannot reflect causation, suggesting the familiar prohibition can block rather than support causal reasoning.
+    limits: Local assessment and descriptive result; proposed instructional alternatives need comparative evaluation.
+
+  - id: dangol-dasgupta-2023-critical-data-literacy
+    kind: systematic-design-review
+    citation: Dangol, A., & Dasgupta, S. (2023). Constructionist approaches to critical data literacy—A review. Proceedings of IDC 2023.
+    url: https://depts.washington.edu/ledlab/blog/2023/idc-23-critical-data-literacies-review/
+    publication_date: 2023-06-19
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: K-12 and undergraduate learners creating with and critically examining data.
+    design: Review of empirical learning-environment designs combining constructionism and critical data literacy.
+    finding: Critical data learning needs technical production plus continuity with learner concerns, examination of power, and cultural resonance.
+    limits: Small emerging design literature, varied outcomes, and participatory production can still expose or appropriate community data.
+contradictions:
+  - Natural frequencies often clarify nested Bayesian sets, yet percentage or icon formats can work as well or better depending on task; “use frequencies” is not a universal design law.
+  - Simplification improves access, yet hiding uncertainty, population, assumptions, or missingness makes an easy answer falsely precise.
+  - Critical data literacy reveals who defines and benefits from a dataset, yet critique without technical fluency can leave learners unable to test or contest quantitative claims.
+  - Correlation alone cannot identify a causal effect, yet it can be evidence within a causal model; the slogan can produce causal nihilism rather than humility.
+claims:
+  - claim: A quantitative explanation should begin with the decision and population, then expose numerator, denominator, comparison, time, uncertainty, and consequence.
+    evidence: systematic-and-disciplinary-synthesis
+    confidence: high
+    source_ids: [zipkin-et-al-2014-risk-communication, wasserstein-lazar-2016-pvalues]
+    supports: Present baseline and changed absolute frequencies on a common denominator, then relative change if useful; distinguish estimate, interval, assumptions, practical threshold, and value judgment.
+    tensions: Complete reporting can overwhelm a small decision, so layers and direct answers remain necessary.
+    boundary_conditions: Numeracy, stakes, time horizon, population match, rare event, competing risk, uncertainty, and requested depth.
+    does_not_license: Relative risk alone, denominator omission, significance as importance, binary certainty, precision theatre, or transferring the decision to the statistic.
+
+  - claim: Representation is part of reasoning and should be varied, compared, and made generative.
+    evidence: experimental-and-review-synthesis
+    confidence: high
+    source_ids: [hoffrage-et-al-2015-natural-frequencies, mcDowell-jacobs-2017-natural-frequency-challenge, shah-et-al-2002-graph-comprehension]
+    supports: Move among prose, counts, percentages, tables, trees, plots, and simulations; ask what remains invariant and let the learner reconstruct one representation when useful.
+    tensions: Representation switching can clarify structure or create extraneous translation burden.
+    boundary_conditions: Task, prior knowledge, visual access, working memory, data structure, interaction, and whether exact values or patterns matter.
+    does_not_license: Decorative graphs, default dashboards, visual-only access, assuming pictures are neutral, or requiring a preferred format after comprehension is established.
+
+  - claim: Causal literacy asks what contrast, intervention, pathway, time order, confounding, selection, and transport claim would make the conclusion true.
+    evidence: disciplinary-and-classroom-synthesis
+    confidence: high
+    source_ids: [bleske-rechek-et-al-2025-correlation-causation]
+    supports: Draw a provisional causal diagram or verbal model, generate rival explanations, identify design leverage, and state whether the evidence estimates association, prediction, mechanism, or intervention effect.
+    tensions: Simple causal language is sometimes necessary for action; exhaustive alternative generation can paralyze judgment.
+    boundary_conditions: Design, assignment, measurement, timing, missingness, mechanism, population, interference, and decision cost.
+    does_not_license: Correlation proves causation, correlation proves no causation, randomized means unbiased in every respect, or causal vocabulary without a contrast.
+
+  - claim: Data literacy includes the right and capacity to question how data were made, categorized, withheld, linked, interpreted, and used against people.
+    evidence: critical-design-synthesis
+    confidence: moderate
+    source_ids: [dangol-dasgupta-2023-critical-data-literacy]
+    supports: Trace collection purpose, consent, categories, missing people, labor, governance, model, downstream decision, appeal, and possible refusal; pair critique with analysis and construction.
+    tensions: Learner-created community data can build agency or intensify surveillance and extractive representation.
+    boundary_conditions: Ownership, privacy, sovereignty, community authority, identifiability, power, stakes, retention, and ability to remedy harm.
+    does_not_license: Secret learner analytics, treating administrative data as the person, extracting community data for an exercise, critique as suspicion of every measurement, or technical proficiency as political innocence.
+implications:
+  - Professor should translate every headline percentage into an absolute comparison when the base rate changes interpretation.
+  - Every chart needs a prose equivalent, data provenance, axes and denominator, relevant uncertainty, and the conclusion it does and does not support.
+  - Replace “correlation is not causation” as a terminus with “what causal stories remain possible, and what design would distinguish them?”
+  - Never infer an individual learner's future from a group average without an explicit, justified transport argument and acknowledgment of irreducible individual uncertainty.
+  - When citing an educational effect, name outcome timing, comparison condition, population, measure alignment, heterogeneity, and practical significance at the layer the decision needs.
+open_questions:
+  - What is the smallest quantitative evidence card that remains decision-honest in a brief daily encounter?
+  - How can Professor teach uncertainty as structure rather than hedging or confidence performance?
+  - Which data should an AI professor categorically decline to collect even when they could improve prediction?
+next_actions:
+  - Study environmental, place-based, and futures pedagogy if coverage audit shows remaining gaps; otherwise begin cross-record contradiction and omission audit.
+  - Include denominator, transport, causal contrast, visualization alternative, and data refusal in the final audit.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
