@@ -38,7 +38,7 @@ readings:
     finding: The guidance recommends piloting eligibility decisions on a shared sample, continuing single-reviewer screening only after strong agreement, verifying one-person data extraction and risk-of-bias judgments with a second reviewer, and not omitting risk-of-bias assessment merely to save time.
     limits: The suggested screening proportions and agreement thresholds are pragmatic guidance rather than universal guarantees; team workflows do not map directly onto a single AI agent, and repeated passes by the same model and prompt lineage are not independent review.
 
-  - id: eldridge-et-al-2024-evidence-gap-maps
+  - id: fredlund-et-al-2024-evidence-gap-maps
     kind: systematic-methods-review
     citation: Fredlund, M., et al. (2024). What are the methodological characteristics of evidence and gap maps? A systematic review and evidence and gap map. Cochrane Evidence Synthesis and Methods, 2, e12096. https://doi.org/10.1002/cesm.12096
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11795909/
@@ -62,7 +62,7 @@ readings:
     finding: Living mode needs an explicit protocol, surveillance process, update trigger, publication history, and criteria for entering and leaving living status.
     limits: Guidance is heterogeneous and health-centered; continual update can consume scarce review capacity without changing decisions.
 
-  - id: korda-et-al-2020-living-approaches
+  - id: lansky-wethington-2020-living-approaches
     kind: methods-review
     citation: Lansky, A., & Wethington, H. R. (2020). Living systematic reviews and other approaches for updating evidence. American Journal of Public Health, 110(11), 1605–1606. https://doi.org/10.2105/AJPH.2020.305920
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7542271/
@@ -93,7 +93,7 @@ readings:
     publication_date: 2026-08-12
     accessed_on: 2026-08-12
     reading_level: full-text-read
-    population_context: Eighty public research notes and 515 reading records produced during one bounded four-hour AI-assisted study.
+    population_context: Eighty-one public research notes and 522 reading records produced during one bounded four-hour AI-assisted study.
     design: Structured count, duplicate-ID analysis, DOI-resolution scan, manual anomaly follow-up, confidence-versus-reading-depth audit, validation, and correction commits.
     finding: Bibliographic follow-up corrected twenty-four substantive metadata errors, including plausible splices of real authors, titles, journals, and identifiers; 19 shallow-source empirical claims were downgraded from high to moderate confidence.
     limits: Same-agent self-audit, targeted rather than exhaustive bibliographic checking, no independent reviewer, no estimate of undetected error, and repository tests do not verify scholarship.
@@ -106,7 +106,7 @@ claims:
   - claim: A four-hour multidisciplinary scan is an evidence map and hypothesis generator, not an exhaustive review or credential.
     evidence: methods-and-case-synthesis
     confidence: high
-    source_ids: [garritty-et-al-2024-cochrane-rapid, eldridge-et-al-2024-evidence-gap-maps, professor-intensive-audit-2026]
+    source_ids: [garritty-et-al-2024-cochrane-rapid, fredlund-et-al-2024-evidence-gap-maps, professor-intensive-audit-2026]
     supports: Name purpose, scope, routes, exclusions, date, depth, shortcuts, counts, contradictions, and unresolved gaps; reserve effect and practice conclusions for bounded later syntheses.
     tensions: A map can still yield decisive corrections and ethical boundaries, and some learner-facing choices need proportionate judgment before a formal review exists.
     boundary_conditions: Breadth, time, reviewer count, database access, languages, claim type, stakes, and decision reversibility.
@@ -142,7 +142,7 @@ claims:
   - claim: A living research agenda needs update and retirement triggers, not a standing obligation to accumulate.
     evidence: living-review-methods-synthesis
     confidence: high
-    source_ids: [living-review-methods-2023, korda-et-al-2020-living-approaches]
+    source_ids: [living-review-methods-2023, lansky-wethington-2020-living-approaches]
     supports: Keep a question living only when it remains decision-relevant, evidence changes, conclusions may change, and maintenance is resourced; version changes, supersede duplicates, retire umbrellas, and record no-change decisions.
     tensions: Slow traditions and neglected questions may remain important without frequent publications; retirement can hide unresolved injustice.
     boundary_conditions: Decision importance, evidence velocity, uncertainty, maintenance capacity, user need, source community, and change threshold.
