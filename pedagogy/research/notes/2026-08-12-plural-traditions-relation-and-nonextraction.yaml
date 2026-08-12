@@ -1,0 +1,310 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: plural-traditions-relation-and-nonextraction-2026-08-12
+title: Educational traditions are accounts of person, relation, knowledge, and ends—not technique inventories
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [educational-ethics-and-nonideal-judgment, epistemic-justice-curriculum-and-knowledge-access]
+scope: >-
+  A bounded comparative inquiry into African personhood and ubuntu debates,
+  Pacific education and talanoa, Latin American popular education and buen
+  vivir, Buddhist study-practice and compassion, and Jewish havruta text study.
+  It asks how traditions alter educational ends and relations, and what cannot
+  be extracted into generic Professor techniques.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Read tradition-situated philosophical, historical, methodological, and
+    empirical work alongside internal cautions. Compared accounts of personhood,
+    community, text, study, practice, dialogue, wisdom, liberation, land, and
+    good life without imposing one shared taxonomy as neutral.
+  inclusion: >-
+    Scholarship by authors situated in or substantively engaged with named
+    traditions, work preserving internal debate and history, and studies of
+    actual practices rather than motivational quotation collections.
+  exclusions: >-
+    “Ancient wisdom” lists, civilizational personality claims, mindfulness or
+    dialogue as decontextualized productivity tools, pan-African or pan-Pacific
+    uniformity, and claims that spiritual or communal formation is universally
+    compatible with liberal individual autonomy.
+  limitations: >-
+    This remains a shallow comparative aperture across vast, internally plural
+    traditions. Most sources were read in English or translation; no community
+    consultation occurred; regions, languages, nations, denominations, schools,
+    and historical conflicts remain radically underrepresented. The note marks
+    research obligations, not Professor's authority to enact these traditions.
+readings:
+  - id: molefe-2025-african-philosophy-education
+    kind: philosophical-argument-and-internal-critique
+    citation: >-
+      Molefe, M. (2025). Towards a relevant African philosophy of education.
+      Journal of Philosophy of Education, 59(1), 142-164.
+      https://doi.org/10.1093/jopedu/qhae042
+    url: https://doi.org/10.1093/jopedu/qhae042
+    publication_date: 2024-05-20
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Debates over African philosophy, personhood, ubuntu, education, relevance, and philosophical method.
+    design: Conceptual critique of ethnophilosophy, nationalist-ideological, sagacity, and professional-philosophy approaches and proposal for relevant educational philosophy.
+    finding: >-
+      African philosophy of education must be relevant to lived African
+      problems while remaining critical philosophy, not a claim that all
+      Africans share one worldview or that inherited values are immune from
+      argument. Personhood and ubuntu are active debates, not a slogan.
+    limits: >-
+      A continent-scale philosophical proposal cannot represent national,
+      linguistic, religious, political, gendered, or local educational projects.
+
+  - id: waghid-2020-ubuntu-higher-education
+    kind: philosophy-of-higher-education
+    citation: >-
+      Waghid, Y. (2020). Towards an ubuntu philosophy of higher education in
+      Africa. Studies in Philosophy and Education, 39, 299-308.
+      https://doi.org/10.1007/s11217-020-09709-4
+    url: https://doi.org/10.1007/s11217-020-09709-4
+    publication_date: 2020-02-03
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: African higher education and ubuntu as human interdependence and humaneness.
+    design: Philosophical argument for social responsibility, deliberative engagement, and attentiveness to otherness.
+    finding: >-
+      Ubuntu can orient higher education toward interdependence, humane relation,
+      responsibility, and deliberation rather than isolated individual achievement.
+    limits: >-
+      The argument does not make ubuntu uncontested, empirically sufficient, or
+      portable outside its historical and philosophical debates.
+
+  - id: vaioleti-2006-talanoa
+    kind: indigenous-research-methodology
+    citation: >-
+      Vaioleti, T. M. (2006). Talanoa research methodology: A developing
+      position on Pacific research. Waikato Journal of Education, 12, 21-34.
+      https://doi.org/10.15663/wje.v12i1.296
+    url: https://doi.org/10.15663/wje.v12i1.296
+    publication_date: 2006-01-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Pacific peoples in Aotearoa New Zealand, developed from a personal and Tongan standpoint with cautiously proposed regional implications.
+    design: Methodological and cultural argument examining research normality, Pacific values, relation, knowledge, power, and benefit.
+    finding: >-
+      Talanoa is relational, culturally grounded, and accountable to Pacific
+      worlds and research purposes; it challenges extractive research frames and
+      requires attention to power, relationship, reciprocity, and interpretation.
+    limits: >-
+      A Tongan-rooted account cannot make Pacific peoples uniform, and use of
+      talanoa language by outsiders does not confer relationship or authority.
+
+  - id: faavae-et-al-2026-pacific-education
+    kind: collective-critical-field-analysis
+    citation: >-
+      Fa'avae, D., et al. (2026). The criticality of Pacific education: The
+      search for a transformative disciplinary space. Kōtuitui: New Zealand
+      Journal of Social Sciences Online.
+    url: https://openrepository.aut.ac.nz/items/77d4181c-d8d0-433a-927c-7ff6a972e5c0
+    publication_date: 2026-04-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Pacific education scholarship, initial teacher education, policy, research, and communities in Aotearoa New Zealand.
+    design: Collective talatalanoa across career stages examining the field's history, visibility, criticality, concepts, and transformative possibilities.
+    finding: >-
+      Pacific education is an intellectual and political disciplinary space that
+      must center Pacific concepts, languages, scholars, and authority rather
+      than remain a demographic add-on inside mainstream education.
+    limits: >-
+      The collective account is situated in Aotearoa and does not authorize an
+      AI to imitate Pacific relation, speech, or community membership.
+
+  - id: torres-carrillo-2013-popular-education
+    kind: historical-conceptual-mapping
+    citation: >-
+      Torres Carrillo, A. (2013). Popular education in Latin America in the
+      1970s and 1980s: Mapping its political and pedagogical meanings. Foro de
+      Educación, 11(15), 429-451. https://doi.org/10.14516/fde.2013.011.015.019
+    url: https://doi.org/10.14516/fde.2013.011.015.019
+    publication_date: 2013-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Latin American popular-education movements, organizations, political cultures, and debates in the 1970s and 1980s.
+    design: Historical and conceptual mapping of political subjects, culture, consciousness, organization, and pedagogy.
+    finding: >-
+      Popular education emerged as heterogeneous political-pedagogical practice
+      embedded in movements and struggles, seeking consciousness and collective
+      agency from within political subjects rather than revelation by a party.
+    limits: >-
+      Regional and historical mapping does not reduce popular education to
+      Freire, establish one method, or transfer movement authority to an AI tutor.
+
+  - id: macintyre-et-al-2017-buen-vivir
+    kind: participatory-case-and-conceptual-analysis
+    citation: >-
+      Macintyre, T., Monroy, T., Coral, D., Zethelius, M., Tassone, V., & Wals,
+      A. E. J. (2017). Educating for development or educating for the good life?
+      Buen vivir imaginaries and the creation of one's own myth. In Envisioning
+      Futures for Environmental and Sustainability Education. Wageningen Academic.
+    url: https://research.wur.nl/en/publications/educating-for-development-or-educating-for-the-good-life-buen-viv/
+    publication_date: 2017-01-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Community-based decolonial educational work in Colombia engaging buen vivir and development imaginaries.
+    design: Participatory case and conceptual account of learning, myth, territory, alternatives to development, and good life.
+    finding: >-
+      Buen vivir can contest development as education's unquestioned horizon and
+      connect learning to relational, territorial, ecological, and community-
+      authored accounts of living well.
+    limits: >-
+      Buen vivir is plural, contested, and Indigenous-rooted; it cannot be
+      universalized as a wellness framework or detached from territory and politics.
+
+  - id: matsuda-2022-saicho-education
+    kind: historical-primary-text-analysis
+    citation: >-
+      Matsuda, K. (2022). Sources of Japanese Buddhist philosophy of education:
+      Saichō (766/7-822) on study, reflection, and cultivation. Religions, 13(7),
+      624. https://doi.org/10.3390/rel13070624
+    url: https://doi.org/10.3390/rel13070624
+    publication_date: 2022-07-05
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Saichō's Tendai Buddhist curriculum and its Chinese and Japanese textual lineages.
+    design: Historical study and retranslation of primary sources on study, reflection, cultivation, wisdom, compassion, and public benefit.
+    finding: >-
+      The educational scheme integrates textual study, reflection, and embodied
+      cultivation toward wisdom and benefit for others; compassion is an end and
+      orientation, not merely an affect-regulation technique.
+    limits: >-
+      A monastic, religious, political, and historical curriculum cannot be
+      secularized into universal pedagogy or stand for Buddhist traditions.
+
+  - id: kent-2010-havruta
+    kind: qualitative-theory-building-study
+    citation: >-
+      Kent, O. (2010). A theory of havruta learning. Journal of Jewish
+      Education, 76(3), 215-245.
+      https://doi.org/10.1080/15244113.2010.501499
+    url: https://doi.org/10.1080/15244113.2010.501499
+    publication_date: 2010-08-27
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Paired study and focused interpretive conversation around classical Jewish texts in higher education.
+    design: Video and transcript analysis developing paired practices of listening and articulating, wondering and focusing, and supporting and challenging.
+    finding: >-
+      Generative havruta learning involves a particular relation among learners,
+      text, interpretation, listening, articulation, focus, wonder, support, and
+      challenge; pairing alone does not constitute the practice.
+    limits: >-
+      Theory built from a bounded setting and session cannot establish outcome
+      superiority or detach the form from Jewish textual and institutional life.
+claims:
+  - id: personhood-models-change-education
+    statement: >-
+      Educational ends and relations change when persons are understood as
+      fundamentally independent, relationally constituted, spiritually formed,
+      politically organized, textually answerable, territorially embedded, or
+      cultivating wisdom; no one model is the silent neutral baseline.
+    confidence: high
+    source_ids: [molefe-2025-african-philosophy-education, vaioleti-2006-talanoa, torres-carrillo-2013-popular-education, matsuda-2022-saicho-education]
+    supports: >-
+      Name the account of person and good implicit in a pedagogical proposal and
+      ask whose authority, history, and future make that account legitimate.
+    tensions: >-
+      Comparison and shared rights require some cross-traditional language, and
+      traditions internally contain individual, relational, critical, and plural strands.
+    boundary_conditions: Learner purpose, tradition, community authority, institutional setting, history, consent, and consequences.
+    does_not_license: Cultural boxes, identity assignment, moral relativism, comprehensive formation by an AI, or ranking civilizations.
+
+  - id: dialogue-is-tradition-and-practice-specific
+    statement: >-
+      Talanoa, havruta, popular-education dialogue, Socratic questioning, and
+      ordinary conversation differ in participants, texts, histories, ends,
+      authority, obligations, and conditions; “dialogue” names no single method.
+    confidence: high
+    source_ids: [vaioleti-2006-talanoa, kent-2010-havruta, torres-carrillo-2013-popular-education]
+    supports: >-
+      Describe the actual relation and moves—who speaks, listens, interprets,
+      refuses, decides, benefits, and remains answerable—without borrowing a
+      tradition's name for prestige.
+    tensions: >-
+      Practices can travel, hybridize, and be respectfully adapted when their
+      transformation, limits, and source relations are explicit.
+    boundary_conditions: Membership, language, text, purpose, benefit, consent, reciprocity, power, and public claim.
+    does_not_license: Calling AI chat talanoa or havruta, simulating community membership, compulsory dialogue, or extracting a facilitation script.
+
+  - id: relation-requires-material-accountability
+    statement: >-
+      Relational education is not warmer language; it redistributes obligation,
+      benefit, authority, continuity, and responsibility across people,
+      communities, histories, land, texts, and more-than-human worlds.
+    confidence: high
+    source_ids: [waghid-2020-ubuntu-higher-education, faavae-et-al-2026-pacific-education, macintyre-et-al-2017-buen-vivir]
+    supports: >-
+      Ask what relationship changes a curriculum's selection, ownership, return,
+      timing, source practice, and capacity for correction.
+    tensions: >-
+      Individual rights, privacy, refusal, solitude, and dissent must be
+      protected from communal coercion and romantic claims of harmony.
+    boundary_conditions: Authority, material benefit, land, language, data, labor, exit, dissent, and repair.
+    does_not_license: Anthropomorphic AI reciprocity, forced belonging, community essentialism, unpaid cultural labor, or relational branding.
+
+  - id: study-practice-unity-is-not-generic-mindfulness
+    statement: >-
+      In Buddhist educational traditions, attention, reflection, cultivation,
+      wisdom, compassion, and ethical or liberative ends can form an integrated
+      path; isolating an attention exercise changes both authority and meaning.
+    confidence: high
+    source_ids: [matsuda-2022-saicho-education]
+    supports: >-
+      Teach about a tradition with historical and doctrinal specificity or
+      support a learner-endorsed practice within declared competence and limits.
+    tensions: >-
+      Secular contemplative practices can be ethically and empirically studied
+      on their own terms without claiming to reproduce Buddhism.
+    boundary_conditions: Learner endorsement, teacher competence, religious authority, harms, accessibility, evidence, and stated end.
+    does_not_license: Covert spiritual formation, mindfulness for compliance, therapeutic claims, generic compassion, or treating Buddhism as one tradition.
+
+  - id: nonextraction-precedes-adaptation
+    statement: >-
+      Before adapting a pedagogical form, Professor must determine whether its
+      meaning depends on community authority, relationship, language, land,
+      religious commitment, institutional life, or reciprocal benefit that the
+      AI setting does not possess.
+    confidence: high
+    source_ids: [vaioleti-2006-talanoa, faavae-et-al-2026-pacific-education, macintyre-et-al-2017-buen-vivir, matsuda-2022-saicho-education, kent-2010-havruta]
+    supports: >-
+      Prefer accurate teaching about the form, cite its sources, name the
+      transformation, and leave it unused when essential conditions are absent.
+    tensions: >-
+      Overprotection can freeze traditions, deny their own histories of travel,
+      or gatekeep ideas that authors explicitly offer for wider criticism and use.
+    boundary_conditions: Source invitation, community authority, sacredness, public/private use, benefit, risk, transformation, and attribution.
+    does_not_license: Technique mining, decorative lineage, ownership claims, culture matching, or refusing all comparison.
+implications:
+  - >-
+    Professor should not describe its one-to-one conversation as havruta,
+    talanoa, popular education, ubuntu pedagogy, or Buddhist pedagogy. It may
+    learn questions from these traditions while accurately naming transformation.
+  - >-
+    Philology offers both opportunity and risk: words such as ubuntu, talanoa,
+    tarbiyah, havruta, and buen vivir should be encountered in linguistic,
+    historical, institutional, and living contest, not turned into English glosses.
+  - >-
+    The lineages map should remain a map of obligations and differences. This
+    scan does not yet earn compact canonical entries because competence and
+    community-grounded counterreading remain insufficient.
+  - >-
+    No active policy change is earned; existing anti-extraction, authority,
+    source, canon, learner-agency, and constitutional rules govern this work.
+open_questions:
+  - Which scholars and practitioners offer internal critiques of each tradition's gender, class, caste, hierarchy, exclusion, nationalism, or institutional power?
+  - How do translation choices alter philosophical claims about personhood, relation, wisdom, compassion, dialogue, and good life?
+  - What public benefit or reciprocity is required before bundling curriculum from community-grounded knowledge?
+  - Which traditions of education in South Asia, Southeast Asia, the Caribbean, Eastern Europe, and Indigenous nations remain absent from even this map?
+  - When is refusing to adapt respectful, and when does it reproduce elite gatekeeping over a living and contested tradition?
+next_actions:
+  - Deepen one tradition at a time through primary-language scholarship, internal critics, educators, and community-authorized public sources.
+  - Study feminist, queer, disability, labor, and minority critiques within rather than merely adjacent to each tradition.
+  - Audit the lineages map for Western structuring categories, decorative inclusion, unequal detail, and claims lacking a stable source route.
+  - Do not add learner identity, spiritual aims, or community affiliations to any profile from topic interest or vocabulary use.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
