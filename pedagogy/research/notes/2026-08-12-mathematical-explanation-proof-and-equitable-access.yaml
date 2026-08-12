@@ -1,0 +1,177 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: mathematical-explanation-proof-and-equitable-access-2026-08-12
+title: Mathematics teaching should make procedures, meanings, representations, and warrants jointly available
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise, access-disability-and-equivalent-participation, epistemic-justice-curriculum-and-knowledge-access, durable-memory-transfer-and-calibration]
+scope: Mathematical procedure and concept, worked examples, explicit and systematic instruction, representations, manipulatives, productive struggle, conjecture, reasoning, proof, notation, identity, access, tracking, and AI verification.
+method:
+  search_date: 2026-08-12
+  approach: Compared worked-example and representation meta-analyses, evidence-based intervention guidance, productive-struggle philosophy and definitional review, proof research synthesis, and stereotype-threat intervention meta-analysis.
+  inclusion: Sources distinguishing acquisition from transfer, representation from concept, empirical evidence from proof, difficulty from productivity, and access from placement.
+  exclusions: Math-war binaries, discovery as proof of intelligence, algorithms without meaning, understanding without fluency, manipulatives as inherently concrete, struggle as rigor, and identity slogans replacing mathematical opportunity.
+  limitations: Mathematics spans diverse practices; many intervention studies target school calculation and near transfer; “struggling students” is institutionally produced as well as descriptively useful; proof studies are heterogeneous.
+readings:
+  - id: barbieri-et-al-2023-worked-examples
+    kind: meta-analysis
+    citation: Barbieri, C. A., Miller-Cotto, D., Clerjuste, S. N., & Chawla, K. (2023). A meta-analysis of the worked examples effect on mathematics performance. Educational Psychology Review, 35, 11. https://doi.org/10.1007/s10648-023-09745-1
+    url: https://eric.ed.gov/?id=EJ1364058
+    publication_date: 2023-03-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Elementary through postsecondary learners studying correct, incorrect, or combined worked mathematical examples.
+    design: Meta-analysis of worked-example effects and moderators including self-explanation, example type, and instructional timing.
+    finding: Worked examples improved mathematics performance on average, especially during acquisition, with effects varying by design and learner conditions.
+    limits: Outcome alignment, control activity, example quality, prior knowledge, and near-transfer dominance; copying steps can mimic learning without later independent selection.
+
+  - id: fuchs-et-al-2021-math-intervention
+    kind: evidence-based-practice-guide
+    citation: Fuchs, L. S., et al. (2021). Assisting students struggling with mathematics—Intervention in the elementary grades. What Works Clearinghouse, Institute of Education Sciences.
+    url: https://ies.ed.gov/ncee/wwc/practiceguide/26
+    publication_date: 2021-03-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Elementary learners needing mathematics intervention and educators selecting evidence-based support.
+    design: Expert panel practice guide grading causal evidence behind systematic instruction, mathematical language, representations, number lines, word problems, and fluency.
+    finding: Strong evidence supports systematic instruction, clear mathematical language, and deliberately chosen concrete and semi-concrete representations in intervention.
+    limits: Intervention evidence does not define a learner identity or whole curriculum; explicit routines can become compliance scripts if meaning, choice, transfer, and rich mathematics disappear.
+
+  - id: carbonneau-et-al-2013-manipulatives
+    kind: meta-analysis
+    citation: Carbonneau, K. J., Marley, S. C., & Selig, J. P. (2013). A meta-analysis of the efficacy of teaching mathematics with concrete manipulatives. Journal of Educational Psychology, 105(2), 380-400. https://doi.org/10.1037/a0031084
+    url: https://doi.org/10.1037/a0031084
+    publication_date: 2013-05-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: School learners using physical manipulatives compared with abstract-symbolic instruction.
+    design: Meta-analysis examining retention, problem solving, transfer, and instructional moderators.
+    finding: Manipulatives showed small-to-moderate average benefits, with larger effects when perceptual and instructional design helped map objects to mathematical relations.
+    limits: Objects are not self-explanatory; salient physical features can compete with abstraction, and motor or visual demands can exclude some learners.
+
+  - id: ebner-et-al-2025-cra
+    kind: meta-analysis
+    citation: Ebner, S., MacDonald, M. K., Grekov, P., & Aspiranti, K. B. (2025). A meta-analytic review of the concrete-representational-abstract math approach. Learning Disabilities Research & Practice, 40(1). https://doi.org/10.1177/09388982241292299
+    url: https://doi.org/10.1177/09388982241292299
+    publication_date: 2025-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Learners, often with mathematics difficulty or disability, receiving sequenced concrete, pictorial, and symbolic instruction.
+    design: Meta-analysis of CRA mathematics interventions.
+    finding: CRA sequences improved targeted mathematical outcomes on average across the included intervention literature.
+    limits: Sequence fidelity and comparison quality vary; learners need not traverse one universal representational ladder, and abstraction may be supported concurrently.
+
+  - id: murdoch-2020-productive-struggle
+    kind: philosophical-analysis
+    citation: Murdoch, D. (2020). Feeling heard—Inclusive education, transformative learning, and productive struggle. Educational Theory, 70(5), 653-679. https://doi.org/10.1111/edth.12449
+    url: https://doi.org/10.1111/edth.12449
+    publication_date: 2020-10-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Mathematics learning and inclusive education where struggle is connected to understanding, recognition, and mathematical identity.
+    design: Philosophical synthesis of productive struggle, transformative learning, inclusion, and being heard.
+    finding: Productive struggle can support understanding and identity when learners' mathematical contributions are recognized and support makes participation possible.
+    limits: Normative account does not identify a universal delay or difficulty dose; “productive” is often defined after success and can excuse poor instruction.
+
+  - id: kamlue-2026-productive-struggle
+    kind: systematic-review
+    citation: Kamlue, N. (2026). A systematic review of productive struggle definitions and an investigation of whole-class discussion. Western Michigan University dissertation.
+    url: https://scholarworks.wmich.edu/dissertations/4248/
+    publication_date: 2026-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Mathematics-education literature defining, operationalizing, and observing productive struggle.
+    design: Systematic review joined with empirical investigation.
+    finding: The field lacks consensus on productive struggle's definition and observable boundaries despite widespread endorsement.
+    limits: Recent dissertation, no pooled effects, and definitional plurality may partly reflect legitimately different mathematical and institutional contexts.
+
+  - id: mejia-ramos-et-al-2023-proof-review
+    kind: systematic-review
+    citation: Mejía-Ramos, J. P., et al. (2023). Proof and proving in school and mathematics education research—A systematic review. Research in Mathematics Education. https://www.repository.cam.ac.uk/items/57356659-5170-4085-9ea3-59a5535b310f
+    url: https://www.repository.cam.ac.uk/items/57356659-5170-4085-9ea3-59a5535b310f
+    publication_date: 2023-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: School and tertiary learners constructing, reading, validating, and learning proof.
+    design: Systematic review of proof and proving instruction and research.
+    finding: Proof learning involves multiple functions—verification, explanation, discovery, communication, and systematization—and depends on examples, representation, warrants, norms, and teacher knowledge.
+    limits: Diverse constructs and outcomes impede aggregation; formal acceptability and learner conviction are related but not identical.
+
+  - id: liu-et-al-2021-stereotype-interventions
+    kind: meta-analysis
+    citation: Liu, S., Liu, P., Wang, M., & Zhang, B. (2021). Effectiveness of stereotype threat interventions—A meta-analytic review. Journal of Applied Psychology, 106(6), 921-949. https://doi.org/10.1037/apl0000770
+    url: https://pubmed.ncbi.nlm.nih.gov/32772526/
+    publication_date: 2021-06-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: 181 experiments and 251 effects testing belief-, identity-, or resilience-oriented stereotype-threat interventions.
+    design: Meta-analysis of performance effects and intervention moderators.
+    finding: Interventions produced a moderate average benefit, with belief- and identity-focused approaches larger than resilience framing.
+    limits: Publication bias, laboratory tasks, heterogeneous identities and contexts, and individual interventions cannot repair tracking, biased opportunity, curriculum, or material inequality.
+contradictions:
+  - Worked examples and systematic instruction efficiently support novices, yet overuse can train surface imitation and deny opportunities to choose, invent, justify, or transfer.
+  - Manipulatives and diagrams can reveal structure, yet no representation is the concept and “concrete” depends on the learner's relation, not physicality alone.
+  - Struggle can make mathematical agency possible, yet withholding a model can make prior privilege the hidden prerequisite and call the resulting exclusion rigor.
+  - Formal proof establishes a claim within assumptions, yet examples, diagrams, computation, and intuition often generate conviction and discovery without constituting proof.
+claims:
+  - claim: Select a mathematical teaching move by whether the learner needs an answer, procedure, meaning, representation, strategy choice, generalization, proof, or transfer.
+    evidence: meta-analytic-and-practice-synthesis
+    confidence: high
+    source_ids: [barbieri-et-al-2023-worked-examples, fuchs-et-al-2021-math-intervention, mejia-ramos-et-al-2023-proof-review]
+    supports: Give a direct answer when requested; model and annotate an example for acquisition; compare cases for concept; fade steps for selection; ask for warrant when proof is the goal; vary structure for transfer.
+    tensions: A single rich task may serve several aims, while excessive aim labeling fragments mathematical experience.
+    boundary_conditions: Prior knowledge, goal, stakes, notation, time, working memory, disability access, affect, and later criterion.
+    does_not_license: One pedagogy for all aims, forced discovery, answers withheld to simulate rigor, procedural fluency as complete understanding, or verbal explanation as the only evidence of meaning.
+
+  - claim: Representational fluency is seeing the mathematical invariant and the affordance or distortion of each form.
+    evidence: meta-analytic-synthesis
+    confidence: high
+    source_ids: [carbonneau-et-al-2013-manipulatives, ebner-et-al-2025-cra, fuchs-et-al-2021-math-intervention]
+    supports: Coordinate object, action, diagram, table, language, symbol, graph, gesture, and code; explicitly map correspondences; allow concurrent forms and learner-chosen access routes.
+    tensions: Multiple forms can illuminate or split attention; symbolic compression is an access tool, not an endpoint imposed after a fixed ladder.
+    boundary_conditions: Concept, learner knowledge, sensory and motor access, notation, visual complexity, cultural convention, and task.
+    does_not_license: Learning-style assignment, physical means easy, pictures as proof, mandatory concrete-to-abstract sequence, or removing notation from learners presumed to struggle.
+
+  - claim: Mathematical struggle is productive only when the object is accessible, the learner retains agency, support is timely, and later evidence shows expanded mathematical power.
+    evidence: philosophical-and-systematic-synthesis
+    confidence: high
+    source_ids: [murdoch-2020-productive-struggle, kamlue-2026-productive-struggle, barbieri-et-al-2023-worked-examples]
+    supports: State the problem clearly, ensure prerequisites or references, offer graded help, listen to partial mathematics, time-box impasse, and consolidate with an efficient model and new opportunity.
+    tensions: Help offered too early can preempt invention; help withheld too long transfers the cost to the learner.
+    boundary_conditions: Goal, prior knowledge, time, emotion, access, feedback, error cost, support choice, and delayed transfer.
+    does_not_license: Confusion as depth, endurance grading, humiliation, hints forced after a direct-answer request, or defining productivity by compliance.
+
+  - claim: Proof teaching should distinguish discovering a claim, becoming convinced, explaining why, and meeting a community's standards of deductive warrant.
+    evidence: systematic-disciplinary-synthesis
+    confidence: high
+    source_ids: [mejia-ramos-et-al-2023-proof-review]
+    supports: Use examples to conjecture and find counterexamples, diagrams to expose relations, informal argument to locate warrants, formal proof to close the logical gap, and comparison to reveal proof purpose.
+    tensions: Formalization can clarify hidden assumptions or bury insight under notation and sociolinguistic norms.
+    boundary_conditions: Mathematical domain, audience, axiom system, learner experience, proof genre, notation, and whether explanation or verification is primary.
+    does_not_license: Empirical checking called proof, formal derivation assumed explanatory, one canonical proof style, AI-generated steps accepted without local verification, or elegance used to rank persons.
+
+  - claim: Equitable mathematical identity is built through substantive access, recognition, support, and advanced opportunity—not reassurance alone.
+    evidence: intervention-and-critical-synthesis
+    confidence: moderate
+    source_ids: [liu-et-al-2021-stereotype-interventions, fuchs-et-al-2021-math-intervention, murdoch-2020-productive-struggle]
+    supports: Remove stereotype cues, teach powerful notation and methods explicitly, recognize diverse reasoning, provide support without lowered intellectual scope, and keep advanced pathways genuinely open.
+    tensions: Identity-sensitive support can reduce threat or make identity newly salient; structural opportunity cannot be replaced by a brief psychological intervention.
+    boundary_conditions: Institutional tracking, teacher expectation, prior opportunity, language, disability, race, gender, assessment, course access, and learner preference.
+    does_not_license: Growth-mindset slogans, demographic profiling, praise as remediation, accelerated content without support, or common placement represented as equal opportunity.
+implications:
+  - Professor should show a complete worked solution immediately when asked, then optionally expose why each step is legal and where the method transfers.
+  - Every symbolic transformation should have an accessible warrant; “obvious,” “just,” and “clearly” are warnings to inspect a hidden step.
+  - Use a counterexample before a lecture when it cleanly tests a conjecture, but do not demand blind search for a theorem the learner asked to learn.
+  - Treat computational output as empirical evidence about cases until a proof or justified inferential argument establishes the general claim.
+  - Never retain a “math person,” ability, anxiety, or struggle profile; adapt to the present mathematical action and stated preference.
+open_questions:
+  - How can Professor verify generated proofs without burdening the learner with auditing fluent but unsound text?
+  - What evidence best distinguishes representational flexibility from repeated exposure to multiple formats?
+  - How should daily encounters alternate receptive mathematical beauty with deliberate practice without instrumentalizing either?
+next_actions:
+  - Study literacy and reading instruction as another contested domain where explicit code access, meaning, language variation, and knowledge interact.
+  - Include proof status, worked-example fading, representation mapping, and hidden-prerequisite checks in the final audit.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
