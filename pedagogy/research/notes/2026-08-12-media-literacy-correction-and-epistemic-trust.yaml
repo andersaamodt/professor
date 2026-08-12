@@ -1,0 +1,156 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: media-literacy-correction-and-epistemic-trust-2026-08-12
+title: Epistemic vigilance should improve calibrated trust, not teach that every source is secretly a trick
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [epistemic-justice-curriculum-and-knowledge-access, technology-datafication-personalization-and-public-value, pedagogical-authority-voice-and-non-domination]
+scope: Media and information literacy, source evaluation, lateral reading, misinformation correction, inoculation, epistemic vigilance, institutional trust, persuasion, and AI source disclosure.
+method:
+  search_date: 2026-08-12
+  approach: Compared expert-practice observation, curricular interventions, two meta-analytic traditions, correction studies, a null field trial, epistemic-vigilance theory, and critique of source-evaluation cynicism.
+  inclusion: Sources measuring discernment, belief, sharing, transfer, correction, source practice, contextual failure, or trust calibration.
+  exclusions: Checklists as universal literacy, unfamiliarity as falsity, cynicism as sophistication, partisan disagreement as misinformation, persuasion resistance as mental immunity, and AI fluency as credibility.
+  limitations: Outcomes are often immediate, researcher-created, and platform-specific; interventions vary widely, real information ecologies change quickly, and correcting a belief does not ensure behavior change.
+readings:
+  - id: wineburg-mcgrew-2019-lateral-reading
+    kind: comparative-expertise-study
+    citation: Wineburg, S., & McGrew, S. (2019). Lateral reading and the nature of expertise—Reading less and learning more when evaluating digital information. Teachers College Record, 121(11). https://doi.org/10.1177/016146811912101102
+    url: https://doi.org/10.1177/016146811912101102
+    publication_date: 2019-11-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Professional fact-checkers, historians, and students evaluating live websites.
+    design: Comparative think-aloud observation of web source evaluation.
+    finding: Fact-checkers quickly left an unfamiliar site to investigate its reputation, sponsors, and independent coverage, unlike more vertical within-page reading.
+    limits: Small expert groups and selected tasks; lateral search inherits search-ranking, language, censorship, and information-ecosystem biases.
+
+  - id: breakstone-et-al-2021-college-lateral
+    kind: classroom-intervention
+    citation: Breakstone, J., Smith, M., Connors, P., Ortega, T., Kerr, D., & Wineburg, S. (2021). Lateral reading—College students learn to critically evaluate internet sources in an online course. Harvard Kennedy School Misinformation Review, 2(1). https://doi.org/10.37016/mr-2020-56
+    url: https://dash.harvard.edu/bitstreams/8c9d4b33-a002-4277-8ff6-e1c9caf11b49/download
+    publication_date: 2021-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: College students taught lateral reading through an online course.
+    design: Pre/post intervention study of evaluation behavior and judgments.
+    finding: Students used lateral strategies more often and improved on aligned source-evaluation tasks after instruction.
+    limits: No randomized concurrent control, practice-aligned measures, unknown durability, and no proof of transfer to personally consequential claims.
+
+  - id: huang-jia-yu-2024-media-literacy-meta
+    kind: meta-analysis
+    citation: Huang, G., Jia, W., & Yu, W. (2024). Media literacy interventions improve resilience to misinformation—A meta-analytic investigation. Communication Research. https://doi.org/10.1177/00936502241288103
+    url: https://journals.sagepub.com/doi/abs/10.1177/00936502241288103
+    publication_date: 2024-10-04
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: 81,155 participants across 49 experimental media-literacy studies.
+    design: Meta-analysis of belief, discernment, and sharing outcomes with moderator analysis.
+    finding: Reports positive average effects, with especially large effects for some discernment and sharing measures.
+    limits: Heterogeneous interventions and controls, outcome dependence, immediate researcher tasks, publication and demand effects, and abstract-only appraisal.
+
+  - id: badrinathan-2021-india-field
+    kind: randomized-field-experiment
+    citation: Badrinathan, S. (2021). Educative interventions to combat misinformation—Evidence from a field experiment in India. American Political Science Review, 115(4), 1325-1341. https://doi.org/10.1017/S0003055421000459
+    url: https://ideas.repec.org/a/cup/apsrev/v115y2021i4p1325-1341_15.html
+    publication_date: 2021-11-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 1,224 adults receiving an hour-long, in-person media-literacy intervention during India's 2019 election.
+    design: Field experiment testing misinformation identification and related outcomes.
+    finding: The intervention did not significantly improve average identification of misinformation.
+    limits: One bounded intervention and election context; dosage, language, trust, format, prior practice, and outcome alignment may explain the null.
+
+  - id: walter-tukachinsky-2020-continued-influence
+    kind: meta-analysis
+    citation: Walter, N., & Tukachinsky, R. (2020). A meta-analytic examination of the continued influence of misinformation in the face of correction. Communication Research, 47(2), 155-177. https://doi.org/10.1177/0093650219854600
+    url: https://journals.sagepub.com/doi/abs/10.1177/0093650219854600
+    publication_date: 2020-03-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Experimental participants receiving corrections after misinformation.
+    design: Meta-analysis of continued-influence effects and moderators.
+    finding: Corrections reduce but often do not erase misinformation influence; delay, repetition, and credible original sources weaken correction.
+    limits: Laboratory paradigms, varied belief and inference measures, selected claims, and abstract appraisal do not capture network amplification or durable conduct.
+
+  - id: chan-et-al-2017-debunking-meta
+    kind: meta-analysis
+    citation: Chan, M.-P. S., Jones, C. R., Hall Jamieson, K., & Albarracin, D. (2017). Debunking—A meta-analysis of the psychological efficacy of messages countering misinformation. Psychological Science, 28(11), 1531-1546. https://doi.org/10.1177/0956797617714579
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5673564/
+    publication_date: 2017-11-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Experimental correction messages addressing false beliefs and attitudes.
+    design: Meta-analysis of debunking message features and outcomes.
+    finding: Corrections generally work better when detailed and when recipients generate counterarguments; repetition and entrenched reasoning weaken effects.
+    limits: Correction effectiveness varies with source, identity, exposure, explanation, time, and outcome; detailed rebuttal can amplify the false claim.
+
+  - id: bielik-et-al-2025-extended-vigilance
+    kind: framework-development-and-evaluation
+    citation: Bielik, T., et al. (2025). Developing and evaluating the extended epistemic vigilance framework. Journal of Research in Science Teaching. https://doi.org/10.1002/tea.21983
+    url: https://onlinelibrary.wiley.com/doi/10.1002/tea.21983
+    publication_date: 2025-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Learners evaluating scientific claims, source expertise, evidence production, and their own interpretive position.
+    design: Conceptual framework development with educational evaluation.
+    finding: Vigilance includes evaluating claims, sources, knowledge-producing practices, and the receiver's own biases rather than applying a single credibility label.
+    limits: Science-specific framework, emerging measures, and introspection about one's bias is itself fallible and socially patterned.
+contradictions:
+  - Lateral reading can outperform close inspection of a deceptive webpage, while search engines and consensus sources can reproduce concentrated authority, SEO manipulation, language exclusion, and coordinated error.
+  - Media-literacy meta-analyses show average benefits, but substantial field interventions have produced nulls and effects vary across countries, languages, tasks, and delivery.
+  - Corrections generally help and backfire is uncommon, yet misinformation can continue to guide inference after explicit belief changes.
+  - Source skepticism protects against manipulation, while generalized distrust advantages actors unconstrained by evidence and burdens marginalized testimony with endless verification.
+claims:
+  - claim: Source evaluation is a triangulated inquiry into claim, source, production process, independent evidence, and receiver—not a site-feature checklist.
+    evidence: expertise-and-framework-synthesis
+    confidence: high
+    source_ids: [wineburg-mcgrew-2019-lateral-reading, bielik-et-al-2025-extended-vigilance]
+    supports: Inspect relevant expertise, incentives, track record, method, correction practice, provenance, independence, consensus, and one's own stake.
+    tensions: No learner can independently validate all expert knowledge; rational trust depends on institutions and division of cognitive labor.
+    boundary_conditions: Domain, urgency, access, language, censorship, search infrastructure, source vulnerability, conflict of interest, and consequence.
+    does_not_license: Prestige trust, unfamiliar-source dismissal, amateur replication demands, both-sides balance, or treating lived testimony as a laboratory claim.
+
+  - claim: Media-literacy instruction is a situated repertoire requiring practice and transfer checks, not a one-dose immunity.
+    evidence: conflicting-intervention-synthesis
+    confidence: high
+    source_ids: [breakstone-et-al-2021-college-lateral, huang-jia-yu-2024-media-literacy-meta, badrinathan-2021-india-field]
+    supports: Practice on authentic local genres and languages, vary sources and stakes, revisit after delay, and test new tasks rather than rehearsed cues.
+    tensions: Authentic misinformation exposure can amplify harm; synthetic examples can lack ecological validity.
+    boundary_conditions: Information ecology, language, platform, literacy, trust, political risk, prior exposure, teacher authority, and safety.
+    does_not_license: Labeling people susceptible, inoculation without consent, manipulation games as neutral, or claiming lasting resilience from a micro-lesson.
+
+  - claim: Effective correction should foreground the accurate account, explain the error, supply a coherent alternative when known, and preserve uncertainty.
+    evidence: meta-analytic-synthesis
+    confidence: high
+    source_ids: [walter-tukachinsky-2020-continued-influence, chan-et-al-2017-debunking-meta]
+    supports: Correct promptly, mark the false claim sparingly, explain why it fails, replace its causal gap, cite inspectable evidence, and state what remains unsettled.
+    tensions: Some false claims have no simple alternative explanation; excessive detail can burden or repeat the myth.
+    boundary_conditions: Prior belief, repetition, source trust, identity, complexity, time, explanation availability, and downstream inference.
+    does_not_license: Humiliation, motive inference, concealing uncertainty, refusing correction for fear of backfire, or measuring assent as trust restored.
+
+  - claim: An eloquent teacher bears an extra duty to expose the joints where its own authority could exceed its evidence.
+    evidence: ethical-application-inference
+    confidence: high
+    source_ids: [bielik-et-al-2025-extended-vigilance, wineburg-mcgrew-2019-lateral-reading]
+    supports: Distinguish observation, source report, synthesis, inference, metaphor, uncertainty, and pedagogical choice; make citations directly inspectable.
+    tensions: Constant caveats destroy readability and can perform uncertainty without enabling verification.
+    boundary_conditions: Claim stakes, novelty, source access, learner expertise, time, model limitations, and contested interpretation.
+    does_not_license: Citation theater, confidence theater, persuasive personification, hidden source blending, or asking the learner to trust the teacher's humility.
+implications:
+  - Professor should model lateral verification on live claims when relevant, while explaining why selected sources deserve provisional trust and where institutional failure remains possible.
+  - Correct errors plainly and promptly; preserve the true account's salience and do not dramatize the myth.
+  - Teacherly metaphors should show their breakpoints, especially when vividness may be remembered more strongly than evidential qualifiers.
+  - Do not infer misinformation susceptibility, political identity, or trust disposition from a learner's question or error.
+  - No prebunking game or automatic skepticism tactic is warranted.
+open_questions:
+  - How can Professor reveal retrieval and ranking limits when users cannot inspect the complete search universe?
+  - What practices cultivate rational trust in vulnerable or non-institutional sources without romanticizing marginality?
+  - How should correction work when the teacher itself generated the original falsehood and benefits from perceived authority?
+next_actions:
+  - Study metacognition, calibration, overconfidence, and help-seeking across domains, including evidence against generic self-explanation rituals.
+  - Add eloquence, citation inspection, and correction-latency checks to the final audit.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
