@@ -1,0 +1,204 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: intensive-study-coverage-and-claim-audit-2026-08-12
+title: Breadth reveals obligations; it does not confer exhaustive competence
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise, educational-ethics-and-nonideal-judgment]
+scope: >-
+  An internal audit of the 2026-08-12 intensive pedagogy study: coverage,
+  reading depth, agenda density, source and method imbalance, repeated claims,
+  promotion decisions, learner-data boundaries, and repository state. It tests
+  whether accumulated scholarship supports improvement without turning volume
+  into expertise theater or an ever-growing curriculum imposed on learners.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Parsed all dated research notes and the living agenda, counted readings,
+    claims, question coverage, and declared reading depths, inspected commit and
+    validation history, compared recurring conclusions, and reread promotion
+    boundaries. Counts are descriptive metadata checks, not quality scores.
+  inclusion: >-
+    Every research note dated 2026-08-12, every agenda question, all declared
+    reading levels and claims, repository validation, and explicit no-change or
+    proposed-change conclusions.
+  exclusions: >-
+    Learner conversations, private curriculum, user data, downloaded source
+    corpora, unrecorded browsing impressions, token count as scholarship, commit
+    count as impact, and any inference about learner needs or progress.
+  limitations: >-
+    Self-audit cannot independently verify every citation, interpretation, or
+    omission and is vulnerable to the same framing errors as the work audited.
+    Reading-level labels measure access, not comprehension. Notes vary greatly
+    in depth and source count. Geographic, linguistic, disciplinary, population,
+    and method coding was not yet standardized enough for reliable enumeration.
+readings:
+  - id: professor-research-notes-2026-08-12
+    kind: internal-structured-records
+    citation: >-
+      Professor repository. Pedagogy research notes created 2026-08-12.
+      Working records, not peer-reviewed scholarship.
+    url: https://github.com/andersaamodt/professor/tree/main/pedagogy/research/notes
+    publication_date: 2026-08-12
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Thirty public, learner-data-free notes spanning pedagogy, ethics, philosophy, learning sciences, technology, access, curriculum, and topic-specific teaching.
+    design: Structured synthesis records with scope, method, reading depth, findings, limits, claims, implications, open questions, and attestations.
+    finding: >-
+      The notes contained 181 reading records and 132 claims at audit time: 53
+      full-text-read, 64 partially-read, 54 abstract-screened, and 10 other
+      controlled abstract or official-record screening levels.
+    limits: >-
+      Records were created by the same AI conducting this audit; counting cannot
+      establish correctness, coverage quality, synthesis independence, or teaching effect.
+
+  - id: professor-agenda-2026-08-12
+    kind: internal-living-agenda
+    citation: >-
+      Professor repository. Living pedagogical research agenda, version 1.1.0.
+    url: https://github.com/andersaamodt/professor/blob/main/pedagogy/research/agenda.yaml
+    publication_date: 2026-08-12
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Thirteen active research questions and one retired umbrella question.
+    design: Scheduled inquiry registry with reasons, lenses, source routes, watch venues, scan dates, and reframe conditions.
+    finding: >-
+      Dated-note references were uneven: durable memory and transfer appeared in
+      eight notes; authority and epistemic-justice questions in six each;
+      Indigenous, decolonial, and sovereign pedagogies appeared in one. Density
+      reflects today's route and overlap, not topic importance or completion.
+    limits: >-
+      Question references are coarse and some notes substantively cross questions
+      they do not list. Counts do not measure depth, quality, or neglected subfields.
+
+  - id: professor-contract-and-validation-2026-08-12
+    kind: internal-policy-and-test-record
+    citation: >-
+      Professor repository. PROFESSOR.md, policies/registry.yaml,
+      pedagogy/research/README.md, bin/professor lint, and .tests/test.sh.
+    url: https://github.com/andersaamodt/professor
+    publication_date: 2026-08-12
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Repository policy, runtime, research contracts, structured records, and automated validation.
+    design: Constitutional and stable rules plus schema, integrity, privacy-canary, and runtime tests applied after each change block.
+    finding: >-
+      Research remained in public general notes, developing learner curriculum
+      was explicitly routed outside the repository, and active policy was not
+      silently changed from scans. Validation caught invalid depth labels,
+      identifiers, and agenda references before commits.
+    limits: >-
+      Tests establish structural and selected policy invariants, not source
+      accuracy, pedagogical wisdom, accessibility in use, or learner benefit.
+claims:
+  - id: breadth-is-a-gap-finder-not-a-credential
+    statement: >-
+      A broad scan is valuable for finding conflicts, missing categories,
+      counterevidence, and unsafe generalizations; it cannot make Professor
+      exhaustively learned, professionally credentialed, or best conceivable.
+    confidence: high
+    source_ids: [professor-research-notes-2026-08-12, professor-agenda-2026-08-12]
+    supports: >-
+      Report the aperture and deficits, keep questions live, and deepen bounded
+      traditions and mechanisms through later independent correction.
+    tensions: >-
+      Sustained breadth can materially improve vocabulary, comparison, source
+      routes, and the ability to notice when a familiar framework does not fit.
+    boundary_conditions: Source depth, linguistic access, independent review, topic competence, affected authority, time, and claim specificity.
+    does_not_license: Humble theater, perpetual deferral, false equivalence among sources, or refusing to teach what is adequately known.
+
+  - id: source-volume-is-not-evidence-weight
+    statement: >-
+      Reading and citation counts do not weight design quality, relevance,
+      independence, tradition, population, access, or consequence; one decisive
+      counterexample or ethical boundary may matter more than many adjacent records.
+    confidence: high
+    source_ids: [professor-research-notes-2026-08-12]
+    supports: >-
+      Judge claims by inferential chain and scope, identify clustered authors and
+      inherited reviews, and avoid vote-counting across incommensurable questions.
+    tensions: >-
+      Counts can reveal access patterns, neglected questions, overreliance on
+      abstracts, and whether a claimed synthesis has any visible basis.
+    boundary_conditions: Claim type, method, duplication, lineage, population, context, conflict of interest, and source access.
+    does_not_license: Citation prestige, majority truth, effect-size shopping, or treating qualitative and philosophical work as failed experiments.
+
+  - id: repetition-may-be-convergence-or-template-lock
+    statement: >-
+      Recurring conclusions—answer on request, preserve agency, no profiling,
+      expose warrant, guarantee consolidation, fade assistance, and separate
+      performance from learning—may reflect cross-field convergence or the
+      researcher's governing frame; repetition alone cannot distinguish them.
+    confidence: high
+    source_ids: [professor-research-notes-2026-08-12, professor-contract-and-validation-2026-08-12]
+    supports: >-
+      Seek cases where a rule creates loss, compare independent traditions, and
+      make boundary conditions and falsifiers more prominent than slogans.
+    tensions: >-
+      Constitutional commitments properly recur because evidence cannot weaken
+      the rights and safeguards they govern.
+    boundary_conditions: Constitutional status, independent evidence, contrary cases, institutional role, stakes, and learner authority.
+    does_not_license: Weakening the constitutional floor, novelty seeking, manufacturing disagreement, or calling every recurring result bias.
+
+  - id: no-change-is-a-research-result
+    statement: >-
+      When active policy already captures a synthesis and the evidence does not
+      isolate a safer or more effective mechanism, retaining a working note and
+      making no tack change is a substantive outcome, not failure to improve.
+    confidence: high
+    source_ids: [professor-research-notes-2026-08-12, professor-contract-and-validation-2026-08-12]
+    supports: >-
+      Prefer sharper boundaries, questions, audits, examples, and source routes
+      over policy accretion; require a complete provisional record for change.
+    tensions: >-
+      Excessive caution can protect stale policy and make the promotion threshold
+      impossible for neglected or nonexperimental knowledge traditions.
+    boundary_conditions: Existing rule adequacy, recurrence, harm, evidence tier, reversibility, review capacity, and constitutional status.
+    does_not_license: Fossilization, ignoring affected-person testimony, demanding RCTs for normative claims, or leaving a demonstrated gap unfixed.
+
+  - id: audit-needs-external-and-affected-correction
+    statement: >-
+      Repository validation and self-audit are necessary controls but cannot
+      substitute for topic experts, educators, learners, disabled people, source
+      communities, and others affected by public curricular or policy decisions.
+    confidence: high
+    source_ids: [professor-contract-and-validation-2026-08-12, professor-agenda-2026-08-12]
+    supports: >-
+      Keep public changes inspectable and reversible, seek correction appropriate
+      to consequence, and avoid extracting unpaid review or treating one voice as representative.
+    tensions: >-
+      Human review is fallible, institutionally unequal, slow, and unavailable
+      for every small reversible choice; bounded autonomous judgment remains necessary.
+    boundary_conditions: Consequence, public reach, domain, affected authority, privacy, compensation, urgency, reversibility, and disagreement.
+    does_not_license: Simulated consensus, token consultation, learner labor as quality assurance, or outsourcing responsibility to a reviewer.
+implications:
+  - >-
+    Do not add an omnibus “best practices” document. The notes should remain
+    working records, and future syntheses should consolidate only claims that
+    survive independent rereading and contradiction audits.
+  - >-
+    Correct the access question's last-scan metadata because several dated notes
+    substantively scanned it. Do not mark any active question complete.
+  - >-
+    Prioritize deeper work on sovereign and Indigenous pedagogies, non-Anglophone
+    and primary-language scholarship, disability-led accounts, longitudinal
+    adult learning, learner-authored evidence, and direct AI transfer outcomes.
+  - >-
+    No new active tack is warranted at this checkpoint. The study has improved
+    boundaries, future source routes, and teacherly judgment while preserving
+    the constitutional and promotion gates.
+open_questions:
+  - Which citations, dates, author lists, access labels, and source interpretations fail an independent bibliographic audit?
+  - Which claims merely restate Professor policy and should be pruned from later synthesis rather than multiplied?
+  - Which fields are absent because their scholarship uses different names, languages, media, or institutions than the agenda anticipates?
+  - Which harms and educational goods remain invisible because the audit schema privileges articulate written claims?
+  - What evidence after actual teaching would warrant changing a general rule without leaking learner data or universalizing one case?
+next_actions:
+  - Run bibliographic and duplication audits on a sample of high-consequence citations and all future promoted proposals.
+  - Build a later quarterly synthesis by claim family and contradiction, not by concatenating the notes.
+  - Continue the current bounded study through underrepresented philosophy, assessment, access, institutional, and topic-specific lanes before final audit.
+  - End with a clean repository and an honest account of what changed, what did not, and what remains unknown.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
