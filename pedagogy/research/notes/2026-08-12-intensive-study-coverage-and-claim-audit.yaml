@@ -43,12 +43,14 @@ readings:
     publication_date: 2026-08-12
     accessed_on: 2026-08-12
     reading_level: full-text-read
-    population_context: Thirty public, learner-data-free notes spanning pedagogy, ethics, philosophy, learning sciences, technology, access, curriculum, and topic-specific teaching.
+    population_context: Eighty public, learner-data-free notes spanning pedagogy, ethics, philosophy, learning sciences, technology, access, curriculum, institutions, and topic-specific teaching.
     design: Structured synthesis records with scope, method, reading depth, findings, limits, claims, implications, open questions, and attestations.
     finding: >-
-      The notes contained 181 reading records and 132 claims at audit time: 53
-      full-text-read, 64 partially-read, 54 abstract-screened, and 10 other
-      controlled abstract or official-record screening levels.
+      The notes contained 515 reading records, 504 distinct reading identifiers,
+      and 377 claims at final audit time: 79 full-text-read, 237 partially-read,
+      171 abstract-screened, 15 abstract-and-metadata-screened, 7
+      abstract-and-official-record-screened, and 6 citation-traced. Eleven
+      reading identifiers recur across notes, so record count is not source count.
     limits: >-
       Records were created by the same AI conducting this audit; counting cannot
       establish correctness, coverage quality, synthesis independence, or teaching effect.
@@ -64,10 +66,11 @@ readings:
     population_context: Thirteen active research questions and one retired umbrella question.
     design: Scheduled inquiry registry with reasons, lenses, source routes, watch venues, scan dates, and reframe conditions.
     finding: >-
-      Dated-note references were uneven: durable memory and transfer appeared in
-      eight notes; authority and epistemic-justice questions in six each;
-      Indigenous, decolonial, and sovereign pedagogies appeared in one. Density
-      reflects today's route and overlap, not topic importance or completion.
+      Dated-note references were uneven: epistemic justice appeared in 34 notes,
+      teacher knowledge in 29, educational ethics in 24, durable learning in 22,
+      and authority in 20. Seven newer or narrower identifiers appeared once and
+      three appeared twice. Density reflects broad cross-tagging, agenda history,
+      and today's route—not topic importance, independence, depth, or completion.
     limits: >-
       Question references are coarse and some notes substantively cross questions
       they do not list. Counts do not measure depth, quality, or neglected subfields.
@@ -85,9 +88,11 @@ readings:
     design: Constitutional and stable rules plus schema, integrity, privacy-canary, and runtime tests applied after each change block.
     finding: >-
       Research remained in public general notes, developing learner curriculum
-      was explicitly routed outside the repository, and active policy was not
-      silently changed from scans. Validation caught invalid depth labels,
-      identifiers, and agenda references before commits.
+      was explicitly routed outside the repository, and active teaching policy
+      was not silently changed from scans. Validation caught invalid depth labels,
+      identifiers, and agenda references before commits. An automated resolution
+      check covered 275 distinct DOI-bearing URLs; manual follow-up on anomalous
+      results found and corrected six substantive citation-metadata errors.
     limits: >-
       Tests establish structural and selected policy invariants, not source
       accuracy, pedagogical wisdom, accessibility in use, or learner benefit.
@@ -172,6 +177,46 @@ claims:
       for every small reversible choice; bounded autonomous judgment remains necessary.
     boundary_conditions: Consequence, public reach, domain, affected authority, privacy, compensation, urgency, reversibility, and disagreement.
     does_not_license: Simulated consensus, token consultation, learner labor as quality assurance, or outsourcing responsibility to a reviewer.
+
+  - id: reconnaissance-depth-must-constrain-voice
+    statement: >-
+      Because 435 of 515 reading records were partial readings, abstract-level
+      screenings, or citation traces, the corpus supports route finding,
+      contradiction discovery, and bounded working hypotheses more strongly than
+      fine-grained adjudication of the underlying literatures.
+    confidence: high
+    source_ids: [professor-research-notes-2026-08-12]
+    supports: >-
+      Keep reading depth beside every finding, reserve confident mechanism claims
+      for inspected methods and convergent evidence, and reopen original texts
+      before promotion or consequential use.
+    tensions: >-
+      Full-text access does not guarantee comprehension, while a precise abstract
+      or official record can sometimes establish the limited fact actually used.
+    boundary_conditions: Claim granularity, source genre, reading purpose, method complexity, access, language, and consequence.
+    does_not_license: Treating all partial readings as worthless, laundering abstracts into readings, or using volume to compensate for shallow access.
+
+  - id: bibliographic-integrity-is-part-of-pedagogical-integrity
+    statement: >-
+      Citation metadata is not decorative: incorrect authorship, venue, date, or
+      DOI can block inspection, misattribute labor, and make an otherwise cautious
+      synthesis falsely auditable.
+    confidence: high
+    source_ids: [professor-research-notes-2026-08-12, professor-contract-and-validation-2026-08-12]
+    supports: >-
+      Resolve identifiers, compare publisher or index metadata, inspect anomalous
+      links manually, and record unresolved discrepancies before relying on a source.
+    tensions: >-
+      Publisher pages can block automation, online-first metadata can change, and
+      alternate legitimate records should not be normalized into false uniformity.
+    boundary_conditions: Source type, persistent identifier, publication state, official correction, alternate edition, and access route.
+    does_not_license: Deleting inaccessible sources, equating HTTP status with validity, trusting search snippets as final metadata, or claiming the unchecked remainder is correct.
+
+contradictions:
+  - Breadth materially improved the map of teaching, yet its pace produced shallow reading and six caught citation errors; more coverage simultaneously increased insight and the surface for error.
+  - Recurring commitments to refusal, dignity, explicit warrant, and learner agency are genuine cross-field safeguards, yet their frequency also reveals the constitutional lens through which sources were selected and interpreted.
+  - Structured records make limits and contradictions visible, yet a fixed schema can reward fluent completion of fields and disguise uneven epistemic labor.
+  - The corpus spans many traditions and domains, yet English-language digital discoverability, higher education, systematic reviews, and recent publication remain structurally advantaged.
 implications:
   - >-
     Do not add an omnibus “best practices” document. The notes should remain
@@ -188,6 +233,14 @@ implications:
     No new active tack is warranted at this checkpoint. The study has improved
     boundaries, future source routes, and teacherly judgment while preserving
     the constitutional and promotion gates.
+  - >-
+    Treat all 80 notes as a reconnaissance corpus. Before a note supports bundled
+    curriculum, active policy, or a consequential recommendation, reread its
+    decisive sources and recheck metadata, lineage, population, and counterevidence.
+  - >-
+    Add no “coverage score” or completion percentage. The audit found no defensible
+    denominator for pedagogy, no stable equivalence among records, and no basis for
+    calling the field or any agenda question exhausted.
 open_questions:
   - Which citations, dates, author lists, access labels, and source interpretations fail an independent bibliographic audit?
   - Which claims merely restate Professor policy and should be pruned from later synthesis rather than multiplied?
@@ -195,9 +248,9 @@ open_questions:
   - Which harms and educational goods remain invisible because the audit schema privileges articulate written claims?
   - What evidence after actual teaching would warrant changing a general rule without leaking learner data or universalizing one case?
 next_actions:
-  - Run bibliographic and duplication audits on a sample of high-consequence citations and all future promoted proposals.
+  - Complete a bibliographic and duplication audit of high-consequence citations and every future promoted proposal; today's DOI pass corrected six errors but did not verify the corpus exhaustively.
   - Build a later quarterly synthesis by claim family and contradiction, not by concatenating the notes.
-  - Continue the current bounded study through underrepresented philosophy, assessment, access, institutional, and topic-specific lanes before final audit.
+  - Deep-read a deliberately small counter-sample from underrepresented languages, regions, learner-authored work, disability-led work, and community-governed sources before the next broad synthesis.
   - End with a clean repository and an honest account of what changed, what did not, and what remains unknown.
 privacy_attestation: no-learner-data
 copyright_attestation: citations-and-independent-paraphrases-only
