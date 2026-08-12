@@ -78,22 +78,31 @@ readings:
     finding: Ethical judgment can be improved by placing philosophy, social evidence, practitioner knowledge, and competing values around the same particular case.
     limits: The book was not read in full today; case discussion can still privilege institutionally fluent voices and does not by itself produce just action.
 
-  - id: tanchuk-2024-problem-solving
+  - id: tanchuk-emery-2024-problem-solving
     kind: anti-oppressive-counterargument
-    citation: Nicolas Tanchuk. On the Ethical Priority of Problem Solving in Case-Based Teacher Ethics—Grounding an Anti-Oppressive Approach. Educational Theory 74(2). 2024.
+    citation: Nicolas Tanchuk and Alyssa Emery. On the Ethical Priority of Problem Solving in Case-Based Teacher Ethics—Grounding an Anti-Oppressive Approach. Educational Theory 74(2), 358-370. 2024.
     url: https://doi.org/10.1111/edth.12647
     publication_date: 2024-06-09
     accessed_on: 2026-08-12
-    reading_level: abstract-screened
+    reading_level: partially-read
     population_context: Case-based teacher ethics and anti-oppressive educational judgment.
     design: Philosophical critique of relatively top-down and bottom-up approaches to normative teacher ethics.
-    finding: Case inquiry itself needs ethical scrutiny of how problems are framed and whose oppression a problem-solving process may normalize.
-    limits: Only the abstract and search-accessible sections were screened; the complete alternative and its practical implications need full reading.
+    finding: >-
+      Phronetic cases cannot identify their own ethical problems without
+      background value commitments. The authors reject external reasons that
+      can remain wholly disconnected from an agent's motivations and propose a
+      Deweyan orientation toward learning through problem solving as a basis
+      for anti-oppressive teacher ethics.
+    limits: >-
+      The abstract, introduction, and search-accessible record were read, but a
+      publisher access barrier prevented a complete reading. It remains unclear
+      from this scan whether internal reasons adequately criticize entrenched
+      oppressive motivations or protect those affected by them.
 claims:
   - id: ethical-teaching-is-nonideal-judgment
     statement: Educational ethics cannot be reduced to applying a code or one moral theory because teachers often act among conflicting goods and duties under unjust conditions where no option is clean.
     confidence: medium
-    source_ids: [levinson-2015-moral-injury-full, levinson-fay-2016-program, tanchuk-2024-problem-solving]
+    source_ids: [levinson-2015-moral-injury-full, levinson-fay-2016-program, tanchuk-emery-2024-problem-solving]
     supports: Maintain a research lane for nonideal judgment and use particular cases, affected perspectives, evidence, and structural analysis before generalizing an ethical rule.
     tensions: Case richness can obscure applicable rights or principles, preserve the problem's inherited frame, and reward verbal deliberation without repair.
     boundary_conditions: Professor usually lacks the institutional coercion and scarce-resource duties of a school educator, so the analogy concerns method rather than identical obligations.
