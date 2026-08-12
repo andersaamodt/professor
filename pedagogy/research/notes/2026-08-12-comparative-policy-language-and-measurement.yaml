@@ -1,0 +1,156 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: comparative-policy-language-and-measurement-2026-08-12
+title: Pedagogical practices do not travel alone—their purposes, institutions, languages, and power travel or disappear
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [technology-datafication-personalization-and-public-value, epistemic-justice-curriculum-and-knowledge-access, indigenous-decolonial-and-sovereign-pedagogies]
+scope: Comparative and international education, policy borrowing, global metrics, foundational learning, multilingual education, public purposes, decolonial critique, and transfer of pedagogical evidence.
+method:
+  search_date: 2026-08-12
+  approach: Compared policy-borrowing history, global indicator design and independent evaluation, multilingual guidance, futures-of-education consultation, and decolonial analyses of governance and data infrastructures.
+  inclusion: Sources making visible problem definition, measurement, policy travel, language, implementation systems, historical power, or plural public purposes.
+  exclusions: Country rankings as causal explanation, culture as residual variable, deficit narratives, one-country success stories, global North as baseline, and translation as word substitution.
+  limitations: Global organizations are both evidence producers and policy actors; national labels conceal internal variation, and broad decolonial critique does not decide every local implementation question.
+readings:
+  - id: steiner-khamsi-quist-2000-achimota
+    kind: comparative-historical-case
+    citation: Steiner-Khamsi, G., & Quist, H. O. (2000). The politics of educational borrowing—Reopening the case of Achimota in British Ghana. Comparative Education Review, 44(3), 272-299. https://doi.org/10.1086/447615
+    url: https://eric.ed.gov/?id=EJ610380
+    publication_date: 2000-08-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Colonial educational reform at Achimota and its later narration as an instance of imported progressive education.
+    design: Comparative historical reinterpretation of policy borrowing.
+    finding: Educational borrowing is politically translated and used for local legitimation rather than copied intact from an origin system.
+    limits: One colonial-historical case; abstract screening narrows assessment of archive, actors, and alternative explanations.
+
+  - id: world-bank-uis-learning-poverty
+    kind: global-composite-indicator
+    citation: World Bank & UNESCO Institute for Statistics. (2019-current). Learning Poverty.
+    url: https://www.worldbank.org/en/topic/education/brief/what-is-learning-poverty
+    publication_date: 2019-10-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Primary-age children in low- and middle-income countries, combining out-of-school status and minimum reading proficiency.
+    design: Harmonized composite indicator using cross-national schooling and assessment data.
+    finding: The indicator makes visible the large proportion of children excluded from schooling or unable to read and understand a simple age-appropriate text.
+    limits: Missing and noncomparable data, language and test differences, threshold loss, modelled estimates, and a narrow domain cannot represent education quality or cause.
+
+  - id: world-bank-ieg-2024-learning-crisis
+    kind: independent-institutional-evaluation
+    citation: World Bank Independent Evaluation Group. (2024). Confronting the Learning Crisis—Lessons from World Bank Support for Basic Education.
+    url: https://ieg.worldbankgroup.org/evaluations/confronting-learning-crisis
+    publication_date: 2024-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: World Bank basic-education portfolios and country systems in low- and middle-income settings.
+    design: Independent evaluation of strategy, analytics, partnerships, country engagement, measurement, and systems support.
+    finding: Outcome attention was valuable, but data gaps and weak integration of measurement with teacher-career and system reform limited the institution's approach.
+    limits: Internal independence remains institutionally situated; portfolio evaluation aggregates heterogeneous countries, time periods, and interventions.
+
+  - id: unesco-gem-2025-multilingual-policy
+    kind: global-monitoring-policy-synthesis
+    citation: UNESCO Global Education Monitoring Report Team. (2025). The right multilingual education policies can unlock learning and inclusion.
+    url: https://www.unesco.org/gem-report/en/publication/right-multilingual-education-policies-can-unlock-learning-and-inclusion
+    publication_date: 2025-02-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Learners, teachers, and systems using home, national, colonial, minority, Indigenous, and additional languages.
+    design: Global evidence and policy synthesis on medium of instruction and multilingual transition.
+    finding: Sustained home-language instruction alongside staged additional-language learning supports access and learning, while uptake is constrained by staffing, materials, and political opposition.
+    limits: “Home language” may be multiple or unwritten, community preferences conflict, and program quality and transition designs vary.
+
+  - id: unesco-2021-futures-education
+    kind: international-commission-report
+    citation: International Commission on the Futures of Education. (2021). Reimagining Our Futures Together—A New Social Contract for Education. UNESCO.
+    url: https://www.unesco.org/en/articles/rethinking-our-futures-together-0
+    publication_date: 2021-11-03
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Global publics consulted about education, planetary futures, justice, knowledge, technology, teachers, and institutions.
+    design: Two-year international commission and consultation process.
+    finding: Frames education as a public and common good oriented to cooperation, justice, sustainability, lifelong right, and plural knowledge rather than solely human capital.
+    limits: Aspirational global consensus, unclear representational weight, and no causal evidence that recommendations produce their stated futures.
+
+  - id: saito-et-al-2023-global-citizenship-hawaii
+    kind: decolonial-theoretical-case-analysis
+    citation: Saito, Y., Edwards, D. B., Sustarsic, M., & Taira, D. (2023). The onto-epistemic foundations of global governance and global education policies—A decolonial analysis of global citizenship education in Hawai'i. Comparative Education Review, 67(4). https://doi.org/10.1086/726613
+    url: https://www.journals.uchicago.edu/doi/abs/10.1086/726613
+    publication_date: 2023-11-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Global citizenship policy encountering Indigenous Hawaiian histories, sovereignty, knowledge, and educational purposes.
+    design: Decolonial analysis of global governance assumptions and an alternative relation to onto-epistemic difference.
+    finding: Universal policy vocabularies can assimilate difference into liberal-capitalist modernity even while claiming global inclusion.
+    limits: Theoretical diagnosis does not yield a single sovereign or locally uncontested curriculum; abstract access limits the case detail.
+
+  - id: shahjahan-2022-data-infrastructures
+    kind: decolonial-policy-analysis
+    citation: Shahjahan, R. A. (2022). Decolonial perspectives on global higher education—Disassembling data infrastructures, reassembling the field. Oxford Review of Education, 48(4). 
+    url: https://eric.ed.gov/?id=EJ1357480
+    publication_date: 2022-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Global higher-education comparison, rankings, data infrastructures, and dominant imaginaries.
+    design: Critical synthesis drawing on anticolonial, postcolonial, feminist, and decolonial scholarship.
+    finding: Comparative data infrastructures do not merely describe institutions; they organize visibility, aspiration, competition, and what counts as a university.
+    limits: Critique of commensuration still needs practical ways to compare injustice and resource denial without abandoning shared evidence.
+contradictions:
+  - Common metrics can expose massive denial of a basic capability, yet the same metric can narrow purpose, erase language conditions, invite rankings, and substitute monitoring for provision.
+  - Policy borrowing can introduce useful mechanisms, but “what worked elsewhere” often performs domestic legitimation while labor, finance, governance, and purpose are silently changed.
+  - Global solidarity needs transnational knowledge exchange, while a universal vocabulary can reproduce colonial authority over problems, evidence, and desirable futures.
+  - Home-language education supports inclusion and learning, but languages are politically stratified and families may seek dominant-language access for survival and mobility.
+claims:
+  - claim: Transfer requires reconstructing a mechanism inside a receiving ecology, not copying an intervention label.
+    evidence: comparative-historical-and-evaluative-synthesis
+    confidence: high
+    source_ids: [steiner-khamsi-quist-2000-achimota, world-bank-ieg-2024-learning-crisis]
+    supports: Specify purpose, mechanism, resources, teacher labor, authority, language, infrastructure, incentives, affected groups, adaptations, and outcome horizon.
+    tensions: Demanding perfect contextual knowledge can protect the status quo and block useful experimentation.
+    boundary_conditions: Political legitimacy, financing, labor, curriculum, assessment, governance, language, scale, history, and implementation capacity.
+    does_not_license: “Best practice,” country imitation, ranking-based causation, culture blame, or importing branded pedagogy without local co-design.
+
+  - claim: A global indicator is a political and epistemic instrument as well as a measurement instrument.
+    evidence: institutional-and-critical-synthesis
+    confidence: high
+    source_ids: [world-bank-uis-learning-poverty, world-bank-ieg-2024-learning-crisis, shahjahan-2022-data-infrastructures]
+    supports: Inspect construct, threshold, denominator, language, missingness, harmonization, uncertainty, use, incentives, and excluded purposes before acting on a number.
+    tensions: Critique must not make preventable exclusion invisible or give institutions cover to avoid public accountability.
+    boundary_conditions: Data availability, sampling, assessment comparability, language, disability, schooling exclusion, conflict, and policy use.
+    does_not_license: Ranking learners or countries, causal diagnosis from level estimates, collapsing education into reading, or treating missing data as low priority.
+
+  - claim: Language is part of the knowledge relation and institutional settlement, not a delivery channel wrapped around invariant content.
+    evidence: global-synthesis-with-critical-qualification
+    confidence: high
+    source_ids: [unesco-gem-2025-multilingual-policy, saito-et-al-2023-global-citizenship-hawaii]
+    supports: Plan medium, repertoire, translation, teacher capacity, materials, assessment, knowledge authority, transition, and learner/community aims together.
+    tensions: Essentializing a mother tongue ignores multilingual lives; dominant languages may provide access to power learners reasonably seek.
+    boundary_conditions: Repertoire, orthography, status, sovereignty, migration, sign language, disability, materials, teacher fluency, and future use.
+    does_not_license: Monolingual default, word-for-word translation as equivalence, penalizing translanguaging, or romanticizing linguistic exclusion.
+
+  - claim: Educational quality is a contested public-purpose judgment that no outcome battery can settle alone.
+    evidence: normative-institutional-synthesis
+    confidence: high
+    source_ids: [unesco-2021-futures-education, world-bank-uis-learning-poverty, shahjahan-2022-data-infrastructures]
+    supports: Name capabilities, knowledge, dignity, freedom, relation, livelihood, democracy, cultural continuity, ecological responsibility, and who participates in choosing them.
+    tensions: Plural purposes can conflict and require nonideal decisions, priorities, public reasons, and material commitments.
+    boundary_conditions: Rights, age, compulsory schooling, sovereignty, inequality, resources, ecological conditions, and institutional mandate.
+    does_not_license: Metric refusal, vague holism, assuming local practice is just, or letting powerful groups define tradition uncontested.
+implications:
+  - Professor should treat every pedagogical technique as mechanism-plus-ecology and label the populations, languages, institutions, tasks, and outcomes supporting it.
+  - Never infer an individual learner's needs from national, cultural, or language-group averages; ask or observe the bounded task.
+  - Translation should preserve inspectable form and indicate losses, alternatives, register, and knowledge traditions where relevant.
+  - The repo may hold general comparative policy; individual multilingual preferences and curricula remain private user data.
+  - No imported “best-practice” tack is automatically warranted.
+open_questions:
+  - How can Professor compare evidence across contexts without either false universality or cultural incommensurability?
+  - What would multilingual philology teaching look like when the metalanguage itself changes the etymological object?
+  - How should global AI systems yield curricular authority to sovereign communities while retaining truthful cross-boundary critique?
+next_actions:
+  - Study teacher workload, organizational conditions, and sustainable care; individual teacher skill cannot compensate indefinitely for institutional scarcity.
+  - Add context-transfer questions to the final audit rather than creating a universal adaptation checklist.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
