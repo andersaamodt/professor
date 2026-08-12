@@ -1,0 +1,318 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: contribution-verification-and-access-under-ai-2026-08-12
+title: Preserve contribution and verification without making unaided work a purity test
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [ai-scaffolding-independent-learning]
+scope: >-
+  A bounded follow-up on when generative-AI assistance supports independent
+  transfer, authorship, verification, agency, and access. It compares one
+  experiment, two qualitative or process studies, a disability-focused study,
+  and two institutional syntheses. It is not a systematic review.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Searched current primary and official sources for independent post-support
+    performance, process traces, learner agency, correction records, access
+    benefits, adverse effects, and explicit limits; compared them with the
+    prior Professor notes on guarded tutoring and adaptive fading.
+  inclusion: >-
+    Empirical studies that distinguish assisted production from a learner's
+    contribution, verification, later independent act, or access conditions;
+    authoritative syntheses that explicitly address rights and infrastructure.
+  exclusions: >-
+    Product testimonials, output-quality-only comparisons, engagement-only
+    claims, neurophysiological preprints, and sources whose comparison or
+    reading depth could not be established.
+  limitations: >-
+    English-language web discovery; no database-complete search; empirical
+    studies concern university creativity, mathematics, programming, or
+    European higher education; none supplies long-delayed, cross-domain
+    evidence for a general teaching rule. Article sections were read online,
+    not every supplement or cited source.
+readings:
+  - id: wong-qiu-2026-think-first
+    kind: randomized-intervention-study
+    citation: >-
+      Wong, S. S. H., & Qiu, S. X. (2026). Think First, ChatGPT Later:
+      Guiding Human-AI Collaboration for Learning Gains in Independent Human
+      Creativity. Educational Psychology Review, 38, 45.
+      https://doi.org/10.1007/s10648-026-10118-7
+    url: https://doi.org/10.1007/s10648-026-10118-7
+    publication_date: 2026-04-15
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 196 university students aged 18 to 29 at one public university in Singapore.
+    design: >-
+      Participants were randomly assigned to human-only, free ChatGPT, or a
+      three-phase condition: generate initial ideas, use ChatGPT to improve and
+      evaluate them, then submit independently. All then completed a different,
+      more complex creative task without AI in the same approximately
+      30-minute laboratory session.
+    finding: >-
+      Free AI improved the assisted creative product but not the subsequent
+      independent product. The structured group did not lead during assisted
+      production but produced more original and useful subsequent products
+      than both comparisons. Interaction coding linked prompts that improved
+      a participant's own ideas with later originality, but not later
+      usefulness.
+    limits: >-
+      Methods, main analyses, discussion, and limitations were read, not every
+      appendix. The post-task was immediate and changed both difficulty and
+      product type. The compound structure was not compared with an equally
+      structured non-AI condition, so the contribution of AI itself remains
+      unresolved.
+
+  - id: liu-fan-pan-2026-tool-tutor-crutch
+    kind: constructivist-grounded-theory-study
+    citation: >-
+      Liu, D., Fan, G., & Pan, L. (2026). Tool, tutor, or crutch?: A grounded
+      theory of cognitive scaffolding and offloading in AI-assisted programming
+      education. International Journal of STEM Education, 13, 10.
+      https://doi.org/10.1186/s40594-025-00592-w
+    url: https://doi.org/10.1186/s40594-025-00592-w
+    publication_date: 2026-03-13
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: >-
+      41 undergraduate Java students across naturally occurring sections at
+      one Chinese public university; 24 used GitHub Copilot and 17 formed a
+      human pair-programming theoretical contrast.
+    design: >-
+      Semester-long triangulation of interaction logs, pre/post concept maps,
+      and dyadic interviews. Sections were neither randomized nor treated as
+      causal controls.
+    finding: >-
+      The authors describe movement between inquiry-and-verification and rapid
+      delegation. Time pressure, task familiarity, and complexity co-occurred
+      with those shifts. Some participants conflated skill at steering the tool
+      with programming competence; contrasting designs, tests, failure cases,
+      and traceable rationale appeared in more reflective cases.
+    limits: >-
+      The account is theory-building and ecology-specific. Instructor, section,
+      peer, language, and timing differences confound contrasts; concept maps
+      are narrow descriptive artifacts; interviews near exams confound anxiety
+      and calibration; delayed transfer was not measured.
+
+  - id: liu-fan-pan-2026-correction
+    kind: official-correction
+    citation: >-
+      Liu, D., Fan, G., & Pan, L. (2026). Correction: Tool, tutor, or crutch?:
+      A grounded theory of cognitive scaffolding and offloading in AI-assisted
+      programming education. International Journal of STEM Education, 13, 14.
+      https://doi.org/10.1186/s40594-026-00611-4
+    url: https://doi.org/10.1186/s40594-026-00611-4
+    publication_date: 2026-04-07
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Correction record for the programming study.
+    design: Publisher correction.
+    finding: The correction identifies Guangrui Fan as the sole corresponding author.
+    limits: It does not change the reported design, findings, or interpretation.
+
+  - id: yoon-lee-lee-kwon-2026-before-after
+    kind: qualitative-content-analysis
+    citation: >-
+      Yoon, H., Lee, Y., Lee, K., & Kwon, O. N. (2026). Before or after? Beyond
+      timing of students' interaction with generative artificial intelligence
+      in proving mathematical statements. ZDM - Mathematics Education.
+      https://doi.org/10.1007/s11858-026-01800-9
+    url: https://doi.org/10.1007/s11858-026-01800-9
+    publication_date: 2026-05-29
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: >-
+      30 undergraduate mathematics-education majors in Korea, using GPT-4o
+      during supervised proof activities.
+    design: >-
+      Students experienced both AI-after-initial-proof and AI-before-proof
+      conditions across two sessions. The reported analysis used the second
+      session's proofs, logs, a near independent proof, and reflections.
+    finding: >-
+      Both sequences strongly shaped later proofs, with no substantial
+      difference in incorporation of AI-generated structures. Starting from a
+      learner draft more often positioned AI as a revision and validation
+      resource; starting with AI more often positioned it as a model. Learners
+      described a tradeoff between independent engagement and efficient entry.
+    limits: >-
+      Small, specialized sample; qualitative counts; one near task; ordering
+      effects; self-report; no long-term conceptual or transfer outcome. The
+      authors explicitly refrain from a long-term efficacy claim.
+
+  - id: pierrez-darvishy-christen-2025-disability
+    kind: qualitative-interview-study
+    citation: >-
+      Pierrès, O., Darvishy, A., & Christen, M. (2025). Exploring the role of
+      generative AI in higher education: Semi-structured interviews with
+      students with disabilities. Education and Information Technologies, 30,
+      8923-8952. https://doi.org/10.1007/s10639-024-13134-8
+    url: https://doi.org/10.1007/s10639-024-13134-8
+    publication_date: 2024-11-25
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: >-
+      33 self-selected ChatGPT-using students with disabilities at European
+      universities, mainly neurodivergent students and students with chronic
+      conditions or visual impairments.
+    design: Semi-structured interviews in German, French, or English.
+    finding: >-
+      Participants described assistance with reading, writing, organization,
+      communication, and otherwise inaccessible course material as increasing
+      autonomy and reducing effort. They also identified inaccuracy, prompting
+      demands, visual-access barriers, privacy, overreliance, and loss of human
+      contact.
+    limits: >-
+      The study reports perceived uses and barriers, not learning effects. It
+      missed motor-impaired and AAC-using students, thinly represented hearing
+      impairment, and selected people with prior ChatGPT use and frequent
+      contact with accommodation systems.
+
+  - id: oecd-2026-digital-education-outlook
+    kind: intergovernmental-evidence-synthesis
+    citation: >-
+      OECD. (2026). OECD Digital Education Outlook 2026: Exploring Effective
+      Uses of Generative AI in Education. OECD Publishing.
+      https://doi.org/10.1787/062a7394-en
+    url: https://doi.org/10.1787/062a7394-en
+    publication_date: 2026-01-19
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-official-record-screened
+    population_context: International policy and research synthesis.
+    design: Evidence synthesis and expert analysis; the full 267-page report was not read in this scan.
+    finding: >-
+      The official summary distinguishes performance with general-purpose AI
+      from learning, argues for selective pedagogical purpose, and includes
+      human agency, teacher co-design, privacy, safety, infrastructure, and
+      alternative access among the design conditions.
+    limits: >-
+      Summary language aggregates heterogeneous emerging evidence. Its policy
+      recommendations do not establish the effectiveness of any single
+      sequence or interface.
+
+  - id: unesco-2025-rights-of-learners
+    kind: intergovernmental-rights-report
+    citation: >-
+      UNESCO. (2025). AI and education: Protecting the rights of learners.
+      UNESCO. https://www.unesco.org/en/articles/ai-and-education-protecting-rights-learners
+    url: https://www.unesco.org/en/articles/ai-and-education-protecting-rights-learners
+    publication_date: 2025-09-04
+    accessed_on: 2026-08-12
+    reading_level: abstract-and-official-record-screened
+    population_context: Global education systems, with attention to structurally marginalized learners.
+    design: Rights-based policy report; only the official web summary was screened.
+    finding: >-
+      The report places equitable access, privacy, transparency, accountability,
+      and inclusion inside educational quality rather than treating them as
+      secondary implementation details.
+    limits: >-
+      The summary provides a normative frame and selected global statistics,
+      not a causal estimate of AI-supported learning.
+claims:
+  - id: contribution-before-assistance-is-promising-not-universal
+    statement: >-
+      Preserving a learner contribution before AI assistance can support later
+      independent work by giving feedback something authored to transform, but
+      present evidence does not justify a universal think-first requirement.
+    confidence: medium
+    source_ids: [wong-qiu-2026-think-first, yoon-lee-lee-kwon-2026-before-after]
+    supports: >-
+      Invite a prediction, draft, proof move, design, or criterion before AI
+      assistance when the learner has enough footing and the contribution has
+      diagnostic or generative value.
+    tensions: >-
+      The strongest experiment is immediate, single-domain, and compound; the
+      proof study found that both sequences shaped later work and did not show
+      a long-term conceptual advantage.
+    boundary_conditions: >-
+      Initial contribution should be brief, supported, and skippable for true
+      novices, depleted learners, high-stakes tasks, direct-answer requests, or
+      access uses where assistance enables participation itself.
+    does_not_license: >-
+      Withholding answers, compulsory struggle, grading prompt rituals, or
+      treating unaided production as morally superior to authentic tool use.
+
+  - id: tool-use-needs-an-epistemic-function
+    statement: >-
+      The consequential distinction is not simply AI-on versus AI-off, but
+      whether the tool replaces or supports the target acts of generating,
+      selecting, explaining, testing, revising, and judging.
+    confidence: medium
+    source_ids: [wong-qiu-2026-think-first, liu-fan-pan-2026-tool-tutor-crutch, yoon-lee-lee-kwon-2026-before-after]
+    supports: >-
+      Name which judgments remain the learner's, require evidence-bearing
+      comparison or verification when those are the target, and test transfer
+      under the tools that genuinely belong to the future practice.
+    tensions: >-
+      Logs and interviews can reveal process without proving which process
+      caused learning; expert practice often includes delegation and social or
+      technical verification rather than solitary unaided work.
+    boundary_conditions: >-
+      Remove a tool only when independence from that tool is part of the claim;
+      otherwise vary the problem while retaining authentic resources.
+    does_not_license: >-
+      Calling all offloading harmful, equating authorship with isolation, or
+      claiming that visible effort is evidence of learning.
+
+  - id: access-can-change-the-meaning-of-scaffolding
+    statement: >-
+      Assistance that appears to reduce unaided effort may instead remove an
+      exclusionary barrier and increase substantive autonomy; scaffold fading
+      must therefore target dependency on dispensable support, not access tools
+      or legitimate accommodations.
+    confidence: medium
+    source_ids: [pierrez-darvishy-christen-2025-disability, oecd-2026-digital-education-outlook, unesco-2025-rights-of-learners]
+    supports: >-
+      Preserve equivalent access, ask what intellectual act the support makes
+      possible, and include affected users in design and evaluation.
+    tensions: >-
+      The disability study is self-selected and perceptual; current tools also
+      introduce accessibility, accuracy, privacy, cost, and prompting barriers.
+    boundary_conditions: >-
+      No single modality, AI interface, or accommodation is universally
+      accessible; the relevant outcome is equivalent intellectual opportunity.
+    does_not_license: >-
+      Inferring disability, prescribing AI as accommodation, removing human
+      support, or exempting assistive systems from accuracy and privacy review.
+
+  - id: calibration-must-separate-tool-and-domain-mastery
+    statement: >-
+      Evaluation should distinguish confidence in steering a tool from
+      confidence and capability in the target domain while recognizing that
+      competent tool use may itself be an authentic target.
+    confidence: low
+    source_ids: [liu-fan-pan-2026-tool-tutor-crutch, wong-qiu-2026-think-first]
+    supports: >-
+      Use paired evidence when stakes warrant it: one authentic tool-enabled
+      act and one changed-surface act that isolates the specific judgment or
+      knowledge claimed to be independently available.
+    tensions: >-
+      The programming account is noncausal and the creativity study did not
+      test delayed calibration. Extra checks impose time and access costs.
+    boundary_conditions: >-
+      The check must match the claim; routine low-stakes encounters do not owe
+      a test, and expert distributed cognition should not be misclassified as
+      dependence.
+    does_not_license: >-
+      Surveillance of interaction logs, constant testing, or treating tool
+      fluency as counterfeit competence.
+implications:
+  - No active tack change is warranted; Professor already supports wagers, bounded productive failure, voluntary hints, scaffold fading, transfer, agency, and equivalent access.
+  - Future AI research notes should code the epistemic function retained by the learner, not only model, prompt, and access condition.
+  - An independence measure should state which tools are removed and why; authentic tool-enabled transfer and targeted unaided evidence answer different questions.
+  - The phrase guardrail should be unpacked into accuracy support, sequencing, verification, disclosure, learner control, and answer access because these mechanisms have different benefits and risks.
+open_questions:
+  - Does contribution-before-assistance improve delayed transfer when compared with an equally structured non-AI condition?
+  - Which help-seeking and answer-reveal controls preserve agency without collapsing into one-shot substitution?
+  - How should authentic distributed cognition be assessed when experts normally use AI, peers, references, tests, or assistive technology?
+  - Which disabled-led and Global South studies define AI-supported independence differently from current laboratory measures?
+  - When does critique-the-AI become a repetitive compliance ritual rather than an evidence-bearing act?
+next_actions:
+  - Deep-read the OECD report's evidence chapters and audit which primary studies actually include delayed outcomes.
+  - Search disabled-led, multilingual, low-bandwidth, and non-university work before proposing a general AI-scaffolding tack.
+  - Compare answer-on-request interfaces with forced hint-only tutors on learning, agency, time cost, and accessibility.
+  - Seek replications, preregistrations, nulls, and corrections for the 2026 contribution-before-assistance studies.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted

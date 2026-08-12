@@ -19,8 +19,8 @@ questions:
     lenses: [experimental, learning-process, metacognitive, agency, accessibility, critical-technology]
     source_routes: [primary-experiments, systematic-reviews, learning-analytics, qualitative-use-studies, corrections-and-retractions]
     watch_venues: [Journal of the Learning Sciences, Learning and Instruction, Computers & Education, npj Science of Learning, AIED and ISLS proceedings]
-    last_scanned_on: 2026-08-10
-    next_scan_on: 2026-08-17
+    last_scanned_on: 2026-08-12
+    next_scan_on: 2026-08-19
     reframe_when: Independent delayed outcomes and learner agency are no longer distinguishable within one question.
 
   - id: assessment-and-authorship-under-ai
