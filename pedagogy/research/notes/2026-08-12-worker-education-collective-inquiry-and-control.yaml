@@ -1,0 +1,165 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: worker-education-collective-inquiry-and-control-2026-08-12
+title: Workers need education about work that is not governed by the employer's purpose
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [adult-development-prior-knowledge-and-self-direction, critical-pedagogies-dialogue-power-and-refusal, educational-ethics-and-nonideal-judgment]
+scope: >-
+  Workers' education, trade-union education, labor colleges, liberal adult
+  education, popular education, collective inquiry, institutional control,
+  professionalization, political purpose, and the limits of AI-mediated individual study.
+method:
+  search_date: 2026-08-12
+  approach: Compared historical worker-controlled texts and learner records with institutional histories, trade-union education guidance, and critiques of university-worker partnership.
+  inclusion: Worker voice, governance, curriculum purpose, labor history, collective capacity, and tensions between liberal, vocational, and movement education.
+  exclusions: Human-resources training described as worker education, political transmission without inquiry, and individual career mobility as the sole account of emancipation.
+  limitations: Much evidence is historical and nationally specific; movement success cannot be attributed to education alone; archives preserve unequal voices.
+readings:
+  - id: gleason-1921-workers-education
+    kind: historical-primary-text
+    citation: Gleason, A. (1921). Workers' Education. Bureau of Industrial Research.
+    url: https://commons.princeton.edu/eng574-s23/wp-content/uploads/sites/348/2023/03/2_Gleason-Workers-Education-1921.pdf
+    publication_date: 1921-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Early twentieth-century workers' education movements, labor colleges, unions, and educational associations.
+    design: Contemporary survey and argument about institutions, curricula, teachers, finance, and worker control.
+    finding: Worker participation in control was treated as constitutive of workers' education, not merely a target audience for externally designed adult instruction.
+    limits: The text's period language, exclusions, and movement judgments require historical critique rather than adoption.
+
+  - id: ilo-2007-union-education
+    kind: international-worker-education-overview
+    citation: International Labour Organization Bureau for Workers' Activities. (2007). The Role of Trade Unions in Workers' Education—The Key to Trade Union Capacity Building.
+    url: https://www.ilo.org/resource/conference-paper/role-trade-unions-workers-education-key-trade-union-capacity-building
+    publication_date: 2007-10-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Trade unions and labor educators across varied national and sectoral settings.
+    design: Discussion paper synthesized from labor-educator meetings to support international deliberation.
+    finding: Worker education builds collective organizational capacity through rights knowledge, leadership, bargaining, participation, and analysis, not only individual occupational skill.
+    limits: Capacity-building language can privilege organizational continuity, official leadership, or donor agendas over rank-and-file inquiry and dissent.
+
+  - id: lee-2020-wea-oxford-report
+    kind: critical-history
+    citation: Lee, C.-H. (2021). Idealism, professionalism and the origins of the Workers' Educational Association—Revisiting the Oxford Report of 1908. History of Education, 50(5), 587-604. https://doi.org/10.1080/0046760X.2020.1833992
+    url: https://doi.org/10.1080/0046760X.2020.1833992
+    publication_date: 2020-12-21
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: The early British Workers' Educational Association and university adult-education movement.
+    design: Historical reinterpretation of a founding report and its professional, idealist, institutional, and class contradictions.
+    finding: Expanding access through university-worker partnership can coexist with contested authority over knowledge, professional status, political purpose, and institutional control.
+    limits: A documentary case about origins does not characterize every later WEA practice or worker response.
+
+  - id: kumbhat-2021-wea-logbooks
+    kind: learner-record-historical-study
+    citation: Kumbhat, P. (2021). The experience of adult education—Workers' Educational Association tutorial class logbooks as sources. History of Education, 50(2), 257-278. https://doi.org/10.1080/0046760X.2020.1837612
+    url: https://doi.org/10.1080/0046760X.2020.1837612
+    publication_date: 2021-01-08
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Adult learners in British WEA tutorial classes during the 1920s and 1930s.
+    design: Historical analysis of weekly learner logbooks documenting topics, relevance, experience, and perceived consequence.
+    finding: Learner-authored contemporaneous records reveal educational meaning and friction that institutional reports and later outcomes can miss.
+    limits: Writing in an instructor-linked logbook is shaped by literacy, surveillance, selection, survival, and perceived audience.
+
+  - id: davies-2015-wea-professional-identity
+    kind: qualitative-practitioner-study
+    citation: Davies, S. (2015). Workers' Educational Association—A crisis of identity? Personal perspectives on changing professional identities. Concept, 6(3).
+    url: https://concept.lib.ed.ac.uk/Concept/article/view/2402
+    publication_date: 2015-12-17
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Informal adult educators working with and for the WEA from the 1980s through changing policy and funding conditions.
+    design: Qualitative study of educator experience and professional identity over 2005-2014.
+    finding: Funding regimes and professionalization reshape what social-purpose adult education can be, including educator identity and curricular possibility.
+    limits: Personal perspectives do not independently establish sector-wide change and the study is tied to one institutional history.
+claims:
+  - id: control-is-part-of-worker-education
+    statement: >-
+      Education aimed at workers differs politically depending on whether workers
+      can govern its questions, curriculum, teachers, resources, and use.
+    confidence: high
+    source_ids: [gleason-1921-workers-education, ilo-2007-union-education, lee-2020-wea-oxford-report]
+    supports: Ask who commissioned the lesson and who can change it; distinguish worker-controlled, union, employer, state, university, and platform purposes.
+    tensions: Worker organizations contain hierarchy and disagreement; external scholarship and public provision can expand rather than diminish capacity.
+    boundary_conditions: Governance, membership, representation, funding, expertise, curriculum, dissent, and accountability.
+    does_not_license: Treating unions as unitary, anti-intellectualism, rejecting expert contribution, or branding employer compliance as collective education.
+
+  - id: collective-capability-exceeds-individual-skill
+    statement: >-
+      Knowing a right, hazard, contract, history, or economic pattern becomes
+      materially different when people can interpret and act on it together.
+    confidence: high
+    source_ids: [ilo-2007-union-education, gleason-1921-workers-education]
+    supports: Include routes to collective institutions, peer knowledge, representation, and public action when teaching labor questions.
+    tensions: Collective settings can silence minorities or expose workers; solitary study can be a necessary safe first step.
+    boundary_conditions: Retaliation risk, trust, organization, law, identity, privacy, representation, and action capacity.
+    does_not_license: Pressuring organizing, exposing affiliation, simulating solidarity with an AI, or devaluing private reflection.
+
+  - id: liberal-knowledge-can-serve-worker-purpose
+    statement: >-
+      Literature, history, philosophy, political economy, art, and science need
+      not be justified by immediate employability to belong in workers' education.
+    confidence: high
+    source_ids: [gleason-1921-workers-education, kumbhat-2021-wea-logbooks, lee-2020-wea-oxford-report]
+    supports: Preserve curiosity and cultural study as adult rights while allowing learners to connect them to work, class, citizenship, delight, or no instrumental end.
+    tensions: A canonical “liberal” curriculum can impose elite culture and displace urgent practical knowledge.
+    boundary_conditions: Learner purpose, canon authority, time, material constraint, access, and political project.
+    does_not_license: Cultural paternalism, employability-only curricula, romantic hardship, or making leisure study another duty.
+
+  - id: relevance-is-contested
+    statement: >-
+      What counts as relevant may mean today's task, future mobility, collective
+      power, historical understanding, self-expression, public judgment, or freedom from work.
+    confidence: high
+    source_ids: [kumbhat-2021-wea-logbooks, davies-2015-wea-professional-identity, ilo-2007-union-education]
+    supports: Name the intended consequence instead of praising relevance abstractly; let the learner reject an employer-centered frame.
+    tensions: Relevance can emerge after disorientation and need not be known before study begins.
+    boundary_conditions: Time horizon, beneficiary, work relation, political aim, curiosity, and learner authority.
+    does_not_license: Immediate-applicability tests, vague emancipation claims, or dismissing specialized knowledge as elite.
+
+  - id: funding-shapes-pedagogy
+    statement: >-
+      Funding, metrics, credentials, employment conditions, and institutional
+      partnership influence curriculum and voice even when no funder dictates a lesson directly.
+    confidence: high
+    source_ids: [lee-2020-wea-oxford-report, davies-2015-wea-professional-identity]
+    supports: Disclose material sponsors and incentives, protect curricular plurality, and resist evaluation that reduces social purpose to short-term measurable outputs.
+    tensions: Sustainable funding and professional standards can secure access, continuity, quality, and educator livelihood.
+    boundary_conditions: Revenue, governance, metrics, employment, accreditation, procurement, and exit.
+    does_not_license: Purity politics, invisible subsidy, volunteer burnout, or assuming nonprofit means worker-controlled.
+
+  - id: ai-cannot-substitute-for-worker-publics
+    statement: >-
+      An AI can help inspect a contract, history, or concept but cannot constitute
+      the collective organization, reciprocal obligation, situated trust, or power that worker education may require.
+    confidence: high
+    source_ids: [ilo-2007-union-education, gleason-1921-workers-education]
+    supports: Mark the boundary, protect privacy, provide sources and institutional routes, and never simulate union endorsement or collective consensus.
+    tensions: Private AI access can lower informational barriers and support people excluded from meetings, schedules, languages, or formal institutions.
+    boundary_conditions: Jurisdiction, privacy, legal stakes, retaliation, representation, source currency, and needed action.
+    does_not_license: Legal advice without verification, union impersonation, organizing surveillance, or individualizing structural conflict.
+implications:
+  - >-
+    Professor should treat labor history and political economy as legitimate philological contexts when words carry institutional histories, without converting every etymology into one political thesis.
+  - >-
+    A daily invitation may point outward to a worker-authored archive or collective institution, but must not create pressure to disclose work or affiliation.
+  - >-
+    “Learner relevance” must not be inferred from occupation or identity; it is a present, revisable purpose.
+  - >-
+    Existing political-noncoercion, privacy, authority, and material-conditions policies carry the floor. No organizing tactic is installed.
+open_questions:
+  - Which worker-authored archives can support public philology without exposing living people or appropriating movement knowledge?
+  - How can Professor teach legal and contractual language while making jurisdiction, currency, and professional limits unmistakable?
+  - What forms of private preparation genuinely increase collective participation rather than substitute for it?
+  - How should worker education critique automation while making room for worker-governed tools?
+next_actions:
+  - Study cooperative, mutual-aid, community, and popular-education governance beyond trade unions.
+  - Study capabilities and public-goods philosophies that resist reducing education to human capital.
+  - Keep work identity and labor questions private and unstored unless explicitly needed and consented.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
