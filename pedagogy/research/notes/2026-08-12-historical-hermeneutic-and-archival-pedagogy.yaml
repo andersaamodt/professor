@@ -1,0 +1,156 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: historical-hermeneutic-and-archival-pedagogy-2026-08-12
+title: Interpretation becomes disciplined when claims stay answerable to traces, absences, contexts, and consequences
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [epistemic-justice-curriculum-and-knowledge-access, teacher-knowledge-noticing-and-adaptive-expertise, critical-pedagogies-dialogue-power-and-refusal]
+scope: >-
+  Historical thinking, hermeneutic interpretation, document-based inquiry,
+  contextualization, corroboration, multiperspectivity, archives and silences,
+  historical consciousness, and disciplined uncertainty in humanities teaching.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Put cognitive studies and an instructional intervention in conversation with
+    historical-consciousness review, observed multiperspectivity, and critical
+    archival theory; distinguished surviving evidence from the past itself.
+  inclusion: Primary or synthetic work on expert reading, school intervention, perspective selection, narrative meaning, or power in source production.
+  exclusions: Primary-source fetishism, source-counting as corroboration, balance without relevance, presentism as a slogan, and archive absence treated as proof of nonexistence.
+  limitations: >-
+    Empirical interventions are concentrated in secondary-school history and
+    English-language materials. Theoretical works reorganize inquiry but do not
+    by themselves estimate learning effects.
+readings:
+  - id: wineburg-1991-historical-problem-solving
+    kind: expert-novice-protocol-study
+    citation: Wineburg, S. S. (1991). Historical problem solving—A study of the cognitive processes used in the evaluation of documentary and pictorial evidence. Journal of Educational Psychology, 83(1), 73-87. https://doi.org/10.1037/0022-0663.83.1.73
+    url: https://eric.ed.gov/?id=EJ436869
+    publication_date: 1991-03-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Eight working historians and eight US high-school seniors evaluating documents and images about the Battle of Lexington.
+    design: Think-aloud comparative study of documentary reasoning.
+    finding: Historians and students differed in the heuristics and epistemic beliefs framing sourcing, contextualization, and corroboration.
+    limits: Very small purposive sample, one national episode, verbal protocols, and expertise differences do not define a universal developmental sequence.
+
+  - id: reisman-2012-reading-like-historian
+    kind: classroom-intervention
+    citation: Reisman, A. (2012). Reading like a historian—A document-based history curriculum intervention in urban high schools. Cognition and Instruction, 30(1), 86-112. https://doi.org/10.1080/07370008.2011.634081
+    url: https://doi.org/10.1080/07370008.2011.634081
+    publication_date: 2012-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Eleventh-grade students and teachers in five urban US high schools during a six-month document-based curriculum.
+    design: Quasi-experimental curriculum intervention with historical thinking, factual knowledge, reading comprehension, and general reasoning outcomes.
+    finding: Students receiving the intervention outperformed comparison students across the reported outcome measures while learning through recurring document inquiry.
+    limits: Research-supported implementation, local context, bundled components, and researcher-developed measures limit attribution and broad transfer claims.
+
+  - id: wansink-et-al-2018-multiperspectivity
+    kind: qualitative-observation-study
+    citation: Wansink, B., Akkerman, S., Zuiker, I., & Wubbels, T. (2018). Where does teaching multiperspectivity in history education begin and end? Theory & Research in Social Education, 46(4), 495-527. https://doi.org/10.1080/00933104.2018.1480439
+    url: https://eric.ed.gov/?id=EJ1198513
+    publication_date: 2018-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Five expert Dutch history teachers teaching the Dutch Revolt, slavery, and the Holocaust.
+    design: Video observation and teacher interviews analyzed across temporal layers and instructional functions.
+    finding: Teachers used perspectives for different functions and engaged in normative balancing; they did not treat every perspective as equally valid or desirable.
+    limits: Five selected experts and three topics cannot determine universally legitimate exclusions; abstract access narrows interpretation.
+
+  - id: popa-2022-historical-consciousness
+    kind: systematic-conceptual-review
+    citation: Popa, N. (2022). Operationalizing historical consciousness—A review and synthesis of the literature on meaning making in historical learning. Review of Educational Research, 92(2), 171-208. https://doi.org/10.3102/00346543211052333
+    url: https://journals.sagepub.com/doi/10.3102/00346543211052333
+    publication_date: 2022-04-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: International literature on how learners relate past, present, future, identity, and narrative meaning.
+    design: Review and conceptual synthesis spanning cognitive, sociocultural, memory, critical, and philosophical traditions.
+    finding: Historical learning includes meaning-making and temporal orientation beyond discrete inquiry skills, with multiple traditions operationalizing the construct differently.
+    limits: Conceptual plurality impedes a single measure; historical consciousness can retain Eurocentric developmental or temporal assumptions.
+
+  - id: trouillot-1995-silencing-past
+    kind: historical-theoretical-work
+    citation: Trouillot, M.-R. (1995). Silencing the Past—Power and the Production of History. Beacon Press.
+    url: https://www.lib.uchicago.edu/collex/exhibits/history-on-the-edges-michel-rolph-trouillots-caribbean/silencing-the-past/
+    publication_date: 1995-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Historical production and public memory, especially Haiti, the Haitian Revolution, Columbus, and the Alamo.
+    design: Historical and theoretical analysis of power across source making, archive making, narrative making, and retrospective significance.
+    finding: Historical silences enter at multiple moments of production; surviving archives and narratives cannot be treated as neutral containers of everything that happened.
+    limits: The framework diagnoses structured absence but does not make any particular counterstory true without further evidence and argument.
+
+  - id: gibson-duquette-2025-historical-thinking
+    kind: state-of-field-review
+    citation: Gibson, L., & Duquette, C. (2025). Historical thinking—Trends, critiques, and future directions. Current Opinion in Psychology, 64, 102088. https://doi.org/10.1016/j.copsyc.2025.102088
+    url: https://pubmed.ncbi.nlm.nih.gov/40628016/
+    publication_date: 2025-08-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: International history-education frameworks from England, the United States, Canada, and the Netherlands.
+    design: Narrative state-of-field comparison.
+    finding: The field has moved among cognition and epistemology, historical literacy, and identity and sociocultural influences rather than converging on one skills model.
+    limits: Framework selection remains largely Western and abstract screening prevents appraisal of search method or comparative detail.
+contradictions:
+  - Expert heuristics make disciplinary reading visible, but converting them into a checklist can strip away background knowledge, question formation, judgment, and the archive's production history.
+  - Document inquiry can improve factual knowledge as well as reasoning, contradicting a simple content-versus-skills opposition; it does not show that minimally guided discovery is sufficient.
+  - Multiperspectivity challenges one authorized narrative, yet indiscriminate balance can erase differences in evidence, relevance, power, responsibility, and moral status.
+  - Historical consciousness connects past and present, while present categories can distort actors' horizons; contextualization must not become moral exemption.
+  - Critical attention to silences corrects archival innocence, while absence alone cannot specify the missing event, voice, motive, or counterfactual.
+claims:
+  - claim: A historical source is an action in a context before it is an information packet.
+    evidence: convergent-empirical-and-disciplinary
+    confidence: high
+    source_ids: [wineburg-1991-historical-problem-solving, reisman-2012-reading-like-historian, trouillot-1995-silencing-past]
+    supports: Ask who made this, when, for whom, under what constraints, by what route it survived, and what question it can answer before extracting claims.
+    tensions: Novices need enough orientation and vocabulary to reason rather than merely guess at bias.
+    boundary_conditions: Source genre, provenance, translation, preservation, alteration, audience, literacy, and institutional control.
+    does_not_license: Genetic fallacy, dismissing interested sources, assuming primary means accurate, or equating a document with an event.
+
+  - claim: Interpretation is plural but not arbitrary.
+    evidence: disciplinary-synthesis
+    confidence: high
+    source_ids: [wansink-et-al-2018-multiperspectivity, popa-2022-historical-consciousness, trouillot-1995-silencing-past]
+    supports: Compare readings by explanatory scope, trace fit, contextual plausibility, counterevidence, assumptions, ethical stakes, and the question actually asked.
+    tensions: Criteria and archives are historically situated; community consensus can reproduce exclusion.
+    boundary_conditions: Underdetermination, genre, scale, translation, contested categories, living communities, and incomplete records.
+    does_not_license: Equal airtime for denial, fabrication, dehumanization, conspiracy, or a perspective irrelevant to the inquiry.
+
+  - claim: Corroboration includes investigating structured absence, not merely counting agreeing documents.
+    evidence: theoretical-and-methodological-synthesis
+    confidence: moderate
+    source_ids: [wineburg-1991-historical-problem-solving, trouillot-1995-silencing-past]
+    supports: Compare independence, access, incentives, genre, custody, survival, contradictions, and who lacked the means or permission to enter the record.
+    tensions: Silence can have many causes and should produce calibrated questions rather than invented testimony.
+    boundary_conditions: Archive formation, colonial administration, oral transmission, destruction, secrecy, literacy, and institutional collecting.
+    does_not_license: Treating absence as confirmation, speaking for silenced people, or filling gaps with a fluent synthetic voice.
+
+  - claim: A small encounter with one real trace can form a complete lesson when it changes how the learner reads it.
+    evidence: pedagogical-design-hypothesis
+    confidence: moderate
+    source_ids: [reisman-2012-reading-like-historian, wineburg-1991-historical-problem-solving]
+    supports: Open with a document, word form, image, map, object, or variant; invite a conjecture; then reveal provenance, comparison, or absence that revises it.
+    tensions: One trace may fascinate without building chronological or domain knowledge; recurrence and synthesis remain necessary over time.
+    boundary_conditions: Legibility, accessibility, copyright, translation, background knowledge, emotional stakes, and source authenticity.
+    does_not_license: Mystery-box concealment, gotchas, trivia, source worship, or claiming durable transfer from one vivid encounter.
+implications:
+  - Professor's historical or philological micro-lessons should expose the evidential joint—form, witness, date, route, transformation, uncertainty—not only tell an origin story.
+  - Mark transcriptions, translations, excerpts, reconstructions, and adaptations. Never invent a historical voice to make the encounter vivid.
+  - Offer a plausible first reading before complication; distinguish what the trace shows, what context supports, what is inferred, and what remains unavailable.
+  - Multiperspectivity should be question-governed. The learner may inspect why a perspective is included or excluded and challenge that judgment.
+  - No automatic tack is warranted. This synthesis strengthens existing evidence, source-integrity, uncertainty, and open-object rules.
+open_questions:
+  - How much orientation does an adult novice need before an archival fragment becomes inquiry rather than projection?
+  - How can philology make manuscript survival and lexicographic selection visible without overwhelming the word encounter?
+  - Which forms of oral, embodied, material, and community-held evidence are systematically lost by text-first teaching?
+  - How should a daily sequence revisit fragments so they grow into chronology and relational structure rather than a cabinet of curiosities?
+next_actions:
+  - Study literary interpretation and aesthetic education, including the difference between accountable close reading and extraction of a single coded meaning.
+  - Audit topic modules for invented certainty, unmarked reconstruction, and decontextualized quotation.
+  - Develop no bundled curriculum from this note; learner-selected sequences remain private until explicit promotion review.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
