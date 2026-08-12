@@ -1,0 +1,274 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: metacognition-calibration-and-regulation-burdens-2026-08-12
+title: Reflection earns its cost only when evidence changes a judgment or next act
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [ai-scaffolding-independent-learning, assessment-and-authorship-under-ai]
+scope: >-
+  A bounded inquiry into metacognitive prompts, monitoring accuracy,
+  self-assessment, self-regulated learning, and learning analytics. It asks when
+  prediction, reflection, planning, and feedback improve control of learning,
+  when they become an interaction tax, and why behavioral traces should not be
+  mistaken for transparent access to a learner's mind.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared meta-analyses of metacognitive prompting, calibration instruction,
+    digital prompts, and self-assessment with systematic reviews of learning-
+    analytics interventions and their ethics. Read for actual outcome changes,
+    reactivity of measurement, heterogeneity, transfer, prompt burden, privacy,
+    and distinctions among monitoring, judgment, regulation, and performance.
+  inclusion: >-
+    Empirical syntheses specifying intervention, comparison, accuracy or
+    learning outcomes, moderators, or ethical gaps.
+  exclusions: >-
+    Generic reflection worksheets, productivity systems, introspection treated
+    as direct truth, dashboard marketing, and claims that more learner data is
+    inherently more personalized or humane.
+  limitations: >-
+    Several meta-analyses were abstract-screened; most prompt and analytics
+    evidence concerns computer-based formal education. Calibration measures
+    differ mathematically and conceptually, and correspondence with a teacher
+    score does not exhaust the epistemic value of self-assessment.
+readings:
+  - id: guo-2022-metacognitive-prompts
+    kind: meta-analysis
+    citation: >-
+      Guo, L. (2022). Using Metacognitive Prompts to Enhance Self-Regulated
+      Learning and Learning Outcomes: A Meta-Analysis of Experimental Studies
+      in Computer-Based Learning Environments. Journal of Computer Assisted
+      Learning, 38(3), 811-832. https://doi.org/10.1111/jcal.12650
+    url: https://doi.org/10.1111/jcal.12650
+    publication_date: 2022-02-09
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Experimental studies of learners in computer-based learning environments.
+    design: Meta-analysis of metacognitive prompts targeting planning, monitoring, evaluation, strategy use, and learning outcomes.
+    finding: >-
+      Prompt effects depend on task specificity, timing, adaptation, and
+      feedback; the synthesis recommends designing for sustained use and
+      transfer rather than treating a generic reflection question as sufficient.
+    limits: >-
+      The full article was not available in this scan, so no effect-size or
+      moderator detail is used here. Prompted strategy use is not equivalent to
+      independent regulation after prompts disappear.
+
+  - id: gutierrez-de-blume-2022-calibration
+    kind: meta-analysis
+    citation: >-
+      Gutierrez de Blume, A. P. (2022). Calibrating Calibration: A Meta-Analysis
+      of Learning Strategy Instruction Interventions to Improve Metacognitive
+      Monitoring Accuracy. Journal of Educational Psychology, 114(4), 681-700.
+      https://doi.org/10.1037/edu0000674
+    url: https://doi.org/10.1037/edu0000674
+    publication_date: 2021-09-27
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Fifty-six independent effect sizes and 7,667 participants across laboratory and educational studies.
+    design: Meta-analysis of learning-strategy instruction against controls on metacognitive monitoring accuracy.
+    finding: >-
+      Strategy instruction moderately improved monitoring accuracy; effects
+      varied with strategy depth, adult laboratory samples, prediction and
+      postdiction designs, response format, and the chosen accuracy measure.
+    limits: >-
+      Stronger laboratory calibration does not establish durable independent
+      regulation or authentic transfer. Absolute calibration and relative
+      resolution are different constructs, and the accepted manuscript warns
+      that measures tap overlapping but distinct capacities.
+
+  - id: leon-panadero-garcia-martinez-2023-accuracy
+    kind: meta-analytic-systematic-review
+    citation: >-
+      León, S. P., Panadero, E., & García-Martínez, I. (2023). How Accurate Are
+      Our Students? A Meta-Analytic Systematic Review on Self-Assessment Scoring
+      Accuracy. Educational Psychology Review, 35, 106.
+      https://doi.org/10.1007/s10648-023-09819-0
+    url: https://doi.org/10.1007/s10648-023-09819-0
+    publication_date: 2023-11-08
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: One hundred sixty articles and 29,352 participants comparing student and expert or teacher scores.
+    design: PRISMA-guided meta-analytic systematic review of scoring correspondence and moderators.
+    finding: >-
+      Students modestly overestimated on average (g = 0.206), with moderate
+      correspondence (z = 0.472). Feedback, experience, and content knowledge
+      reduced overestimation, but studies were highly heterogeneous and often
+      omitted crucial methodological information.
+    limits: >-
+      Agreement with an expert score is only scoring accuracy, not the whole of
+      self-assessment; experts and criteria can be wrong or contested, and mean
+      tendencies cannot diagnose an individual.
+
+  - id: xie-et-al-2022-self-assessment-performance
+    kind: meta-analysis
+    citation: >-
+      Xie, Q., et al. (2022). The Effect of Self-Assessment on Academic
+      Performance and the Role of Explicitness: A Meta-Analysis. Assessment &
+      Evaluation in Higher Education.
+      https://doi.org/10.1080/02602938.2021.2012644
+    url: https://doi.org/10.1080/02602938.2021.2012644
+    publication_date: 2022-01-17
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Higher-education studies of self-assessment and academic performance.
+    design: Meta-analysis examining self-assessment process explicitness and moderators.
+    finding: >-
+      Self-assessment improved performance on average and external feedback
+      strengthened effects, but 26 studies, 26.5% of the included set, reported
+      negative effects.
+    limits: >-
+      Positive average effects conceal harmful or ineffective implementations;
+      academic performance does not show that reflection was efficient,
+      voluntary, accurate, or transferable.
+
+  - id: heikkinen-et-al-2023-learning-analytics-srl
+    kind: systematic-review
+    citation: >-
+      Heikkinen, S., Saqr, M., Malmberg, J., & Tedre, M. (2023). Supporting
+      Self-Regulated Learning with Learning Analytics Interventions—A
+      Systematic Literature Review. Education and Information Technologies,
+      28, 3059-3088. https://doi.org/10.1007/s10639-022-11281-4
+    url: https://doi.org/10.1007/s10639-022-11281-4
+    publication_date: 2022-09-09
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Fifty-six peer-reviewed empirical studies combining learning analytics, intervention, and self-regulated learning.
+    design: PRISMA-guided systematic review of analytics methods, intervention channels, regulation phases, and impacts.
+    finding: >-
+      Only 46% reported a positive learning impact; only four studies reported
+      positive effects for self-regulation while covering planning, performance,
+      and reflection. Many systems measured regulation more than they supported
+      it, effect reporting was inconsistent, and no analytics method or channel
+      guaranteed success.
+    limits: >-
+      English-language studies through 2021, heterogeneous designs, and too few
+      comparable settings for meta-analysis. The review calls for fine-grained
+      personal data but does not itself settle the proportionality or ethics of
+      collecting it.
+
+  - id: cerratto-pargman-mcgrath-2021-analytics-ethics
+    kind: systematic-review
+    citation: >-
+      Cerratto Pargman, T., & McGrath, C. (2021). Mapping the Ethics of Learning
+      Analytics in Higher Education: A Systematic Literature Review of
+      Empirical Research. Journal of Learning Analytics, 8(2), 123-139.
+      https://doi.org/10.18608/jla.2021.1
+    url: https://doi.org/10.18608/jla.2021.1
+    publication_date: 2021-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Twenty-one empirical higher-education articles published from 2014-2019.
+    design: Systematic review of empirically studied ethical issues in learning analytics.
+    finding: >-
+      Despite abundant conceptual ethics commentary, only a small empirical
+      literature directly examined ethical issues, leaving substantial gaps in
+      how data practices affect learners.
+    limits: >-
+      The abstract does not enumerate all ethical findings, and higher-education
+      analytics institutions differ from private local-first AI conversation.
+claims:
+  - id: metacognition-needs-a-control-consequence
+    statement: >-
+      A metacognitive prompt earns its learner time when it makes task-relevant
+      evidence available and changes a judgment, strategy, help request, or next
+      act; reflection without a control consequence is often ceremony.
+    confidence: high
+    source_ids: [guo-2022-metacognitive-prompts, gutierrez-de-blume-2022-calibration, xie-et-al-2022-self-assessment-performance]
+    supports: >-
+      Ask for one prediction, reason, comparison, or postdiction at a decision
+      point, then connect it immediately to evidence and an available action.
+    tensions: >-
+      Expressive reflection can have aesthetic, narrative, relational, or
+      identity value even when it does not optimize a subsequent study choice.
+    boundary_conditions: >-
+      Prompt value depends on target, timing, criteria, prior knowledge,
+      feedback, privacy, fatigue, and whether regulation can actually change.
+    does_not_license: Reflection after every exchange, compulsory journaling, generic “what did you learn?” questions, or grading introspective eloquence.
+
+  - id: calibration-is-local-and-supported
+    statement: >-
+      Monitoring accuracy is malleable but local to task, evidence, criterion,
+      knowledge, and measurement; confidence alone is not a trait diagnosis and
+      self-assessment improves through feedback and substantive competence.
+    confidence: high
+    source_ids: [gutierrez-de-blume-2022-calibration, leon-panadero-garcia-martinez-2023-accuracy]
+    supports: >-
+      Use coarse optional confidence estimates only beside a real attempt and
+      criterion; compare reasons with outcomes and revise the decision rule,
+      not the learner's identity.
+    tensions: >-
+      Expert criteria can encode contested standards, and calibrated confidence
+      can still accompany shallow aims or unjust assessment.
+    boundary_conditions: >-
+      Absolute bias, relative discrimination, scoring agreement, and useful
+      control decisions are different outcomes and should not be collapsed.
+    does_not_license: Confidence scores as intelligence labels, cross-domain profiles, ranking humility, or interpreting fluent certainty as knowledge.
+
+  - id: analytics-traces-are-not-regulation
+    statement: >-
+      Behavioral traces, dashboards, and predictions can expose opportunities
+      for support, but measurement and visualization are not themselves
+      self-regulated learning and can increase surveillance without improving
+      a learner's independent capacity.
+    confidence: high
+    source_ids: [heikkinen-et-al-2023-learning-analytics-srl, cerratto-pargman-mcgrath-2021-analytics-ethics]
+    supports: >-
+      Collect the least data needed for a learner-visible decision, explain the
+      inference and uncertainty, offer correction and deletion, and test whether
+      support changes a real learning process or outcome.
+    tensions: >-
+      Refusing all longitudinal evidence can prevent useful continuity,
+      accessibility support, and discovery of recurring barriers.
+    boundary_conditions: >-
+      Consent, power, identifiability, retention, inference validity,
+      institutional consequences, and nonparticipation costs determine whether
+      an analytics intervention is proportionate.
+    does_not_license: Emotion inference, hidden engagement scoring, retention optimization, opaque learner models, or treating clicks and completion as learning.
+
+  - id: regulation-burden-is-part-of-the-outcome
+    statement: >-
+      The attention, documentation, disclosure, and decision load imposed by a
+      planning or reflection system is part of its pedagogical effect and must
+      be weighed against any improvement it produces.
+    confidence: medium
+    source_ids: [xie-et-al-2022-self-assessment-performance, heikkinen-et-al-2023-learning-analytics-srl]
+    supports: >-
+      Keep prompts sparse, task-bound, skippable, and progressively internal;
+      retire plans and records that do not alter a live decision.
+    tensions: >-
+      Short-term burden may be justified when the learner is deliberately
+      building a transferable regulation practice.
+    boundary_conditions: >-
+      Executive function, language, disability, anxiety, time, stakes, and the
+      availability of external scaffolds change both cost and benefit.
+    does_not_license: Blaming the learner for disorganization, forcing private disclosure, offloading Teacher planning, or making the learning system a second curriculum.
+implications:
+  - >-
+    Existing prediction-before-reveal, confidence-wager, map-redraw, and
+    three-column-reflection tacks already contain opt-outs, falsifiers, and fade
+    conditions. No active change is warranted.
+  - >-
+    Professor should prefer a single evidence-bearing question at a decision
+    point over a reflection battery, and should answer directly when a prompt
+    would not change instruction or learner action.
+  - >-
+    Lesson-plan maintenance belongs to the Teacher and private learner data
+    store; it should not become repetitive homework for the learner or public
+    repository state.
+  - >-
+    A daily lesson can close without self-report. Silence, stopping, or taking
+    the object away for later are valid exits, not missing analytics.
+open_questions:
+  - Which metacognitive prompts show delayed transfer after prompting is removed?
+  - How can calibration be supported in interpretive and aesthetic domains where criteria are plural but not arbitrary?
+  - What learner-visible representations support correction without creating a fixed profile or pressure to optimize the dashboard?
+  - How should regulation be distributed among learner, Teacher, tools, peers, and environment rather than idealized as solitary self-control?
+next_actions:
+  - Read work on socially shared and distributed regulation, feedback literacy, disability, executive function, and material study environments.
+  - Seek adverse-effect, null-result, and prompt-fatigue studies instead of treating average positive effects as universal.
+  - Test future human-reviewed scenarios for reflection bureaucracy, confidence shame, behavioral-trace overclaim, and plans that never expire.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
