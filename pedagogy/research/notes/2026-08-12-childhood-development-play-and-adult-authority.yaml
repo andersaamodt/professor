@@ -1,0 +1,156 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: childhood-development-play-and-adult-authority-2026-08-12
+title: Development should inform support without turning difference, play, or childhood into an adult timetable
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [adult-development-prior-knowledge-and-self-direction, access-disability-and-equivalent-participation, motivation-play-aesthetics-and-sustainable-effort, pedagogical-authority-voice-and-non-domination]
+scope: Early-childhood pedagogy, developmental appropriateness, readiness, guided and free play, child rights and participation, disability, culture, adultification bias, observation, protection, and authority.
+method:
+  search_date: 2026-08-12
+  approach: Compared professional developmental guidance, play meta-analysis, children's-rights law, readiness critique, disability critique, anti-bias analysis, and experimental adultification research.
+  inclusion: Sources specifying developmental variability, instructional comparisons, child agency, cultural context, access, racialized judgment, or institutional readiness.
+  exclusions: Universal milestone scripts, chronological age as destiny, play as disguised worksheet, surveillance as knowing the child, readiness as child sorting, and protection as silencing.
+  limitations: This lane spans ages and institutions too broad for one synthesis; child voice is underrepresented in adult-authored research, and many effect studies privilege school-valued outcomes.
+readings:
+  - id: naeyc-2020-dap
+    kind: professional-position-statement
+    citation: National Association for the Education of Young Children. (2020). Developmentally appropriate practice—A position statement.
+    url: https://www.naeyc.org/sites/default/files/globally-shared/downloads/PDFs/resources/position-statements/dap-statement.pdf
+    publication_date: 2020-11-18
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Early-childhood programs serving children from birth through age eight in diverse social, cultural, linguistic, and institutional contexts.
+    design: Research-informed professional consensus statement revised to foreground equity, strengths, play, inquiry, individual variation, and social-historical context.
+    finding: Appropriate practice integrates knowledge of general development, each individual child, and social-cultural context rather than applying age norms alone.
+    limits: Professional guidance rather than comparative trial; “optimal development” and appropriateness remain adult-framed and implementation can revert to norm enforcement.
+
+  - id: skene-et-al-2022-guided-play
+    kind: systematic-review-and-meta-analysis
+    citation: Skene, K., et al. (2022). Can guidance during play enhance children's learning and development in educational contexts? A systematic review and meta-analysis. Child Development, 93(4), 1162-1180. https://doi.org/10.1111/cdev.13730
+    url: https://doi.org/10.1111/cdev.13730
+    publication_date: 2022-07-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Children aged one through eight in guided-play interventions across literacy, numeracy, executive-function, and socioemotional outcomes.
+    design: Systematic review with twelve random-effects meta-analyses comparing guided play with free play or direct instruction.
+    finding: Guided play sometimes outperformed free play and direct instruction on selected outcomes, but its overall advantage over direct instruction was small and nonsignificant, with high heterogeneity and sparse comparisons.
+    limits: Inconsistent definitions of guidance and choice, small study pools per outcome, short-term measures, publication bias uncertainty, and little evidence about play quality or child-valued outcomes.
+
+  - id: un-1989-child-rights
+    kind: international-human-rights-convention
+    citation: United Nations. (1989). Convention on the Rights of the Child.
+    url: https://www.unicef.org/child-rights-convention/convention-text
+    publication_date: 1989-11-20
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Children under the jurisdiction of ratifying states, with rights to protection, provision, participation, culture, education, rest, leisure, and play.
+    design: International treaty defining legal and normative obligations.
+    finding: Children have rights to express views in matters affecting them, with due weight; to education directed toward full development and rights; and to rest, play, culture, language, and protection.
+    limits: Legal implementation varies, the United States has not ratified, “age and maturity” can be paternalistically interpreted, and rights conflicts require contextual judgment.
+
+  - id: moss-2013-readiness
+    kind: critical-review
+    citation: Moss, P. (2013). School readiness—A critical review of perspectives and evidence. TACTYC.
+    url: https://childcarecanada.org/documents/research-policy-practice/13/01/school-readiness-critical-review-perspectives-and-evidence
+    publication_date: 2013-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Early-childhood and compulsory-school policy debates about readiness and transition.
+    design: Critical review of competing definitions, evidence, purposes, and institutional relationships.
+    finding: Readiness has no neutral agreed definition; child-focused readiness can subordinate early childhood to transmission and school preparation rather than asking whether schools are ready for diverse children.
+    limits: Normative and policy synthesis rather than intervention comparison; some preparation for specific institutional demands can reduce avoidable transition harm.
+
+  - id: carta-et-al-1991-dap-disability
+    kind: critical-comparative-review
+    citation: Carta, J. J., Schwartz, I. S., Atwater, J. B., & McConnell, S. R. (1991). Developmentally appropriate practice—Appraising its usefulness for young children with disabilities. Topics in Early Childhood Special Education, 11(1), 1-20. https://doi.org/10.1177/027112149101100104
+    url: https://doi.org/10.1177/027112149101100104
+    publication_date: 1991-04-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Young children with disabilities in early-childhood and special-education settings.
+    design: Comparison of assumptions and practices in developmentally appropriate practice and early-childhood special education.
+    finding: Age-norm and child-initiated formulations require scrutiny when learners need individualized, explicit, accessible, or intensive support.
+    limits: Older critique predating major revisions of DAP, and special-education practice itself can normalize segregation, deficit framing, and compliance.
+
+  - id: levine-et-al-2022-adultification
+    kind: multi-study-experimental-and-replication-research
+    citation: Levine, C. S., et al. (2022). Adultification, anger bias, and adults' different perceptions of Black and White children. Cognition and Emotion, 36(7), 1416-1432. https://doi.org/10.1080/02699931.2022.2104746
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9248049/
+    publication_date: 2022-01-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Adults judging photographs and traits of real Black and White children across studies.
+    design: Multiple preregistered or replication-oriented perception studies examining estimated age, adultlike traits, and emotion recognition.
+    finding: Results supported racialized adultification and anger-related perceptual bias in some measures while also revealing failures to reproduce every earlier pattern uniformly.
+    limits: Online judgments are not classroom behavior, estimates vary by stimulus and measure, race interacts with gender and age, and category-level evidence cannot determine an individual child's treatment.
+
+  - id: hyland-2019-antibias-power
+    kind: critical-policy-analysis
+    citation: Hyland, N. E. (2019). Who's got the power? A critical examination of the anti-bias curriculum. International Journal of Child Care and Education Policy, 13, 16. https://doi.org/10.1186/s40723-019-0062-9
+    url: https://doi.org/10.1186/s40723-019-0062-9
+    publication_date: 2019-12-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Anti-bias curricula and developmental assumptions in early-childhood education.
+    design: Critical examination of curriculum, power, racism, and developmentally appropriate practice.
+    finding: Anti-bias work must address institutional power and adult assumptions, not merely celebrate difference or postpone racism as developmentally inappropriate.
+    limits: Conceptual critique does not establish which concrete sequence works for which children; direct instruction can itself reproduce adult authority.
+contradictions:
+  - Developmental knowledge can prevent overload and neglect, yet generalized milestones can turn cultural, linguistic, disabled, or asynchronous development into deficit.
+  - Guided play may improve selected learning outcomes, yet adult goals and subtle steering can empty play of child ownership; free play needs no academic effect to justify a right to it.
+  - Adults owe children protection and provision, yet paternalism can use vulnerability to exclude children from decisions and interpretation.
+  - Children are often denied competence, while Black children are simultaneously adultified, blamed, and denied the protection and latitude granted to childhood.
+claims:
+  - claim: Developmental claims are probabilistic context for support, never a verdict about an individual learner's capacity or worth.
+    evidence: professional-critical-synthesis
+    confidence: high
+    source_ids: [naeyc-2020-dap, carta-et-al-1991-dap-disability, levine-et-al-2022-adultification]
+    supports: Begin with access and safety; observe the specific action across settings; consult learner, family, culture, and relevant expertise; offer supports; revisit rather than label.
+    tensions: Timely developmental screening and intervention can be beneficial, so fear of labeling must not become withholding.
+    boundary_conditions: Action, context, language, culture, disability, race, gender, health, history, assessment validity, and consequence.
+    does_not_license: Fixed stage labels, readiness exclusion, maturity inferred from eloquence or hardship, adultification, babying, diagnosis, or retained developmental profiles by Professor.
+
+  - claim: Play has intrinsic rights value and possible learning value; those justifications must not be collapsed.
+    evidence: rights-and-meta-analytic-synthesis
+    confidence: high
+    source_ids: [skene-et-al-2022-guided-play, un-1989-child-rights]
+    supports: Preserve voluntary direction, imaginative transformation, negotiable rules, pleasure or absorption, and exit; use guidance transparently and lightly when a learning aim warrants it.
+    tensions: Safety, inclusion, material access, and peer domination may require adult intervention; some children prefer explicit invitation or structure.
+    boundary_conditions: Ownership, voluntariness, risk, disability access, group power, adult goal, assessment, time, space, and whether the activity can genuinely be left.
+    does_not_license: Calling required drills games, extracting assessment from private play without notice, optimizing every leisure act, assuming free play is automatically inclusive, or claiming guided play universally superior.
+
+  - claim: Readiness is relational—the learner, task, support, institution, and environment can each change.
+    evidence: critical-policy-synthesis
+    confidence: high
+    source_ids: [moss-2013-readiness, naeyc-2020-dap]
+    supports: Ask what the learner is being readied for, why now, who chose the threshold, what supports alter access, and whether the school or task should adapt.
+    tensions: Some prerequisite knowledge and safety skills are real; relational readiness does not abolish sequencing.
+    boundary_conditions: Consequence, prerequisite, environment, deadline, support, disability, transition, family aims, and institutional flexibility.
+    does_not_license: Gatekeeping by age or test alone, accelerating childhood for institutional convenience, deficit narratives, or endless deferral of rich content.
+
+  - claim: Child participation requires consequence, intelligible choices, supported expression, and adult accountability—not merely asking for a preference.
+    evidence: rights-and-critical-synthesis
+    confidence: high
+    source_ids: [un-1989-child-rights, hyland-2019-antibias-power]
+    supports: Explain what is decidable, offer age- and access-suitable modes, show what changed or why it could not, permit dissent and appeal, and protect against retaliation.
+    tensions: Adults retain nondelegable duties for safety and rights; a child's immediate preference is not the only relevant interest.
+    boundary_conditions: Age, communication access, risk, legal responsibility, group effects, privacy, coercion, and reversibility.
+    does_not_license: Pseudo-choice, testimonial extraction, majority rule over rights, equating verbal confidence with maturity, or transferring adult responsibility to children.
+implications:
+  - Professor must not infer learner age, developmental stage, innocence, maturity, or support need from vocabulary, topic, affect, race, gender, disability, or apparent independence.
+  - If age materially changes safety or pedagogy and is unknown, choose the broadly safe route or ask only for the minimum relevant context.
+  - A playful invitation should remain an invitation; refusal must not reduce access to the actual object or explanation.
+  - Do not praise precocity in ways that reward adultlike performance or withdraw protection, rest, direct help, or permission not to know.
+  - Treat observation as a bounded aid to a present decision, not authorization for continuous monitoring or a durable child model.
+open_questions:
+  - Which features make an AI-mediated activity genuinely playable when the system authors most possible moves?
+  - How can children contest an AI's framing when adult institutions selected and monitor the system?
+  - What evidence distinguishes helpful developmental adaptation from stereotype-confirming simplification?
+next_actions:
+  - Study health, body, and sexuality education, where developmental protection, privacy, consent, direct information, and moral pluralism collide.
+  - Audit the final synthesis for readiness language, play instrumentalization, pseudo-choice, and adultification risk.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
