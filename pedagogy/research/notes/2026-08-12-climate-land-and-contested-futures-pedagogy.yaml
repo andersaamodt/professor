@@ -1,0 +1,181 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: climate-land-and-contested-futures-pedagogy-2026-08-12
+title: Climate and futures education must not turn urgency into coerced hope or privatized responsibility
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [humanizing-critical-and-healing-pedagogies, educational-ethics-and-nonideal-judgment, indigenous-decolonial-and-sovereign-pedagogies]
+scope: >-
+  Climate education, environmental and land education, critical emotional
+  awareness, action competence, corporate obstruction, Indigenous sovereignty,
+  and futures practices under uncertainty.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Read international curriculum guidance beside critical land-education,
+    climate-emotion, petro-pedagogy, action-competence, and futures-governance
+    scholarship; sought both action-oriented designs and warnings about their power.
+  inclusion: Sources connecting knowledge, emotion, collective action, institutions, land, or anticipation rather than awareness alone.
+  exclusions: Doom spectacle, sustainability branding, personal-footprint moralism, compulsory optimism, and Indigenous knowledge detached from sovereignty and community authority.
+  limitations: >-
+    Climate education varies by age, place, hazard, politics, and direct exposure.
+    This scan is conceptual and cross-contextual, not a topic curriculum or a
+    substitute for current climate science, local emergency guidance, or Indigenous leadership.
+readings:
+  - id: unesco-2024-greening-curriculum
+    kind: international-curriculum-guidance
+    citation: UNESCO. (2024). Greening curriculum guidance—Teaching and learning for climate action.
+    url: https://www.unesco.org/sites/default/files/medias/fichiers/2024/09/Greening%20curriculum%20guidance%20Teaching%20and%20learning%20for%20climate%20action.pdf
+    publication_date: 2024-06-05
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Curriculum authorities and educators designing climate and sustainability education from early childhood through adult learning.
+    design: International guidance synthesizing knowledge, social-emotional, behavioral, justice, and action-oriented learning outcomes by age.
+    finding: Climate education should be interdisciplinary, locally relevant, action-oriented, and connected to mitigation, adaptation, justice, biodiversity, and first-hand experience rather than factual awareness alone.
+    limits: Global competency guidance can standardize contested futures, understate political economy, and shift responsibility toward learners and schools without resources or authority.
+
+  - id: tuck-et-al-2014-land-education
+    kind: decolonial-critical-introduction
+    citation: Tuck, E., McKenzie, M., & McCoy, K. (2014). Land education—Indigenous, post-colonial, and decolonizing perspectives on place and environmental education research. Environmental Education Research, 20(1), 1-23. https://doi.org/10.1080/13504622.2013.877708
+    url: https://doi.org/10.1080/13504622.2013.877708
+    publication_date: 2014-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Place-based and environmental education conducted on Indigenous lands within settler-colonial states.
+    design: Critical theoretical introduction joining Indigenous, postcolonial, and decolonizing scholarship.
+    finding: Place is not a neutral pedagogical resource; land education must confront settlement, dispossession, sovereignty, and the distinct positions of Indigenous peoples, settlers, arrivants, descendants of enslaved people, and migrants.
+    limits: Conceptual framing does not authorize outsiders to teach local land knowledge or collapse distinct histories into one positional map.
+
+  - id: ojala-2012-regulating-worry
+    kind: empirical-youth-coping-study
+    citation: Ojala, M. (2012). Regulating worry, promoting hope—How do children, adolescents, and young adults cope with climate change? International Journal of Environmental and Science Education, 7(4), 537-561.
+    url: https://files.eric.ed.gov/fulltext/EJ997146.pdf
+    publication_date: 2012-10-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Children, adolescents, and young adults responding emotionally and behaviorally to climate change.
+    design: Empirical study of problem-focused, meaning-focused, and emotion-focused coping, worry, hope, engagement, and wellbeing.
+    finding: Coping strategy matters as much as nominal worry or hope; constructive meaning-focused and problem-focused coping can coexist with concern, while denial-based hope can disengage.
+    limits: Self-report associations and Swedish age cohorts do not establish universal trajectories or a teacher intervention.
+
+  - id: ojala-2016-facing-anxiety
+    kind: critical-conceptual-synthesis
+    citation: Ojala, M. (2016). Facing anxiety in climate change education—From therapeutic practice to hopeful transgressive learning. Canadian Journal of Environmental Education, 21, 41-56.
+    url: https://cjee.lakeheadu.ca/article/view/1393
+    publication_date: 2016-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Environmental and sustainability education that evokes anxiety, worry, hope, and demands for transformation.
+    design: Critical emotional and pedagogical synthesis.
+    finding: Anxiety is not merely a symptom to remove and hope is not merely reassurance; critical emotional awareness can connect difficult feeling to contested norms, collective possibility, and action.
+    limits: Conceptual recommendations need age-, culture-, exposure-, and setting-specific evaluation and clear role boundaries with mental-health care.
+
+  - id: finnegan-2022-hope-action
+    kind: cross-sectional-school-study
+    citation: Finnegan, W. (2022). Educating for hope and action competence—A study of secondary school students and teachers in England. Environmental Education Research, 29(11), 1617-1636. https://doi.org/10.1080/13504622.2022.2120963
+    url: https://doi.org/10.1080/13504622.2022.2120963
+    publication_date: 2022-09-11
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: 512 students aged 16-18 and 69 teachers in England.
+    design: Questionnaire study of reported teaching, future outlook, climate hope, action competence, emotion acceptance, and action.
+    finding: Hope and action competence were strongly associated, and reported teacher acceptance of negative emotion and positive outlook predicted hope; anxiety and hope coexisted.
+    limits: Cross-sectional self-report cannot show that hope causes action or that teachers should produce positive affect.
+
+  - id: eaton-day-2020-petro-pedagogy
+    kind: critical-policy-and-curriculum-analysis
+    citation: Eaton, E. M., & Day, N. A. (2020). Petro-pedagogy—Fossil fuel interests and the obstruction of climate justice in public education. Environmental Education Research, 26(4), 457-473. https://doi.org/10.1080/13504622.2019.1650164
+    url: https://doi.org/10.1080/13504622.2019.1650164
+    publication_date: 2020-04-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Fossil-fuel industry participation in Canadian public education and energy/climate curriculum.
+    design: Critical analysis of corporate educational materials, sponsorship, discourse, and obstruction.
+    finding: Industry-sponsored education can normalize fossil dependence, foreground benefits, erase political-economic alternatives, and redirect climate responsibility toward individual consumption.
+    limits: Specific institutional and national evidence should not turn every industry-linked source into presumed falsehood; claims still require source-by-source analysis.
+
+  - id: andersson-2022-governing-anticipation
+    kind: critical-ethnography-of-futures-practice
+    citation: Andersson, J. (2023). Governing anticipation—UNESCO making humankind futures literate. Journal of Organizational Ethnography, 12(1), 105-119. https://doi.org/10.1108/JOE-10-2021-0055
+    url: https://doi.org/10.1108/JOE-10-2021-0055
+    publication_date: 2022-06-24
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: UNESCO Futures Literacy programs and the transnational consultancy field around anticipation.
+    design: Five-year ethnographic study using observation, interviews, events, and documents interpreted through governmentality.
+    finding: Teaching people to “use the future” can expand reflexivity while also producing expert markets, visible governable subjects, and institutional definitions of emancipation and desirable anticipation.
+    limits: Critical ethnography of a program does not show that all futures workshops dominate or negate participants' own anticipatory practices.
+claims:
+  - id: truth-before-affect-target
+    statement: >-
+      Climate pedagogy owes the learner warranted accounts of causes, uncertainty,
+      distribution, response options, and stakes—not a prescribed amount of fear, calm, urgency, or hope.
+    confidence: high
+    source_ids: [ojala-2012-regulating-worry, ojala-2016-facing-anxiety, finnegan-2022-hope-action, unesco-2024-greening-curriculum]
+    supports: Name what is known, contested, local, and actionable; allow grief, anger, uncertainty, refusal, and hope without treating any as the lesson outcome.
+    tensions: Affect cannot be removed from catastrophic and unequal realities, and emotionally flat presentation can itself misrepresent stakes.
+    boundary_conditions: Age, direct exposure, culture, current hazard, learner request, evidence, role, and available support.
+    does_not_license: Catastrophe theater, compulsory optimism, reassurance, therapy, emotional scoring, or withholding truth to protect motivation.
+
+  - id: action-competence-is-not-task-compliance
+    statement: >-
+      Action-oriented education should expand the learner's capacity to investigate,
+      judge, organize, choose, and revise action—not recruit them into the teacher's favored campaign.
+    confidence: high
+    source_ids: [unesco-2024-greening-curriculum, finnegan-2022-hope-action, ojala-2016-facing-anxiety]
+    supports: Compare interventions by scale, mechanism, tradeoff, authority, coalition, feasibility, and evidence; include nonparticipation and alternative action as legitimate judgments.
+    tensions: Neutrality can protect an unjust status quo, and some urgent safety actions are not open-ended deliberations.
+    boundary_conditions: Hazard, age, institution, law, learner goal, collective relation, consequences, and teacher authority.
+    does_not_license: Activism assignments, virtue grading, pledges, surveillance of consumption, partisan recruitment, or equating action with learning.
+
+  - id: individual-action-must-be-structurally-located
+    statement: >-
+      Personal choices can matter and organize collective change, but teaching them
+      without infrastructures, firms, states, labor, finance, technology, and unequal emissions misstates causal responsibility.
+    confidence: high
+    source_ids: [eaton-day-2020-petro-pedagogy, unesco-2024-greening-curriculum]
+    supports: Map causal scale, institutional leverage, collective pathways, constraints, and distribution alongside household practices.
+    tensions: Structural explanation can become an alibi for personal conduct and local experimentation.
+    boundary_conditions: Sector, jurisdiction, class, infrastructure, political power, technology, collective organization, and learner agency.
+    does_not_license: Carbon confession, consumer purity, absolving institutions, dismissing everyday practice, or assigning responsibility without power.
+
+  - id: place-is-land-with-history-and-authority
+    statement: >-
+      A place-based lesson is incomplete if it treats landscape as scenery while
+      erasing Indigenous land, dispossession, governance, language, and continuing relations.
+    confidence: high
+    source_ids: [tuck-et-al-2014-land-education]
+    supports: Identify whose land and jurisdiction are implicated, use community-authorized sources, distinguish location from relationship, and avoid generic Indigenous wisdom.
+    tensions: A brief sensory encounter need not become a total political history, and formulaic acknowledgments can substitute words for relation.
+    boundary_conditions: Place, nation, treaty, jurisdiction, community, source, learner position, and educational purpose.
+    does_not_license: Settler belonging narratives, land as outdoor classroom resource, extracting ecological knowledge, pan-Indigeneity, or claiming decolonization through reflection.
+
+  - id: futures-are-plural-and-governed
+    statement: >-
+      Scenario and futures practices can reveal assumptions, but whoever defines
+      the horizon, variables, expertise, and “possible” futures also governs the present imagination.
+    confidence: high
+    source_ids: [andersson-2022-governing-anticipation]
+    supports: Surface sponsors, exclusions, inherited futures, power to act, uncertainty, and who benefits; invite counter-scenarios and refusal.
+    tensions: Infinite openness can evade material constraints, probability, path dependence, and urgent decisions.
+    boundary_conditions: Time horizon, institution, community, resources, uncertainty, authorship, and decision purpose.
+    does_not_license: Trend theater, techno-determinism, solutionism, consultant authority, asking marginalized learners to imagine away structural harm, or grading optimism.
+implications:
+  - Professor should not insert climate content into unrelated daily lessons as moral garnish; when climate is the object, it needs current evidence and explicit causal scale.
+  - Future-facing prompts must distinguish possible, plausible, probable, preferred, feared, and inherited futures rather than invite free-floating imagination.
+  - Place-based philology can connect names, languages, ecological histories, and power, but local Indigenous language or land knowledge requires community authority.
+  - The daily loop may offer action as one route, never as the price of encountering difficult knowledge or proving care.
+  - Existing affect, source, sovereignty, agency, and non-domination policies are sufficient; no compulsory hope or action tack is earned.
+open_questions:
+  - How should climate education change when the learner is currently experiencing heat, smoke, flood, displacement, or loss?
+  - Which collective-action learning outcomes can be evidenced without monitoring political belief or participation?
+  - How can place-based etymology expose colonial renaming and language survival without turning names into possession?
+  - What futures practices work for communities whose futures have repeatedly been made into other institutions' plans?
+next_actions:
+  - Seek youth-, frontline-, and Indigenous-led evaluations of climate and land education rather than relying primarily on institutional guidance.
+  - Audit future lesson-plan language for compulsory hope, privatized responsibility, vague “we,” and action without causal mechanism.
+  - Keep climate and local land curricula outside the automatic daily loop until explicitly requested and responsibly sourced.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
