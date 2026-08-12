@@ -50,11 +50,11 @@ readings:
     finding: The literature needs discrete practice definitions, strategic implementation support, fidelity evidence, and more rigorous experimental evaluation.
     limits: Methodological critique does not determine which restorative values or local practices are desirable.
 
-  - id: almeida-et-al-2021-restorative-conflicts
+  - id: weber-vereenoooghe-2020-restorative-conflicts
     kind: systematic-review
-    citation: Almeida, T. C., et al. (2021). Reducing conflicts in school environments using restorative practices—A systematic review. Aggression and Violent Behavior, 59, 101498. https://doi.org/10.1016/j.avb.2020.101498
-    url: https://doi.org/10.1016/j.avb.2020.101498
-    publication_date: 2021-07-01
+    citation: Weber, C., & Vereenooghe, L. (2020). Reducing conflicts in school environments using restorative practices—A systematic review. International Journal of Educational Research Open, 1, 100009. https://doi.org/10.1016/j.ijedro.2020.100009
+    url: https://doi.org/10.1016/j.ijedro.2020.100009
+    publication_date: 2020-09-04
     accessed_on: 2026-08-12
     reading_level: abstract-screened
     population_context: Primary and secondary school learners and teachers in peer-reviewed quantitative restorative-practice studies.
@@ -86,10 +86,10 @@ readings:
     finding: Peace education must examine structural and cultural violence, rights, local histories, and learner agency rather than train interpersonal calm alone.
     limits: Plural approaches resist one outcome metric; “critical” curricula can still import external political categories or desired conclusions.
 
-  - id: liu-et-al-2026-peace-meta
+  - id: yu-liu-meng-2026-peace-meta
     kind: meta-analysis
-    citation: Liu, S., et al. (2026). The impacts of peace education—A meta-analysis. International Journal of Educational Development, 122. https://doi.org/10.1016/j.ijedudev.2026.103542
-    url: https://doi.org/10.1016/j.ijedudev.2026.103542
+    citation: Yu, Y., Liu, W., & Meng, X. (2026). The impacts of peace education—A meta-analysis. International Journal of Educational Development, 122, 103556. https://doi.org/10.1016/j.ijedudev.2026.103556
+    url: https://doi.org/10.1016/j.ijedudev.2026.103556
     publication_date: 2026-01-01
     accessed_on: 2026-08-12
     reading_level: abstract-screened
@@ -115,7 +115,7 @@ claims:
   - claim: Conflict procedures are teachable options whose success requires transfer and voluntary use, not ritual verbal compliance.
     evidence: meta-analytic-synthesis
     confidence: moderate
-    source_ids: [garrard-lipsey-2007-conflict-meta, liu-et-al-2026-peace-meta]
+    source_ids: [garrard-lipsey-2007-conflict-meta, yu-liu-meng-2026-peace-meta]
     supports: Model listening, claim-evidence distinction, interest and right identification, de-escalation, option generation, refusal, documentation, and escalation; use low-stakes cases before live disputes.
     tensions: Procedural fluency cannot resolve material scarcity, bad faith, structural oppression, or incompatible rights claims.
     boundary_conditions: Development, culture, language, power, stakes, available remedies, facilitator competence, and whether participation is safe.
@@ -124,7 +124,7 @@ claims:
   - claim: A restorative process is warranted only when it is specific about harm, voluntary for affected participants, capable of material repair, and nested in independent safeguards.
     evidence: systematic-normative-synthesis
     confidence: high
-    source_ids: [almeida-et-al-2021-restorative-conflicts, zakszeski-rutherford-2021-mind-gap, evans-vaandering-2016-restorative-education]
+    source_ids: [weber-vereenoooghe-2020-restorative-conflicts, zakszeski-rutherford-2021-mind-gap, evans-vaandering-2016-restorative-education]
     supports: Ask affected people what safety and repair require; separate fact-finding from dialogue; offer advocates and alternatives; specify commitments, resources, monitoring, recurrence response, and exit.
     tensions: Institutions may require accountability even when a person responsible declines; some harms cannot be repaired or relationships restored.
     boundary_conditions: Consent, severity, evidence, retaliation risk, capacity, institutional duty, community protocol, remedy, and independent recourse.
@@ -133,7 +133,7 @@ claims:
   - claim: Peace teaching should join interpersonal capability to truthful study of institutions, history, rights, resources, and competing conceptions of peace.
     evidence: critical-and-meta-analytic-synthesis
     confidence: moderate
-    source_ids: [bajaj-hantzopoulos-2016-peace, liu-et-al-2026-peace-meta]
+    source_ids: [bajaj-hantzopoulos-2016-peace, yu-liu-meng-2026-peace-meta]
     supports: Compare negative peace, positive peace, justice, security, nonviolence, resistance, sovereignty, reconciliation, and repair through situated cases and plural sources.
     tensions: Conceptual plurality must not neutralize clear evidence of atrocity or rights violations.
     boundary_conditions: Conflict proximity, source safety, learner implication, historical record, jurisdiction, identity threat, and action consequence.

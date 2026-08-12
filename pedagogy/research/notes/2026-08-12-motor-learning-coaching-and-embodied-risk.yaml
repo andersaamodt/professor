@@ -40,8 +40,8 @@ readings:
 
   - id: han-et-al-2022-feedback-meta
     kind: trial-sequential-meta-analysis
-    citation: Han, Y., et al. (2022). Feedback for promoting motor skill learning in physical education—A trial sequential meta-analysis. International Journal of Environmental Research and Public Health, 19(23), 15361. https://doi.org/10.3390/ijerph192315361
-    url: https://doi.org/10.3390/ijerph192315361
+    citation: Han, Y., et al. (2022). Feedback for promoting motor skill learning in physical education—A trial sequential meta-analysis. International Journal of Environmental Research and Public Health, 19(22), 15361. https://doi.org/10.3390/ijerph192215361
+    url: https://doi.org/10.3390/ijerph192215361
     publication_date: 2022-11-22
     accessed_on: 2026-08-12
     reading_level: abstract-screened
