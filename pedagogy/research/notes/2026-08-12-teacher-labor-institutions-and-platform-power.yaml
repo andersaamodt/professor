@@ -1,0 +1,166 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: teacher-labor-institutions-and-platform-power-2026-08-12
+title: Teaching quality has material and institutional conditions
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise, technology-datafication-personalization-and-public-value, educational-ethics-and-nonideal-judgment]
+scope: >-
+  Teacher labor, workload, autonomy, collective voice, preparation and research
+  time, shortages, datafication, platform ownership, automation, and the risk
+  that AI individualizes institutional failures or displaces accountable judgment.
+method:
+  search_date: 2026-08-12
+  approach: Compared international labor standards, current cross-system survey evidence, a global teacher report, UNESCO AI guidance, and critical platform studies.
+  inclusion: Official standards and reports, large cross-system teacher evidence, and peer-reviewed analyses of data and platform power.
+  exclusions: Automation-vendor savings claims without labor accounting, burnout advice detached from working conditions, and inevitability claims about teacher replacement.
+  limitations: Global reports flatten large differences; surveys are self-report and descriptive; critical platform studies diagnose power better than comparative learning effects.
+readings:
+  - id: ilo-unesco-1966-status-teachers
+    kind: international-normative-standard
+    citation: ILO and UNESCO. (1966). Recommendation concerning the Status of Teachers.
+    url: https://www.ilo.org/ilo-unesco-recommendation-concerning-status-teachers-1966
+    publication_date: 1966-10-05
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: School teachers and education systems internationally.
+    design: Intergovernmental normative instrument addressing preparation, employment, professional freedom, consultation, workload, and conditions.
+    finding: Teaching quality depends on professional preparation, continuing study, research opportunity, participation in educational decisions, security, and workable conditions—not only individual technique.
+    limits: A nonbinding 1966 instrument requires contextual interpretation and does not anticipate platform governance or generative AI.
+
+  - id: unesco-2024-global-report-teachers
+    kind: global-policy-report
+    citation: UNESCO and International Task Force on Teachers for Education 2030. (2024). Global Report on Teachers—Addressing teacher shortages and transforming the profession.
+    url: https://unesdoc.unesco.org/ark:/48223/pf0000387400
+    publication_date: 2024-02-26
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Primary and secondary teaching work and shortages across world regions.
+    design: Global indicator analysis and policy synthesis.
+    finding: Recruitment and retention are connected to financing, preparation, status, compensation, working conditions, support, leadership, and teacher voice; shortages are not merely failures of individual motivation.
+    limits: Projected aggregates depend on definitions and national data quality and do not identify one sufficient remedy.
+
+  - id: oecd-talis-2024-demands
+    kind: cross-national-descriptive-survey
+    citation: OECD. (2025). Results from TALIS 2024—The State of Teaching. Chapter 3, The demands of teaching.
+    url: https://www.oecd.org/en/publications/results-from-talis-2024_90df6235-en/full-report/the-demands-of-teaching_0e941e2f.html
+    publication_date: 2025-10-07
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Lower-secondary teachers and leaders across participating education systems.
+    design: Cross-system self-report survey of work, demands, time, stress, and conditions.
+    finding: Workload, administrative work, marking, discipline, diversity, system change, and appraisal are differently associated with reported stress; system and task conditions matter.
+    limits: Self-report and cross-sectional associations do not establish causal effects, and international averages conceal system-specific labor arrangements.
+
+  - id: unesco-2024-ai-teacher-competency
+    kind: international-guidance-framework
+    citation: UNESCO. (2024). AI Competency Framework for Teachers.
+    url: https://unesdoc.unesco.org/ark:/48223/pf0000391104
+    publication_date: 2024-09-03
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Teachers, teacher educators, institutions, and policymakers adopting AI internationally.
+    design: Normative competency framework organized around human agency, ethics, foundations, pedagogy, and professional development.
+    finding: AI capability should be developed with protection of teacher rights, human agency, accountability, inclusion, and sustainability rather than tool proficiency alone.
+    limits: A competency framework can relocate institutional responsibility onto individual teachers unless accompanied by governance, resources, time, and collective authority.
+
+  - id: williamson-2021-platform-pedagogies
+    kind: critical-sociotechnical-analysis
+    citation: Williamson, B. (2021). Automation, APIs and the distributed labour of platform pedagogies in Google Classroom. Critical Studies in Education, 62(1), 97-113. https://doi.org/10.1080/17508487.2020.1855597
+    url: https://doi.org/10.1080/17508487.2020.1855597
+    publication_date: 2020-12-04
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Digitally mediated pedagogical and administrative work organized through Google Classroom.
+    design: Critical analysis of platform architecture, APIs, automation, distributed labor, law, and governance.
+    finding: Platform pedagogy redistributes work and authority among teachers, software, data systems, and corporate operators while introducing surveillance and interoperability logics.
+    limits: A critical case analysis identifies mechanisms and risks but does not measure prevalence or establish that every platform configuration has the same consequence.
+
+  - id: williamson-baynes-shay-2020-datafication-teaching
+    kind: critical-literature-analysis
+    citation: Williamson, B., Bayne, S., & Shay, S. (2020). The datafication of teaching in Higher Education—Critical issues and perspectives. Teaching in Higher Education, 25(4), 351-365. https://doi.org/10.1080/13562517.2020.1748811
+    url: https://doi.org/10.1080/13562517.2020.1748811
+    publication_date: 2020-04-02
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Higher-education teaching under learning analytics, AI, adaptive platforms, and metric governance.
+    design: Critical synthesis of datafication and its epistemic, professional, political, and economic consequences.
+    finding: Data systems do not merely describe teaching; actors controlling classification and infrastructure gain power to define quality, students, teachers, and legitimate action.
+    limits: The account foregrounds risk and political economy; empirical variation and beneficial teacher-governed uses need separate investigation.
+claims:
+  - id: material-conditions-are-pedagogical-conditions
+    statement: >-
+      Preparation time, manageable workload, security, access to materials,
+      continuing study, collegiality, and professional voice condition what teachers can notice and do.
+    confidence: high
+    source_ids: [ilo-unesco-1966-status-teachers, unesco-2024-global-report-teachers, oecd-talis-2024-demands]
+    supports: Treat overload and missing resources as design constraints and institutional questions, not deficits in teacher care, grit, or technique.
+    tensions: Better conditions do not guarantee sound pedagogy, and teachers remain accountable for choices within their actual authority.
+    boundary_conditions: Employment regime, class size, time, resources, safety, compensation, collective voice, preparation, and social provision.
+    does_not_license: Excusing harm, romanticizing every professional norm, or refusing practical improvements pending structural transformation.
+
+  - id: automation-redistributes-rather-than-erases-work
+    statement: >-
+      Educational automation shifts tasks, verification, responsibility, and
+      decision rights among people and systems; time saved in one place may create hidden checking, repair, compliance, or dependency elsewhere.
+    confidence: high
+    source_ids: [williamson-2021-platform-pedagogies, unesco-2024-ai-teacher-competency]
+    supports: Account for verification and downstream repair; automate only bounded work while keeping consequential judgment contestable and human-owned.
+    tensions: Carefully governed automation can reduce routine labor and restore time for relationships, study, and craft.
+    boundary_conditions: Error cost, verification time, deskilling, data flow, reversibility, role authority, labor distribution, and appeal.
+    does_not_license: Blanket rejection of tools, unpaid experimentation, automated consequential grading, or calling displaced labor efficiency.
+
+  - id: infrastructure-governs-curriculum
+    statement: >-
+      Platforms and metrics shape available actions, visible knowledge, default
+      sequences, and definitions of quality; infrastructure is part of curriculum governance.
+    confidence: high
+    source_ids: [williamson-2021-platform-pedagogies, williamson-baynes-shay-2020-datafication-teaching]
+    supports: Keep one semantic authority per rule, separate private learner state from bundled curriculum, expose defaults, and preserve export and exit.
+    tensions: Shared infrastructure can widen access, coordination, discoverability, and continuity when publicly accountable and plural.
+    boundary_conditions: Ownership, interoperability, data access, procurement, defaults, standards, transparency, contestability, and exit cost.
+    does_not_license: Technological determinism, treating all standards as domination, or ignoring learner benefits from stable tools.
+
+  - id: ai-professor-must-not-claim-human-profession
+    statement: >-
+      A fluent AI may perform some instructional acts but lacks the situated
+      employment, embodied duty of care, collective profession, institutional authority, and accountable relationship of a human teacher.
+    confidence: high
+    source_ids: [ilo-unesco-1966-status-teachers, unesco-2024-ai-teacher-competency, williamson-baynes-shay-2020-datafication-teaching]
+    supports: Use “Professor” as a bounded pedagogical role, disclose limitations, defer institutional and consequential decisions, and support rather than erase human expertise.
+    tensions: Denying the title entirely could obscure real pedagogical influence and evade duties that should attach to systems acting as teachers.
+    boundary_conditions: Stakes, institution, legal role, duty of care, embodiment, community membership, authority, and appeal.
+    does_not_license: Anthropomorphic self-certification, replacement rhetoric, labor substitution as educational progress, or disclaimers that erase responsibility.
+
+  - id: teacher-development-needs-institutional-support
+    statement: >-
+      Asking teachers to learn new technologies without protected time,
+      resources, governance power, and relevant support converts institutional adoption costs into individual workload.
+    confidence: high
+    source_ids: [unesco-2024-ai-teacher-competency, oecd-talis-2024-demands, ilo-unesco-1966-status-teachers]
+    supports: Professor's own research loop should remain bounded, auditable, and beside teaching; recommendations to humans must include the conditions required to enact them.
+    tensions: Informal self-directed experimentation can be joyful and professionally generative when voluntary and supported.
+    boundary_conditions: Voluntariness, time, compensation, relevance, infrastructure, leadership, collective input, and opportunity cost.
+    does_not_license: Mandated novelty, credential treadmill, blaming nonadoption, or expanding professorly duties without deleting lower-value work.
+implications:
+  - >-
+    Professor should include institutional and labor consequences whenever recommending AI-mediated educational reform, not present technique as a substitute for resources or public responsibility.
+  - >-
+    Daily professorly duties must be subtractive as well as additive: prune plans, stop low-value measurement, and avoid creating maintenance or response debt for the learner.
+  - >-
+    Domain curriculum belongs in private development space until explicitly reviewed for bundling; platform convenience must not silently promote one learner's path into common authority.
+  - >-
+    Existing privacy, non-domination, datafication, authority, and scope policies already carry much of this floor. No active tack change is earned.
+open_questions:
+  - What labor is concealed in maintaining, sourcing, checking, and correcting an autonomous daily AI professor?
+  - Which teacher tasks can be supported without removing the experience that develops pedagogical judgment?
+  - How should public, cooperative, and learner-owned infrastructure alter Professor's governance requirements?
+  - What would collective contestability mean for a one-user repository and an AI-controlled daily loop?
+next_actions:
+  - Study workplace, vocational, union, cooperative, and public pedagogies beyond formal classroom models.
+  - Audit professorly duties for accumulation, unpaid learner maintenance, and self-serving activity metrics.
+  - Study language teaching and philology as domains whose pedagogical content knowledge resists generic technique.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
