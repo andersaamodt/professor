@@ -1,0 +1,279 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: curriculum-coherence-progression-and-hidden-lessons-2026-08-12
+title: Curriculum is a revisable route whose omissions and routines also teach
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [epistemic-justice-curriculum-and-knowledge-access, durable-memory-transfer-and-calibration]
+scope: >-
+  A bounded inquiry into curriculum coherence, learning progressions, spiral
+  curricula, prerequisite claims, hidden curriculum, official knowledge, and
+  culturally sustaining purposes. It asks how daily encounters can accumulate
+  without becoming a lockstep list, how proposed paths earn validity, and how
+  selection, routines, interfaces, and incentives teach beyond stated content.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared empirical and conceptual reviews of learning progressions with an
+    international coherence analysis, foundational hidden-curriculum and
+    ideology critiques, and culturally sustaining curriculum arguments. Kept
+    descriptive pathways separate from normative aims and psychometric level
+    assignments separate from living intellectual development.
+  inclusion: >-
+    Reviews that inspect progression validation and implementation, empirical
+    curriculum comparisons, and critical works that make selection and tacit
+    institutional learning analyzable.
+  exclusions: >-
+    Branded scope-and-sequence claims without validation, “knowledge-rich” and
+    “learner-centered” slogans without specified knowledge or authority,
+    exhaustive-content fantasies, and algorithmic sequencing evaluated only by
+    completion or immediate prediction accuracy.
+  limitations: >-
+    Learning-progression research is concentrated in school science and
+    mathematics; international standards correlations do not establish causal
+    mechanisms; foundational critical works are theoretical and historical;
+    culturally sustaining pedagogy cannot be reduced to a generic design rule
+    for an AI or detached from communities whose practices are at stake.
+readings:
+  - id: jin-et-al-2019-learning-progressions
+    kind: systematic-conceptual-review
+    citation: >-
+      Jin, H., Mikeska, J. N., Hokayem, H., & Mavronikolas, E. (2019). Toward
+      coherence in curriculum, instruction, and assessment: A review of
+      learning progression literature. Science Education, 103(5), 1206-1234.
+      https://doi.org/10.1002/sce.21525
+    url: https://doi.org/10.1002/sce.21525
+    publication_date: 2019-07-10
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Learning-progression research in education from 2006 through 2018, heavily concentrated in science.
+    design: Literature review categorizing theoretical progressions, empirical learner studies, teaching and teacher-learning studies, reviews, and position articles.
+    finding: >-
+      Progressions can coordinate curriculum, instruction, and assessment, but
+      many empirical studies supplied little evidence that instruction aligned
+      to the proposed progression. Linear level descriptions often fail to
+      represent contextual, dynamic, and multiple pathways of learning.
+    limits: >-
+      Categories and publication coverage do not validate any particular
+      progression or establish that coherence itself caused better learning.
+
+  - id: attali-attali-2019-progression-validation
+    kind: measurement-method-report
+    citation: >-
+      Attali, Y., & Attali, M. (2019). Validating classifications from learning
+      progressions: Framework and implementation. ETS Research Report RR-19-18.
+      https://doi.org/10.1002/ets2.12253
+    url: https://doi.org/10.1002/ets2.12253
+    publication_date: 2019-08-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Elementary rational-number items and learner mastery classifications.
+    design: Framework and validation study testing reliability and model-data alignment for item- and learner-level progression classifications.
+    finding: >-
+      Using a progression to classify tasks and learners requires evidence that
+      both classifications are reliable and valid; expert placement of levels
+      is a hypothesis rather than self-validating instructional truth.
+    limits: >-
+      Statistical fit and classification reliability do not establish the
+      educational worth, cultural legitimacy, completeness, or unique order of
+      a progression.
+
+  - id: schmidt-wang-mcknight-2005-coherence
+    kind: international-curriculum-analysis
+    citation: >-
+      Schmidt, W. H., Wang, H. C., & McKnight, C. C. (2005). Curriculum
+      coherence: An examination of US mathematics and science content standards
+      from an international perspective. Journal of Curriculum Studies, 37(5),
+      525-559. https://doi.org/10.1080/0022027042000294682
+    url: https://doi.org/10.1080/0022027042000294682
+    publication_date: 2005-09-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Mathematics and science content standards examined against TIMSS patterns across countries.
+    design: Comparative analysis of topic focus, sequence, and coherence in standards and higher-performing systems.
+    finding: >-
+      The existence of content standards did not guarantee coherent curricular
+      structure; higher-performing systems tended to show greater focus and
+      connected development than the comparatively fragmented US standards.
+    limits: >-
+      Country-level associations, selected standards, and test outcomes cannot
+      determine an ideal learner path or detach coherence from resources,
+      teaching, inequality, and assessment alignment.
+
+  - id: jackson-1968-life-in-classrooms
+    kind: foundational-observational-conceptual-work
+    citation: >-
+      Jackson, P. W. (1968). Life in Classrooms. Holt, Rinehart and Winston.
+    url: https://search.worldcat.org/title/Life-in-classrooms/oclc/1408293577
+    publication_date: 1968-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Everyday elementary classroom life and its institutional conditions.
+    design: Observation and conceptual analysis of unpublicized lessons learned through crowds, praise, power, delay, evaluation, and institutional routines.
+    finding: >-
+      Learners acquire adaptations to classroom authority and conditions that
+      are not stated in the official curriculum. These effects arise through
+      ordinary organization, not only through a secret or deliberately harmful
+      teacher agenda.
+    limits: >-
+      A historically and institutionally specific account does not identify all
+      tacit learning or determine whether every unintended lesson is harmful.
+
+  - id: apple-2019-ideology-curriculum
+    kind: critical-curriculum-theory
+    citation: >-
+      Apple, M. W. (2019). Ideology and Curriculum (4th ed.). Routledge.
+      https://doi.org/10.4324/9780429400384
+    url: https://doi.org/10.4324/9780429400384
+    publication_date: 2018-12-21
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Curriculum, cultural and economic power, institutional reproduction, conflict, classification, and official knowledge.
+    design: Critical historical and theoretical analysis, including revision of earlier reproduction arguments.
+    finding: >-
+      Official knowledge, ordinary categories, and systems of management are
+      politically produced; curriculum selection and organization participate
+      in power even when presented as technical necessity or common sense.
+    limits: >-
+      Critical diagnosis does not itself specify a sufficient curriculum,
+      empirical learning sequence, or fair procedure for every selection.
+
+  - id: paris-alim-2017-csp
+    kind: critical-curriculum-and-pedagogy-framework
+    citation: >-
+      Paris, D., & Alim, H. S. (Eds.). (2017). Culturally Sustaining
+      Pedagogies: Teaching and Learning for Justice in a Changing World.
+      Teachers College Press.
+    url: https://www.tcpress.com/culturally-sustaining-pedagogies-9780807758335
+    publication_date: 2017-04-28
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Schooling amid racialized, linguistic, literate, cultural, community, and youth practices under conditions of erasure and change.
+    design: Edited theoretical, empirical, practitioner, and community-grounded cases advancing and critiquing culturally sustaining pedagogy.
+    finding: >-
+      Curriculum should sustain linguistic, literate, and cultural pluralism
+      toward justice and revitalization rather than merely use culture as a
+      bridge into dominant norms. Communities and young people also transform
+      practices, so “sustaining” cannot mean freezing an authentic culture.
+    limits: >-
+      The framework is relational and political, not a portable culture-matching
+      technique; an AI cannot claim community authority or infer culture from a
+      learner's identity.
+claims:
+  - id: coherence-is-connected-purpose-not-lockstep-order
+    statement: >-
+      A coherent curriculum connects encounters to intelligible capabilities,
+      distinctions, and future uses while permitting multiple entries,
+      revisitation, detours, and revision; coherence is not one mandatory order.
+    confidence: high
+    source_ids: [jin-et-al-2019-learning-progressions, schmidt-wang-mcknight-2005-coherence]
+    supports: >-
+      Maintain a small visible map of conceptual neighborhoods, dependencies,
+      encounters, and transfer routes; prune nodes that no longer earn attention.
+    tensions: >-
+      Stable sequence can protect cumulative access and reduce planning burden;
+      unrestricted choice can repeatedly bypass difficult foundations.
+    boundary_conditions: Domain structure, actual prerequisites, learner purposes, time, prior knowledge, access, recurrence, and evidence of transfer.
+    does_not_license: Checklist completion, arbitrary novelty, maximal coverage, hidden prerequisites, or preserving a plan because work was invested in it.
+
+  - id: progressions-are-testable-models
+    statement: >-
+      A learning progression proposes possible development under specified
+      opportunities; its levels, dependencies, upper anchor, and learner
+      classifications require empirical, conceptual, and consequential validity.
+    confidence: high
+    source_ids: [jin-et-al-2019-learning-progressions, attali-attali-2019-progression-validation]
+    supports: >-
+      Treat prerequisite and mastery judgments as revisable hypotheses, seek
+      counterpaths, and alter environment or representation before labeling a
+      learner as below a level.
+    tensions: >-
+      Provisional progressions can still coordinate good teaching before a
+      mature validation program exists.
+    boundary_conditions: Population, domain, task, instruction, assessment model, language, culture, disability, and intended use.
+    does_not_license: Naturalizing a sequence, assigning developmental identity, covert remediation, or confusing model fit with educational justice.
+
+  - id: recurrence-must-change-the-encounter
+    statement: >-
+      A spiral has pedagogical force only when revisitation changes relation,
+      representation, complexity, source judgment, or transfer; repetition of
+      the same exposure at intervals is not cumulative curriculum by itself.
+    confidence: medium
+    source_ids: [jin-et-al-2019-learning-progressions, schmidt-wang-mcknight-2005-coherence]
+    supports: >-
+      Revisit an etymological nucleus through a new attestation, language,
+      method, exception, historical institution, or use that reorganizes the
+      prior model.
+    tensions: >-
+      Plain retrieval and rehearsal can strengthen availability without adding
+      conceptual complexity.
+    boundary_conditions: Aim, interval, prior encounter, representation, task demand, feedback, and opportunity cost.
+    does_not_license: Recycling stale lessons, review debt, mere thematic recurrence, or claiming depth from increasing terminology.
+
+  - id: enacted-routines-are-curriculum
+    statement: >-
+      What a teaching system rewards, withholds, repeats, ranks, records, and
+      makes costly teaches norms of knowledge and authority regardless of its
+      declared content.
+    confidence: high
+    source_ids: [jackson-1968-life-in-classrooms, apple-2019-ideology-curriculum]
+    supports: >-
+      Audit interface defaults, response expectations, waiting, praise,
+      correction, source visibility, data retention, return pressure, and who
+      may redirect the encounter as curricular acts.
+    tensions: >-
+      Not every tacit consequence can be predicted or made explicit; exhaustive
+      disclosure itself burdens attention and can create a procedural curriculum.
+    boundary_conditions: Stakes, institutional power, repetition, legibility, alternatives, consequences, and learners' ability to contest or exit.
+    does_not_license: Assuming benevolent intent neutralizes effects, treating all structure as oppression, or replacing subject teaching with endless process talk.
+
+  - id: sustaining-is-not-cultural-matching
+    statement: >-
+      Cultural and linguistic plurality should change what knowledge, practice,
+      authority, and future the curriculum sustains; it cannot be accomplished
+      by matching examples to an inferred learner identity.
+    confidence: high
+    source_ids: [paris-alim-2017-csp, apple-2019-ideology-curriculum]
+    supports: >-
+      Cite community and disciplinary authority, keep living variation visible,
+      expose relations of erasure and appropriation, and let learner-chosen
+      language or practice redirect inquiry without becoming a profile.
+    tensions: >-
+      Shared disciplinary codes and unfamiliar traditions can expand access and
+      should not be withheld in the name of relevance.
+    boundary_conditions: Community authority, historical relation, language status, learner purpose, source provenance, public use, and benefit.
+    does_not_license: Identity inference, representative burden, exotic examples, freezing tradition, extracting endangered-language material, or denying access to dominant codes.
+implications:
+  - >-
+    A daily Professor should select one worthwhile encounter using a living map,
+    then disclose only the connective tissue that helps today; it should not
+    recite the syllabus or create debt for missed days.
+  - >-
+    The private curriculum map should distinguish observed capability,
+    provisional prerequisite hypotheses, open questions, and expiring ideas.
+    Learner-derived nuclei stay in the external data home until explicit human
+    promotion to bundled curriculum.
+  - >-
+    A philology route should connect close encounters with attestation, sound
+    change, analogy, borrowing, semantic history, writing systems, textual
+    transmission, lexicography, comparison, and the political histories of
+    disciplines—without making Indo-European comparison the template for all.
+  - >-
+    No active policy change is earned: Professor already treats plans as living
+    topology, canons as situated, schedules as debt-free, and private developing
+    curriculum as distinct from explicit public bundling.
+open_questions:
+  - What minimal private representation preserves coherence without turning the learner into a mastery vector?
+  - Which philological dependencies are genuinely necessary, which are conventional course order, and which vary by object or language?
+  - How should a one-learner curriculum return value to source communities when using community-produced language resources?
+  - Which hidden lessons are produced by conversational fluency, anthropomorphic voice, source invisibility, and instant answers in AI teaching?
+  - How can curriculum omissions be made contestable without attaching administrative caveats to every brief encounter?
+next_actions:
+  - Study curriculum-making traditions beyond Anglophone school systems and comparative methods that do not treat national test performance as the sole outcome.
+  - Seek empirical evidence on nonlinear learning progressions, learner-chosen pathways, and longitudinal adult humanities curricula.
+  - Audit Professor's daily loop for tacit return pressure, speed norms, source concealment, canon repetition, and planning debt.
+  - Test a private topology that expires unused lesson ideas and records why a revisitation changes the object.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
