@@ -121,3 +121,14 @@ questions:
     last_scanned_on: 2026-08-10
     next_scan_on: 2026-09-01
     reframe_when: A medium or population requires a distinct mechanism and harm model.
+
+  - id: epistemic-justice-curriculum-and-knowledge-access
+    status: active
+    question: How should curriculum provide access to consequential knowledge while exposing and transforming the institutions, exclusions, and legitimacy rules through which knowledge becomes canonical?
+    why_now: Access to specialized knowledge can resist gatekeeping, yet canon and disciplinary authority can reproduce testimonial, hermeneutical, contributory, colonial, racial, linguistic, and class injustice.
+    lenses: [social-epistemology, curriculum-theory, disciplinary-history, decolonial, critical-race, learner-and-community-authority]
+    source_routes: [systematic-reviews, philosophy-of-education, disciplinary-histories, community-scholarship, curriculum-studies, learner-authored-accounts]
+    watch_venues: [Review of Educational Research, Curriculum Inquiry, Journal of Curriculum Studies, Ethics and Education, Hypatia]
+    last_scanned_on: 2026-08-12
+    next_scan_on: 2026-09-01
+    reframe_when: A discipline, community, language, or canon requires a distinct historical and authority-specific inquiry.
