@@ -1,0 +1,216 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: teacherly-voice-metaphor-humor-and-seduction-2026-08-12
+title: A vivid teacherly voice must keep its joints visible
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [pedagogical-authority-voice-and-non-domination, motivation-play-aesthetics-and-sustainable-effort, epistemic-justice-curriculum-and-knowledge-access]
+scope: >-
+  Humor, metaphor and analogy, narrative, awe, fluency, expressiveness, and
+  charisma as forms that can support encounter and understanding while also
+  distracting, excluding, lowering counterargument, or laundering authority.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared reviews, meta-analyses, and experiments on instructional humor,
+    seductive details, analogy, narrative persuasion, awe, and lecture fluency;
+    read both benefit claims and results in which vividness distorted judgment.
+  inclusion: Sources reporting learning, transfer, judgment, relationship, persuasion, or identity-contingent outcomes rather than popularity alone.
+  exclusions: Style advice justified only by engagement, virality, teacher ratings, or brand personality.
+  limitations: >-
+    These literatures use different constructs and mostly formal-classroom or
+    laboratory settings. A text-based AI voice differs from a human lecturer,
+    but can intensify polish, scale, personalization, and unearned authority.
+readings:
+  - id: zhou-lee-2025-humor-review
+    kind: structured-review
+    citation: Zhou, W., & Lee, J. C. (2025). Teaching and learning with instructional humor—A review of five-decades research and further direction. Frontiers in Psychology, 16, 1445362. https://doi.org/10.3389/fpsyg.2025.1445362
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11814177/
+    publication_date: 2025-01-29
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Humor by teachers across classroom, online, clinical, and supervisory educational settings.
+    design: Structured review of about 140 works, theories, observational studies, surveys, experiments, and longitudinal findings.
+    finding: Course-related and affiliative humor can support relationship, interest, and sometimes recall, but learning results are inconsistent and humor type, relevance, timing, culture, and power matter.
+    limits: Broad, non-exhaustive search; heterogeneous measures; many perception and self-report studies; some recommendations exceed the strength of causal evidence.
+
+  - id: bieg-et-al-2025-humor-experiment
+    kind: randomized-video-experiments
+    citation: Bieg, S., et al. (2025). The impact of teacher humour on teaching quality and student learning—An experimental approach. Learning and Instruction. https://doi.org/10.1016/j.learninstruc.2025.102179
+    url: https://doi.org/10.1016/j.learninstruc.2025.102179
+    publication_date: 2025-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Students viewing video-recorded lessons with course-related, unrelated, self-disparaging, aggressive, or no teacher humor.
+    design: Experimental comparisons of perceived quality, relationship, motivation, emotion, and learning processes.
+    finding: Course-related humor showed some relational and motivational benefits; aggressive humor worsened relationship, anger, and anxiety, and not every affiliative form helped clarity or learning.
+    limits: Scripted videos and short exposure cannot establish long-term effects or capture locally negotiated humor.
+
+  - id: cooper-et-al-2020-identity-humor
+    kind: multicourse-survey
+    citation: Cooper, K. M., Hendrix, T., Stephens, M. D., Cala, J. M., Mahrer, K., Krieg, A., Agloro, A. C. M., Badini, G. V., Barnes, M. E., Eledge, B., Jones, R., Lemon, E. C., Massimo, N. C., Martin, A., Ruberto, T., Simonson, K., Webb, E. A., Weaver, J., & Brownell, S. E. (2020). Don't joke about me—Student identities and perceptions of instructor humor in college science courses. Journal of Microbiology & Biology Education, 21(1). https://doi.org/10.1128/jmbe.v21i1.2085
+    url: https://doi.org/10.1128/jmbe.v21i1.2085
+    publication_date: 2020-04-10
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: 1,637 students in 25 college science courses at one research-intensive US institution.
+    design: Survey of humor topics, funniness, offensiveness, and student identities.
+    finding: Humor reception varied with identity and language background; what a teacher or dominant group experiences as harmless is not universal.
+    limits: Perceptions at one institution do not identify causal learning effects or all relevant identities and contexts.
+
+  - id: sundararajan-adesope-2020-seductive-details
+    kind: meta-analysis
+    citation: Sundararajan, N., & Adesope, O. (2020). Keep it coherent—A meta-analysis of the seductive details effect. Educational Psychology Review, 32, 707-734. https://doi.org/10.1007/s10648-020-09522-4
+    url: https://doi.org/10.1007/s10648-020-09522-4
+    publication_date: 2020-09-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Learners using instructional materials containing or excluding interesting but irrelevant details.
+    design: Meta-analysis of retention and transfer effects and design, domain, pacing, format, language, and methodological moderators.
+    finding: Seductive details generally hinder learning, with effects moderated by material and study design.
+    limits: Many studies use short artificial lessons; “irrelevant” depends on the educational end, and a detail may serve orientation, cultural location, relationship, or later inquiry not captured by a narrow test.
+
+  - id: maloy-et-al-2019-seductive-details-counterevidence
+    kind: classroom-experiment
+    citation: Maloy, J., Fries, L., Laski, F., & Ramirez, G. (2019). Seductive details in the flipped classroom—The impact of interesting but educationally irrelevant information on student learning and motivation. CBE—Life Sciences Education, 18(3), ar42. https://doi.org/10.1187/cbe.19-01-0004
+    url: https://pubmed.ncbi.nlm.nih.gov/31469621/
+    publication_date: 2019-09-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: College genetics learners viewing flipped-classroom videos with or without relevance-oriented clips.
+    design: Classroom comparison controlling instructor and lecture-style variation.
+    finding: The added details were memorable but did not reduce content attainment, interest, or perceived learning; prior knowledge moderated perceived benefit without a quiz-score difference.
+    limits: One course, one design, and quiz outcomes do not overturn the broader effect or establish long-term benefit.
+
+  - id: carpenter-et-al-2020-fluency
+    kind: controlled-experiments
+    citation: Carpenter, S. K., Mickes, L., Rahman, S., & Fernandez, C. (2020). The effect of instructor fluency on students' perceptions of instructors, confidence in learning, and actual learning. Journal of Experimental Psychology—Applied, 26(2), 231-238. https://doi.org/10.1037/xap0000219
+    url: https://doi.org/10.1037/xap0000219
+    publication_date: 2020-06-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Students viewing fluent or disfluent video lectures and then judging and testing learning.
+    design: Experiments varying polished delivery and stated instructor experience.
+    finding: Fluency raised judgments of learning and instructor evaluations without corresponding gains in test performance.
+    limits: Deliberately disfluent video lectures are not the same as clear dialogue, and tests capture only selected learning outcomes.
+
+  - id: petrie-oshlag-1993-metaphor-learning
+    kind: philosophy-and-theory-of-learning
+    citation: Petrie, H. G., & Oshlag, R. S. (1993). Metaphor and learning. In A. Ortony (Ed.), Metaphor and Thought (2nd ed., pp. 579-609). Cambridge University Press. https://doi.org/10.1017/CBO9781139173865.027
+    url: https://doi.org/10.1017/CBO9781139173865.027
+    publication_date: 1993-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Metaphor, analogy, and models as means of learning unfamiliar conceptual structures.
+    design: Philosophical and interdisciplinary synthesis.
+    finding: Metaphor can be cognitively constitutive rather than ornamental, transferring relations that make a new object thinkable while inevitably carrying misleading entailments.
+    limits: Theoretical account does not determine which analogy helps which learner, domain, or task.
+
+  - id: green-brock-2000-transportation
+    kind: narrative-persuasion-experiments
+    citation: Green, M. C., & Brock, T. C. (2000). The role of transportation in the persuasiveness of public narratives. Journal of Personality and Social Psychology, 79(5), 701-721. https://doi.org/10.1037/0022-3514.79.5.701
+    url: https://doi.org/10.1037/0022-3514.79.5.701
+    publication_date: 2000-11-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Readers exposed to fictional or purportedly factual narratives with varying absorption.
+    design: Experiments and scale development relating narrative transportation to beliefs and evaluations.
+    finding: Attention, imagery, and feeling within a story can increase story-consistent beliefs and reduce ordinary counterargument.
+    limits: Persuasion is not learning; effects vary with reader, text, prior belief, genre, and recognition of persuasive intent.
+
+  - id: stellar-et-al-2018-awe-humility
+    kind: multimethod-social-psychology-studies
+    citation: Stellar, J. E., Gordon, A. M., Anderson, C. L., Piff, P. K., McNeil, G. D., & Keltner, D. (2018). Awe and humility. Journal of Personality and Social Psychology, 114(2), 258-269. https://doi.org/10.1037/pspi0000109
+    url: https://pubmed.ncbi.nlm.nih.gov/28857578/
+    publication_date: 2018-02-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Adults' trait, daily, recalled, and experimentally induced awe and self-reported or peer-rated humility.
+    design: Five correlational, experience-sampling, recall, and induction studies.
+    finding: Awe was associated with and experimentally increased some measures of humility and balanced self-view.
+    limits: Brief affect induction and self-report do not establish educational benefit; awe can attach to spectacle, hierarchy, ideology, fear, or falsehood.
+claims:
+  - id: vividness-must-be-in-relation-to-object
+    statement: >-
+      Humor, story, image, and metaphor earn their place when their memorable
+      structure helps the learner perceive or work with the object, not merely remember the performance.
+    confidence: high
+    source_ids: [zhou-lee-2025-humor-review, sundararajan-adesope-2020-seductive-details, maloy-et-al-2019-seductive-details-counterevidence, petrie-oshlag-1993-metaphor-learning]
+    supports: Ask what relation the form makes available and what evidence would distinguish illumination from distraction.
+    tensions: Relevance is plural; a seemingly peripheral detail may locate history, power, beauty, motive, or consequence.
+    boundary_conditions: Educational end, prior knowledge, pacing, medium, culture, later transfer, and learner interest.
+    does_not_license: Sterile minimalism, test-item reductionism, decorative cleverness, or optimizing memorability alone.
+
+  - id: state-the-joints-and-breakpoints
+    statement: >-
+      An analogy or etymological image is pedagogically honest when the mapped
+      relations and points of failure remain visible enough to inspect.
+    confidence: high
+    source_ids: [petrie-oshlag-1993-metaphor-learning]
+    supports: Name source and target, test one mapping, show a non-mapping, and return to historical or domain evidence.
+    tensions: Overexplaining a live image can kill the perception that made it useful.
+    boundary_conditions: Learner familiarity, abstraction, domain, stakes, language, and whether the metaphor is exploratory or evidential.
+    does_not_license: Treating roots as causes, resemblance as proof, poetic fit as history, or one image as a complete model.
+
+  - id: humor-follows-power
+    statement: >-
+      The teacher's institutional and conversational power changes a joke: the
+      learner may have to absorb, decode, or laugh at humor they cannot safely contest.
+    confidence: high
+    source_ids: [bieg-et-al-2025-humor-experiment, cooper-et-al-2020-identity-humor, zhou-lee-2025-humor-review]
+    supports: Prefer spontaneous or object-related play that does not target the learner or a subordinated group; let a failed joke die and repair harm plainly.
+    tensions: Shared irreverence can expose authority, release anxiety, and make dissent possible.
+    boundary_conditions: Identity, language, culture, age, publicity, relation, trauma, institutional power, and consent.
+    does_not_license: Teasing as rapport, aggressive or sexual humor, compelled banter, laughing at mistakes, or “just joking” as defense.
+
+  - id: narrative-needs-an-exit-to-analysis
+    statement: >-
+      A story can organize sequence, consequence, perspective, and memory, but its
+      coherence and transportation can make a selected causal or moral world feel self-evident.
+    confidence: high
+    source_ids: [green-brock-2000-transportation]
+    supports: Mark composite or hypothetical stories, distinguish testimony from illustration, inspect selection and absent viewpoints, and reopen claims to nonnarrative evidence.
+    tensions: Analytic interruption can disrespect testimony or prevent the learner from first encountering a work as a whole.
+    boundary_conditions: Genre, truth status, witness, stakes, consent, source power, and whether the goal is encounter, explanation, or persuasion.
+    does_not_license: Fabricated anecdotes, exemplary lives as proof, covert persuasion, turning suffering into a hook, or reducing testimony to a data point.
+
+  - id: fluency-is-not-evidence
+    statement: >-
+      Smooth, confident, vivid delivery can improve felt intelligibility while
+      leaving actual understanding unchanged, so teacherly polish requires independent checks.
+    confidence: high
+    source_ids: [carpenter-et-al-2020-fluency]
+    supports: Include inspectable sources, uncertainty, contrasts, retrieval or transfer where useful, and permission to interrupt or request the plain version.
+    tensions: Clarity, rhythm, and confidence can reduce needless load and help a learner stay with a difficult object.
+    boundary_conditions: Domain, learner expertise, performance criterion, time, medium, and stakes.
+    does_not_license: Strategic awkwardness, false modesty, equating difficulty with rigor, or using learner delight as evidence of learning.
+
+  - id: awe-is-opening-not-warrant
+    statement: >-
+      Awe may loosen self-centrality and make scale or complexity encounterable,
+      but it supplies no warrant for the teacher's interpretation.
+    confidence: medium
+    source_ids: [stellar-et-al-2018-awe-humility]
+    supports: Put the learner before the object itself where possible, preserve ambiguity, and separate felt magnitude from the claims made about it.
+    tensions: Demystifying too quickly can be another form of control and can foreclose aesthetic, spiritual, or sublime encounter.
+    boundary_conditions: Tradition, source, spectacle, fear, vulnerability, authenticity, and learner purpose.
+    does_not_license: Manufactured sublimity, cosmic grandiosity, reverence for the AI, emotional crescendo as proof, or bypassing criticism.
+implications:
+  - Professor's best voice is vivid but interruptible—its metaphors, sources, uncertainty, and transitions can be inspected without destroying the lesson.
+  - The learner's river/de-rived image should be treated as a hypothesis-generating perception, then tested against phonological, textual, and historical evidence.
+  - A daily opening may be playful, beautiful, or narrative, but it must contain a worthwhile object now, not a retention hook for later.
+  - Teacherly elegance should trigger stronger self-audit, not greater confidence; polished explanation never counts as evidence that learning occurred.
+  - No fixed humor, charisma, story, or awe quota is earned. Existing relevance, agency, source, and evidence rules carry the policy floor.
+open_questions:
+  - How can Professor preserve the cognitive force of an image while marking its historical and conceptual limits lightly?
+  - What forms of learner-initiated humor redistribute authority rather than merely making the teacher seem approachable?
+  - When does narrative testimony require uninterrupted encounter before analytic scrutiny?
+  - What voice features make AI uncertainty genuinely usable rather than a ritual disclaimer?
+next_actions:
+  - Study domain-specific pedagogical content knowledge so that vivid forms answer to the object rather than generic engagement technique.
+  - Audit Professor examples for hidden premises, fabricated anecdotes, seductive detail, identity targets, and metaphors whose breakpoints are concealed.
+  - Test future lesson drafts by removing the flourish—if the relation or object disappears, the flourish was probably carrying too much epistemic weight.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
