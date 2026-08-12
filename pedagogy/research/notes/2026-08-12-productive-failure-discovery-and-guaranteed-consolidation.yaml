@@ -1,0 +1,265 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: productive-failure-discovery-and-guaranteed-consolidation-2026-08-12
+title: Struggle prepares learning only when the design guarantees a way through
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [durable-memory-transfer-and-calibration, motivation-play-aesthetics-and-sustainable-effort]
+scope: >-
+  A bounded inquiry into unassisted discovery, assisted discovery, problem
+  solving before instruction, productive failure, contrasting cases, error
+  comparison, and vicarious failure. It asks what the preparatory attempt
+  contributes, what the subsequent instruction must do, who bears the cost of
+  failure, and when direct explanation is the more educative choice.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared a broad discovery-learning meta-analysis, a mechanism-focused
+    review, a productive-failure meta-analysis, an experiment on error
+    comparison, and a recent learner-characteristics study. Read outcome type,
+    comparison design, prior knowledge, fidelity, affect, accessibility, and
+    consolidation as separable rather than treating “discovery” as one method.
+  inclusion: >-
+    Quantitative syntheses with explicit comparators, reviews that isolate
+    mechanisms and design features, and primary studies that test consolidation
+    or learner heterogeneity rather than merely celebrating perseverance.
+  exclusions: >-
+    Failure-as-character rhetoric, unguided-discovery advocacy without a
+    comparator, immediate engagement as learning, and studies where “direct
+    instruction” means only passive lecture or “discovery” includes extensive
+    undisclosed guidance.
+  limitations: >-
+    Much productive-failure evidence concerns mathematics and STEM, conceptual
+    outcomes, school or undergraduate populations, and researcher-designed
+    interventions. Publication bias, construct overlap, fidelity coding, and
+    differences between quasi-experiments and experiments limit generalization
+    to voluntary adult philology and one-to-one AI teaching.
+readings:
+  - id: alfieri-et-al-2011-discovery
+    kind: meta-analysis
+    citation: >-
+      Alfieri, L., Brooks, P. J., Aldrich, N. J., & Tenenbaum, H. R. (2011).
+      Does discovery-based instruction enhance learning? Journal of
+      Educational Psychology, 103(1), 1-18.
+      https://doi.org/10.1037/a0021017
+    url: https://doi.org/10.1037/a0021017
+    publication_date: 2011-02-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Learners across 164 studies and varied discovery implementations.
+    design: Two random-effects meta-analyses separating unassisted from enhanced or assisted discovery.
+    finding: >-
+      Explicit instruction outperformed unassisted discovery across most
+      conditions, while enhanced discovery outperformed comparison instruction
+      on average. Feedback, worked examples, scaffolding, and elicited
+      explanations were among the features associated with assisted discovery.
+    limits: >-
+      The broad category spans unlike tasks, ages, domains, controls, and forms
+      of assistance; an average does not identify which support a learner needs.
+
+  - id: loibl-roll-rummel-2017-ps-i
+    kind: mechanism-focused-review
+    citation: >-
+      Loibl, K., Roll, I., & Rummel, N. (2017). Towards a theory of when and how
+      problem solving followed by instruction supports learning. Educational
+      Psychology Review, 29, 693-715.
+      https://doi.org/10.1007/s10648-016-9379-x
+    url: https://doi.org/10.1007/s10648-016-9379-x
+    publication_date: 2016-07-16
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Problem-solving-before-instruction studies, concentrated in mathematics and related conceptual domains.
+    design: Review mapping implementation features, outcome patterns, and proposed cognitive mechanisms.
+    finding: >-
+      Problem solving before instruction supported learning only under specific
+      designs, notably contrasting cases or subsequent instruction that built
+      on learner solutions. Activation, gap awareness, and attention to deep
+      features are proposed mechanisms, not benefits guaranteed by failure.
+    limits: >-
+      The evidence base was domain-concentrated and involved a small set of
+      research programs; mechanism evidence remained incomplete and correlated.
+
+  - id: sinha-kapur-2021-productive-failure
+    kind: meta-analysis
+    citation: >-
+      Sinha, T., & Kapur, M. (2021). When problem solving followed by
+      instruction works: Evidence for productive failure. Review of Educational
+      Research, 91(5), 761-798.
+      https://doi.org/10.3102/00346543211019105
+    url: https://doi.org/10.3102/00346543211019105
+    publication_date: 2021-06-09
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Fifty-three studies and 166 PS-I versus instruction-then-problem-solving comparisons, largely grades 6-10 and undergraduates in STEM.
+    design: Three-level meta-analysis separating procedural from conceptual and transfer outcomes and coding productive-failure fidelity and moderators.
+    finding: >-
+      Problem solving before instruction favored conceptual knowledge and
+      transfer, particularly when productive-failure design fidelity was high;
+      procedural outcomes showed no clear advantage. Grade, duration, and study
+      design contributed to variation, and publication bias was detected.
+    limits: >-
+      Search seeded citations to key productive-failure papers, most concepts
+      were STEM, subgroup findings are observational within a meta-analysis, and
+      fidelity categories reflect the framework whose efficacy was being tested.
+
+  - id: loibl-leuders-dorfler-2019-errors
+    kind: controlled-instructional-study
+    citation: >-
+      Loibl, K., Leuders, T., & Dörfler, T. (2019). How to make failure
+      productive: Fostering learning from errors through elaboration prompts.
+      Learning and Instruction, 62, 1-10.
+      https://doi.org/10.1016/j.learninstruc.2019.03.002
+    url: https://doi.org/10.1016/j.learninstruc.2019.03.002
+    publication_date: 2019-03-14
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Students learning fraction comparison after an identical initial problem-solving activity.
+    design: Comparison of correct-only examples, correct and erroneous examples, and explicit comparison prompts during consolidation.
+    finding: >-
+      Learners prompted to compare erroneous and correct solutions performed
+      better at posttest; elaboration appeared to mediate the effect, especially
+      when a learner's initial attempt resembled the instructional error example.
+    limits: >-
+      A bounded mathematics task and proximal posttest do not establish a
+      general advantage for failure or determine emotional and time costs.
+
+  - id: nachtigall-rummel-2025-pf-vf
+    kind: comparative-primary-study
+    citation: >-
+      Nachtigall, V., & Rummel, N. (2025). Investigating learner
+      characteristics and processes in Productive Failure and Vicarious Failure
+      to design adaptive guidance. Learning and Instruction, 95, 102052.
+      https://doi.org/10.1016/j.learninstruc.2024.102052
+    url: https://doi.org/10.1016/j.learninstruc.2024.102052
+    publication_date: 2024-09-20
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Learners in productive- and vicarious-failure preparatory activities.
+    design: Comparative study of learner characteristics, planning, evaluation, and different preparatory processes.
+    finding: >-
+      The two designs produced comparable learning while learners approached
+      them differently; the authors identify low prior knowledge, ability, or
+      self-concept as conditions that may require additional support.
+    limits: >-
+      The study is an initial account for adaptive guidance and does not license
+      automated trait classification, hidden difficulty adjustment, or a claim
+      that vicarious experience is universally equivalent.
+claims:
+  - id: failure-is-not-the-active-ingredient
+    statement: >-
+      Failure is an event description, not an instructional mechanism. A
+      preparatory attempt becomes educative when it activates relevant
+      knowledge, reveals discriminable gaps, directs attention to structural
+      features, and is connected to reliable consolidation.
+    confidence: high
+    source_ids: [loibl-roll-rummel-2017-ps-i, sinha-kapur-2021-productive-failure, loibl-leuders-dorfler-2019-errors]
+    supports: >-
+      Design backward from the contrast the learner should notice, permit
+      multiple intelligible attempts, then explicitly compare those attempts
+      with warranted forms and explanations.
+    tensions: >-
+      Affect, surprise, intellectual need, and the experience of impasse may
+      contribute to attention and readiness, but they are neither necessary nor
+      ethically free.
+    boundary_conditions: >-
+      Prior knowledge, task attainability, relevance of generated attempts,
+      consolidation quality, time, stakes, affect, access, and learner choice.
+    does_not_license: Engineering humiliation, praising pain, repeated dead ends, grading initial attempts, or calling abandonment productive.
+
+  - id: order-and-form-must-not-be-confounded
+    statement: >-
+      A comparison between problem-first and instruction-first sequences often
+      also changes the form of instruction, examples, discussion, practice, and
+      learner production; sequence effects cannot be inferred when these differ.
+    confidence: high
+    source_ids: [loibl-roll-rummel-2017-ps-i, sinha-kapur-2021-productive-failure, loibl-leuders-dorfler-2019-errors]
+    supports: >-
+      Name the whole design and its comparator, document what each learner did
+      and received, and avoid method-war labels that conceal unequal treatments.
+    tensions: >-
+      Ecologically complete instructional designs may be worth comparing even
+      when individual components cannot be causally isolated.
+    boundary_conditions: Comparator quality, time on task, examples, feedback, practice, teacher responsiveness, and outcome type.
+    does_not_license: Declaring discovery or direct instruction universally superior from a bundled comparison.
+
+  - id: consolidation-is-a-promise-not-an-optional-phase
+    statement: >-
+      In a problem-first design, the teacher incurs a duty to provide timely,
+      comprehensible consolidation that uses the learner's preparation and
+      makes the target distinction available; without it, the design is not
+      productive failure but unsupported struggle.
+    confidence: high
+    source_ids: [loibl-roll-rummel-2017-ps-i, loibl-leuders-dorfler-2019-errors]
+    supports: >-
+      Budget consolidation before inviting the attempt, preserve the learner's
+      actual representations, compare rather than merely replace them, and give
+      the direct answer immediately when requested.
+    tensions: >-
+      Learners can discover and consolidate independently, and premature
+      explanation can close a fruitful investigation they wish to continue.
+    boundary_conditions: Learner request, available time, safety, trust, source warrant, task complexity, and whether attempts are inspectable.
+    does_not_license: Ending on confusion, teaser pedagogy, answer withholding, vague encouragement, or substituting the canonical answer without sensemaking.
+
+  - id: access-to-struggle-must-be-equivalent
+    statement: >-
+      A learner should be able to enter the same conceptual contrast through a
+      self-generated attempt, a vicarious attempt, a worked example, or direct
+      explanation without the more accessible route being treated as lesser.
+    confidence: medium
+    source_ids: [alfieri-et-al-2011-discovery, nachtigall-rummel-2025-pf-vf]
+    supports: >-
+      Offer visible route choices and change task conditions before inferring a
+      deficit from nonparticipation or low production.
+    tensions: >-
+      Generating an attempt can create knowledge and agency that observation
+      alone may not reproduce; equivalence must be judged against the real aim.
+    boundary_conditions: Prior knowledge, language, disability, anxiety, motor or sensory demands, cultural meaning of public error, and stakes.
+    does_not_license: Hidden learner classification, remedial identity, easier-but-thinner curriculum, or requiring disclosure to receive support.
+
+  - id: transfer-is-the-relevant-advantage-not-a-universal-default
+    statement: >-
+      The strongest case for problem solving before instruction concerns
+      conceptual structure and transfer under high-fidelity designs, not faster
+      procedural acquisition or a mandate to begin every topic with failure.
+    confidence: high
+    source_ids: [sinha-kapur-2021-productive-failure]
+    supports: >-
+      Use a bounded preparatory problem when later discrimination and transfer
+      matter and sufficient relevant knowledge, time, and consolidation exist.
+    tensions: >-
+      Direct explanation followed by varied practice can also produce transfer,
+      and a receptive encounter can be complete without a transfer claim.
+    boundary_conditions: Claimed outcome, delay, domain, prior knowledge, fidelity, comparator, practice, and opportunity cost.
+    does_not_license: Adding struggle to every encounter, penalizing efficient explanation, or claiming durable learning from an immediate conceptual test.
+implications:
+  - >-
+    For an etymological nucleus, invite a brief segmentation or relation wager
+    only when the visible forms make a relevant attempt possible; then compare
+    the wager with attestations, sound correspondences, and semantic history.
+  - >-
+    Keep “show me” absolute. The same object can remain alive after a direct
+    explanation through contrasting cases, prediction, source inspection, or
+    transfer to a new form.
+  - >-
+    Do not call the learner's noncanonical idea a failure when it is a useful
+    representation, a historically plausible hypothesis, or evidence that the
+    task underspecified what counted as success.
+  - >-
+    Professor's active policy already requires bounded productive failure,
+    voluntary hints, guaranteed consolidation, answer-on-request, and route
+    equivalence. No active tack change is earned by this scan.
+open_questions:
+  - Which preparatory activities support philological source judgment without encouraging folk-etymological confidence?
+  - How can consolidation preserve the learner's authorship without making their wording a permanent profile or public artifact?
+  - Which outcomes show preparation for future learning rather than familiarity with the researcher's posttest?
+  - What are the affective, status, language, and accessibility costs omitted from most productive-failure studies?
+  - When does a worked contrasting case produce the same structural noticing with less time and uncertainty?
+next_actions:
+  - Seek non-STEM, adult, disability, multilingual, and qualitative studies of preparatory problem solving and public error.
+  - Study explanatory quality, question asking, worked examples, example fading, and learner-generated examples as distinct mechanisms.
+  - Audit Professor examples for attempts invited without budgeted consolidation or for “failure” language applied to generative hypotheses.
+  - Retest the route-equivalence claim against evidence on generation and the expertise-reversal effect.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
