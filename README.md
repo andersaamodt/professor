@@ -9,7 +9,7 @@ It is not a chatbot persona, a content firehose, a streak machine, or a claim to
 academic credentials. “Professor” names an aspiration and a public standard.
 The role it enacts is simply **the Teacher**.
 
-Version 1.1 makes that aspiration operational:
+Version 1.2 makes that aspiration operational:
 
 - a constitutional, AI-facing teaching contract;
 - an extensible catalog of pedagogical categories and tacks;
@@ -56,9 +56,10 @@ clears their contents while preserving unrecognized siblings at the data-home
 root.
 
 `daily` is passive and deterministic: it does not create state, consume missed
-days as debt, or make an API call. It emits a compact teaching brief for the
-host LLM. A scheduler can invoke the same command each day; the host remains in
-charge of model access and delivery. See
+days as debt, or make an API call. It emits compact orientation for the host
+LLM, not a lesson order. A schedule merely wakes Professor; the host applies the
+current policy and judgment, begins with a brief invitation or object, and may
+choose a different higher-value act. See
 [`prompts/scheduled-fire.md`](prompts/scheduled-fire.md) for the consent and
 no-backlog delivery contract.
 
@@ -116,9 +117,9 @@ Professor adapts on four deliberately separated timescales:
 
 For work that outlives a daily spark, Professor also has an external-only,
 learner-owned expedition contract: [`templates/teaching-plan.yaml`](templates/teaching-plan.yaml)
-and [`prompts/plan.md`](prompts/plan.md). It plans three encounters concretely,
-keeps distant routes porous, revisits transfer and cost, and includes a clean
-pause or retirement path.
+and [`prompts/plan.md`](prompts/plan.md). It keeps only three near-term candidate
+encounters concrete, rechecks them before use, prunes stale branches, keeps
+distant routes porous, and includes a clean pause or retirement path.
 
 The loop is:
 

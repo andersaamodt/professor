@@ -1,0 +1,116 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: plans-as-fading-scaffolds-2026-08-12
+title: Plans should behave like fading scaffolds, not content queues
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [ai-scaffolding-independent-learning]
+scope: >-
+  A bounded follow-up on assistance, adaptive fading, and independent
+  performance, used to test the analogy between instructional scaffolds and
+  longitudinal lesson plans. This is not a systematic review and does not
+  directly test plan-retirement procedures.
+method:
+  search_date: 2026-08-12
+  approach: Targeted search for a foundational assistance synthesis, an adaptive-fading experiment, a recent generative-AI field experiment, and its correction record.
+  inclusion: Sources that distinguish assistance from independent performance or compare fixed with evidence-responsive fading.
+  exclusions: Engagement-only studies, generic planning advice, product claims, and sources without an identifiable instructional comparison.
+  limitations: The assistance synthesis and adaptive-fading paper were only abstract or section screened; the recent field experiment was partially read online; all direct experiments concern mathematics or structured problem solving, not philology or longitudinal curriculum planning.
+readings:
+  - id: koedinger-aleven-2007-assistance-dilemma
+    kind: experimental-program-synthesis
+    citation: >-
+      Koedinger, K. R., & Aleven, V. (2007). Exploring the Assistance Dilemma
+      in Experiments with Cognitive Tutors. Educational Psychology Review,
+      19, 239–264. https://doi.org/10.1007/s10648-007-9049-0
+    url: https://doi.org/10.1007/s10648-007-9049-0
+    publication_date: 2007-07-21
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Experiments with Cognitive Tutors across structured problem-solving settings.
+    design: Review and reinterpretation of experiments that varied feedback, hints, worked examples, self-explanation, and other forms of assistance.
+    finding: The authors frame assistance giving versus withholding as an unresolved design problem whose answer depends on goals and the learner's current knowledge.
+    limits: The full paper was not retrieved in this scan; the abstract does not warrant a specific fading schedule or a general rule for humanities teaching.
+
+  - id: salden-2009-adaptive-fading
+    kind: lab-and-classroom-experiments
+    citation: >-
+      Salden, R. J. C. M., Aleven, V. A. W. M., Renkl, A., & Schwonke, R.
+      (2009). Worked Examples and Tutored Problem Solving: Redundant or
+      Synergistic Forms of Support? Topics in Cognitive Science, 1, 203–213.
+      https://doi.org/10.1111/j.1756-8765.2008.01011.x
+    url: https://doi.org/10.1111/j.1756-8765.2008.01011.x
+    publication_date: 2009-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: A laboratory study and a vocational-school classroom study using a Cognitive Tutor.
+    design: Standard tutored problem solving was compared with fixed and adaptively faded worked examples; transfer included delayed posttests.
+    finding: Adaptive fading produced stronger transfer in the lab; the classroom pattern was weaker, though one delayed comparison favored adaptive fading.
+    limits: Search-accessible abstract and discussion sections were inspected, not the complete article. Attrition, classroom noise, domain specificity, and a compound tutor design limit generalization.
+
+  - id: bastani-2025-guardrails-fuller-read
+    kind: randomized-field-experiment
+    citation: >-
+      Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R.
+      (2025). Generative AI without guardrails can harm learning: Evidence
+      from high school mathematics. Proceedings of the National Academy of
+      Sciences, 122(26), e2422633122.
+      https://doi.org/10.1073/pnas.2422633122
+    url: https://doi.org/10.1073/pnas.2422633122
+    publication_date: 2025-06-25
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Nearly one thousand high-school mathematics students at one school in Turkey.
+    design: Practice with an unrestricted GPT interface, a teacher-informed guarded tutor, or no AI was followed by an independent exam without those resources.
+    finding: Both AI conditions improved supported practice performance; the unrestricted condition reduced later independent exam performance relative to control, while the guarded condition largely removed that harm without producing a positive exam effect.
+    limits: Online abstract, intervention, results, availability, and change-history sections were inspected rather than every table and supplement. One school, mathematics review sessions, and short outcome timing do not establish a universal guardrail or planning rule.
+
+  - id: bastani-2025-affiliation-correction
+    kind: official-correction
+    citation: >-
+      Correction for Bastani et al., Generative AI without guardrails can harm
+      learning: Evidence from high school mathematics. (2025). Proceedings of
+      the National Academy of Sciences, 122(34), e2518204122.
+      https://doi.org/10.1073/pnas.2518204122
+    url: https://doi.org/10.1073/pnas.2518204122
+    publication_date: 2025-08-20
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Correction record for the Bastani et al. field experiment.
+    design: Publisher correction.
+    finding: The correction changes one author affiliation, not the reported design, results, or interpretation.
+    limits: This record verifies the correction's scope; it supplies no additional learning evidence.
+claims:
+  - id: assistance-should-answer-to-current-evidence
+    statement: Assistance is better treated as a variable response to current capability than as a fixed sequence that must be completed.
+    confidence: medium
+    source_ids: [koedinger-aleven-2007-assistance-dilemma, salden-2009-adaptive-fading, bastani-2025-guardrails-fuller-read]
+    supports: Professor should inspect the present learning need before reusing a scaffold or planned encounter and should fade or replace support when evidence changes.
+    tensions: Too little assistance can waste time or exclude novices; guarded help can become paternalistic if it overrides a direct request for an answer.
+    boundary_conditions: The direct evidence concerns structured mathematics and problem solving; applying it to longitudinal plans is a design analogy, not an established effect.
+    does_not_license: Secret learner profiling, automatic difficulty escalation, compulsory struggle, or withholding an answer after show me.
+
+  - id: plan-queue-is-a-design-risk-not-a-research-result
+    statement: Treating a lesson plan as a debt-bearing content queue is a foreseeable independence and opportunity-cost risk, but this scan did not directly test plan pruning.
+    confidence: low
+    source_ids: [koedinger-aleven-2007-assistance-dilemma, salden-2009-adaptive-fading]
+    supports: Keep only a short candidate horizon, review before use, and retire stale branches rather than claiming an evidence-based optimal cadence.
+    tensions: Stable sequences can reduce planning load and preserve prerequisites; novelty-seeking can be as arbitrary as rote sequence-following.
+    boundary_conditions: The route should change for evidence or value, not merely because it is old or a new option is more exciting.
+    does_not_license: Claiming that all curricula should be improvised, erasing long-term aims, or presenting the user's design requirement as an experimental finding.
+implications:
+  - No active tack is changed by this scan; scaffold fading and transfer are already represented.
+  - Scheduled teaching should re-evaluate live plans before use and expose only learner-relevant choices, not the maintenance machinery.
+  - The best current design hypothesis is a short candidate horizon with explicit review, expiry, and clean retirement rather than an accumulating queue.
+open_questions:
+  - What evidence should preserve a planned philology sequence even when a more vivid daily object appears?
+  - How can plan review remain active without becoming bureaucratic learner labor?
+  - Which authentic tools should remain available during an independence check because experts genuinely use them?
+next_actions:
+  - Seek direct research on adaptive curriculum sequencing, learner control, and opportunity costs before claiming that plan pruning improves transfer.
+  - Compare fixed prerequisite sequences with learner-visible branching in a future bounded synthesis.
+  - Keep the plan-lifecycle change inspectable as policy and design judgment rather than laundering it through the scaffold studies.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted

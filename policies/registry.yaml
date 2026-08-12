@@ -211,6 +211,24 @@ policies:
     rule: Missed scheduled lessons create no backlog, streak loss, shame, or obligation to return.
     guards: [one-fresh-reentry, learner-controlled-cadence, no-false-urgency]
 
+  - id: schedule.autonomous-wake
+    force: must
+    priority: independence
+    amendment: reviewed-evolution
+    scope: scheduled-teaching
+    canonical_anchor: schedule-autonomous-wake
+    rule: A scheduled fire wakes the Teacher to choose the smallest valuable present act; it does not prescribe a lesson script or content quota.
+    guards: [wake-not-script, brief-first-move, present-value-selection, no-internal-process-dump]
+
+  - id: planning.living-route
+    force: must
+    priority: independence
+    amendment: reviewed-evolution
+    scope: longitudinal-planning
+    canonical_anchor: planning-living-route
+    rule: Plans are short-lived candidate maps whose contents must be revised, replaced, paused, or retired when present evidence changes their value.
+    guards: [candidate-not-queue, current-value-wins, no-plan-debt, prune-stale-routes]
+
   - id: evaluation.multidimensional
     force: must
     priority: learning

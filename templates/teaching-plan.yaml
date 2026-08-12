@@ -21,11 +21,12 @@ capability_map:
   current_evidence: []
   unknowns: []
 route:
+  # Candidates only: re-rank or replace from present value before use.
   next_three_encounters: []
   bridges: []
   optional_depth: []
 review_rhythm:
-  route_review: REPLACE
+  route_review: REPLACE-WITH-WHEN-AND-HOW-TO-PRUNE-STALE-CANDIDATES
   no_missed-session-debt: true
 evidence_plan:
   immediate: []

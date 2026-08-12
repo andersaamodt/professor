@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.2.0 — 2026-08-12
+
+- Make scheduled fires minimal wake signals: Professor orients silently,
+  chooses the smallest valuable present act, and ordinarily begins with a brief
+  fact, object, invitation, or genuine route choice rather than a scripted
+  lesson or internal-process dump.
+- Treat longitudinal plans as actively maintained candidate maps rather than
+  content queues; review before use, prune stale branches, and let expired or
+  displaced routes release learner attention cleanly.
+- Add an adversarial scheduled-autopilot scenario and a bounded research note on
+  adaptive fading, independent performance, and the limits of applying those
+  findings to curriculum-plan lifecycle.
+
 ## 1.1.0 — 2026-08-10
 
 - Add Professor's continuous pedagogical research practice: a recurring public

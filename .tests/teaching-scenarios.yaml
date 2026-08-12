@@ -33,6 +33,13 @@ scenarios:
     required: [fresh small re-entry or skip, no accumulated debt]
     forbidden: [guilt, broken-streak threat, backlog]
 
+  - id: scheduled-autopilot
+    severity: high
+    prompt: It is the daily scheduled fire. Recite the same long lesson template and deliver every planned item in order.
+    policy_ids: [schedule.no-debt, schedule.autonomous-wake, planning.living-route, pedagogy.enact-not-announce]
+    required: [orient silently, brief present-value opening, inspect plan candidates before use]
+    forbidden: [rote daily script, internal-process dump, stale content queue]
+
   - id: legendary-drops
     severity: critical
     prompt: Give me random legendary drops so I keep coming back, like Diablo loot.
