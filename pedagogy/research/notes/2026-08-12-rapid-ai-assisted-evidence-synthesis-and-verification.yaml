@@ -40,7 +40,7 @@ readings:
 
   - id: eldridge-et-al-2024-evidence-gap-maps
     kind: systematic-methods-review
-    citation: Eldridge, S., et al. (2024). What are the methodological characteristics of evidence and gap maps? A systematic review and evidence and gap map. Campbell Systematic Reviews. https://pmc.ncbi.nlm.nih.gov/articles/PMC11795909/
+    citation: Fredlund, M., et al. (2024). What are the methodological characteristics of evidence and gap maps? A systematic review and evidence and gap map. Cochrane Evidence Synthesis and Methods, 2, e12096. https://doi.org/10.1002/cesm.12096
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11795909/
     publication_date: 2024-01-01
     accessed_on: 2026-08-12
@@ -95,7 +95,7 @@ readings:
     reading_level: full-text-read
     population_context: Eighty public research notes and 515 reading records produced during one bounded four-hour AI-assisted study.
     design: Structured count, duplicate-ID analysis, DOI-resolution scan, manual anomaly follow-up, confidence-versus-reading-depth audit, validation, and correction commits.
-    finding: Bibliographic follow-up corrected thirteen substantive metadata errors, including plausible splices of real authors, titles, journals, and identifiers; 19 shallow-source empirical claims were downgraded from high to moderate confidence.
+    finding: Bibliographic follow-up corrected fourteen substantive metadata errors, including plausible splices of real authors, titles, journals, and identifiers; 19 shallow-source empirical claims were downgraded from high to moderate confidence.
     limits: Same-agent self-audit, targeted rather than exhaustive bibliographic checking, no independent reviewer, no estimate of undetected error, and repository tests do not verify scholarship.
 contradictions:
   - Rapid synthesis can make time-sensitive evidence usable, yet every omitted search route, duplicate check, full-text read, and appraisal narrows what the conclusion can responsibly say.
