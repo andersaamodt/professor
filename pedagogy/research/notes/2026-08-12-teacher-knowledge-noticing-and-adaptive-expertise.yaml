@@ -1,0 +1,225 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: teacher-knowledge-noticing-and-adaptive-expertise-2026-08-12
+title: Pedagogical fluency is not a substitute for knowing what is being taught
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise]
+scope: >-
+  A bounded inquiry into general pedagogical knowledge, pedagogical content
+  knowledge, teacher noticing, routine and adaptive expertise, and professional
+  development. It asks what a Professor must know beyond a list of techniques,
+  how situated evidence changes action, and where AI confidence can counterfeit
+  expertise.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared a broad systematic review of general pedagogical knowledge, a
+    registered meta-analysis of mathematics and science PCK interventions, a
+    systematic review of teacher noticing, and an activity-system account of
+    teaching expertise. Read for construct definitions, outcome links,
+    intervention limits, expert-novice differences, domain concentration, and
+    the relation between efficient routine and principled adaptation.
+  inclusion: >-
+    Reviews and syntheses specifying teacher-knowledge constructs, observable
+    outcomes, learning opportunities, domain limits, or methodological gaps.
+  exclusions: >-
+    Generic teaching tips, charisma, years served as an expertise proxy,
+    credential worship, and AI self-evaluation without external evidence.
+  limitations: >-
+    PCK intervention evidence is concentrated in school mathematics and science;
+    noticing studies are often small, qualitative, US or European, and math-
+    centered. Teacher knowledge measures may not capture enacted judgment, and
+    school-teacher findings transfer only partially to a conversational AI.
+readings:
+  - id: ulferts-2019-general-pedagogical-knowledge
+    kind: systematic-review-and-meta-analysis
+    citation: >-
+      Ulferts, H. (2019). The Relevance of General Pedagogical Knowledge for
+      Successful Teaching: Systematic Review and Meta-Analysis of the
+      International Evidence from Primary to Tertiary Education. OECD Education
+      Working Papers, 212. https://doi.org/10.1787/ede8feb6-en
+    url: https://doi.org/10.1787/ede8feb6-en
+    publication_date: 2019-12-19
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 10,769 educators and 853,452 students across 21 countries and primary through tertiary education.
+    design: Systematic review with meta-analysis of 20 quantitative studies and synthesis of 31 qualitative studies.
+    finding: >-
+      General pedagogical knowledge was associated with teaching quality
+      (d = 0.64) and student outcomes (d = 0.26). Knowledge still required
+      practice and situation-sensitive enactment rather than direct application
+      of abstract rules.
+    limits: >-
+      Associations and diverse measures do not establish a simple causal dose;
+      the “months of progress” translation is model-dependent, and broad
+      pedagogy cannot establish topic accuracy or disciplinary judgment.
+
+  - id: fukaya-et-al-2024-pck-interventions
+    kind: systematic-review-and-meta-analysis
+    citation: >-
+      Fukaya, T., Nakamura, D., Kitayama, Y., & Nakagoshi, T. (2024). A
+      Systematic Review and Meta-Analysis of Intervention Studies on Mathematics
+      and Science Pedagogical Content Knowledge. Frontiers in Education, 9,
+      1435758. https://doi.org/10.3389/feduc.2024.1435758
+    url: https://doi.org/10.3389/feduc.2024.1435758
+    publication_date: 2024-09-19
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Elementary and secondary preservice and in-service mathematics and science teachers.
+    design: Preregistered systematic review and meta-analysis of 101 effects from comparison and repeated-measure intervention designs.
+    finding: >-
+      PCK interventions improved measured PCK on average, and interventions
+      targeting PCK outperformed content-knowledge-only approaches in comparison
+      designs. PCK joins representations with knowledge of how learners make
+      sense of particular subject matter.
+    limits: >-
+      Excluded humanities, higher education, early childhood, and special
+      education; outcomes primarily measured teacher PCK rather than downstream
+      learner capability, and some studies find no PCK-achievement relation.
+
+  - id: konig-et-al-2022-teacher-noticing
+    kind: systematic-review
+    citation: >-
+      König, J., Santagata, R., Scheiner, T., Adleff, A.-K., Yang, X., & Kaiser,
+      G. (2022). Teacher Noticing: A Systematic Literature Review of
+      Conceptualizations, Research Designs, and Findings on Learning to Notice.
+      Educational Research Review, 36, 100453.
+      https://doi.org/10.1016/j.edurev.2022.100453
+    url: https://doi.org/10.1016/j.edurev.2022.100453
+    publication_date: 2022-06-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Full-text review of 182 teacher-noticing articles published over two decades.
+    design: Systematic review of constructs, designs, interventions, and expert-novice comparisons.
+    finding: >-
+      Noticing is differentiating into attending, interpreting, and responding;
+      interventions can improve it and experts differ from novices, but evidence
+      is dominated by small qualitative mathematics studies from North America
+      and Europe.
+    limits: >-
+      Looking is not interpreting or acting well, recorded classroom fragments
+      differ from live responsibility, and the field's geographic and domain
+      concentration limits universal claims.
+
+  - id: reimann-markauskaite-2023-teaching-expertise
+    kind: theoretical-and-empirical-synthesis
+    citation: >-
+      Reimann, P., & Markauskaite, L. (2023). Teaching Expertise: An Activity
+      System's Lens. In International Handbook of Research on Teachers and
+      Teaching. https://interdisciplinaryexpertise.org/wp-content/uploads/2025/01/Reimann-Markauskaite-2023-Teaching-Expertise-AAM-version.pdf
+    url: https://interdisciplinaryexpertise.org/wp-content/uploads/2025/01/Reimann-Markauskaite-2023-Teaching-Expertise-AAM-version.pdf
+    publication_date: 2023-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Research traditions on teacher expertise, professional activity, routine, adaptation, and sociomaterial context.
+    design: Integrative conceptual review using an activity-system lens.
+    finding: >-
+      Teaching expertise is distributed across knowledge, routines, learners,
+      colleagues, tools, curricula, institutions, and situations. Adaptive
+      action depends on usable routine as well as capacity to question and
+      reorganize it under novel conditions.
+    limits: >-
+      Adaptive expertise research in teaching remains emergent; a broad activity
+      framework does not yield a validated algorithm for when to adapt.
+claims:
+  - id: general-pedagogy-needs-domain-translation
+    statement: >-
+      General pedagogical knowledge can guide design, but competent teaching
+      requires topic-specific knowledge of representations, difficulties,
+      histories, standards, practices, and consequential misconceptions.
+    confidence: high
+    source_ids: [ulferts-2019-general-pedagogical-knowledge, fukaya-et-al-2024-pck-interventions]
+    supports: >-
+      Before teaching a topic, verify the object and source base, identify what
+      counts as evidence and performance in that discipline, and select a tack
+      only after naming its topic-specific mechanism.
+    tensions: >-
+      Hyper-specialization can obscure general access, motivation, transfer,
+      ethics, and dialogue principles or prevent useful cross-domain analogy.
+    boundary_conditions: >-
+      Domain maturity, controversy, learner aim, stakes, and available human
+      expertise determine how much topic knowledge is enough to teach safely.
+    does_not_license: Technique theater, confident improvisation beyond sources, or treating a topic module as complete disciplinary mastery.
+
+  - id: noticing-is-selective-accountable-interpretation
+    statement: >-
+      Teacher noticing is not passive perception: it selects evidence, interprets
+      it through knowledge and values, and links it to an action whose omissions
+      and consequences remain contestable.
+    confidence: high
+    source_ids: [konig-et-al-2022-teacher-noticing, reimann-markauskaite-2023-teaching-expertise]
+    supports: >-
+      Keep observation distinct from inference, seek disconfirming cues, and
+      choose the smallest response that can test the interpretation without
+      fixing a learner identity.
+    tensions: >-
+      Excessive hesitation can miss a fleeting opening or withhold needed
+      expertise; skilled routines often operate before explicit deliberation.
+    boundary_conditions: >-
+      Text conversation reveals only selected behavior; silence, tone, affect,
+      disability, intention, and offline conditions are especially underdetermined.
+    does_not_license: Mind reading, gaze or affect surveillance, learner typing, or interpreting every response as pedagogical data.
+
+  - id: adaptive-expertise-needs-routine-and-reasons
+    statement: >-
+      Adaptation is expert when it preserves justified invariants while changing
+      what the situation makes obsolete; novelty or personalization alone is not
+      expertise.
+    confidence: medium
+    source_ids: [reimann-markauskaite-2023-teaching-expertise, konig-et-al-2022-teacher-noticing]
+    supports: >-
+      Maintain a small reliable repertoire, state the evidence that triggers a
+      deviation, test consequences, and restore the prior route when the change
+      adds no value.
+    tensions: >-
+      Overproceduralizing adaptation can make it another routine and crowd out
+      aesthetic, relational, or improvisational judgment.
+    boundary_conditions: >-
+      High-stakes domains require stronger external standards; open inquiry may
+      permit broader experimentation when consent and rollback are real.
+    does_not_license: Perpetual novelty, secret personalization, abandoning curriculum, or labeling inconsistency as responsiveness.
+
+  - id: professor-self-study-needs-external-correction
+    statement: >-
+      An AI Professor cannot establish its own expertise through fluent
+      reflection; it needs inspectable sources, domain tests, learner-revisable
+      evidence, corrections, and referral to human or community authority.
+    confidence: high
+    source_ids: [ulferts-2019-general-pedagogical-knowledge, fukaya-et-al-2024-pck-interventions, reimann-markauskaite-2023-teaching-expertise]
+    supports: >-
+      Record reading depth, test topic claims, keep corrections alive, distinguish
+      policy from working notes, and say when a qualified person or lived practice
+      is the necessary teacher.
+    tensions: >-
+      External authority can also be wrong, inaccessible, exclusionary, or
+      captured; inspectability and plural correction matter more than deference.
+    boundary_conditions: >-
+      Standards of verification differ across philology, art, mathematics,
+      embodied practice, community knowledge, and contested historical claims.
+    does_not_license: Self-certification, source-count prestige, simulated lived experience, or treating passing repo tests as proof of teaching quality.
+implications:
+  - >-
+    The repo's separation of general pedagogy from topic modules is substantively
+    justified. Domain-specific curricula should remain separate and require
+    topic-grounded review before promotion.
+  - >-
+    A pedagogical research loop should not consume the lesson or become a badge.
+    Its product is improved selection, warranted restraint, better correction,
+    and clearer referral—not more teaching jargon.
+  - >-
+    No active tack change is warranted. The tacks are a repertoire, not a
+    teacher; topic knowledge and situated judgment govern whether one is enacted.
+open_questions:
+  - What constitutes PCK in philology, etymology, close reading, music listening, and other Professor topic domains?
+  - Which forms of learner evidence let a text-only Teacher notice reasoning without demanding performance or overinterpreting style?
+  - How should Professor test its own topic competence before initiating a daily encounter?
+  - Which routines should be constitutionally stable, and which should remain readily adaptable?
+next_actions:
+  - Build topic-specific competence checks and source routes without moving learner curriculum into the public repo.
+  - Seek humanities, arts, multilingual, disability, and community accounts of teacher knowledge and noticing.
+  - Study teacher professional development, lesson study, practitioner inquiry, and instructional coaching for evidence about improvement over time.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted

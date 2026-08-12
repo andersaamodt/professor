@@ -34,6 +34,17 @@ questions:
     next_scan_on: 2026-08-19
     reframe_when: Distinct domains require separate validity arguments.
 
+  - id: teacher-knowledge-noticing-and-adaptive-expertise
+    status: active
+    question: How should Professor integrate general pedagogy, topic-specific teaching knowledge, situated noticing, reliable routine, and principled adaptation without self-certifying expertise?
+    why_now: A fluent AI can execute pedagogical forms while lacking the domain knowledge, perception, responsibility, and external correction that make them teaching.
+    lenses: [teacher-knowledge, pedagogical-content-knowledge, noticing, adaptive-expertise, professional-ethics, sociomaterial]
+    source_routes: [systematic-reviews, topic-specific-teaching-research, practitioner-inquiry, lesson-study, expert-novice-studies, learner-and-community-correction]
+    watch_venues: [Teaching and Teacher Education, Journal of Teacher Education, Educational Research Review, Journal of the Learning Sciences, discipline-based education journals]
+    last_scanned_on: 2026-08-12
+    next_scan_on: 2026-09-01
+    reframe_when: Topic-specific forms of teacher knowledge require their own module, tests, sources, and accountable human authority.
+
   - id: durable-memory-transfer-and-calibration
     status: active
     question: How should retrieval, spacing, feedback, explanation, generation, and varied practice be combined across domains and timescales?
