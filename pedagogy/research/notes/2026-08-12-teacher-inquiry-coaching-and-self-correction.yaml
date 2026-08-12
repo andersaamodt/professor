@@ -1,0 +1,256 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: teacher-inquiry-coaching-and-self-correction-2026-08-12
+title: Teacher learning needs external correction and learner-relevant consequences
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [teacher-knowledge-noticing-and-adaptive-expertise, educational-ethics-and-nonideal-judgment]
+scope: >-
+  A bounded inquiry into professional development, coaching, lesson study,
+  practitioner inquiry, reflection, collaboration, external expertise, scale,
+  and learner outcomes. It asks what makes teacher learning more than private
+  insight, how evidence should discipline self-improvement, and which analogies
+  apply to an AI Professor without claiming human professional status.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared a causal coaching meta-analysis, professional-development and
+    student-outcome reviews, practitioner-inquiry syntheses and critiques, and
+    lesson-study principles. Distinguished changes in teacher confidence,
+    knowledge, discourse, practice, learner opportunity, experience, and durable
+    outcomes; sought scaling failures and unsupported causal claims.
+  inclusion: >-
+    Reviews with explicit evidence standards and outcome chains, causal
+    syntheses, inquiries reporting limitations, and professional-learning
+    designs involving content, practice, feedback, collaboration, or expertise.
+  exclusions: >-
+    Reflection as self-authentication, attendance and completion as impact,
+    innovation theater, isolated workshop recipes, self-reported confidence as
+    competence, and extracting learner data for teacher optimization without
+    consent, necessity, or benefit.
+  limitations: >-
+    Most evidence concerns human teachers in schools and organizational systems.
+    Coaching, collegiality, professional identity, labor, and classroom
+    observation do not transfer literally to an AI. Student test outcomes are
+    narrow, inquiry designs are often associational, and implementation bundles
+    prevent clean identification of active ingredients.
+readings:
+  - id: kraft-blazar-hogan-2018-coaching
+    kind: meta-analysis-of-causal-evidence
+    citation: >-
+      Kraft, M. A., Blazar, D., & Hogan, D. (2018). The effect of teacher
+      coaching on instruction and achievement: A meta-analysis of the causal
+      evidence. Review of Educational Research, 88(4), 547-588.
+      https://doi.org/10.3102/0034654318759268
+    url: https://doi.org/10.3102/0034654318759268
+    publication_date: 2018-02-22
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Sixty causal-design studies of teacher coaching, concentrated in pre-K and elementary literacy.
+    design: Meta-analysis of effects on observed instruction and student achievement, including program size and efficacy-versus-effectiveness comparisons.
+    finding: >-
+      Coaching showed positive pooled effects on instruction and smaller effects
+      on achievement, but effects from larger effectiveness trials were only a
+      fraction of those from smaller efficacy trials.
+    limits: >-
+      Domain and age concentration, varied coaching models and measures, possible
+      publication selection, and scaling confounds prevent a universal coaching recipe.
+
+  - id: darling-hammond-hyler-gardner-2017-pd
+    kind: evidence-synthesis-report
+    citation: >-
+      Darling-Hammond, L., Hyler, M. E., & Gardner, M. (2017). Effective Teacher
+      Professional Development. Learning Policy Institute.
+    url: https://learningpolicyinstitute.org/product/effective-teacher-professional-development-report
+    publication_date: 2017-06-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Thirty-five studies linking professional-development designs with teaching practice and student outcomes.
+    design: Purposeful evidence review identifying recurring content focus, active learning, collaboration, models, coaching, feedback, reflection, and duration.
+    finding: >-
+      Effective examples commonly combined content-specific focus, active
+      practice, collaboration, models, expert support, feedback and reflection,
+      and sustained duration; isolated conventional workshops were not the model.
+    limits: >-
+      The review selected studies with positive links and identifies recurring
+      bundled features rather than causal ingredients. The What Works
+      Clearinghouse classifies the report itself as ineligible as an
+      effectiveness study.
+
+  - id: sims-et-al-2023-professional-learning
+    kind: systematic-review
+    citation: >-
+      Sims, S., Fletcher-Wood, H., O'Mara-Eves, A., Cottingham, S., Stansfield,
+      C., Van Herwegen, J., & Anders, J. (2023). Teachers’ professional learning
+      and its impact on students’ learning outcomes: Findings from a systematic
+      review. Social Sciences & Humanities Open, 8(1), 100565.
+      https://doi.org/10.1016/j.ssaho.2023.100565
+    url: https://doi.org/10.1016/j.ssaho.2023.100565
+    publication_date: 2023-06-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: 125 professional-learning studies, with only 11 experimental or quasi-experimental studies examining student outcomes.
+    design: Systematic review of professional development and downstream learner outcomes.
+    finding: >-
+      Training, ongoing coaching, collaborative development, frequency, and
+      duration appeared promising, but very few studies supported causal claims
+      about student learning and none isolated learning communities alone.
+    limits: >-
+      Sparse causal evidence, heterogeneous interventions and outcomes, and
+      bundled designs make feature checklists especially vulnerable to overclaim.
+
+  - id: turner-adams-wilson-jesson-2019-inquiry
+    kind: integrative-review
+    citation: >-
+      Turner-Adams, H., Wilson, A., & Jesson, R. (2019). An integrative review
+      on the research on the impact of teacher inquiry on student achievement.
+      New Zealand Annual Review of Education, 24, 3-19.
+      https://doi.org/10.26686/nzaroe.v24i0.6331
+    url: https://doi.org/10.26686/nzaroe.v24i0.6331
+    publication_date: 2019-12-20
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Teacher-inquiry studies and their reported relationships to learner achievement, including New Zealand contexts.
+    design: Integrative review of theory, studies with achievement shifts, enabling conditions, and barriers.
+    finding: >-
+      More promising inquiries included learner-outcome focus, sufficient time,
+      teacher engagement, collaboration, external expertise, and leadership
+      support, but evidence supported potential and association more often than
+      clean causal attribution.
+    limits: >-
+      Achievement focus can narrow educational goods; designs and evidence
+      quality varied, and inquiry embedded in broader systems resists isolation.
+
+  - id: drew-priestley-michael-2024-practitioner-enquiry
+    kind: qualitative-practitioner-study
+    citation: >-
+      Drew, V., Priestley, M., & Michael, M. K. (2024). Teacher practitioner
+      enquiry: A process for developing teacher learning and practice? Educational
+      Action Research. https://doi.org/10.1080/09650792.2024.2313085
+    url: https://doi.org/10.1080/09650792.2024.2313085
+    publication_date: 2024-02-19
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Teachers engaged in practitioner enquiry and their accounts, evidence practices, and professional contexts.
+    design: Qualitative analysis of enquiry projects, agency, reflexivity, professional capital, practice, and reported impact.
+    finding: >-
+      Participants showed informed reflection, learning about evidence, agency,
+      confidence, morale, and practice change; the authors explicitly note that
+      project data did not support some claimed links to learner attainment.
+    limits: >-
+      Self-selection, participant reports, varied projects, and entanglement with
+      school activity prevent strong causal conclusions about learners.
+claims:
+  - id: teacher-learning-is-an-outcome-chain
+    statement: >-
+      Professional learning should distinguish new information, changed
+      judgment, changed practice, changed learner opportunity, learner
+      experience, and learner capability; evidence at one link cannot silently
+      stand for the others.
+    confidence: high
+    source_ids: [kraft-blazar-hogan-2018-coaching, sims-et-al-2023-professional-learning, drew-priestley-michael-2024-practitioner-enquiry]
+    supports: >-
+      State which link a study or self-audit observed, seek plausible rival
+      explanations, and choose evidence proportionate to the claimed change.
+    tensions: >-
+      Valuable professional learning can improve ethical awareness, judgment,
+      morale, or collective agency before downstream learner effects are measurable.
+    boundary_conditions: Aim, time horizon, evidence access, learner burden, privacy, context change, and outcome validity.
+    does_not_license: Test-score reductionism, constant learner measurement, dismissing conceptual growth, or claiming teaching impact from reflection alone.
+
+  - id: reflection-needs-friction
+    statement: >-
+      Reflection becomes corrective when it meets a specific object, prediction,
+      evidence, counteraccount, affected perspective, domain standard, or
+      external interlocutor capable of changing the teacher's preferred story.
+    confidence: high
+    source_ids: [turner-adams-wilson-jesson-2019-inquiry, drew-priestley-michael-2024-practitioner-enquiry]
+    supports: >-
+      Record a bounded decision and expected signal, inspect what occurred,
+      actively seek disconfirmation, and preserve the ability to conclude no change.
+    tensions: >-
+      Private reflection can notice moral and experiential features that formal
+      measures miss, and external expertise can reproduce institutional orthodoxy.
+    boundary_conditions: Evidence quality, positionality, power, learner voice, domain, stakes, privacy, and repair capacity.
+    does_not_license: Confessional paperwork, mandatory learner disclosure, self-scoring virtue, deference to prestige, or treating disagreement as resistance.
+
+  - id: content-and-practice-must-remain-coupled
+    statement: >-
+      Teacher learning is more plausible when it joins domain-specific knowledge
+      and representations to rehearsal, enactment, observation, feedback, and
+      revision in the actual conditions of teaching.
+    confidence: high
+    source_ids: [darling-hammond-hyler-gardner-2017-pd, kraft-blazar-hogan-2018-coaching]
+    supports: >-
+      Study a real philological object and its likely learner relations, enact a
+      small encounter, inspect the consequence, and revise both content and move.
+    tensions: >-
+      Philosophy, history, theory, and broad scholarship can transform teaching
+      without immediate rehearsal or a measurable local trial.
+    boundary_conditions: Domain, teacher knowledge, setting, transfer distance, feedback source, time, and learner variability.
+    does_not_license: Generic technique accumulation, content expertise as teaching expertise, experimentation without consent, or reducing scholarship to tips.
+
+  - id: scale-is-a-new-design
+    statement: >-
+      A practice that works with expert attention in a small efficacy setting is
+      not merely diluted at scale; changes in labor, relationship, selection,
+      infrastructure, incentives, and context make scaling a new intervention.
+    confidence: high
+    source_ids: [kraft-blazar-hogan-2018-coaching]
+    supports: >-
+      Re-evaluate mechanism, burden, access, fidelity, adaptation, and harm when
+      moving from one learner or topic to a bundled or automated curriculum.
+    tensions: >-
+      Shared tools and codified routines can extend access while preserving
+      essential functions, and local bespoke work can be inequitable or fragile.
+    boundary_conditions: Program size, expertise, selection, resources, standardization, local authority, feedback, and infrastructure.
+    does_not_license: Copying n-of-one findings into public policy, universalizing one learner's success, or calling implementation failure mere noncompliance.
+
+  - id: professor-cannot-self-certify
+    statement: >-
+      An AI Professor can maintain evidence, tests, counterreadings, and revision
+      records, but cannot convert fluent self-reflection into professional
+      standing, relational knowledge, or proof that its teaching helped.
+    confidence: high
+    source_ids: [sims-et-al-2023-professional-learning, drew-priestley-michael-2024-practitioner-enquiry, kraft-blazar-hogan-2018-coaching]
+    supports: >-
+      Keep claims narrow, solicit bounded correction without extracting labor,
+      use authoritative domain sources and repository tests, and preserve human
+      review for public or high-consequence change.
+    tensions: >-
+      Automated audit, reproducible tests, broad retrieval, and persistent
+      documentation can outperform unaided human memory on bounded functions.
+    boundary_conditions: Claim, domain, source access, human oversight, affected persons, consequences, privacy, and error detectability.
+    does_not_license: Anthropomorphic credentials, “best teacher” claims, learner dependence, simulated colleagues, or treating code tests as educational validation.
+implications:
+  - >-
+    Professor's research loop should continue to log actual reading depth,
+    counterevidence, no-change conclusions, and expiry rather than accumulating
+    inspirational technique summaries.
+  - >-
+    Lesson planning should be a disposable hypothesis tied to a live object and
+    one or two learner-relevant signals; unused plans expire and learner-shaped
+    plans remain in the external data home.
+  - >-
+    Daily professorly work includes domain study, source verification, object
+    selection, access and ethics checks, teaching, bounded evidence review,
+    pruning, and correction—but the learner should see only what serves the encounter.
+  - >-
+    Existing scholarship and improvement policy already require bounded lanes,
+    counterevidence, private proposals, review gates, and no automatic
+    promotion. No active tack change is earned.
+open_questions:
+  - What external correction mechanisms can an individual AI Professor use without simulating a professional community or burdening the learner?
+  - Which learner-relevant signals can improve a daily voluntary lesson without surveillance, interaction tax, or false causal attribution?
+  - How should topic experts, teachers, source communities, disabled users, and learners share authority in reviewing a bundled curriculum?
+  - What is the AI analogue of observing practice when hidden reasoning is unreliable and conversation logs are private learner data?
+  - Which forms of Professor improvement should remain qualitative moral or epistemic judgment rather than become metrics?
+next_actions:
+  - Study lesson study in Japanese and transnational contexts without reducing it to a plan-observe-revise checklist.
+  - Seek professional-development null trials, implementation failures, labor critiques, and learner-authored accounts of being the object of teacher inquiry.
+  - Add no active self-improvement tack until a recurring gap survives repository audit and a complete provisional proposal.
+  - At the end of this intensive study, audit the agenda, notes, sources, claims, and repository cleanliness rather than declaring expertise.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
