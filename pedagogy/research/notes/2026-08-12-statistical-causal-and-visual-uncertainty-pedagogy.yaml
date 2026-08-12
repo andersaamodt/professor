@@ -1,0 +1,216 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: statistical-causal-and-visual-uncertainty-pedagogy-2026-08-12
+title: Data literacy begins before calculation and continues after the chart
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [durable-memory-transfer-and-calibration, epistemic-justice-curriculum-and-knowledge-access, assessment-and-authorship-under-ai]
+scope: >-
+  Statistical reasoning, sampling, variability, informal inference, risk formats,
+  causal identification, visualization comprehension, uncertainty communication,
+  and power in data collection, classification, labor, and use.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Read statistics-education reviews, cognitive experiments on representation,
+    causal-inference teaching, visualization-literacy and uncertainty research,
+    and feminist data critique; traced a claim from data production through decision.
+  inclusion: Sources specifying representations, inferential relations, learner difficulties, uncertainty, causal assumptions, or the institutions and people behind data.
+  exclusions: Numeracy as calculation speed, chart-type quizzes, causal language from association alone, “data speak” rhetoric, and critical critique with no attention to statistical warrant.
+  limitations: >-
+    This scan cannot cover Bayesian and frequentist foundations, survey design,
+    psychometrics, machine learning, econometrics, epidemiology, qualitative data,
+    privacy, or data governance in sufficient domain depth.
+readings:
+  - id: garfield-benzvi-2007-statistics-learning
+    kind: research-review
+    citation: Garfield, J., & Ben-Zvi, D. (2007). How students learn statistics revisited—A current review of research on teaching and learning statistics. International Statistical Review, 75(3), 372-396. https://doi.org/10.1111/j.1751-5823.2007.00029.x
+    url: https://doi.org/10.1111/j.1751-5823.2007.00029.x
+    publication_date: 2007-12-10
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Introductory and school statistics learners developing reasoning about data, variability, distribution, and inference.
+    design: Review of cognitive and statistics-education research and instructional principles.
+    finding: Statistical reasoning develops through active work with data, discourse, technology, repeated confrontation of intuitions, and attention to variability—not formulas and procedures alone.
+    limits: Broad principles do not identify one curriculum sequence, and later work has expanded simulation, informal inference, data science, and equity concerns.
+
+  - id: benzvi-et-al-2015-samples
+    kind: thematic-research-synthesis
+    citation: Ben-Zvi, D., Bakker, A., & Makar, K. (2015). Learning to reason from samples. Educational Studies in Mathematics, 88, 291-303. https://doi.org/10.1007/s10649-015-9593-3
+    url: https://doi.org/10.1007/s10649-015-9593-3
+    publication_date: 2015-03-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Learners connecting samples, populations or processes, sampling procedure, variability, generalization, and confidence.
+    design: Literature review and synthesis introducing a research issue on sampling reasoning.
+    finding: Statistical inference depends on coordinating the sample's data with how it was generated and the wider universe it may represent; sample size alone is insufficient.
+    limits: Informal and formal inference approaches differ, and sampling from finite populations is not the only statistical data-generating process.
+
+  - id: makar-rubin-2018-informal-inference
+    kind: research-review
+    citation: Makar, K., & Rubin, A. (2018). Learning about statistical inference. In D. Ben-Zvi, K. Makar, & J. Garfield (Eds.), International handbook of research in statistics education. Springer. https://doi.org/10.1007/978-3-319-66195-7_9
+    url: https://www.terc.edu/publications/learning-about-statistical-inference/
+    publication_date: 2018-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Primary, secondary, and tertiary learners developing informal and formal statistical inference.
+    design: Handbook review of philosophical foundations, learner challenges, classroom studies, technology, and inferential progressions.
+    finding: Informal inference can make uncertainty, generalization, and evidence accessible before formal machinery, and should be related to rather than opposed to formal inference.
+    limits: The boundary and progression between informal and formal warrant remain debated and context-dependent.
+
+  - id: hoffrage-et-al-2015-natural-frequencies
+    kind: controlled-experiments-and-review
+    citation: Hoffrage, U., Krauss, S., Martignon, L., & Gigerenzer, G. (2015). Natural frequencies improve Bayesian reasoning in simple and complex inference tasks. Frontiers in Psychology, 6, 1473. https://doi.org/10.3389/fpsyg.2015.01473
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4604268/
+    publication_date: 2015-09-29
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Adults solving simple and multi-cue Bayesian classification problems in probability and natural-frequency formats.
+    design: Experiments plus synthesis of prior laboratory and applied findings.
+    finding: Nested natural frequencies often reduce the computational and representational burden of Bayesian inference, and direct instruction can improve generalization to complex tasks.
+    limits: Frequency formats do not remove the need to define reference classes, understand data quality, or choose an appropriate model; not every probability is naturally frequency-based.
+
+  - id: kaplan-2020-causal-intro-stats
+    kind: curriculum-and-conceptual-argument
+    citation: Kaplan, D. (2020). Causal inference in introductory statistics courses. Journal of Statistics Education, 28(1), 2-11. https://doi.org/10.1080/10691898.2020.1713936
+    url: https://doi.org/10.1080/10691898.2020.1713936
+    publication_date: 2020-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Introductory statistics learners distinguishing description, prediction, association, experiment, and causal effect.
+    design: Pedagogical overview of causal questions, potential outcomes, diagrams, randomization, confounding, and curriculum placement.
+    finding: Causal reasoning can begin with questions and diagrams before advanced estimation, making assumptions and design visible rather than banning causal language until later courses.
+    limits: Simplified diagrams can create false confidence; identification, interference, measurement, selection, transport, and estimation require deeper study.
+
+  - id: shah-et-al-2022-visual-communication
+    kind: interdisciplinary-review
+    citation: Shah, P., Freedman, E. G., & Vekiri, I. (2022). The science of visual data communication—What works. Psychological Science in the Public Interest, 23(3), 110-161. https://doi.org/10.1177/15291006211051956
+    url: https://pubmed.ncbi.nlm.nih.gov/34907835/
+    publication_date: 2022-12-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Students and public audiences interpreting graphs and visual data across science, health, education, and policy.
+    design: Interdisciplinary research review of perception, cognition, numeracy, graph comprehension, design, and communication.
+    finding: Effective displays align perceptual encoding with the intended comparison and audience; visualizations can also cause systematic misunderstanding, especially when design and graph literacy mismatch.
+    limits: Design guidance cannot determine the ethical question, data quality, or intended inference and may not generalize across culture, disability, device, and domain.
+
+  - id: rho-et-al-2025-misleading-visualizations
+    kind: experiment
+    citation: Rho, J., Rau, M. A., Bharti, S. K., et al. (2025). Comparing the deceptive impact of misleading data visualizations—Implications for adaptive data literacy support. Computers & Education, 229, 105285. https://doi.org/10.1016/j.compedu.2025.105285
+    url: https://doi.org/10.1016/j.compedu.2025.105285
+    publication_date: 2025-07-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: 68 undergraduates interpreting misleading and nonmisleading versions of charts.
+    design: Within-subject experiment comparing 14 misleading features and data-literacy moderation.
+    finding: Inverted axes, irregular time intervals, and dual axes reduced interpretation accuracy; higher literacy helped but did not eliminate some effects.
+    limits: Small undergraduate sample, short tasks, and selected chart features limit generalization; misleadingness also depends on annotation, context, and claim.
+
+  - id: hullman-2020-uncertainty-omission
+    kind: survey-and-interview-study
+    citation: Hullman, J. (2020). Why authors don't visualize uncertainty. IEEE Transactions on Visualization and Computer Graphics, 26(1), 130-139. https://doi.org/10.1109/TVCG.2019.2934287
+    url: https://pubmed.ncbi.nlm.nih.gov/31425093/
+    publication_date: 2020-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: 90 visualization authors surveyed and 13 influential designers interviewed about uncertainty communication.
+    design: Mixed-methods study and rhetorical model of uncertainty omission.
+    finding: Authors acknowledged uncertainty's value yet often omitted it due to norms, audience assumptions, rhetorical goals, and practical constraints; omission is not merely a missing technical feature.
+    limits: Author reports do not establish viewer outcomes or one best uncertainty display.
+
+  - id: dignazio-klein-2020-data-feminism
+    kind: critical-data-studies-and-practice
+    citation: D'Ignazio, C., & Klein, L. F. (2020). Data feminism. MIT Press.
+    url: https://data-feminism.mitpress.mit.edu/
+    publication_date: 2020-03-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Data collection, classification, visualization, labor, governance, and community counterdata across civic, health, technological, and political cases.
+    design: Intersectional feminist theoretical synthesis with historical and contemporary case studies and participatory practices.
+    finding: Data are made through institutions, categories, bodies, labor, values, and unequal power; critical practice asks who benefits, who is missing, who did the work, and how data can challenge as well as reproduce power.
+    limits: Normative and case-based analysis does not replace statistical validation or settle conflicts among communities and justice claims.
+claims:
+  - id: data-have-a-provenance-before-a-pattern
+    statement: >-
+      Before interpreting a statistic or chart, the learner needs to know what was
+      observed, how it was defined and measured, by whom, from which cases, under what missingness and selection, and for what purpose.
+    confidence: high
+    source_ids: [benzvi-et-al-2015-samples, dignazio-klein-2020-data-feminism, garfield-benzvi-2007-statistics-learning]
+    supports: Begin with units, cases, variables, measurement, sampling or assignment, missing data, transformation, source, and decision context.
+    tensions: Early learners can notice a pattern before mastering the whole data pipeline, and too much apparatus can obscure the live question.
+    boundary_conditions: Data source, domain, stakes, privacy, learner expertise, and inferential purpose.
+    does_not_license: Rejecting all imperfect data, replacing analysis with provenance critique, or implying that situated data cannot support generalization.
+
+  - id: variability-is-not-noise-to-hide
+    statement: >-
+      Statistical reasoning concerns variation across cases, samples, measures,
+      and possible outcomes; a center or fitted line without variability invites false certainty.
+    confidence: high
+    source_ids: [garfield-benzvi-2007-statistics-learning, benzvi-et-al-2015-samples, makar-rubin-2018-informal-inference]
+    supports: Show distributions, repeated samples or simulations, residuals, sensitivity, and uncertainty alongside summaries; ask what varies and why.
+    tensions: A simple point estimate may be the right first representation, and not every variation is relevant to the decision.
+    boundary_conditions: Estimand, data-generating process, sample, model, audience, stakes, and decision.
+    does_not_license: Caveat clouds, treating all uncertainty as equal, “anything could happen,” or hiding a stable and consequential signal.
+
+  - id: representation-changes-reasoning
+    statement: >-
+      Probabilities, frequencies, tables, icon arrays, intervals, distributions,
+      and graphs are not neutral containers; each makes some operations perceptually or cognitively easier and others harder.
+    confidence: high
+    source_ids: [hoffrage-et-al-2015-natural-frequencies, shah-et-al-2022-visual-communication, rho-et-al-2025-misleading-visualizations]
+    supports: Translate across at least two representations, use natural frequencies when appropriate, and test whether the display supports the intended comparison.
+    tensions: Translation can introduce new ambiguity, and expertise includes fluency with conventional abstract forms.
+    boundary_conditions: Task, audience, numeracy, device, disability, convention, and reference class.
+    does_not_license: One universal best chart, pictorial simplification as accessibility, blaming viewers, or treating a persuasive display as a valid inference.
+
+  - id: causal-claim-needs-counterfactual-and-design
+    statement: >-
+      A causal question asks what would differ under an intervention or exposure
+      contrast; data alone do not identify that difference without design and assumptions.
+    confidence: high
+    source_ids: [kaplan-2020-causal-intro-stats]
+    supports: State treatment or exposure, outcome, units, timing, comparison, assignment or identification strategy, confounders, mediators, selection, interference, and target population.
+    tensions: Causal understanding can also be mechanistic, historical, qualitative, or system-level and not reducible to one average treatment effect.
+    boundary_conditions: Domain, estimand, design, assumptions, ethics, measurement, interference, and transport.
+    does_not_license: Correlation-to-causation, controlling every variable, DAG decoration, randomized-trial supremacy for every question, or refusing any causal judgment outside experiments.
+
+  - id: uncertainty-display-is-rhetorical-and-epistemic
+    statement: >-
+      Showing or omitting uncertainty changes what a viewer can infer and how
+      authoritative a claim appears; it is both an epistemic and rhetorical choice.
+    confidence: high
+    source_ids: [hullman-2020-uncertainty-omission, shah-et-al-2022-visual-communication]
+    supports: Match uncertainty to the decision and audience, distinguish sources, show plausible outcomes when useful, and explain what the interval or distribution does not mean.
+    tensions: Complex uncertainty displays can reduce comprehension, create paralysis, or imply quantified precision where structural unknowns dominate.
+    boundary_conditions: Source of uncertainty, audience, decision, stakes, medium, model, and time.
+    does_not_license: Confidence theater, intervals without interpretation, omitting uncertainty for clarity by default, or overwhelming the learner to display rigor.
+
+  - id: critical-data-literacy-needs-statistical-warrant
+    statement: >-
+      Asking who has power in data work strengthens statistical inquiry only when
+      it remains accountable to measurement, variation, comparison, design, and evidence.
+    confidence: high
+    source_ids: [dignazio-klein-2020-data-feminism, garfield-benzvi-2007-statistics-learning]
+    supports: Analyze category construction, labor, stakes, omissions, and downstream use together with the actual statistical claim.
+    tensions: Technical warrant itself is institutionally shaped, and demands for more evidence can delay recognition of lived and documented harm.
+    boundary_conditions: Claim, community, decision, data ownership, expertise, urgency, and evidential alternatives.
+    does_not_license: Suspicion as refutation, data neutrality, representation quotas as validity, or using justice language to excuse analytical error.
+implications:
+  - Professor should never explain a chart without naming the denominator, comparison, time frame, source, and uncertainty relevant to the claim.
+  - When teaching risk, a small frequency table or icon array may reveal the base-rate structure better than a formula, followed by translation back to probability.
+  - Any pedagogical effectiveness claim in Professor's own research should state estimand, design, outcome, timing, attrition or missingness, uncertainty, and limits on causal language.
+  - AI-generated graphs and statistical summaries require provenance and independent recalculation; visual polish must increase, not relax, scrutiny.
+  - No generic “data factoid” tack is earned. Data encounters need the pipeline from people and phenomena through decision.
+open_questions:
+  - What sequence best teaches causal identification before estimation without turning DAGs into decorative certainty?
+  - How can uncertainty displays be made cognitively and visually accessible without erasing structural uncertainty?
+  - Which data should not be collected, even when collection would improve prediction or personalization?
+  - How can a brief lesson make missingness or classification power perceptible without losing the statistical object?
+next_actions:
+  - Study survey, measurement, psychometric, and algorithmic-classification pedagogy, including construct validity and fairness.
+  - Build a small audit rubric for statistical and causal claims in pedagogical research notes before proposing policy.
+  - Audit existing research notes for causal verbs unsupported by design and for percentages without denominators or uncertainty.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
