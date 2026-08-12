@@ -179,7 +179,7 @@ claims:
     statement: >-
       Showing or omitting uncertainty changes what a viewer can infer and how
       authoritative a claim appears; it is both an epistemic and rhetorical choice.
-    confidence: high
+    confidence: moderate
     source_ids: [hullman-2020-uncertainty-omission, shah-et-al-2022-visual-communication]
     supports: Match uncertainty to the decision and audience, distinguish sources, show plausible outcomes when useful, and explain what the interval or distribution does not mean.
     tensions: Complex uncertainty displays can reduce comprehension, create paralysis, or imply quantified precision where structural unknowns dominate.

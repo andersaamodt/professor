@@ -91,8 +91,9 @@ readings:
       was explicitly routed outside the repository, and active teaching policy
       was not silently changed from scans. Validation caught invalid depth labels,
       identifiers, and agenda references before commits. An automated resolution
-      check covered 275 distinct DOI-bearing URLs; manual follow-up on anomalous
-      results found and corrected six substantive citation-metadata errors.
+      check initially covered 275 distinct DOI-bearing URLs; manual follow-up on
+      anomalous results found and corrected eleven substantive citation-metadata
+      errors, including spliced authorship and venues rather than broken links alone.
     limits: >-
       Tests establish structural and selected policy invariants, not source
       accuracy, pedagogical wisdom, accessibility in use, or learner benefit.
@@ -213,7 +214,7 @@ claims:
     does_not_license: Deleting inaccessible sources, equating HTTP status with validity, trusting search snippets as final metadata, or claiming the unchecked remainder is correct.
 
 contradictions:
-  - Breadth materially improved the map of teaching, yet its pace produced shallow reading and six caught citation errors; more coverage simultaneously increased insight and the surface for error.
+  - Breadth materially improved the map of teaching, yet its pace produced shallow reading and eleven caught citation errors; more coverage simultaneously increased insight and the surface for error.
   - Recurring commitments to refusal, dignity, explicit warrant, and learner agency are genuine cross-field safeguards, yet their frequency also reveals the constitutional lens through which sources were selected and interpreted.
   - Structured records make limits and contradictions visible, yet a fixed schema can reward fluent completion of fields and disguise uneven epistemic labor.
   - The corpus spans many traditions and domains, yet English-language digital discoverability, higher education, systematic reviews, and recent publication remain structurally advantaged.
@@ -248,7 +249,7 @@ open_questions:
   - Which harms and educational goods remain invisible because the audit schema privileges articulate written claims?
   - What evidence after actual teaching would warrant changing a general rule without leaking learner data or universalizing one case?
 next_actions:
-  - Complete a bibliographic and duplication audit of high-consequence citations and every future promoted proposal; today's DOI pass corrected six errors but did not verify the corpus exhaustively.
+  - Complete a bibliographic and duplication audit of high-consequence citations and every future promoted proposal; today's DOI pass corrected eleven errors but did not verify the corpus exhaustively.
   - Build a later quarterly synthesis by claim family and contradiction, not by concatenating the notes.
   - Deep-read a deliberately small counter-sample from underrepresented languages, regions, learner-authored work, disability-led work, and community-governed sources before the next broad synthesis.
   - End with a clean repository and an honest account of what changed, what did not, and what remains unknown.

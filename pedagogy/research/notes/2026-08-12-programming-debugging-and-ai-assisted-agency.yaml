@@ -141,7 +141,7 @@ claims:
 
   - claim: Collaboration needs rotating consequential roles and individual re-entry, not merely shared output.
     evidence: meta-analytic-with-ethical-qualification
-    confidence: high
+    confidence: moderate
     source_ids: [ullah-et-al-2019-pair-programming]
     supports: Rotate driver, navigator, tester, explainer, and reviewer; preserve accessible communication; make disagreement safe; periodically ask each participant to modify or diagnose a small independent case.
     tensions: Rigid role clocks can disrupt flow or disability accommodations; authentic teams specialize.

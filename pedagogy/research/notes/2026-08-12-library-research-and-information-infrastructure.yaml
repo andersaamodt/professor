@@ -132,7 +132,7 @@ claims:
 
   - claim: Research data stewardship is part of inquiry quality and participant ethics, not clerical work after analysis.
     evidence: systematic-review-synthesis
-    confidence: high
+    confidence: moderate
     source_ids: [oo-et-al-2022-rdm-training]
     supports: Plan minimization, consent, provenance, naming, versioning, access, metadata, licensing, retention, deletion, reproducibility, community governance, and handoff before collection.
     tensions: Maximal openness can conflict with privacy, sovereignty, safety, copyright, and withdrawal; documentation has labor costs.

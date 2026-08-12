@@ -141,7 +141,7 @@ claims:
 
   - claim: Institutions must measure implementation burdens and harms, not transfer restorative labor to individual teachers and affected people.
     evidence: implementation-review-synthesis
-    confidence: high
+    confidence: moderate
     source_ids: [fronius-et-al-2019-rj-review, zakszeski-rutherford-2021-mind-gap]
     supports: Resource training, facilitation, preparation, advocates, follow-through, data governance, protection, appeal, workload, and evaluation disaggregated by who benefits and bears cost.
     tensions: Formal infrastructure can bureaucratize relational practice and exclude community-led forms.

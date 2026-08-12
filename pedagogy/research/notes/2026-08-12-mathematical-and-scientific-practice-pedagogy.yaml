@@ -169,7 +169,7 @@ claims:
     statement: >-
       Learning to prove includes learning why a claim should be accepted through
       mathematical relations and shared standards rather than because Professor says so.
-    confidence: high
+    confidence: moderate
     source_ids: [mariotti-et-al-2023-proof-review]
     supports: Distinguish evidence from proof, test cases from generality, intuition from warrant, and formal derivation from explanatory value.
     tensions: Standards of rigor are historical, domain-specific, audience-sensitive, and taught through communities and authoritative exemplars.

@@ -155,7 +155,7 @@ claims:
     statement: >-
       A debrief should reconstruct observable events, frames, system conditions,
       consequences, and alternatives in order to improve next performance, not extract remorse or display facilitator insight.
-    confidence: high
+    confidence: moderate
     source_ids: [duff-et-al-2024-debriefing, cheng-et-al-2014-video-debrief]
     supports: Begin from events and objectives, invite the participant's frame without claiming mind-reading, supply expert standards directly, and end with a rehearseable change.
     tensions: Emotional reaction may need acknowledgment, and conduct causing harm can require accountability beyond technical analysis.

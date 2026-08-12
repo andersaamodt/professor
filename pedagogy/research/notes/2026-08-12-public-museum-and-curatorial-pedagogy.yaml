@@ -114,7 +114,7 @@ claims:
 
   - claim: Object-first does not mean context-free.
     evidence: bounded-visitor-and-theoretical-synthesis
-    confidence: high
+    confidence: moderate
     source_ids: [screven-2007-label-engagement, falk-dierking-2005-contextual-model]
     supports: Let perception begin, then offer optional layers timed to extend or revise noticing; place essential safety, provenance, access, and ethical context up front.
     tensions: Some objects are illegible or harmful without prior orientation, while explanation can sever attention from material form.

@@ -125,7 +125,7 @@ claims:
     statement: >-
       Funding, metrics, credentials, employment conditions, and institutional
       partnership influence curriculum and voice even when no funder dictates a lesson directly.
-    confidence: high
+    confidence: moderate
     source_ids: [lee-2020-wea-oxford-report, davies-2015-wea-professional-identity]
     supports: Disclose material sponsors and incentives, protect curricular plurality, and resist evaluation that reduces social purpose to short-term measurable outputs.
     tensions: Sustainable funding and professional standards can secure access, continuity, quality, and educator livelihood.
