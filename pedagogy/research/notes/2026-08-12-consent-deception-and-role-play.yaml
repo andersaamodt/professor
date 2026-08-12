@@ -23,9 +23,9 @@ method:
     ordinary teaching are not identical institutions, and empirical evidence
     cannot by itself settle what one person may do to another.
 readings:
-  - id: dieckmann-et-al-2022-deception-sbe
+  - id: alinier-oriot-2022-deception-sbe
     kind: conceptual-ethics-analysis
-    citation: Dieckmann, P., et al. (2022). Simulation-based education—deceiving learners with good intent. Advances in Simulation, 7, 8. https://doi.org/10.1186/s41077-022-00206-3
+    citation: Alinier, G., & Oriot, D. (2022). Simulation-based education—deceiving learners with good intent. Advances in Simulation, 7, 8. https://doi.org/10.1186/s41077-022-00206-3
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8932061/
     publication_date: 2022-03-19
     accessed_on: 2026-08-12
@@ -59,9 +59,9 @@ readings:
     finding: Standards require informed decisions, opt-out, boundaries, termination processes, confidentiality, compensation transparency, monitoring, reporting, and de-roling or debriefing for simulated participants.
     limits: Consensus guidance does not quantify effectiveness and formal programs have infrastructure a conversational teacher lacks.
 
-  - id: naidu-et-al-2022-diversity-simulation
+  - id: picketts-et-al-2021-diversity-simulation
     kind: critical-practice-analysis
-    citation: Naidu, T., et al. (2022). Diversity and inclusion in simulation—Addressing ethical and psychological safety concerns when working with simulated participants. BMJ Simulation & Technology Enhanced Learning, 8, 50-55. https://doi.org/10.1136/bmjstel-2020-000853
+    citation: Picketts, L., Warren, M. D., & Bohnert, C. (2021). Diversity and inclusion in simulation—Addressing ethical and psychological safety concerns when working with simulated participants. BMJ Simulation & Technology Enhanced Learning, 7, 590–599. https://doi.org/10.1136/bmjstel-2020-000853
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8936749/
     publication_date: 2022-01-01
     accessed_on: 2026-08-12
@@ -91,7 +91,7 @@ claims:
   - claim: Consent may authorize a class of uncertainty, not an unlimited class of teacher action.
     evidence: conceptual-convergence
     confidence: moderate
-    source_ids: [dieckmann-et-al-2022-deception-sbe, verbeke-et-al-2023-deception-guidelines, lewis-et-al-2017-aspe-standards]
+    source_ids: [alinier-oriot-2022-deception-sbe, verbeke-et-al-2023-deception-guidelines, lewis-et-al-2017-aspe-standards]
     supports: State the medium, stakes, kinds of possible surprise, evaluation, recording, exit, and limits while preserving details whose concealment is necessary.
     tensions: Full disclosure can invalidate a diagnostic or rehearsal; overbroad disclosure can become meaningless boilerplate.
     boundary_conditions: Capacity, dependency, voluntariness, alternatives, foreseeable distress, assessment power, and third-party stakes.
@@ -100,7 +100,7 @@ claims:
   - claim: Debriefing is a prospective design duty and repair opportunity, never retroactive consent.
     evidence: normative-synthesis
     confidence: high
-    source_ids: [dieckmann-et-al-2022-deception-sbe, verbeke-et-al-2023-deception-guidelines, lewis-et-al-2017-aspe-standards]
+    source_ids: [alinier-oriot-2022-deception-sbe, verbeke-et-al-2023-deception-guidelines, lewis-et-al-2017-aspe-standards]
     supports: Plan how truth will be restored, effects checked, objection heard, records governed, and the exercise changed before running it.
     tensions: Immediate explanation can sometimes compound exposure; learners may prefer privacy or delayed processing.
     boundary_conditions: Severity, timing, confidentiality, group power, withdrawal feasibility, and need for independent support.
@@ -109,7 +109,7 @@ claims:
   - claim: A person portraying a role is a participant with boundaries and labor rights, not instructional equipment.
     evidence: professional-standard-and-critical-analysis
     confidence: high
-    source_ids: [lewis-et-al-2017-aspe-standards, naidu-et-al-2022-diversity-simulation]
+    source_ids: [lewis-et-al-2017-aspe-standards, picketts-et-al-2021-diversity-simulation]
     supports: Obtain role-specific agreement, permit refusal and termination, disclose compensation and evaluation, prevent identity burden, and provide de-roling and reporting routes.
     tensions: Lived experience may improve design authority while also increasing exposure; exclusion in the name of protection can be paternalistic.
     boundary_conditions: Touch, trauma, identity, age, disability, compensation, repeated portrayal, confidentiality, and script agency.
@@ -118,7 +118,7 @@ claims:
   - claim: Refusal is evidence about design conditions, not proof of learner deficiency.
     evidence: ethical-inference
     confidence: moderate
-    source_ids: [lewis-et-al-2017-aspe-standards, naidu-et-al-2022-diversity-simulation, gardner-2016-role-play-occluded-practices]
+    source_ids: [lewis-et-al-2017-aspe-standards, picketts-et-al-2021-diversity-simulation, gardner-2016-role-play-occluded-practices]
     supports: Offer a non-punitive alternative route and inspect exposure, representation, accessibility, stakes, and authority.
     tensions: Some essential professional assessments require observing performance, but that heightens duties of notice, equivalence, and appeal.
     boundary_conditions: Credential requirements, safety competence, reasonable alternatives, group dependency, and legal obligations.

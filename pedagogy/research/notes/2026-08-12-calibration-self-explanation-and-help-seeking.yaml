@@ -86,9 +86,9 @@ readings:
     finding: Instrumental help-seeking is generally adaptive, while avoidance and expedient answer-seeking relate differently to goals, efficacy, threat, climate, and access.
     limits: Construct definitions and self-report dominate; requesting a hint versus a solution may be rationally different across deadlines and stakes.
 
-  - id: engels-et-al-2023-help-interactions
+  - id: davison-et-al-2023-help-interactions
     kind: microlongitudinal-observational-study
-    citation: Engels, M. C., et al. (2023). Academic help-seeking interactions in the classroom—A microlongitudinal study. Journal of School Psychology, 97, 1-18.
+    citation: Davison, K., Malmberg, L.-E., & Sylva, K. (2023). Academic help-seeking interactions in the classroom—A microlongitudinal study. British Journal of Educational Psychology, 93(1), 33–55. https://doi.org/10.1111/bjep.12538
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10087139/
     publication_date: 2023-01-01
     accessed_on: 2026-08-12
@@ -133,7 +133,7 @@ claims:
   - claim: Adaptive help-seeking requests the smallest useful support that restores progress, but the learner decides when efficiency or a full answer matters more.
     evidence: systematic-and-observational-synthesis
     confidence: high
-    source_ids: [cornu-et-al-2021-academic-help-seeking, engels-et-al-2023-help-interactions]
+    source_ids: [cornu-et-al-2021-academic-help-seeking, davison-et-al-2023-help-interactions]
     supports: Offer clue, example, decomposition, direct answer, model, source, check, or handoff; say what each preserves and let the learner choose.
     tensions: Under deadline or high stakes, a full answer can be adaptive; in learning tasks, repeated solution provision can reduce independent practice.
     boundary_conditions: Goal, time, stakes, reversibility, prior attempts, privacy, stigma, source availability, and competence boundaries.

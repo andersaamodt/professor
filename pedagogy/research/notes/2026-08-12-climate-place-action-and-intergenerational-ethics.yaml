@@ -38,9 +38,9 @@ readings:
     finding: Climate education improves knowledge most consistently and attitudes and behavior more modestly; procedural and action knowledge may matter more for behavior than declarative basics alone.
     limits: Natural-science interventions dominate, behavior measures and follow-up are weak, and average effects conceal purpose and context.
 
-  - id: yu-et-al-2026-school-climate-literacy
+  - id: chen-et-al-2026-school-climate-literacy
     kind: three-level-meta-analysis
-    citation: Yu, H., et al. (2026). The effect of school science education on students' climate literacy—A three-level meta-analysis. Humanities and Social Sciences Communications. https://pmc.ncbi.nlm.nih.gov/articles/PMC12996053/
+    citation: Chen, J., Ren, Y., & Yang, Y. (2026). The effect of school science education on students' climate literacy—A three-level meta-analysis. Frontiers in Psychology, 17, 1769772. https://doi.org/10.3389/fpsyg.2026.1769772
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12996053/
     publication_date: 2026-03-01
     accessed_on: 2026-08-12
@@ -106,7 +106,7 @@ claims:
   - claim: Climate literacy should separate physical mechanisms, evidence and uncertainty, impacts, adaptation, mitigation, institutions, justice, and possible actions while showing their relations.
     evidence: meta-analytic-synthesis
     confidence: high
-    source_ids: [riess-et-al-2025-climate-meta, yu-et-al-2026-school-climate-literacy, van-de-wetering-et-al-2022-ee-meta]
+    source_ids: [riess-et-al-2025-climate-meta, chen-et-al-2026-school-climate-literacy, van-de-wetering-et-al-2022-ee-meta]
     supports: Use causal models and observed records; compare scenario assumptions; trace who controls a decision; distinguish individual, collective, institutional, and technological action.
     tensions: Separation can fragment a phenomenon whose scientific and political dimensions interact.
     boundary_conditions: Learner aim, age, place, hazard proximity, prior knowledge, source access, jurisdiction, and decision scale.
@@ -133,7 +133,7 @@ claims:
   - claim: Action learning is warranted when it increases decision literacy and real agency without making a prescribed action or visible optimism the assessment.
     evidence: meta-analytic-and-critical-synthesis
     confidence: moderate
-    source_ids: [riess-et-al-2025-climate-meta, yu-et-al-2026-school-climate-literacy, bailey-et-al-2024-eco-anxiety]
+    source_ids: [riess-et-al-2025-climate-meta, chen-et-al-2026-school-climate-literacy, bailey-et-al-2024-eco-anxiety]
     supports: Compare leverage, authority, coalition, cost, uncertainty, affected parties, rebound, opportunity cost, and evaluation; allow observation, analysis, design, participation, critique, or nonparticipation.
     tensions: Neutral classroom analysis can become delay when harms are present; consequential action necessarily takes positions.
     boundary_conditions: Voluntariness, age, risk, political rights, institutional role, community request, time, and likely consequence.
@@ -142,7 +142,7 @@ claims:
   - claim: Environmental outcomes require institutional accountability; learner attitude change is not a substitute for changing harmful systems.
     evidence: ethical-inference-from-outcome-gap
     confidence: high
-    source_ids: [van-de-wetering-et-al-2022-ee-meta, yu-et-al-2026-school-climate-literacy]
+    source_ids: [van-de-wetering-et-al-2022-ee-meta, chen-et-al-2026-school-climate-literacy]
     supports: Track whether institutions change resources, rules, infrastructure, exposure, access, and emissions; state who has power and who bears cost.
     tensions: Individual practices can matter, build norms, and express valued relations without being sufficient.
     boundary_conditions: Scale, causal contribution, institutional mandate, equity, feasibility, and measurement horizon.

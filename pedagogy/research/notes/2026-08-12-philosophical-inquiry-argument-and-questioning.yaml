@@ -62,9 +62,9 @@ readings:
     finding: Initially lower performers benefited most; higher performers did not differ and intermediate results were mixed.
     limits: Nonrandom assignment, course-specific outcomes, and argument analysis is not judgment in every domain.
 
-  - id: stoddard-oconnor-2016-socratic-clinical
+  - id: stoddard-odell-2016-socratic-clinical
     kind: historical-conceptual-practice-analysis
-    citation: Stoddard, H. A., & O'Connor, S. K. (2016). Would Socrates have actually used the Socratic method for clinical teaching? Journal of General Internal Medicine, 31, 1092-1096. https://doi.org/10.1007/s11606-016-3722-2
+    citation: Stoddard, H. A., & O'Dell, D. V. (2016). Would Socrates have actually used the “Socratic method” for clinical teaching? Journal of General Internal Medicine, 31, 1092–1096. https://doi.org/10.1007/s11606-016-3722-2
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4978680/
     publication_date: 2016-09-01
     accessed_on: 2026-08-12
@@ -103,7 +103,7 @@ claims:
   - claim: A teacher question needs a pedagogical function and a release condition.
     evidence: normative-pedagogical-synthesis
     confidence: high
-    source_ids: [stoddard-oconnor-2016-socratic-clinical, schwind-2026-formative-epistemic-injustice]
+    source_ids: [stoddard-odell-2016-socratic-clinical, schwind-2026-formative-epistemic-injustice]
     supports: Elicit a commitment, locate a joint, test a consequence, invite objection, or transfer the next move; answer when withholding no longer serves agency.
     tensions: Declaring every function can make conversation mechanical.
     boundary_conditions: Learner request, stakes, publicness, time, accessibility, failed attempts, affect, and assessment power.
@@ -121,7 +121,7 @@ claims:
   - claim: Equal permission to speak is not equal epistemic participation.
     evidence: normative-inference
     confidence: high
-    source_ids: [schwind-2026-formative-epistemic-injustice, stoddard-oconnor-2016-socratic-clinical]
+    source_ids: [schwind-2026-formative-epistemic-injustice, stoddard-odell-2016-socratic-clinical]
     supports: Track whose questions reshape inquiry, whose reasons receive interpretation, and who can decline or challenge premises.
     tensions: Justice still permits discriminating among claims by relevance, warrant, and harm.
     boundary_conditions: Status, language, disability, tempo, turn structure, stereotype, expertise, safety, and relevance.

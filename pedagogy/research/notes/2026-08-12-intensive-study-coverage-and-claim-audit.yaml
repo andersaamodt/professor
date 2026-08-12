@@ -92,7 +92,7 @@ readings:
       was not silently changed from scans. Validation caught invalid depth labels,
       identifiers, and agenda references before commits. An automated resolution
       check initially covered 275 distinct DOI-bearing URLs; manual follow-up on
-      anomalous results and later decisive-source rereading found and corrected fourteen substantive citation-metadata
+      anomalous results and later systematic open-record comparison found and corrected twenty-four substantive citation-metadata
       errors, including spliced authorship and venues rather than broken links alone.
     limits: >-
       Tests establish structural and selected policy invariants, not source

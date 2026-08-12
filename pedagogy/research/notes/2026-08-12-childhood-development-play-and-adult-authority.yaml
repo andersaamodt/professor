@@ -74,9 +74,9 @@ readings:
     finding: Age-norm and child-initiated formulations require scrutiny when learners need individualized, explicit, accessible, or intensive support.
     limits: Older critique predating major revisions of DAP, and special-education practice itself can normalize segregation, deficit framing, and compliance.
 
-  - id: levine-et-al-2022-adultification
+  - id: cooke-halberstadt-2022-adultification
     kind: multi-study-experimental-and-replication-research
-    citation: Levine, C. S., et al. (2022). Adultification, anger bias, and adults' different perceptions of Black and White children. Cognition and Emotion, 36(7), 1416-1432. https://doi.org/10.1080/02699931.2022.2104746
+    citation: Cooke, A. N., & Halberstadt, A. G. (2022). Adultification, anger bias, and adults' different perceptions of Black and White children. Cognition and Emotion, 36(7), 1416–1422. https://doi.org/10.1080/02699931.2021.1950127
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9248049/
     publication_date: 2022-01-01
     accessed_on: 2026-08-12
@@ -106,7 +106,7 @@ claims:
   - claim: Developmental claims are probabilistic context for support, never a verdict about an individual learner's capacity or worth.
     evidence: professional-critical-synthesis
     confidence: high
-    source_ids: [naeyc-2020-dap, carta-et-al-1991-dap-disability, levine-et-al-2022-adultification]
+    source_ids: [naeyc-2020-dap, carta-et-al-1991-dap-disability, cooke-halberstadt-2022-adultification]
     supports: Begin with access and safety; observe the specific action across settings; consult learner, family, culture, and relevant expertise; offer supports; revisit rather than label.
     tensions: Timely developmental screening and intervention can be beneficial, so fear of labeling must not become withholding.
     boundary_conditions: Action, context, language, culture, disability, race, gender, health, history, assessment validity, and consequence.

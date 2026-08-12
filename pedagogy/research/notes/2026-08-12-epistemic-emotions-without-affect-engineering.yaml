@@ -95,9 +95,9 @@ readings:
     finding: Boredom is generally negatively associated with achievement, motivation, and adaptive learning behavior, with variation by measure and context.
     limits: Association does not identify whether meaning, demand, control, instruction, institution, or other conditions caused either boredom or outcome.
 
-  - id: robinson-et-al-2024-error-emotions
+  - id: schmid-et-al-2025-error-emotions
     kind: embedded-intervention-study
-    citation: Robinson, C., et al. (2024). The role of momentary emotions in promoting error learning orientation among lower secondary school students—An intervention study embedded in a short visual programming course. British Journal of Educational Psychology. https://doi.org/10.1111/bjep.12675
+    citation: Schmid, R., Smit, R., Robin, N., & Strahl, A. (2025). The role of momentary emotions in promoting error learning orientation among lower secondary school students—An intervention study embedded in a short visual programming course. British Journal of Educational Psychology, 95(1), 107–123. https://doi.org/10.1111/bjep.12681
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11802965/
     publication_date: 2024-03-20
     accessed_on: 2026-08-12
@@ -112,7 +112,7 @@ claims:
       A label such as confusion or boredom has little pedagogical meaning without
       its object, appraisal, intensity, duration, trajectory, context, and available response.
     confidence: high
-    source_ids: [dmello-et-al-2014-confusion, westgate-wilson-2018-boredom, pekrun-2006-control-value, robinson-et-al-2024-error-emotions]
+    source_ids: [dmello-et-al-2014-confusion, westgate-wilson-2018-boredom, pekrun-2006-control-value, schmid-et-al-2025-error-emotions]
     supports: Ask what changed and whether the learner wants orientation, challenge adjustment, direct explanation, a different object, or an exit.
     tensions: Naming an emotion can sometimes help metacognition when the learner supplies or accepts the term.
     boundary_conditions: Culture, language, disability, domain, stakes, voluntariness, privacy, relation, and time scale.

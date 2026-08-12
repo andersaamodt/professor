@@ -83,9 +83,9 @@ readings:
     finding: The experiment found no immediate literary-fiction advantage; lifetime fiction exposure correlated with performance but could reflect selection or verbal ability.
     limits: One outcome instrument and brief passages cannot adjudicate the humanistic value of literature or long-term social development.
 
-  - id: menheere-et-al-2022-narrative-dialogue
+  - id: gasser-et-al-2022-narrative-dialogue
     kind: interdisciplinary-theoretical-review
-    citation: Menheere, A., et al. (2022). How do children socially learn from narrative fiction—Getting the lesson, simulating social worlds, or dialogic inquiry? Review of Philosophy and Psychology, 13, 541-568. https://doi.org/10.1007/s13164-021-00569-4
+    citation: Gasser, L., Dammert, Y., & Murphy, P. K. (2022). How do children socially learn from narrative fiction—Getting the lesson, simulating social worlds, or dialogic inquiry? Educational Psychology Review, 34, 1445–1475. https://doi.org/10.1007/s10648-022-09667-4
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9365732/
     publication_date: 2022-09-01
     accessed_on: 2026-08-12
@@ -112,7 +112,7 @@ claims:
   - claim: A reading becomes accountable by showing how the work affords and resists it, not by matching a hidden teacher answer.
     evidence: disciplinary-design-synthesis
     confidence: high
-    source_ids: [dalkou-frydaki-2016-interpretive-discussion, menheere-et-al-2022-narrative-dialogue]
+    source_ids: [dalkou-frydaki-2016-interpretive-discussion, gasser-et-al-2022-narrative-dialogue]
     supports: Point to pattern and anomaly, paraphrase the inference, compare alternatives, test scope, and revise under counter-detail.
     tensions: Textual evidence underdetermines some questions; authorial, historical, material, and reception evidence may also matter.
     boundary_conditions: Genre, irony, translation, edition, performance, allusion, narrative position, and interpretive community.
@@ -121,7 +121,7 @@ claims:
   - claim: Personal response is a beginning and a boundary, not raw material the teacher owns.
     evidence: ethical-pedagogical-inference
     confidence: high
-    source_ids: [karasma-2026-reader-response-review, menheere-et-al-2022-narrative-dialogue]
+    source_ids: [karasma-2026-reader-response-review, gasser-et-al-2022-narrative-dialogue]
     supports: Invite noticing, association, pleasure, aversion, puzzlement, or silence while allowing a third-person, formal, historical, or craft route.
     tensions: Interpretation is situated, but requiring autobiography can expose learners and make identity perform evidentiary labor.
     boundary_conditions: Trauma, identity, publicness, assessment, group power, age, privacy, and work content.

@@ -86,9 +86,9 @@ readings:
     finding: Graph comprehension depends jointly on visual encoding, graph knowledge, domain knowledge, and task; design can guide or misdirect inference.
     limits: Predates interactive and algorithmically generated visualization ecosystems; reading a graph differs from auditing its data production.
 
-  - id: bleske-rechek-et-al-2025-correlation-causation
+  - id: stevens-et-al-2025-correlation-causation
     kind: classroom-diagnostic-study
-    citation: Bleske-Rechek, A., et al. (2025). Improving the teaching of correlation does not equal causation in introductory psychology. Scholarship of Teaching and Learning in Psychology. https://pmc.ncbi.nlm.nih.gov/articles/PMC12488420/
+    citation: Stevens, C., Witkow, M. R., & Isbell, J. (2025). Improving the teaching of “correlation does not equal causation” in introductory psychology. Frontiers in Psychology, 16, 1645518. https://doi.org/10.3389/fpsyg.2025.1645518
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12488420/
     publication_date: 2025-01-01
     accessed_on: 2026-08-12
@@ -136,7 +136,7 @@ claims:
   - claim: Causal literacy asks what contrast, intervention, pathway, time order, confounding, selection, and transport claim would make the conclusion true.
     evidence: disciplinary-and-classroom-synthesis
     confidence: high
-    source_ids: [bleske-rechek-et-al-2025-correlation-causation]
+    source_ids: [stevens-et-al-2025-correlation-causation]
     supports: Draw a provisional causal diagram or verbal model, generate rival explanations, identify design leverage, and state whether the evidence estimates association, prediction, mechanism, or intervention effect.
     tensions: Simple causal language is sometimes necessary for action; exhaustive alternative generation can paralyze judgment.
     boundary_conditions: Design, assignment, measurement, timing, missingness, mechanism, population, interference, and decision cost.

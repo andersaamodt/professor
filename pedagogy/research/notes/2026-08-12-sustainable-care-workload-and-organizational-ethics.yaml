@@ -38,9 +38,9 @@ readings:
     finding: Surface acting and emotional dissonance were more consistently related to exhaustion than naturally felt expression, with heterogeneous methods and mostly between-person designs.
     limits: Self-report and cross-sectional dominance, cultural display norms, occupational selection, and no warrant to demand “authentic” emotion.
 
-  - id: araneda-et-al-2022-longitudinal-burnout
+  - id: mijakoski-et-al-2022-longitudinal-burnout
     kind: systematic-review-of-longitudinal-studies
-    citation: Araneda, A., et al. (2022). Determinants of burnout among teachers—A systematic review of longitudinal studies. International Journal of Environmental Research and Public Health, 19, 5776. https://doi.org/10.3390/ijerph19095776
+    citation: Mijakoski, D., et al. (2022). Determinants of burnout among teachers—A systematic review of longitudinal studies. International Journal of Environmental Research and Public Health, 19, 5776. https://doi.org/10.3390/ijerph19095776
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9104901/
     publication_date: 2022-05-09
     accessed_on: 2026-08-12
@@ -106,7 +106,7 @@ claims:
   - claim: Teacher quality is partly an organizational accomplishment, not a portable individual trait.
     evidence: longitudinal-and-review-synthesis
     confidence: high
-    source_ids: [kraft-marinell-yee-2016-organizational-context, araneda-et-al-2022-longitudinal-burnout, madigan-kim-2021-burnout-students]
+    source_ids: [kraft-marinell-yee-2016-organizational-context, mijakoski-et-al-2022-longitudinal-burnout, madigan-kim-2021-burnout-students]
     supports: Evaluate leadership, planning time, collegial trust, safety, staffing, workload, autonomy, materials, role clarity, compensation, and correction systems alongside individual practice.
     tensions: Organizations do not erase personal responsibility for competence, discrimination, neglect, or abuse.
     boundary_conditions: Labor market, governance, school level, collective bargaining, resources, student needs, policy, crisis, and leadership turnover.
