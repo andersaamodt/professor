@@ -1,0 +1,318 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: feedback-uptake-judgment-and-ai-boundaries-2026-08-12
+title: Feedback exists only in a loop of information, judgment, action, and consequence
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [durable-memory-transfer-and-calibration, ai-scaffolding-independent-learning]
+scope: >-
+  A bounded inquiry into formative feedback, task, process, regulation, and
+  self-level information, timing, elaboration, learner control, feedback
+  literacy, uptake, and digitally or AI-delivered feedback. It asks when a
+  response should correct, cue, explain, question, model, wait, or stop, and
+  what evidence shows that feedback improved independent judgment.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared foundational feedback models and reviews, a primary-study
+    meta-analysis, a recent digital-feedback meta-analysis, a feedback-literacy
+    framework and intervention review, and emerging AI-feedback syntheses.
+    Distinguished feedback content from instruction, praise, grades, dialogue,
+    revision opportunity, and actual uptake.
+  inclusion: >-
+    Reviews with explicit feedback distinctions and moderators, meta-analyses
+    of primary studies, and work that treats learners as judges and users of
+    information rather than passive recipients.
+  exclusions: >-
+    Generic “instant personalized feedback” claims, satisfaction alone,
+    automated scoring without an action loop, teacher-efficiency outcomes
+    without learner outcomes, and feedback generated from learner work without
+    adequate privacy, consent, warrant, or contestability.
+  limitations: >-
+    Feedback research pools heterogeneous tasks, outcomes, ages, messages, and
+    comparisons. Higher-education feedback literacy is not a complete theory of
+    brief adult dialogue. AI-specific evidence remains young, perception-heavy,
+    tool- and context-dependent, and easily obsolete; fluency and immediacy can
+    conceal incorrect diagnosis or fabricated evidence.
+readings:
+  - id: hattie-timperley-2007-feedback
+    kind: theoretical-review
+    citation: >-
+      Hattie, J., & Timperley, H. (2007). The power of feedback. Review of
+      Educational Research, 77(1), 81-112.
+      https://doi.org/10.3102/003465430298487
+    url: https://doi.org/10.3102/003465430298487
+    publication_date: 2007-03-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Educational feedback studies across tasks, ages, and classroom settings.
+    design: Integrative review and model organized around goals, current performance, next action, and task, process, regulation, and self levels.
+    finding: >-
+      Feedback effects vary by level and information. Task feedback often fails
+      to generalize; process and regulation cues can support strategy and future
+      action; person-directed praise supplies little task information. When
+      prerequisite knowledge is absent, further instruction can be more useful.
+    limits: >-
+      The model synthesizes unlike literatures and is not a validated script;
+      categories overlap, goals evolve, and effect depends on interpretation.
+
+  - id: shute-2008-formative-feedback
+    kind: literature-review
+    citation: >-
+      Shute, V. J. (2008). Focus on formative feedback. Review of Educational
+      Research, 78(1), 153-189.
+      https://doi.org/10.3102/0034654307313795
+    url: https://doi.org/10.3102/0034654307313795
+    publication_date: 2008-03-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Task-level formative feedback across educational and computer-based studies.
+    design: Iterative literature review of type, timing, task complexity, prior knowledge, learner characteristics, and delivery conditions.
+    finding: >-
+      Effective formative feedback is generally specific, supportive,
+      non-evaluative, and oriented to modifying thought or action, but findings
+      about detail and timing interact with task and learner conditions and do
+      not yield one universal recipe.
+    limits: >-
+      The search was not a contemporary systematic review, many recommendations
+      rest on mixed and older evidence, and “learner characteristics” can invite
+      overclassification when translated into automated personalization.
+
+  - id: wisniewski-zierer-hattie-2020-feedback
+    kind: meta-analysis
+    citation: >-
+      Wisniewski, B., Zierer, K., & Hattie, J. (2020). The power of feedback
+      revisited: A meta-analysis of educational feedback research. Frontiers in
+      Psychology, 10, 3087. https://doi.org/10.3389/fpsyg.2019.03087
+    url: https://doi.org/10.3389/fpsyg.2019.03087
+    publication_date: 2020-01-22
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: 435 primary studies, 994 effects, and more than 61,000 learners across educational feedback contexts.
+    design: Random-effects meta-analysis with feedback-content moderators and cognitive, motor, motivational, and behavioral outcomes.
+    finding: >-
+      Feedback had a medium pooled association with learning, but effects were
+      highly heterogeneous and depended substantially on information content;
+      cognitive and motor outcomes showed larger effects than motivation and
+      behavior. Feedback is not one consistent treatment.
+    limits: >-
+      Pooled effects span diverse constructs and designs, moderator categories
+      cannot fully explain heterogeneity, and average effects do not prescribe a
+      response to a particular learner or justify the broader Visible Learning
+      ranking enterprise.
+
+  - id: brummer-et-al-2024-digital-feedback
+    kind: meta-analysis
+    citation: >-
+      Brummer, L., de Boer, H., Mouw, J. M., & Strijbos, J. W. (2024). A meta-
+      analysis of the effects of context, content, and task factors of digitally
+      delivered instructional feedback on learning performance. Learning
+      Environments Research, 27, 453-476.
+      https://doi.org/10.1007/s10984-024-09501-4
+    url: https://doi.org/10.1007/s10984-024-09501-4
+    publication_date: 2024-06-17
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: 116 digital-feedback interventions spanning primary, secondary, and higher education.
+    design: Meta-analysis and meta-regression of timing, learner control, focus, form, function, display, assessment, discipline, and setting.
+    finding: >-
+      Digitally delivered feedback showed a positive summary effect with marked
+      variation. Feedback focus, discipline, assessment type, and learner
+      control helped explain differences; process-focused feedback contributed
+      in meta-regression, while many factors did not show simple linear effects.
+    limits: >-
+      Included studies ran from 2004 through early 2019 and mostly predate
+      generative AI. Coding combinations are sparse, moderator inference is
+      observational, and learning-performance outcomes vary.
+
+  - id: carless-boud-2018-feedback-literacy
+    kind: conceptual-framework
+    citation: >-
+      Carless, D., & Boud, D. (2018). The development of student feedback
+      literacy: Enabling uptake of feedback. Assessment & Evaluation in Higher
+      Education, 43(8), 1315-1325.
+      https://doi.org/10.1080/02602938.2018.1463354
+    url: https://doi.org/10.1080/02602938.2018.1463354
+    publication_date: 2018-04-16
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Students and teachers in higher education assessment and feedback practices.
+    design: Conceptual synthesis of appreciating feedback, making judgments, managing affect, and taking action, with pedagogical examples.
+    finding: >-
+      Learners need opportunities to interpret quality, compare work, manage the
+      emotional relation to critique, and act on information; exemplars and
+      modeling uptake can develop rather than merely demand these capacities.
+    limits: >-
+      The framework is primarily conceptual and institutionally situated; it
+      can wrongly transfer responsibility for unusable feedback onto learners.
+
+  - id: little-et-al-2024-feedback-literacy-interventions
+    kind: scoping-review
+    citation: >-
+      Little, T., Dawson, P., Boud, D., & Tai, J. (2024). Can students’ feedback
+      literacy be improved? A scoping review of interventions. Assessment &
+      Evaluation in Higher Education, 49(1), 39-52.
+      https://doi.org/10.1080/02602938.2023.2177613
+    url: https://doi.org/10.1080/02602938.2023.2177613
+    publication_date: 2023-02-20
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Higher-education interventions intended to develop feedback literacy.
+    design: Scoping review mapping intervention components and evidence of change.
+    finding: >-
+      Interventions reported improvements in aspects such as perceptions,
+      attitudes, confidence, and agency, but intervention research remained
+      limited relative to the volume of conceptual feedback-literacy work.
+    limits: >-
+      Scoping evidence, heterogeneous measures, and often self-reported outcomes
+      do not establish durable independent judgment or transfer across contexts.
+
+  - id: dai-et-al-2025-ai-feedback-perspectives
+    kind: systematic-review
+    citation: >-
+      Dai, W., Lin, J., Jin, H., Li, T., Tsai, Y.-S., Gašević, D., & Chen, G.
+      (2025). The potential of AI-generated feedback from the students’
+      perspective: A systematic review. Assessment & Evaluation in Higher
+      Education. https://doi.org/10.1080/02602938.2025.2588385
+    url: https://doi.org/10.1080/02602938.2025.2588385
+    publication_date: 2025-11-22
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Higher-education student perceptions of AI-generated feedback across reviewed studies.
+    design: Systematic review centered on reported cognitive, emotional, and comparative experiences.
+    finding: >-
+      Students reported cognitive and emotional benefits, while views differed
+      on whether AI feedback was superior to teacher feedback.
+    limits: >-
+      Perception is not accuracy, uptake, delayed learning, or ethical
+      acceptability. Recent tools, publication lag, selection effects, and
+      access constraints make transfer to Professor especially uncertain.
+claims:
+  - id: feedback-is-information-for-a-next-relation
+    statement: >-
+      Feedback is information interpreted against a purpose and made usable in
+      a subsequent judgment or action; a correction, comment, score, or praise
+      message that cannot alter relation to the work has not completed a loop.
+    confidence: high
+    source_ids: [hattie-timperley-2007-feedback, carless-boud-2018-feedback-literacy, wisniewski-zierer-hattie-2020-feedback]
+    supports: >-
+      Name the relevant distinction, connect it to evidence in the present
+      object, leave an available next move, and inspect the next attempt or
+      decision rather than counting message delivery.
+    tensions: >-
+      Informational feedback may be valuable later or may appropriately close a
+      finished encounter without requiring visible revision.
+    boundary_conditions: Purpose, timing, opportunity to act, prior knowledge, trust, affect, stakes, accessibility, and learner control.
+    does_not_license: Interaction tax, revision after every encounter, surveillance of uptake, or treating nonuse as learner resistance.
+
+  - id: teach-when-the-gap-is-knowledge
+    statement: >-
+      When a learner lacks the knowledge or representation needed to interpret a
+      task, explanation, modeling, examples, or resources are instruction—not
+      feedback—and should be supplied without pretending another hint suffices.
+    confidence: high
+    source_ids: [hattie-timperley-2007-feedback, shute-2008-formative-feedback]
+    supports: >-
+      Diagnose whether the issue is an erroneous hypothesis, missing knowledge,
+      ambiguous task, inaccessible medium, or competing purpose before responding.
+    tensions: >-
+      A cue can activate knowledge that is present but unavailable, and too much
+      explanation can displace productive learner construction.
+    boundary_conditions: Evidence of current knowledge, cue diagnosticity, task complexity, time, learner request, and cost of error.
+    does_not_license: Deficit inference from one answer, endless hint ladders, withholding explanation, or calling task repair remediation.
+
+  - id: feedback-should-target-work-and-process-not-person
+    statement: >-
+      Feedback should describe the work, evidence, strategy, or controllable
+      process at the level useful for the aim; global praise or criticism of the
+      person distracts from learning and risks identity judgment.
+    confidence: high
+    source_ids: [hattie-timperley-2007-feedback, wisniewski-zierer-hattie-2020-feedback]
+    supports: >-
+      Say what the move accomplished, what evidence changes the judgment, and
+      what alternative process is available; keep affirmation truthful and
+      specific without converting performance into character.
+    tensions: >-
+      Warm recognition and encouragement can protect dignity and willingness to
+      continue, especially under histories of devaluation.
+    boundary_conditions: Relationship, stakes, cultural meaning, affect, task, prior treatment, and whether praise carries information.
+    does_not_license: “You are brilliant,” ability labels, moralizing effort, praise inflation, tone policing, or coldness disguised as objectivity.
+
+  - id: detail-can-overfit-the-current-task
+    statement: >-
+      Highly specific immediate feedback can improve the present answer while
+      narrowing attention below the strategy or distinction needed for transfer;
+      more detail and faster delivery are not monotonic goods.
+    confidence: high
+    source_ids: [hattie-timperley-2007-feedback, shute-2008-formative-feedback, brummer-et-al-2024-digital-feedback]
+    supports: >-
+      Give the minimum information that makes a consequential feature visible,
+      then test it on a changed case; expand to a worked explanation when needed.
+    tensions: >-
+      Novices and high-complexity tasks often need explicit, detailed guidance,
+      and delayed feedback can consolidate a misconception.
+    boundary_conditions: Prior knowledge, error type, task complexity, transfer aim, delay, safety, and access.
+    does_not_license: Cryptic feedback, ritual minimalism, leaving errors uncorrected, or using delayed revelation to manipulate engagement.
+
+  - id: feedback-literacy-is-shared-infrastructure
+    statement: >-
+      The capacity to recognize quality, interpret critique, manage affect, and
+      choose a response is jointly supported by examples, criteria, dialogue,
+      trust, and opportunities to act; it is not a trait the learner must bring.
+    confidence: medium
+    source_ids: [carless-boud-2018-feedback-literacy, little-et-al-2024-feedback-literacy-interventions]
+    supports: >-
+      Compare exemplars, model a contestable judgment, allow rejection or
+      questioning of feedback, and make revision or a fresh application possible.
+    tensions: >-
+      Learners do develop portable judgment and self-regulation, and emphasizing
+      environment alone can obscure that educational aim.
+    boundary_conditions: Domain, criteria, learner authority, stakes, affect, language, accessibility, and institutional consequence.
+    does_not_license: Blaming “feedback literacy,” forced emotional disclosure, compliance with critique, or moving teacher labor onto the learner.
+
+  - id: ai-feedback-needs-independent-warrant
+    statement: >-
+      Fluency, immediacy, volume, personalization, and learner preference do not
+      establish that AI feedback diagnosed the work correctly, cited real
+      evidence, respected privacy, or improved independent judgment.
+    confidence: high
+    source_ids: [dai-et-al-2025-ai-feedback-perspectives, brummer-et-al-2024-digital-feedback]
+    supports: >-
+      Bound the claim, expose uncertainty and source basis, preserve the
+      learner's ability to inspect and reject the judgment, and verify high-
+      consequence feedback with an appropriate human or authoritative source.
+    tensions: >-
+      AI can offer low-stakes, private, rapid iteration and alternative
+      formulations that are unavailable or socially costly elsewhere.
+    boundary_conditions: Consequence, domain, privacy, source access, model reliability, learner consent, human recourse, and error detectability.
+    does_not_license: Undisclosed automated grading, fabricated citations, personality inference, emotion detection, unlimited critique, or replacing accountable human judgment.
+implications:
+  - >-
+    In a brief philology lesson, respond to one consequential feature at a time:
+    for example, distinguish a modern visual resemblance from an attested sound
+    correspondence, then offer one nearby form on which that distinction acts.
+  - >-
+    If the learner asks for the answer or lacks an attestation, teach directly.
+    A hint sequence is not inherently more active or respectful.
+  - >-
+    Ask for revision only when revision advances the learner's chosen aim. A
+    vivid fact, receptive encounter, or aesthetic noticing may be complete.
+  - >-
+    Professor's current policies already reject global praise, require evidence,
+    protect answer-on-request and clean exits, and favor feedback with a next
+    move. No active tack change is earned.
+open_questions:
+  - How can Professor test feedback uptake without turning each encounter into assessment or storing unnecessary learner data?
+  - Which feedback timing best supports historical-linguistic hypothesis revision and source judgment?
+  - When should feedback name a disciplinary norm and when should it expose that norm as contested or institutionally produced?
+  - How do language, disability, status threat, and histories of correction change the affective and epistemic meaning of feedback?
+  - What evidence distinguishes helpful AI emotional safety from avoidance of necessary human relationship and accountability?
+next_actions:
+  - Study writing response, second-language corrective feedback, dialogic feedback, and affective consequences in their domain-specific literatures.
+  - Seek delayed transfer and independent judgment outcomes for generative-AI feedback, including nulls, hallucinations, privacy harms, and automation bias.
+  - Audit Professor examples for person praise, excessive correction, feedback where instruction is needed, and next moves that manufacture obligation.
+  - Develop no learner-facing rubric until a concrete task and use justify one.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
