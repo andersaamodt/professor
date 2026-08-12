@@ -1,0 +1,318 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: reading-literacies-and-method-wars-2026-08-12
+title: Reading instruction needs component evidence, whole-reader purposes, and linguistic and critical breadth
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [durable-memory-transfer-and-calibration, epistemic-justice-curriculum-and-knowledge-access]
+scope: >-
+  A bounded inquiry into foundational word reading, fluency, morphology,
+  comprehension, multilingual transfer, critical literacy, and multiliteracies.
+  It asks how to preserve strong component evidence without inflating one
+  component into a total literacy pedagogy or erasing language, text, purpose,
+  culture, power, disability, and reader agency.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared the National Reading Panel's component syntheses with contemporary
+    comprehension scholarship, a review of reviews for multilingual learners,
+    a preregistered morphology meta-analysis, and systematic reviews of critical
+    literacy and multiliteracies. Read for population, language, outcome level,
+    transfer, implementation, and the difference between an instructional
+    component, a complete program, and a political or cultural purpose.
+  inclusion: >-
+    Research syntheses or field-defining reviews that separate literacy
+    components and outcomes, state population and language boundaries, or make
+    visible the epistemic and social purposes of reading.
+  exclusions: >-
+    Branded curriculum claims, neuroscience used as direct classroom
+    prescription, phonics-versus-meaning rhetoric, critical reading detached
+    from textual capability, and measured decoding treated as complete literacy.
+  limitations: >-
+    This is not a preparation to teach a particular child to read and cannot
+    replace topic-, age-, script-, language-, disability-, and assessment-
+    specific expertise. The 2000 National Reading Panel had important search
+    and population boundaries, including English-language publication and
+    exclusions in parts of its comprehension review. Critical-literacy reviews
+    often concern enactment rather than comparative reading outcomes.
+readings:
+  - id: national-reading-panel-2000-report
+    kind: evidence-review-and-meta-analyses
+    citation: >-
+      National Reading Panel. (2000). Teaching Children to Read: An Evidence-
+      Based Assessment of the Scientific Research Literature on Reading and
+      Its Implications for Reading Instruction. National Institute of Child
+      Health and Human Development.
+    url: https://www.nichd.nih.gov/publications/pubs/nrp/report
+    publication_date: 2000-04-13
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Primarily children learning to read in English in U.S. and English-speaking formal education.
+    design: Panel review with meta-analyses and qualitative syntheses across alphabetics, fluency, vocabulary, comprehension, teacher education, and technology.
+    finding: >-
+      Systematic phonics improves word-reading outcomes and should be adapted to
+      current need, but the report itself calls it one necessary component of a
+      complete program alongside phonemic awareness, fluency, vocabulary, and
+      comprehension. It warns against judging reading competence solely by
+      phonics and finds guided oral reading with feedback useful for fluency.
+    limits: >-
+      The report is more than twenty-five years old and its component literatures
+      differed in methods and strength. Some comprehension searches excluded
+      second-language learners and other special populations, and evidence for
+      teacher preparation was sparse.
+
+  - id: duke-ward-pearson-2021-comprehension
+    kind: integrative-research-review
+    citation: >-
+      Duke, N. K., Ward, A. E., & Pearson, P. D. (2021). The Science of Reading
+      Comprehension Instruction. The Reading Teacher, 74(6), 663-672.
+      https://doi.org/10.1002/trtr.1993
+    url: https://doi.org/10.1002/trtr.1993
+    publication_date: 2021-05-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Reading comprehension development and instruction across school-age learners.
+    design: Integrative review of classic and contemporary comprehension research.
+    finding: >-
+      Comprehension is not automatic after fluent decoding. Word reading,
+      morphology and fluency matter alongside vocabulary, knowledge, text
+      structures, purposes, strategies, discussion, analysis, writing, volume
+      of reading, and motivation; comprehension instruction should begin early.
+    limits: >-
+      The article synthesizes a broad field rather than estimating a single
+      intervention effect, and implementation must be specified for a domain,
+      text, purpose, age, and learner.
+
+  - id: kittle-amendum-budde-2024-multilingual-review-of-reviews
+    kind: systematic-review-of-reviews
+    citation: >-
+      Kittle, J. M., Amendum, S. J., & Budde, C. M. (2024). What Does Research
+      Say About the Science of Reading for K-5 Multilingual Learners? A
+      Systematic Review of Systematic Reviews. Educational Psychology Review,
+      36, 108. https://doi.org/10.1007/s10648-024-09942-6
+    url: https://doi.org/10.1007/s10648-024-09942-6
+    publication_date: 2024-09-12
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Kindergarten through grade-five multilingual learners, with outcomes often centered on English literacy.
+    design: Systematic review of systematic reviews organized around oral language, phonology, decoding, fluency, and comprehension.
+    finding: >-
+      Multilingual learners benefit from explicit foundational instruction, but
+      the evidence also requires oral language, comprehension, collaboration,
+      and cross-linguistic transfer; first-language literacy can materially
+      support later English reading development.
+    limits: >-
+      A review of reviews inherits overlap and quality variation. Outcomes
+      centered on English can turn home-language use into a means for dominant-
+      language acquisition rather than measuring bilingual development or
+      language sustainability as goods.
+
+  - id: colenbrander-et-al-2024-morphology
+    kind: preregistered-systematic-review-and-meta-analysis
+    citation: >-
+      Colenbrander, D., von Hagen, A., Kohnen, S., Wegener, S., Ko, K.,
+      Beyersmann, E., Behzadnia, A., Parrila, R., & Castles, A. (2024). The
+      Effects of Morphological Instruction on Literacy Outcomes for Children
+      in English-Speaking Countries: A Systematic Review and Meta-Analysis.
+      Educational Psychology Review, 36, 119.
+      https://doi.org/10.1007/s10648-024-09953-3
+    url: https://doi.org/10.1007/s10648-024-09953-3
+    publication_date: 2024-10-10
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Primary-school children receiving English morphology instruction in English-speaking countries.
+    design: Preregistered review of 28 studies and 177 effect sizes using robust variance estimation.
+    finding: >-
+      Morphology instruction produced small-to-moderate reading and spelling
+      effects, stronger for trained than untrained words, with evidence of
+      spelling but not reading transfer to untrained words and no clear
+      immediate comprehension effect. Heterogeneity and imprecision were large.
+    limits: >-
+      English's morphophonemic orthography limits generalization across writing
+      systems. Intervention content, dosage, controls, and outcomes varied, and
+      delayed estimates were too uncertain for strong far-transfer claims.
+
+  - id: kaya-dressler-lenters-2022-critical-literacy-canada
+    kind: systematic-review
+    citation: >-
+      Kaya, J., Dressler, R., & Lenters, K. (2022). Critical Literacy in
+      Canada: A Systematic Review of Curricula and Literature. Language and
+      Literacy, 24(2), 25-61. https://doi.org/10.20360/langandlit29606
+    url: https://doi.org/10.20360/langandlit29606
+    publication_date: 2022-07-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Canadian provincial and territorial curricula and K-12 classroom studies.
+    design: Systematic review of curricular incorporation and classroom enactment.
+    finding: >-
+      Critical literacy makes the relation among texts, power, social justice,
+      and action an explicit educational concern, but its curricular visibility
+      and research distribution vary substantially by jurisdiction.
+    limits: >-
+      This review maps enactment rather than establishing comparative gains in
+      decoding or comprehension; “transformative action” requires ethical and
+      learner-authority analysis, not automatic celebration.
+
+  - id: green-2025-empty-multiliteracies-review
+    kind: systematic-review-of-evidence-gap
+    citation: >-
+      Green, C. (2025). An empty systematic review of the ‘pedagogy of
+      multiliteracies’ in K-12 since 1996: A generation later, evidence it
+      improves literacy outcomes is lacking from (quasi-)experimental classroom
+      interventions. Review of Education, 13, e70118.
+      https://doi.org/10.1002/rev3.70118
+    url: https://doi.org/10.1002/rev3.70118
+    publication_date: 2025-10-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: K-12 multiliteracies studies since the framework's 1996 formulation.
+    design: Systematic search for peer-reviewed controlled classroom interventions with measured literacy outcomes.
+    finding: >-
+      The search found no eligible comparative intervention evidence for
+      improved literacy outcomes under its criteria; the wider literature was
+      largely observational and concerned writing, multimodality, technology,
+      text production and analysis, and linguistic diversity.
+    limits: >-
+      An empty review establishes an evidence gap under chosen outcome and
+      design criteria, not ineffectiveness or lack of educational value. Those
+      criteria may undermeasure critical, representational, participatory, or
+      identity-related aims.
+claims:
+  - id: teach-the-binding-constraints-not-a-brand
+    statement: >-
+      Reading instruction should diagnose and teach the component currently
+      constraining meaningful reading—such as phonological awareness, decoding,
+      fluency, oral language, vocabulary, morphology, knowledge, text
+      structure, strategy, or purpose—without turning that component into a
+      branded theory of the whole learner.
+    confidence: high
+    source_ids: [national-reading-panel-2000-report, duke-ward-pearson-2021-comprehension, kittle-amendum-budde-2024-multilingual-review-of-reviews]
+    supports: >-
+      Observe oral and written performance on real text; distinguish word
+      recognition from language comprehension and interpretation; provide
+      explicit instruction where inference is unreliable; reconnect component
+      work promptly to meaningful reading.
+    tensions: >-
+      Fine-grained diagnosis can overtest and fragment reading, while rich text
+      exposure alone may leave a learner without reliable access to print.
+    boundary_conditions: >-
+      Age, prior instruction, spoken language, writing system, sensory and
+      communication access, text, purpose, domain knowledge, and fatigue.
+    does_not_license: Three-cueing guesses in place of decoding, phonics-only curricula, decontextualized drill without transfer, deficit labels, or diagnosis by conversational fluency.
+
+  - id: comprehension-is-a-situated-achievement
+    statement: >-
+      Comprehension is constructed from word access, language and knowledge,
+      text organization, inference, purposes, strategies, and sociocultural
+      context; fluent oral reading is neither proof nor guarantee of
+      understanding.
+    confidence: high
+    source_ids: [duke-ward-pearson-2021-comprehension, national-reading-panel-2000-report]
+    supports: >-
+      Ask for a consequential interpretation, prediction, reconstruction,
+      comparison, or use of the text; teach missing knowledge and structures;
+      vary genre and purpose; revisit after time.
+    tensions: >-
+      Open interpretation can conceal a basic word-access barrier, and
+      comprehension questions can become teacher-answer guessing.
+    boundary_conditions: >-
+      Genre, domain, prior knowledge, language, text accessibility, reader
+      purpose, question validity, and whether multiple interpretations are
+      evidentially supportable.
+    does_not_license: Reading-speed worship, generic comprehension worksheets, treating prior knowledge as fixed cultural capital, or one right interpretation where evidence permits plurality.
+
+  - id: morphology-is-a-bridge-not-an-etymology-panacea
+    statement: >-
+      Morphological structure can connect spelling, pronunciation, meaning, and
+      word families, but gains are strongest near taught material and do not by
+      themselves establish broad comprehension or historical-etymological
+      understanding.
+    confidence: high
+    source_ids: [colenbrander-et-al-2024-morphology]
+    supports: >-
+      Teach productive bases and affixes in live words and sentences, contrast
+      semantic and orthographic relations, and directly test transfer to new
+      words and texts.
+    tensions: >-
+      English spelling preserves meaningful morphological relations and
+      morphology can be an unusually vivid access route, particularly for
+      complex vocabulary and philological inquiry.
+    boundary_conditions: >-
+      Writing system, morphology type, word family productivity, learner age,
+      vocabulary, decoding, instructional dosage, and outcome distance.
+    does_not_license: Root-list trivia, false segmentation, etymology as present meaning, promising comprehension from word families alone, or generalizing English results to every language.
+
+  - id: multilingual-literacy-needs-cross-language-and-power-analysis
+    statement: >-
+      Multilingual reading instruction should use relevant cross-language
+      knowledge and teach the target writing system explicitly while asking
+      whether the home language is being sustained as a valued literacy or used
+      only instrumentally to accelerate the dominant language.
+    confidence: high
+    source_ids: [kittle-amendum-budde-2024-multilingual-review-of-reviews]
+    supports: >-
+      Invite known-language comparison, distinguish transferable concepts from
+      language-specific mappings, provide correct script and sound access, and
+      measure development in the languages that matter to the learner and
+      community where possible.
+    tensions: >-
+      Target-language immersion can provide needed exposure, and educators may
+      lack competence or lawful resources in every language represented.
+    boundary_conditions: >-
+      Language proficiency and vitality, orthographic distance, script,
+      community aims, teacher competence, resources, and learner consent.
+    does_not_license: Inferring home language or ethnicity, compulsory translation labor, treating multilingualism as remediation, or sacrificing target-language access in the name of affirmation.
+
+  - id: critical-literacy-and-code-access-are-non-substitutable
+    statement: >-
+      Learners need both reliable access to what a text says and authority to
+      ask how it positions readers, whose interests and absences it carries,
+      and what responses are possible; neither technical decoding nor critical
+      stance substitutes for the other.
+    confidence: medium
+    source_ids: [national-reading-panel-2000-report, kaya-dressler-lenters-2022-critical-literacy-canada, green-2025-empty-multiliteracies-review]
+    supports: >-
+      Put critical questions beside accurate reading and source knowledge; let
+      learners dispute the teacher's framing; distinguish textual evidence,
+      historical context, interpretation, and chosen action.
+    tensions: >-
+      Critical literacy has aims not exhausted by standardized reading scores,
+      but politically scripted critique can become a new comprehension answer
+      key or compel learner disclosure and assent.
+    boundary_conditions: >-
+      Text, age, stakes, learner purpose, historical context, authority,
+      community impact, and whether action is voluntary and proportionate.
+    does_not_license: Ideological catechism, action as compulsory proof of reading, neutrality theater, claiming literacy effects from values alone, or withholding foundational instruction as culturally liberating.
+implications:
+  - >-
+    For a fluent adult reading historical or philological material, do not
+    import early-reading drills. Diagnose the live obstacle: unfamiliar script,
+    sound mapping, morphology, syntax, lexical history, genre, context, or
+    interpretive frame.
+  - >-
+    A word nucleus can join sound, spelling, morphology, semantics, textual
+    history, and power, but each claim needs its own evidence and transfer probe.
+  - >-
+    Preserve whole texts, purposes, delight, and argument while giving explicit
+    component instruction at the point where lack of access blocks them.
+  - >-
+    Treat reading aloud, definitions, strategy talk, and critical discussion as
+    different evidence; none alone establishes durable comprehension.
+  - >-
+    No general active rule or tack is warranted from this scan; future literacy
+    teaching requires topic-specific pedagogical content knowledge.
+open_questions:
+  - What adult and second-language evidence best guides learning a historical script or orthography for philological work?
+  - How can etymological interest motivate morphological awareness without producing false synchronic or historical analyses?
+  - Which comprehension assessments respect plural interpretation while detecting unsupported reading?
+  - How should critical literacy outcomes be evidenced without reducing them to tests or compulsory political action?
+  - What literacy evidence remains missing for disabled readers using audio, braille, AAC, or multimodal text?
+next_actions:
+  - Study adult second-language literacy, historical scripts, orthographic depth, and accessible reading modalities before building philology literacy sequences.
+  - Seek replications and updated syntheses of foundational reading components across languages and writing systems.
+  - Read critiques of the National Reading Panel's methods alongside subsequent meta-analyses and policy evaluations.
+  - Examine writing, composition, rhetoric, source reading, and digital information literacy as distinct capability strands.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
