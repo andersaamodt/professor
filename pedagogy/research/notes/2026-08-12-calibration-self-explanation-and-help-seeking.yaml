@@ -1,0 +1,156 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: calibration-self-explanation-and-help-seeking-2026-08-12
+title: Metacognition improves when judgment meets an external standard and changes the next move
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [durable-memory-transfer-and-calibration, ai-scaffolding-independent-learning, teacher-knowledge-noticing-and-adaptive-expertise]
+scope: Metacognitive monitoring, calibration, self-explanation, learning versus performance, desirable difficulties, help-seeking, prompting, feedback, and AI scaffolding.
+method:
+  search_date: 2026-08-12
+  approach: Compared calibration and self-explanation meta-analyses, learning-performance theory, help-seeking review, classroom interaction research, and bias-adjusted digital-prompt synthesis.
+  inclusion: Sources measuring monitoring accuracy, later learning, prompt effects, help-seeking behavior, boundary conditions, or external standards.
+  exclusions: Self-report as metacognition, effort as learning, confusion as depth, reflection rituals, help-seeking as weakness, and withholding help to manufacture independence.
+  limitations: Measures and sign conventions vary; many studies use short laboratory tasks or school settings, and AI help changes the cost, abundance, and temptation of assistance.
+readings:
+  - id: gutierrez-de-blume-2022-calibration-meta
+    kind: meta-analysis
+    citation: Gutierrez de Blume, A. P. (2022). Calibrating calibration—A meta-analysis of learning strategy instruction interventions to improve metacognitive monitoring accuracy. Journal of Educational Psychology, 114(4), 681-700. https://doi.org/10.1037/edu0000674
+    url: https://doi.org/10.1037/edu0000674
+    publication_date: 2022-05-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 7,667 participants across 56 effects receiving learning-strategy instruction and monitoring measures.
+    design: Random-effects meta-analysis with strategy, judgment, sample, setting, and measurement moderators.
+    finding: Strategy instruction improved average monitoring accuracy, with larger effects in laboratory adult samples and some judgment formats.
+    limits: Difference-score conventions, task-aligned judgments, laboratory inflation, and improved calibration do not necessarily improve regulation or learning.
+
+  - id: de-bruijn-et-al-2024-monitoring-problem-solving
+    kind: meta-analysis
+    citation: De Bruijn, L., et al. (2024). Meta-analysis of interventions for monitoring accuracy in problem solving. Educational Psychology Review, 36. https://doi.org/10.1007/s10648-024-09936-4
+    url: https://link.springer.com/article/10.1007/s10648-024-09936-4
+    publication_date: 2024-08-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Children, adolescents, and adults judging performance on problem-solving tasks.
+    design: Meta-analysis of task support, procedural and metacognitive knowledge, judgment timing, external standards, and monitoring training.
+    finding: Interventions improved accuracy on average, but timing-only prompts could harm it; laboratory and retrospective-confidence effects were larger.
+    limits: Heterogeneous domains and measures, limited classroom transfer, and accuracy can improve through lower confidence without better knowledge.
+
+  - id: bisra-et-al-2018-self-explanation
+    kind: meta-analysis
+    citation: Bisra, K., Liu, Q., Nesbit, J. C., Salimi, F., & Winne, P. H. (2018). Inducing self-explanation—A meta-analysis. Educational Psychology Review, 30, 703-725. https://doi.org/10.1007/s10648-018-9434-x
+    url: https://eric.ed.gov/?id=EJ1186664
+    publication_date: 2018-09-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Learners studying text, worked examples, or problems across 69 effects from 64 reports.
+    design: Random-effects meta-analysis with 20 coded moderators.
+    finding: Prompts to infer causal or conceptual relations produced a moderate average learning benefit across varied conditions.
+    limits: Prompt and control differences, publication bias, explanation quality, prior knowledge, extra time, and aligned outcomes limit a generic ritual.
+
+  - id: li-et-al-2025-digital-prompts
+    kind: systematic-review-and-meta-analysis
+    citation: Li, M., et al. (2025). Scaffolding through prompts in digital learning—A systematic review and meta-analysis of effectiveness on learning achievement. Educational Research Review. https://doi.org/10.1016/j.edurev.2025.100700
+    url: https://www.sciencedirect.com/science/article/pii/S1747938X25000235
+    publication_date: 2025-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Learners receiving digital prompts across 68 experimental studies.
+    design: Systematic review and random-effects meta-analysis with publication-bias adjustment.
+    finding: Prompts showed a modest positive average effect that shrank substantially after bias adjustment.
+    limits: Diverse prompts, platforms, outcomes, control activity, and selective publication; more prompting can also fragment attention.
+
+  - id: soderstrom-bjork-2015-learning-performance
+    kind: integrative-review
+    citation: Soderstrom, N. C., & Bjork, R. A. (2015). Learning versus performance—An integrative review. Perspectives on Psychological Science, 10(2), 176-199. https://doi.org/10.1177/1745691615569000
+    url: https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/11/soderstorm_ra_learningvsperformance.pdf
+    publication_date: 2015-03-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Laboratory and educational studies where practice performance diverges from durable retention or transfer.
+    design: Integrative theoretical review of acquisition conditions and delayed learning outcomes.
+    finding: Conditions that improve immediate fluency can impair later retention, while spacing, interleaving, generation, and retrieval can lower practice performance yet improve later outcomes.
+    limits: Effects are task-, learner-, schedule-, feedback-, and criterion-dependent; difficulty itself is neither mechanism nor benefit.
+
+  - id: cornu-et-al-2021-academic-help-seeking
+    kind: systematic-review
+    citation: Cornu, V., De Clercq, M., & Galand, B. (2021). Help-seeking in an academic context—A systematic review. Sustainability, 13, 4460. https://doi.org/10.3390/su13084460
+    url: https://www.mdpi.com/2071-1050/13/8/4460
+    publication_date: 2021-04-16
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Learners across educational stages deciding whether, from whom, and how to request academic assistance.
+    design: Systematic review of constructs, predictors, and forms of help-seeking and avoidance.
+    finding: Instrumental help-seeking is generally adaptive, while avoidance and expedient answer-seeking relate differently to goals, efficacy, threat, climate, and access.
+    limits: Construct definitions and self-report dominate; requesting a hint versus a solution may be rationally different across deadlines and stakes.
+
+  - id: engels-et-al-2023-help-interactions
+    kind: microlongitudinal-observational-study
+    citation: Engels, M. C., et al. (2023). Academic help-seeking interactions in the classroom—A microlongitudinal study. Journal of School Psychology, 97, 1-18.
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10087139/
+    publication_date: 2023-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Classroom episodes of teacher and peer help-seeking and help-giving over time.
+    design: Repeated observational analysis of individual and interaction patterns.
+    finding: Help-seeking varied with performance, gender, source, and moment, showing it as an interaction shaped by how help is available and given.
+    limits: Observational associations, local classroom norms, and visible requests omit covert or technologically mediated help.
+contradictions:
+  - Calibration interventions improve judgment accuracy on average, yet accuracy can improve by changing confidence without changing knowledge, regulation, or later transfer.
+  - Self-explanation supports learning, but repeated generic “explain your thinking” prompts can demand performance, expose private reasoning, or rehearse misconceptions without feedback.
+  - Desirable difficulties explain why immediate ease misleads, yet the phrase is easily abused to dignify inaccessible materials, vague directions, unnecessary workload, or humiliation.
+  - Instrumental help can return control, while abundant AI help can become answer substitution; delayed help can build agency or waste limited time depending on the error envelope.
+claims:
+  - claim: Metacognitive judgment becomes useful when tied to a specific task, an external standard, and a regulation decision.
+    evidence: meta-analytic-synthesis
+    confidence: high
+    source_ids: [gutierrez-de-blume-2022-calibration-meta, de-bruijn-et-al-2024-monitoring-problem-solving]
+    supports: Predict or postdict a concrete performance, compare with evidence, identify the cue that misled, and choose study, retrieval, help, checking, or stopping accordingly.
+    tensions: Frequent confidence judgments consume attention and may make private uncertainty an assessed performance.
+    boundary_conditions: Domain, timing, criterion, feedback, learner knowledge, stakes, privacy, and available regulatory options.
+    does_not_license: General confidence profiles, personality labels, introspection as truth, or inferring competence from verbal certainty.
+
+  - claim: Self-explanation is an inferential activity, not a compulsory narration of internal thought.
+    evidence: meta-analytic-with-ethical-qualification
+    confidence: high
+    source_ids: [bisra-et-al-2018-self-explanation, li-et-al-2025-digital-prompts]
+    supports: Ask for one causal link, comparison, reason for a step, prediction, or anomaly when that inference advances the task; allow private, shown, selected, or modelled routes.
+    tensions: Explanations can reveal misconceptions for feedback, but public verbal fluency and working memory distort who appears to understand.
+    boundary_conditions: Prior knowledge, language, disability, task, privacy, prompt frequency, feedback, assessment, and time.
+    does_not_license: Thought-process extraction, explaining every step, rewarding verbosity, treating silence as no reasoning, or storing raw reasoning traces.
+
+  - claim: A difficulty is desirable only prospectively as a hypothesis and retrospectively by later criterion performance without disproportionate harm.
+    evidence: theoretical-and-empirical-synthesis
+    confidence: high
+    source_ids: [soderstrom-bjork-2015-learning-performance]
+    supports: Specify mechanism, delayed criterion, prior knowledge, support, access, burden, and stopping rule; compare against a less difficult route.
+    tensions: Some educational goods are encountered in the present and should not be reduced to delayed test performance.
+    boundary_conditions: Learner, material, skill stage, retention interval, feedback, error cost, disability, motivation, time, and transfer target.
+    does_not_license: Friction, poor interface, tiny text, withheld explanation, shame, exhaustion, ambiguity, or overload renamed rigor.
+
+  - claim: Adaptive help-seeking requests the smallest useful support that restores progress, but the learner decides when efficiency or a full answer matters more.
+    evidence: systematic-and-observational-synthesis
+    confidence: high
+    source_ids: [cornu-et-al-2021-academic-help-seeking, engels-et-al-2023-help-interactions]
+    supports: Offer clue, example, decomposition, direct answer, model, source, check, or handoff; say what each preserves and let the learner choose.
+    tensions: Under deadline or high stakes, a full answer can be adaptive; in learning tasks, repeated solution provision can reduce independent practice.
+    boundary_conditions: Goal, time, stakes, reversibility, prior attempts, privacy, stigma, source availability, and competence boundaries.
+    does_not_license: Help refusal, forced hints, dependency labels, moralizing answer requests, or assuming all self-reliance is agency.
+implications:
+  - Professor should use calibration sparingly at meaningful decision points and compare confidence with an observable task, not ask “how confident are you?” ritualistically.
+  - Self-explanation prompts must target one live inferential joint and always have a direct or modelled alternative.
+  - Never defend difficulty by effort alone. Name the hypothesized delayed benefit and remove friction unrelated to it.
+  - Offer graded help explicitly—hint, worked example, plain answer, deeper derivation—and honor the selected level immediately.
+  - No stable calibration, help-seeking, or independence profile may be inferred or retained.
+open_questions:
+  - How can an AI detect that a hint has ceased to be useful without covertly profiling frustration or affect?
+  - What calibration tasks fit open-ended philological interpretation where no single score is adequate?
+  - How should Professor balance retrieval with the aesthetic integrity of a complete receptive encounter?
+next_actions:
+  - Study language teaching, second-language acquisition, translation, corrective feedback, and multilingual identity as a domain-specific stress test.
+  - Include prompt frequency, external standard, help level, and unrelated friction in the final audit.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
