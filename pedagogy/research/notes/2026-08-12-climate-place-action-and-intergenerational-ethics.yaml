@@ -1,0 +1,165 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: climate-place-action-and-intergenerational-ethics-2026-08-12
+title: Climate teaching should join warranted knowledge to collective action literacy without affective conscription
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [embodiment-aesthetics-affect-and-place, science-inquiry-models-and-epistemic-plurality, democratic-emancipatory-and-deschooling-tensions, dignity-safety-and-non-coercion]
+scope: Climate and environmental education, place, land, science, uncertainty, justice, action competence, Indigenous knowledge governance, eco-anxiety, hope and fear, institutional responsibility, and intergenerational power.
+method:
+  search_date: 2026-08-12
+  approach: Compared environmental-education and climate-education meta-analyses, place-based and eco-anxiety systematic reviews, critical land-education scholarship, participatory climate-program review, and international policy synthesis.
+  inclusion: Sources separating knowledge, attitudes, behavior, collective efficacy, affect, action, place relation, institutional power, cultural authority, and ecological outcome.
+  exclusions: Anxiety manufacture, hope manufacture, individual lifestyle confession, scientific literacy as political assent, nature as empty scenery, Indigenous knowledge as curriculum resource without governance, and activism as compulsory proof of learning.
+  limitations: Interventions and constructs are heterogeneous, self-report and short follow-up dominate, behavior proxies may be trivial, geographic coverage is unequal, and ecological or institutional effects are rarely measured.
+readings:
+  - id: van-de-wetering-et-al-2022-ee-meta
+    kind: systematic-review-and-meta-analysis
+    citation: van de Wetering, J., Leijten, P., Spitzer, J., & Thomaes, S. (2022). Does environmental education benefit environmental outcomes in children and adolescents? A meta-analysis. Journal of Environmental Psychology, 81, 101782. https://doi.org/10.1016/j.jenvp.2022.101782
+    url: https://doi.org/10.1016/j.jenvp.2022.101782
+    publication_date: 2022-06-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Children and adolescents in environmental-education interventions with knowledge, attitude, intention, and behavior outcomes.
+    design: Systematic review and meta-analysis with moderator and bias analyses.
+    finding: Environmental education showed positive average effects across several learner outcomes, with variability and weaker evidence for durable behavior.
+    limits: Diverse programs and measures, short follow-up, self-report, publication bias, and learner behavior is not equivalent to ecological change.
+
+  - id: riess-et-al-2025-climate-meta
+    kind: meta-analysis
+    citation: Riess, W., et al. (2025). Effectiveness of climate change education—A meta-analysis. Frontiers in Education, 10, 1563816. https://doi.org/10.3389/feduc.2025.1563816
+    url: https://doi.org/10.3389/feduc.2025.1563816
+    publication_date: 2025-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Learners in formal and informal climate-change education across knowledge, attitude, and behavior outcomes.
+    design: Meta-analysis of intervention effects and moderators.
+    finding: Climate education improves knowledge most consistently and attitudes and behavior more modestly; procedural and action knowledge may matter more for behavior than declarative basics alone.
+    limits: Natural-science interventions dominate, behavior measures and follow-up are weak, and average effects conceal purpose and context.
+
+  - id: yu-et-al-2026-school-climate-literacy
+    kind: three-level-meta-analysis
+    citation: Yu, H., et al. (2026). The effect of school science education on students' climate literacy—A three-level meta-analysis. Humanities and Social Sciences Communications. https://pmc.ncbi.nlm.nih.gov/articles/PMC12996053/
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12996053/
+    publication_date: 2026-03-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: School learners in science-based climate-education interventions.
+    design: Three-level meta-analysis separating cognition, attitudes, and climate action.
+    finding: Effects were strongest for climate cognition, weaker for attitudes, and nonsignificant for action.
+    limits: Climate literacy definition and outcome dependency, school-science emphasis, action measurement, and short interventions constrain transfer claims.
+
+  - id: bailey-et-al-2024-eco-anxiety
+    kind: systematic-review
+    citation: Bailey, E., et al. (2024). Heads, hearts, and hands—A systematic review of empirical studies about eco/climate anxiety and environmental education. Environmental Education Research. https://doi.org/10.1080/13504622.2024.2315572
+    url: https://doi.org/10.1080/13504622.2024.2315572
+    publication_date: 2024-02-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Learners and educators in 15 environmental-education studies published from 2017 through 2022 involving eco- or climate anxiety.
+    design: Systematic review and thematic synthesis organized around cognitive, affective, and action dimensions.
+    finding: Environmental learning and climate anxiety interact through knowledge, emotion, pedagogy, participation, and action rather than a simple dose-response relation.
+    limits: Small emerging literature, inconsistent anxiety constructs, cross-sectional and self-report designs, and no universal emotional trajectory.
+
+  - id: yemini-et-al-2023-place-review
+    kind: systematic-review
+    citation: Yemini, M., Engel, L., & Ben Simon, A. (2023). Place-based education—A systematic review of literature. Educational Review. https://doi.org/10.1080/00131911.2023.2177260
+    url: https://doi.org/10.1080/00131911.2023.2177260
+    publication_date: 2023-02-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 145 publications on place-based education across formal, informal, and community settings.
+    design: Systematic review of definitions, geography, implementation, and outcomes.
+    finding: Place-based education links learning to physical and community place, but much research studies one-off external programs and outcome traditions differ geographically.
+    limits: No stable intervention, strong United States and English-language influence, outcome heterogeneity, and “local” can obscure migration, colonial history, and wider systems.
+
+  - id: tucker-et-al-2026-indigenous-ee
+    kind: systematic-literature-review
+    citation: Tucker, A., et al. (2026). A systematic literature review on the integration of Indigenous knowledge in environmental education. Environmental Education Research. https://doi.org/10.1080/13504622.2026.2628214
+    url: https://doi.org/10.1080/13504622.2026.2628214
+    publication_date: 2026-03-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Environmental-education research involving Indigenous epistemologies, land-based pedagogy, and Western-science relations.
+    design: PRISMA systematic review with inductive thematic analysis.
+    finding: Land-based approaches can reposition Indigenous knowledge as foundational, while tokenism, educator gatekeeping, institutional inertia, and ontological conflict persist.
+    limits: “Integration” may itself subordinate sovereign knowledge; published accounts cannot authorize use; communities and protocols are not interchangeable.
+
+  - id: bang-et-al-2014-land-education
+    kind: critical-theoretical-analysis
+    citation: Bang, M., Curley, L., Kessel, A., Marin, A., Suzukovich, E. S., III, & Strack, G. (2014). Muskrat theories, tobacco in the streets, and living Chicago as Indigenous land. Environmental Education Research, 20(1), 37-55. https://doi.org/10.1080/13504622.2013.865113
+    url: https://doi.org/10.1080/13504622.2013.865113
+    publication_date: 2014-01-01
+    accessed_on: 2026-08-12
+    reading_level: citation-traced
+    population_context: Indigenous land education and urban Native relations to Chicago as living land.
+    design: Community-grounded conceptual and pedagogical analysis challenging settler constructions of nature and place.
+    finding: Land education concerns relations, histories, sovereignty, and ongoing life, not adding Indigenous facts to a generic place-based curriculum.
+    limits: Situated account should not be abstracted into a universal method or detached from community authority.
+contradictions:
+  - Accurate climate knowledge is necessary for warranted judgment, yet knowledge gains reliably exceed action gains and can coexist with powerlessness.
+  - Emotion belongs in encountering consequential futures, yet engineering hope, fear, guilt, or urgency treats learners as instruments and may distort evidence.
+  - Local inquiry makes systems tangible, yet “the local” can erase Indigenous sovereignty, displacement, supply chains, atmospheric scale, and unequal exposure.
+  - Action can build capability and reveal institutions, yet compulsory activism predetermines political response and can transfer adult responsibility onto learners.
+claims:
+  - claim: Climate literacy should separate physical mechanisms, evidence and uncertainty, impacts, adaptation, mitigation, institutions, justice, and possible actions while showing their relations.
+    evidence: meta-analytic-synthesis
+    confidence: high
+    source_ids: [riess-et-al-2025-climate-meta, yu-et-al-2026-school-climate-literacy, van-de-wetering-et-al-2022-ee-meta]
+    supports: Use causal models and observed records; compare scenario assumptions; trace who controls a decision; distinguish individual, collective, institutional, and technological action.
+    tensions: Separation can fragment a phenomenon whose scientific and political dimensions interact.
+    boundary_conditions: Learner aim, age, place, hazard proximity, prior knowledge, source access, jurisdiction, and decision scale.
+    does_not_license: False balance about established findings, certainty beyond evidence, behavior scoring, carbon confession, or treating scientific comprehension as policy assent.
+
+  - claim: Climate-related emotion should be acknowledged as information and experience, not selected or intensified to secure compliance.
+    evidence: systematic-ethical-synthesis
+    confidence: high
+    source_ids: [bailey-et-al-2024-eco-anxiety, van-de-wetering-et-al-2022-ee-meta]
+    supports: Tell the truth proportionately; allow concern, grief, anger, numbness, curiosity, hope, ambivalence, and refusal; offer action knowledge and support without promising that action cures feeling.
+    tensions: A bloodless account can conceal consequence and privilege those insulated from harm.
+    boundary_conditions: Direct exposure, age, requested depth, current distress, uncertainty, action capacity, and available support.
+    does_not_license: Catastrophe spectacle, reassurance without grounds, mandatory hope, diagnosing eco-anxiety, therapy simulation, or burdening a learner with saving the world.
+
+  - claim: Place-based teaching must ask whose land, whose names, whose authority, whose access, and which wider systems constitute the place.
+    evidence: systematic-critical-synthesis
+    confidence: high
+    source_ids: [yemini-et-al-2023-place-review, tucker-et-al-2026-indigenous-ee, bang-et-al-2014-land-education]
+    supports: Attend to material ecology, language, labor, migration, jurisdiction, dispossession, infrastructure, memory, community governance, and scale; seek permission for held knowledge.
+    tensions: Requiring a total political history before encounter can prevent humble local noticing.
+    boundary_conditions: Community protocol, land status, learner relation, source provenance, season, ecological sensitivity, and public accessibility.
+    does_not_license: Pan-Indigenous synthesis, sacred or restricted knowledge, extracting elders' labor, land acknowledgment as completion, trespass, collecting specimens, or representing a place as empty nature.
+
+  - claim: Action learning is warranted when it increases decision literacy and real agency without making a prescribed action or visible optimism the assessment.
+    evidence: meta-analytic-and-critical-synthesis
+    confidence: moderate
+    source_ids: [riess-et-al-2025-climate-meta, yu-et-al-2026-school-climate-literacy, bailey-et-al-2024-eco-anxiety]
+    supports: Compare leverage, authority, coalition, cost, uncertainty, affected parties, rebound, opportunity cost, and evaluation; allow observation, analysis, design, participation, critique, or nonparticipation.
+    tensions: Neutral classroom analysis can become delay when harms are present; consequential action necessarily takes positions.
+    boundary_conditions: Voluntariness, age, risk, political rights, institutional role, community request, time, and likely consequence.
+    does_not_license: Compelled advocacy, partisan loyalty tests, symbolic recycling as systemic competence, unprotected protest, unpaid community labor, or action claims without outcome evidence.
+
+  - claim: Environmental outcomes require institutional accountability; learner attitude change is not a substitute for changing harmful systems.
+    evidence: ethical-inference-from-outcome-gap
+    confidence: high
+    source_ids: [van-de-wetering-et-al-2022-ee-meta, yu-et-al-2026-school-climate-literacy]
+    supports: Track whether institutions change resources, rules, infrastructure, exposure, access, and emissions; state who has power and who bears cost.
+    tensions: Individual practices can matter, build norms, and express valued relations without being sufficient.
+    boundary_conditions: Scale, causal contribution, institutional mandate, equity, feasibility, and measurement horizon.
+    does_not_license: Learner blame, virtue ranking, surveillance of consumption, institutionally sponsored greenwashing, or claiming ecological impact from intentions.
+implications:
+  - Professor should begin with a live phenomenon, record, place, decision, or question and then connect mechanism, scale, history, consequence, and agency.
+  - Distinguish factual confidence from scenario uncertainty, value judgment, policy tradeoff, and pedagogical choice.
+  - Offer action as an inspectable option with levels of commitment, including observation and refusal; never use anxiety or hope as a conversion metric.
+  - Disclose that globally retrieved text cannot authorize the use of Indigenous or community-held knowledge.
+  - Do not retain climate affect, political choices, location, or consumption as a learner profile.
+open_questions:
+  - Which action-learning designs improve later institutional judgment rather than only intention or self-efficacy?
+  - How can an AI invite place encounter without collecting location or simulating relations it does not hold?
+  - Which measures capture ecological and distributional consequence without turning education into surveillance?
+next_actions:
+  - Study library, information, and research pedagogy as an infrastructure of inquiry, access, provenance, and intellectual freedom.
+  - Audit whether today's action-oriented records preserve nonparticipation and distinguish learner from institutional responsibility.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
