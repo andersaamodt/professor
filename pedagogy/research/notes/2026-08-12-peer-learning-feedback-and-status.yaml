@@ -1,0 +1,218 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: peer-learning-feedback-and-status-2026-08-12
+title: Peers create another source of knowledge and power, not automatic equality
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [critical-pedagogies-dialogue-power-and-refusal, access-disability-and-equivalent-participation]
+scope: >-
+  A bounded inquiry into peer instruction, peer feedback, assessment, and
+  cooperative groupwork. It asks which acts generate learning, what support
+  makes them usable, and how status, language, exposure, unpaid labor, and
+  consequential grading can turn apparent participation into inequity.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared meta-analyses of peer instruction, peer assessment, and supported
+    peer feedback with the programmatic research basis of Complex Instruction.
+    Distinguished giving, receiving, revising, explaining, rating, grading, and
+    belonging rather than treating “peer learning” as one intervention.
+  inclusion: >-
+    Empirical syntheses or programmatic accounts specifying comparisons,
+    processes, moderators, instructional supports, or unequal participation.
+  exclusions: >-
+    Participation counts as learning, groupwork without individual evidence,
+    peer grading justified only by scale, and dialogue idealized as power-free.
+  limitations: >-
+    Most outcome syntheses concern formal classrooms; the equity account is a
+    program source rather than an independent systematic review. Publication,
+    implementation, and instructor effects remain, and small-group findings do
+    not directly establish what a one-to-one AI should simulate.
+readings:
+  - id: balta-et-al-2017-peer-instruction
+    kind: meta-analysis
+    citation: >-
+      Balta, N., Michinov, N., Balyimez, S., & Ayaz, M. F. (2017). A
+      Meta-Analysis of the Effect of Peer Instruction on Learning Gain:
+      Identification of Informational and Cultural Moderators. International
+      Journal of Educational Research, 86, 66-77.
+      https://doi.org/10.1016/j.ijer.2017.08.009
+    url: https://doi.org/10.1016/j.ijer.2017.08.009
+    publication_date: 2017-10-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Twenty-nine studies and 4,738 higher-education learners across courses and countries.
+    design: Meta-analysis of Peer Instruction learning gains and informational and cultural moderators.
+    finding: >-
+      Peer Instruction produced positive average learning gains, with country
+      context identified as an important moderator.
+    limits: >-
+      The full analysis was not read, and Peer Instruction is a designed cycle
+      of individual commitment, discussion, and reconsideration—not evidence
+      that any conversation or group assignment works.
+
+  - id: double-mcgrane-hopfenbeck-2020-peer-assessment
+    kind: meta-analysis
+    citation: >-
+      Double, K. S., McGrane, J. A., & Hopfenbeck, T. N. (2020). The Impact of
+      Peer Assessment on Academic Performance: A Meta-Analysis of Control Group
+      Studies. Educational Psychology Review, 32, 481-509.
+      https://doi.org/10.1007/s10648-019-09510-3
+    url: https://doi.org/10.1007/s10648-019-09510-3
+    publication_date: 2019-11-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Fifty-four experimental and quasi-experimental studies with 141 effects across primary, secondary, and tertiary education.
+    design: Meta-analysis comparing peer assessment with no, teacher, and self-assessment.
+    finding: >-
+      Peer assessment had a small-to-medium positive average effect (g = 0.31),
+      outperforming no assessment and teacher assessment but not significantly
+      differing from self-assessment.
+    limits: >-
+      Academic performance does not establish fairness, feedback quality,
+      emotional safety, or suitability for summative decisions; intervention
+      designs and participant relations varied.
+
+  - id: wu-et-al-2025-peer-feedback-support
+    kind: meta-analysis
+    citation: >-
+      Wu, et al. (2025). Enhancing the Peer-Feedback Process Through
+      Instructional Support: A Meta-Analysis. Educational Psychology Review,
+      37. https://doi.org/10.1007/s10648-025-10017-3
+    url: https://doi.org/10.1007/s10648-025-10017-3
+    publication_date: 2025-08-01
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Experimental and quasi-experimental peer-feedback studies across educational settings.
+    design: Robust-variance meta-analysis separating provision support, reception support, feedback quality, revision quality, and subject knowledge.
+    finding: >-
+      Instructional support improved feedback provision and, less strongly,
+      reception, but did not show a significant overall effect on subject
+      knowledge. Evidence for reception support was too sparse for several
+      analyses; better overt feedback behavior did not guarantee deeper learning.
+    limits: >-
+      Few studies supported or measured reception, dependent variables were
+      coarse, and many measures captured visible products rather than cognitive
+      processes or longer-term independent judgment.
+
+  - id: cohen-lotan-complex-instruction-equity
+    kind: programmatic-research-synthesis
+    citation: >-
+      Cohen, E. G., & Lotan, R. A. Equity in Cooperative Learning Classrooms.
+      Program for Complex Instruction, Stanford University.
+      https://complexinstruction.stanford.edu/node/648
+    url: https://complexinstruction.stanford.edu/node/648
+    publication_date: 1997-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Heterogeneous elementary and middle-school classrooms using cooperative groupwork.
+    design: Programmatic synthesis and practice account grounded in research on Complex Instruction and status treatment.
+    finding: >-
+      Cooperative work can widen access to materials and peer resources, but it
+      can also exclude lower-status or socially isolated learners. Equity
+      requires both access and influence: participation whose contribution
+      actually matters to others.
+    limits: >-
+      This source represents the intervention program's account, is school-
+      centered, and does not independently quantify effects or cover all forms
+      of race, disability, language, gender, class, and digital status.
+claims:
+  - id: peer-learning-must-name-the-learning-act
+    statement: >-
+      Peer learning is not one mechanism: explaining, comparing, judging,
+      receiving, revising, coordinating, and witnessing can produce different
+      capabilities and require different preparation and evidence.
+    confidence: high
+    source_ids: [balta-et-al-2017-peer-instruction, double-mcgrane-hopfenbeck-2020-peer-assessment, wu-et-al-2025-peer-feedback-support]
+    supports: >-
+      Name the intended act, give criteria or a model when needed, preserve an
+      individual attempt, and inspect what changes after interaction.
+    tensions: >-
+      Social belonging, recognition, and entry into a practice can be important
+      outcomes even when a short content test does not move.
+    boundary_conditions: >-
+      Domain knowledge, feedback literacy, relationship, language, anonymity,
+      stakes, group composition, and opportunities to revise alter the mechanism.
+    does_not_license: Breakout rooms by default, unguided peer correction, AI personas masquerading as peers, or dialogue as an interaction quota.
+
+  - id: participation-requires-access-and-influence
+    statement: >-
+      A learner participates equitably only when they can access the shared
+      object and their contribution can influence the group's reasoning or work;
+      speaking turns and physical presence are insufficient.
+    confidence: high
+    source_ids: [cohen-lotan-complex-instruction-equity]
+    supports: >-
+      Design tasks with multiple real competencies, inspect who handles valued
+      materials and decisions, challenge status assumptions, and offer private,
+      asynchronous, nonverbal, or observer routes with genuine intellectual weight.
+    tensions: >-
+      Equal airtime is not always the aim, and expertise can legitimately make
+      some contributions more decisive when reasons remain contestable.
+    boundary_conditions: >-
+      Public error, disability, language, race, gender, class, credential,
+      familiarity, platform controls, and prior relationships shape status.
+    does_not_license: Forced disclosure, compulsory speech, token roles, grading personality, or interpreting quiet as absence of thought.
+
+  - id: peer-feedback-needs-reception-and-revision
+    statement: >-
+      Producing a polished peer comment is not enough; a defensible peer-
+      feedback design creates a supported route to evaluate, contest, select,
+      and use feedback in revision.
+    confidence: high
+    source_ids: [wu-et-al-2025-peer-feedback-support, double-mcgrane-hopfenbeck-2020-peer-assessment]
+    supports: >-
+      Separate feedback from consequential grading, teach criteria, let authors
+      reject advice with reasons, and examine revision or later judgment.
+    tensions: >-
+      Giving feedback may benefit the reviewer even when the recipient does not
+      use it; a rejected comment can still sharpen both parties' criteria.
+    boundary_conditions: >-
+      Expertise, trust, anonymity, workload, feedback volume, revision time, and
+      appeals determine whether peers can usefully share evaluative authority.
+    does_not_license: Outsourcing teacher judgment, compulsory peer grading, unappealable scores, or exposing private work without consent.
+
+  - id: peers-do-not-remove-power
+    statement: >-
+      Replacing teacher talk with peer interaction redistributes authority but
+      does not abolish hierarchy, coercion, bias, or labor; the Teacher remains
+      responsible for the conditions and consequences it designs.
+    confidence: high
+    source_ids: [cohen-lotan-complex-instruction-equity, wu-et-al-2025-peer-feedback-support]
+    supports: >-
+      Make purposes and roles contestable, monitor status and harm, preserve an
+      exit or alternative, and do not enroll peers merely to reduce Teacher cost.
+    tensions: >-
+      Excessive Teacher monitoring can suppress candid peer relation and restore
+      the very hierarchy collaboration was meant to interrupt.
+    boundary_conditions: >-
+      Compulsory enrollment, summative stakes, sensitive content, community
+      norms, surveillance, and scarce support raise the duty of care.
+    does_not_license: Peer labor as free scalability, consensus as truth, majority rule over testimony, or calling a learner resistant for preferring direct instruction.
+implications:
+  - >-
+    Existing reciprocal-question-turn and human-community-bridge tacks already
+    contain reciprocity, opt-out, authority, and nonextraction boundaries. No
+    active tactic should change from this scan.
+  - >-
+    A one-to-one AI must not counterfeit human plurality. It can prepare the
+    learner to enter a real peer or community exchange, simulate positions with
+    clear disclosure, or analyze an existing dialogue, but these are not peers.
+  - >-
+    When recommending human collaboration, Professor should specify what the
+    human relation uniquely affords and who bears the cost; “find a community”
+    is not adequate access support.
+open_questions:
+  - When does giving feedback produce more learning than receiving it, and how should that affect workload and reciprocity?
+  - Which status interventions transfer beyond classrooms and across culture, disability, language, age, and online anonymity?
+  - How can peer disagreement remain consequential without grading conformity or manufacturing consensus?
+  - What legitimate social forms can a private AI-mediated curriculum support without simulating friendship or appropriating community?
+next_actions:
+  - Read independent evaluations and critiques of Complex Instruction and status treatment.
+  - Study collaborative argumentation, dialogic teaching, peer explanation, and socially shared regulation as distinct mechanisms.
+  - Seek learner accounts of peer-feedback harm, identity threat, uncompensated labor, and inaccessible participation.
+  - Add future human-reviewed scenarios for fake peers, forced groupwork, status-dominated discussion, and unappealable peer grades.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
