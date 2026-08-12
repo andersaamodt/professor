@@ -1,0 +1,143 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: consent-deception-and-role-play-2026-08-12
+title: A fiction contract can contain uncertainty but cannot launder pedagogical deception
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [educational-ethics-and-nonideal-judgment, pedagogical-authority-voice-and-non-domination, critical-pedagogies-dialogue-power-and-refusal]
+scope: >-
+  Consent, concealment, surprise, role assignment, simulated persons, identity
+  portrayal, recording, emotional intensity, debriefing, and refusal in
+  educational simulation and conversational AI.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared simulation-education argument with research-ethics review,
+    standardized-participant standards, critical discussion of representational
+    harm, and a child-participatory role-play case; sought duties to every party.
+  inclusion: Sources distinguishing authorized uncertainty from deception or specifying participant protection, withdrawal, de-roling, representation, and debriefing.
+  exclusions: Realism or engagement as sufficient justification, generic consent forms, compulsory disclosure, shock as rigor, and debriefing as retroactive permission.
+  limitations: >-
+    Much guidance is normative or healthcare-specific. Research consent and
+    ordinary teaching are not identical institutions, and empirical evidence
+    cannot by itself settle what one person may do to another.
+readings:
+  - id: dieckmann-et-al-2022-deception-sbe
+    kind: conceptual-ethics-analysis
+    citation: Dieckmann, P., et al. (2022). Simulation-based education—deceiving learners with good intent. Advances in Simulation, 7, 8. https://doi.org/10.1186/s41077-022-00206-3
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8932061/
+    publication_date: 2022-03-19
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Learners and educators in healthcare simulation, including unannounced scenarios and embedded participants.
+    design: Conceptual analysis of ex-reality gaps, concealment, consent, fiction contracts, briefing, and debriefing.
+    finding: The authors argue that bounded concealment can be ethical when learners knowingly consent to a simulation containing unexpected events and its limits and rationale are addressed.
+    limits: Beneficent intent and debriefing do not independently establish valid consent, necessity, proportionality, or absence of harm.
+
+  - id: verbeke-et-al-2023-deception-guidelines
+    kind: systematic-review
+    citation: Verbeke, K., Krawczyk, T., Baeyens, D., Piasecki, J., & Borry, P. (2023). Informed consent and debriefing when deceiving participants—A systematic review of research ethics guidelines. Journal of Empirical Research on Human Research Ethics, 18(3), 118-133. https://doi.org/10.1177/15562646231173477
+    url: https://pubmed.ncbi.nlm.nih.gov/37186795/
+    publication_date: 2023-07-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Research participants exposed to deception under human-subject ethics guidance.
+    design: Systematic review of guideline recommendations for consent and debriefing.
+    finding: Guidelines broadly recognize both safeguards but vary substantially about their purposes, conditions, and implementation.
+    limits: Guideline agreement is neither outcome evidence nor direct educational law; abstract access prevents detailed comparison.
+
+  - id: lewis-et-al-2017-aspe-standards
+    kind: professional-consensus-standard
+    citation: Lewis, K. L., et al. (2017). The Association of Standardized Patient Educators Standards of Best Practice. Advances in Simulation, 2, 10. https://doi.org/10.1186/s41077-017-0043-4
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5806371/
+    publication_date: 2017-06-27
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Simulated participants, learners, educators, clients, and staff in human simulation programs.
+    design: International professional standards developed through iterative consensus.
+    finding: Standards require informed decisions, opt-out, boundaries, termination processes, confidentiality, compensation transparency, monitoring, reporting, and de-roling or debriefing for simulated participants.
+    limits: Consensus guidance does not quantify effectiveness and formal programs have infrastructure a conversational teacher lacks.
+
+  - id: naidu-et-al-2022-diversity-simulation
+    kind: critical-practice-analysis
+    citation: Naidu, T., et al. (2022). Diversity and inclusion in simulation—Addressing ethical and psychological safety concerns when working with simulated participants. BMJ Simulation & Technology Enhanced Learning, 8, 50-55. https://doi.org/10.1136/bmjstel-2020-000853
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8936749/
+    publication_date: 2022-01-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Simulated participants portraying illness and socially marked identities in healthcare education.
+    design: Critical analysis and practice guidance grounded in standards and cases.
+    finding: Simulation can reproduce stereotype, tokenism, identity burden, emotional harm, and exclusion unless representation and participant power are designed explicitly.
+    limits: Recommendations are not comparative causal findings; risks vary with role, context, casting, script, and participant history.
+
+  - id: gardner-2016-role-play-occluded-practices
+    kind: qualitative-methodological-case
+    citation: Gardner, S. (2016). Out of the mouths of young learners—An ethical response to occluded classroom practices in researcher-initiated role play. Language and Education, 30(2), 175-185. https://doi.org/10.1080/09500782.2015.1103261
+    url: https://www.tandfonline.com/doi/full/10.1080/09500782.2015.1103261
+    publication_date: 2016-01-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Multilingual young children using participatory role-play to communicate school reading experiences.
+    design: Methodological and ethical analysis of researcher-initiated role-play revealing otherwise hidden disciplinary practice.
+    finding: Participant-led role-play can open semiotic space for children while creating duties when it reveals practices adults do not ordinarily disclose.
+    limits: A context-specific qualitative case cannot establish a universal role-play procedure; protection must not suppress inconvenient testimony.
+contradictions:
+  - The simulation literature sometimes treats benevolent intent, psychological safety, and debriefing as a sufficient package, while research-ethics review shows that the content and rationale of these safeguards remain contested.
+  - Concealment may preserve diagnostic uncertainty, yet unannounced participation removes the prior authorization that could distinguish uncertainty from ambush.
+  - Role-play may loosen ordinary discourse and reveal silenced knowledge, yet assigned portrayal may compel stereotype, disclosure, mimicry, or identity labor.
+  - A debrief can restore intelligibility and revise future action, but cannot undo exposure, humiliation, recording, coerced performance, or third-party representational harm.
+claims:
+  - claim: Consent may authorize a class of uncertainty, not an unlimited class of teacher action.
+    evidence: conceptual-convergence
+    confidence: moderate
+    source_ids: [dieckmann-et-al-2022-deception-sbe, verbeke-et-al-2023-deception-guidelines, lewis-et-al-2017-aspe-standards]
+    supports: State the medium, stakes, kinds of possible surprise, evaluation, recording, exit, and limits while preserving details whose concealment is necessary.
+    tensions: Full disclosure can invalidate a diagnostic or rehearsal; overbroad disclosure can become meaningless boilerplate.
+    boundary_conditions: Capacity, dependency, voluntariness, alternatives, foreseeable distress, assessment power, and third-party stakes.
+    does_not_license: Surprise lessons, fake emergencies, false identities, covert assessment, emotional ambush, or consent presumed from continued attendance.
+
+  - claim: Debriefing is a prospective design duty and repair opportunity, never retroactive consent.
+    evidence: normative-synthesis
+    confidence: high
+    source_ids: [dieckmann-et-al-2022-deception-sbe, verbeke-et-al-2023-deception-guidelines, lewis-et-al-2017-aspe-standards]
+    supports: Plan how truth will be restored, effects checked, objection heard, records governed, and the exercise changed before running it.
+    tensions: Immediate explanation can sometimes compound exposure; learners may prefer privacy or delayed processing.
+    boundary_conditions: Severity, timing, confidentiality, group power, withdrawal feasibility, and need for independent support.
+    does_not_license: Making the learner comfort the teacher, demanding emotional disclosure, securing forgiveness, or calling harm productive discomfort.
+
+  - claim: A person portraying a role is a participant with boundaries and labor rights, not instructional equipment.
+    evidence: professional-standard-and-critical-analysis
+    confidence: high
+    source_ids: [lewis-et-al-2017-aspe-standards, naidu-et-al-2022-diversity-simulation]
+    supports: Obtain role-specific agreement, permit refusal and termination, disclose compensation and evaluation, prevent identity burden, and provide de-roling and reporting routes.
+    tensions: Lived experience may improve design authority while also increasing exposure; exclusion in the name of protection can be paternalistic.
+    boundary_conditions: Touch, trauma, identity, age, disability, compensation, repeated portrayal, confidentiality, and script agency.
+    does_not_license: Cross-identity caricature, compelled vulnerability, unpaid affective labor, mining biography for realism, or treating an AI portrayal as community voice.
+
+  - claim: Refusal is evidence about design conditions, not proof of learner deficiency.
+    evidence: ethical-inference
+    confidence: moderate
+    source_ids: [lewis-et-al-2017-aspe-standards, naidu-et-al-2022-diversity-simulation, gardner-2016-role-play-occluded-practices]
+    supports: Offer a non-punitive alternative route and inspect exposure, representation, accessibility, stakes, and authority.
+    tensions: Some essential professional assessments require observing performance, but that heightens duties of notice, equivalence, and appeal.
+    boundary_conditions: Credential requirements, safety competence, reasonable alternatives, group dependency, and legal obligations.
+    does_not_license: Inferring fragility, avoidance, diagnosis, lack of seriousness, or consent to a supposedly therapeutic challenge.
+implications:
+  - Professor should describe any role-play as invented and bounded; it must not impersonate a real person, community, learner, witness, or confidential source.
+  - Surprise may concern the content of a voluntarily entered low-stakes problem, never whether the learner is being taught, tested, recorded, manipulated, or exposed to material stakes.
+  - A brief AI lesson should default to transparent invitations and reversible hypotheticals; role assignment, emotional rehearsal, or identity portrayal requires specific opt-in and a plain alternative.
+  - The learner may stop or decline without explaining. A debrief may offer factual disclosure and an exit, not solicit confession or manufacture closure.
+  - No new active tactic is warranted; existing consent and stop rules should govern, with this note available for future adversarial review.
+open_questions:
+  - What minimum notice makes a daily conversational mystery genuinely voluntary without spoiling it?
+  - When does pedagogical personification become deceptive relational simulation?
+  - How should a teacher repair an accidental deception when no learning benefit can justify it?
+  - What equivalent non-role route can assess situated judgment without compelled enactment?
+next_actions:
+  - Audit Professor's examples for hidden assessment, false urgency, invented testimony, and invitations that function as demands.
+  - Study hermeneutic and historical pedagogy, where uncertainty can arise from real traces rather than staged interpersonal manipulation.
+  - Keep role-play and deception outside automatic daily selection.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
