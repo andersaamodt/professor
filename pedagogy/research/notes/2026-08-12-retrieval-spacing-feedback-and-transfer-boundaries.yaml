@@ -1,0 +1,341 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: retrieval-spacing-feedback-and-transfer-boundaries-2026-08-12
+title: Retrieval, spacing, and variation are conditional learning designs
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [durable-memory-transfer-and-calibration]
+scope: >-
+  A bounded synthesis of retrieval, feedback, spacing, generation, interleaving,
+  and transfer, emphasizing comparisons with credible alternatives and
+  capability-specific boundary conditions. It is not a systematic review and
+  does not establish a universal study sequence.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Read recent and foundational meta-analyses, reviews, and experiments; sought
+    moderator analyses, publication-bias checks, null or reversed effects,
+    classroom evidence, disability coverage, and language-learning evidence.
+  inclusion: >-
+    Primary studies or research syntheses that distinguish the learning act,
+    comparison condition, outcome, delay, or transfer surface.
+  exclusions: >-
+    Generic study-skills advice, product claims, effect-size rankings without
+    construct detail, and studies whose comparison or outcome could not be
+    identified.
+  limitations: >-
+    This was a targeted web-accessible scan rather than a database-complete
+    review. Several syntheses were abstract- or section-read, most evidence
+    concerns memory outcomes, and classroom, disabled-learner, humanities, and
+    long-horizon transfer evidence remains thinner than laboratory evidence.
+readings:
+  - id: rowland-2014-testing-meta-analysis
+    kind: meta-analysis
+    citation: >-
+      Rowland, C. A. (2014). The Effect of Testing Versus Restudy on
+      Retention: A Meta-Analytic Review of the Testing Effect. Psychological
+      Bulletin, 140(6), 1432-1463. https://doi.org/10.1037/a0037559
+    url: https://doi.org/10.1037/a0037559
+    publication_date: 2014-08-25
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Experimental studies using varied materials and largely memory-focused outcomes.
+    design: Meta-analysis comparing practice testing with restudy and examining moderators.
+    finding: >-
+      Testing produced a robust average delayed-retention advantage over
+      restudy; recall tests generally produced larger benefits than recognition
+      tests, consistent with a role for effortful retrieval.
+    limits: >-
+      A restudy comparison does not establish superiority over effective
+      elaborative alternatives, and retention of tested material is not by
+      itself far transfer or disciplinary capability.
+
+  - id: goncalves-muniz-jaeger-2025-retrieval-elaboration
+    kind: systematic-review-and-meta-analysis
+    citation: >-
+      Gonçalves, A. de O., Muniz, B. F. B., & Jaeger, A. (2025). Retrieval
+      Practice Versus Elaborative Encoding: A Systematic and Meta-analytic
+      Review. Educational Psychology Review, 37, 100.
+      https://doi.org/10.1007/s10648-025-10076-6
+    url: https://doi.org/10.1007/s10648-025-10076-6
+    publication_date: 2025-10-30
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Forty-four empirical studies directly comparing retrieval practice with elaborative learning conditions.
+    design: Systematic review and meta-analysis of 142 comparisons.
+    finding: >-
+      Retrieval had only a small overall advantage over elaborative conditions
+      (g = 0.14). Its advantage was conditional on corrective feedback; without
+      feedback, elaborative encoding was more beneficial. Outside comparisons
+      with concept mapping and group discussion, effects were indistinguishable
+      from the remaining elaborative tasks.
+    limits: >-
+      The full paywalled article was not read. Aggregate comparisons cover
+      heterogeneous tasks, materials, delays, and forms of elaboration.
+
+  - id: pan-rickard-2018-retrieval-transfer
+    kind: meta-analysis
+    citation: >-
+      Pan, S. C., & Rickard, T. C. (2018). Transfer of Test-Enhanced Learning:
+      Meta-Analytic Review and Synthesis. Psychological Bulletin, 144(7),
+      710-756. https://doi.org/10.1037/bul0000151
+    url: https://doi.org/10.1037/bul0000151
+    publication_date: 2018-07-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 192 transfer effects across laboratory and a smaller number of authentic educational studies.
+    design: >-
+      Hierarchical meta-analysis with moderator, publication-bias, and
+      sensitivity analyses across several kinds of changed cue or response.
+    finding: >-
+      Transfer benefits depended strongly on successful initial retrieval,
+      response congruency, and elaborated retrieval or feedback. Bias-adjusted
+      models predicted null or negative transfer when those supports were
+      absent; most of the literature tested near rather than far transfer.
+    limits: >-
+      Transfer categories combine materially different changes, authentic and
+      cross-domain studies were sparse, and the authors found evidence
+      consistent with publication bias.
+
+  - id: brunmair-richter-2019-interleaving
+    kind: meta-analysis
+    citation: >-
+      Brunmair, M., & Richter, T. (2019). Similarity Matters: A Meta-Analysis
+      of Interleaved Learning and Its Moderators. Psychological Bulletin,
+      145(11), 1029-1052. https://doi.org/10.1037/bul0000209
+    url: https://doi.org/10.1037/bul0000209
+    publication_date: 2019-09-26
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Fifty-nine studies, 238 effect sizes, and 158 samples across varied inductive-learning materials.
+    design: Multilevel meta-analysis of interleaved versus blocked presentation.
+    finding: >-
+      The average interleaving effect was moderate (g = 0.42), strongest for
+      paintings and other visual materials and small for mathematics. Effects
+      for expository texts were ambiguous, while blocking was better for words.
+      Benefits were larger when between-category discrimination was demanding.
+    limits: >-
+      Inductive category learning is not equivalent to every form of mixed
+      practice, and the aggregate does not determine when a novice has enough
+      representation to benefit from comparison.
+
+  - id: cepeda-et-al-2008-temporal-ridgeline
+    kind: multi-condition-experiment
+    citation: >-
+      Cepeda, N. J., Vul, E., Rohrer, D., Wixted, J. T., & Pashler, H.
+      (2008). Spacing Effects in Learning: A Temporal Ridgeline of Optimal
+      Retention. Psychological Science, 19(11), 1095-1102.
+      https://doi.org/10.1111/j.1467-9280.2008.02209.x
+    url: https://doi.org/10.1111/j.1467-9280.2008.02209.x
+    publication_date: 2008-11-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: More than 1,350 online adult participants learning facts across 26 gap and retention-interval conditions.
+    design: Repeated study with gaps up to 3.5 months and final tests up to one year later.
+    finding: >-
+      The best interstudy gap increased as the desired retention interval
+      increased; performance followed a ridge rather than a single universally
+      optimal schedule.
+    limits: Two encounters with factual materials do not specify a cadence for complex capabilities, motivation, or authentic use.
+
+  - id: nakata-elgort-2021-contextual-vocabulary
+    kind: experiment
+    citation: >-
+      Nakata, T., & Elgort, I. (2021). Effects of Spacing on Contextual
+      Vocabulary Learning: Spacing Facilitates the Acquisition of Explicit,
+      but Not Tacit, Vocabulary Knowledge. Second Language Research, 37(2),
+      233-260. https://doi.org/10.1177/0267658320927764
+    url: https://doi.org/10.1177/0267658320927764
+    publication_date: 2021-04-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Japanese-speaking university learners of English encountering novel words in informative sentences.
+    design: Massed versus spaced contextual encounters with feedback and explicit and tacit outcome measures.
+    finding: >-
+      Spacing improved meaning recall and form-meaning matching, while semantic
+      priming was similar after massed and spaced encounters.
+    limits: One population and artificial vocabulary set; semantic priming is a narrow measure of tacit knowledge and does not exhaust language use.
+
+  - id: wisniewski-zierer-hattie-2020-feedback
+    kind: meta-analysis
+    citation: >-
+      Wisniewski, B., Zierer, K., & Hattie, J. (2020). The Power of Feedback
+      Revisited: A Meta-Analysis of Educational Feedback Research. Frontiers
+      in Psychology, 10, 3087. https://doi.org/10.3389/fpsyg.2019.03087
+    url: https://doi.org/10.3389/fpsyg.2019.03087
+    publication_date: 2020-01-22
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: 435 studies, 994 effects, and more than 61,000 participants across educational settings.
+    design: Random-effects meta-analysis with moderator, outlier, heterogeneity, and funnel-asymmetry analyses.
+    finding: >-
+      Feedback had a moderate average effect after outlier removal (d = 0.48),
+      but 17 percent of effects were negative and heterogeneity was very high.
+      Information content and outcome mattered; praise or self-level feedback
+      was less useful than information bearing on the task, process, or next act.
+    limits: >-
+      The median included study was from 1985, funnel asymmetry was substantial,
+      feedback categories remained internally heterogeneous, and average effects
+      cannot prescribe a message for a particular learner act.
+
+  - id: pan-carpenter-2023-prequestioning
+    kind: narrative-review
+    citation: >-
+      Pan, S. C., & Carpenter, S. K. (2023). Prequestioning and Pretesting
+      Effects: A Review of Empirical Research, Theoretical Perspectives, and
+      Implications for Educational Practice. Educational Psychology Review,
+      35, 97. https://doi.org/10.1007/s10648-023-09814-5
+    url: https://doi.org/10.1007/s10648-023-09814-5
+    publication_date: 2023-09-25
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Laboratory, online, and classroom studies using text, video, lecture, or answer feedback.
+    design: Comprehensive narrative review of prequestioning and pretesting evidence and proposed mechanisms.
+    finding: >-
+      Attempting an answer before instruction can improve later learning when
+      correct answers can subsequently be studied, but effects vary with
+      procedure and assessment. A MOOC study found lower persistence alongside
+      improved learning among learners who continued.
+    limits: >-
+      The review reports an emerging, heterogeneous literature and explicitly
+      calls for more work on moderators and practice; benefits do not erase the
+      affective or participation cost of beginning with failure.
+
+  - id: wilschut-sense-van-rijn-2026-inclusion
+    kind: bibliometric-perspective
+    citation: >-
+      Wilschut, T., Sense, F., & van Rijn, H. (2026). Trends in Testing Effect
+      Research: From Lab to Classroom, but Not Yet for All Learners. npj
+      Science of Learning, 11, 25. https://doi.org/10.1038/s41539-026-00400-2
+    url: https://doi.org/10.1038/s41539-026-00400-2
+    publication_date: 2026-03-09
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Bibliometric mapping of the literature with dyslexia used as a case for an underexamined population.
+    design: Perspective informed by publication, keyword, and co-citation analyses.
+    finding: >-
+      Applied retrieval-practice research has expanded, but direct attention to
+      learners with specific learning disabilities remains limited. Successful
+      retrieval is a mechanism and an access condition, not a neutral demand.
+    limits: >-
+      Bibliometric absence is not evidence of harm or a measured moderator; the
+      article offers a research agenda rather than an intervention estimate.
+claims:
+  - id: retrieval-is-an-attempt-repair-loop
+    statement: >-
+      Retrieval is best designed as low-cost reconstruction followed by usable
+      answer information and repair, not as effort or testing in isolation.
+    confidence: high
+    source_ids: [rowland-2014-testing-meta-analysis, goncalves-muniz-jaeger-2025-retrieval-elaboration, pan-rickard-2018-retrieval-transfer]
+    supports: >-
+      Cue previously encountered material, permit pass, reveal enough to
+      correct or elaborate the representation, and later test the capability
+      under a meaningful changed surface.
+    tensions: >-
+      Immediate answer access can truncate a productive attempt, while delayed
+      or absent feedback can stabilize errors, exclusion, or empty struggle.
+    boundary_conditions: >-
+      Compare retrieval with the best feasible alternative for the target, not
+      only rereading; successful access, feedback, delay, and final-test demand
+      materially alter the effect.
+    does_not_license: Repeated quizzing, concealed evaluation, speed demands, compulsory guessing, or claiming that recall proves understanding.
+
+  - id: spacing-answers-to-horizon-and-capability
+    statement: >-
+      Distributed return is generally useful for durable access, but the useful
+      interval and outcome depend on the desired horizon, material, learning
+      act, and kind of knowledge being measured.
+    confidence: high
+    source_ids: [cepeda-et-al-2008-temporal-ridgeline, nakata-elgort-2021-contextual-vocabulary]
+    supports: >-
+      Schedule a small return only when later access matters, align it with the
+      real horizon, and prefer authentic reuse over an accumulating review queue.
+    tensions: >-
+      Longer gaps can improve later retention while worsening current access;
+      scheduling systems can externalize their maintenance burden onto learners.
+    boundary_conditions: >-
+      Explicit recall, tacit sensitivity, interpretation, production, and
+      source-supported inquiry are different capabilities and need not share a cadence.
+    does_not_license: A universal interval formula, mandatory streaks, review debt, or treating every interesting fact as memorization material.
+
+  - id: variation-should-exercise-a-needed-decision
+    statement: >-
+      Interleaving is justified when juxtaposition exercises an authentic
+      discrimination among confusable cases, not merely because mixed practice
+      feels harder or more varied.
+    confidence: high
+    source_ids: [brunmair-richter-2019-interleaving]
+    supports: >-
+      Establish usable cases, choose neighbors whose contrast matters, hide the
+      category label when selection is the target, and give feedback on the cue used.
+    tensions: >-
+      Blocking can help form a representation before comparison and was better
+      for word materials in the meta-analysis.
+    boundary_conditions: >-
+      Similarity across categories, variability within categories, material
+      type, complexity, and prior knowledge change whether interleaving helps.
+    does_not_license: Random topic switching, mixing before first exposure, or interpreting practice difficulty as evidence of learning.
+
+  - id: feedback-is-information-for-a-next-act
+    statement: >-
+      Feedback is not an intrinsically beneficial event; its pedagogical value
+      lies in information the learner can use to alter a consequential next act.
+    confidence: high
+    source_ids: [wisniewski-zierer-hattie-2020-feedback, goncalves-muniz-jaeger-2025-retrieval-elaboration]
+    supports: >-
+      Localize the decision, show the relevant discrepancy or model, preserve
+      learner agency, and create an immediate or later opportunity to revise.
+    tensions: >-
+      More information can overload or commandeer a learner's strategy, and
+      even accurate feedback can be mistimed, unwanted, or directed at the wrong construct.
+    boundary_conditions: >-
+      Outcome, information content, direction, prior knowledge, uptake, and the
+      availability of a next act matter more than the label feedback.
+    does_not_license: Praise as proof of learning, totalizing correction, grading every response, or feedback without revision opportunity.
+
+  - id: transfer-must-name-what-changed
+    statement: >-
+      A transfer claim is interpretable only when the changed cue, response,
+      context, tool access, delay, and target judgment are named.
+    confidence: high
+    source_ids: [pan-rickard-2018-retrieval-transfer]
+    supports: >-
+      Use a changed-surface probe chosen to represent the future capability and
+      describe it as near, cross-context, or cross-domain evidence without inflation.
+    tensions: >-
+      Highly distant probes may cease to measure the taught capability, while
+      near probes may merely reproduce training cues.
+    boundary_conditions: Current retrieval-transfer evidence is dominated by near changes and successful, supported initial retrieval.
+    does_not_license: Calling any delayed score transfer, promising far transfer from a mnemonic effect, or stripping authentic tools to manufacture independence.
+implications:
+  - >-
+    No new tack is warranted. The existing retrieval-with-repair, spaced-echo,
+    interleave-by-decision, bounded-productive-failure, error-localized-feedback,
+    and transfer tacks already encode the earned boundaries.
+  - >-
+    A human-reviewed follow-up should update the source registry and tack
+    provenance so retrieval is no longer supported only by a restudy comparison
+    and interleaving is no longer supported only by a broad techniques review.
+  - >-
+    For philology, use interleaving to discriminate confusable sound changes,
+    cognate relations, borrowings, and false friends after each case is
+    encounterable; do not scramble raw word lists in the name of desirable difficulty.
+  - >-
+    A daily encounter may contain no retrieval at all. When retrieval serves a
+    real aim, keep it brief, answerable in multiple modes, repairable, and free
+    of lesson debt.
+open_questions:
+  - Which philological capabilities benefit from explicit recall, and which are better learned through repeated contextual noticing or tool-supported inquiry?
+  - How does retrieval practice interact with dyslexia, developmental language disorder, multilingualism, test anxiety, and non-speech response modes?
+  - When does explanatory feedback improve transfer beyond correct-answer feedback without imposing excess processing or teacher control?
+  - Can authentic corpus, dictionary, and textual reuse provide spacing without turning a living curriculum into a review queue?
+  - What evidence distinguishes useful prequestioning from an interaction tax or a discouraging display of ignorance?
+next_actions:
+  - Seek registered and classroom experiments comparing repair loops with strong elaborative alternatives across humanities domains.
+  - Read disability-led and multilingual retrieval research before adapting cadence or cue modality by population.
+  - Track corrections, replications, and null findings for the 2025 retrieval-versus-elaboration synthesis.
+  - "Test future lesson designs at the capability level: notice, discriminate, reconstruct, interpret, source, or transfer."
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
