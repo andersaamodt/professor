@@ -78,12 +78,25 @@ assert_contains 'Professor validation passed' "$professor_test_root/lint.out"
 "$professor" daily --topic pop-music --date 2026-08-10 --minutes 9 >"$professor_test_root/daily-a.out"
 "$professor" daily --topic pop-music --date 2026-08-10 --minutes 9 >"$professor_test_root/daily-b.out"
 cmp "$professor_test_root/daily-a.out" "$professor_test_root/daily-b.out" >/dev/null || fail 'daily brief is not deterministic'
+"$professor" lecture --minutes 4 'why eclipses have seasons' >"$professor_test_root/lecture-a.out"
+"$professor" lecture --minutes 4 'why eclipses have seasons' >"$professor_test_root/lecture-b.out"
+cmp "$professor_test_root/lecture-a.out" "$professor_test_root/lecture-b.out" >/dev/null || fail 'lecture brief is not deterministic'
+"$professor" lecture --minutes 1 --plain -- '-leading-dash subject' >"$professor_test_root/lecture-plain.out"
 "$professor" research --date 2026-08-19 >"$professor_test_root/research-a.out"
 "$professor" research --date 2026-08-19 >"$professor_test_root/research-b.out"
 cmp "$professor_test_root/research-a.out" "$professor_test_root/research-b.out" >/dev/null || fail 'research brief is not deterministic'
 [ ! -e "$professor_test_data" ] || fail 'passive commands created state'
 assert_contains 'Private-state mutation: none' "$professor_test_root/daily-a.out"
 assert_contains 'Missed-day debt: none' "$professor_test_root/daily-a.out"
+assert_contains 'Complete core: 4 minutes' "$professor_test_root/lecture-a.out"
+assert_contains 'Presentation: visible-when-useful' "$professor_test_root/lecture-a.out"
+assert_contains 'Private-state mutation: none' "$professor_test_root/lecture-a.out"
+assert_contains 'Use the complete plain route' "$professor_test_root/lecture-plain.out"
+expect_fail "$professor" lecture --minutes 0 subject
+expect_fail "$professor" lecture --minutes 51 subject
+expect_fail "$professor" lecture --minutes 5
+newline_subject=$(printf 'first\nsecond')
+expect_fail "$professor" lecture "$newline_subject"
 assert_contains 'Research-state mutation: none' "$professor_test_root/research-a.out"
 assert_contains 'no research backlog' "$professor_test_root/research-a.out"
 
@@ -601,6 +614,9 @@ expect_fail "$professor" quest open "$professor_test_root/tampered.sealed" --key
 # The linter independently detects a constitutional text change and media payload.
 lint_copy="$professor_test_root/lint-copy"
 cp -R "$repo_root" "$lint_copy"
+rm "$lint_copy/prompts/lecture.md"
+expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
+cp "$repo_root/prompts/lecture.md" "$lint_copy/prompts/lecture.md"
 touch "$lint_copy/forbidden.mp3"
 expect_fail env PROFESSOR_DATA_DIR="$professor_test_root/lint-copy-data" "$lint_copy/bin/professor" lint
 rm "$lint_copy/forbidden.mp3"

@@ -193,6 +193,15 @@ policies:
     rule: Media needs a unique purpose, honest duration, attention cue, active response, lawful source, and accessible fallback.
     guards: [smallest-sufficient-segment, no-copyright-corpus, region-fallback]
 
+  - id: presentation.earned-presence
+    force: should
+    priority: learning
+    amendment: reviewed-evolution
+    scope: performed-lessons
+    canonical_anchor: presentation-earned-presence
+    rule: Use visible app or system action when its motion, spatial focus, or live consequence materially improves the encounter, while preserving announced scope, learner control, source legibility, safe action boundaries, and a complete plain route.
+    guards: [purposeful-motion, read-only-default, visible-provenance, stop-releases-control, no-secret-or-consequential-action, equivalent-plain-route]
+
   - id: games.opt-in
     force: must
     priority: constitutional

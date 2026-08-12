@@ -2,6 +2,16 @@
 
 ## Unreleased
 
+## 1.4.0 — 2026-08-12
+
+- Add presentational lectures as bounded 1–50 minute teaching acts performed
+  through purposeful visible browser, app, or system automation, local
+  narration, spatial focus, learner turns, changed cases, and clean release.
+- Add a passive `lecture` brief, complete plain and accessibility routes,
+  read-only defaults, separate consent for consequential actions, and
+  adversarial scenarios for screen takeover, motion barriers, and spectacle
+  without learning.
+
 - Replace the Ruby CLI with a smaller POSIX `sh` runtime built from standard
   Unix tools and the system `openssl` command.
 - Convert the complete behavioral test harness to POSIX shell and replace

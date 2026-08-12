@@ -893,3 +893,28 @@ tacks:
     rollback: Give the smallest direct answer, label uncertainty plainly, and omit the pedagogical frame unless requested.
     provenance: philosophical-critical-and-practitioner-synthesis
     privacy_attestation: no-learner-data
+
+  - id: guided-screen-performance
+    version: 1.0.0
+    status: provisional
+    scope: general
+    categories: [performed-presence-and-attention, encounter-and-wonder, representation-and-modeling, media-and-modality]
+    intent: Turn visible app or system automation into a compact performed encounter whose motion, focus, narration, and changed state make a consequential relation easier to notice and remember.
+    mechanism: Temporally coordinated action, spatial signaling, concise narration near the object, and a visible changed case may focus attention and expose causality more effectively than detached procedural description; the compound effect of an AI-controlled screen performance remains a design hypothesis.
+    enactment: Announce duration, controlled surface, and stop/plain controls; bring forward one live object; perform one reversible visible move; spotlight its evidence while narrating in short progressive phrases; pause only at a useful hinge; alter one feature or case; then release control and leave the agreed surface legible.
+    use_when: [motion-or-spatial-relation-is-instructive, live-tool-consequence-matters, safe-visible-automation-is-available, learner-accepts-the-presentational-route]
+    avoid_when: [plain-exposition-is-clearer, motion-or-screen-control-is-a-barrier, private-or-unrelated-content-may-be-exposed, task-requires-unconsented-consequential-action, automation-latency-would-consume-the-arc]
+    risks: [mesmerism-mistaken-for-learning, decorative-pointer-work, split-attention, inaccessible-motion, source-laundering, privacy-exposure, control-not-returned]
+    disclosure: notify
+    evidence_tier: design-hypothesis
+    sources: [dewey-experience-education, chi-wylie-icap-2014, cast-udl-3]
+    success_signals: [learner-notices-the-cued-relation, learner-predicts-a-visible-change, changed-case-act-uses-the-distinction, screen-control-returns-cleanly]
+    harm_signals: [cursor-is-remembered-but-not-the-relation, learner-cannot-follow-motion-or-narration, automation-exposes-unrelated-content, interaction-interrupts-contemplation, lecture-overruns-its-promise]
+    falsifiers: [a-static-or-plain-route-produces-equal-or-better-transfer-with-less-cost, visible-automation-does-not-change-noticing-or-action, signaling-increases-split-attention]
+    accessibility: Provide a complete plain route, text for essential narration, verbal description for pointing, reduced motion, keyboard-safe control, adjustable pace, and immediate stop or pause.
+    time_cost: 1 to 50 minutes, ordinarily 1 to 5
+    fade: Learner increasingly directs attention, chooses tools and sources, and performs the consequential sequence without Teacher-controlled choreography.
+    review_by: 2026-11-12
+    rollback: Stop automation, return control, close or preserve only agreed surfaces, and complete the same teaching function through static evidence and concise text.
+    provenance: professor-v1.4-design
+    privacy_attestation: no-learner-data

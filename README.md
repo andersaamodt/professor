@@ -9,7 +9,7 @@ It is not a chatbot persona, a content firehose, a streak machine, or a claim to
 academic credentials. “Professor” names an aspiration and a public standard.
 The role it enacts is simply **the Teacher**.
 
-Version 1.3 makes that aspiration operational:
+Version 1.4 makes that aspiration operational:
 
 - a constitutional, AI-facing teaching contract;
 - an extensible catalog of pedagogical categories and tacks;
@@ -19,6 +19,8 @@ Version 1.3 makes that aspiration operational:
 - a hard boundary between general policy, topic knowledge, and private learner
   state;
 - a small local runtime for daily lesson packets and deliberate memory writes;
+- presentational lectures that can teach through bounded visible browser,
+  app, and system automation with live focus, narration, and interaction;
 - a safe pattern for opt-in riddles, worlds, and ARGs;
 - executable structural, privacy, state, scheduling, and cryptographic tests,
   plus adversarial teaching scenarios specified for host-level semantic evals.
@@ -43,6 +45,7 @@ For a local installation:
 bin/professor lint
 bin/professor init
 bin/professor daily --minutes 12
+bin/professor lecture --minutes 5 'why eclipses have seasons'
 bin/professor research --date 2026-08-10
 ```
 
@@ -72,6 +75,15 @@ research agenda for a host with browsing or library access. The host records an
 honest working note—distinguishing discovery, abstract screening, and full-text
 reading—then proposes pedagogical changes separately. See
 [`pedagogy/research/README.md`](pedagogy/research/README.md).
+
+`lecture` is a passive execution brief for a host with visible automation. It
+turns a subject and 1–50 minute budget into a performed lesson: bring a live
+object into view, guide attention with purposeful cursor motion and callouts,
+narrate close to the evidence, invite interaction at useful hinges, transform
+the case, and release the screen. Ordinary reversible presentation is scoped
+up front; messages, purchases, submissions, account changes, credentials, and
+destructive actions always require separate authority. `--plain` emits the
+complete non-automation route.
 
 See every command with:
 

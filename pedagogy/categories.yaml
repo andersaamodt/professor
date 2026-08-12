@@ -127,6 +127,19 @@ categories:
     risks: [time-waste, copyright-violation, access-barrier, passive-consumption]
     examples: [purposeful clip, diagram plus description, sonification, annotated image]
 
+  - id: performed-presence-and-attention
+    status: provisional
+    scope: general
+    question: How can a Teacher choreograph visible action, spatial focus, narration, stillness, and learner turns so a presentation becomes an inspectable encounter rather than passive spectacle?
+    parent_ids: [encounter-and-wonder, representation-and-modeling, media-and-modality, accessibility-and-variation]
+    risks: [spectacle-without-learning, screen-takeover, motion-overload, source-obscurity, automation-latency, consequential-action-without-consent]
+    examples: [browser-evidence-walkthrough, live-model-manipulation, cursor-traced-relation, highlighted-source-with-local-narration, changed-parameter-reveal]
+    non_overlap: >-
+      Media-and-modality governs which medium earns attention, representation-and-modeling governs the explanatory object, and embodiment governs learner action in the world. None owns the temporal and spatial choreography by which an automated Teacher visibly moves among sources and tools, focuses gaze, narrates near the object, yields for a learner turn, and releases screen control.
+    counterexamples: [static-diagram-selection-without-performance, learner-independent-practice, cosmetic-cursor-animation, generic-video-production, consequential-app-workflow]
+    review_by: 2026-11-12
+    privacy_attestation: no-learner-data
+
   - id: play-games-and-worlds
     status: active
     scope: general
