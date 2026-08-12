@@ -1,0 +1,304 @@
+schema: professor.research-note/v1
+version: 1.0.0
+id: development-across-the-life-course-2026-08-12
+title: Developmental knowledge should anticipate support without turning age into destiny
+status: working
+created_on: 2026-08-12
+updated_on: 2026-08-12
+question_ids: [adult-development-prior-knowledge-and-self-direction, durable-memory-transfer-and-calibration]
+scope: >-
+  A bounded life-course inquiry into developmentally appropriate practice,
+  executive function, adolescent identity, later-life learning, cognitive aging,
+  and age stereotype threat. It asks how age-linked evidence should influence
+  teaching without fixed stages, infantilization, adultification, ageism,
+  diagnosis, or the confusion of group averages with a present learner.
+method:
+  search_date: 2026-08-12
+  approach: >-
+    Compared a professional early-childhood position statement with current
+    intervention meta-analysis, an adolescent identity review, later-life
+    learning synthesis, longitudinal cognitive-aging meta-analysis, and a
+    review of age stereotype threat. Read development as dynamic variation
+    among common human processes, domain-specific capability, individual
+    history, relationships, culture, institutions, material opportunity, and
+    the immediate task.
+  inclusion: >-
+    Sources that distinguish age-related tendency from individual capability,
+    analyze transfer or longitudinal change, or integrate developmental
+    commonality with individuality and sociocultural context.
+  exclusions: >-
+    Brain-maturity headlines used as permission to deny agency, universal stage
+    sequences, “brain training” marketing, anti-aging promises, infantilizing
+    simplification, and claims that educational attainment prevents decline.
+  limitations: >-
+    The scan samples four broad periods rather than every developmental domain.
+    Evidence from children, adolescents, and older adults cannot define an
+    individual or diagnose a condition. Developmental science is entangled with
+    cohort, schooling, health, language, class, culture, disability, and access;
+    age categories and outcome measures vary across studies.
+readings:
+  - id: naeyc-2020-developmentally-appropriate-practice
+    kind: professional-position-statement
+    citation: >-
+      National Association for the Education of Young Children. (2020).
+      Developmentally Appropriate Practice Position Statement.
+    url: https://www.naeyc.org/resources/position-statements/dap/contents
+    publication_date: 2020-04-01
+    accessed_on: 2026-08-12
+    reading_level: partially-read
+    population_context: Children from birth through age eight, families, communities, and early-childhood educators.
+    design: Evidence-informed professional and ethical guidance.
+    finding: >-
+      Developmentally appropriate judgment integrates common patterns in
+      development, each child's individuality and experience, and the social
+      and cultural context of learning. The statement emphasizes strengths,
+      play, joy, equity, meaningful goals, family partnership, and professional
+      observation rather than age norms alone.
+    limits: >-
+      A professional position is not a systematic causal synthesis. “Optimal
+      development” and “appropriateness” can still normalize dominant cultural
+      expectations, lower intellectual opportunity, or turn contextual
+      knowledge into typing unless practices remain contestable.
+
+  - id: napolitano-et-al-2026-executive-functions
+    kind: systematic-review-and-meta-analysis
+    citation: >-
+      Napolitano, N., et al. (2026). Interventions for Executive Functions in
+      Children and Adolescents: A Meta-Analytic Study on Efficacy and Moderators
+      in Clinical and Non-Clinical Samples. Collabra: Psychology, 12(1), 162294.
+      https://doi.org/10.1525/collabra.162294
+    url: https://doi.org/10.1525/collabra.162294
+    publication_date: 2026-06-02
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: 178 studies, 223 comparisons, and 29,784 participants aged 4.2 to 16.8 years, with about half in clinical-risk samples.
+    design: Three-level meta-analyses of direct, near, regulation, and academic outcomes with moderators and publication-bias sensitivity checks.
+    finding: >-
+      Interventions moderately improved directly trained executive-function
+      measures and produced small far-transfer effects. Regulation effects were
+      not significant against active controls; academic estimates were smaller
+      but more robust. Effects varied by outcome, clinical risk, socioeconomic
+      reporting, and intervention, and small-study bias likely inflates pools.
+    limits: >-
+      “Executive function” combines disputed constructs and heterogeneous tasks;
+      risk samples and proxy measures vary. Training-task improvement cannot be
+      read as a general self-control trait or a moral judgment about a child.
+
+  - id: crocetti-2026-adolescent-identity
+    kind: integrative-review
+    citation: >-
+      Crocetti, E. (2026). Adolescent identity development processes,
+      implications and interventions. Nature Reviews Psychology, 5, 441-457.
+      https://doi.org/10.1038/s44159-026-00569-8
+    url: https://doi.org/10.1038/s44159-026-00569-8
+    publication_date: 2026-05-08
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Adolescent personal and social identity across educational, occupational, relational, ethnic, and collective domains.
+    design: Integrative theoretical and intervention review.
+    finding: >-
+      Identity development is dynamic across domains, people, and time;
+      commitments and group identifications interact with biological, cognitive,
+      social, institutional, and transition-related changes.
+    limits: >-
+      Subscription access limited this scan to the abstract and indexed preview.
+      Identity-process models must not invite profiling, premature foreclosure,
+      or teacher-directed transformation of a learner's self.
+
+  - id: noble-et-al-2021-later-life-learning
+    kind: systematic-review-and-meta-analysis
+    citation: >-
+      Noble, C., Medin, D., Quail, Z., Young, C., & Carter, M. (2021). How Does
+      Participation in Formal Education or Learning for Older People Affect
+      Wellbeing and Cognition? A Systematic Literature Review and Meta-Analysis.
+      Gerontology and Geriatric Medicine, 7, 2333721420986027.
+      https://doi.org/10.1177/2333721420986027
+    url: https://doi.org/10.1177/2333721420986027
+    publication_date: 2021-01-07
+    accessed_on: 2026-08-12
+    reading_level: full-text-read
+    population_context: Thirty-two studies of formal and organized learning among adults primarily aged 55 and older.
+    design: Systematic review of observational and interventional studies with a small cognitive meta-analysis.
+    finding: >-
+      Later-life learning was associated with qualitative gains in confidence,
+      life satisfaction, belonging and cognition, with a small pooled MMSE
+      difference, but studies were heterogeneous and sampling bias was high.
+    limits: >-
+      Self-selection, weak comparators, mixed interventions, commercial author
+      affiliation, and a narrow screening outcome constrain causal claims. The
+      value of learning need not be justified as cognitive preservation.
+
+  - id: seblova-berggren-lovden-2020-education-cognitive-decline
+    kind: systematic-review-and-meta-analysis
+    citation: >-
+      Seblova, D., Berggren, R., & Lövdén, M. (2020). Education and age-related
+      decline in cognitive performance: Systematic review and meta-analysis of
+      longitudinal cohort studies. Ageing Research Reviews, 58, 101005.
+      https://doi.org/10.1016/j.arr.2019.101005
+    url: https://doi.org/10.1016/j.arr.2019.101005
+    publication_date: 2019-12-24
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Longitudinal adult cohorts relating educational attainment to change in cognitive performance.
+    design: Systematic review and meta-analysis of longitudinal observational studies.
+    finding: >-
+      Additional years of prior education did not show a meaningful association
+      with the rate of age-related cognitive change across the pooled estimates,
+      despite education's association with cognitive level.
+    limits: >-
+      Educational attainment is not equivalent to continuing learning or
+      learning quality; cohort selection, measurement, survival, and social
+      inequality complicate causal interpretation.
+
+  - id: age-stereotype-threat-2025-working-memory-review
+    kind: systematic-review
+    citation: >-
+      Age-Related Stereotype Threat and Its Impact on Working Memory in Older
+      Adults: A Systematic Review of the Literature. (2025).
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12761578/
+    publication_date: 2025-12-01
+    accessed_on: 2026-08-12
+    reading_level: abstract-screened
+    population_context: Older adults completing working-memory tasks under explicit or subtle age-related stereotype cues.
+    design: Systematic review of experimental stereotype-threat literature.
+    finding: >-
+      Subtle age stereotypes may compound working-memory performance costs, but
+      findings and methods are heterogeneous and require stronger studies.
+    limits: >-
+      The full text was unavailable in this scan and publication metadata need
+      verification. Stereotype threat cannot explain every age difference or be
+      inferred in an individual encounter.
+claims:
+  - id: development-is-commonality-individuality-and-context
+    statement: >-
+      Developmental knowledge should supply probabilistic questions and
+      anticipatory supports by combining common human processes, the person's
+      domain-specific history and present capability, and the cultural,
+      relational, institutional, and material context—not chronological age alone.
+    confidence: high
+    source_ids: [naeyc-2020-developmentally-appropriate-practice, crocetti-2026-adolescent-identity, noble-et-al-2021-later-life-learning]
+    supports: >-
+      Observe the present act, offer age-appropriate agency and access, ask only
+      for relevant context, and revise from performance rather than explaining
+      the learner through a stage.
+    tensions: >-
+      Ignoring developmental regularities can expose learners to inaccessible,
+      unsafe, or ethically inappropriate demands and shift all adaptation onto
+      them.
+    boundary_conditions: >-
+      Domain, task, language, culture, disability, prior opportunity, health,
+      legal and custodial context, stakes, consent, and individual evidence.
+    does_not_license: Age-based learner models, developmental ceilings, stage diagnosis, infantilization, adultification, or inferring maturity from verbal fluency.
+
+  - id: train-the-capability-or-change-the-environment
+    statement: >-
+      A correlation between a broad developmental construct and achievement does
+      not show that decontextualized training of that construct is the best route;
+      direct domain teaching and environmental redesign may be more effective,
+      equitable, and transferable.
+    confidence: high
+    source_ids: [napolitano-et-al-2026-executive-functions]
+    supports: >-
+      Reduce avoidable planning and memory load, externalize steps, teach the
+      domain strategy in context, and judge training by active controls and far
+      outcomes rather than improvement on the practiced task.
+    tensions: >-
+      Targeted executive-function supports can yield small transfer benefits,
+      particularly for some risk groups, and environmental support alone may
+      not build an independently valued capacity.
+    boundary_conditions: >-
+      Target, comparator, transfer distance, clinical setting, consent, burden,
+      accessibility, domain performance, and maintenance.
+    does_not_license: Brain games as prerequisites, diagnosing poor self-control, compliance training, removing all productive challenge, or assuming a group moderator predicts an individual response.
+
+  - id: identity-development-is-not-a-teacher-project
+    statement: >-
+      Education inevitably participates in identity development, especially
+      during adolescence, but a teacher may support exploration, knowledge,
+      commitments, and critical reflection without selecting the identity the
+      learner should achieve.
+    confidence: medium
+    source_ids: [crocetti-2026-adolescent-identity]
+    supports: >-
+      Keep consequential choices real but revisable, represent plural pathways,
+      protect privacy, distinguish performance feedback from personhood, and
+      allow a learner to refuse identity-centered discussion.
+    tensions: >-
+      Institutions already position learners, silence can ratify harmful norms,
+      and some emancipatory education explicitly seeks transformed identities
+      and solidarities.
+    boundary_conditions: >-
+      Age, power, compulsory setting, community, safety, privacy, learner aim,
+      reversibility, and whether the proposed identity carries material risk.
+    does_not_license: Profiling, identity foreclosure, forced autobiography, political conversion, treating experimentation as pathology, or permanent records of exploration.
+
+  - id: later-life-learning-needs-no-anti-decline-alibi
+    statement: >-
+      Older adults remain capable of consequential learning, and its value can
+      lie in knowledge, craft, pleasure, autonomy, participation, relationship,
+      and contribution; it should not be marketed or assessed chiefly as a way
+      to prevent decline.
+    confidence: high
+    source_ids: [noble-et-al-2021-later-life-learning, seblova-berggren-lovden-2020-education-cognitive-decline]
+    supports: >-
+      Begin from the chosen work, keep intellectual ceilings high, offer pacing,
+      sensory and memory supports without presumption, and evaluate the
+      capability or experience the learner actually values.
+    tensions: >-
+      Health and cognition can be legitimate learner-chosen aims, and aging can
+      alter speed, sensory access, retrieval, fatigue, and support needs.
+    boundary_conditions: >-
+      Health, sensory access, domain expertise, time, motivation, social setting,
+      prior schooling, language, material support, and the learner's purpose.
+    does_not_license: Anti-aging promises, “senior mode,” lowered complexity, memory tests as dignity measures, or assuming slowness means inability.
+
+  - id: developmental-stereotypes-can-change-the-evidence
+    statement: >-
+      Age-framed expectations can alter performance and interpretation, so a
+      teacher's developmental framing is part of the learning environment and
+      can create evidence that appears to confirm the stereotype.
+    confidence: medium
+    source_ids: [age-stereotype-threat-2025-working-memory-review, naeyc-2020-developmentally-appropriate-practice]
+    supports: >-
+      Describe the task and available support without deficit priming, compare
+      performance across conditions, and treat unexpected competence as model-
+      changing evidence rather than an exception.
+    tensions: >-
+      Avoiding stereotype cues must not hide material access needs or prevent
+      truthful discussion of age-related change when the learner requests it.
+    boundary_conditions: >-
+      Cue subtlety, task, identity salience, prior experience, stakes, culture,
+      measurement, and whether support itself signals presumed incapacity.
+    does_not_license: Denying aging, generic reassurance, positive stereotyping, interpreting every difficulty as threat, or concealing relevant risk.
+implications:
+  - >-
+    Professor should not infer or retain age unless the learner provides it for
+    a bounded purpose. Even then, age supplies questions, not a teaching profile.
+  - >-
+    Prefer task-visible supports—shorter working sets, external maps, examples,
+    pacing, multimodality, rehearsal, and clear exits—over explanations about a
+    learner's developmental capacity.
+  - >-
+    For minors, agency must be real within safety, legal, custodial, and
+    developmental constraints; verbal sophistication never waives safeguards.
+  - >-
+    For adults and older adults, respect authority over purposes while keeping
+    direct instruction, demanding content, and optional support available.
+  - >-
+    No general policy change is warranted: current rules against diagnosis,
+    fixed learning styles, shame, and learner-model permanence already form the
+    right constitutional floor.
+open_questions:
+  - What age-related evidence is actually necessary for a private conversational professor outside compulsory schooling?
+  - Which supports reduce working-memory and executive burden while strengthening independent domain strategy?
+  - How should Professor handle minor status when age is unknown without making every encounter childlike?
+  - What developmental evidence exists for advanced humanities learning, philology, aesthetic encounter, and self-directed adult study?
+  - How do cohort, culture, language, disability, and prior opportunity alter apparent age trajectories?
+next_actions:
+  - Read developmental science led by scholars and communities outside dominant Western stage traditions.
+  - Study early-childhood play and direct instruction, adolescent autonomy and risk, transition pedagogy, and geragogy as distinct lanes.
+  - Seek longitudinal and within-person evidence that separates age, cohort, health, schooling, and opportunity.
+  - Audit examples for age-coded tone, “simple” versus “advanced” assumptions, and support that covertly lowers the ceiling.
+privacy_attestation: no-learner-data
+copyright_attestation: citations-and-independent-paraphrases-only
+source_content_attestation: treated-as-untrusted
