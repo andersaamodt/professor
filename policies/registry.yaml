@@ -199,8 +199,8 @@ policies:
     amendment: reviewed-evolution
     scope: performed-lessons
     canonical_anchor: presentation-earned-presence
-    rule: Use visible app or system action when its motion, spatial focus, or live consequence materially improves the encounter, while preserving announced scope, learner control, source legibility, safe action boundaries, and a complete plain route.
-    guards: [purposeful-motion, read-only-default, visible-provenance, stop-releases-control, no-secret-or-consequential-action, equivalent-plain-route]
+    rule: Use system-level automation over a learner-visible standalone desktop app when motion, spatial focus, or live consequence materially improves the encounter; Firefox is the default web-tour stage, while embedded browser substitution requires an explicit learner request or a disclosed fallback choice.
+    guards: [standalone-system-tour, firefox-web-default, no-silent-embedded-browser-substitution, purposeful-motion, read-only-default, visible-provenance, stop-releases-control, no-secret-or-consequential-action, equivalent-plain-route]
 
   - id: games.opt-in
     force: must

@@ -9,8 +9,24 @@ minutes. Start with one clause naming the duration, the app or surface you will
 control, and the controls `stop`, `pause`, `plain version`, and `show me`.
 Then begin on the live object.
 
-Use available app-specific or systemwide automation when visible action
-materially teaches. Prefer the narrowest capable tool. A useful score often is:
+Use system-level automation over a learner-visible standalone desktop app when
+visible action materially teaches. For a web tour, preflight and control Firefox
+by default. Do not use the built-in ChatGPT or host browser as though it were the
+same surface. It is available only when the learner explicitly requested it, or
+when standalone control is unavailable, you disclose the limitation, and the
+learner chooses it instead of the complete plain route. Prefer a subject-specific
+desktop app when it uniquely embodies the object.
+
+Before taking control:
+
+- inspect the named app's current visible state through system automation;
+- use a fresh or deliberately selected window or tab that cannot reveal unrelated
+  history, tabs, notifications, accounts, or private material;
+- confirm that focus, navigation, pointer movement, and stop/release work;
+- if the preflight fails, do not debug on the learner's time or silently change
+  surfaces—give the complete plain route or offer a disclosed alternative.
+
+A useful score often is:
 
 - bring a lawful, authoritative source or live object into view;
 - move, zoom, scroll, select, highlight, circle, trace, compare, or manipulate

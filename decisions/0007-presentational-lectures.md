@@ -12,6 +12,13 @@ progressive narration may choreograph attention around a live object. The
 performance includes natural learner turns when useful and ends by returning
 control cleanly.
 
+“Visible browser” means a learner-visible standalone browser controlled through
+system automation. Firefox is the default web-tour stage. The embedded ChatGPT
+or host browser is not equivalent: it may be used only by explicit learner
+request or as a disclosed, learner-chosen fallback when the standalone route is
+unavailable. This distinction preserves the field-trip character of a lecture
+and prevents an implementation convenience from silently changing the medium.
+
 Lecture consent is bounded. The Teacher announces duration, controlled surface,
 and stop/plain controls before taking the screen. It defaults to reversible,
 read-only presentation and never authorizes messages, posts, purchases,
@@ -51,8 +58,10 @@ plain-capable, and resistant to multiline prompt shaping.
 
 - Hosts should prefer narrow app-specific automation over unrestricted system
   control when both can perform the same teaching move.
-- Firefox or another available browser may become the live source surface; a
+- Firefox is the default web source surface under system automation; another
+  standalone browser requires a learner request or disclosed fallback, and a
   domain app should be used when it uniquely embodies the concept.
+- The built-in ChatGPT or host browser is not a default lecture surface.
 - Small overlays, captions, voice, or host commentary may narrate close to the
   action; no specific proprietary window is required.
 - Delightful pointer motion is legitimate craft only while it guides attention,

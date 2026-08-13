@@ -451,7 +451,7 @@ EOF
 
 command_lecture() {
   minutes=5
-  presentation=visible-when-useful
+  presentation=standalone-system-tour
   while [ "$#" -gt 0 ]; do
     case $1 in
       --minutes) [ "$#" -ge 2 ] || die 2 '--minutes needs a value'; minutes=$2; shift 2 ;;
@@ -489,7 +489,7 @@ EOF
   if [ "$presentation" = plain ]; then
     printf '%s\n' 'Use the complete plain route. Do not take visible control of apps or the pointer.'
   else
-    printf '%s\n' 'Prefer safe visible system or app automation when it performs a real teaching job. Announce duration, controlled surfaces, and the plain/stop controls before taking the screen.'
+    printf '%s\n' 'Use system automation over a learner-visible standalone desktop app. For a web tour, preflight Firefox and use it by default. Do not silently substitute the built-in ChatGPT or host browser; use it only by explicit learner request or disclosed learner-chosen fallback. Announce duration, controlled surfaces, and the plain/stop controls before taking the screen.'
   fi
 }
 

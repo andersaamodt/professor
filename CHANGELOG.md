@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Make presentational lectures default to learner-visible standalone desktop
+  apps controlled through system automation, with Firefox as the web-tour stage;
+  prohibit silent substitution of the built-in ChatGPT or host browser and add
+  explicit preflight, fallback, runtime, and adversarial-test coverage.
+
 ## 1.4.0 — 2026-08-12
 
 - Add presentational lectures as bounded 1–50 minute teaching acts performed

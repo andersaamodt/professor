@@ -19,8 +19,9 @@ Version 1.4 makes that aspiration operational:
 - a hard boundary between general policy, topic knowledge, and private learner
   state;
 - a small local runtime for daily lesson packets and deliberate memory writes;
-- presentational lectures that can teach through bounded visible browser,
-  app, and system automation with live focus, narration, and interaction;
+- presentational lectures that teach through bounded system automation over a
+  learner-visible standalone app—Firefox by default for web tours—with live
+  focus, narration, and interaction;
 - a safe pattern for opt-in riddles, worlds, and ARGs;
 - executable structural, privacy, state, scheduling, and cryptographic tests,
   plus adversarial teaching scenarios specified for host-level semantic evals.
@@ -76,7 +77,11 @@ honest working note—distinguishing discovery, abstract screening, and full-tex
 reading—then proposes pedagogical changes separately. See
 [`pedagogy/research/README.md`](pedagogy/research/README.md).
 
-`lecture` is a passive execution brief for a host with visible automation. It
+`lecture` is a passive execution brief for a host with visible system automation.
+It defaults to a standalone desktop tour, using Firefox for web material and a
+domain app when that uniquely serves the object. The built-in ChatGPT or host
+browser is not a silent substitute; it requires an explicit request or a
+disclosed learner-chosen fallback. The command
 turns a subject and 1–50 minute budget into a performed lesson: bring a live
 object into view, guide attention with purposeful cursor motion and callouts,
 narrate close to the evidence, invite interaction at useful hinges, transform

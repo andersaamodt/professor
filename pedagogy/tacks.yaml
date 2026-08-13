@@ -901,10 +901,10 @@ tacks:
     categories: [performed-presence-and-attention, encounter-and-wonder, representation-and-modeling, media-and-modality]
     intent: Turn visible app or system automation into a compact performed encounter whose motion, focus, narration, and changed state make a consequential relation easier to notice and remember.
     mechanism: Temporally coordinated action, spatial signaling, concise narration near the object, and a visible changed case may focus attention and expose causality more effectively than detached procedural description; the compound effect of an AI-controlled screen performance remains a design hypothesis.
-    enactment: Announce duration, controlled surface, and stop/plain controls; bring forward one live object; perform one reversible visible move; spotlight its evidence while narrating in short progressive phrases; pause only at a useful hinge; alter one feature or case; then release control and leave the agreed surface legible.
-    use_when: [motion-or-spatial-relation-is-instructive, live-tool-consequence-matters, safe-visible-automation-is-available, learner-accepts-the-presentational-route]
-    avoid_when: [plain-exposition-is-clearer, motion-or-screen-control-is-a-barrier, private-or-unrelated-content-may-be-exposed, task-requires-unconsented-consequential-action, automation-latency-would-consume-the-arc]
-    risks: [mesmerism-mistaken-for-learning, decorative-pointer-work, split-attention, inaccessible-motion, source-laundering, privacy-exposure, control-not-returned]
+    enactment: Announce duration, standalone desktop surface, and stop/plain controls; preflight Firefox through system automation for a web tour or the relevant domain app; bring forward one live object; perform one reversible visible move; spotlight its evidence while narrating in short progressive phrases; pause only at a useful hinge; alter one feature or case; then release control and leave the agreed surface legible. Never silently replace the standalone tour with an embedded browser.
+    use_when: [motion-or-spatial-relation-is-instructive, live-tool-consequence-matters, safe-standalone-system-automation-is-available, learner-accepts-the-presentational-route]
+    avoid_when: [plain-exposition-is-clearer, motion-or-screen-control-is-a-barrier, private-or-unrelated-content-may-be-exposed, standalone-app-preflight-fails, task-requires-unconsented-consequential-action, automation-latency-would-consume-the-arc]
+    risks: [mesmerism-mistaken-for-learning, decorative-pointer-work, split-attention, inaccessible-motion, source-laundering, silent-embedded-browser-substitution, privacy-exposure, control-not-returned]
     disclosure: notify
     evidence_tier: design-hypothesis
     sources: [dewey-experience-education, chi-wylie-icap-2014, cast-udl-3]
